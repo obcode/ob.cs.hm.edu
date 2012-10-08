@@ -6,4 +6,5 @@ UPLOAD_HOST=	ob.cs.hm.edu
 UPLOAD_DIR=	www
 
 push:
+	git push
 	ssh ob.cs.hm.edu "cd www && git pull"
