@@ -1,52 +1,5 @@
-<!DOCTYPE html>
-<html lang="de">
-  <head>
-    <meta charset="utf-8">
-    <title>Oliver Braun | About</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="Oliver Braun">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
-    <link href="css/font-awesome.css" rel="stylesheet">
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-    <!--[if lt IE 8]>
-      <link href="css/font-awesome-ie7.css" rel="stylesheet">
-    <![endif]-->
-    <link href="css/base.css" rel="stylesheet">
-    <link href="css/blue.css" rel="stylesheet">
-    <!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <link rel="shortcut icon" href="img/ico/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/ico/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/ico/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/ico/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" href="img/ico/favicon.ico">
-  </head>
-
-  <body>
-
-    <div class="navbar navbar-fixed-top">
-      <div class="navbar-inner">
-        <div class="container">
-          <a class="btn btn-primary btn-dropnav" data-toggle="collapse" data-target=".nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </a>
-          <a class="brand" href="index.html">ob.cs.hm.edu</a>
-          <div class="nav-collapse collapse">
-            <ul class="nav pull-right">
-              <li><a href="index.html">Home</a></li>
-              <li><a href="lectures/index.html">Vorlesungen</a></li>
-              <li class="active"><a href="about.html">Oliver Braun</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-
+<apply template="base">
+<bind tag="subtitle">: About</bind>
         <div id="landing">
           <div class="container">
             <div class="row">
@@ -95,16 +48,16 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'">'+e+'<\/'+'a'+'>');
                   <div class="span12">
                       <div class="txt-middle">
                         <a href="http://twitter.com/obcode"><img
-                            src="img/Twitter.png" alt="Twitter" /></a> •
+                            src="/img/Twitter.png" alt="Twitter" /></a> •
                         <a
                             href="https://plus.google.com/u/0/109653059067016945022"><img
-                            src="img/Google+.png" alt="Google+" /></a> •
+                            src="/img/Google.png" alt="Google+" /></a> •
                         <a href="https://github.com/obcode"><img
-                            src="img/Github.png" alt="Github" /></a> •
+                            src="/img/Github.png" alt="Github" /></a> •
                         <a href="http://www.linkedin.com/in/obcode"><img
-                            src="img/LinkedIn.png" alt="LinkedIn" /></a> •
+                            src="/img/LinkedIn.png" alt="LinkedIn" /></a> •
                         <a href="http://webchat.freenode.net?channels=%23%23terraform">IRC</a> •
-                        <a href="skype:obcode"><img src="img/Skype.png"
+                        <a href="skype:obcode"><img src="/img/Skype.png"
                             alt="Skype" /></a>
                       </div>
                   </div>
@@ -124,12 +77,12 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'">'+e+'<\/'+'a'+'>');
                   <div class="span12">
                       <div class="txt-middle">
                           <a href="http://scala.obraun.net/">
-                              <img src="img/Scala.jpg"
+                              <img src="/img/Scala.jpg"
                                    alt="Scala" />
                           </a>
                           &nbsp; &nbsp; &nbsp;
                           <a href="http://www.osgi-buch.com/">
-                              <img src="img/OSGi_fuer_Praktiker.jpg"
+                              <img src="/img/OSGi_fuer_Praktiker.jpg"
                                    alt="OSGi f&uuml;r Praktiker" />
                           </a>
                       </div>
@@ -173,37 +126,4 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'">'+e+'<\/'+'a'+'>');
                 </div>
           </div>
         </div>
-
-        <div id="copywrite">
-          <div class="container">
-            <div class="row">
-                  <div class="span12">
-                      <p>&copy; 2012 Oliver Braun | <a href="impressum.html">Impressum</a>
-                      <span class="pull-right">
-                          <a href="http://nginx.org/">nginx</a>
-                          on
-                          <a href="http://www.freebsd.org/">FreeBSD</a>
-                          |
-                          <a href="https://github.com/obcode/ob.cs.hm.edu">Fork me on GitHub</a>
-                      </span></p>
-                  </div>
-                </div>
-      </div>
-    </div>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/jquery-1.8.2.min.js"><\/script>')</script>
-    <script src="js/bootstrap.min.js"></script>
-    <script>
-    $(document).ready(function(){
-      $("#totop").click(function () {
-        $("body, html").animate({
-          scrollTop: 0
-        }, 300);
-        return false;
-      }); 
-    });
-    </script>
-
-  </body>
-</html>
+</apply>
