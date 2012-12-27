@@ -21,19 +21,11 @@
             <div class="row">
                   <div class="span4">
                         <a class="thumbnail"
-                            href="/lectures/WS2012seiibb">
+                            href="/lectures/seiib">
                           <img alt="image" src="/img/gardaseeB.png">
                         </a>
-                        <h2 class="sub">Softwareentwicklung I (IB)<br> IB 1 B</h2>
+                        <h2 class="sub">Softwareentwicklung I (IB)<br> IB 1 B, IB 1 C</h2>
                         <p>Riva del Garda vom Colodri aus gesehen</p>
-                  </div>
-                  <div class="span4">
-                        <a class="thumbnail"
-                            href="lectures/WS2012seiibc">
-                          <img alt="image" src="/img/gardaseeC.png">
-                        </a>
-                        <h2 class="sub">Softwareentwicklung I (IB)<br> IB 1 C</h2>
-                        <p>Riva del Garda vom Cima Capi aus gesehen</p>
                   </div>
                   <div class="span4">
                         <a class="thumbnail"

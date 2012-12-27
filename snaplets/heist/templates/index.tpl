@@ -23,10 +23,10 @@
                     <a href="lectures/index.html">
                         <h2>Aktuelle Veranstaltungen</h2>
                     </a>
-                        <p><a href="lectures/softwareentwicklungiib/indexb.html">Softwareentwicklung I (IB), IB 1 B</a>
+                        <p><a href="/lectures/seiib">Softwareentwicklung I (IB), IB 1 B</a>
                         |
                         <a
-                            href="lectures/softwareentwicklungiib/indexc.html">Softwareentwicklung
+                            href="/lectures/seiib">Softwareentwicklung
                             I (IB), IB 1 C</a><br />
                         <a href="lectures/softwareentwicklungi/index.html">Softwareentwicklung I, IF 1
                             A, Praktikum 4 &amp; 5</a></p>
