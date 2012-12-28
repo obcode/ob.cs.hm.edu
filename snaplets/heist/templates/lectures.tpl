@@ -29,7 +29,7 @@
                   </div>
                   <div class="span4">
                         <a class="thumbnail"
-                            href="lectures/WS2012sei">
+                            href="lectures/sei">
                           <img alt="image" src="/img/gardaseeA.png">
                         </a>
                         <h2 class="sub">Softwareentwicklung I<br> IF 1 A, Praktikum 4 &amp; 5</h2>

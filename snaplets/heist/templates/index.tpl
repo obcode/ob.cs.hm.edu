@@ -20,7 +20,7 @@
           <div class="container">
             <div class="row">
                 <div class="span12">
-                    <a href="lectures/index.html">
+                    <a href="lectures">
                         <h2>Aktuelle Veranstaltungen</h2>
                     </a>
                         <p><a href="/lectures/seiib">Softwareentwicklung I (IB), IB 1 B</a>
@@ -28,7 +28,7 @@
                         <a
                             href="/lectures/seiib">Softwareentwicklung
                             I (IB), IB 1 C</a><br />
-                        <a href="lectures/softwareentwicklungi/index.html">Softwareentwicklung I, IF 1
+                        <a href="lectures/sei">Softwareentwicklung I, IF 1
                             A, Praktikum 4 &amp; 5</a></p>
                     <hr class="dashed">
                   </div>
