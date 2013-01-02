@@ -2,7 +2,7 @@
       <div class="container">
         <div class="row">
               <div class="span12">
-                  <p>&copy; 2012 Oliver Braun | <a href="impressum">Impressum</a>
+                  <p>&copy; 2012 Oliver Braun | <a href="/impressum">Impressum</a>
                   <span class="pull-right">
                       <a href="http://snapframework.com/">Snap</a>
                       on
