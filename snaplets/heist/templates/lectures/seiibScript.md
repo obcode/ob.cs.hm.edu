@@ -4,11 +4,11 @@
 
 ### 00. Organisatorisches
 
-![](/lectures/seiib/webimg/00_Organisatorisches.png)
+![](/docs/lectures/seiib/webimg/00_Organisatorisches.png)
 
-[Slideshow](/lectures/seiib/presentation/00_Organisatorisches.html) |
-[PDF](/lectures/seiib/pdf/00_Organisatorisches.pdf) |
-[HTML (eine Seite)](/lectures/seiib/html/00_Organisatorisches.html) |
+[Slideshow](/docs/lectures/seiib/presentation/00_Organisatorisches.html) |
+[PDF](/docs/lectures/seiib/pdf/00_Organisatorisches.pdf) |
+[HTML (eine Seite)](/docs/lectures/seiib/html/00_Organisatorisches.html) |
 [Source](https://github.com/obcode/seiib/blob/master/00_Organisatorisches.txt)
 
 </div>
@@ -17,11 +17,11 @@
 
 ### 01. Einführung
 
-![](/lectures/seiib/webimg/01_Einfuehrung.png)
+![](/docs/lectures/seiib/webimg/01_Einfuehrung.png)
 
-[Slideshow](/lectures/seiib/presentation/01_Einfuehrung.html) |
-[PDF](/lectures/seiib/pdf/01_Einfuehrung.pdf) |
-[HTML (eine Seite)](/lectures/seiib/html/01_Einfuehrung.html) |
+[Slideshow](/docs/lectures/seiib/presentation/01_Einfuehrung.html) |
+[PDF](/docs/lectures/seiib/pdf/01_Einfuehrung.pdf) |
+[HTML (eine Seite)](/docs/lectures/seiib/html/01_Einfuehrung.html) |
 [Source](https://github.com/obcode/seiib/blob/master/01_Einfuehrung.txt)
 
 </div>
@@ -30,11 +30,11 @@
 
 ### 02. Arithmetik und Variablen
 
-![](/lectures/seiib/webimg/02_ArithmetikUndVariablen.png)
+![](/docs/lectures/seiib/webimg/02_ArithmetikUndVariablen.png)
 
-[Slideshow](/lectures/seiib/presentation/02_ArithmetikUndVariablen.html) |
-[PDF](/lectures/seiib/pdf/02_ArithmetikUndVariablen.pdf) |
-[HTML (eine Seite)](/lectures/seiib/html/02_ArithmetikUndVariablen.html) |
+[Slideshow](/docs/lectures/seiib/presentation/02_ArithmetikUndVariablen.html) |
+[PDF](/docs/lectures/seiib/pdf/02_ArithmetikUndVariablen.pdf) |
+[HTML (eine Seite)](/docs/lectures/seiib/html/02_ArithmetikUndVariablen.html) |
 [Source](https://github.com/obcode/seiib/blob/master/02_ArithmetikUndVariablen.txt)
 
 </div>
@@ -47,11 +47,11 @@
 
 ### 03. Kontrollstrukturen
 
-![](/lectures/seiib/webimg/03_Kontrollstrukturen.png)
+![](/docs/lectures/seiib/webimg/03_Kontrollstrukturen.png)
 
-[Slideshow](/lectures/seiib/presentation/03_Kontrollstrukturen.html) |
-[PDF](/lectures/seiib/pdf/03_Kontrollstrukturen.pdf) |
-[HTML (eine Seite)](/lectures/seiib/html/03_Kontrollstrukturen.html) |
+[Slideshow](/docs/lectures/seiib/presentation/03_Kontrollstrukturen.html) |
+[PDF](/docs/lectures/seiib/pdf/03_Kontrollstrukturen.pdf) |
+[HTML (eine Seite)](/docs/lectures/seiib/html/03_Kontrollstrukturen.html) |
 [Source](https://github.com/obcode/seiib/blob/master/03_Kontrollstrukturen.txt)
 
 </div>
@@ -60,11 +60,11 @@
 
 ### 04. Klassen
 
-![](/lectures/seiib/webimg/04_Klassen.png)
+![](/docs/lectures/seiib/webimg/04_Klassen.png)
 
-[Slideshow](/lectures/seiib/presentation/04_Klassen.html) |
-[PDF](/lectures/seiib/pdf/04_Klassen.pdf) |
-[HTML (eine Seite)](/lectures/seiib/html/04_Klassen.html) |
+[Slideshow](/docs/lectures/seiib/presentation/04_Klassen.html) |
+[PDF](/docs/lectures/seiib/pdf/04_Klassen.pdf) |
+[HTML (eine Seite)](/docs/lectures/seiib/html/04_Klassen.html) |
 [Source](https://github.com/obcode/seiib/blob/master/04_Klassen.txt)
 
 </div>
