@@ -4,3 +4,7 @@ pdf/
 presentation/
 loesungen/
 webimg/
+dist
+site_key.txt
+log/access.log
+log/error.log
