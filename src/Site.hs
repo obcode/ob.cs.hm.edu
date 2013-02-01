@@ -66,6 +66,7 @@ routes = [ ("",     heistServe)
          , ("/img", serveDirectory "static/img")
          , ("/css", serveDirectory "static/css")
          , ("/js",  serveDirectory "static/js")
+         , ("/docs",serveDirectory "static/docs")
          ]
 
 
