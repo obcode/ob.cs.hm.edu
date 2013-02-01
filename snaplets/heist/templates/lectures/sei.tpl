@@ -6,6 +6,7 @@
             <div class="row">
                   <div class="span7">
                       <h1>Softwareentwicklung I<br />IF 1 A, Praktikum 4 &amp; 5</h1>
+                      <h4>Wintersemester 2012/13</h4>
                   </div>
                   <div class="span1">&nbsp;
                   </div>

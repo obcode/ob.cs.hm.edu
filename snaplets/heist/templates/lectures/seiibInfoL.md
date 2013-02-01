@@ -6,7 +6,7 @@
     [HTML (eine Seite)](/lectures/seiib/html/Aufgaben.html)
 
 -   Letzte Folie der Vorlesung
-    -   IB 1 B: [19.12.12](http://ob.cs.hm.edu/lectures/softwareentwicklungiib/presentation/04_Klassen.html#(24))
+    -   IB 1 B: [19.12.12](http://ob.cs.hm.edu/lectures/softwareentwicklungiib/presentation/04_Klassen.html#(38))
     -   IB 1 C: [21.12.12](http://ob.cs.hm.edu/lectures/softwareentwicklungiib/presentation/04_Klassen.html#(38))
 
 ## Allgemeine Informationen
@@ -49,4 +49,7 @@
     ([HTML](/lectures/seiib/html/Blatt6.html),
     [PDF](/lectures/seiib/pdf/Blatt6.pdf)),
     Abgabe in Moodle bis **13.01.2013, 23:55**
+-   Blatt 7
+    ([HTML](/lectures/seiib/html/Blatt7.html),
+    [PDF](/lectures/seiib/pdf/Blatt7.pdf)),
 
