@@ -1,5 +1,3 @@
-## Aktuelle Informationen
-
 ## Allgemeine Informationen
 
 ### Vorlesung
