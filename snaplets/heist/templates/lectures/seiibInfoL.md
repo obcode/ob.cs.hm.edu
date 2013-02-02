@@ -1,5 +1,7 @@
 ## Aktuelle Informationen
 
+-   Klausur vom 25.01.2013: [PDF](/docs/lectures/seiib/pdf/KlausurWS2012.pdf)
+
 -   Aufgaben zur Prüfungsvorbereitung:
     [Slideshow](/docs/lectures/seiib/presentation/Aufgaben.html),
     [PDF](/docs/lectures/seiib/pdf/Aufgaben.pdf),
