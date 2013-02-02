@@ -15,14 +15,3 @@ wird **nicht** akzeptiert.
 Die Praktika werden von Tutoren begleitet.
 Sie stehen auch per E-Mail für Fragen zur Verfügung.
 
-### Studiengruppe IB 1 B
-
-1.  Mi 15:15 [Valentin Schaeidt](mailto:schaeidt@hm.edu)
-2.  Fr 10:00 [Ömer Yasar](mailto:oyasar@fs.cs.hm.edu)
-3.  Do 11:45 kein Tutor anwesend
-
-### Studiengruppe IB 1 C
-
-1.  Do 13:30 [Samantha Vordermeier](mailto:samantha.vordermeier@gmx.net)
-2.  Mi 13:30 [Benjamin Reischböck](mailto:benni@reischboeck.com)
-3.  <del>Do 10:00 Samantha Vordermeier</del>
