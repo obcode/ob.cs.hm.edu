@@ -1,16 +1,5 @@
 ## Aktuelle Informationen
 
--   Klausur vom 25.01.2013: [PDF](/docs/lectures/seiib/pdf/KlausurWS2012.pdf)
-
--   Aufgaben zur Prüfungsvorbereitung:
-    [Slideshow](/docs/lectures/seiib/presentation/Aufgaben.html),
-    [PDF](/docs/lectures/seiib/pdf/Aufgaben.pdf),
-    [HTML (eine Seite)](/docs/lectures/seiib/html/Aufgaben.html)
-
--   Letzte Folie der Vorlesung
-    -   IB 1 B: [19.12.12](http://ob.cs.hm.edu/lectures/softwareentwicklungiib/presentation/04_Klassen.html#(38))
-    -   IB 1 C: [21.12.12](http://ob.cs.hm.edu/lectures/softwareentwicklungiib/presentation/04_Klassen.html#(38))
-
 ## Allgemeine Informationen
 
 ### Vorlesung
@@ -18,14 +7,7 @@
 -   IB 1 B: Mittwochs, 11:45 - 13:15, R0.058
 -   IB 1 C: Freitags, 08:15 - 09:45, R0.058
 
-### Moodle
-
--   [IF-WI-B 05 Softwareentwicklung I - Gruppe 1 B](https://moodle.hm.edu/course/view.php?id=3384)
-    (Zugangsschlüssel `IB1B`).
--   [IF-WI-B 05 Softwareentwicklung I - Gruppe 1 C](https://moodle.hm.edu/course/view.php?id=3387)
-    (Zugangsschlüssel `IB1C`).
-
-## Aufgabenblätter
+### Aufgabenblätter
 
 -   Blatt 1
     ([HTML](/docs/lectures/seiib/html/Blatt1.html),
@@ -54,4 +36,13 @@
 -   Blatt 7
     ([HTML](/docs/lectures/seiib/html/Blatt7.html),
     [PDF](/docs/lectures/seiib/pdf/Blatt7.pdf)),
+
+### Klausur
+
+-   Klausur vom 25.01.2013: [PDF](/docs/lectures/seiib/pdf/KlausurWS2012.pdf)
+
+-   Aufgaben zur Prüfungsvorbereitung:
+    [Slideshow](/docs/lectures/seiib/presentation/Aufgaben.html),
+    [PDF](/docs/lectures/seiib/pdf/Aufgaben.pdf),
+    [HTML (eine Seite)](/docs/lectures/seiib/html/Aufgaben.html)
 
