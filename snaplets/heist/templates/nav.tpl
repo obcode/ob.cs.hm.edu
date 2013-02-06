@@ -8,9 +8,16 @@
           </a>
           <a class="brand" href="/">ob.cs.hm.edu</a>
           <div class="nav-collapse collapse">
-            <ul class="nav pull-right">
+            <ul class="nav pull-right animated">
               <li class="home"><a href="/">Home</a></li>
-              <li><a href="/lectures">Vorlesungen</a></li>
+              <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" role="button" href="/lectures">Vorlesungen <b class="caret"></b></a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="/lectures/seiib" tabindex="-1">Softwareentwicklung I (IB)</a></li>
+                  <li><a href="/lectures/sei" tabindex="-1">Softwareentwicklung I</a></li>
+                  <li><a href="/lectures" tabindex="-1">Überblick</a></li>
+                </ul>
+              </li>
               <li><a href="/about">Oliver Braun</a></li>
             </ul>
           </div>
