@@ -6,11 +6,8 @@
     <meta name="author" content="Oliver Braun">
     <link href="/css/bootstrap.min.css" rel="stylesheet">
     <link href="/css/bootstrap-responsive.min.css" rel="stylesheet">
-    <link href="/css/font-awesome.css" rel="stylesheet">
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-    <!--[if lt IE 8]>
-      <link href="css/font-awesome-ie7.css" rel="stylesheet">
-    <![endif]-->
+    <link href="/css/glyphicons.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
     <link href="/css/base.css" rel="stylesheet">
     <link href="/css/blue.css" rel="stylesheet">
     <!--[if lt IE 9]>

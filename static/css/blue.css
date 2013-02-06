@@ -1,15 +1,10 @@
 /*!
- * Bounce Template v2.0 - Blue
+ * Bounce Template v2.1 - Blue
+ * More colors coming soon! 
  *
- * Built with Bootstrap v2.1.1
+ * Built with Bootstrap v2.2.2
  * http://twitter.github.com/bootstrap
  */
-
-/* General
--------------------------------------------------- */
-body {
-	background: url("../img/noise.png") repeat scroll 0 0 #FFFFFF;	
-}
 
 /* Navbar
 -------------------------------------------------- */
@@ -52,12 +47,8 @@ body {
 #landing .carousel-control:hover {
     color: #17405E;
 }
-
-/* Call to Action Headline
--------------------------------------------------- */
-#headline {
-    background: none repeat scroll 0 0 #394755;
-    color: #FFFFFF;
+#landingSlide {
+    background: url("../img/landing.png") no-repeat scroll center 200px #F1F1F1;
 }
 
 /* Page Header
@@ -73,7 +64,6 @@ body {
 -------------------------------------------------- */
 #content {
     background: url("../img/noise.png") repeat scroll 0 0 #FFFFFF;
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
     color: #394755;
 }
 .bouncy:hover i {
@@ -120,17 +110,10 @@ ul.plans {
 	color: #FFFFFF;
 }
 
-/* Meet the Team
--------------------------------------------------- */
-#team.thumbnail {
-    background: none repeat scroll 0 0 #FFFFFF;
-}
-
 /* Footer
 -------------------------------------------------- */
 #footer {
 	background: none repeat scroll 0 0 #F1F1F1;
-	border-top: 1px solid rgba(0, 0, 0, 0.1);
     color: #17405E;
 }
 #footer h3  {
