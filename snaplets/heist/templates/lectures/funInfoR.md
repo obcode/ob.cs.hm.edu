@@ -1,3 +1,9 @@
+## Links
+
+-   [Haskell.org](http://haskell.org/)
+-   [Haskell Platform](http://www.haskell.org/platform/)
+-   [Hackage](http://hackage.haskell.org/packages/hackage.html)
+
 ## Literatur
 
 -   [Simon Thompson, Haskell: The Craft of Functional Programming, Pearson Education, 2011.](http://www.haskellcraft.com/craft3e/Home.html) (20 Exemplare in Beschaffung durch Bibliothek)
