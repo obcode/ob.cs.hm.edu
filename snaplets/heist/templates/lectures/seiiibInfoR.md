@@ -8,7 +8,7 @@ zweit bearbeitet werden müssen. Für den Zulassungsschein **müssen**
 
 mit <strong>bestanden</strong> bewertet worden sein.
 
-Die Übungsblätter werden jeweils spätestens Montag in auf dieser Website bereitgestellt. Die
+Die Übungsblätter werden jeweils spätestens Montag auf dieser Website bereitgestellt. Die
 Bearbeitungszeit endet am Sonntag der Folgewoche. Die Lösungen der Praktika sind **bis zum
 jeweils vorgegebenen Zeitpunkt** über [Courseware](https://sol.cs.hm.edu/course/)
 einzureichen.  Spätere Abgabe und Abgabe auf anderem Wege wird **nicht** akzeptiert.
