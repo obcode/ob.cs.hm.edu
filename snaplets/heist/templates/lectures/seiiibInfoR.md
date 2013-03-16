@@ -19,7 +19,7 @@ Die Praktika werden von Tutoren begleitet.
 
 -   IB 2 B: Teilgruppe ...
     1.  Mittwoch 17:00 - 18:30: [Christos Tsiliakis](mailto:mail@tsiliakis.net)
-    2.  Freitag  10:00 - 11:30
+    2.  Freitag  08:15 - 09:45
     3.  Mittwoch 10:00 - 11:30: [Stefanie Graf](mailto:stefanie.graf@grafnet.net)
 
 -   IB 2 C: Teilgruppe ...
