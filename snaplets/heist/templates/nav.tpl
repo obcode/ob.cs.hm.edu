@@ -20,6 +20,7 @@
                   <li><a href="/lectures" tabindex="-1">Überblick</a></li>
                 </ul>
               </li>
+              <li><a href="/git/gitweb.cgi">GitWeb</a></li>
               <li><a href="/about">Oliver Braun</a></li>
             </ul>
           </div>
