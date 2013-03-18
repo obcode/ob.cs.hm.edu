@@ -1,3 +1,9 @@
+## Aufgabenblätter
+
+-   Blatt 1
+    ([HTML](/docs/lectures/fun/html/Blatt1.html),
+    [PDF](/docs/lectures/fun/pdf/Blatt1.pdf))
+
 ## Links
 
 #### Haskell
