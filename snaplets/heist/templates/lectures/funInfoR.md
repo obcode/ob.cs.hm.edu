@@ -33,7 +33,7 @@
 ## Literatur
 
 -   Simon Thompson, [Haskell: The Craft of Functional Programming](http://www.haskellcraft.com/craft3e/Home.html), Pearson Education, 2011.
-    (20 Exemplare in Beschaffung durch Bibliothek)
+    (Bibliothek: Lehrbuchsammlung, Signatur ST 240 T468(3))
 -   Brian O'Sullivan et al., [Real World Haskell](http://book.realworldhaskell.org/read/), O'Reilly, 2008.
 -   Miran Lipavaca, [Learn You a Haskell for Great Good!](http://learnyouahaskell.com/chapters), No Starch Press, 2011.
 -   Peter Pepper & Petra Hofstedt, [Funktionale Programmierung](http://link.springer.com/book/10.1007/3-540-34796-8/page/1), Springer. 2006.
