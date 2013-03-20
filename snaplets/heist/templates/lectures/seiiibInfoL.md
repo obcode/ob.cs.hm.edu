@@ -9,4 +9,6 @@ Die Vorlesung ist die unmittelbare Fortsetzung von [Softwareentwicklung I (IB)](
 
 ### Aufgabenblätter
 
-...
+-   Blatt 1
+    ([HTML](/docs/lectures/seiiib/html/Blatt0.html),
+    [PDF](/docs/lectures/seiiib/pdf/Blatt0.pdf)),
