@@ -8,7 +8,7 @@ Dienstags, 13:30 - 15:00, R2.007
 
 Dienstags, 15:15 - 16:45, R2.009
 
--   KWs 12, 13, 17, 18, 19 und 20: Selbstständiges Bearbeiten von Aufgabenblättern.
+-   KWs 12, 13, 18, 19 und 20: Selbstständiges Bearbeiten von Aufgabenblättern.
 -   KWs 17 und 23: Nachholen Vorlesung.
 -   KWs 24 und 25: Konsultationstermine.
 -   KWs 26 und 27: Vorträge.
@@ -27,7 +27,7 @@ Bearbeitung eines, aus einer vorgegebenen Liste ausgewählten, Haskell-Themas in
 
 -   Die Arbeitsteilung in einer Zweiergruppe (bzw. in der Dreiergruppe) ist beliebig, muss aber in den Ergebnissen für die Bewertung eindeutig sein. Jeder Studierende bekommt seine Note auf seinen Anteil. Die Aufteilung muss mir zum Vortrag schriftlich von allen Gruppenmitgliedern unterschrieben vorgelegt werden.
 -   Ausarbeitung und Haskell-Package müssen bis zum Vortrag abgeschlossen sein.
--   Der Sourcecode auf GitHub ist auf Englisch zu dokumentieren.
+-   Der Sourcecode ist auf Englisch zu dokumentieren.
 -   Die Ausarbeitung kann in Englisch oder Deutsch verfasst sein. Die Wahl der Sprache hat keinen Einfluss auf die Benotung.
 -   Anwesenheitspflicht für alle bei den Vorträgen.
 
