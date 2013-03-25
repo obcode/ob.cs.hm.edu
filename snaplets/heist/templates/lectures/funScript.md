@@ -12,6 +12,18 @@
 [Source](https://github.com/obcode/fun/blob/master/01_Introduction.txt)
 
 </div>
+<div class="span4">
+
+### 02. Basic
+
+![](/docs/lectures/fun/webimg/02_Basic.png)
+
+[Slideshow](/docs/lectures/fun/presentation/02_Basic.html) |
+[PDF](/docs/lectures/fun/pdf/02_Basic.pdf) |
+[HTML (eine Seite)](/docs/lectures/fun/html/02_Basic.html) |
+[Source](https://github.com/obcode/fun/blob/master/02_Basic.txt)
+
+</div>
 
 </div>
 
