@@ -3,6 +3,9 @@
 -   Blatt 1
     ([HTML](/docs/lectures/fun/html/Blatt1.html),
     [PDF](/docs/lectures/fun/pdf/Blatt1.pdf))
+-   Blatt 2
+    ([HTML](/docs/lectures/fun/html/Blatt2.html),
+    [PDF](/docs/lectures/fun/pdf/Blatt2.pdf))
 
 ## Links
 
