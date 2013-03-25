@@ -24,7 +24,7 @@ Die Praktika werden von Tutoren begleitet.
 
 -   IB 2 C: Teilgruppe ...
     1.  Donnerstag 08:15 - 09:45: [Ömer Yasar](mailto:oyasar@fs.cs.hm.edu)
-    2.  Donnerstag 10:00 - 11:30
+    2.  Donnerstag 10:00 - 11:30: [Christian Holdschuh](mailto:chris.holdschuh@googlemail.com)
     3.  Mittwoch   11:45 - 13:15: [Ömer Yasar](mailto:oyasar@fs.cs.hm.edu)
 
 Sie stehen auch per E-Mail für Fragen zur Verfügung.
