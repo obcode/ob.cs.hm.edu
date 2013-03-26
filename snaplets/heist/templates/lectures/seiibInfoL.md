@@ -2,6 +2,8 @@
 
 ### Vorlesung
 
+[Quellen für die Vorlesungsskripte](https://github.com/obcode/seiib)
+
 -   IB 1 B: Mittwochs, 11:45 - 13:15, R0.058
 -   IB 1 C: Freitags, 08:15 - 09:45, R0.058
 

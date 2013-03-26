@@ -4,6 +4,8 @@ Die Vorlesung ist die unmittelbare Fortsetzung von [Softwareentwicklung I (IB)](
 
 ### Vorlesung
 
+[Quellen für die Vorlesungsskripte](https://github.com/obcode/seiiib)
+
 -   IB 2 B: Mittwochs, 15:15 - 16:45, R1.008
     -   [Letze Folie der Vorlesung](/docs/lectures/seiiib/html/lastslideB.html)
     -   [Livecoding-Stand](https://www.dropbox.com/sh/da7fqnj0j2yq111/8S5QvEjw9o)

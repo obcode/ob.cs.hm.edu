@@ -4,6 +4,7 @@ Dienstags, 13:30 - 15:00, R2.007
 
 -   [Letze Folie der Vorlesung](/docs/lectures/fun/html/lastslide.html)
 -   [Livecoding-Stand](https://www.dropbox.com/sh/h35lu4f7u26sbth/rvP-_5WS6A)
+-   [Quellen für die Vorlesungsskripte](https://github.com/obcode/fun)
 -   Die Vorlesungen in der KW 16 und 22 entfallen und werden zum Praktikumstermin in der KW 17 und 23 nachgeholt.
 
 ## Praktikum
