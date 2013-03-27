@@ -1,8 +1,11 @@
-## Allgemeine Informationen
+### Aktuelles
 
-Die Vorlesung ist die unmittelbare Fortsetzung von [Softwareentwicklung I (IB)](/lectures/seiib).
+-   IB 2 B:
+    -   Die Vorlesung am 24.04.2013 entfällt auf Grund einer Dienstreise.
 
 ### Vorlesung
+
+Die Vorlesung ist die unmittelbare Fortsetzung von [Softwareentwicklung I (IB)](/lectures/seiib).
 
 [Quellen für die Vorlesungsskripte](https://github.com/obcode/seiiib)
 
