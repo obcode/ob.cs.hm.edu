@@ -16,7 +16,7 @@ Dienstags, 15:15 - 16:45, R2.009
 -   KWs 24 und 25: Konsultationstermine.
 -   KWs 26 und 27: Vorträge.
 
-## Aufgabenblätter
+### Aufgabenblätter
 
 -   Blatt 1
     ([HTML](/docs/lectures/fun/html/Blatt1.html),
@@ -24,6 +24,9 @@ Dienstags, 15:15 - 16:45, R2.009
 -   Blatt 2
     ([HTML](/docs/lectures/fun/html/Blatt2.html),
     [PDF](/docs/lectures/fun/pdf/Blatt2.pdf))
+-   Blatt 3
+    ([HTML](/docs/lectures/fun/html/Blatt3.html),
+    [PDF](/docs/lectures/fun/pdf/Blatt3.pdf))
 
 ## Links
 
