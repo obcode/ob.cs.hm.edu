@@ -26,5 +26,18 @@
 
 </div>
 
+<div class="span4">
+
+### 06. Arrays
+
+![](/docs/lectures/seiiib/webimg/06_Arrays.png)
+
+[Slideshow](/docs/lectures/seiiib/presentation/06_Arrays.html) |
+[PDF](/docs/lectures/seiiib/pdf/06_Arrays.pdf) |
+[HTML (eine Seite)](/docs/lectures/seiiib/html/06_Arrays.html) |
+[Source](https://github.com/obcode/seiiib/blob/master/06_Arrays.txt)
+
+</div>
+
 </div>
 
