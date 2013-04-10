@@ -26,8 +26,8 @@ Die Vorlesung ist die unmittelbare Fortsetzung von [Softwareentwicklung I (IB)](
     [PDF](/docs/lectures/seiiib/pdf/Blatt1.pdf)),
     Abgabe in Courseware bis **14.04.2013, 23:59**
 -   Blatt 2
-    (HTML,
-    PDF),
+    ([HTML](/docs/lectures/seiiib/html/Blatt2.html),
+    [PDF](/docs/lectures/seiiib/pdf/Blatt2.pdf)),
     Abgabe in Courseware bis **28.04.2013, 23:59**
 -   Blatt 3
     (HTML,
