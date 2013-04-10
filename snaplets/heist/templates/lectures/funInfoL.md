@@ -5,14 +5,14 @@ Dienstags, 13:30 - 15:00, R2.007
 -   [Letze Folie der Vorlesung](/docs/lectures/fun/html/lastslide.html)
 -   [Livecoding-Stand](https://www.dropbox.com/sh/h35lu4f7u26sbth/rvP-_5WS6A)
 -   [Quellen für die Vorlesungsskripte](https://github.com/obcode/fun)
--   Die Vorlesungen in der KW 16 und 22 entfallen und werden zum Praktikumstermin in der KW 17 und 23 nachgeholt.
+-   Die Vorlesungen in der KW 16,17 und 22 entfallen und werden zum Praktikumstermin in der KW 15,18 und 23 nachgeholt.
 
 ## Praktikum
 
 Dienstags, 15:15 - 16:45, R2.009
 
--   KWs 12, 13, 18, 19 und 20: Selbstständiges Bearbeiten von Aufgabenblättern.
--   KWs 17 und 23: Nachholen Vorlesung.
+-   KWs 12, 13, 19 und 20: Selbstständiges Bearbeiten von Aufgabenblättern.
+-   KWs 15, 18 und 23: Nachholen Vorlesung.
 -   KWs 24 und 25: Konsultationstermine.
 -   KWs 26 und 27: Vorträge.
 
