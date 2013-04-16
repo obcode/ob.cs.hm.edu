@@ -29,7 +29,7 @@ Eigene Vorschläge sind willkommen und können mit mir abgestimmt werden.
 
 -   10-minütiger **Vortrag** (Dreiergruppe: 15 Minuten)
 -   **Ausarbeitung** (Blogpost), geschrieben in [Pandoc's Markdown](http://johnmacfarlane.net/pandoc/README.html#pandocs-markdown) (kann auf diesem Server veröffentlicht werden)
--   **Haskell-Package**, [cabalized](http://www.haskell.org/cabal/), dokumentiert mit [Haddock](http://www.haskell.org/haddock/), inklusive Tests, Sourcecode als Git-Repository (kann auf diesem Server veröffentlicht werden)
+-   **Haskell-Package**, [cabalized](http://www.haskell.org/cabal/), dokumentiert mit [Haddock](http://www.haskell.org/haddock/), inklusive Tests, Sourcecode (kann als Git-Repository auf diesem Server veröffentlicht werden)
 
 ### Randbedingung
 
