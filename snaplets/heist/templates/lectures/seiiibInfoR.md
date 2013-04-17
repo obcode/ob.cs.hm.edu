@@ -8,6 +8,8 @@ zweit bearbeitet werden müssen. Für den Zulassungsschein **müssen**
 
 mit <strong>bestanden</strong> bewertet worden sein.
 
+Ist von einem Blatt *keine* Aufgabe bestanden worden, kann dies durch eine bestandene Aufgabe auf einem Blatt ausgeglichen werden.
+
 Die Übungsblätter werden jeweils spätestens Montag auf dieser Website bereitgestellt. Die
 Bearbeitungszeit endet am Sonntag der Folgewoche. Die Lösungen der Praktika sind **bis zum
 jeweils vorgegebenen Zeitpunkt** über [Courseware](https://sol.cs.hm.edu/course/)
