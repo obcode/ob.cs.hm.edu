@@ -1,7 +1,5 @@
 ### Aktuelles
 
--   IB 2 C
-    -   Die Vorlesung vom 12.04.2013 wird am 17.04.2013, 11:45 - 13:15 in Raum R0.002 nachgeholt.
 -   IB 2 B:
     -   Die Vorlesung am 24.04.2013 entfällt auf Grund einer Dienstreise.
 
