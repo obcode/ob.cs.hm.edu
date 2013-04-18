@@ -2,6 +2,8 @@
 
 -   IB 2 B:
     -   Die Vorlesung am 24.04.2013 entfällt auf Grund einer Dienstreise.
+-   IB 2 C:
+    -   Die Vorlesung am 26.04.2013 entfällt auf Grund einer Dienstreise.
 
 ### Vorlesung
 
@@ -45,3 +47,6 @@ Die Vorlesung ist die unmittelbare Fortsetzung von [Softwareentwicklung I (IB)](
     (HTML,
     PDF),
     Abgabe in Courseware bis **23.06.2013, 23:59**
+
+Anmerkungen zu Ihren Lösungen ([HTML](/docs/lectures/seiiib/html/Anmerkungen.html),
+[PDF](/docs/lectures/seiiib/pdf/Anmerkungen.pdf)). Wird nach jeder Korrektur aktualisiert.
