@@ -525,3 +525,7 @@ ul.plans {
     display: none;
   }  
 }
+input, label{
+    float: left;
+    padding: 0px 25px 10px 5px;
+}
