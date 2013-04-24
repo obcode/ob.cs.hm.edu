@@ -1,10 +1,10 @@
+# Vorlesungsskript
+
 <div class="row">
 
 <div class="span4">
 
 ### Javadoc
-
-![](/docs/lectures/sei/webimg/Javadoc.png)
 
 [Slideshow](/docs/lectures/sei/presentation/Javadoc.html) |
 [PDF](/docs/lectures/sei/pdf/Javadoc.pdf) |

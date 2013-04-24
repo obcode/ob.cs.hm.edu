@@ -1,10 +1,10 @@
+# Vorlesungsskript
+
 <div class="row">
 
 <div class="span4">
 
 ### 00. Organisatorisches
-
-![](/docs/lectures/seiib/webimg/00_Organisatorisches.png)
 
 [Slideshow](/docs/lectures/seiib/presentation/00_Organisatorisches.html) |
 [PDF](/docs/lectures/seiib/pdf/00_Organisatorisches.pdf) |
@@ -17,8 +17,6 @@
 
 ### 01. Einführung
 
-![](/docs/lectures/seiib/webimg/01_Einfuehrung.png)
-
 [Slideshow](/docs/lectures/seiib/presentation/01_Einfuehrung.html) |
 [PDF](/docs/lectures/seiib/pdf/01_Einfuehrung.pdf) |
 [HTML (eine Seite)](/docs/lectures/seiib/html/01_Einfuehrung.html) |
@@ -29,8 +27,6 @@
 <div class="span4">
 
 ### 02. Arithmetik und Variablen
-
-![](/docs/lectures/seiib/webimg/02_ArithmetikUndVariablen.png)
 
 [Slideshow](/docs/lectures/seiib/presentation/02_ArithmetikUndVariablen.html) |
 [PDF](/docs/lectures/seiib/pdf/02_ArithmetikUndVariablen.pdf) |
@@ -47,8 +43,6 @@
 
 ### 03. Kontrollstrukturen
 
-![](/docs/lectures/seiib/webimg/03_Kontrollstrukturen.png)
-
 [Slideshow](/docs/lectures/seiib/presentation/03_Kontrollstrukturen.html) |
 [PDF](/docs/lectures/seiib/pdf/03_Kontrollstrukturen.pdf) |
 [HTML (eine Seite)](/docs/lectures/seiib/html/03_Kontrollstrukturen.html) |
@@ -59,8 +53,6 @@
 <div class="span4">
 
 ### 04. Klassen
-
-![](/docs/lectures/seiib/webimg/04_Klassen.png)
 
 [Slideshow](/docs/lectures/seiib/presentation/04_Klassen.html) |
 [PDF](/docs/lectures/seiib/pdf/04_Klassen.pdf) |

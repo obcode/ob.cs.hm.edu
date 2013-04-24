@@ -1,10 +1,10 @@
+# Vorlesungsskript
+
 <div class="row">
 
 <div class="span4">
 
 ### 04. Klassen
-
-![](/docs/lectures/seiiib/webimg/04_Klassen.png)
 
 [Slideshow](/docs/lectures/seiiib/presentation/04_Klassen.html) |
 [PDF](/docs/lectures/seiiib/pdf/04_Klassen.pdf) |
@@ -17,8 +17,6 @@
 
 ### 05. Characters und Strings
 
-![](/docs/lectures/seiiib/webimg/05_CharString.png)
-
 [Slideshow](/docs/lectures/seiiib/presentation/05_CharString.html) |
 [PDF](/docs/lectures/seiiib/pdf/05_CharString.pdf) |
 [HTML (eine Seite)](/docs/lectures/seiiib/html/05_CharString.html) |
@@ -29,8 +27,6 @@
 <div class="span4">
 
 ### 06. Arrays
-
-![](/docs/lectures/seiiib/webimg/06_Arrays.png)
 
 [Slideshow](/docs/lectures/seiiib/presentation/06_Arrays.html) |
 [PDF](/docs/lectures/seiiib/pdf/06_Arrays.pdf) |
@@ -46,8 +42,6 @@
 <div class="span4">
 
 ### Javadoc
-
-![](/docs/lectures/seiiib/webimg/Javadoc.png)
 
 [Slideshow](/docs/lectures/seiiib/presentation/Javadoc.html) |
 [PDF](/docs/lectures/seiiib/pdf/Javadoc.pdf) |
