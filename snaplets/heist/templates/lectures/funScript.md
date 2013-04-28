@@ -34,4 +34,18 @@
 </div>
 
 </div>
+<div class="row">
+
+<div class="span4">
+
+### 04. Tuples and Lists
+
+[Slideshow](/docs/lectures/fun/presentation/04_TuplesLists.html) |
+[PDF](/docs/lectures/fun/pdf/04_TuplesLists.pdf) |
+[HTML (eine Seite)](/docs/lectures/fun/html/04_TuplesLists.html) |
+[Source](https://github.com/obcode/fun/blob/master/04_TuplesLists.txt)
+
+</div>
+
+</div>
 
