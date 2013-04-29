@@ -47,5 +47,16 @@
 
 </div>
 
+<div class="span4">
+
+### 05. More about Lists
+
+[Slideshow](/docs/lectures/fun/presentation/05_MoreLists.html) |
+[PDF](/docs/lectures/fun/pdf/05_MoreLists.pdf) |
+[HTML (eine Seite)](/docs/lectures/fun/html/05_MoreLists.html) |
+[Source](https://github.com/obcode/fun/blob/master/05_MoreLists.txt)
+
+</div>
+
 </div>
 
