@@ -58,5 +58,16 @@
 
 </div>
 
+<div class="span4">
+
+### 06. IO in Haskell
+
+[Slideshow](/docs/lectures/fun/presentation/06_IO.html) |
+[PDF](/docs/lectures/fun/pdf/06_IO.pdf) |
+[HTML (eine Seite)](/docs/lectures/fun/html/06_IO.html) |
+[Source](https://github.com/obcode/fun/blob/master/06_IO.txt)
+
+</div>
+
 </div>
 
