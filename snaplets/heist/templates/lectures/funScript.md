@@ -34,6 +34,7 @@
 </div>
 
 </div>
+
 <div class="row">
 
 <div class="span4">
@@ -66,6 +67,21 @@
 [PDF](/docs/lectures/fun/pdf/06_IO.pdf) |
 [HTML (eine Seite)](/docs/lectures/fun/html/06_IO.html) |
 [Source](https://github.com/obcode/fun/blob/master/06_IO.txt)
+
+</div>
+
+</div>
+
+<div class="row">
+
+<div class="span4">
+
+### 07. Patterns of computation
+
+[Slideshow](/docs/lectures/fun/presentation/07_Patterns.html) |
+[PDF](/docs/lectures/fun/pdf/07_Patterns.pdf) |
+[HTML (eine Seite)](/docs/lectures/fun/html/07_Patterns.html) |
+[Source](https://github.com/obcode/fun/blob/master/07_Patterns.txt)
 
 </div>
 
