@@ -2,28 +2,15 @@
 
 Bearbeitung eines, aus einer vorgegebenen Liste ausgewählten, Haskell-Themas in Zweiergruppen. Die Gruppen können von Ihnen selbst zusammengestellt werden. Bei einer ungeraden Zahl von Teilnehmern darf es genau eine Dreiergruppe geben. Diese muss ein entsprechend umfangreicheres Ergebnis abliefern.
 
-### Mögliche Themen
+### Gewählte Themen
 
--   Type Families
--   Continuations
--   Conduits
 -   IO Streams
--   Pipes
--   Iteratee I/O
 -   Lenses
--   GADTs
--   Cloud Haskell
--   Haskell Lightweight Virtual Machine (HaLVM)
--   hArduino
--   Atom
--   Copilot
--   Monad Transformers
+-   hArduino / Rasperry Pi in Haskell
 -   Snap
 -   HappStack
 -   Yesod
--   Xmonad
-
-Eigene Vorschläge sind willkommen und können mit mir abgestimmt werden.
+-   Xmonad / Xmobar
 
 ### Geforderte Ergebnisse:
 
