@@ -23,11 +23,24 @@
                     <a href="lectures">
                         <h2>Aktuelle Veranstaltungen</h2>
                     </a>
-                      <p>
-                        <a href="/lectures/fun">Funktionale Programmierung</a>
-                        |
-                        <a href="/lectures/seiiib">Softwareentwicklung II (IB)</a>
-                      </p>
+                    <div class="span2"> </div>
+                    <div class="span4">
+                          <h4 class="sub">Funktionale Programmierung<br> IF, IC</h4>
+                          <a class="thumbnail"
+                              href="/lectures/fun">
+                            <img alt="image" src="/img/Dreitorspitze.jpg">
+                          </a>
+                          <p><small>Blick von der Meilerhütte in Richtung Schachen</small></p>
+                    </div>
+                    <div class="span4">
+                          <h4 class="sub">Softwareentwicklung II (IB)<br> IB 2 B, IB 2 C</h4>
+                          <a class="thumbnail"
+                              href="lectures/seiiib">
+                            <img alt="image" src="/img/WilderKaiser.jpg">
+                          </a>
+                          <p><small>Blick in die Steinere Rinne (Wilder Kaiser)</small></p>
+                    </div>
+                    <div class="span2"> </div>
                     <hr class="dashed">
                   </div>
                 </div>
