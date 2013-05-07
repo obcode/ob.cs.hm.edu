@@ -85,5 +85,16 @@
 
 </div>
 
+<div class="span4">
+
+### 08. Higher-order functions
+
+[Slideshow](/docs/lectures/fun/presentation/08_HigherOrderFunctions.html) |
+[PDF](/docs/lectures/fun/pdf/08_HigherOrderFunctions.pdf) |
+[HTML (eine Seite)](/docs/lectures/fun/html/08_HigherOrderFunctions.html) |
+[Source](https://github.com/obcode/fun/blob/master/08_HigherOrderFunctions.txt)
+
+</div>
+
 </div>
 
