@@ -7,5 +7,5 @@ UPLOAD_DIR=	www
 
 push:
 	git push
-	ssh ob.cs.hm.edu "cd www && git pull \
-		&& sudo svc -t /var/service/obcshmedu"
+	ssh ob.cs.hm.edu "cd www && git pull"
+	curl http://ob.cs.hm.edu/admin/reload
