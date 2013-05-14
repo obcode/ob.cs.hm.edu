@@ -30,6 +30,9 @@ Dienstags, 15:15 - 16:45, R2.009
 -   Blatt 4
     ([HTML](/docs/lectures/fun/html/Blatt4.html),
     [PDF](/docs/lectures/fun/pdf/Blatt4.pdf))
+-   Blatt 5
+    ([HTML](/docs/lectures/fun/html/Blatt5.html),
+    [PDF](/docs/lectures/fun/pdf/Blatt5.pdf))
 
 ## Links
 
