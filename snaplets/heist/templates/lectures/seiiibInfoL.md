@@ -1,9 +1,7 @@
 ### Aktuelles
 
 -   IB 2 B:
-    -   Die Vorlesung am 24.04.2013 entfällt auf Grund einer Dienstreise.
 -   IB 2 C:
-    -   Die Vorlesung am 26.04.2013 entfällt auf Grund einer Dienstreise.
 
 ### Vorlesung
 
