@@ -80,7 +80,7 @@ routes eval =
 app :: SnapletInit App App
 app = makeSnaplet "app" "The ob.cs.hm.edu website." Nothing $ do
     conf <- getSnapletUserConfig
-    eval <- fmap read $ liftIO $ require conf "evaluation"
+    eval <- return [] -- fmap read $ liftIO $ require conf "evaluation"
     h <- nestSnaplet "" heist $ heistInit "templates"
     s <- nestSnaplet "sess" sess $
            initCookieSessionManager "site_key.txt" "sess" (Just 3600)
