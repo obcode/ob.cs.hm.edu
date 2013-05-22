@@ -1,7 +1,6 @@
 ### Aktuelles
 
--   IB 2 B:
--   IB 2 C:
+-   [Evaluation der Veranstaltung](/eval/seiiib)
 
 ### Vorlesung
 

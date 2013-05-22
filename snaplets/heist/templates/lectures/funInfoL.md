@@ -1,3 +1,9 @@
+## Aktuelles
+
+-   [Evaluation der Veranstaltung](/eval/fun)
+-   kurze Beschreibung der Studienarbeit bis zum 02.06.2013
+-   keine Vorlesung und kein Praktikum am 28.05.2013
+
 ## Vorlesung
 
 Dienstags, 13:30 - 15:00, R2.007
