@@ -2,6 +2,10 @@
 
 -   [Evaluation der Veranstaltung](/eval/seiiib)
 
+-   IB2C
+    -   Die Vorlesung vom 31.05. wird verschoben auf 29.05. 11:45 - 13:15 in Raum R0.011.
+    -   Die Vorlesung vom 07.06. wird verschoben auf 05.06. 11:45 - 13:15 in Raum R0.011.
+
 ### Vorlesung
 
 Die Vorlesung ist die unmittelbare Fortsetzung von [Softwareentwicklung I (IB)](/lectures/seiib).
