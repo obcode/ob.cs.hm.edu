@@ -6,7 +6,7 @@ module Site
 
 import           Control.Monad.Trans (liftIO)
 import           Data.ByteString (ByteString)
-import           Data.Configurator as Conf
+import           Data.Configurator
 import           Snap.Snaplet
 import           Snap.Snaplet.Auth
 import           Snap.Snaplet.Auth.Backends.JsonFile
