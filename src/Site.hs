@@ -31,7 +31,7 @@ routes eval =
 app :: SnapletInit App App
 app = makeSnaplet "app" "The ob.cs.hm.edu website." Nothing $ do
     conf <- getSnapletUserConfig
-    eval <- fmap read $ liftIO $ lookupDefault [] conf "evaluation"
+    eval <- fmap read $ liftIO $ lookupDefault "[]" conf "evaluation"
     h <- nestSnaplet "" heist $ heistInit "templates"
     s <- nestSnaplet "sess" sess $
            initCookieSessionManager "site_key.txt" "sess" (Just 3600)
