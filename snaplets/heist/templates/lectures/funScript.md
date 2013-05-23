@@ -98,3 +98,15 @@
 
 </div>
 
+<hr class="dashed">
+
+<div class="row">
+<div class="span5">
+
+## Quellen auf GitHub
+</div>
+
+<div class="span5">
+<div class="github-widget" data-repo="obcode/fun"></div>
+</div>
+</div>

@@ -1,4 +1,4 @@
-### Aktuelles
+## Aktuelles
 
 -   [Evaluation der Veranstaltung](/eval/seiiib)
 
@@ -6,11 +6,9 @@
     -   Die Vorlesung vom 31.05. wird verschoben auf 29.05. 11:45 - 13:15 in Raum R0.011.
     -   Die Vorlesung vom 07.06. wird verschoben auf 05.06. 11:45 - 13:15 in Raum R0.011.
 
-### Vorlesung
+## Vorlesung
 
 Die Vorlesung ist die unmittelbare Fortsetzung von [Softwareentwicklung I (IB)](/lectures/seiib).
-
-[Quellen für die Vorlesungsskripte](https://github.com/obcode/seiiib)
 
 -   IB 2 B: Mittwochs, 15:15 - 16:45, R1.008
     -   [Letze Folie der Vorlesung](/docs/lectures/seiiib/html/lastslideB.html)
@@ -19,7 +17,7 @@ Die Vorlesung ist die unmittelbare Fortsetzung von [Softwareentwicklung I (IB)](
     -   [Letze Folie der Vorlesung](/docs/lectures/seiiib/html/lastslideC.html)
     -   [Livecoding-Stand](https://www.dropbox.com/sh/gt22ekpdbzxjzgj/2Jth_JdxNa)
 
-### Aufgabenblätter
+## Aufgabenblätter
 
 -   Blatt 0
     ([HTML](/docs/lectures/seiiib/html/Blatt0.html),
@@ -51,3 +49,4 @@ Die Vorlesung ist die unmittelbare Fortsetzung von [Softwareentwicklung I (IB)](
 
 Anmerkungen zu Ihren Lösungen ([HTML](/docs/lectures/seiiib/html/Anmerkungen.html),
 [PDF](/docs/lectures/seiiib/pdf/Anmerkungen.pdf)). Wird nach jeder Korrektur aktualisiert.
+
