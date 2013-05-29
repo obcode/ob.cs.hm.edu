@@ -20,7 +20,7 @@
           <div class="container">
             <div class="row">
                 <div class="span12">
-                  <dfForm action="/eval/${lec}">
+                  <dfForm action="/eval/${lec}" accept-charset="utf-8">
                       <dfChildErrorList />
 
                       <table>
