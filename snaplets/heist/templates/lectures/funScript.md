@@ -135,6 +135,13 @@
 
 <div class="span4">
 
+### 12. Programming with monads
+
+[Slideshow](/docs/lectures/fun/presentation/12_Monads.html) |
+[PDF](/docs/lectures/fun/pdf/12_Monads.pdf) |
+[HTML (eine Seite)](/docs/lectures/fun/html/12_Monads.html) |
+[Source](https://github.com/obcode/fun/blob/master/12_Monads.txt)
+
 
 </div>
 
