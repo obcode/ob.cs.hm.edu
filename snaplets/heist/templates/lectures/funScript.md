@@ -96,6 +96,42 @@
 
 </div>
 
+<div class="span4">
+
+### 09. Typeclasses
+
+[Slideshow](/docs/lectures/fun/presentation/09_Typeclasses.html) |
+[PDF](/docs/lectures/fun/pdf/09_Typeclasses.pdf) |
+[HTML (eine Seite)](/docs/lectures/fun/html/09_Typeclasses.html) |
+[Source](https://github.com/obcode/fun/blob/master/09_Typeclasses.txt)
+
+</div>
+
+</div>
+
+<div class="row">
+
+<div class="span4">
+
+### 10. Algebraic types
+
+[Slideshow](/docs/lectures/fun/presentation/10_AlgebraicTypes.html) |
+[PDF](/docs/lectures/fun/pdf/10_AlgebraicTypes.pdf) |
+[HTML (eine Seite)](/docs/lectures/fun/html/10_AlgebraicTypes.html) |
+[Source](https://github.com/obcode/fun/blob/master/10_AlgebraicTypes.txt)
+
+</div>
+
+<div class="span4">
+
+
+</div>
+
+<div class="span4">
+
+
+</div>
+
 </div>
 
 <hr class="dashed">
