@@ -124,6 +124,12 @@
 
 <div class="span4">
 
+### 11. Abstract data types
+
+[Slideshow](/docs/lectures/fun/presentation/11_AbstractDataTypes.html) |
+[PDF](/docs/lectures/fun/pdf/11_AbstractDataTypes.pdf) |
+[HTML (eine Seite)](/docs/lectures/fun/html/11_AbstractDataTypes.html) |
+[Source](https://github.com/obcode/fun/blob/master/11_AbstractDataTypes.txt)
 
 </div>
 
