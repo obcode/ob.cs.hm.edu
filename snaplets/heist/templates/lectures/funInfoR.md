@@ -6,6 +6,7 @@ Bearbeitung eines, aus einer vorgegebenen Liste ausgewählten, Haskell-Themas in
 
 25.06.2013
 :
+
     -   IO Streams
     -   Lenses
     -   hArduino / Rasperry Pi in Haskell
@@ -13,6 +14,7 @@ Bearbeitung eines, aus einer vorgegebenen Liste ausgewählten, Haskell-Themas in
 
 02.07.2013
 :
+
     -   Snap
     -   HappStack
     -   Yesod
