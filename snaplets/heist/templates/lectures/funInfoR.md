@@ -2,15 +2,21 @@
 
 Bearbeitung eines, aus einer vorgegebenen Liste ausgewählten, Haskell-Themas in Zweiergruppen. Die Gruppen können von Ihnen selbst zusammengestellt werden. Bei einer ungeraden Zahl von Teilnehmern darf es genau eine Dreiergruppe geben. Diese muss ein entsprechend umfangreicheres Ergebnis abliefern.
 
-### Gewählte Themen
+### Themen und Termine
 
--   IO Streams
--   Lenses
--   hArduino / Rasperry Pi in Haskell
--   Snap
--   HappStack
--   Yesod
--   Xmonad / Xmobar
+25.06.2013
+:
+    -   IO Streams
+    -   Lenses
+    -   hArduino / Rasperry Pi in Haskell
+    -   Xmonad / Xmobar
+
+02.07.2013
+:
+    -   Snap
+    -   HappStack
+    -   Yesod
+    -   Template Haskell
 
 ### Geforderte Ergebnisse:
 
