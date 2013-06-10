@@ -152,6 +152,24 @@
 <div class="row">
 <div class="span5">
 
+## Weiter besprechen wir den Inhalt folgender Links:
+</div>
+
+<div class="span5">
+
+#### [Functors, Applicative Functors and Monoids](http://learnyouahaskell.com/functors-applicative-functors-and-monoids)
+#### [A Fistful of Monads](http://learnyouahaskell.com/a-fistful-of-monads)
+#### [For a Few Monads More](http://learnyouahaskell.com/for-a-few-monads-more)
+#### [Parallel and Concurrent Programming in Haskell](http://ofps.oreilly.com/titles/9781449335946/)
+
+</div>
+</div>
+
+<hr class="dashed">
+
+<div class="row">
+<div class="span5">
+
 ## Quellen auf GitHub
 </div>
 
