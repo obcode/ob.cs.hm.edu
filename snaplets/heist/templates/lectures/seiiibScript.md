@@ -41,6 +41,30 @@
 
 <div class="span4">
 
+### 07. Vererbung
+
+[Slideshow](/docs/lectures/seiiib/presentation/07_Vererbung.html) |
+[PDF](/docs/lectures/seiiib/pdf/07_Vererbung.pdf) |
+[HTML (eine Seite)](/docs/lectures/seiiib/html/07_Vererbung.html) |
+[Source](https://github.com/obcode/seiiib/blob/master/07_Vererbung.txt)
+
+</div>
+
+<div class="span4">
+
+
+</div>
+
+<div class="span4">
+
+</div>
+
+</div>
+
+<div class="row">
+
+<div class="span4">
+
 ### Javadoc
 
 [Slideshow](/docs/lectures/seiiib/presentation/Javadoc.html) |
