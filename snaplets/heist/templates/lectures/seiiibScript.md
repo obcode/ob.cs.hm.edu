@@ -57,6 +57,14 @@
 
 <div class="span4">
 
+### 08. Packages
+
+[Slideshow](/docs/lectures/seiiib/presentation/08_Packages.html) |
+[PDF](/docs/lectures/seiiib/pdf/08_Packages.pdf) |
+[HTML (eine Seite)](/docs/lectures/seiiib/html/08_Packages.html) |
+[Source](https://github.com/obcode/seiiib/blob/master/08_Packages.txt)
+
+
 </div>
 
 </div>
