@@ -80,6 +80,17 @@
 
 <div class="span4">
 
+### 10. Collections
+
+[Slideshow](/docs/lectures/seiiib/presentation/10_Collections.html) |
+[PDF](/docs/lectures/seiiib/pdf/10_Collections.pdf) |
+[HTML (eine Seite)](/docs/lectures/seiiib/html/10_Collections.html) |
+[Source](https://github.com/obcode/seiiib/blob/master/10_Collections.txt)
+
+
+</div>
+<div class="span4">
+
 ### Javadoc
 
 [Slideshow](/docs/lectures/seiiib/presentation/Javadoc.html) |
