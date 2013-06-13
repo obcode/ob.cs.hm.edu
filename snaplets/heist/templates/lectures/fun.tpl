@@ -5,7 +5,7 @@
           <div class="container">
             <div class="row">
                   <div class="span7">
-                      <h1>Funktionale Programmierung</h1>
+                      <h1><a href="http://fi.cs.hm.edu/fi/rest/public/modul/title/funktionaleprogrammierung">Funktionale Programmierung</a></h1>
                       <h4>Sommersemester 2013</h4>
                   </div>
                   <div class="span1">&nbsp;

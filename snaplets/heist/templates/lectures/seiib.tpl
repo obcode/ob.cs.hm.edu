@@ -5,7 +5,7 @@
           <div class="container">
             <div class="row">
                   <div class="span7">
-                      <h1>Softwareentwicklung I (IB)</h1>
+                      <h1><a href="http://fi.cs.hm.edu/fi/rest/public/modul/title/softwareentwicklungiib">Softwareentwicklung I (IB)</a></h1>
                       <h4>Wintersemester 2012/13</h4>
                   </div>
                   <div class="span1">&nbsp;
