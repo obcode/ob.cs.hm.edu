@@ -10,7 +10,6 @@ Bearbeitung eines, aus einer vorgegebenen Liste ausgewählten, Haskell-Themas in
     -   IO Streams
     -   Lenses
     -   hArduino / Rasperry Pi in Haskell
-    -   Xmonad / Xmobar
 
 02.07.2013
 :
@@ -18,7 +17,7 @@ Bearbeitung eines, aus einer vorgegebenen Liste ausgewählten, Haskell-Themas in
     -   Snap
     -   HappStack
     -   Yesod
-    -   Template Haskell
+    -   Xmonad / Xmobar
 
 ### Geforderte Ergebnisse:
 
