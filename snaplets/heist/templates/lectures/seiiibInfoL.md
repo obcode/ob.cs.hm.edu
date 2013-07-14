@@ -39,3 +39,6 @@ Die Vorlesung ist die unmittelbare Fortsetzung von [Softwareentwicklung I (IB)](
     [PDF](/docs/lectures/seiiib/pdf/Blatt6.pdf)),
     Abgabe in Courseware bis **30.06.2013, 23:59**
 
+## Klausur
+
+Klausur vom 11.07.2013: [PDF](docs/lectures/seiiib/pdf/KlausurSS2013.pdf)
