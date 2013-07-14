@@ -41,4 +41,4 @@ Die Vorlesung ist die unmittelbare Fortsetzung von [Softwareentwicklung I (IB)](
 
 ## Klausur
 
-Klausur vom 11.07.2013: [PDF](docs/lectures/seiiib/pdf/KlausurSS2013.pdf)
+Klausur vom 11.07.2013: [PDF](/docs/lectures/seiiib/pdf/KlausurSS2013.pdf)
