@@ -21,14 +21,14 @@
           <div class="container">
             <div class="row">
                 <div class="span6">
-                    <markdown file="seiibInfoL.md"/> 
+                    <markdown file="seiib/left.md"/>
                 </div>
                 <div class="span6">
-                    <markdown file="seiibInfoR.md"/> 
+                    <markdown file="seiib/right.md"/>
                 </div>
             </div>
             <hr class="dashed">
-            <markdown file="seiibScript.md"/> 
+            <markdown file="seiib/center.md"/>
           </div>
         </div>
 

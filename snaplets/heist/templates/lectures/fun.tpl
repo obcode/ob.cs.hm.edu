@@ -21,14 +21,14 @@
           <div class="container">
             <div class="row">
                 <div class="span6">
-                    <markdown file="funInfoL.md"/> 
+                    <markdown file="fun/left.md"/>
                 </div>
                 <div class="span6">
-                    <markdown file="funInfoR.md"/> 
+                    <markdown file="fun/right.md"/>
                 </div>
             </div>
             <hr class="dashed">
-            <markdown file="funScript.md"/> 
+            <markdown file="fun/center.md"/>
           </div>
         </div>
 
