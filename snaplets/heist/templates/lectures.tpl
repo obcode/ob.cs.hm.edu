@@ -1,11 +1,11 @@
 <apply template="base">
-<bind tag="subtitle">: Vorlesungen</bind>
+<bind tag="subtitle">: Lehrveranstaltungen</bind>
 
         <div id="header">
           <div class="container">
             <div class="row">
                   <div class="span12">
-                    <h1>Vorlesungen</h1>
+                    <h1>Lehrveranstaltungen</h1>
                   </div>
                 </div>
           </div>
@@ -14,8 +14,40 @@
         <div id="content">
           <div class="container">
             <div class="row">
+                <div class="span12">
+                    <h2>Lehrveranstaltungen Wintersemester 2013/14</h2>
+                </div>
+            </div>
+            <div class="row">
+                    <div class="span4">
+                          <h4 class="sub">Algorithmen und Datenstrukturen I</h4>
+                          <a class="thumbnail"
+                              href="/lectures/algdat">
+                            <img alt="image" src="/img/rauchkopf.png">
+                          </a>
+                          <p><small>Klettern am Rauchkopf</small></p>
+                    </div>
+                    <div class="span4">
+                          <h4 class="sub">Web-Techniken</h4>
+                          <a class="thumbnail"
+                              href="lectures/webtech">
+                            <img alt="image" src="/img/brauneck.png">
+                          </a>
+                          <p><small>Skifahren am Brauneck</small></p>
+                    </div>
+                    <div class="span4">
+                          <h4 class="sub">Web-Techniken (mit FK Design)</h4>
+                          <a class="thumbnail"
+                              href="lectures/webtechFK12">
+                            <img alt="image" src="/img/elmauerhalt.png">
+                          </a>
+                          <p><small>Schneestapfen am Elmauer Halt</small></p>
+                    </div>
+                    <hr class="dashed">
+                  </div>
+            <div class="row">
                   <div class="span12">
-                    <h1>Vorlesungen Sommersemester 2013</h1>
+                    <h2>Lehrveranstaltungen Sommersemester 2013</h2>
                   </div>
                 </div>
             <div class="row">
@@ -38,7 +70,7 @@
           </div>
             <div class="row">
                   <div class="span12">
-                    <h1>Vorlesungen Wintersemester 2012/13</h1>
+                    <h2>Lehrveranstaltungen Wintersemester 2012/13</h2>
                   </div>
                 </div>
             <div class="row">

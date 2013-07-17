@@ -20,30 +20,36 @@
           <div class="container">
             <div class="row">
                 <div class="span12">
-                    <a href="lectures">
-                        <h2>Aktuelle Veranstaltungen</h2>
-                    </a>
-                    <div class="span2"> </div>
+                    <h2>Aktuelle <a href="lectures">Lehrveranstaltungen</a></h2>
+                </div>
+            </div>
+            <div class="row">
                     <div class="span4">
-                          <h4 class="sub">Funktionale Programmierung<br> IF, IC</h4>
+                          <h4 class="sub">Algorithmen und Datenstrukturen I</h4>
                           <a class="thumbnail"
-                              href="/lectures/fun">
-                            <img alt="image" src="/img/Dreitorspitze.jpg">
+                              href="/lectures/algdat">
+                            <img alt="image" src="/img/rauchkopf.png">
                           </a>
-                          <p><small>Blick von der Meilerhütte in Richtung Schachen</small></p>
+                          <p><small>Klettern am Rauchkopf</small></p>
                     </div>
                     <div class="span4">
-                          <h4 class="sub">Softwareentwicklung II (IB)<br> IB 2 B, IB 2 C</h4>
+                          <h4 class="sub">Web-Techniken</h4>
                           <a class="thumbnail"
-                              href="lectures/seiiib">
-                            <img alt="image" src="/img/WilderKaiser.jpg">
+                              href="lectures/webtech">
+                            <img alt="image" src="/img/brauneck.png">
                           </a>
-                          <p><small>Blick in die Steinere Rinne (Wilder Kaiser)</small></p>
+                          <p><small>Skifahren am Brauneck</small></p>
                     </div>
-                    <div class="span2"> </div>
+                    <div class="span4">
+                          <h4 class="sub">Web-Techniken (mit FK Design)</h4>
+                          <a class="thumbnail"
+                              href="lectures/webtechFK12">
+                            <img alt="image" src="/img/elmauerhalt.png">
+                          </a>
+                          <p><small>Schneestapfen am Elmauer Halt</small></p>
+                    </div>
                     <hr class="dashed">
                   </div>
-                </div>
           </div>
         </div>
 </apply>
