@@ -40,6 +40,7 @@
 ### Klausur
 
 -   Klausur vom 25.01.2013: [PDF](/docs/lectures/seiib/pdf/KlausurWS2012.pdf)
+-   Klausur vom 23.07.2013: [PDF](/docs/lectures/seiib/pdf/KlausurSS2013.pdf)
 -   Aufgaben zur Prüfungsvorbereitung:
     [Slideshow](/docs/lectures/seiib/presentation/Aufgaben.html),
     [PDF](/docs/lectures/seiib/pdf/Aufgaben.pdf),
