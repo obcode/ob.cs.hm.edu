@@ -1,16 +1,27 @@
-## Allgemeines
-
--   [Redmine-Projekt](https://redmine.cs.hm.edu/projects/wise201314-braun-algdat-1)
-
 ## Termine
 
 -   Vorlesungstermine (donnerstags 11:45-13:15, R1.006)
 
-    03.10.2013
-    :   fällt aus (Tag der deutschen Einheit)
-    
-    08.10.2013
-    :   Einführung
+    <s>*03.10.2013*:</s> *Feiertag*  
+    **08.10.2013**: Einführung  
+    **17.10.2013**: ...  
+    **24.10.2013**: ...  
+    **31.10.2013**: ...  
+    **07.11.2013**: ...  
+    **14.11.2013**: ...  
+    **21.11.2013**: ...  
+    <s>*28.11.2013*:</s> *Dienstreise*  
+    **05.12.2013**: ...  
+    **12.12.2013**: ...  
+    **19.12.2013**: ...  
+    **09.01.2014**: ...  
+    **16.01.2014**: ...  
+    *23.01.2014: vermutlich bereits Prüfungen*
     
 -   Praktikumstermine beginnen nach dem 08.10.2013
 
+    -   *Teilgruppe 1*: mittwochs 11:45-13:15, R2.012
+    -   *Teilgruppe 2*: mittwochs 10:00-11:30, R3.021
+    -   *Teilgruppe 3*: dienstags 13:30-15:00, R3.021
+
+    -   Kein Praktikum in der KW 48 (Dienstreise)
