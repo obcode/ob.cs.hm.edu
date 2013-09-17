@@ -8,8 +8,6 @@ import           Control.Monad.Trans (liftIO)
 import           Data.ByteString (ByteString)
 import           Data.Configurator
 import           Snap.Snaplet
-import           Snap.Snaplet.Auth
-import           Snap.Snaplet.Auth.Backends.JsonFile
 import           Snap.Snaplet.Heist
 import           Snap.Snaplet.Session.Backends.CookieSession
 import           Snap.Util.FileServe
@@ -36,12 +34,6 @@ app = makeSnaplet "app" "The ob.cs.hm.edu website." Nothing $ do
     s <- nestSnaplet "sess" sess $
            initCookieSessionManager "site_key.txt" "sess" (Just 3600)
 
-    -- NOTE: We're using initJsonFileAuthManager here because it's easy and
-    -- doesn't require any kind of database server to run.  In practice,
-    -- you'll probably want to change this to a more robust auth backend.
-    a <- nestSnaplet "auth" auth $
-           initJsonFileAuthManager defAuthSettings sess "users.json"
     addRoutes $ routes eval
-    addAuthSplices auth
-    return $ App h s a
+    return $ App h s
 

@@ -12,6 +12,7 @@ import           Data.List             (intercalate)
 import           Data.Text             (append, pack, Text)
 import qualified Data.Text.IO as T
 import           Data.Time             (getCurrentTime)
+import           Heist
 import           Heist.Interpreted
 import           Lectures
 import           Snap.Core
@@ -142,13 +143,13 @@ renderEval lecture = do
             renderEval' view "eval/eval"
         Nothing -> renderEval' view "eval/eval-form"
   where
-    renderEval' view template =
+    renderEval' view template = do
+        let splices = do
+                "lecture" ## textSplice $ longName lecture
+                "lec" ## textSplice $ shortName lecture
+                "semester" ## textSplice $ semester lecture
         heistLocal (bindDigestiveSplices view) $
-            renderWithSplices template
-                [ ("lecture", textSplice $ longName lecture)
-                , ("lec",textSplice $ shortName lecture)
-                , ("semester",textSplice $ semester lecture)
-                ]
+            renderWithSplices template splices
     textString timestamp question result =
         pack (show timestamp)
           `append` ":\n"
