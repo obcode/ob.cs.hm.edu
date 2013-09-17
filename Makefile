@@ -13,5 +13,6 @@ push:
 
 # needs https://github.com/alandipert/fswatch
 watch:
-	./dist/build/obcshmedu/obcshmedu &
+	cabal run &
+	sleep 10
 	fswatch snaplets 'curl http://0.0.0.0:8000/admin/reload'
