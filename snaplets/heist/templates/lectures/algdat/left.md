@@ -3,7 +3,7 @@
 -   Vorlesungstermine (donnerstags 11:45-13:15, R1.006)
 
     <s>*03.10.2013*:</s> *Feiertag*  
-    **08.10.2013**: Einführung  
+    **10.10.2013**: Einführung  
     **17.10.2013**: ...  
     **24.10.2013**: ...  
     **31.10.2013**: ...  
@@ -18,7 +18,7 @@
     **16.01.2014**: ...  
     *23.01.2014: vermutlich bereits Prüfungen*
     
--   Praktikumstermine beginnen nach dem 08.10.2013
+-   Praktikumstermine beginnen nach dem 10.10.2013
 
     -   *Teilgruppe 1*: mittwochs 11:45-13:15, R2.012
     -   *Teilgruppe 2*: mittwochs 10:00-11:30, R3.021
