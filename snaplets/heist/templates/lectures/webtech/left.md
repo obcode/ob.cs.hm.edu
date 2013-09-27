@@ -2,8 +2,8 @@
 
 -   dienstags 15:15-18:30, R1.008, R1.006 (Präsenzveranstaltung sind in Fettdruck)
 
-    **03.10.2013**: Einführung, HTML, CSS, JavaScript, JSON  
-    *08.10.2013*: Recherche Frameworks  
+    **03.10.2013**: Einführung  
+    **08.10.2013**: Kurzvorträge Grundlagen  
     **15.10.2013**: Kurzvorträge Rechercheergebnisse, Festlegung Gruppen, Frameworks  
     **22.10.2013**: ...  
     **29.10.2013**: ...  
