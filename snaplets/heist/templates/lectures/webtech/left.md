@@ -2,7 +2,7 @@
 
 -   dienstags 15:15-18:30, R1.008, R1.006 (Präsenzveranstaltung sind in Fettdruck)
 
-    **03.10.2013**: Einführung  
+    **01.10.2013**: Einführung  
     **08.10.2013**: Kurzvorträge Grundlagen
     (siehe Ticket [#1469](https://redmine.cs.hm.edu/issues/1469))   
     **15.10.2013**: Abstimmung Umfang Web-App  
