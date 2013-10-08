@@ -21,7 +21,8 @@
                       <br>
                       Zimmer R3.032<br>
                       <br>
-                      Sprechzeit während der Vorlesungszeit: donnerstags 14:00.<br>
+                      Sprechzeit während der Vorlesungszeit: dienstags 11:45.<br>
+                      (nach vorheriger Anmeldung per E-Mail)<br>
                       <br>
                       Tel. +49 89 1265-3790<br>
                       Fax  +49 89 1265-3780<br>
