@@ -5,7 +5,8 @@
     **01.10.2013**: Einführung  
     **08.10.2013**: Kurzvorträge Grundlagen
     (siehe Ticket [#1469](https://redmine.cs.hm.edu/issues/1469))   
-    **15.10.2013**: Abstimmung Umfang Web-App  
+    **15.10.2013**: Abstimmung Umfang Web-App
+    (siehe Ticket [#1484](https://redmine.cs.hm.edu/issues/1484))  
     **22.10.2013**: Abstimmung Frameworks    
     *29.10.2013*: ...  
     *05.11.2013*: ...  
