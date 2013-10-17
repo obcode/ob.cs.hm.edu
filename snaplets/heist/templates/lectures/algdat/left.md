@@ -1,4 +1,4 @@
-## Termine
+## Termine und Inhalte
 
 -   Vorlesungstermine (donnerstags 11:45-13:15, R1.006)
 
@@ -27,3 +27,10 @@
     -   *Teilgruppe 3*: dienstags 13:30-15:00, R3.021
 
     -   Kein Praktikum in der KW 48 (Dienstreise)
+
+## Prüfung
+
+Die Veranstaltung wird durch eine benotete schriftliche Prüfung abgeschlossen. Alle eigenen Hilfsmittel auf Papier (Bücher, Aufzeichnungen, ...) sind zur Prüfung zugelassen.
+
+Der Prüfungsstoff entspricht den Kapiteln 1, 2, 3 & 5 aus dem o.a. Buch und der dazugehörigen Implementierung in C++. Ausnahmen/Abgrenzungen davon werden nur in der jeweiligen Vorlesungsstunde, die den Stoff als Grundlage hat, besprochen. Selbstverständlich ist auch das Buch in Papierform (Buch, Ausdruck, ...) zur Prüfung zugelassen.
+
