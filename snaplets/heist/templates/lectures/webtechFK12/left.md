@@ -7,7 +7,7 @@
 **10.10.2013**: Kickoff  
 **17.10.2013**: Vortrag 3D-Drucker, Treffen FK07  
 **24.10.2013**: Arbeitstreffen nur FK07  
-**31.10.2013**: Vorträge Recherchephase, Themen- und Gruppenfestlegung  
+**31.10.2013**: Vorträge Recherchephase, Themen- und Gruppenfestlegung, Raum R2.005  
 **07.11.2013**: ...  
 **14.11.2013**: ...  
 **21.11.2013**: Zwischenpräsentationen  
