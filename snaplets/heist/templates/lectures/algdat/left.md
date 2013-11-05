@@ -26,6 +26,11 @@
     -   *Teilgruppe 2*: mittwochs 10:00-11:30, R3.021
     -   *Teilgruppe 3*: dienstags 13:30-15:00, R3.021
 
+    -   [KW 42](https://redmine.cs.hm.edu/issues/1619)
+    -   [KW 43](https://redmine.cs.hm.edu/issues/1618)
+    -   [KW 44](https://redmine.cs.hm.edu/issues/1620)
+    -   [KW 45](https://redmine.cs.hm.edu/issues/1877)
+    -   [KW 46](https://redmine.cs.hm.edu/issues/1915)
     -   Kein Praktikum in der KW 48 (Dienstreise)
 
 ## Prüfung
