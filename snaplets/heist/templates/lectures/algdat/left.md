@@ -18,7 +18,7 @@
     **19.12.2013**: ...  
     **09.01.2014**: ...  
     **16.01.2014**: ...  
-    <s>*23.01.2014*:</s> Prüfungen*
+    <s>*23.01.2014*:</s> *Prüfungen*
     
 -   Praktikumstermine beginnen nach dem 10.10.2013
 
@@ -38,10 +38,4 @@
     -   KW 51
     -   KW 2
     -   KW 3 -- Prüfungsvorbereitung
-
-## Prüfung
-
-Die Veranstaltung wird durch eine benotete schriftliche Prüfung abgeschlossen. Alle eigenen Hilfsmittel auf Papier (Bücher, Aufzeichnungen, ...) sind zur Prüfung zugelassen.
-
-Der Prüfungsstoff entspricht den Kapiteln 1, 2, 3 & 5 aus dem o.a. Buch und der dazugehörigen Implementierung in C++. Ausnahmen/Abgrenzungen davon werden nur in der jeweiligen Vorlesungsstunde, die den Stoff als Grundlage hat, besprochen. Selbstverständlich ist auch das Buch in Papierform (Buch, Ausdruck, ...) zur Prüfung zugelassen.
 

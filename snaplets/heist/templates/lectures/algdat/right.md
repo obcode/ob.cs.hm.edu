@@ -31,3 +31,9 @@ Sie können in dieser Veranstaltung die Zulassungsvoraussetzung durch eine der d
 
     Als ErstellerIn einer Übungsaufgabe, sind Sie Ansprechpartner bezüglich dieser Aufgabe für Ihre Kommilitonen. In der Woche nach der Bearbeitung der Übungsaufgabe in den Praktikumsgruppen stellen Sie Ihre Lösung im Wiki zur Verfügung.
 
+## Prüfung
+
+Die Veranstaltung wird durch eine benotete schriftliche Prüfung abgeschlossen. Alle eigenen Hilfsmittel auf Papier (Bücher, Aufzeichnungen, ...) sind zur Prüfung zugelassen.
+
+Der Prüfungsstoff entspricht den Kapiteln 1, 2, 3 & 5 aus dem o.a. Buch und der dazugehörigen Implementierung in C++. Ausnahmen/Abgrenzungen davon werden nur in der jeweiligen Vorlesungsstunde, die den Stoff als Grundlage hat, besprochen. Selbstverständlich ist auch das Buch in Papierform (Buch, Ausdruck, ...) zur Prüfung zugelassen.
+
