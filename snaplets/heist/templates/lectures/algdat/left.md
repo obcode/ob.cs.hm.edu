@@ -31,6 +31,7 @@
     -   [KW 44](https://redmine.cs.hm.edu/issues/1620)
     -   [KW 45](https://redmine.cs.hm.edu/issues/1877)
     -   [KW 46](https://redmine.cs.hm.edu/issues/1915)
+    -   [KW 47](https://redmine.cs.hm.edu/issues/1974)
     -   Kein Praktikum in der KW 48 (Dienstreise)
 
 ## Prüfung
