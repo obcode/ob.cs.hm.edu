@@ -18,7 +18,7 @@
     **19.12.2013**: ...  
     **09.01.2014**: ...  
     **16.01.2014**: ...  
-    *23.01.2014: vermutlich bereits Prüfungen*
+    <s>*23.01.2014*:</s> Prüfungen*
     
 -   Praktikumstermine beginnen nach dem 10.10.2013
 
@@ -33,6 +33,11 @@
     -   [KW 46](https://redmine.cs.hm.edu/issues/1915)
     -   [KW 47](https://redmine.cs.hm.edu/issues/1974)
     -   Kein Praktikum in der KW 48 (Dienstreise)
+    -   KW 49
+    -   KW 50
+    -   KW 51
+    -   KW 2
+    -   KW 3 -- Prüfungsvorbereitung
 
 ## Prüfung
 
