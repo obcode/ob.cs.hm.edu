@@ -1,3 +1,8 @@
+## Links
+
+-   [Redmine-Projekt](https://redmine.cs.hm.edu/projects/wise201314-braun-algdat-1) der Lehrveranstaltung
+-   Code-Repository: <https://redmine.cs.hm.edu/git/wise201314-braun-algdat-1>
+
 ## Termine und Inhalte
 
 -   Vorlesungstermine (donnerstags 11:45-13:15, R1.006)

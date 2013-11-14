@@ -4,11 +4,6 @@
 -	Qualität von Datenstrukturen und Algorithmen
 -	Umsetzung in C++
 
-## Links
-
--   [Redmine-Projekt](https://redmine.cs.hm.edu/projects/wise201314-braun-algdat-1) der Lehrveranstaltung
--   Code-Repository: <https://redmine.cs.hm.edu/git/wise201314-braun-algdat-1>
-
 ## Scheinerwerb
 
 Zulassungsvoraussetzung zur Prüfung ist ein erfolgreich bestandener Leistungsnachweis.
