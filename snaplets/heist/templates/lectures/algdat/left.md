@@ -19,10 +19,10 @@
     **21.11.2013**: 3.2 und 3.3 (siehe [#1930](https://redmine.cs.hm.edu/issues/1930))  
     <s>*28.11.2013*:</s> *Dienstreise*  
     **05.12.2013**: 5.1 (siehe [#2029](https://redmine.cs.hm.edu/issues/2029))  
-    **12.12.2013**: ...  
-    **19.12.2013**: ...  
-    **09.01.2014**: ...  
-    **16.01.2014**: ...  
+    **12.12.2013**: ... (siehe [#2042](https://redmine.cs.hm.edu/issues/2042))  
+    **19.12.2013**: ... (siehe [#2043](https://redmine.cs.hm.edu/issues/2043))  
+    **09.01.2014**: ... (siehe [#2044](https://redmine.cs.hm.edu/issues/2044))  
+    **16.01.2014**: ... (siehe [#2045](https://redmine.cs.hm.edu/issues/2045))  
     <s>*23.01.2014*:</s> *Prüfungen*
     
 -   Praktikumstermine beginnen nach dem 10.10.2013
@@ -38,9 +38,9 @@
     -   [KW 46](https://redmine.cs.hm.edu/issues/1915)
     -   [KW 47](https://redmine.cs.hm.edu/issues/1974)
     -   Kein Praktikum in der KW 48 (Dienstreise)
-    -   KW 49
-    -   KW 50
-    -   KW 51
-    -   KW 2
-    -   KW 3 -- Prüfungsvorbereitung
+    -   [KW 49](https://redmine.cs.hm.edu/issues/2046)
+    -   [KW 50](https://redmine.cs.hm.edu/issues/2047)
+    -   [KW 51](https://redmine.cs.hm.edu/issues/2048)
+    -   [KW 2](https://redmine.cs.hm.edu/issues/2049)
+    -   [KW 3](https://redmine.cs.hm.edu/issues/2050)
 
