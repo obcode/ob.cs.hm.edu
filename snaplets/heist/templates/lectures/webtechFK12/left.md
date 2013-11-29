@@ -16,7 +16,7 @@
 **12.12.2013**: Zwischenpräsentation, Gebäude R  
 **19.12.2013**: ...  
 **09.01.2014**: Abschlußpräsentationen FK07  
-**16.01.2014**: Abschlußpräsentationen FK07  
+**16.01.2014**: Abschlußpräsentationen FK07 (ab 17:00 Uhr)
 <s>**23.01.2014**:</s> bereits Prüfungen  
 
 **06.02.2014**: Abschlußpräsentationen FK12  
