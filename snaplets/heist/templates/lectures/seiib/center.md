@@ -8,8 +8,7 @@
 
 [Slideshow](/docs/lectures/seiib/presentation/00_Organisatorisches.html) |
 [PDF](/docs/lectures/seiib/pdf/00_Organisatorisches.pdf) |
-[HTML (eine Seite)](/docs/lectures/seiib/html/00_Organisatorisches.html) |
-[Source](https://github.com/obcode/seiib/blob/master/00_Organisatorisches.txt)
+[HTML (eine Seite)](/docs/lectures/seiib/html/00_Organisatorisches.html)
 
 </div>
 
@@ -19,8 +18,7 @@
 
 [Slideshow](/docs/lectures/seiib/presentation/01_Einfuehrung.html) |
 [PDF](/docs/lectures/seiib/pdf/01_Einfuehrung.pdf) |
-[HTML (eine Seite)](/docs/lectures/seiib/html/01_Einfuehrung.html) |
-[Source](https://github.com/obcode/seiib/blob/master/01_Einfuehrung.txt)
+[HTML (eine Seite)](/docs/lectures/seiib/html/01_Einfuehrung.html)
 
 </div>
 
@@ -30,8 +28,7 @@
 
 [Slideshow](/docs/lectures/seiib/presentation/02_ArithmetikUndVariablen.html) |
 [PDF](/docs/lectures/seiib/pdf/02_ArithmetikUndVariablen.pdf) |
-[HTML (eine Seite)](/docs/lectures/seiib/html/02_ArithmetikUndVariablen.html) |
-[Source](https://github.com/obcode/seiib/blob/master/02_ArithmetikUndVariablen.txt)
+[HTML (eine Seite)](/docs/lectures/seiib/html/02_ArithmetikUndVariablen.html)
 
 </div>
 
@@ -45,8 +42,7 @@
 
 [Slideshow](/docs/lectures/seiib/presentation/03_Kontrollstrukturen.html) |
 [PDF](/docs/lectures/seiib/pdf/03_Kontrollstrukturen.pdf) |
-[HTML (eine Seite)](/docs/lectures/seiib/html/03_Kontrollstrukturen.html) |
-[Source](https://github.com/obcode/seiib/blob/master/03_Kontrollstrukturen.txt)
+[HTML (eine Seite)](/docs/lectures/seiib/html/03_Kontrollstrukturen.html)
 
 </div>
 
@@ -56,8 +52,7 @@
 
 [Slideshow](/docs/lectures/seiib/presentation/04_Klassen.html) |
 [PDF](/docs/lectures/seiib/pdf/04_Klassen.pdf) |
-[HTML (eine Seite)](/docs/lectures/seiib/html/04_Klassen.html) |
-[Source](https://github.com/obcode/seiib/blob/master/04_Klassen.txt)
+[HTML (eine Seite)](/docs/lectures/seiib/html/04_Klassen.html)
 
 </div>
 
