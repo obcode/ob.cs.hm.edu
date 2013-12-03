@@ -42,5 +42,4 @@
     -   [KW 50](https://redmine.cs.hm.edu/issues/2047)
     -   [KW 51](https://redmine.cs.hm.edu/issues/2048)
     -   [KW 2](https://redmine.cs.hm.edu/issues/2049)
-    -   [KW 3](https://redmine.cs.hm.edu/issues/2050)
 
