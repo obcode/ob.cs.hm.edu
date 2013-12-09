@@ -13,7 +13,7 @@
 **21.11.2013**: Große Teambesprechung, FK Design, Raum 205  
 <s>**28.11.2013**:</s> *Dienstreise OB*  
 **05.12.2013**: Einzelteambesprechung, FK Design, Raum 205  
-**12.12.2013**: Zwischenpräsentation, Gebäude R  
+**12.12.2013**: Zwischenpräsentation, Gebäude R, Raum R2.007  
 **19.12.2013**: ...  
 **09.01.2014**: Abschlußpräsentationen FK07  
 **16.01.2014**: Abschlußpräsentationen FK07 (ab 17:00 Uhr)  
