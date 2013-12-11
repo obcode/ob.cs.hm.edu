@@ -16,8 +16,8 @@
     *03.12.2013*: ...  
     **10.12.2013**: Zwischenpräsentationen II  
     *17.12.2013*: ...  
-    **07.01.2014**: Abschluß-Präsentationen  
-    **14.01.2014**: Abschluß-Präsentationen  
-    *21.01.2014: vermutlich bereits Prüfungen*
+    **07.01.2014**: Abschluß-Präsentationen (Gruppen 4, 2 & _)  
+    **14.01.2014**: Abschluß-Präsentationen (Gruppen 6, 5 & 1)  
+    *<s>21.01.2014</s>: bereits Prüfungen*
     
 
