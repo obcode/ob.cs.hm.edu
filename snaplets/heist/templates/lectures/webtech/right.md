@@ -1,3 +1,13 @@
+## Abschluß-Präsentationen
+
+-   07.01.14
+    -   Gruppe 4: Cake-PHP
+    -   Gruppe 2: Grails
+-   14.01.14
+    -   Gruppe 6: Ruby on Rails
+    -   Gruppe 5: Play
+    -   Gruppe 1: EmberJS
+
 ## Ziele/Inhalte
 
 -   Grundsätzliches Verständnis für Architektur und Programmierung von Web-Anwendungen
