@@ -7,6 +7,7 @@
     -   Gruppe 6: Ruby on Rails
     -   Gruppe 5: Play
     -   Gruppe 1: EmberJS
+    -   Gruppe 3: Django CMS
 
 ## Ziele/Inhalte
 
