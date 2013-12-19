@@ -32,3 +32,7 @@ Die Veranstaltung wird durch eine benotete schriftliche Prüfung abgeschlossen. 
 
 Der Prüfungsstoff entspricht den Kapiteln 1, 2, 3 & 5 aus dem o.a. Buch und der dazugehörigen Implementierung in C++. Ausnahmen/Abgrenzungen davon werden nur in der jeweiligen Vorlesungsstunde, die den Stoff als Grundlage hat, besprochen. Selbstverständlich ist auch das Buch in Papierform (Buch, Ausdruck, ...) zur Prüfung zugelassen.
 
+Beispieaufgaben für die Klausur:
+([PDF](http://ob.cs.hm.edu/docs/lectures/algdat/pdf/PossibleExam.pdf),
+[HTML](http://ob.cs.hm.edu/docs/lectures/algdat/html/PossibleExam.html))
+
