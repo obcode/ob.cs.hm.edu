@@ -20,4 +20,14 @@
     **14.01.2014**: Abschluß-Präsentationen (Gruppen 6, 5, 1 & 3)  
     *<s>21.01.2014</s>: bereits Prüfungen*
     
+## Abschluß-Präsentationen
+
+-   07.01.14
+    -   Gruppe 4: Cake-PHP
+    -   Gruppe 2: Grails
+-   14.01.14
+    -   Gruppe 6: Ruby on Rails
+    -   Gruppe 5: Play
+    -   Gruppe 1: EmberJS
+    -   Gruppe 3: Django CMS
 
