@@ -16,7 +16,26 @@
 **12.12.2013**: Zwischenpräsentation, Gebäude R, Raum R2.007  
 **19.12.2013**: ...  
 **09.01.2014**: Abschlußpräsentationen FK07  
+
+    1.  15:15 Heinrich Maier
+    2.  15:30 Patrick Fritz
+    3.  15:45 Benjamin Jentsch
+    4.  16:00 Rupert Zinnecker
+    5.  16:15 Daniel Wiesheu
+    6.  16:30 Christian Weinmüller
+    7.  16:45 René Ramge
+
 **16.01.2014**: Abschlußpräsentationen FK07 (ab 17:00 Uhr)  
+
+    1.  17:00 Sebastian Bertusch
+    2.  17:15 Tobias Gleiss
+    3.  17:30 Christoph Hengstenberg
+    4.  17:45 Stephan Andrielis
+    5.  18:00 Andreas Fischer
+    6.  18:15 Benedickt Hiebinger
+    7.  18:30 Daniel Pfannerer
+    8.  18:45 Fabian Melters
+
 <s>**23.01.2014**:</s> bereits Prüfungen  
 
 **06.02.2014**: Abschlußpräsentationen FK12  
