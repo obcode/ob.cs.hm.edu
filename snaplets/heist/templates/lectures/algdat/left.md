@@ -21,8 +21,8 @@
     **05.12.2013**: 5.1 (siehe [#2029](https://redmine.cs.hm.edu/issues/2029))  
     **12.12.2013**: 5.2 (siehe [#2042](https://redmine.cs.hm.edu/issues/2042))  
     **19.12.2013**: 5.3 (siehe [#2043](https://redmine.cs.hm.edu/issues/2043))  
-    **09.01.2014**: ... (siehe [#2044](https://redmine.cs.hm.edu/issues/2044))  
-    **16.01.2014**: ... (siehe [#2045](https://redmine.cs.hm.edu/issues/2045))  
+    **09.01.2014**: 5.4 (siehe [#2044](https://redmine.cs.hm.edu/issues/2044))  
+    **16.01.2014**: 5.5 (siehe [#2045](https://redmine.cs.hm.edu/issues/2045))  
     <s>*23.01.2014*:</s> *Prüfungen*
     
 -   Praktikumstermine beginnen nach dem 10.10.2013
