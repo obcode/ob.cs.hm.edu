@@ -15,7 +15,7 @@
 **05.12.2013**: Einzelteambesprechung, FK Design, Raum 205  
 **12.12.2013**: Zwischenpräsentation, Gebäude R, Raum R2.007  
 **19.12.2013**: ...  
-**09.01.2014**: Abschlußpräsentationen FK07  
+**09.01.2014**: Abschlußpräsentationen FK07, Raum R2.018
 
     1.  15:15 Heinrich Maier
     2.  15:30 Patrick Fritz
@@ -25,7 +25,7 @@
     6.  16:30 Christian Weinmüller
     7.  16:45 René Ramge
 
-**16.01.2014**: Abschlußpräsentationen FK07 (ab 17:00 Uhr)  
+**16.01.2014**: Abschlußpräsentationen FK07 (ab 17:00 Uhr), Raum R2.007  
 
     1.  17:00 Sebastian Bertusch
     2.  17:15 Tobias Gleiss
