@@ -1,5 +1,4 @@
-
-## Ziele/Inhalte
+# Ziele/Inhalte
 
 -   Grundsätzliches Verständnis für Architektur und Programmierung von Web-Anwendungen
 -   Wissen über die wichtigsten Technologien und Verfahren im Umfeld der Web-Programmierung
