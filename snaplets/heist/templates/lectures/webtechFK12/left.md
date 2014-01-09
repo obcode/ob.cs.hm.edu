@@ -35,6 +35,7 @@
     18:15 Benedickt Hiebinger
     18:30 Daniel Pfannerer
     18:45 Fabian Melters
+    19:00 Danny Liebmann
 
 <s>**23.01.2014**:</s> bereits Prüfungen  
 
