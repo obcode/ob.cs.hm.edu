@@ -20,7 +20,6 @@
     15:15 Heinrich Maier
     15:30 Patrick Fritz
     15:45 Benjamin Jentsch
-    16:00 Rupert Zinnecker
     16:15 Daniel Wiesheu
     16:30 Christian Weinmüller
     16:45 René Ramge
@@ -36,6 +35,7 @@
     18:30 Daniel Pfannerer
     18:45 Fabian Melters
     19:00 Danny Liebmann
+    19:15 Rupert Zinnecker
 
 <s>**23.01.2014**:</s> bereits Prüfungen  
 
