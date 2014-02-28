@@ -14,14 +14,17 @@
                 <a class="dropdown-toggle" data-toggle="dropdown" role="button" href="/lectures">Lehrveranstaltungen <b class="caret"></b></a>
                 <ul class="dropdown-menu" role="menu">
                   <li><a href="/lectures/algdat" tabindex="-1">Algorithmen und Datenstrukturen I</a></li>
+                  <li><a href="/lectures/compiler" tabindex="-1">Compiler</a></li>
                   <li><a href="/lectures/fun" tabindex="-1">Funktionale Programmierung</a></li>
-                  <li><a href="/lectures/sei" tabindex="-1">Softwareentwicklung I</a></li>
+                  <li><a href="/lectures/sa" tabindex="-1">Software-Architektur</a></li>
                   <li><a href="/lectures/seiib" tabindex="-1">Softwareentwicklung I (IB)</a></li>
                   <li><a href="/lectures/seiiib" tabindex="-1">Softwareentwicklung II (IB)</a></li>
                   <li><a href="/lectures/webtech" tabindex="-1">Web-Techniken</a></li>
                   <li><a href="/lectures/webtechFK12" tabindex="-1">Web-Techniken (mit FK12)</a></li>
                 </ul>
               </li>
+              <!-- <li><a href="/theses">Abschlussarbeiten</a></li> -->
+              <li><a href="http://terraform.cs.hm.edu/">Terraform</a></li>
               <li><a href="/about">Oliver Braun</a></li>
             </ul>
           </div>
