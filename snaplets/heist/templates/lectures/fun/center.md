@@ -1,3 +1,4 @@
+<!--
 # Vorlesungsskript
 
 <div class="row">
@@ -177,3 +178,4 @@
 <div class="github-widget" data-repo="obcode/fun"></div>
 </div>
 </div>
+-->

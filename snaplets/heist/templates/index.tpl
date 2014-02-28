@@ -25,28 +25,28 @@
             </div>
             <div class="row">
                     <div class="span4">
-                          <h4 class="sub">Algorithmen und Datenstrukturen I</h4>
+                          <h4 class="sub">Compiler</h4>
                           <a class="thumbnail"
-                              href="/lectures/algdat">
-                            <img alt="image" src="/img/rauchkopf.png">
+                              href="/lectures/compiler">
+                            <img alt="image" src="/img/Fuerteventura.png">
                           </a>
-                          <p><small>Klettern am Rauchkopf</small></p>
+                          <p><small>Blick von Fuerteventura auf den Atlantik</small></p>
                     </div>
                     <div class="span4">
-                          <h4 class="sub">Web-Techniken</h4>
+                          <h4 class="sub">Funktionale Programmierung</h4>
                           <a class="thumbnail"
-                              href="lectures/webtech">
-                            <img alt="image" src="/img/brauneck.png">
+                              href="lectures/fun">
+                            <img alt="image" src="/img/Dreitorspitze.jpg">
                           </a>
-                          <p><small>Skifahren am Brauneck</small></p>
+                          <p><small>Blick von der Dreitorspitze zum Schachen</small></p>
                     </div>
                     <div class="span4">
-                          <h4 class="sub">Web-Techniken (mit FK Design)</h4>
+                          <h4 class="sub">Software-Architektur</h4>
                           <a class="thumbnail"
-                              href="lectures/webtechFK12">
-                            <img alt="image" src="/img/elmauerhalt.png">
+                              href="lectures/sa">
+                            <img alt="image" src="/img/Alpbachtal.png">
                           </a>
-                          <p><small>Schneestapfen am Elmauer Halt</small></p>
+                          <p><small>Blick vom Alpbachtal ins Inntal</small></p>
                     </div>
                     <hr class="dashed">
                   </div>

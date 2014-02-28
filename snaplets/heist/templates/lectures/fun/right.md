@@ -1,23 +1,33 @@
+## Links
+
+#### Haskell
+
+-   [Haskell.org](http://haskell.org/)
+
+##### Tutorials
+
+-   [Try Haskell](http://tryhaskell.org/)
+-   [School of Haskell](https://haskell.fpcomplete.com/school)
+
+##### Compiler etc.
+
+-   [Haskell Platform](http://www.haskell.org/platform/)
+-   [The Glasgow Haskell Compiler](http://www.haskell.org/ghc/)
+
+##### Libs
+
+-   [Hackage](http://hackage.haskell.org/)
+-   [Hoogle](http://www.haskell.org/hoogle/)
+
+#### Kommerzielle Nutzung funktionaler Programmierung
+
+-   [Case Studies kommerzieller Haskell-User](http://fpcomplete.com/technology/case-studies/)
+-   [CUFP - Commercial Users of functional programming](http://cufp.org/)
+
+<!--
 ## Studienarbeit
 
-Bearbeitung eines, aus einer vorgegebenen Liste ausgewählten, Haskell-Themas in Zweiergruppen. Die Gruppen können von Ihnen selbst zusammengestellt werden. Bei einer ungeraden Zahl von Teilnehmern darf es genau eine Dreiergruppe geben. Diese muss ein entsprechend umfangreicheres Ergebnis abliefern.
-
-### Themen und Termine
-
-25.06.2013
-:
-
-    -   IO Streams
-    -   Lenses
-    -   hArduino / Rasperry Pi in Haskell
-
-02.07.2013
-:
-
-    -   Snap
-    -   HappStack
-    -   Yesod
-    -   Xmonad / Xmobar
+...
 
 ### Geforderte Ergebnisse:
 
@@ -42,4 +52,4 @@ Bearbeitung eines, aus einer vorgegebenen Liste ausgewählten, Haskell-Themas in
 -   in KW 24 Konsultationstermine für Vortragende in KW 26
 -   in KW 25 Konsultationstermine für Vortragende in KW 27
 -   Vorträge in KW 26 und KW 27
-
+-->
