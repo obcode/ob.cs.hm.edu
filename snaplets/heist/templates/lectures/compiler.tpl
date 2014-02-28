@@ -11,7 +11,7 @@
                   <div class="span1">&nbsp;
                   </div>
                   <div class="span4">
-                    <img alt="Blick von Fuerteventura auf den Atlantik" src="/img/fuerteventura.png" width="300" height="150" />
+                    <img alt="Blick von Fuerteventura auf den Atlantik" src="/img/Fuerteventura.png" width="300" height="150" />
                   </div>
                 </div>
           </div>

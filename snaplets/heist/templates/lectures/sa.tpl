@@ -11,7 +11,7 @@
                   <div class="span1">&nbsp;
                   </div>
                   <div class="span4">
-                    <img alt="Blick vom Alpbachtal ins Inntal" src="/img/alpbachtal.png" width="300" height="150" />
+                    <img alt="Blick vom Alpbachtal ins Inntal" src="/img/Alpbachtal.png" width="300" height="150" />
                   </div>
                 </div>
           </div>
