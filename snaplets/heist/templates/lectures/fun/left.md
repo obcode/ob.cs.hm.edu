@@ -1,10 +1,48 @@
-## Vorlesung
+## Termine und Inhalte
+
+### Vorlesungstermine
 
 Dienstags, 15:15 - 16:45, R0.006
 
-## Praktikum
+-   18.03.14
+-   25.03.14
+-   01.04.14
+-   *08.04.14*, fällt voraussichtlich aus
+-   15.04.14
+-   <s>22.04.14</s> Osterferien
+-   29.04.14
+-   06.05.14
+-   13.05.14
+-   20.05.14
+-   27.05.14
+-   03.06.14
+-   <s>10.06.14</s> Pfingstferien
+-   17.06.14
+-   24.06.14
+-   01.07.14
+-   <s>08.07.14</s> bereits Prüfungen
+
+### Praktikumstermine
 
 Donnerstags, 15:15 - 16:45, R3.019
+
+-   20.03.14
+-   27.03.14
+-   03.04.14
+-   *10.04.14*, fällt voraussichtlich aus
+-   <s>17.04.14</s> Osterferien
+-   24.04.14
+-   <s>01.05.14</s> Tag der Arbeit
+-   08.05.14
+-   15.05.14
+-   22.05.14
+-   <s>29.05.14</s> Christi Himmelfahrt
+-   05.06.14
+-   12.06.14
+-   <s>19.06.14</s> Fronleichnam
+-   26.06.14
+-   *03.07.14*, fällt voraussichtlich aus
+-   <s>10.07.14</s> bereits Prüfungen
 
 <!--
 ### Aufgabenblätter
@@ -25,13 +63,4 @@ Donnerstags, 15:15 - 16:45, R3.019
     ([HTML](/docs/lectures/fun/html/Blatt5.html),
     [PDF](/docs/lectures/fun/pdf/Blatt5.pdf))
 -->
-
-## Literatur
-
-<!-- -   TODO: neues Haskell-Buch -->
--   Simon Thompson, [Haskell: The Craft of Functional Programming](http://www.haskellcraft.com/craft3e/Home.html), Pearson Education, 2011.
-    (Bibliothek: Lehrbuchsammlung, Signatur ST 240 T468(3))
--   Brian O'Sullivan et al., [Real World Haskell](http://book.realworldhaskell.org/read/), O'Reilly, 2008.
--   Miran Lipavaca, [Learn You a Haskell for Great Good!](http://learnyouahaskell.com/chapters), No Starch Press, 2011.
--   Peter Pepper & Petra Hofstedt, [Funktionale Programmierung](http://link.springer.com/book/10.1007/3-540-34796-8/page/1), Springer. 2006.
 
