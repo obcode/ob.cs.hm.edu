@@ -4,7 +4,7 @@
 
 Dienstags, 15:15 - 16:45, R0.006
 
--   18.03.14
+-   <s>18.03.14</s> fällt aus
 -   25.03.14
 -   01.04.14
 -   *08.04.14*, fällt voraussichtlich aus
@@ -26,7 +26,7 @@ Dienstags, 15:15 - 16:45, R0.006
 
 Donnerstags, 15:15 - 16:45, R3.019
 
--   20.03.14
+-   <s>20.03.14</s> fällt aus
 -   27.03.14
 -   03.04.14
 -   *10.04.14*, fällt voraussichtlich aus
