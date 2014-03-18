@@ -8,7 +8,7 @@ UPLOAD_DIR=	www
 push:
 	git pull
 	git push
-	ssh ob.cs.hm.edu "cd www && git pull && touch pleaserestart"
+	ssh -t ob.cs.hm.edu "cd www && git pull && sudo /home/obraun/bin/restartWWW.sh"
 
 # needs https://github.com/alandipert/fswatch
 watch:
