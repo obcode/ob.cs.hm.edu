@@ -5,7 +5,7 @@
 Dienstags, 15:15 - 16:45, R0.006
 
 -   <s>18.03.14</s> fällt aus
--   25.03.14
+-   25.03.14 [Introduction](/docs/lectures/fun/html/01_Introduction.html) ([Slides](/docs/lectures/fun/presentation/01_Introduction.html), [PDF](/docs/lectures/fun/pdf/01_Introduction.pdf), [Source](https://github.com/obcode/fun/blob/master/01_Introduction.txt))
 -   01.04.14
 -   *08.04.14*, fällt voraussichtlich aus
 -   15.04.14
