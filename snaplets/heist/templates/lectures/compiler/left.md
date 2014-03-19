@@ -4,7 +4,7 @@
 
 Donnerstags, 10:00 - 11:30, R1.006
 
--   20.03.14
+-   <s>20.03.14</s> fällt aus
 -   27.03.14
 -   03.04.14
 -   *10.04.14*, fällt voraussichtlich aus
@@ -27,7 +27,7 @@ Donnerstags, 10:00 - 11:30, R1.006
 Teilgruppe 1
 :   Mittwochs, 10:00 - 11:30, R1.009
 
-    -   26.03.14
+    -   <s>26.03.14</s> fällt aus
     -   02.04.14
     -   *09.04.14*, fällt voraussichtlich aus
     -   16.04.14
@@ -47,7 +47,7 @@ Teilgruppe 1
 Teilgruppe 2
 :   Donnerstags, 11:45 - 13:15, R3.021
 
-    -   20.03.14
+    -   <s>20.03.14</s> fällt aus
     -   27.03.14
     -   03.04.14
     -   *10.04.14*, fällt voraussichtlich aus

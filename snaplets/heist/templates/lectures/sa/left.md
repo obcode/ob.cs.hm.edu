@@ -4,9 +4,9 @@
 
 Donnerstags, 17:00 - 18:30, R1.007
 
--   20.03.14 Einführung
--   27.03.14 Erste Recherche-Ergebnisse
--   03.04.14 Weitere Recherche-Ergebnisse, Gruppeneinteilung
+-   <s>20.03.14</s> fällt aus
+-   27.03.14 Einführung
+-   03.04.14 Recherche-Ergebnisse, Gruppeneinteilung
 -   *10.04.14*, fällt voraussichtlich aus
 -   <s>17.04.14</s> Osterferien
 -   24.04.14 Kurzvorstellungen der Themen
@@ -27,7 +27,7 @@ Donnerstags, 17:00 - 18:30, R1.007
 Teilgruppe 1
 :   Dienstags, 17:00 - 18:30, R3.019
 
-    -   25.03.14 Recherche
+    -   <s>25.03.14</s> fällt aus
     -   01.04.14 Recherche
     -   *08.04.14*, fällt voraussichtlich aus
     -   15.04.14 Konsulationen
@@ -47,7 +47,7 @@ Teilgruppe 1
 Teilgruppe 2
 :   Mittwochs, 11:45 - 13:15, R2.009
 
-    -   26.03.14 Recherche
+    -   <s>26.03.14</s> fällt aus
     -   02.04.14 Recherche
     -   *09.04.14*, fällt voraussichtlich aus
     -   16.04.14 Konsulationen
