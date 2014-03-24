@@ -1,6 +1,7 @@
 ## Links
 
 -   [Redmine-Projekt](https://redmine.cs.hm.edu/projects/2014-braun-funktionale-programmierung)
+-   [FP Haskell Center](https://www.fpcomplete.com/ide)
 
 #### Haskell
 
