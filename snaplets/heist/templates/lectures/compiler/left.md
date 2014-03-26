@@ -5,7 +5,7 @@
 Donnerstags, 10:00 - 11:30, R1.006
 
 -   <s>20.03.14</s> fällt aus
--   27.03.14
+-   27.03.14 [Introduction](/docs/lectures/compiler/html/01_Introduction.html) ([Slides](/docs/lectures/compiler/presentation/01_Introduction.html), [PDF](/docs/lectures/compiler/pdf/01_Introduction.pdf), [Source](https://github.com/obcode/compiler/blob/master/01_Introduction.txt))
 -   03.04.14
 -   *10.04.14*, fällt voraussichtlich aus
 -   <s>17.04.14</s> Osterferien
