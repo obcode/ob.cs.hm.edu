@@ -4,7 +4,7 @@ Teilgruppe 1
 :   Mittwochs, 10:00 - 11:30, R1.009
 
     -   <s>26.03.14</s> fällt aus
-    -   02.04.14 [Blatt 1](/docs/lectures/compiler/html/Blatt1.html) ([PDF](/docs/lectures/compiler/pdf/Blatt1.pdf))
+    -   02.04.14 [Blatt 1](/docs/lectures/compiler/html/Blatt01.html) ([PDF](/docs/lectures/compiler/pdf/Blatt01.pdf))
     -   *09.04.14*, fällt voraussichtlich aus
     -   16.04.14
     -   23.04.14
@@ -24,7 +24,7 @@ Teilgruppe 2
 :   Donnerstags, 11:45 - 13:15, R3.021
 
     -   <s>20.03.14</s> fällt aus
-    -   27.03.14 [Blatt 1](/docs/lectures/compiler/html/Blatt1.html) ([PDF](/docs/lectures/compiler/pdf/Blatt1.pdf))
+    -   27.03.14 [Blatt 1](/docs/lectures/compiler/html/Blatt01.html) ([PDF](/docs/lectures/compiler/pdf/Blatt01.pdf))
     -   03.04.14
     -   *10.04.14*, fällt voraussichtlich aus
     -   <s>17.04.14</s> Osterferien
