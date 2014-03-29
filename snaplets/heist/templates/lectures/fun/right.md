@@ -56,6 +56,15 @@
 -   in KW 25 Konsultationstermine für Vortragende in KW 27
 -   Vorträge in KW 26 und KW 27
 -->
+
+## Klausur
+
+Gegenstand der Klausur ist der gesamte in Vorlesung und Praktikum
+behandelte Stoff, soweit nicht anders vereinbart. Die Klausur
+wird ohne Hilfsmittel geschrieben.
+
+-   Klausur vom 26.07.2013: [PDF](/docs/lectures/fun/pdf/KlausurSS2013.pdf)
+
 ## Literatur
 
 -   Alejandro Serrano Mena, [Beginning Haskell, A Project-Based Approach](http://www.apress.com/9781430262503), Apress, 2014.
