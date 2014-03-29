@@ -1,40 +1,45 @@
-## Praktikum
+## Leistungsnachweis
 
-Teilgruppe 1
-:   Mittwochs, 10:00 - 11:30, R1.009
+Für den Schein ist in Zweiergruppen einen Compiler in Haskell zu programmieren, der
+[Markdown](http://daringfireball.net/projects/markdown/) in HTML übersetzt. Im Rahmen der
+Praktikumstermine gegen Ende des Semesters muss das Ergebnis den Kommilitonen und mir
+vorgestellt werden. Pro Zweiergruppe sind inklusive Fragen etwa 15 Minuten eingeplant. Die
+Terminvergabe findet im Wiki des
+[Redmine-Projekts](https://redmine.cs.hm.edu/projects/2014-braun-compiler/wiki/Termine_Vorstellung_Compiler-Projekt)
+statt.
 
-    -   02.04.14 [Blatt 1](/docs/lectures/compiler/html/Blatt01.html) ([PDF](/docs/lectures/compiler/pdf/Blatt01.pdf))
-    -   *09.04.14*, fällt voraussichtlich aus
-    -   16.04.14
-    -   23.04.14
-    -   <s>30.04.14</s> fällt voraussichtlich aus
-    -   07.05.14
-    -   14.05.14
-    -   21.05.14
-    -   28.05.14
-    -   04.06.14
-    -   11.06.14
-    -   18.06.14
-    -   25.06.14
-    -   02.07.14
-    -   <s>08.07.14</s> bereits Prüfungen
+## Klausur
 
-Teilgruppe 2
-:   Donnerstags, 11:45 - 13:15, R3.021
+Gegenstand der Klausur ist der gesamte in Vorlesung und Praktikum
+behandelte Stoff, soweit nicht anders vereinbart. Die Klausur
+wird ohne Hilfsmittel geschrieben.
 
-    -   27.03.14 [Blatt 1](/docs/lectures/compiler/html/Blatt01.html) ([PDF](/docs/lectures/compiler/pdf/Blatt01.pdf))
-    -   03.04.14
-    -   *10.04.14*, fällt voraussichtlich aus
-    -   <s>17.04.14</s> Osterferien
-    -   24.04.14
-    -   <s>01.05.14</s> Tag der Arbeit
-    -   08.05.14
-    -   15.05.14
-    -   22.05.14
-    -   <s>29.05.14</s> Christi Himmelfahrt
-    -   05.06.14
-    -   12.06.14
-    -   <s>19.06.14</s> Fronleichnam
-    -   26.06.14
-    -   *03.07.14*, fällt voraussichtlich aus
-    -   <s>10.07.14</s> bereits Prüfungen
+## Links
+
+-   [Redmine-Projekt](https://redmine.cs.hm.edu/projects/2014-braun-funktionale-programmierung)
+
+#### Haskell
+
+-   [FP Haskell Center](https://www.fpcomplete.com/ide)
+-   [Haskell.org](http://haskell.org/)
+
+##### Tutorials
+
+-   [Try Haskell](http://tryhaskell.org/)
+-   [School of Haskell](https://haskell.fpcomplete.com/school)
+
+##### Compiler etc.
+
+-   [Haskell Platform](http://www.haskell.org/platform/)
+-   [The Glasgow Haskell Compiler](http://www.haskell.org/ghc/)
+
+##### Libs
+
+-   [Hackage](http://hackage.haskell.org/)
+-   [Hoogle](http://www.haskell.org/hoogle/)
+
+##### Markdown
+
+-   [Markdown](http://daringfireball.net/projects/markdown/)
+-   [Pandoc](http://johnmacfarlane.net/pandoc/)
+
