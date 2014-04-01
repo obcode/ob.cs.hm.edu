@@ -2,6 +2,7 @@
 
 -   [Redmine-Projekt](https://redmine.cs.hm.edu/projects/2014-braun-funktionale-programmierung)
 -   [FP Haskell Center](https://www.fpcomplete.com/ide)
+-   [Live Coding Stand](https://www.dropbox.com/sh/h35lu4f7u26sbth/rvP-_5WS6A)
 
 #### Haskell
 

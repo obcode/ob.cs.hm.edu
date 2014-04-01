@@ -16,7 +16,7 @@
 -   [Repository Gruppe 4](https://redmine.cs.hm.edu/git/2014-braun-software-architektur-gruppe04)
 -   [Repository Gruppe 5](https://redmine.cs.hm.edu/git/2014-braun-software-architektur-gruppe05)
 
-## Nützliche Links
+## Links
 
 -   [Markdown](http://daringfireball.net/projects/markdown/)
 -   [Pandoc](http://johnmacfarlane.net/pandoc/)
@@ -29,3 +29,4 @@
     -   [Try Git](http://try.github.io/)
     -   [Git - der einfache Einstieg](http://rogerdudler.github.io/git-guide/index.de.html)
     -   [Pro Git (deutsch)](http://git-scm.com/book/de)
+
