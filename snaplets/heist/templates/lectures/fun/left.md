@@ -5,7 +5,7 @@
 Dienstags, 15:15 - 16:45, R0.006
 
 -   25.03.14 [Introduction](/docs/lectures/fun/html/01_Introduction.html) ([Slides](/docs/lectures/fun/presentation/01_Introduction.html), [PDF](/docs/lectures/fun/pdf/01_Introduction.pdf), [Source](https://github.com/obcode/fun/blob/master/01_Introduction.txt))
--   01.04.14
+-   01.04.14 [LYAH: Starting Out](http://learnyouahaskell.com/starting-out)
 -   *08.04.14*, fällt voraussichtlich aus
 -   15.04.14
 -   <s>22.04.14</s> Osterferien
