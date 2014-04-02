@@ -26,7 +26,7 @@ Dienstags, 15:15 - 16:45, R0.006
 Donnerstags, 15:15 - 16:45, R3.019
 
 -   27.03.14 [Blatt 1](/docs/lectures/fun/html/Blatt01.html) ([PDF](/docs/lectures/fun/pdf/Blatt01.pdf))
--   03.04.14
+-   03.04.14 [Blatt 2](/docs/lectures/fun/html/Blatt02.html) ([PDF](/docs/lectures/fun/pdf/Blatt02.pdf))
 -   *10.04.14*, fällt voraussichtlich aus
 -   <s>17.04.14</s> Osterferien
 -   24.04.14
