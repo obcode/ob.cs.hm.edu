@@ -5,7 +5,8 @@
 Donnerstags, 10:00 - 11:30, R1.006
 
 -   27.03.14 [Introduction](/docs/lectures/compiler/html/01_Introduction.html) ([Slides](/docs/lectures/compiler/presentation/01_Introduction.html), [PDF](/docs/lectures/compiler/pdf/01_Introduction.pdf), [Source](https://github.com/obcode/compiler/blob/master/01_Introduction.txt))
--   03.04.14 weiter ab [hier](http://ob.cs.hm.edu/docs/lectures/compiler/presentation/01_Introduction.html#(14))
+-   03.04.14 weiter ab [hier](http://ob.cs.hm.edu/docs/lectures/compiler/presentation/01_Introduction.html#(14)),
+        [Scanner](/docs/lectures/compiler/html/02_Scanner.html) ([Slides](/docs/lectures/compiler/presentation/02_Scanner.html), [PDF](/docs/lectures/compiler/pdf/02_Scanner.pdf), [Source](https://github.com/obcode/compiler/blob/master/02_Scanner.txt))
 -   *10.04.14*, fällt voraussichtlich aus
 -   <s>17.04.14</s> Osterferien
 -   24.04.14
@@ -27,8 +28,7 @@ Teilgruppe 1
 :   Mittwochs, 10:00 - 11:30, R1.009
 
     -   02.04.14 [Blatt 1](/docs/lectures/compiler/html/Blatt01.html) ([PDF](/docs/lectures/compiler/pdf/Blatt01.pdf))
-    -   *09.04.14*, fällt voraussichtlich aus
-    -   16.04.14
+    -   16.04.14 [Blatt 2](/docs/lectures/compiler/html/Blatt02.html) ([PDF](/docs/lectures/compiler/pdf/Blatt02.pdf))
     -   23.04.14
     -   <s>30.04.14</s> fällt voraussichtlich aus
     -   07.05.14
@@ -46,8 +46,7 @@ Teilgruppe 2
 :   Donnerstags, 11:45 - 13:15, R3.021
 
     -   27.03.14 [Blatt 1](/docs/lectures/compiler/html/Blatt01.html) ([PDF](/docs/lectures/compiler/pdf/Blatt01.pdf))
-    -   03.04.14
-    -   *10.04.14*, fällt voraussichtlich aus
+    -   03.04.14 [Blatt 2](/docs/lectures/compiler/html/Blatt02.html) ([PDF](/docs/lectures/compiler/pdf/Blatt02.pdf))
     -   <s>17.04.14</s> Osterferien
     -   24.04.14
     -   <s>01.05.14</s> Tag der Arbeit
