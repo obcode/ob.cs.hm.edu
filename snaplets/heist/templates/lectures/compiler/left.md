@@ -5,11 +5,11 @@
 Donnerstags, 10:00 - 11:30, R1.006
 
 -   27.03.14 [Introduction](/docs/lectures/compiler/html/01_Introduction.html) ([Slides](/docs/lectures/compiler/presentation/01_Introduction.html), [PDF](/docs/lectures/compiler/pdf/01_Introduction.pdf), [Source](https://github.com/obcode/compiler/blob/master/01_Introduction.txt))
--   03.04.14 weiter ab [hier](http://ob.cs.hm.edu/docs/lectures/compiler/presentation/01_Introduction.html#(14)),
+-   03.04.14 weiter ab [hier](/docs/lectures/compiler/presentation/01_Introduction.html#(14)),
         [Scanners](/docs/lectures/compiler/html/02_Scanners.html) ([Slides](/docs/lectures/compiler/presentation/02_Scanners.html), [PDF](/docs/lectures/compiler/pdf/02_Scanners.pdf), [Source](https://github.com/obcode/compiler/blob/master/02_Scanners.txt))
 -   *10.04.14*, fällt voraussichtlich aus
 -   <s>17.04.14</s> Osterferien
--   24.04.14
+-   24.04.14 weiter ab [hier](/docs/lectures/compiler/presentation/02_Scanners.html#(10))
 -   <s>01.05.14</s> Tag der Arbeit
 -   08.05.14
 -   15.05.14
