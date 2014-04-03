@@ -17,19 +17,19 @@ Praktikumstermine Teilgruppe 2 (TG2)
 -   01.04.14 (TG1) Recherche
 -   02.04.14 (TG2) Recherche
 -   03.04.14 (V) Vorstellung erster Ideen / Recherche-Ergebnisse
--   08.04.14 (TG1) Recherche
--   09.04.14 (TG2) Recherche
--   10.04.14 (V) Festlegung der 5 Themenblöcke mit anschließender Gruppeneinteilung (evtl. online)
+-   08.04.14 (TG1) Recherche, ohne Dozent
+-   09.04.14 (TG2) Recherche, ohne Dozent
+-   10.04.14 (V) Festlegung der 5 Themenblöcke mit anschließender Gruppeneinteilung (evtl. online)?
 
 ### Ausarbeitungs-Phase
 
--   15.04.14 (TG1) Konsulationen
--   16.04.14 (TG2) Konsulationen
--   23.04.14 (TG2) Konsulationen
+-   15.04.14 (TG1) [Konsulationen](https://redmine.cs.hm.edu/projects/2014-braun-software-architektur/wiki/Termine_Konsultationen)
+-   16.04.14 (TG2) [Konsulationen](https://redmine.cs.hm.edu/projects/2014-braun-software-architektur/wiki/Termine_Konsultationen)
+-   23.04.14 (TG2) [Konsulationen](https://redmine.cs.hm.edu/projects/2014-braun-software-architektur/wiki/Termine_Konsultationen)
 -   24.04.14 (V) Kurzvorstellungen der Themeblöcke mit anschließender Diskussion
--   29.04.14 (TG1) Konsulationen
--   06.05.14 (TG1) Konsulationen
--   07.05.14 (TG2) Konsulationen
+-   29.04.14 (TG1) [Konsulationen](https://redmine.cs.hm.edu/projects/2014-braun-software-architektur/wiki/Termine_Konsultationen)
+-   06.05.14 (TG1) [Konsulationen](https://redmine.cs.hm.edu/projects/2014-braun-software-architektur/wiki/Termine_Konsultationen)
+-   07.05.14 (TG2) [Konsulationen](https://redmine.cs.hm.edu/projects/2014-braun-software-architektur/wiki/Termine_Konsultationen)
 
 ### Durchführungs-Phase
 
