@@ -1,3 +1,12 @@
+## Themen
+
+-   Gruppe 1: Client-Server- und Peer-to-Peer-Architekturen
+-   Gruppe 2: Webservices-Achitektur / REST-Architektur
+-   Gruppe 3: Pattern
+-   Gruppe 4: QM: Clean Code und TDD
+-   Gruppe 5: Frameworks
+-   Gruppe 6: Programmierparadigmen
+
 ## Redmine-Projekte
 
 -   [gemeinsames Projekt](https://redmine.cs.hm.edu/projects/2014-braun-software-architektur)
