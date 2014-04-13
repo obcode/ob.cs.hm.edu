@@ -3,8 +3,11 @@
         <div id="landing">
           <div class="container">
             <div class="row">
-                  <div class="span12">
+                  <div class="span6">
                     <h1>Prof. Dr. Oliver Braun</h1>
+                  </div>
+                  <div class="span6">
+                    <img src="img/ob.png" alt="Home" width="500" height="216" />
                   </div>
                 </div>
           </div>
