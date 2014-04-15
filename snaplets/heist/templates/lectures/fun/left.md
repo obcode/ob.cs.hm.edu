@@ -7,7 +7,7 @@ Dienstags, 15:15 - 16:45, R0.006
 -   25.03.14 [Introduction](/docs/lectures/fun/html/01_Introduction.html) ([Slides](/docs/lectures/fun/presentation/01_Introduction.html), [PDF](/docs/lectures/fun/pdf/01_Introduction.pdf), [Source](https://github.com/obcode/fun/blob/master/01_Introduction.txt))
 -   01.04.14 [LYAH: Starting Out](http://learnyouahaskell.com/starting-out)
 -   15.04.14 [LYAH: Tuples](http://learnyouahaskell.com/starting-out#tuples)
--   29.04.14
+-   29.04.14 [LYAH: Syntax in Functions](http://learnyouahaskell.com/syntax-in-functions)
 -   06.05.14
 -   13.05.14
 -   20.05.14
