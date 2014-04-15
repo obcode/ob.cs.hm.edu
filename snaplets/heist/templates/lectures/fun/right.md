@@ -1,62 +1,34 @@
-## Links
-
--   [Redmine-Projekt](https://redmine.cs.hm.edu/projects/2014-braun-funktionale-programmierung)
--   [FP Haskell Center](https://www.fpcomplete.com/ide)
--   [Live Coding Stand](https://www.dropbox.com/sh/h35lu4f7u26sbth/rvP-_5WS6A)
-
-#### Haskell
-
--   [Haskell.org](http://haskell.org/)
-
-##### Tutorials
-
--   [Try Haskell](http://tryhaskell.org/)
--   [School of Haskell](https://haskell.fpcomplete.com/school)
-
-##### Compiler etc.
-
--   [Haskell Platform](http://www.haskell.org/platform/)
--   [The Glasgow Haskell Compiler](http://www.haskell.org/ghc/)
-
-##### Libs
-
--   [Hackage](http://hackage.haskell.org/)
--   [Hoogle](http://www.haskell.org/hoogle/)
-
-#### Kommerzielle Nutzung funktionaler Programmierung
-
--   [Case Studies kommerzieller Haskell-User](http://fpcomplete.com/technology/case-studies/)
--   [CUFP - Commercial Users of functional programming](http://cufp.org/)
-
-<!--
 ## Studienarbeit
 
-...
+Als zu benotende Studienarbeit müssen Sie in Zweiergruppen (Ausnahmefälle: alleine oder zu dritt, mit mir besprochen) eine Web-Application mit dem [Yesod Web Framework](http://www.yesodweb.com/) erstellen.
+
+Wir werden dazu ab dem 3. Praktikumstermin langsam beginnen mit Yesod
+zu arbeiten.
+
+Die genaue Funktionalität Ihrer Web-Application schlagen Sie mir bis
+spätestens zum 14. Mai vor.
 
 ### Geforderte Ergebnisse:
 
--   10-minütiger **Vortrag** (Dreiergruppe: 15 Minuten)
--   **Ausarbeitung** (Blogpost), geschrieben in [Pandoc's Markdown](http://johnmacfarlane.net/pandoc/README.html#pandocs-markdown) (kann auf diesem Server veröffentlicht werden)
--   **Haskell-Package**, [cabalized](http://www.haskell.org/cabal/), dokumentiert mit [Haddock](http://www.haskell.org/haddock/), inklusive Tests, Sourcecode (kann als Git-Repository auf diesem Server veröffentlicht werden)
+-   Kurzpräsentation Ihres Projektes im Rahmen des Praktikums
+-   Source-Code
+    -   muss mit [Cabal](http://www.haskell.org/cabal/) gebaut werden können,
+    -   muss mit [Haddock-Kommentaren](http://www.haskell.org/haddock/) versehen sein und
+    -   muss, mindestens in Teilen, mit [QuickCheck-](http://hackage.haskell.org/package/QuickCheck) und/oder [HUnit-Tests](http://hackage.haskell.org/package/HUnit) abgedeck sein.
+-   Der Source-Code ist in einem Git-Repository zu übergeben.
 
-### Randbedingung
-
--   Die Arbeitsteilung in einer Zweiergruppe (bzw. in der Dreiergruppe) ist beliebig, muss aber in den Ergebnissen für die Bewertung eindeutig sein. Jeder Studierende bekommt seine Note auf seinen Anteil. Die Aufteilung muss mir zum Vortrag schriftlich von allen Gruppenmitgliedern unterschrieben vorgelegt werden.
--   Ausarbeitung und Haskell-Package müssen bis zum Vortrag abgeschlossen sein.
--   Der Sourcecode ist auf Englisch zu dokumentieren.
--   Die Ausarbeitung kann in Englisch oder Deutsch verfasst sein. Die Wahl der Sprache hat keinen Einfluss auf die Benotung.
--   Anwesenheitspflicht für alle bei den Vorträgen.
+Wenn Sie mit dem FP Haskell Center arbeiten, sollten Sie zur Nutzung von Git auf einen kostenlosen akademischen Account upgraden. Ein Git-Repository kann von mir zur Verfügung gestellt werden.
 
 ### Zeitplan
 
--   bis spätestens KW 15 werden die Themen hier veröffentlicht
--   ab KW 17 Auswahl eines Themas möglich
--   bis Ende KW 20 müssen die Themen ausgewählt worden sein
--   bis Ende KW 22 muss eine kurze Beschreibung der geplanten Ergebnisse per E-Mail an [mich](mailto:ob@cs.hm.edu) gesendet werden
--   in KW 24 Konsultationstermine für Vortragende in KW 26
--   in KW 25 Konsultationstermine für Vortragende in KW 27
--   Vorträge in KW 26 und KW 27
--->
+-   Vorschlag Gruppe und Funktionalität Ihrer Web-Application bis zum 14.05.14
+-   15.05.14 Festlegung der Gruppen Funktionalität unter Rücksprache im Praktikum
+-   die folgenden Praktikumstermine dienen, zusätzlich zu Ihrer selbst
+    bestimmten Arbeitszeit, der selbstständigen Implementierung
+    Ihres Projektes. Ich stehe dabei selbstverständlich
+    zur Unterstützung zur Verfügung.
+-   26.06.14: Kurzpräsentation Ihrer Projekte
+-   30.06.14, 23:59: spätester Übergabetermin Repository
 
 ## Klausur
 
