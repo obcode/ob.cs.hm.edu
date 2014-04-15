@@ -14,7 +14,7 @@ spätestens zum 14. Mai vor.
 -   Source-Code
     -   muss mit [Cabal](http://www.haskell.org/cabal/) gebaut werden können,
     -   muss mit [Haddock-Kommentaren](http://www.haskell.org/haddock/) versehen sein und
-    -   muss, mindestens in Teilen, mit [QuickCheck-](http://hackage.haskell.org/package/QuickCheck) und/oder [HUnit-Tests](http://hackage.haskell.org/package/HUnit) abgedeck sein.
+    -   muss, mindestens in Teilen, mit [QuickCheck-](http://hackage.haskell.org/package/QuickCheck) und/oder [HUnit-Tests](http://hackage.haskell.org/package/HUnit) abgedeckt sein.
 -   Der Source-Code ist in einem Git-Repository zu übergeben.
 
 Wenn Sie mit dem FP Haskell Center arbeiten, sollten Sie zur Nutzung von Git auf einen kostenlosen akademischen Account upgraden. Ein Git-Repository kann von mir zur Verfügung gestellt werden.
