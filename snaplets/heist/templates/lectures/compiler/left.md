@@ -24,13 +24,12 @@ Teilgruppe 1
 
     -   02.04.14 [Blatt 1](/docs/lectures/compiler/html/Blatt01.html) ([PDF](/docs/lectures/compiler/pdf/Blatt01.pdf))
     -   16.04.14 [Blatt 2](/docs/lectures/compiler/html/Blatt02.html) ([PDF](/docs/lectures/compiler/pdf/Blatt02.pdf))
-    -   23.04.14
-    -   07.05.14
-    -   14.05.14
-    -   21.05.14
-    -   28.05.14
-    -   04.06.14
-    -   11.06.14
+    -   07.05.14 Blatt 3
+    -   14.05.14 Blatt 4
+    -   21.05.14 Blatt 5
+    -   28.05.14 Blatt 6
+    -   04.06.14 ?
+    -   11.06.14 Blatt 7
     -   18.06.14 [Projektvorstellungen](https://redmine.cs.hm.edu/projects/2014-braun-compiler/wiki/Termine_Vorstellung_Compiler-Projekt)
     -   25.06.14 [Projektvorstellungen](https://redmine.cs.hm.edu/projects/2014-braun-compiler/wiki/Termine_Vorstellung_Compiler-Projekt)
     -   02.07.14 [Projektvorstellungen](https://redmine.cs.hm.edu/projects/2014-braun-compiler/wiki/Termine_Vorstellung_Compiler-Projekt)
@@ -40,11 +39,11 @@ Teilgruppe 2
 
     -   27.03.14 [Blatt 1](/docs/lectures/compiler/html/Blatt01.html) ([PDF](/docs/lectures/compiler/pdf/Blatt01.pdf))
     -   03.04.14 [Blatt 2](/docs/lectures/compiler/html/Blatt02.html) ([PDF](/docs/lectures/compiler/pdf/Blatt02.pdf))
-    -   24.04.14
-    -   08.05.14
-    -   15.05.14
-    -   22.05.14
-    -   05.06.14
+    -   24.04.14 Blatt 3
+    -   08.05.14 Blatt 4
+    -   15.05.14 Blatt 5
+    -   22.05.14 Blatt 6
+    -   05.06.14 Blatt 7
     -   12.06.14 [Projektvorstellungen](https://redmine.cs.hm.edu/projects/2014-braun-compiler/wiki/Termine_Vorstellung_Compiler-Projekt)
     -   26.06.14 [Projektvorstellungen](https://redmine.cs.hm.edu/projects/2014-braun-compiler/wiki/Termine_Vorstellung_Compiler-Projekt)
     -   *03.07.14*, fällt voraussichtlich aus
