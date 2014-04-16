@@ -1,6 +1,6 @@
 ## Leistungsnachweis
 
-Für den Schein ist in Zweiergruppen einen Compiler in Haskell zu programmieren, der
+Für den Schein ist in Zweiergruppen ein Compiler in Haskell zu programmieren, der
 [Markdown](http://daringfireball.net/projects/markdown/) in HTML übersetzt. Im Rahmen der
 Praktikumstermine gegen Ende des Semesters muss das Ergebnis den Kommilitonen und mir
 vorgestellt werden. Pro Zweiergruppe sind inklusive Fragen etwa 15 Minuten eingeplant. Die
