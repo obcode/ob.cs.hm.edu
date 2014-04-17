@@ -6,7 +6,7 @@ Praktikumstermine gegen Ende des Semesters muss das Ergebnis den Kommilitonen un
 vorgestellt werden. Pro Zweiergruppe sind inklusive Fragen etwa 15 Minuten eingeplant. Die
 Terminvergabe findet im Wiki des
 [Redmine-Projekts](https://redmine.cs.hm.edu/projects/2014-braun-compiler/wiki/Termine_Vorstellung_Compiler-Projekt)
-statt.
+statt. Ein Dokument mit Anforderungen steht als [HTML](/docs/lectures/compiler/html/Leistungsnachweis.html) bzw. als [PDF](/docs/lectures/compiler/pdf/Leistungsnachweis.pdf) zur Verfügung.
 
 ## Klausur
 
