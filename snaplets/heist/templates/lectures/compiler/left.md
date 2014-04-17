@@ -23,7 +23,7 @@ Teilgruppe 1
 :   Mittwochs, 10:00 - 11:30, R1.009
 
     -   02.04.14 [Blatt 1](/docs/lectures/compiler/html/Blatt01.html) ([PDF](/docs/lectures/compiler/pdf/Blatt01.pdf))
-    -   16.04.14 [Blatt 2](/docs/lectures/compiler/html/Blatt02.html) ([PDF](/docs/lectures/compiler/pdf/Blatt02.pdf))
+    -   16.04.14 [Blatt 2](/docs/lectures/compiler/html/Blatt02.html) ([PDF](/docs/lectures/compiler/pdf/Blatt02.pdf), [Lösung als Yesod Web Site](https://www.fpcomplete.com/user/obcode/compiler/yesod-web-site-f-r-den-ea-blatt-2))
     -   07.05.14 Blatt 3
     -   14.05.14 Blatt 4
     -   21.05.14 Blatt 5
