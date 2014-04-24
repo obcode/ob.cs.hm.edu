@@ -16,7 +16,7 @@
         <div id="content">
           <div class="container">
               <div class="row">
-                  <div class="span6">
+                  <div class="span4">
                       <a href="http://cs.hm.edu/">Fakultät für Informatik und Mathematik</a><br>
                       <a href="http://hm.edu/">Hochschule München</a><br>
                       Lothstr. 64<br>
@@ -42,7 +42,7 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'">'+e+'<\/'+'a'+'>');
                       Fingerprint: 6A3B 042A 732E 17E4 B6E7  3EAF C0B1 6B7D EF25 B1BA
                       <br>
                   </div>
-                  <div class="span6">
+                  <div class="span4">
                       <div class="txt-middle">
                         <a href="http://twitter.com/obcode"><img
                             src="/img/Twitter.png" alt="Twitter" /></a> •
@@ -52,15 +52,14 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'">'+e+'<\/'+'a'+'>');
                         <a href="https://github.com/obcode"><img
                             src="/img/Github.png" alt="Github" /></a> •
                         <a href="http://www.linkedin.com/in/obcode"><img
-                            src="/img/LinkedIn.png" alt="LinkedIn" /></a> •
-                        <a href="http://webchat.freenode.net?channels=%23%23terraform">IRC</a> •
-                        <a href="skype:obcode"><img src="/img/Skype.png"
-                            alt="Skype" /></a>
-                        <br><br><br><br>
+                            src="/img/LinkedIn.png" alt="LinkedIn" /></a>
+                        <br><br><br>
+                        <code>obcode at <a href="http://webchat.freenode.net?channels=%23%23terraform">freenode</a></code>
+                        <br><br><br>
                         <a href="http://www.haskellers.com/user/obcode/">
                           <img src="http://www.haskellers.com/static/badge.png" alt="I'm a Haskeller" />
                         </a>
-                        <br><br><br><br>
+                        <br><br><br>
                         <a href="http://scala.obraun.net/">
                               <img src="/img/Scala.jpg"
                                    alt="Scala" />
@@ -71,6 +70,10 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'">'+e+'<\/'+'a'+'>');
                                    alt="OSGi f&uuml;r Praktiker" />
                           </a>
                       </div>
+                  </div>
+                  <div class="span4">
+<a class="twitter-timeline" href="https://twitter.com/obcode" data-widget-id="249973396522287104">Tweets by @obcode</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
                   </div>
               </div>
           </div>
