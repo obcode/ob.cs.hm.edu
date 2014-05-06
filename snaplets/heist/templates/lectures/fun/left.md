@@ -9,7 +9,7 @@ Dienstags, 15:15 - 16:45, R0.006
 -   15.04.14 [LYAH: Tuples](http://learnyouahaskell.com/starting-out#tuples)
 -   29.04.14 [LYAH: Syntax in Functions](http://learnyouahaskell.com/syntax-in-functions)
 -   06.05.14 [LYAH: Recursion](http://learnyouahaskell.com/recursion)
--   13.05.14
+-   13.05.14 [LYAH: Higher order functions](http://learnyouahaskell.com/higher-order-functions)
 -   20.05.14
 -   27.05.14
 -   03.06.14
