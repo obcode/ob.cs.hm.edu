@@ -1,11 +1,9 @@
 ## Studienarbeit
 
-Als zu benotende Studienarbeit müssen Sie in Zweiergruppen (Ausnahmefälle: alleine oder zu dritt, mit mir besprochen) eine Web-Application mit dem [Yesod Web Framework](http://www.yesodweb.com/) erstellen.
+Als zu benotende Studienarbeit müssen Sie in Zweiergruppen (Ausnahmefälle: alleine oder zu dritt, mit mir besprochen) eine Web-Application mit dem [Yesod Web Framework](http://www.yesodweb.com/) erstellen. Alternativ dazu können Sie auch
+eine Command-Line-App schreiben.
 
-Wir werden dazu ab dem 3. Praktikumstermin langsam beginnen mit Yesod
-zu arbeiten.
-
-Die genaue Funktionalität Ihrer Web-Application schlagen Sie mir bis
+Die genaue Funktionalität Ihrer Application schlagen Sie mir bis
 spätestens zum 14. Mai vor.
 
 ### Geforderte Ergebnisse:
