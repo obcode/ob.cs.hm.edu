@@ -20,7 +20,7 @@ wird ohne Hilfsmittel geschrieben.
 
 #### Haskell
 
--   [FP Haskell Center](https://www.fpcomplete.com/ide)
+-   [FP Haskell Center](https://www.fpcomplete.com/)
 -   [Haskell.org](http://haskell.org/)
 
 ##### Tutorials
