@@ -25,7 +25,7 @@ Donnerstags, 15:15 - 16:45, R3.019
 -   03.04.14 [Blatt 2](/docs/lectures/fun/html/Blatt02.html) ([PDF](/docs/lectures/fun/pdf/Blatt02.pdf))
 -   24.04.14 [Blatt 3](/docs/lectures/fun/html/Blatt03.html) ([PDF](/docs/lectures/fun/pdf/Blatt03.pdf))
 -   08.05.14 [Blatt 4](/docs/lectures/fun/html/Blatt04.html) ([PDF](/docs/lectures/fun/pdf/Blatt04.pdf))
--   15.05.14 spätester Termin zur Festlegung der Projekte
+-   15.05.14 [Blatt 5](/docs/lectures/fun/html/Blatt05.html) ([PDF](/docs/lectures/fun/pdf/Blatt05.pdf))
 -   22.05.14 Projektarbeit
 -   05.06.14 Projektarbeit
 -   12.06.14 Projektarbeit
