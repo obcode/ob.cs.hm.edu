@@ -16,7 +16,7 @@ wird ohne Hilfsmittel geschrieben.
 
 ## Links
 
--   [Redmine-Projekt](https://redmine.cs.hm.edu/projects/2014-braun-funktionale-programmierung)
+-   [Redmine-Projekt](https://redmine.cs.hm.edu/projects/2014-braun-compiler)
 
 #### Haskell
 
