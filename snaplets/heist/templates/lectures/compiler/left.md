@@ -9,14 +9,12 @@ Donnerstags, 10:00 - 11:30, R1.006
         [Scanners](/docs/lectures/compiler/html/02_Scanners.html) ([Slides](/docs/lectures/compiler/presentation/02_Scanners.html), [PDF](/docs/lectures/compiler/pdf/02_Scanners.pdf), [Source](https://github.com/obcode/compiler/blob/master/02_Scanners.txt))
 -   24.04.14 [Fortsetzung Scanners](/docs/lectures/compiler/presentation/02_Scanners.html#(10))
 -   08.05.14 [Fortsetzung Scanners](/docs/lectures/compiler/presentation/02_Scanners.html#(25))
--   15.05.14 [Fortsetzung Scanners](/docs/lectures/compiler/presentation/02_Scanners.   
-html#(33))
+-   15.05.14 [Fortsetzung Scanners](/docs/lectures/compiler/presentation/02_Scanners.html#(33))
 -   22.05.14
 -   05.06.14
 -   12.06.14
 -   26.06.14
--   *03.07.14*, fällt voraussichtlich aus
--   <s>10.07.14</s> bereits Prüfungen
+-   03.07.14
 
 ## Praktikum
 
@@ -27,10 +25,10 @@ Teilgruppe 1
     -   16.04.14 [Blatt 2](/docs/lectures/compiler/html/Blatt02.html) ([PDF](/docs/lectures/compiler/pdf/Blatt02.pdf), [Lösung als Yesod Web Site](https://www.fpcomplete.com/user/obcode/compiler/yesod-web-site-f-r-den-ea-blatt-2))
     -   07.05.14 [Blatt 3](/docs/lectures/compiler/html/Blatt03.html) ([PDF](/docs/lectures/compiler/pdf/Blatt03.pdf))
     -   14.05.14 [Blatt 4](/docs/lectures/compiler/html/Blatt04.html) ([PDF](/docs/lectures/compiler/pdf/Blatt04.pdf))
-    -   21.05.14 Blatt 5
-    -   28.05.14 Blatt 6
-    -   04.06.14 ?
-    -   11.06.14 Blatt 7
+    -   21.05.14 [Blatt 5](/docs/lectures/compiler/html/Blatt05.html) ([PDF](/docs/lectures/compiler/pdf/Blatt05.pdf))
+    -   28.05.14 Projektarbeit
+    -   04.06.14 Projektarbeit
+    -   11.06.14 Projektarbeit
     -   18.06.14 [Projektvorstellungen](https://redmine.cs.hm.edu/projects/2014-braun-compiler/wiki/Termine_Vorstellung_Compiler-Projekt)
     -   25.06.14 [Projektvorstellungen](https://redmine.cs.hm.edu/projects/2014-braun-compiler/wiki/Termine_Vorstellung_Compiler-Projekt)
     -   02.07.14 [Projektvorstellungen](https://redmine.cs.hm.edu/projects/2014-braun-compiler/wiki/Termine_Vorstellung_Compiler-Projekt)
@@ -42,9 +40,9 @@ Teilgruppe 2
     -   03.04.14 [Blatt 2](/docs/lectures/compiler/html/Blatt02.html) ([PDF](/docs/lectures/compiler/pdf/Blatt02.pdf))
     -   24.04.14 [Blatt 3](/docs/lectures/compiler/html/Blatt03.html) ([PDF](/docs/lectures/compiler/pdf/Blatt03.pdf))
     -   08.05.14 [Blatt 4](/docs/lectures/compiler/html/Blatt04.html) ([PDF](/docs/lectures/compiler/pdf/Blatt04.pdf))
-    -   15.05.14 Blatt 5
-    -   22.05.14 Blatt 6
-    -   05.06.14 Blatt 7
+    -   15.05.14 [Blatt 5](/docs/lectures/compiler/html/Blatt05.html) ([PDF](/docs/lectures/compiler/pdf/Blatt05.pdf))
+    -   22.05.14 Projektarbeit
+    -   05.06.14 Projektarbeit
     -   12.06.14 [Projektvorstellungen](https://redmine.cs.hm.edu/projects/2014-braun-compiler/wiki/Termine_Vorstellung_Compiler-Projekt)
     -   26.06.14 [Projektvorstellungen](https://redmine.cs.hm.edu/projects/2014-braun-compiler/wiki/Termine_Vorstellung_Compiler-Projekt)
-    -   *03.07.14*, fällt voraussichtlich aus
+    -   03.07.14
