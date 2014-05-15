@@ -1,12 +1,18 @@
 ## Studienarbeit
 
-Als zu benotende Studienarbeit müssen Sie in Zweiergruppen (Ausnahmefälle: alleine oder zu dritt, mit mir besprochen) eine Web-Application mit dem [Yesod Web Framework](http://www.yesodweb.com/) erstellen. Alternativ dazu können Sie auch
-eine Command-Line-App schreiben.
+Als zu benotende Studienarbeit müssen Sie in Zweiergruppen (Ausnahmefälle: alleine oder zu dritt, mit mir besprochen)
 
-Die genaue Funktionalität Ihrer Application schlagen Sie mir bis
-spätestens zum 14. Mai vor.
+-   eine Haskell-Anwendung schreiben oder
+-   ein interessantes Haskell-Package/-Framework/... vorstellen.
+
+Beispiele für eine Haskell-Anwendung könnte eine Verwaltungssoftware (ähnlich dem Moviestore von den Aufgabenblättern), ein Spiel, eine WebApp sein.
+
+Interessante Themen für die Vorstellung sind z.B. die Haskell-Webframeworks Yesod, Snap oder HappStack,
+Pandoc als Library, oder Packages wie `lens`, `aeson`, `conduit` oder `distributed-process`.
 
 ### Geforderte Ergebnisse:
+
+#### Haskell-Anwendung
 
 -   Kurzpräsentation Ihres Projektes im Rahmen des Praktikums
 -   Source-Code
@@ -15,18 +21,25 @@ spätestens zum 14. Mai vor.
     -   muss, mindestens in Teilen, mit [QuickCheck-](http://hackage.haskell.org/package/QuickCheck) und/oder [HUnit-Tests](http://hackage.haskell.org/package/HUnit) abgedeckt sein.
 -   Der Source-Code ist in einem Git-Repository zu übergeben.
 
-Wenn Sie mit dem FP Haskell Center arbeiten, sollten Sie zur Nutzung von Git auf einen kostenlosen akademischen Account upgraden. Ein Git-Repository kann von mir zur Verfügung gestellt werden.
+Wenn Sie mit dem FP Haskell Center arbeiten, sollten Sie zur Nutzung von Git auf einen kostenlosen akademischen Account upgraden. Ein Git-Repository kann von mir zur Verfügung gestellt werden. Sprechen Sie mich einfach darauf an.
+
+#### Vorstellung eines Package/Frameworks/...
+
+-   Kurzpräsentation des Package/Frameworks/... im Rahmen des Praktikums
+-   BlogPost/Wiki-Seite in Redmine oder anderem Blog/Wiki
+-   selbst programmierter Beispielcode der die Nutzung des Package/Frameworks/... zeigt
+    der Code kann an den BlogPost/Wikieintrag angehängt werden.
+
 
 ### Zeitplan
 
--   Vorschlag Gruppe und Funktionalität Ihrer Web-Application bis zum 14.05.14
--   15.05.14 Festlegung der Gruppen Funktionalität unter Rücksprache im Praktikum
+-   Vorschlag Gruppe und Funktionalität Ihrer Web-Application bis zum 21.05.14 in [Redmine](https://redmine.cs.hm.edu/projects/2014-braun-funktionale-programmierung?jump=welcome)
 -   die folgenden Praktikumstermine dienen, zusätzlich zu Ihrer selbst
     bestimmten Arbeitszeit, der selbstständigen Implementierung
     Ihres Projektes. Ich stehe dabei selbstverständlich
     zur Unterstützung zur Verfügung.
--   26.06.14: Kurzpräsentation Ihrer Projekte
--   30.06.14, 23:59: spätester Übergabetermin Repository
+-   03.07.14: Kurzpräsentation Ihrer Projekte
+-   06.07.14, 23:59: spätester Übergabetermin Repository bzw. BlogPost
 
 ## Klausur
 

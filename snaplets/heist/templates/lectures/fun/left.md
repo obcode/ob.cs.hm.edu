@@ -29,8 +29,9 @@ Donnerstags, 15:15 - 16:45, R3.019
 -   22.05.14 Projektarbeit
 -   05.06.14 Projektarbeit
 -   12.06.14 Projektarbeit
--   26.06.14 Kurzpräsentationen der Projekte
--   *03.07.14*, fällt voraussichtlich aus
+-   26.06.14 Projektarbeit
+-   03.07.14 Kurzpräsentationen der Projekte
+
 
 ## Links
 
