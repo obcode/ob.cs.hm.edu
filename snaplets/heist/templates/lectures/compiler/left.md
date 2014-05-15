@@ -10,7 +10,7 @@ Donnerstags, 10:00 - 11:30, R1.006
 -   24.04.14 [Fortsetzung Scanners](/docs/lectures/compiler/presentation/02_Scanners.html#(10))
 -   08.05.14 [Fortsetzung Scanners](/docs/lectures/compiler/presentation/02_Scanners.html#(25))
 -   15.05.14 [Fortsetzung Scanners](/docs/lectures/compiler/presentation/02_Scanners.html#(33)), [Parsers](/docs/lectures/compiler/html/03_Parsers.html) ([Slides](/docs/lectures/compiler/presentation/03_Parsers.html), [PDF](/docs/lectures/compiler/pdf/03_Parsers.pdf), [Source](https://github.com/obcode/compiler/blob/master/03_Parsers.txt))
--   22.05.14
+-   22.05.14 [Fortsetzung Parsers](http://ob.cs.hm.edu/docs/lectures/compiler/presentation/03_Parsers.html#(11))
 -   05.06.14
 -   12.06.14
 -   26.06.14
