@@ -57,4 +57,4 @@ wird ohne Hilfsmittel geschrieben.
 -   Brian O'Sullivan et al., [Real World Haskell](http://book.realworldhaskell.org/read/), O'Reilly, 2008.
 -   Miran Lipavaca, [Learn You a Haskell for Great Good!](http://learnyouahaskell.com/chapters), No Starch Press, 2011.
 -   Peter Pepper & Petra Hofstedt, [Funktionale Programmierung](http://link.springer.com/book/10.1007/3-540-34796-8/page/1), Springer. 2006.
-
+-   Simon Marlow, [Parallel and Concurrent Programming in Haskell](http://chimera.labs.oreilly.com/books/1230000000929/index.html), O'Reilly, 2013.

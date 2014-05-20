@@ -12,10 +12,10 @@ Dienstags, 15:15 - 16:45, R0.006
 -   13.05.14 [LYAH: Higher order functions](http://learnyouahaskell.com/higher-order-functions)
 -   20.05.14 [LYAH: Higher order functions continued](http://learnyouahaskell.com/higher-order-functions#folds)
 -   27.05.14 [LYAH: Making our own types and typeclasses](http://learnyouahaskell.com/making-our-own-types-and-typeclasses)
--   03.06.14
--   17.06.14
--   24.06.14
--   01.07.14
+-   03.06.14 [LYAH: Input and output](http://learnyouahaskell.com/input-and-output), [Functors, Applicative Functors and Monoids](http://learnyouahaskell.com/functors-applicative-functors-and-monoids)
+-   17.06.14 [LYAH: A Fistful of Monads](http://learnyouahaskell.com/a-fistful-of-monads), [LYAH: For a few monads more](http://learnyouahaskell.com/for-a-few-monads-more)
+-   24.06.14 [Parallel and Concurrent Programming in Haskell](http://chimera.labs.oreilly.com/books/1230000000929/index.html)
+-   <s>01.07.14</s> fällt aus wegen Prüfungsbeisitz
 
 ### Praktikumstermine
 
