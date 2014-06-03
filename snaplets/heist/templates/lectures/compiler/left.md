@@ -1,17 +1,28 @@
 ## Termine und Inhalte
 
+### Folien
+
+--- ------------------------------------------------------------------------------------------ -------------------------------------------------------------------------------------------------------------------------------------------------
+1.  [Introduction](/docs/lectures/compiler/html/01_Introduction.html)                          ([Slides](/docs/lectures/compiler/presentation/01_Introduction.html), [PDF](/docs/lectures/compiler/pdf/01_Introduction.pdf), [Source](https://github.com/obcode/compiler/blob/master/01_Introduction.txt))
+2.  [Scanners](/docs/lectures/compiler/html/02_Scanners.html)                                  ([Slides](/docs/lectures/compiler/presentation/02_Scanners.html), [PDF](/docs/lectures/compiler/pdf/02_Scanners.pdf), [Source](https://github.com/obcode/compiler/blob/master/02_Scanners.txt))
+3.  [Parsers](/docs/lectures/compiler/html/03_Parsers.html)                                    ([Slides](/docs/lectures/compiler/presentation/03_Parsers.html), [PDF](/docs/lectures/compiler/pdf/03_Parsers.pdf), [Source](https://github.com/obcode/compiler/blob/master/03_Parsers.txt))
+4.  [Zwischenrepräsentationen](/docs/lectures/compiler/html/04_Zwischenrepraesentationen.html) ([Slides](/docs/lectures/compiler/presentation/04_Zwischenrepraesentationen.html), [PDF](/docs/lectures/compiler/pdf/04_Zwischenrepraesentationen.pdf), [Source](https://github.com/obcode/compiler/blob/master/04_Zwischenrepraesentationen.txt))
+--- ------------------------------------------------------------------------------------------ -------------------------------------------------------------------------------------------------------------------------------------------------
+
 ### Vorlesungstermine
 
 Donnerstags, 10:00 - 11:30, R1.006
 
--   27.03.14 [Introduction](/docs/lectures/compiler/html/01_Introduction.html) ([Slides](/docs/lectures/compiler/presentation/01_Introduction.html), [PDF](/docs/lectures/compiler/pdf/01_Introduction.pdf), [Source](https://github.com/obcode/compiler/blob/master/01_Introduction.txt))
--   03.04.14  [Fortsetzung Introduction](/docs/lectures/compiler/presentation/01_Introduction.html#(14)),
-        [Scanners](/docs/lectures/compiler/html/02_Scanners.html) ([Slides](/docs/lectures/compiler/presentation/02_Scanners.html), [PDF](/docs/lectures/compiler/pdf/02_Scanners.pdf), [Source](https://github.com/obcode/compiler/blob/master/02_Scanners.txt))
+-   27.03.14 [Introduction](/docs/lectures/compiler/presentation/01_Introduction.html)
+-   03.04.14 [Fortsetzung Introduction](/docs/lectures/compiler/presentation/01_Introduction.html#(14)),
+             [Scanners](/docs/lectures/compiler/presentation/02_Scanners.html)
 -   24.04.14 [Fortsetzung Scanners](/docs/lectures/compiler/presentation/02_Scanners.html#(10))
 -   08.05.14 [Fortsetzung Scanners](/docs/lectures/compiler/presentation/02_Scanners.html#(25))
--   15.05.14 [Fortsetzung Scanners](/docs/lectures/compiler/presentation/02_Scanners.html#(33)), [Parsers](/docs/lectures/compiler/html/03_Parsers.html) ([Slides](/docs/lectures/compiler/presentation/03_Parsers.html), [PDF](/docs/lectures/compiler/pdf/03_Parsers.pdf), [Source](https://github.com/obcode/compiler/blob/master/03_Parsers.txt))
+-   15.05.14 [Fortsetzung Scanners](/docs/lectures/compiler/presentation/02_Scanners.html#(33)),
+             [Parsers](/docs/lectures/compiler/presentation/03_Parsers.html), [PDF](/docs/lectures/compiler/pdf/03_Parsers.pdf)
 -   22.05.14 [Fortsetzung Parsers](http://ob.cs.hm.edu/docs/lectures/compiler/presentation/03_Parsers.html#(11))
--   05.06.14 [Fortsetzung Parsers](http://ob.cs.hm.edu/docs/lectures/compiler/presentation/03_Parsers.html#(25))
+-   05.06.14 [Fortsetzung Parsers](http://ob.cs.hm.edu/docs/lectures/compiler/presentation/03_Parsers.html#(25)),
+             [Zwischenrepräsentationen](/docs/lectures/compiler/presentation/04_Zwischenrepraesentationen.html)
 -   12.06.14
 -   26.06.14
 -   03.07.14
