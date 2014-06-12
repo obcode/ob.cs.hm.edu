@@ -46,8 +46,8 @@ Praktikumstermine Teilgruppe 2 (TG2)
 -   11.06.14 (TG2) Gruppe 4
 -   17.06.14 (TG1) Gruppe 4
 -   12.06.14 (V) Gruppe 5
--   18.06.14 (TG2) Gruppe 5
 -   24.06.14 (TG1) Gruppe 5
+-   25.06.14 (TG2) Gruppe 5
 
 ### Epilog
 
