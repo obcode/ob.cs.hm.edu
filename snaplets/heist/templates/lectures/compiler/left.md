@@ -24,7 +24,7 @@ Donnerstags, 10:00 - 11:30, R1.006
 -   05.06.14 [Fortsetzung Parsers](http://ob.cs.hm.edu/docs/lectures/compiler/presentation/03_Parsers.html#(25)),
              [Exkurs: Swift](https://developer.apple.com/swift/)
 -   12.06.14 [Zwischenrepräsentationen](/docs/lectures/compiler/presentation/04_Zwischenrepraesentationen.html)
--   26.06.14
+-   26.06.14 [Fortsetzung Zwischenrepraesentationen](http://ob.cs.hm.edu/docs/lectures/compiler/presentation/04_Zwischenrepraesentationen.html#(17))
 -   03.07.14
 
 ## Praktikum
