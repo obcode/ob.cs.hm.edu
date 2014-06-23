@@ -7,6 +7,7 @@
 2.  [Scanners](/docs/lectures/compiler/html/02_Scanners.html)                                  ([Slides](/docs/lectures/compiler/presentation/02_Scanners.html), [PDF](/docs/lectures/compiler/pdf/02_Scanners.pdf), [Source](https://github.com/obcode/compiler/blob/master/02_Scanners.txt))
 3.  [Parsers](/docs/lectures/compiler/html/03_Parsers.html)                                    ([Slides](/docs/lectures/compiler/presentation/03_Parsers.html), [PDF](/docs/lectures/compiler/pdf/03_Parsers.pdf), [Source](https://github.com/obcode/compiler/blob/master/03_Parsers.txt))
 4.  [Zwischenrepräsentationen](/docs/lectures/compiler/html/04_Zwischenrepraesentationen.html) ([Slides](/docs/lectures/compiler/presentation/04_Zwischenrepraesentationen.html), [PDF](/docs/lectures/compiler/pdf/04_Zwischenrepraesentationen.pdf), [Source](https://github.com/obcode/compiler/blob/master/04_Zwischenrepraesentationen.txt))
+4.  [Optimierungstechniken](/docs/lectures/compiler/html/05_Optimierungstechniken.html)        ([Slides](/docs/lectures/compiler/presentation/05_Optimierungstechniken.html), [PDF](/docs/lectures/compiler/pdf/05_Optimierungstechniken.pdf), [Source](https://github.com/obcode/compiler/blob/master/05_Optimierungstechniken.txt))
 --- ------------------------------------------------------------------------------------------ -------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### Vorlesungstermine
@@ -25,7 +26,7 @@ Donnerstags, 10:00 - 11:30, R1.006
              [Exkurs: Swift](https://developer.apple.com/swift/)
 -   12.06.14 [Zwischenrepräsentationen](/docs/lectures/compiler/presentation/04_Zwischenrepraesentationen.html)
 -   26.06.14 [Fortsetzung Zwischenrepraesentationen](http://ob.cs.hm.edu/docs/lectures/compiler/presentation/04_Zwischenrepraesentationen.html#(17))
--   03.07.14
+-   03.07.14 [Optimierungstechniken](/docs/lectures/compiler/presentation/05_Optimierungstechniken.html)
 
 ## Praktikum
 
