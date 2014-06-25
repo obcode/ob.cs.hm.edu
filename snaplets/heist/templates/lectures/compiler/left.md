@@ -43,7 +43,7 @@ Teilgruppe 1
     -   11.06.14 Projektarbeit
     -   18.06.14 [Projektvorstellungen](https://redmine.cs.hm.edu/projects/2014-braun-compiler/wiki/Termine_Vorstellung_Compiler-Projekt)
     -   25.06.14 [Projektvorstellungen](https://redmine.cs.hm.edu/projects/2014-braun-compiler/wiki/Termine_Vorstellung_Compiler-Projekt)
-    -   02.07.14 [Projektvorstellungen](https://redmine.cs.hm.edu/projects/2014-braun-compiler/wiki/Termine_Vorstellung_Compiler-Projekt)
+    -   <s>02.07.14 [Projektvorstellungen](https://redmine.cs.hm.edu/projects/2014-braun-compiler/wiki/Termine_Vorstellung_Compiler-Projekt)</s>
 
 Teilgruppe 2
 :   Donnerstags, 11:45 - 13:15, R3.021
