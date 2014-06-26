@@ -51,6 +51,5 @@ Praktikumstermine Teilgruppe 2 (TG2)
 
 ### Epilog
 
--   26.06.14 (V) Auswertung, Nachbesprechung, ...
--   03.07.14 (V) Programmierparadigmen
+-   03.07.14 (V) Auswertung, Nachbesprechung, Programmierparadigmen
 
