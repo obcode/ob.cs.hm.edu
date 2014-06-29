@@ -39,7 +39,7 @@ Wenn Sie mit dem FP Haskell Center arbeiten, sollten Sie zur Nutzung von Git auf
     Ihres Projektes. Ich stehe dabei selbstverständlich
     zur Unterstützung zur Verfügung.
 -   03.07.14: Kurzpräsentation Ihrer Projekte
--   06.07.14, 23:59: spätester Übergabetermin Repository bzw. BlogPost
+-   13.07.14, 23:59: spätester Übergabetermin Repository bzw. BlogPost
 
 ## Klausur
 
