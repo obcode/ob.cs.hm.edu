@@ -27,6 +27,7 @@ Donnerstags, 10:00 - 11:30, R1.006
 -   12.06.14 [Zwischenrepräsentationen](/docs/lectures/compiler/presentation/04_Zwischenrepraesentationen.html)
 -   26.06.14 [Fortsetzung Zwischenrepraesentationen](http://ob.cs.hm.edu/docs/lectures/compiler/presentation/04_Zwischenrepraesentationen.html#(17))
 -   03.07.14 [Optimierungstechniken](/docs/lectures/compiler/presentation/05_Optimierungstechniken.html)
+             [Exkurs: Go](http://golang.org/)
 
 ## Praktikum
 
