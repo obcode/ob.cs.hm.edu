@@ -19,6 +19,7 @@
                   <li><a href="/lectures/sa" tabindex="-1">Software-Architektur</a></li>
                   <li><a href="/lectures/seiib" tabindex="-1">Softwareentwicklung I (IB)</a></li>
                   <li><a href="/lectures/seiiib" tabindex="-1">Softwareentwicklung II (IB)</a></li>
+                  <li><a href="/lectures/swengiib" tabindex="-1">Software Engineering I (IB)</a></li>
                   <li><a href="/lectures/webtech" tabindex="-1">Web-Techniken</a></li>
                   <li><a href="/lectures/webtechFK12" tabindex="-1">Web-Techniken (mit FK12)</a></li>
                 </ul>

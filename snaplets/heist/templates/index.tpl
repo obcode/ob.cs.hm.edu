@@ -20,10 +20,18 @@
           <div class="container">
             <div class="row">
                 <div class="span12">
-                    <h2>Aktuelle Lehrveranstaltungen</h2>
+                    <h2>Aktuelle Lehrveranstaltungen im Wintersemester 2014/15</h2>
                 </div>
             </div>
             <div class="row">
+                    <div class="span4">
+                          <h4 class="sub">Algorithmen und Datenstrukturen I</h4>
+                          <a class="thumbnail"
+                              href="lectures/algdat">
+                            <img alt="image" src="/img/rauchkopf.png">
+                          </a>
+                          <p><small>Klettern am Rauchkopf</small></p>
+                    </div>
                     <div class="span4">
                           <h4 class="sub">Compiler</h4>
                           <a class="thumbnail"
@@ -33,20 +41,12 @@
                           <p><small>Blick von Fuerteventura auf den Atlantik</small></p>
                     </div>
                     <div class="span4">
-                          <h4 class="sub">Funktionale Programmierung</h4>
+                          <h4 class="sub">Software Engineering I</h4>
                           <a class="thumbnail"
-                              href="lectures/fun">
-                            <img alt="image" src="/img/Dreitorspitze.jpg">
+                              href="lectures/swengiib">
+                            <img alt="image" src="/img/Chiemsee.png">
                           </a>
-                          <p><small>Blick von der Dreitorspitze zum Schachen</small></p>
-                    </div>
-                    <div class="span4">
-                          <h4 class="sub">Software-Architektur</h4>
-                          <a class="thumbnail"
-                              href="lectures/sa">
-                            <img alt="image" src="/img/Alpbachtal.png">
-                          </a>
-                          <p><small>Blick vom Alpbachtal ins Inntal</small></p>
+                          <p><small>Blick von der Kampenwand auf den Chiemsee</small></p>
                     </div>
                     <hr class="dashed">
                   </div>
