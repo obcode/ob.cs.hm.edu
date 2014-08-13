@@ -9,7 +9,6 @@
           <a class="brand" href="/">ob.cs.hm.edu</a>
           <div class="nav-collapse collapse">
             <ul class="nav pull-right animated">
-              <li class="home"><a href="/">Home</a></li>
               <li class="dropdown">
                 <a class="dropdown-toggle" data-toggle="dropdown" role="button" href="/lectures">Lehrveranstaltungen <b class="caret"></b></a>
                 <ul class="dropdown-menu" role="menu">
@@ -22,6 +21,12 @@
                   <li><a href="/lectures/swengiib" tabindex="-1">Software Engineering I (IB)</a></li>
                   <li><a href="/lectures/webtech" tabindex="-1">Web-Techniken</a></li>
                   <li><a href="/lectures/webtechFK12" tabindex="-1">Web-Techniken (mit FK12)</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" role="button" href="/misc">Misc <b class="caret"></b></a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="/misc/git" tabindex="-1">Git</a></li>
                 </ul>
               </li>
               <!-- <li><a href="/theses">Abschlussarbeiten</a></li> -->
