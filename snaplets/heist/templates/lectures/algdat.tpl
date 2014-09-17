@@ -6,7 +6,7 @@
             <div class="row">
                   <div class="span7">
                       <h1><a href="http://fi.cs.hm.edu/fi/rest/public/modul/title/algorithmenunddatenstruktureni">Algorithmen und Datenstrukturen I</a></h1>
-                      <h4>Wintersemester 2013/14</h4>
+                      <h4>Wintersemester 2014/15</h4>
                   </div>
                   <div class="span1">&nbsp;
                   </div>
