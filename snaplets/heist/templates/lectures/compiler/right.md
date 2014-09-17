@@ -1,12 +1,8 @@
 ## Leistungsnachweis
 
-Für den Schein ist in Zweiergruppen ein Compiler in Haskell zu programmieren, der
-[Markdown](http://daringfireball.net/projects/markdown/) in HTML übersetzt. Im Rahmen der
-Praktikumstermine gegen Ende des Semesters muss das Ergebnis den Kommilitonen und mir
-vorgestellt werden. Pro Zweiergruppe sind inklusive Fragen etwa 15 Minuten eingeplant. Die
-Terminvergabe findet im Wiki des
-[Redmine-Projekts](https://redmine.cs.hm.edu/projects/2014-braun-compiler/wiki/Termine_Vorstellung_Compiler-Projekt)
-statt. Ein Dokument mit Anforderungen steht als [HTML](/docs/lectures/compiler/html/Leistungsnachweis.html) bzw. als [PDF](/docs/lectures/compiler/pdf/Leistungsnachweis.pdf) zur Verfügung.
+Für den Schein ist in Zweiergruppen ein Compiler in Haskell zu programmieren.
+Genauere Informationen über Aufgabe und Umfang bekommen Sie zu einem späteren
+Termin (siehe [Moodle](https://moodle.hm.edu/course/view.php?id=5448))
 
 ## Klausur
 
@@ -19,8 +15,6 @@ Beispielaufgaben für die Klausur könnten folgendermaßen aussehen:
 [PDF](/docs/lectures/compiler/pdf/AufgabenKlausur.pdf)
 
 ## Links
-
--   [Redmine-Projekt](https://redmine.cs.hm.edu/projects/2014-braun-compiler)
 
 #### Haskell
 
@@ -44,6 +38,7 @@ Beispielaufgaben für die Klausur könnten folgendermaßen aussehen:
 
 ##### Markdown
 
+-   [CommonMark](http://commonmark.org/)
 -   [Markdown](http://daringfireball.net/projects/markdown/)
 -   [Pandoc](http://johnmacfarlane.net/pandoc/)
 
