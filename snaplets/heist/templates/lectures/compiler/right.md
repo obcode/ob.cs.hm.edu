@@ -10,9 +10,8 @@ Gegenstand der Klausur ist der gesamte in Vorlesung und Praktikum
 behandelte Stoff, soweit nicht anders vereinbart. Die Klausur
 wird ohne Hilfsmittel geschrieben.
 
-Beispielaufgaben für die Klausur könnten folgendermaßen aussehen:
-[HTML](/docs/lectures/compiler/html/AufgabenKlausur.html),
-[PDF](/docs/lectures/compiler/pdf/AufgabenKlausur.pdf)
+
+-   Klausur vom 22.07.14: [PDF](/docs/lectures/compiler/pdf/KlausurSS2014.pdf)
 
 ## Links
 
