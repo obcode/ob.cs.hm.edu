@@ -38,6 +38,8 @@ wird ohne Hilfsmittel geschrieben.
 ##### Markdown
 
 -   [CommonMark](http://commonmark.org/)
--   [Markdown](http://daringfireball.net/projects/markdown/)
+-   [stmd.js dingus](http://jgm.github.io/stmd/js/)
+-   [Babelmark 2](http://johnmacfarlane.net/babelmark2/)
 -   [Pandoc](http://johnmacfarlane.net/pandoc/)
+-   [Markdown](http://daringfireball.net/projects/markdown/)
 
