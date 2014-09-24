@@ -8,9 +8,9 @@
 
 Zulassungsvoraussetzung zur Prüfung ist ein erfolgreich bestandener Leistungsnachweis.
 
-Für den Schein müssen Sie folgendes erfolgreich Bearbeiten:
+Für den Schein müssen Sie folgendes erfolgreich bearbeiten:
 
--   Aufgaben zu den Lesetexten in Moodle
+-   Aufgaben zu Lesetexten in Moodle
 -   Semesteraufgabe (C++-Programmierprojekt, in Zweierteams)
 -   Code-Review einer anonymisierten Lösung der Semesteraufgabe
 
