@@ -18,3 +18,7 @@
 
     Die genauen Praktikumsinhalte entnehmen Sie dem Moodle-Kurs.
 
+## Aufgabenblätter
+
+-   Blatt 1 ([HTML](/docs/lectures/algdat/html/Blatt01.html),
+             [PDF](/docs/lectures/algdat/pdf/Blatt01.pdf))
