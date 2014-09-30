@@ -20,5 +20,5 @@
 
 ## Aufgabenblätter
 
--   Blatt 1 ([HTML](/docs/lectures/algdat/html/Blatt01.html),
-             [PDF](/docs/lectures/algdat/pdf/Blatt01.pdf))
+-   Blatt 0 ([HTML](/docs/lectures/algdat/html/Blatt00.html),
+             [PDF](/docs/lectures/algdat/pdf/Blatt00.pdf))
