@@ -23,3 +23,7 @@
 4.  [Optimierungstechniken](/docs/lectures/compiler/html/05_Optimierungstechniken.html)        ([Slides](/docs/lectures/compiler/presentation/05_Optimierungstechniken.html), [PDF](/docs/lectures/compiler/pdf/05_Optimierungstechniken.pdf), [Source](https://github.com/obcode/compiler/blob/master/05_Optimierungstechniken.txt))
 --- ------------------------------------------------------------------------------------------ -------------------------------------------------------------------------------------------------------------------------------------------------
 
+## Aufgabenblätter
+
+-   Blatt 0 ([HTML](/docs/lectures/compiler/html/Blatt00.html),
+             [PDF](/docs/lectures/compiler/pdf/Blatt00.pdf))
