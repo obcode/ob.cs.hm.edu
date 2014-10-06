@@ -4,7 +4,7 @@ Für die Studienarbeit ist in Zweiergruppen ein Projekt mit dem
 [Play Framework](https://www.playframework.com/) in [Scala](http://scala-lang.org/)
 anzufertigen.
 Genauere Informationen über Aufgabe und Umfang bekommen Sie zu einem späteren
-Termin (siehe [Moodle](https://moodle.hm.edu/course/view.php?id=5449))
+Termin (siehe [Moodle](https://moodle.hm.edu/course/view.php?id=5449)).
 
 ## Klausur
 
@@ -13,8 +13,6 @@ behandelte Stoff, soweit nicht anders vereinbart. Die Klausur
 wird ohne Hilfsmittel geschrieben.
 
 ## Links
-
-#### Scala
 
 -   [Scala](http://scala-lang.org/)
 -   [Typesafe](https://typesafe.com/)
