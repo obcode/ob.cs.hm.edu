@@ -24,3 +24,5 @@
              [PDF](/docs/lectures/algdat/pdf/Blatt00.pdf))
 -   Blatt 1 ([HTML](/docs/lectures/algdat/html/Blatt01.html),
              [PDF](/docs/lectures/algdat/pdf/Blatt01.pdf))
+-   Blatt 2 ([HTML](/docs/lectures/algdat/html/Blatt02.html),
+             [PDF](/docs/lectures/algdat/pdf/Blatt02.pdf))
