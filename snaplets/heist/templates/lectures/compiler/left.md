@@ -9,7 +9,8 @@
 
     Die genauen Vorlesungsinhalte entnehmen Sie dem Moodle-Kurs.
 
--   Praktikumstermine (donnerstags 13:30-15:00, R3.021) beginnen am 09.10.2013
+-   Praktikumstermine (dienstags 17:00 - 18:30 und donnerstags 13:30-15:00, R3.021) beginnen am
+    07.10.2013
 
     Die genauen Praktikumsinhalte entnehmen Sie dem Moodle-Kurs.
 
