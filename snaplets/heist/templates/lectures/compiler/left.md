@@ -29,3 +29,5 @@
              [PDF](/docs/lectures/compiler/pdf/Blatt00.pdf))
 -   Blatt 1 ([HTML](/docs/lectures/compiler/html/Blatt01.html),
              [PDF](/docs/lectures/compiler/pdf/Blatt01.pdf))
+-   Blatt 2 ([HTML](/docs/lectures/compiler/html/Blatt02.html),
+             [PDF](/docs/lectures/compiler/pdf/Blatt02.pdf))
