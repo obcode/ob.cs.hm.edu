@@ -32,3 +32,5 @@
              [PDF](/docs/lectures/compiler/pdf/Blatt01.pdf))
 -   Blatt 2 ([HTML](/docs/lectures/compiler/html/Blatt02.html),
              [PDF](/docs/lectures/compiler/pdf/Blatt02.pdf))
+-   Blatt 3 ([HTML](/docs/lectures/compiler/html/Blatt03.html),
+             [PDF](/docs/lectures/compiler/pdf/Blatt03.pdf))
