@@ -1,5 +1,5 @@
 <apply template="base">
-<bind tag="subtitle">: Compiler</bind>
+<bind tag="subtitle">: Software Engineering I (IB)</bind>
 
         <div id="landing">
           <div class="container">
