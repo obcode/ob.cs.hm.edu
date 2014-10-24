@@ -5,13 +5,15 @@
 UPLOAD_HOST=	ob.cs.hm.edu
 UPLOAD_DIR=	www
 
-push:
-	git pull
-	git push
-	ssh -t ob.cs.hm.edu "cd www && git pull && sudo /home/obraun/bin/restartWWW.sh"
+all::
+	ghc --make -threaded site.hs
+	./site rebuild
 
-# needs https://github.com/alandipert/fswatch
-watch:
-	cabal run &
-	sleep 10
-	fswatch snaplets 'curl http://0.0.0.0:8000/admin/reload'
+watch: all
+	./site watch
+
+push: all
+	rsync -avz _site/ $(UPLOAD_HOST):$(UPLOAD_DIR)
+
+clean:
+	rm -rf _cache _site site site.hi site.o
