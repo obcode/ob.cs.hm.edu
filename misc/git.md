@@ -171,6 +171,33 @@ pushen sollen.
 Ob ich Ihnen weitere Kommandos zur Verfügung stelle, erfahren Sie jeweils in der
 Lehrveranstaltung.
 
+## Feedback in den Repositories
+
+Sie bekommen von mir auf Ihre Fragen oder wenn mir etwas auffällt Feedback im
+`feedback`-Branch. In diesem Branch können Sie in den Remote-Repositories nichts
+ändern. Wenn Sie lokal dort etwas committen, können Sie es nicht mehr pushen!
+Also **nur lesen**! Sie können natürlich etwaige Änderungen, die ich gemacht
+habe mit `git merge` in Ihre Branches mergen.
+
+Mit `git pull` haben Sie den Feedback-Branch automatisch in Ihrem Repository, aber
+zunächst nur als Remote-Branche (siehe `git branch -a`).
+
+Starten Sie die Arbeit an Ihrem Projekt **immer** mit den folgenden beiden Kommandos:
+
+    git pull
+    git show-branch origin/feedback
+
+Das zweite Kommando zeigt Ihnen die Commit-Message des neuesten Commits im
+Feedback-Branch. Sollten Sie den dazu gehörigen Commit noch nicht kennen, wechseln
+Sie in den Feedback-Branch mit
+
+    git checkout feedback
+
+lesen Sie sich mein Feedback durch und wechseln Sie zum Arbeiten wieder in den
+Master-Branch. Beim ersten Mal wird der lokale Branch `feedback` automatisch
+erzeugt und mit `origin/feedback` verknüpft.
+
+
 ## Troubleshooting
 
 Bevor Sie sich an mich wenden, weil Sie keinen Zugriff haben, überprüfen Sie bitte
