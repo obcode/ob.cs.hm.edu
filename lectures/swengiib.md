@@ -29,6 +29,7 @@ semester: Wintersemester 2014/15
              [PDF](/lectures/swengiib/pdf/Blatt00.pdf))
 -   Blatt 1 ([HTML](/lectures/swengiib/html/Blatt01.html),
              [PDF](/lectures/swengiib/pdf/Blatt01.pdf))
+-   Blatt 2 ([PDF](/lectures/swengiib/pdf/Blatt02.pdf))
 
 </div>
 <div class="span6">
