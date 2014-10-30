@@ -41,6 +41,8 @@ semester: Wintersemester 2014/15
              [PDF](/lectures/algdat/pdf/Blatt03.pdf))
 -   Blatt 4 ([HTML](/lectures/algdat/html/Blatt04.html),
              [PDF](/lectures/algdat/pdf/Blatt04.pdf))
+-   Blatt 5 ([HTML](/lectures/algdat/html/Blatt05.html),
+             [PDF](/lectures/algdat/pdf/Blatt05.pdf))
 
 </div>
 <div class="span6">
