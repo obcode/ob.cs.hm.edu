@@ -46,6 +46,8 @@ semester: Wintersemester 2014/15
              [PDF](/lectures/compiler/pdf/Blatt03.pdf))
 -   Blatt 4 ([HTML](/lectures/compiler/html/Blatt04.html),
              [PDF](/lectures/compiler/pdf/Blatt04.pdf))
+-   Blatt 5 ([HTML](/lectures/compiler/html/Blatt05.html),
+             [PDF](/lectures/compiler/pdf/Blatt05.pdf))
 
 </div>
 <div class="span6">
