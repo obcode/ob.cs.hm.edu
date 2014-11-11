@@ -39,8 +39,9 @@ semester: Wintersemester 2014/15
 Für die Studienarbeit ist in Zweiergruppen ein Projekt mit dem
 [Play Framework](https://www.playframework.com/) in [Scala](http://scala-lang.org/)
 anzufertigen.
-Genauere Informationen über Aufgabe und Umfang bekommen Sie zu einem späteren
-Termin (siehe [Moodle](https://moodle.hm.edu/course/view.php?id=5449)).
+Genauere Informationen finden Sie hier:
+            ([HTML](/lectures/swengiib/html/Semesteraufgabe.html),
+             [PDF](/lectures/swengiib/pdf/Semesteraufgabe.pdf))
 
 ## Klausur
 
