@@ -64,6 +64,8 @@ dieser sind keine Hilfsmittel zugelassen.
 
 Der Prüfungsstoff entspricht den Kapiteln 1, 2, 3 & 5 aus dem o.a. Buch **und** C++.
 
+-   Klausur vom 22.01.2014: [PDF](/lectures/algdat/pdf/KlausurWS13.pdf)
+
 ## Links
 
 [Moodle-Kurs](https://moodle.hm.edu/course/view.php?id=5450) der Lehrveranstaltung,
