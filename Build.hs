@@ -28,4 +28,4 @@ main = shakeArgs shakeOptions{shakeFiles=".shake/"} $ do
 
     phony "push" $ do
         need ["build"]
-        cmd "rsync -avz" "_site" $ uploadHost ++ ":" ++ uploadDir
+        cmd "rsync -avz" "_site/" $ uploadHost ++ ":" ++ uploadDir
