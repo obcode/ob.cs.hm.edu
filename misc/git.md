@@ -1,6 +1,6 @@
 ---
 title: Versionskontrolle mit Git über SSH
-image: http://git-scm.com/images/logo@2x.png
+image: /img/logo@2x.png
 ---
 
 <div class="row">
