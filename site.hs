@@ -8,6 +8,10 @@ main = hakyll $ do
         route   idRoute
         compile copyFileCompiler
 
+    match "img/ico/*" $ do
+        route   idRoute
+        compile copyFileCompiler
+
     match "css/*" $ do
         route   idRoute
         compile compressCssCompiler
