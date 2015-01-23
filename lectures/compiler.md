@@ -67,7 +67,7 @@ behandelte Stoff, soweit nicht anders vereinbart. Die Klausur
 wird ohne Hilfsmittel geschrieben.
 
 
--   Klausur vom 22.07.14: [PDF](/lectures/compiler/pdf/KlausurSS2014.pdf)
+-   Klausur vom 22.07.14: [PDF](/lectures/compiler/pdf/KlausurSS14.pdf)
 
 ## Links
 
