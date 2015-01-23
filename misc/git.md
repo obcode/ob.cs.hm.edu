@@ -1,6 +1,6 @@
 ---
 title: Versionskontrolle mit Git über SSH
-image: /img/logo@2x.png
+image: /img/gitlogo.png
 ---
 
 <div class="row">
@@ -16,6 +16,8 @@ Rechner. Unter <http://git-scm.com/downloads> können Sie Git und verschiedene G
 herunterladen. Unter Windows empfiehlt sich die Verwendung von
 <http://msysgit.github.io/>. Ein nettes und kostenfreies Git-GUI für Windows und Mac
 ist [SourceTree](http://www.sourcetreeapp.com/).
+[SmartGit](http://www.syntevo.com/smartgit/) ist ähnlich, auch kostenfrei und läuft
+zudem auch unter Linux.
 
 ## Ressourcen
 
