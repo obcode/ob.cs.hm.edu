@@ -19,7 +19,7 @@ semester: Sommersemester 2015
 
     Die genauen Vorlesungsinhalte entnehmen Sie dem Moodle-Kurs.
 
--   Praktikumstermine (donnerstags 13:30-15:00, R1.009, donnerstags 15:15-16:45, R3.019)
+-   Praktikumstermine (donnerstags 15:15-16:45, R3.019, donnerstags 17:00-18:30, R1.009)
 
     Die genauen Praktikumsinhalte entnehmen Sie dem Moodle-Kurs.
 
