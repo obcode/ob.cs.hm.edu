@@ -29,7 +29,11 @@ semester: Sommersemester 2015
 
 ## Schein
 
-...
+Für den Zulassungsschein müssen Sie eine Todo-Listen-Verwaltung als Web-Applikation in
+Vierergruppen mit dem [Play Framework](https://www.playframework.com/) in der
+Programmiersprache [Scala](http://scala-lang.org/) erstellen. Die genauen
+Anforderungen entnehmen Sie dem Anforderungsdokument
+([HTML](/lectures/sa/html/WebApp.html), [PDF](/lectures/sa/pdf/WebApp.pdf)).
 
 ## Mündliche Prüfung
 
