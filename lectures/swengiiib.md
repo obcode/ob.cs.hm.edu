@@ -12,6 +12,7 @@ semester: Sommersemester 2015
 
 -   [Moodle-Kurs](https://moodle.hm.edu/course/view.php?id=5449) der Lehrveranstaltung,
     den Zugangsschlüssel erhalten Sie in der ersten Vorlesung
+-   [Redmine-Projekt](https://redmine.cs.hm.edu/) der Lehrveranstaltung
 
 ## Termine und Inhalte
 
