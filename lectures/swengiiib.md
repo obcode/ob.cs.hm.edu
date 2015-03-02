@@ -29,7 +29,11 @@ semester: Sommersemester 2015
 
 ## Studienarbeit
 
-...
+Als Studienarbeit ist in Gruppen ein Projekt mit dem [Play
+Framework](https://www.playframework.com/) in [Scala](http://scala-lang.org/)
+anzufertigen. Genauere Informationen finden Sie hier:
+([HTML](/lectures/swengiiib/html/Studienarbeit.html),
+[PDF](/lectures/swengiiib/pdf/Studienarbeit.pdf))
 
 ## Klausur
 

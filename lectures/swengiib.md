@@ -36,12 +36,11 @@ semester: Wintersemester 2014/15
 
 ## Studienarbeit
 
-Für die Studienarbeit ist in Zweiergruppen ein Projekt mit dem
-[Play Framework](https://www.playframework.com/) in [Scala](http://scala-lang.org/)
-anzufertigen.
-Genauere Informationen finden Sie hier:
-            ([HTML](/lectures/swengiib/html/Semesteraufgabe.html),
-             [PDF](/lectures/swengiib/pdf/Semesteraufgabe.pdf))
+Als Studienarbeit ist in Zweiergruppen ein Projekt mit dem [Play
+Framework](https://www.playframework.com/) in [Scala](http://scala-lang.org/)
+anzufertigen. Genauere Informationen finden Sie hier:
+([HTML](/lectures/swengiib/html/Semesteraufgabe.html),
+[PDF](/lectures/swengiib/pdf/Semesteraufgabe.pdf))
 
 ## Klausur
 
