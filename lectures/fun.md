@@ -19,13 +19,16 @@ semester: Sommersemester 2015
 
     Die genauen Vorlesungsinhalte entnehmen Sie dem Moodle-Kurs.
 
--   Praktikumstermine (mittwochs 10:00 - 11:30, R1.010A)
+-   Praktikumstermine (mittwochs 10:00 - 11:30, R2.010)
 
     Die genauen Praktikumsinhalte entnehmen Sie dem Moodle-Kurs.
 
 ## Aufgabenblätter
 
-...
+-   Blatt 0 (Git) ([HTML](/lectures/fun/html/Blatt00.html),
+             [PDF](/lectures/fun/pdf/Blatt00.pdf))
+-   Blatt 1 ([HTML](/lectures/fun/html/Blatt01.html),
+             [PDF](/lectures/fun/pdf/Blatt01.pdf))
 
 #### Haskell
 
