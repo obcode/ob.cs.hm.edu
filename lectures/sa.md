@@ -24,6 +24,11 @@ semester: Sommersemester 2015
 
     Die genauen Praktikumsinhalte entnehmen Sie dem Moodle-Kurs.
 
+## Aufgabenblätter
+
+-   Blatt 1 ([HTML](/lectures/sa/html/Blatt01.html),
+             [PDF](/lectures/sa/pdf/Blatt01.pdf))
+
 </div>
 <div class="span6">
 
