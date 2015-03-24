@@ -8,11 +8,6 @@ semester: Sommersemester 2015
 <div class="row">
 <div class="span6">
 
-## Links
-
--   [Moodle-Kurs](https://moodle.hm.edu/course/view.php?id=5992) der
-    Lehrveranstaltung, den Zugangsschlüssel erhalten Sie in der ersten Vorlesung
-
 ## Termine und Inhalte
 
 -   Vorlesungstermine (dienstags 15:15-16:45, R0.006)
@@ -29,6 +24,24 @@ semester: Sommersemester 2015
              [PDF](/lectures/fun/pdf/Blatt00.pdf))
 -   Blatt 1 ([HTML](/lectures/fun/html/Blatt01.html),
              [PDF](/lectures/fun/pdf/Blatt01.pdf))
+-   Blatt 2 ([HTML](/lectures/fun/html/Blatt02.html),
+             [PDF](/lectures/fun/pdf/Blatt02.pdf))
+
+## Folien
+
+-   Organisatorisches
+    ([Slides](/lectures/fun/presentation/00_Organisatorisches.html),
+    [HTML](/lectures/fun/html/00_Organisatorisches.html),
+    [PDF](/lectures/fun/pdf/00_Organisatorisches.pdf))
+-   Einführung
+    ([Slides](/lectures/fun/presentation/01_Introduction.html),
+    [HTML](/lectures/fun/html/01_Introduction.html),
+    [PDF](/lectures/fun/pdf/01_Introduction.pdf))
+
+## Links
+
+-   [Moodle-Kurs](https://moodle.hm.edu/course/view.php?id=5992) der
+    Lehrveranstaltung, den Zugangsschlüssel erhalten Sie in der ersten Vorlesung
 
 #### Haskell
 
