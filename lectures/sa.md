@@ -28,6 +28,8 @@ semester: Sommersemester 2015
 
 -   Blatt 1 ([HTML](/lectures/sa/html/Blatt01.html),
              [PDF](/lectures/sa/pdf/Blatt01.pdf))
+-   Blatt 2 ([HTML](/lectures/sa/html/Blatt02.html),
+             [PDF](/lectures/sa/pdf/Blatt02.pdf))
 
 </div>
 <div class="span6">
