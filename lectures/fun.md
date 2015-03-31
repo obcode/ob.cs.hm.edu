@@ -26,6 +26,8 @@ semester: Sommersemester 2015
              [PDF](/lectures/fun/pdf/Blatt01.pdf))
 -   Blatt 2 ([HTML](/lectures/fun/html/Blatt02.html),
              [PDF](/lectures/fun/pdf/Blatt02.pdf))
+-   Blatt 3 ([HTML](/lectures/fun/html/Blatt03.html),
+             [PDF](/lectures/fun/pdf/Blatt03.pdf))
 
 ## Folien
 
