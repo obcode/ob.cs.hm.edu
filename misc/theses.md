@@ -100,12 +100,9 @@ Namen der Hochschule müssen Sie anpassen (zur Erinnerung, Sie studieren
 an der *Hochschule für angewandte Wissenschaften München, Fakultät
 für Informatik und Mathematik*).
 
-Weitere schöne Anleitung zum Verfassen von Abschlussarbeiten mit
-LaTeX gibt es von [Dr. Zoom](http://drzoom.ch/project/dml/). Sehr
-empfehlenswert ist auch @Goc08. Dieses Buch ist
-in unserer Bibliothek vorhanden (in den Regalen der Lehrbuchsammlung)
-unter der Signatur “AK 39580 G576”. Außerdem ist der Titel als eBook im
-OPAC-Katalog der Bibliothek abzurufen.
+Sehr empfehlenswert ist auch @Goc08. Dieses Buch ist in unserer Bibliothek vorhanden (in den Regalen der
+Lehrbuchsammlung) unter der Signatur “AK 39580 G576”. Außerdem ist der Titel als eBook im OPAC-Katalog der
+Bibliothek abzurufen.
 
 Es lohnt sich, eine Arbeit mit LaTeX zu schreiben.
 
@@ -128,7 +125,7 @@ Fristen und Termine
     bei der Anmeldung festgelegte Termin. Eine Verlängerung ist nur aus
     Gründen, die Sie selbst nicht zu vertreten haben, möglich. Eine
     Verlängerung muss ggf. mindestens zwei Wochen vor dem Abgabetermin
-    beanzragt werden. Beachten Sie hierzu insbesondere die gültigen
+    beantragt werden. Beachten Sie hierzu insbesondere die gültigen
     Studien- und Prüfungsordnungen.
 
 2.  Die Arbeit muss persönlich im Sekretariat abgegeben werden
