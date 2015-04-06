@@ -1,5 +1,6 @@
 {-# LANGUAGE OverloadedStrings #-}
-import           Data.Monoid (mappend)
+import           Control.Monad (liftM)
+import           Data.Monoid   (mappend)
 import           Hakyll
 
 main :: IO ()
@@ -31,9 +32,14 @@ main = hakyll $ do
             >>= loadAndApplyTemplate "templates/default.html" defaultContext
             >>= relativizeUrls
 
+    match "bib/*" $ compile biblioCompiler
+
+    match "csl/*" $ compile cslCompiler
+
     match "misc/*" $ do
         route   $ setExtension "html"
-        compile $ pandocCompiler
+        compile $ bibtexCompiler
+              "csl/die-bachelorarbeit-samac-et-al-in-text.csl" "bib/ob.bib"
             >>= loadAndApplyTemplate "templates/misc.html" defaultContext
             >>= loadAndApplyTemplate "templates/default.html" defaultContext
             >>= relativizeUrls
@@ -51,3 +57,9 @@ main = hakyll $ do
 
     match "templates/*" $ compile templateCompiler
 
+bibtexCompiler :: String -> String -> Compiler (Item String)
+bibtexCompiler cslFileName bibFileName = do
+    csl <- load $ fromFilePath cslFileName
+    bib <- load $ fromFilePath bibFileName
+    liftM writePandoc
+        (getResourceBody >>= readPandocBiblio defaultHakyllReaderOptions csl bib)
