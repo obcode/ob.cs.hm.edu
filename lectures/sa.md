@@ -31,6 +31,13 @@ semester: Sommersemester 2015
 -   Blatt 2 ([HTML](/lectures/sa/html/Blatt02.html),
              [PDF](/lectures/sa/pdf/Blatt02.pdf))
 
+## Folien
+
+-   Idiome
+    ([Slides](/lectures/fun/presentation/01_Idiome.html),
+    [HTML](/lectures/fun/html/01_Idiome.html),
+    [PDF](/lectures/fun/pdf/01_Idiome.pdf))
+
 </div>
 <div class="span6">
 
