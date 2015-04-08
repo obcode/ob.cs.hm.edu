@@ -34,9 +34,9 @@ semester: Sommersemester 2015
 ## Folien
 
 -   Idiome
-    ([Slides](/lectures/fun/presentation/01_Idiome.html),
-    [HTML](/lectures/fun/html/01_Idiome.html),
-    [PDF](/lectures/fun/pdf/01_Idiome.pdf))
+    ([Slides](/lectures/sa/presentation/01_Idiome.html),
+    [HTML](/lectures/sa/html/01_Idiome.html),
+    [PDF](/lectures/sa/pdf/01_Idiome.pdf))
 
 </div>
 <div class="span6">
