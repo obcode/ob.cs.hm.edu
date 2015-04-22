@@ -24,6 +24,17 @@ semester: Sommersemester 2015
 
     Die genauen Praktikumsinhalte entnehmen Sie dem Moodle-Kurs.
 
+## Folien
+
+-   Testen von Software / Modultests
+    ([Slides](/lectures/swengiiib/presentation/01_Testen_Modultests.html),
+    [HTML](/lectures/swengiiib/html/01_Testen_Modultests.html),
+    [PDF](/lectures/swengiiib/pdf/01_Testen_Modultests.pdf))
+-   Testen in Scala und Play
+    ([Slides](/lectures/swengiiib/presentation/02_Testen_Scala_Play.html),
+    [HTML](/lectures/swengiiib/html/02_Testen_Scala_Play.html),
+    [PDF](/lectures/swengiiib/pdf/02_Testen_Scala_Play.pdf))
+
 </div>
 <div class="span6">
 
