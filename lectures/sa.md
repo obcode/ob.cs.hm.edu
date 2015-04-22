@@ -37,6 +37,10 @@ semester: Sommersemester 2015
     ([Slides](/lectures/sa/presentation/01_Idiome.html),
     [HTML](/lectures/sa/html/01_Idiome.html),
     [PDF](/lectures/sa/pdf/01_Idiome.pdf))
+-   Design Patterns
+    ([Slides](/lectures/sa/presentation/02_DesignPatterns.html),
+    [HTML](/lectures/sa/html/02_DesignPatterns.html),
+    [PDF](/lectures/sa/pdf/02_DesignPatterns.pdf))
 
 </div>
 <div class="span6">
