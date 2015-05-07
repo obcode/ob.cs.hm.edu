@@ -34,6 +34,14 @@ semester: Sommersemester 2015
     ([Slides](/lectures/swengiiib/presentation/02_Testen_Scala_Play.html),
     [HTML](/lectures/swengiiib/html/02_Testen_Scala_Play.html),
     [PDF](/lectures/swengiiib/pdf/02_Testen_Scala_Play.pdf))
+-   Testen II
+    ([Slides](/lectures/swengiiib/presentation/03_TestenII.html),
+    [HTML](/lectures/swengiiib/html/03_TestenII.html),
+    [PDF](/lectures/swengiiib/pdf/03_TestenII.pdf))
+-   Design Patterns
+    ([Slides](/lectures/swengiiib/presentation/04_DesignPatterns.html),
+    [HTML](/lectures/swengiiib/html/04_DesignPatterns.html),
+    [PDF](/lectures/swengiiib/pdf/04_DesignPatterns.pdf))
 
 </div>
 <div class="span6">
