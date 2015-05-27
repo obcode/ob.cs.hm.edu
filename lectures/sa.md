@@ -41,6 +41,14 @@ semester: Sommersemester 2015
     ([Slides](/lectures/sa/presentation/02_DesignPatterns.html),
     [HTML](/lectures/sa/html/02_DesignPatterns.html),
     [PDF](/lectures/sa/pdf/02_DesignPatterns.pdf))
+-   REST
+    ([Slides](/lectures/sa/presentation/03_REST.html),
+    [HTML](/lectures/sa/html/03_REST.html),
+    [PDF](/lectures/sa/pdf/03_REST.pdf))
+-   Actors
+    ([Slides](/lectures/sa/presentation/04_Actors.html),
+    [HTML](/lectures/sa/html/04_Actors.html),
+    [PDF](/lectures/sa/pdf/04_Actors.pdf))
 
 </div>
 <div class="span6">
@@ -55,7 +63,7 @@ Anforderungen entnehmen Sie dem Anforderungsdokument
 
 ## Mündliche Prüfung
 
-Gegenstand der mündlichen Prüfung ist der gesamte in Vorlesung und Praktikum
+Gegenstand der mündlichen Prüfung ist der gesamte in der Vorlesung
 behandelte Stoff, soweit nicht anders vereinbart.
 
 </div>
