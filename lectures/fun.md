@@ -100,6 +100,9 @@ Gegenstand der Klausur ist der gesamte in Vorlesung und Praktikum
 behandelte Stoff, soweit nicht anders vereinbart. Die Klausur
 wird ohne Hilfsmittel geschrieben.
 
+-   Klausur vom 26.07.2013: [PDF](/lectures/fun/pdf/KlausurSS13.pdf)
+-   Klausur vom 16.07.2014: [PDF](/lectures/fun/pdf/KlausurSS14.pdf)
+
 ## Literatur
 
 -   Alejandro Serrano Mena, [Beginning Haskell, A Project-Based Approach](http://www.apress.com/9781430262503), Apress, 2014.
