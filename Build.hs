@@ -5,7 +5,7 @@ import Development.Shake.Util
 import System.Directory (createDirectoryIfMissing)
 import Control.Monad (forM_)
 
-uploadHost = "ob.cs.hm.edu"
+uploadHost = "obraun@ob.cs.hm.edu"
 uploadDir  = "www"
 
 main :: IO ()
@@ -19,12 +19,12 @@ main = shakeArgs shakeOptions{shakeFiles=".shake/"} $ do
         liftIO $ removeFiles "." ["site", "site.hi", "site.o"]
 
     phony "build" $ do
-        () <- cmd "ghc --make -threaded site.hs"
-        cmd "./site rebuild"
+        () <- cmd "cabal install"
+        cmd "cabal run -- rebuild"
 
     phony "watch" $ do
         need ["build"]
-        cmd "./site watch"
+        cmd "cabal run -- watch"
 
     phony "push" $ do
         need ["build"]
