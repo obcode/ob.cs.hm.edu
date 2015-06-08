@@ -16,7 +16,6 @@ main = shakeArgs shakeOptions{shakeFiles=".shake/"} $ do
         putNormal "Cleaning"
         liftIO $ removeFiles "_cache" ["//*"]
         liftIO $ removeFiles "_site" ["//*"]
-        liftIO $ removeFiles "." ["site", "site.hi", "site.o"]
 
     phony "build" $ do
         () <- cmd "cabal install"
