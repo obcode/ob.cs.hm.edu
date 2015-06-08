@@ -49,6 +49,10 @@ semester: Sommersemester 2015
     ([Slides](/lectures/sa/presentation/04_Actors.html),
     [HTML](/lectures/sa/html/04_Actors.html),
     [PDF](/lectures/sa/pdf/04_Actors.pdf))
+-   Streams
+    ([Slides](/lectures/sa/presentation/05_Streams.html),
+    [HTML](/lectures/sa/html/05_Streams.html),
+    [PDF](/lectures/sa/pdf/05_Streams.pdf))
 
 </div>
 <div class="span6">
