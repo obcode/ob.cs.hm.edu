@@ -31,6 +31,9 @@ semester: Sommersemester 2015
 -   Blatt 2 ([HTML](/lectures/sa/html/Blatt02.html),
              [PDF](/lectures/sa/pdf/Blatt02.pdf))
 
+</div>
+<div class="span6">
+
 ## Folien
 
 -   Idiome
@@ -53,9 +56,6 @@ semester: Sommersemester 2015
     ([Slides](/lectures/sa/presentation/05_Streams.html),
     [HTML](/lectures/sa/html/05_Streams.html),
     [PDF](/lectures/sa/pdf/05_Streams.pdf))
-
-</div>
-<div class="span6">
 
 ## Schein
 
