@@ -42,6 +42,10 @@ semester: Sommersemester 2015
     ([Slides](/lectures/swengiiib/presentation/04_DesignPatterns.html),
     [HTML](/lectures/swengiiib/html/04_DesignPatterns.html),
     [PDF](/lectures/swengiiib/pdf/04_DesignPatterns.pdf))
+-   Softwareevolution
+    ([Slides](/lectures/swengiiib/presentation/05_Softwareevolution.html),
+    [HTML](/lectures/swengiiib/html/05_Softwareevolution.html),
+    [PDF](/lectures/swengiiib/pdf/05_Softwareevolution.pdf))
 
 </div>
 <div class="span6">
