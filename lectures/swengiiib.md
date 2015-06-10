@@ -46,6 +46,10 @@ semester: Sommersemester 2015
     ([Slides](/lectures/swengiiib/presentation/05_Softwareevolution.html),
     [HTML](/lectures/swengiiib/html/05_Softwareevolution.html),
     [PDF](/lectures/swengiiib/pdf/05_Softwareevolution.pdf))
+-   Wiederverwendung von Software
+    ([Slides](/lectures/swengiiib/presentation/06_Wiederverwendung.html),
+    [HTML](/lectures/swengiiib/html/06_Wiederverwendung.html),
+    [PDF](/lectures/swengiiib/pdf/06_Wiederverwendung.pdf))
 
 </div>
 <div class="span6">
