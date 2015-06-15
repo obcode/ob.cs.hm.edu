@@ -50,6 +50,14 @@ semester: Sommersemester 2015
     ([Slides](/lectures/swengiiib/presentation/06_Wiederverwendung.html),
     [HTML](/lectures/swengiiib/html/06_Wiederverwendung.html),
     [PDF](/lectures/swengiiib/pdf/06_Wiederverwendung.pdf))
+-   Serviceorientierte Architekturen
+    ([Slides](/lectures/swengiiib/presentation/07_SOA.html),
+    [HTML](/lectures/swengiiib/html/07_SOA.html),
+    [PDF](/lectures/swengiiib/pdf/07_SOA.pdf))
+-   REST
+    ([Slides](/lectures/swengiiib/presentation/08_REST.html),
+    [HTML](/lectures/swengiiib/html/08_REST.html),
+    [PDF](/lectures/swengiiib/pdf/08_REST.pdf))
 
 </div>
 <div class="span6">
