@@ -56,6 +56,10 @@ semester: Sommersemester 2015
     ([Slides](/lectures/sa/presentation/05_Streams.html),
     [HTML](/lectures/sa/html/05_Streams.html),
     [PDF](/lectures/sa/pdf/05_Streams.pdf))
+-   STM
+    ([Slides](/lectures/sa/presentation/06_STM.html),
+    [HTML](/lectures/sa/html/06_STM.html),
+    [PDF](/lectures/sa/pdf/06_STM.pdf))
 
 ## Schein
 
