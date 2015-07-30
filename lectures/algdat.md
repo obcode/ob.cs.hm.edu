@@ -66,6 +66,7 @@ Der Prüfungsstoff entspricht den Kapiteln 1, 2, 3 & 5 aus dem o.a. Buch **und**
 
 -   Klausur vom 22.01.2014: [PDF](/lectures/algdat/pdf/KlausurWS13.pdf)
 -   Klausur vom 20.01.2015: [PDF](/lectures/algdat/pdf/KlausurWS14.pdf)
+-   Klausur vom 21.07.2015: [PDF](/lectures/algdat/pdf/KlausurSS15.pdf)
 
 ## Links
 

@@ -102,6 +102,7 @@ wird ohne Hilfsmittel geschrieben.
 
 -   Klausur vom 26.07.2013: [PDF](/lectures/fun/pdf/KlausurSS13.pdf)
 -   Klausur vom 16.07.2014: [PDF](/lectures/fun/pdf/KlausurSS14.pdf)
+-   Klausur vom 23.07.2015: [PDF](/lectures/fun/pdf/KlausurSS15.pdf)
 
 ## Literatur
 
