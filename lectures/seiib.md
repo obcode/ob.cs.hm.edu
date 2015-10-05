@@ -8,6 +8,12 @@ semester: Wintersemester 2015/16
 <div class="row">
 <div class="span6">
 
+## Links
+
+-   [Moodle-Kurs](https://moodle.hm.edu/course/view.php?id=6778) der Lehrveranstaltung
+    (Zugangsschlüssel: *seiibWS1516*)
+-   [GitHub-Organisation](https://github.com/seiib-15WS)
+
 ## Termine und Inhalte
 
 -   Vorlesungstermine (donnerstags 10:00-11:30, R1.008)
