@@ -31,6 +31,8 @@ semester: Wintersemester 2015/16
 ## Aufgabenblätter
 
 -   Blatt 0 / Abgabe 0
+    ([HTML](/lectures/seiib/html/Blatt00.html),
+     [PDF](/lectures/seiib/pdf/Blatt00.pdf))
 -   Blatt 1 / Abgabe 1
 -   Blatt 2 / Abgabe 2
 -   Blatt 3 / Livecoding 1
@@ -44,6 +46,11 @@ In den Vorlesungen werden die hier aufgelisteten Foliensätze besprochen. Darüb
 hinaus wird von mir live programmiert. Der vorgeführte Code wird AS IS, d.h. ohne
 Garantien, weitere Erläuterungen etc., nach der Veranstaltung ins
 [Livecoding-Repository](https://github.com/seiib-15WS/livecoding) gepusht.
+
+-   Git
+    ([Slides](/lectures/seiib/presentation/00_Git.html),
+    [HTML](/lectures/seiib/html/00_Git.html),
+    [PDF](/lectures/seiib/pdf/00_Git.pdf))
 
 </div>
 <div class="span6">
