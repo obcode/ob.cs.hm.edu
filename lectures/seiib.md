@@ -51,6 +51,10 @@ Garantien, weitere Erläuterungen etc., nach der Veranstaltung ins
     ([Slides](/lectures/seiib/presentation/00_Git.html),
     [HTML](/lectures/seiib/html/00_Git.html),
     [PDF](/lectures/seiib/pdf/00_Git.pdf))
+-   Einführung
+    ([Slides](/lectures/seiib/presentation/01_Einfuehrung.html),
+    [HTML](/lectures/seiib/html/01_Einfuehrung.html),
+    [PDF](/lectures/seiib/pdf/01_Einfuehrung.pdf))
 
 </div>
 <div class="span6">
