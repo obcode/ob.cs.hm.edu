@@ -35,9 +35,9 @@ semester: Wintersemester 2015/16
              [PDF](/lectures/algdat/pdf/Blatt00.pdf))
 -   Blatt 1 ([HTML](/lectures/algdat/html/Blatt01.html),
              [PDF](/lectures/algdat/pdf/Blatt01.pdf))
-<!--
 -   Blatt 2 ([HTML](/lectures/algdat/html/Blatt02.html),
              [PDF](/lectures/algdat/pdf/Blatt02.pdf))
+<!--
 -   Blatt 3 ([HTML](/lectures/algdat/html/Blatt03.html),
              [PDF](/lectures/algdat/pdf/Blatt03.pdf))
 -   Blatt 4 ([HTML](/lectures/algdat/html/Blatt04.html),
