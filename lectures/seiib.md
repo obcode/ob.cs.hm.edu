@@ -55,6 +55,18 @@ Garantien, weitere Erläuterungen etc., nach der Veranstaltung ins
     ([Slides](/lectures/seiib/presentation/01_Einfuehrung.html),
     [HTML](/lectures/seiib/html/01_Einfuehrung.html),
     [PDF](/lectures/seiib/pdf/01_Einfuehrung.pdf))
+-   Arithmetik und Variablen
+    ([Slides](/lectures/seiib/presentation/02_ArithmetikUndVariablen.html),
+    [HTML](/lectures/seiib/html/02_ArithmetikUndVariablen.html),
+    [PDF](/lectures/seiib/pdf/02_ArithmetikUndVariablen.pdf))
+-   Kontrollstrukturen
+    ([Slides](/lectures/seiib/presentation/03_Kontrollstrukturen.html),
+    [HTML](/lectures/seiib/html/03_Kontrollstrukturen.html),
+    [PDF](/lectures/seiib/pdf/03_Kontrollstrukturen.pdf))
+-   Klassen
+    ([Slides](/lectures/seiib/presentation/04_Klassen.html),
+    [HTML](/lectures/seiib/html/04_Klassen.html),
+    [PDF](/lectures/seiib/pdf/04_Klassen.pdf))
 
 </div>
 <div class="span6">
