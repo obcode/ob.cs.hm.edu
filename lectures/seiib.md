@@ -34,6 +34,8 @@ semester: Wintersemester 2015/16
     ([HTML](/lectures/seiib/html/Blatt00.html),
      [PDF](/lectures/seiib/pdf/Blatt00.pdf))
 -   Blatt 1 / Abgabe 1
+    ([HTML](/lectures/seiib/html/Blatt01.html),
+     [PDF](/lectures/seiib/pdf/Blatt01.pdf))
 -   Blatt 2 / Abgabe 2
 -   Blatt 3 / Livecoding 1
 -   Blatt 4 / Abgabe 3
