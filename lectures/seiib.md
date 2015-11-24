@@ -37,8 +37,23 @@ semester: Wintersemester 2015/16
     ([HTML](/lectures/seiib/html/Blatt01.html),
      [PDF](/lectures/seiib/pdf/Blatt01.pdf))
 -   Blatt 2 / Abgabe 2
+    ([HTML](/lectures/seiib/html/Blatt02.html),
+     [PDF](/lectures/seiib/pdf/Blatt02.pdf))
 -   Blatt 3 / Livecoding 1
+    ([HTML](/lectures/seiib/html/Blatt03.html),
+     [PDF](/lectures/seiib/pdf/Blatt03.pdf))
+    -   Teilgruppe 1
+        ([HTML](/lectures/seiib/html/Blatt03tg1.html),
+         [PDF](/lectures/seiib/pdf/Blatt03tg1.pdf))
+    -   Teilgruppe 2
+        ([HTML](/lectures/seiib/html/Blatt03tg2.html),
+         [PDF](/lectures/seiib/pdf/Blatt03tg2.pdf))
+    -   Teilgruppe 3
+        ([HTML](/lectures/seiib/html/Blatt03tg3.html),
+         [PDF](/lectures/seiib/pdf/Blatt03tg3.pdf))
 -   Blatt 4 / Abgabe 3
+    ([HTML](/lectures/seiib/html/Blatt04.html),
+     [PDF](/lectures/seiib/pdf/Blatt04.pdf))
 -   Blatt 5 / Livecoding 2
 -   Blatt 6 / Abgabe 4
 
@@ -110,8 +125,8 @@ Stoff ist Gegenstand der Klausur.
 
 Alte Klausuren:
 
--   Klausur vom 25.01.2013: [PDF](/lectures/seiib/pdf/KlausurWS2012.pdf)
--   Klausur vom 23.07.2013: [PDF](/lectures/seiib/pdf/KlausurSS2013.pdf)
+-   Klausur vom 25.01.2013: [PDF](/lectures/seiib/pdf/KlausurWS12.pdf)
+-   Klausur vom 23.07.2013: [PDF](/lectures/seiib/pdf/KlausurSS13.pdf)
 
 </div>
 </div>
