@@ -1,0 +1,8 @@
+language: haskell
+branches:
+  only:
+    - master
+install:
+  - cabal install hakyll
+  - ghc --make site.hs
+script: ./site build
