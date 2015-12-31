@@ -55,7 +55,20 @@ semester: Wintersemester 2015/16
     ([HTML](/lectures/seiib/html/Blatt04.html),
      [PDF](/lectures/seiib/pdf/Blatt04.pdf))
 -   Blatt 5 / Livecoding 2
+    ([HTML](/lectures/seiib/html/Blatt05.html),
+     [PDF](/lectures/seiib/pdf/Blatt05.pdf))
+    -   Teilgruppe 1
+        ([HTML](/lectures/seiib/html/Blatt05tg1.html),
+         [PDF](/lectures/seiib/pdf/Blatt05tg1.pdf))
+    -   Teilgruppe 2
+        ([HTML](/lectures/seiib/html/Blatt05tg2.html),
+         [PDF](/lectures/seiib/pdf/Blatt05tg2.pdf))
+    -   Teilgruppe 3
+        ([HTML](/lectures/seiib/html/Blatt05tg3.html),
+         [PDF](/lectures/seiib/pdf/Blatt05tg3.pdf))
 -   Blatt 6 / Abgabe 4
+    ([HTML](/lectures/seiib/html/Blatt06.html),
+     [PDF](/lectures/seiib/pdf/Blatt06.pdf))
 
 ## Vorlesungsskript
 
