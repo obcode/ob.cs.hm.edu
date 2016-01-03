@@ -3,7 +3,9 @@ branches:
   only:
   - master
 before_install:
-    - cd _site/ && git checkout gh-pages
+    - cd _site/
+    - git checkout gh-pages
+    - cd ..
 install:
 - cabal install hakyll
 - ghc --make site.hs
