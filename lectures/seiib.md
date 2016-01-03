@@ -31,44 +31,44 @@ semester: Wintersemester 2015/16
 ## Aufgabenblätter
 
 -   Blatt 0 / Abgabe 0
-    ([HTML](/lectures/seiib/html/Blatt00.html),
-     [PDF](/lectures/seiib/pdf/Blatt00.pdf))
+    ([HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/html/Blatt00.html),
+     [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/pdf/Blatt00.pdf))
 -   Blatt 1 / Abgabe 1
-    ([HTML](/lectures/seiib/html/Blatt01.html),
-     [PDF](/lectures/seiib/pdf/Blatt01.pdf))
+    ([HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/html/Blatt01.html),
+     [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/pdf/Blatt01.pdf))
 -   Blatt 2 / Abgabe 2
-    ([HTML](/lectures/seiib/html/Blatt02.html),
-     [PDF](/lectures/seiib/pdf/Blatt02.pdf))
+    ([HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/html/Blatt02.html),
+     [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/pdf/Blatt02.pdf))
 -   Blatt 3 / Livecoding 1
-    ([HTML](/lectures/seiib/html/Blatt03.html),
-     [PDF](/lectures/seiib/pdf/Blatt03.pdf))
+    ([HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/html/Blatt03.html),
+     [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/pdf/Blatt03.pdf))
     -   Teilgruppe 1
-        ([HTML](/lectures/seiib/html/Blatt03tg1.html),
-         [PDF](/lectures/seiib/pdf/Blatt03tg1.pdf))
+        ([HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/html/Blatt03tg1.html),
+         [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/pdf/Blatt03tg1.pdf))
     -   Teilgruppe 2
-        ([HTML](/lectures/seiib/html/Blatt03tg2.html),
-         [PDF](/lectures/seiib/pdf/Blatt03tg2.pdf))
+        ([HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/html/Blatt03tg2.html),
+         [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/pdf/Blatt03tg2.pdf))
     -   Teilgruppe 3
-        ([HTML](/lectures/seiib/html/Blatt03tg3.html),
-         [PDF](/lectures/seiib/pdf/Blatt03tg3.pdf))
+        ([HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/html/Blatt03tg3.html),
+         [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/pdf/Blatt03tg3.pdf))
 -   Blatt 4 / Abgabe 3
-    ([HTML](/lectures/seiib/html/Blatt04.html),
-     [PDF](/lectures/seiib/pdf/Blatt04.pdf))
+    ([HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/html/Blatt04.html),
+     [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/pdf/Blatt04.pdf))
 -   Blatt 5 / Livecoding 2
-    ([HTML](/lectures/seiib/html/Blatt05.html),
-     [PDF](/lectures/seiib/pdf/Blatt05.pdf))
+    ([HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/html/Blatt05.html),
+     [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/pdf/Blatt05.pdf))
     -   Teilgruppe 1
-        ([HTML](/lectures/seiib/html/Blatt05tg1.html),
-         [PDF](/lectures/seiib/pdf/Blatt05tg1.pdf))
+        ([HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/html/Blatt05tg1.html),
+         [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/pdf/Blatt05tg1.pdf))
     -   Teilgruppe 2
-        ([HTML](/lectures/seiib/html/Blatt05tg2.html),
-         [PDF](/lectures/seiib/pdf/Blatt05tg2.pdf))
+        ([HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/html/Blatt05tg2.html),
+         [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/pdf/Blatt05tg2.pdf))
     -   Teilgruppe 3
-        ([HTML](/lectures/seiib/html/Blatt05tg3.html),
-         [PDF](/lectures/seiib/pdf/Blatt05tg3.pdf))
+        ([HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/html/Blatt05tg3.html),
+         [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/pdf/Blatt05tg3.pdf))
 -   Blatt 6 / Abgabe 4
-    ([HTML](/lectures/seiib/html/Blatt06.html),
-     [PDF](/lectures/seiib/pdf/Blatt06.pdf))
+    ([HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/html/Blatt06.html),
+     [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/pdf/Blatt06.pdf))
 
 ## Vorlesungsskript
 
@@ -78,25 +78,25 @@ Garantien, weitere Erläuterungen etc., nach der Veranstaltung ins
 [Livecoding-Repository](https://github.com/seiib-15WS/livecoding) gepusht.
 
 -   Git
-    ([Slides](/lectures/seiib/presentation/00_Git.html),
-    [HTML](/lectures/seiib/html/00_Git.html),
-    [PDF](/lectures/seiib/pdf/00_Git.pdf))
+    ([Slides](https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/presentation/00_Git.html),
+    [HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/html/00_Git.html),
+    [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/pdf/00_Git.pdf))
 -   Einführung
-    ([Slides](/lectures/seiib/presentation/01_Einfuehrung.html),
-    [HTML](/lectures/seiib/html/01_Einfuehrung.html),
-    [PDF](/lectures/seiib/pdf/01_Einfuehrung.pdf))
+    ([Slides](https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/presentation/01_Einfuehrung.html),
+    [HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/html/01_Einfuehrung.html),
+    [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/pdf/01_Einfuehrung.pdf))
 -   Arithmetik und Variablen
-    ([Slides](/lectures/seiib/presentation/02_ArithmetikUndVariablen.html),
-    [HTML](/lectures/seiib/html/02_ArithmetikUndVariablen.html),
-    [PDF](/lectures/seiib/pdf/02_ArithmetikUndVariablen.pdf))
+    ([Slides](https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/presentation/02_ArithmetikUndVariablen.html),
+    [HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/html/02_ArithmetikUndVariablen.html),
+    [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/pdf/02_ArithmetikUndVariablen.pdf))
 -   Kontrollstrukturen
-    ([Slides](/lectures/seiib/presentation/03_Kontrollstrukturen.html),
-    [HTML](/lectures/seiib/html/03_Kontrollstrukturen.html),
-    [PDF](/lectures/seiib/pdf/03_Kontrollstrukturen.pdf))
+    ([Slides](https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/presentation/03_Kontrollstrukturen.html),
+    [HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/html/03_Kontrollstrukturen.html),
+    [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/pdf/03_Kontrollstrukturen.pdf))
 -   Klassen
-    ([Slides](/lectures/seiib/presentation/04_Klassen.html),
-    [HTML](/lectures/seiib/html/04_Klassen.html),
-    [PDF](/lectures/seiib/pdf/04_Klassen.pdf))
+    ([Slides](https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/presentation/04_Klassen.html),
+    [HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/html/04_Klassen.html),
+    [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/pdf/04_Klassen.pdf))
 
 </div>
 <div class="span6">
@@ -138,8 +138,8 @@ Stoff ist Gegenstand der Klausur.
 
 Alte Klausuren:
 
--   Klausur vom 25.01.2013: [PDF](/lectures/seiib/pdf/KlausurWS12.pdf)
--   Klausur vom 23.07.2013: [PDF](/lectures/seiib/pdf/KlausurSS13.pdf)
+-   Klausur vom 25.01.2013: [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/pdf/KlausurWS12.pdf)
+-   Klausur vom 23.07.2013: [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/pdf/KlausurSS13.pdf)
 
 </div>
 </div>

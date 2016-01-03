@@ -9,11 +9,14 @@ script: ./site build
 env:
   global:
     secure: prOUp/nvgsMzZRbBxKqNklD1JsCWTgWXbEblCEli7sDYRSbaMgw6HTyu9/iWKhXR+F3EQoBVncjGeKgb5C5M4aaB8hyX17NILOnu0ztm3fOd/fKFCqUsfnXlTQjR2xPD5QjBbXRTs52wKDhGxsDsrjv+bbzo1s4nk2nO9wcNgSo=
+machine:
+    timezone:
+        Europe/Berlin
 after_success:
     - git config --global user.email ob@cs.hm.edu
     - git config --global user.name Travis CI
     - cd _site/ && git status
     - cd _site/ && git add --all
-    - cd _site/ && git commit -m "Update (`date '+%F %T %Z'`) [ci skip]"
+    - cd _site/ && git commit -m "Update (`date '+%F %T %Z'`)"
     - cd _site/ && git push "https://${GH_TOKEN}@github.com/obcode/ob.cs.hm.edu.git" gh_pages
 
