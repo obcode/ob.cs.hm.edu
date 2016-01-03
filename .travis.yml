@@ -2,6 +2,8 @@ language: haskell
 branches:
   only:
   - master
+before_install:
+    - cd _site/ && git checkout gh-pages
 install:
 - cabal install hakyll
 - ghc --make site.hs
@@ -15,8 +17,8 @@ machine:
 after_success:
     - git config --global user.email ob@cs.hm.edu
     - git config --global user.name Travis CI
-    - cd _site/ && git checkout gh-pages
-    - cd _site/ && git add .
-    - cd _site/ && git commit -m "Update (`date '+%F %T %Z'`)"
-    - cd _site/ && git push "https://${GH_TOKEN}@github.com/obcode/ob.cs.hm.edu.git" gh_pages
+    - cd _site/
+    - git add .
+    - git commit -m "Update (`date '+%F %T %Z'`)"
+    - git push "https://${GH_TOKEN}@github.com/obcode/ob.cs.hm.edu.git" gh-pages
 
