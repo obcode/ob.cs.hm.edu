@@ -15,7 +15,7 @@ machine:
 after_success:
     - git config --global user.email ob@cs.hm.edu
     - git config --global user.name Travis CI
-    - cd _site/ && git status
+    - cd _site/ && git checkout gh_pages
     - cd _site/ && git add --all
     - cd _site/ && git commit -m "Update (`date '+%F %T %Z'`)"
     - cd _site/ && git push "https://${GH_TOKEN}@github.com/obcode/ob.cs.hm.edu.git" gh_pages
