@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="utf-8">
+        <title>Oliver Braun - Compiler</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Website Prof. Dr. Oliver Braun">
+        <meta name="author" content="Oliver Braun">
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/bootstrap-responsive.min.css" rel="stylesheet">
+        <link href="../css/glyphicons.css" rel="stylesheet">
+        <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300" rel="stylesheet" type="text/css">
+        <link href="../css/base.css" rel="stylesheet">
+        <link href="../css/blue.css" rel="stylesheet">
+        <!--[if lt IE 9]>
+          <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+        <link rel="shortcut icon" href="../img/ico/favicon.ico">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../img/ico/favicon.ico">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../img/ico/favicon.ico">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../img/ico/favicon.ico">
+        <link rel="apple-touch-icon-precomposed" href="../img/ico/favicon.ico">
+    </head>
+    <body>
+<!-- Navigation start -->
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-primary btn-dropnav" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="../">ob.cs.hm.edu</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav pull-right animated">
+              <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" role="button" href="../lectures">Lehrveranstaltungen <b class="caret"></b></a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="../lectures/algdat.html" tabindex="-1">Algorithmen und Datenstrukturen I</a></li>
+                  <li><a href="../lectures/compiler.html" tabindex="-1">Compiler</a></li>
+                  <li><a href="../lectures/fun.html" tabindex="-1">Funktionale Programmierung</a></li>
+                  <li><a href="../lectures/sa.html" tabindex="-1">Software-Architektur</a></li>
+                  <li><a href="../lectures/seiib.html" tabindex="-1">Softwareentwicklung I (IB)</a></li>
+                  <li><a href="../lectures/seiiib.html" tabindex="-1">Softwareentwicklung II (IB)</a></li>
+                  <li><a href="../lectures/swengiib.html" tabindex="-1">Software Engineering I (IB)</a></li>
+                  <li><a href="../lectures/swengiiib.html" tabindex="-1">Software Engineering II (IB)</a></li>
+                  <li><a href="../lectures/webtech.html" tabindex="-1">Web-Techniken</a></li>
+                  <li><a href="../lectures/webtechFK12.html" tabindex="-1">Web-Techniken (mit FK12)</a></li>
+                </ul>
+              </li>
+              <li><a href="../misc/theses.html">Abschlussarbeiten</a></li>
+              <li><a href="https://terraform.cs.hm.edu/jenkins/">Jenkins</a></li>
+              <li><a href="../about.html">Oliver Braun</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- Navigation end -->
+
+        <div id="landing">
+          <div class="container">
+            <div class="row">
+                  <div class="span7">
+                      <h1><a href="http://fi.cs.hm.edu/fi/rest/public/modul/title/compiler">Compiler</a></h1>
+                      <h4>Wintersemester 2014/15</h4>
+                  </div>
+                  <div class="span1">&nbsp;
+                  </div>
+                  <div class="span4">
+                    <img alt src="../img/Fuerteventura.png" width="300" height="150" />
+                  </div>
+                </div>
+          </div>
+        </div>
+
+        <div id="content">
+          <div class="container">
+            <div class="row">
+<div class="span6">
+<h2 id="links">Links</h2>
+<ul>
+<li><a href="https://moodle.hm.edu/course/view.php?id=5448">Moodle-Kurs</a> der Lehrveranstaltung, den Zugangsschlüssel erhalten Sie in der ersten Vorlesung</li>
+</ul>
+<h2 id="termine-und-inhalte">Termine und Inhalte</h2>
+<ul>
+<li><p>Vorlesungstermine (dienstags 10:00-11:30, R1.007)</p>
+<p>Die genauen Vorlesungsinhalte entnehmen Sie dem Moodle-Kurs.</p></li>
+<li><p>Praktikumstermine (dienstags 17:00 - 18:30 und donnerstags 13:30-15:00, R3.021) beginnen am 07.10.2013</p>
+<p>Die genauen Praktikumsinhalte entnehmen Sie dem Moodle-Kurs.</p></li>
+</ul>
+<h2 id="folien">Folien</h2>
+<table>
+<tbody>
+<tr class="odd">
+<td align="left">1.</td>
+<td align="left"><a href="../lectures/compiler/html/01_Einfuehrung.html">Einführung</a></td>
+<td align="left">(<a href="../lectures/compiler/presentation/01_Einfuehrung.html">Slides</a>, <a href="../lectures/compiler/pdf/01_Einfuehrung.pdf">PDF</a>, <a href="https://github.com/obcode/compiler/blob/master/01_Einfuehrung.txt">Source</a>)</td>
+</tr>
+<tr class="even">
+<td align="left">2.</td>
+<td align="left"><a href="../lectures/compiler/html/02_Scanner.html">Scanner</a></td>
+<td align="left">(<a href="../lectures/compiler/presentation/02_Scanner.html">Slides</a>, <a href="../lectures/compiler/pdf/02_Scanner.pdf">PDF</a>, <a href="https://github.com/obcode/compiler/blob/master/02_Scanner.txt">Source</a>)</td>
+</tr>
+<tr class="odd">
+<td align="left">3.</td>
+<td align="left"><a href="../lectures/compiler/html/03_Parser.html">Parser</a></td>
+<td align="left">(<a href="../lectures/compiler/presentation/03_Parser.html">Slides</a>, <a href="../lectures/compiler/pdf/03_Parser.pdf">PDF</a>, <a href="https://github.com/obcode/compiler/blob/master/03_Parser.txt">Source</a>)</td>
+</tr>
+<tr class="even">
+<td align="left">4.</td>
+<td align="left"><a href="../lectures/compiler/html/04_Zwischenrepraesentationen.html">Zwischenrepräsentationen</a></td>
+<td align="left">(<a href="../lectures/compiler/presentation/04_Zwischenrepraesentationen.html">Slides</a>, <a href="../lectures/compiler/pdf/04_Zwischenrepraesentationen.pdf">PDF</a>, <a href="https://github.com/obcode/compiler/blob/master/04_Zwischenrepraesentationen.txt">Source</a>)</td>
+</tr>
+<tr class="odd">
+<td align="left">5.</td>
+<td align="left"><a href="../lectures/compiler/html/05_Optimierungstechniken.html">Optimierungstechniken</a></td>
+<td align="left">(<a href="../lectures/compiler/presentation/05_Optimierungstechniken.html">Slides</a>, <a href="../lectures/compiler/pdf/05_Optimierungstechniken.pdf">PDF</a>, <a href="https://github.com/obcode/compiler/blob/master/05_Optimierungstechniken.txt">Source</a>)</td>
+</tr>
+</tbody>
+</table>
+<h2 id="aufgabenblätter">Aufgabenblätter</h2>
+<ul>
+<li>Blatt 0 (<a href="../lectures/compiler/html/Blatt00.html">HTML</a>, <a href="../lectures/compiler/pdf/Blatt00.pdf">PDF</a>)</li>
+<li>Blatt 1 (<a href="../lectures/compiler/html/Blatt01.html">HTML</a>, <a href="../lectures/compiler/pdf/Blatt01.pdf">PDF</a>)</li>
+<li>Blatt 2 (<a href="../lectures/compiler/html/Blatt02.html">HTML</a>, <a href="../lectures/compiler/pdf/Blatt02.pdf">PDF</a>)</li>
+<li>Blatt 3 (<a href="../lectures/compiler/html/Blatt03.html">HTML</a>, <a href="../lectures/compiler/pdf/Blatt03.pdf">PDF</a>)</li>
+<li>Blatt 4 (<a href="../lectures/compiler/html/Blatt04.html">HTML</a>, <a href="../lectures/compiler/pdf/Blatt04.pdf">PDF</a>)</li>
+<li>Blatt 5 (<a href="../lectures/compiler/html/Blatt05.html">HTML</a>, <a href="../lectures/compiler/pdf/Blatt05.pdf">PDF</a>)</li>
+<li>Blatt 6 (<a href="../lectures/compiler/html/Blatt06.html">HTML</a>, <a href="../lectures/compiler/pdf/Blatt06.pdf">PDF</a>)</li>
+</ul>
+</div>
+<div class="span6">
+<h2 id="leistungsnachweis">Leistungsnachweis</h2>
+<p>Für den Schein ist in Zweiergruppen ein Compiler in Haskell zu programmieren. Genauere Informationen über Aufgabe und Umfang bekommen Sie zu einem späteren Termin (siehe <a href="https://moodle.hm.edu/course/view.php?id=5448">Moodle</a>)</p>
+<h2 id="klausur">Klausur</h2>
+<p>Gegenstand der Klausur ist der gesamte in Vorlesung und Praktikum behandelte Stoff, soweit nicht anders vereinbart. Die Klausur wird ohne Hilfsmittel geschrieben.</p>
+<ul>
+<li>Klausur vom 22.07.14: <a href="../lectures/compiler/pdf/KlausurSS14.pdf">PDF</a></li>
+</ul>
+<h2 id="links-1">Links</h2>
+<h4 id="haskell">Haskell</h4>
+<ul>
+<li><a href="https://www.fpcomplete.com/">FP Haskell Center</a></li>
+<li><a href="http://haskell.org/">Haskell.org</a></li>
+</ul>
+<h5 id="tutorials">Tutorials</h5>
+<ul>
+<li><a href="http://tryhaskell.org/">Try Haskell</a></li>
+<li><a href="https://haskell.fpcomplete.com/school">School of Haskell</a></li>
+</ul>
+<h5 id="compiler-etc.">Compiler etc.</h5>
+<ul>
+<li><a href="http://www.haskell.org/platform/">Haskell Platform</a></li>
+<li><a href="http://www.haskell.org/ghc/">The Glasgow Haskell Compiler</a></li>
+</ul>
+<h5 id="libs">Libs</h5>
+<ul>
+<li><a href="http://hackage.haskell.org/">Hackage</a></li>
+<li><a href="http://www.haskell.org/hoogle/">Hoogle</a></li>
+</ul>
+<h5 id="markdown">Markdown</h5>
+<ul>
+<li><a href="http://commonmark.org/">CommonMark</a></li>
+<li><a href="http://jgm.github.io/stmd/js/">stmd.js dingus</a></li>
+<li><a href="http://johnmacfarlane.net/babelmark2/">Babelmark 2</a></li>
+<li><a href="http://johnmacfarlane.net/pandoc/">Pandoc</a></li>
+<li><a href="http://daringfireball.net/projects/markdown/">Markdown</a></li>
+</ul>
+</div>
+</div>
+          </div>
+        </div>
+
+
+<!-- Footer start -->
+    <div id="copywrite">
+      <div class="container">
+        <div class="row">
+              <div class="span12">
+                  <p>&copy; 2015 Oliver Braun | <a href="../impressum.html">Impressum</a>
+                  <span class="pull-right">
+                      Generated with <a href="http://jaspervdj.be/hakyll">Hakyll</a>,
+                      served by
+                      <a href="http://www.freebsd.org/">FreeBSD</a>
+                      | Fork me on
+                      <a href="https://github.com/obcode/ob.cs.hm.edu">GitHub</a>
+                  </span></p>
+              </div>
+            </div>
+      </div>
+    </div>
+<!-- Footer end -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery-1.8.3.min.js"><\/script>')</script>
+    <script src="../js/bootstrap.min.js"></script>
+    </body>
+</html>

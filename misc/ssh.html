@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="utf-8">
+        <title>Oliver Braun - OpenSSH-Keys generieren und nutzen</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Website Prof. Dr. Oliver Braun">
+        <meta name="author" content="Oliver Braun">
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/bootstrap-responsive.min.css" rel="stylesheet">
+        <link href="../css/glyphicons.css" rel="stylesheet">
+        <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300" rel="stylesheet" type="text/css">
+        <link href="../css/base.css" rel="stylesheet">
+        <link href="../css/blue.css" rel="stylesheet">
+        <!--[if lt IE 9]>
+          <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+        <link rel="shortcut icon" href="../img/ico/favicon.ico">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../img/ico/favicon.ico">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../img/ico/favicon.ico">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../img/ico/favicon.ico">
+        <link rel="apple-touch-icon-precomposed" href="../img/ico/favicon.ico">
+    </head>
+    <body>
+<!-- Navigation start -->
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-primary btn-dropnav" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="../">ob.cs.hm.edu</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav pull-right animated">
+              <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" role="button" href="../lectures">Lehrveranstaltungen <b class="caret"></b></a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="../lectures/algdat.html" tabindex="-1">Algorithmen und Datenstrukturen I</a></li>
+                  <li><a href="../lectures/compiler.html" tabindex="-1">Compiler</a></li>
+                  <li><a href="../lectures/fun.html" tabindex="-1">Funktionale Programmierung</a></li>
+                  <li><a href="../lectures/sa.html" tabindex="-1">Software-Architektur</a></li>
+                  <li><a href="../lectures/seiib.html" tabindex="-1">Softwareentwicklung I (IB)</a></li>
+                  <li><a href="../lectures/seiiib.html" tabindex="-1">Softwareentwicklung II (IB)</a></li>
+                  <li><a href="../lectures/swengiib.html" tabindex="-1">Software Engineering I (IB)</a></li>
+                  <li><a href="../lectures/swengiiib.html" tabindex="-1">Software Engineering II (IB)</a></li>
+                  <li><a href="../lectures/webtech.html" tabindex="-1">Web-Techniken</a></li>
+                  <li><a href="../lectures/webtechFK12.html" tabindex="-1">Web-Techniken (mit FK12)</a></li>
+                </ul>
+              </li>
+              <li><a href="../misc/theses.html">Abschlussarbeiten</a></li>
+              <li><a href="https://terraform.cs.hm.edu/jenkins/">Jenkins</a></li>
+              <li><a href="../about.html">Oliver Braun</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- Navigation end -->
+
+        <div id="landing">
+          <div class="container">
+            <div class="row">
+                  <div class="span7">
+                      <h1>OpenSSH-Keys generieren und nutzen</h1>
+                  </div>
+                  <div class="span1">&nbsp;
+                  </div>
+                  <div class="span4">
+                    <img alt src="../img/openssh.jpg" width="300" height="150" />
+                  </div>
+                </div>
+          </div>
+        </div>
+
+        <div id="content">
+          <div class="container">
+            <div class="row">
+<div class="span6">
+<h2 id="ssh-keys-generieren">SSH-Keys generieren</h2>
+<p>Es gibt verschiedene Formate in denen Schlüssel für verschiedene SSH-Versionen vorliegen können.</p>
+<p><strong>Ich brauche von Ihnen den öffentlichen Schlüssel im Standard-OpenSSH-Format.</strong></p>
+<p>Das Format ist <em>eine</em> Zeile in der folgende Informationen stehen:</p>
+<pre><code>&lt;ssh-rsa&gt; &lt;really long string of nonsense&gt; &lt;username&gt;@&lt;host&gt;</code></pre>
+<p>Andernfalls wird der Zugriff nicht funktionieren.</p>
+<p>Haben Sie bereits ein OpenSSH-Key-Pair brauchen Sie natürlich kein neues zu generieren.</p>
+<p>Um die Schlüssel unter unixoiden Betriebssystemen (Linux, MacOS X, …) bzw. unter Windows in der Git Bash zu generieren, geben Sie folgendes auf der Kommandozeile ein:</p>
+<pre><code>ssh-keygen -t rsa</code></pre>
+<p>Verwenden Sie zum Speichern die standardmäßig angegebene Lokation, <code>~/.ssh/id_rsa</code>. Damit können die verschiedenen Git-Clients unter Unixen automatisch ihren Secret-SSH-Key finden.</p>
+<p>Wenn Sie eine <code>passphrase</code> für Ihren Schlüssel eingeben, sichern Sie damit den lokalen Zugriff auf Ihren Secret-Key ab und müssen diese Passphrase bei jedem clonen, pushen, pullen und fetchen eingeben.</p>
+<p>Den generierte Public-Key <code>id_rsa.pub</code> müssen Sie mir dann, auf dem in der Lehrveranstaltung besprochenen Wege, zukommen lassen.</p>
+<p>Um Ihren Key unter Windows in <a href="http://www.sourcetreeapp.com/">SourceTree</a> nutzen zu können, müssen Sie dann beim ersten Start einfach “Use OpenSSH” auswählen.</p>
+</div>
+<div class="span6">
+<h2 id="vorhandene-ssh-keys-nutzen">Vorhandene SSH-Keys nutzen</h2>
+<p>Wenn Sie bereits ein SSH-Schüsselpaar im OpenSSH-Format haben, können Sie dieses selbstverständlich verwenden. Auch wenn Sie auf mehreren Rechnern arbeiten wollen, können Sie den privaten Schlüssel einfach an die entsprechende Stelle (<code>~/.ssh/</code> bzw. <code>c:\Benutzer\.ssh\</code>) auf den verschiedenen Rechnern kopieren.</p>
+</div>
+</div>
+<div id="refs" class="references">
+
+</div>
+          </div>
+        </div>
+
+
+<!-- Footer start -->
+    <div id="copywrite">
+      <div class="container">
+        <div class="row">
+              <div class="span12">
+                  <p>&copy; 2015 Oliver Braun | <a href="../impressum.html">Impressum</a>
+                  <span class="pull-right">
+                      Generated with <a href="http://jaspervdj.be/hakyll">Hakyll</a>,
+                      served by
+                      <a href="http://www.freebsd.org/">FreeBSD</a>
+                      | Fork me on
+                      <a href="https://github.com/obcode/ob.cs.hm.edu">GitHub</a>
+                  </span></p>
+              </div>
+            </div>
+      </div>
+    </div>
+<!-- Footer end -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery-1.8.3.min.js"><\/script>')</script>
+    <script src="../js/bootstrap.min.js"></script>
+    </body>
+</html>
