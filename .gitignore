@@ -15,7 +15,6 @@ eval/eval*
 /.cabal-sandbox/
 
 _cache/
-_site/
 site
 site.hi
 site.o
