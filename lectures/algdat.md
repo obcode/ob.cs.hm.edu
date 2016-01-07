@@ -46,6 +46,8 @@ semester: Wintersemester 2015/16
 -   Blatt 5 ([HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/algdat/html/Blatt05.html),
              [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/algdat/pdf/Blatt05.pdf))
 -->
+    -   Teilgruppe 1
+    -   Teilgruppe 2
 
 </div>
 <div class="span6">
