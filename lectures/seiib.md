@@ -133,7 +133,7 @@ Sie stehen auch per E-Mail für Fragen zur Verfügung.
 
 ## Klausur
 
-Die Klausur wird ohne Hilfsmittel geschrieben. Der gesamte bis dahin behandelte
+Die Klausur wird ohne Hilfsmittel geschrieben. Der gesamte bis dahin in den Übungsblättern behandelte
 Stoff ist Gegenstand der Klausur.
 
 Alte Klausuren:

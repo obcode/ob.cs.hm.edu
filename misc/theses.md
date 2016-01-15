@@ -111,7 +111,8 @@ Umfang
 
 Es lässt sich keine allgemein gültige Aussage über den Umfang einer
 Abschlussarbeit machen. Ein angemessener Umfang liegt in der Regel
-zwischen 50 und 100 Seiten. Wenn Sie das, was Sie erarbeitet haben,
+zwischen 30 und 60 Seiten (Bachelorarbeit) bzw. 50 und 100 (Masterarbeit).
+Wenn Sie das, was Sie erarbeitet haben,
 sauber hinschreiben, werden Sie in diesem Bereich landen. Sie sollten
 sich auf keinen Fall quälen (müssen), um den Umfang zu vergrößern. Sehr
 umfangreiche Arbeiten schrecken den Leser eher ab (außer vielleicht in
