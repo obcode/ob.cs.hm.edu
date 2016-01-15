@@ -20,27 +20,27 @@ semester: Sommersemester 2015
 
 ## Aufgabenblätter
 
--   Blatt 0 (Git) ([HTML](/lectures/fun/html/Blatt00.html),
-             [PDF](/lectures/fun/pdf/Blatt00.pdf))
--   Blatt 1 ([HTML](/lectures/fun/html/Blatt01.html),
-             [PDF](/lectures/fun/pdf/Blatt01.pdf))
--   Blatt 2 ([HTML](/lectures/fun/html/Blatt02.html),
-             [PDF](/lectures/fun/pdf/Blatt02.pdf))
--   Blatt 3 ([HTML](/lectures/fun/html/Blatt03.html),
-             [PDF](/lectures/fun/pdf/Blatt03.pdf))
--   Blatt 4 ([HTML](/lectures/fun/html/Blatt04.html),
-             [PDF](/lectures/fun/pdf/Blatt04.pdf))
+-   Blatt 0 (Git) ([HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/fun/html/Blatt00.html),
+             [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/fun/pdf/Blatt00.pdf))
+-   Blatt 1 ([HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/fun/html/Blatt01.html),
+             [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/fun/pdf/Blatt01.pdf))
+-   Blatt 2 ([HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/fun/html/Blatt02.html),
+             [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/fun/pdf/Blatt02.pdf))
+-   Blatt 3 ([HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/fun/html/Blatt03.html),
+             [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/fun/pdf/Blatt03.pdf))
+-   Blatt 4 ([HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/fun/html/Blatt04.html),
+             [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/fun/pdf/Blatt04.pdf))
 
 ## Folien
 
 -   Organisatorisches
-    ([Slides](/lectures/fun/presentation/00_Organisatorisches.html),
-    [HTML](/lectures/fun/html/00_Organisatorisches.html),
-    [PDF](/lectures/fun/pdf/00_Organisatorisches.pdf))
+    ([Slides](https://dl.dropboxusercontent.com/u/13563262/lectures/fun/presentation/00_Organisatorisches.html),
+    [HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/fun/html/00_Organisatorisches.html),
+    [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/fun/pdf/00_Organisatorisches.pdf))
 -   Einführung
-    ([Slides](/lectures/fun/presentation/01_Introduction.html),
-    [HTML](/lectures/fun/html/01_Introduction.html),
-    [PDF](/lectures/fun/pdf/01_Introduction.pdf))
+    ([Slides](https://dl.dropboxusercontent.com/u/13563262/lectures/fun/presentation/01_Introduction.html),
+    [HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/fun/html/01_Introduction.html),
+    [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/fun/pdf/01_Introduction.pdf))
 
 ## Links
 
@@ -100,9 +100,9 @@ Gegenstand der Klausur ist der gesamte in Vorlesung und Praktikum
 behandelte Stoff, soweit nicht anders vereinbart. Die Klausur
 wird ohne Hilfsmittel geschrieben.
 
--   Klausur vom 26.07.2013: [PDF](/lectures/fun/pdf/KlausurSS13.pdf)
--   Klausur vom 16.07.2014: [PDF](/lectures/fun/pdf/KlausurSS14.pdf)
--   Klausur vom 23.07.2015: [PDF](/lectures/fun/pdf/KlausurSS15.pdf)
+-   Klausur vom 26.07.2013: [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/fun/pdf/KlausurSS13.pdf)
+-   Klausur vom 16.07.2014: [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/fun/pdf/KlausurSS14.pdf)
+-   Klausur vom 23.07.2015: [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/fun/pdf/KlausurSS15.pdf)
 
 ## Literatur
 
