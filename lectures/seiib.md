@@ -69,6 +69,9 @@ semester: Wintersemester 2015/16
 -   Blatt 6 / Abgabe 4
     ([HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/html/Blatt06.html),
      [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/pdf/Blatt06.pdf))
+-   Blatt 7 / Livecoding 3
+    ([HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/html/Blatt07.html),
+     [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/pdf/Blatt07.pdf))
 
 ## Vorlesungsskript
 
