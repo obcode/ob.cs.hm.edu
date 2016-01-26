@@ -27,37 +27,37 @@ semester: Sommersemester 2015
 ## Folien
 
 -   Testen von Software / Modultests
-    ([Slides](/lectures/swengiiib/presentation/01_Testen_Modultests.html),
-    [HTML](/lectures/swengiiib/html/01_Testen_Modultests.html),
-    [PDF](/lectures/swengiiib/pdf/01_Testen_Modultests.pdf))
+    ([Slides](https://dl.dropboxusercontent.com/u/13563262/lectures/swengiiib/presentation/01_Testen_Modultests.html),
+    [HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/swengiiib/html/01_Testen_Modultests.html),
+    [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/swengiiib/pdf/01_Testen_Modultests.pdf))
 -   Testen in Scala und Play
-    ([Slides](/lectures/swengiiib/presentation/02_Testen_Scala_Play.html),
-    [HTML](/lectures/swengiiib/html/02_Testen_Scala_Play.html),
-    [PDF](/lectures/swengiiib/pdf/02_Testen_Scala_Play.pdf))
+    ([Slides](https://dl.dropboxusercontent.com/u/13563262/lectures/swengiiib/presentation/02_Testen_Scala_Play.html),
+    [HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/swengiiib/html/02_Testen_Scala_Play.html),
+    [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/swengiiib/pdf/02_Testen_Scala_Play.pdf))
 -   Testen II
-    ([Slides](/lectures/swengiiib/presentation/03_TestenII.html),
-    [HTML](/lectures/swengiiib/html/03_TestenII.html),
-    [PDF](/lectures/swengiiib/pdf/03_TestenII.pdf))
+    ([Slides](https://dl.dropboxusercontent.com/u/13563262/lectures/swengiiib/presentation/03_TestenII.html),
+    [HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/swengiiib/html/03_TestenII.html),
+    [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/swengiiib/pdf/03_TestenII.pdf))
 -   Design Patterns
-    ([Slides](/lectures/swengiiib/presentation/04_DesignPatterns.html),
-    [HTML](/lectures/swengiiib/html/04_DesignPatterns.html),
-    [PDF](/lectures/swengiiib/pdf/04_DesignPatterns.pdf))
+    ([Slides](https://dl.dropboxusercontent.com/u/13563262/lectures/swengiiib/presentation/04_DesignPatterns.html),
+    [HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/swengiiib/html/04_DesignPatterns.html),
+    [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/swengiiib/pdf/04_DesignPatterns.pdf))
 -   Softwareevolution
-    ([Slides](/lectures/swengiiib/presentation/05_Softwareevolution.html),
-    [HTML](/lectures/swengiiib/html/05_Softwareevolution.html),
-    [PDF](/lectures/swengiiib/pdf/05_Softwareevolution.pdf))
+    ([Slides](https://dl.dropboxusercontent.com/u/13563262/lectures/swengiiib/presentation/05_Softwareevolution.html),
+    [HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/swengiiib/html/05_Softwareevolution.html),
+    [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/swengiiib/pdf/05_Softwareevolution.pdf))
 -   Wiederverwendung von Software
-    ([Slides](/lectures/swengiiib/presentation/06_Wiederverwendung.html),
-    [HTML](/lectures/swengiiib/html/06_Wiederverwendung.html),
-    [PDF](/lectures/swengiiib/pdf/06_Wiederverwendung.pdf))
+    ([Slides](https://dl.dropboxusercontent.com/u/13563262/lectures/swengiiib/presentation/06_Wiederverwendung.html),
+    [HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/swengiiib/html/06_Wiederverwendung.html),
+    [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/swengiiib/pdf/06_Wiederverwendung.pdf))
 -   Serviceorientierte Architekturen
-    ([Slides](/lectures/swengiiib/presentation/07_SOA.html),
-    [HTML](/lectures/swengiiib/html/07_SOA.html),
-    [PDF](/lectures/swengiiib/pdf/07_SOA.pdf))
+    ([Slides](https://dl.dropboxusercontent.com/u/13563262/lectures/swengiiib/presentation/07_SOA.html),
+    [HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/swengiiib/html/07_SOA.html),
+    [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/swengiiib/pdf/07_SOA.pdf))
 -   REST
-    ([Slides](/lectures/swengiiib/presentation/08_REST.html),
-    [HTML](/lectures/swengiiib/html/08_REST.html),
-    [PDF](/lectures/swengiiib/pdf/08_REST.pdf))
+    ([Slides](https://dl.dropboxusercontent.com/u/13563262/lectures/swengiiib/presentation/08_REST.html),
+    [HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/swengiiib/html/08_REST.html),
+    [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/swengiiib/pdf/08_REST.pdf))
 
 </div>
 <div class="span6">
@@ -67,8 +67,8 @@ semester: Sommersemester 2015
 Als Studienarbeit ist in Gruppen ein Projekt mit dem [Play
 Framework](https://www.playframework.com/) in [Scala](http://scala-lang.org/)
 anzufertigen. Genauere Informationen finden Sie hier:
-([HTML](/lectures/swengiiib/html/Studienarbeit.html),
-[PDF](/lectures/swengiiib/pdf/Studienarbeit.pdf))
+([HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/swengiiib/html/Studienarbeit.html),
+[PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/swengiiib/pdf/Studienarbeit.pdf))
 
 ## Klausur
 
@@ -76,7 +76,7 @@ Gegenstand der Klausur ist der gesamte in Vorlesung und Praktikum
 behandelte Stoff, soweit nicht anders vereinbart. Die Klausur
 wird ohne Hilfsmittel geschrieben.
 
--   Klausur vom 20.07.2015: [PDF](/lectures/swengiiib/pdf/KlausurSS15.pdf)
+-   Klausur vom 20.07.2015: [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/swengiiib/pdf/KlausurSS15.pdf)
 
 ## Links
 
