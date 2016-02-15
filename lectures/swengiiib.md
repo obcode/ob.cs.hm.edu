@@ -77,6 +77,7 @@ behandelte Stoff, soweit nicht anders vereinbart. Die Klausur
 wird ohne Hilfsmittel geschrieben.
 
 -   Klausur vom 20.07.2015: [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/swengiiib/pdf/KlausurSS15.pdf)
+-   Klausur vom 01.02.2016: [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/swengiiib/pdf/KlausurWS15.pdf)
 
 ## Links
 

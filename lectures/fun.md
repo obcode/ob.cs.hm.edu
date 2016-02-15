@@ -103,6 +103,7 @@ wird ohne Hilfsmittel geschrieben.
 -   Klausur vom 26.07.2013: [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/fun/pdf/KlausurSS13.pdf)
 -   Klausur vom 16.07.2014: [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/fun/pdf/KlausurSS14.pdf)
 -   Klausur vom 23.07.2015: [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/fun/pdf/KlausurSS15.pdf)
+-   Klausur vom 04.02.2016: [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/fun/pdf/KlausurWS15.pdf)
 
 ## Literatur
 

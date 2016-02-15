@@ -143,6 +143,7 @@ Alte Klausuren:
 
 -   Klausur vom 25.01.2013: [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/pdf/KlausurWS12.pdf)
 -   Klausur vom 23.07.2013: [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/pdf/KlausurSS13.pdf)
+-   Klausur vom 25.01.2016: [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/pdf/KlausurWS15.pdf)
 
 </div>
 </div>
