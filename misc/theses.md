@@ -84,8 +84,10 @@ Abbildungs- und Tabellenverzeichnis sind nicht erforderlich. Ein Glossar
 ist hilfreich, wenn viele Abkürzungen und spezielle Begriffe verwendet
 werden.
 
-Geben Sie die Arbeit in einer Ausfertigung in gebundener Form ab. Klebebindung ist die günstigste Lösung.
+Geben Sie die Arbeit in **einer** Ausfertigung in gebundener Form ab. Klebebindung ist die günstigste Lösung.
 Ringbindung geht zur Not, Hardcover muss absolut nicht sein.
+
+Zusätzlich senden Sie mir Ihre Arbeit per E-Mail als **PDF**.
 
 LaTeX-Vorlage
 -------------
