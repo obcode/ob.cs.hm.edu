@@ -8,12 +8,9 @@ semester: Sommersemester 2016
 <div class="row">
 <div class="span6">
 
-## Aktuelles
-
 ## Vorlesung
 
 Die Vorlesung findet aus gesundheitlichen Gründen bei Herr Prof. Zimmer statt.
-
 
 ## Aufgabenblätter
 
@@ -69,7 +66,7 @@ Die Praktika werden von Tutoren geleitet:
 
 Sie stehen auch per E-Mail für Fragen zur Verfügung.
 
-# Vorlesungsskript (Stand SS 2013)
+## Vorlesungsskript (Stand SS 2013)
 
 -   Klassen
     ([Slides](https://dl.dropboxusercontent.com/u/13563262/lectures/seiiib/presentation/04_Klassen.html),
