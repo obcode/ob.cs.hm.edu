@@ -14,13 +14,10 @@ Die Vorlesung findet aus gesundheitlichen Gründen bei Herr Prof. Zimmer statt.
 
 ## Aufgabenblätter
 
-<!--
--   Blatt 0
-    ([HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/seiiib/html/Blatt0.html),
-    [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/seiiib/pdf/Blatt0.pdf))
 -   Blatt 1
     ([HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/seiiib/html/Blatt1.html),
     [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/seiiib/pdf/Blatt1.pdf))
+<!--
 -   Blatt 2
     ([HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/seiiib/html/Blatt2.html),
     [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/seiiib/pdf/Blatt2.pdf))
