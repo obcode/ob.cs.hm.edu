@@ -20,10 +20,10 @@ Die Vorlesung findet aus gesundheitlichen Gründen bei Herr Prof. Zimmer statt.
 -   Blatt 2
     ([HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/seiiib/html/Blatt2.html),
     [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/seiiib/pdf/Blatt2.pdf))
-<!--
 -   Blatt 3
     ([HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/seiiib/html/Blatt3.html),
     [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/seiiib/pdf/Blatt3.pdf))
+<!--
 -   Blatt 4
     ([HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/seiiib/html/Blatt4.html),
     [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/seiiib/pdf/Blatt4.pdf))
