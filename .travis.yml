@@ -1,10 +1,8 @@
 sudo: false
 language: haskell
-ghc: 7.8
 cache:
   directories:
-  - $HOME/.ghc
-  - $HOME/.cabal
+  - $HOME/.stack
 branches:
   only:
   - master
@@ -12,9 +10,20 @@ before_install:
     - cd _site/
     - git checkout gh-pages
     - cd ..
+    # Download and unpack the stack executable
+    - mkdir -p ~/.local/bin
+    - export PATH=$HOME/.local/bin:$PATH
+    - travis_retry curl -L https://www.stackage.org/stack/linux-x86_64 | tar xz --wildcards --strip-components=1 -C ~/.local/bin '*/stack'
+    - export PATH=/opt/ghc/7.10.3/bin:$PATH
+addons:
+  apt:
+    sources:
+    - hvr-ghc
+    packages:
+    - ghc-7.10.3
 install:
-- cabal install hakyll
-- ghc --make site.hs
+    - stack install hakyll
+    - ghc --make site.hs
 script: ./site build
 env:
   global:
