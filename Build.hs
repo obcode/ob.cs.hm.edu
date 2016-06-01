@@ -18,12 +18,12 @@ main = shakeArgs shakeOptions{shakeFiles=".shake/"} $ do
         liftIO $ removeFiles "_site" ["//*"]
 
     phony "build" $ do
-        () <- cmd "cabal install"
-        cmd "cabal run -- rebuild"
+        () <- cmd "stack build"
+        cmd "stack exec site rebuild"
 
     phony "watch" $ do
         need ["build"]
-        cmd "cabal run -- watch"
+        cmd "stack exec site watch"
 
     phony "push" $ do
         need ["build"]

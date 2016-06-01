@@ -20,3 +20,4 @@ site.hi
 site.o
 .DS_Store
 .shake
+.stack-work/
