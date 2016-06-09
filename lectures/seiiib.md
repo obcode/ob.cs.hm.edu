@@ -37,8 +37,8 @@ Die Vorlesung findet aus gesundheitlichen Gründen bei Herr Prof. Zimmer statt.
 
 ## Klausur
 
--   Klausur vom 11.07.2013: [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/seiiib/pdf/KlausurSS2013.pdf)
--   Klausur vom 03.02.2014: [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/seiiib/pdf/KlausurWS2013.pdf)
+-   Klausur vom 11.07.2013: [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/seiiib/pdf/KlausurSS13.pdf)
+-   Klausur vom 03.02.2014: [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/seiiib/pdf/KlausurWS13.pdf)
 
 </div>
 <div class="span6">
