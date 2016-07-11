@@ -10,7 +10,28 @@ semester: Sommersemester 2016
 
 ## Ziele / Inhalte
 
+-   Graphen
+-   Hashverfahren
+-   Algorithmen und Datenstrukturen für den effizienten Zugriff auf große Datenmengen
+-   Umsetzung in C++
+
 ## Termine und Inhalte
+
+Treffpunkt ist immer der Vorlesungsraum R1.006.
+
+Die Praktikumsgruppen arbeiten parallel in den Räumen R1.009 und R1.010A.
+
+Die Veranstaltung umfasst 60 Präsenzstunden Vorlesung & Praktikum.
+Diese teilen sich folgendermaßen auf:
+
+- 25.07. 10:00 - 17:30 (Mittagspause 13:15 - 14:15)
+- 26.07. 09:00 - 16:30 (Mittagspause 12:15 - 13:15)
+- 27.07. 09:00 - 16:30 (Mittagspause 12:15 - 13:15)
+- 28.07. 09:00 - 14:00 (keine Mittagspause)
+- 01.08. 10:00 - 17:30 (Mittagspause 13:15 - 14:15)
+- 02.08. 09:00 - 16:30 (Mittagspause 12:15 - 13:15)
+- 03.08. 09:00 - 16:30 (Mittagspause 12:15 - 13:15)
+- 04.08. 09:00 - 14:00 (keine Mittagspause)
 
 ## Aufgabenblätter
 
@@ -19,7 +40,12 @@ semester: Sommersemester 2016
 
 ## Scheinerwerb
 
+Erfolgreiche Teilnahme am Praktikum. Dies bedingt im Blockseminar die regelmäßige
+Anwesenheit.
+
 ## Prüfung
+
+Mündliche Prüfung am 08.08.16 und 09.08.16.
 
 ## Links
 
