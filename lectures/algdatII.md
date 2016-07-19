@@ -35,6 +35,9 @@ Diese teilen sich folgendermaßen auf:
 
 ## Aufgabenblätter
 
+-   Blatt 1 ([HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/algdatii/html/Blatt01.html),
+             [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/algdatii/pdf/Blatt01.pdf))
+
 </div>
 <div class="span6">
 
