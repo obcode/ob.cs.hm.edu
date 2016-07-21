@@ -37,14 +37,15 @@ Diese teilen sich folgendermaßen auf:
 
 -   Blatt 1 ([HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/algdatii/html/Blatt01.html),
              [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/algdatii/pdf/Blatt01.pdf))
+-   Blatt 2 ([HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/algdatii/html/Blatt02.html),
+             [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/algdatii/pdf/Blatt02.pdf))
 
 </div>
 <div class="span6">
 
 ## Scheinerwerb
 
-Erfolgreiche Teilnahme am Praktikum. Dies bedingt im Blockseminar die regelmäßige
-Anwesenheit.
+Erfolgreiche Bearbeitung des Aufgabenblatt 2.
 
 ## Prüfung
 
