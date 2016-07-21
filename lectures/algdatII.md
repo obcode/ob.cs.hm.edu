@@ -27,7 +27,7 @@ Diese teilen sich folgendermaßen auf:
 - 25.07. 10:00 - 17:30 (Mittagspause 13:15 - 14:15)
 - 26.07. 09:00 - 16:30 (Mittagspause 12:15 - 13:15)
 - 27.07. 09:00 - 16:30 (Mittagspause 12:15 - 13:15)
-- 28.07. 09:00 - 14:00 (keine Mittagspause)
+- 28.07. 09:00 - 12:30 (keine Mittagspause)
 - 01.08. 10:00 - 17:30 (Mittagspause 13:15 - 14:15)
 - 02.08. 09:00 - 16:30 (Mittagspause 12:15 - 13:15)
 - 03.08. 09:00 - 16:30 (Mittagspause 12:15 - 13:15)
