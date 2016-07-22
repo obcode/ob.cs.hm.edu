@@ -33,6 +33,17 @@ Diese teilen sich folgendermaßen auf:
 - 03.08. 09:00 - 16:30 (Mittagspause 12:15 - 13:15)
 - 04.08. 09:00 - 14:00 (keine Mittagspause)
 
+## Slides
+
+-   Hashverfahren
+    ([Slides](https://dl.dropboxusercontent.com/u/13563262/lectures/algdatii/presentation/01_Hashverfahren.html),
+    [HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/algdatii/html/01_Hashverfahren.html),
+    [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/algdatii/pdf/01_Hashverfahren.pdf))
+-   Graphenalgorithmen
+    ([Slides](https://dl.dropboxusercontent.com/u/13563262/lectures/algdatii/presentation/02_Graphenalgorithmen.html),
+    [HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/algdatii/html/02_Graphenalgorithmen.html),
+    [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/algdatii/pdf/02_Graphenalgorithmen.pdf))
+
 ## Aufgabenblätter
 
 -   Blatt 1 ([HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/algdatii/html/Blatt01.html),
