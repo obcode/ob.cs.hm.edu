@@ -15,6 +15,8 @@ semester: Sommersemester 2016
 -   Algorithmen und Datenstrukturen für den effizienten Zugriff auf große Datenmengen
 -   Umsetzung in C++
 
+-   Der Vorlesungsstoff basiert auf dem Buch [Algorithmen und Datenstrukturen](http://link.springer.com/book/10.1007/978-3-8274-2804-2/page/1) von T.Ottmann & P.Widmayer.
+
 ## Termine und Inhalte
 
 Treffpunkt ist immer der Vorlesungsraum R1.006.
