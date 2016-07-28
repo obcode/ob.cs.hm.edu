@@ -66,6 +66,9 @@ Mündliche Prüfung am 08.08.16 und 09.08.16.
 
 ## Links
 
+-   [AlgDat @ GitHub](https://github.com/algdat)
+-   [Praktikums-Themen](https://github.com/algdat/algdatII-Praktikum/wiki/Themen)
+
 ### Tutorials
 
 -   <http://www.learncpp.com/>
