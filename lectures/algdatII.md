@@ -45,6 +45,10 @@ Diese teilen sich folgendermaßen auf:
     ([Slides](https://dl.dropboxusercontent.com/u/13563262/lectures/algdatii/presentation/02_Graphenalgorithmen.html),
     [HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/algdatii/html/02_Graphenalgorithmen.html)/<!-- ,
     [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/algdatii/pdf/02_Graphenalgorithmen.pdf)) -->
+-   Suchen in Texten
+    ([Slides](https://dl.dropboxusercontent.com/u/13563262/lectures/algdatii/presentation/03_SuchenInTexten.html),
+    [HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/algdatii/html/03_SuchenInTexten.html)/<!-- ,
+    [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/algdatii/pdf/03_SuchenInTexten.pdf)) -->
 
 ## Aufgabenblätter
 
