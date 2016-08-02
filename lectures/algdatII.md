@@ -49,6 +49,10 @@ Diese teilen sich folgendermaßen auf:
     ([Slides](https://dl.dropboxusercontent.com/u/13563262/lectures/algdatii/presentation/03_SuchenInTexten.html),
     [HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/algdatii/html/03_SuchenInTexten.html))<!-- ,
     [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/algdatii/pdf/03_SuchenInTexten.pdf)) -->
+-   Weitere Algorithmusentwurfstechniken
+    ([Slides](https://dl.dropboxusercontent.com/u/13563262/lectures/algdatii/presentation/04_WeitereAlgorithmusentwurfstechniken.html),
+    [HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/algdatii/html/04_WeitereAlgorithmusentwurfstechniken.html))<!-- ,
+    [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/algdatii/pdf/04_WeitereAlgorithmusentwurfstechniken.pdf)) -->
 
 ## Aufgabenblätter
 
