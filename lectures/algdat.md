@@ -2,7 +2,7 @@
 title: Algorithmen und Datenstrukturen I
 modulurl: http://fi.cs.hm.edu/fi/rest/public/modul/title/algorithmenunddatenstruktureni
 image: rauchkopf.png
-semester: Wintersemester 2015/16
+semester: Wintersemester 2016/17
 ---
 
 <div class="row">
@@ -16,7 +16,7 @@ semester: Wintersemester 2015/16
 
 ## Termine und Inhalte
 
--   Vorlesungstermine (dienstags 10:00-11:30, R1.007)
+-   Vorlesungstermine (dienstags 17:00-18:30, R2.007)
 
     Der Vorlesungsstoff basiert auf dem Buch [Algorithmen und Datenstrukturen](http://link.springer.com/book/10.1007/978-3-8274-2804-2/page/1) von T.Ottmann & P.Widmayer.
 
@@ -24,13 +24,14 @@ semester: Wintersemester 2015/16
 
 -   Praktikumstermine
 
-    -   *Teilgruppe 1*: dienstags 11:45-13:15, R1.009
+    -   *Teilgruppe 1*: montags 08:15-09:45, R3.021
     -   *Teilgruppe 2*: dienstags 15:15-16:45, R3.021
 
     Die genauen Praktikumsinhalte entnehmen Sie dem Moodle-Kurs.
 
 ## Aufgabenblätter
 
+<!--
 -   Blatt 0 ([HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/algdat/html/Blatt00.html),
              [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/algdat/pdf/Blatt00.pdf))
 -   Blatt 1 ([HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/algdat/html/Blatt01.html),
@@ -46,6 +47,7 @@ semester: Wintersemester 2015/16
              [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/algdat/pdf/Blatt05.pdf))
     -   Teilgruppe 1
     -   Teilgruppe 2
+-->
 
 </div>
 <div class="span6">
@@ -56,7 +58,6 @@ Zulassungsvoraussetzung zur Prüfung ist ein erfolgreich bestandener Leistungsna
 
 Für den Schein müssen Sie folgendes erfolgreich bearbeiten:
 
--   Livecoding-Programmieraufgabe in C++
 -   C++-Programmierprojekt mit Präsentation der Lösung in der Praktikumsgruppe, in Zweierteams
 
 Alle sonstigen Aufgabenblätter müssen nicht, aber sollten sinnvollerweise von Ihnen bearbeitet werden.
@@ -76,9 +77,9 @@ Der Prüfungsstoff entspricht den Kapiteln 1, 2, 3 & 5 aus dem o.a. Buch **und**
 ## Links
 
 -   [Moodle-Kurs](https://moodle.hm.edu/course/view.php?id=5450) der Lehrveranstaltung
-    (Zugangsschlüssel: *algdatIWS1516*)
+    (Zugangsschlüssel: *algdatIWS1617*)
 
--   [GitHub-Organisation](https://github.com/algdat-15WS)
+-   [GitHub-Organisation](https://github.com/algdat)
 
 -   C++-Referenz: <http://de.cppreference.com/w/>
 
@@ -89,6 +90,8 @@ Der Prüfungsstoff entspricht den Kapiteln 1, 2, 3 & 5 aus dem o.a. Buch **und**
 -   <http://www.csegeek.com/csegeek/view/tutorials/cpp_lang/cpp_intro.php>
 
 ### IDEs
+
+Auf den Laborrechnern ist Visual Studio installiert.
 
 -   <https://www.jetbrains.com/clion/>
 -   <http://www.codeblocks.org/>
