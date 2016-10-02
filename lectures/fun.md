@@ -2,7 +2,7 @@
 title: Funktionale Programmierung
 modulurl: http://fi.cs.hm.edu/fi/rest/public/modul/title/funktionaleprogrammierung
 image: Dreitorspitze.jpg
-semester: Sommersemester 2015
+semester: Wintersemester 2016/17
 ---
 
 <div class="row">
@@ -10,16 +10,17 @@ semester: Sommersemester 2015
 
 ## Termine und Inhalte
 
--   Vorlesungstermine (dienstags 15:15-16:45, R0.006)
+-   Vorlesungstermine (mittwochs 13:30-15:00, R0.009)
 
     Die genauen Vorlesungsinhalte entnehmen Sie dem Moodle-Kurs.
 
--   Praktikumstermine (mittwochs 10:00 - 11:30, R2.010)
+-   Praktikumstermine (mittwochs 15:15 - 16:45, R2.009)
 
     Die genauen Praktikumsinhalte entnehmen Sie dem Moodle-Kurs.
 
 ## Aufgabenblätter
 
+<!--
 -   Blatt 0 (Git) ([HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/fun/html/Blatt00.html),
              [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/fun/pdf/Blatt00.pdf))
 -   Blatt 1 ([HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/fun/html/Blatt01.html),
@@ -30,7 +31,9 @@ semester: Sommersemester 2015
              [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/fun/pdf/Blatt03.pdf))
 -   Blatt 4 ([HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/fun/html/Blatt04.html),
              [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/fun/pdf/Blatt04.pdf))
+-->
 
+<!--
 ## Folien
 
 -   Organisatorisches
@@ -41,11 +44,12 @@ semester: Sommersemester 2015
     ([Slides](https://dl.dropboxusercontent.com/u/13563262/lectures/fun/presentation/01_Introduction.html),
     [HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/fun/html/01_Introduction.html),
     [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/fun/pdf/01_Introduction.pdf))
+-->
 
 ## Links
 
 -   [Moodle-Kurs](https://moodle.hm.edu/course/view.php?id=5992) der
-    Lehrveranstaltung, den Zugangsschlüssel erhalten Sie in der ersten Vorlesung
+    Lehrveranstaltung, Zugangsschlüssel `funWS1617`
 
 #### Haskell
 
@@ -58,6 +62,7 @@ semester: Sommersemester 2015
 
 ##### Compiler etc.
 
+-   [The Haskell Tool Stack](https://docs.haskellstack.org/en/stable/README/)
 -   [Haskell Platform](http://www.haskell.org/platform/)
 -   [The Glasgow Haskell Compiler](http://www.haskell.org/ghc/)
 
@@ -81,6 +86,7 @@ schreiben.
 
 Beispiele für eine Haskell-Anwendung könnte eine Verwaltungssoftware (ähnlich dem Moviestore von den Aufgabenblättern), ein Spiel, eine WebApp sein.
 
+<!--
 ### Geforderte Ergebnisse:
 
 #### Haskell-Anwendung
@@ -93,6 +99,7 @@ Beispiele für eine Haskell-Anwendung könnte eine Verwaltungssoftware (ähnlich
 
 Für Ihr Projekt wird neben dem Git-Repository auf diesem Server ein Job im
 Jenkins auf Terraform eingerichtet.
+-->
 
 ## Klausur
 
