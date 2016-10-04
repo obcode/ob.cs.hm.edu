@@ -49,7 +49,7 @@ semester: Wintersemester 2016/17
 ## Links
 
 -   [Moodle-Kurs](https://moodle.hm.edu/course/view.php?id=5992) der
-    Lehrveranstaltung, Zugangsschlüssel `funWS1617`
+    Lehrveranstaltung, Zugangsschlüssel *funWS1617*
 
 #### Haskell
 

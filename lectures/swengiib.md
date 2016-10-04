@@ -11,7 +11,7 @@ semester: Wintersemester 2016/17
 ## Links
 
 -   [Moodle-Kurs](https://moodle.hm.edu/course/view.php?id=5449) der Lehrveranstaltung,
-    den Zugangsschlüssel `swengWS1617`
+    den Zugangsschlüssel *swengWS1617*
 
 ## Termine und Inhalte
 
