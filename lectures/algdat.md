@@ -37,9 +37,9 @@ semester: Wintersemester 2016/17
              [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/algdat/pdf/Blatt01.pdf))
 -   Blatt 2 ([HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/algdat/html/Blatt02.html),
              [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/algdat/pdf/Blatt02.pdf))
-<!--
 -   Blatt 3 ([HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/algdat/html/Blatt03.html),
              [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/algdat/pdf/Blatt03.pdf))
+<!--
 -   Blatt 4 --- Semesteraufgabe ([HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/algdat/html/Blatt04.html),
              [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/algdat/pdf/Blatt04.pdf))
 -   Blatt 5 --- Livecoding
