@@ -24,9 +24,9 @@ semester: Wintersemester 2016/17
              [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/fun/pdf/Blatt00.pdf))
 -   Blatt 1 ([HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/fun/html/Blatt01.html),
              [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/fun/pdf/Blatt01.pdf))
-<!--
 -   Blatt 2 ([HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/fun/html/Blatt02.html),
              [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/fun/pdf/Blatt02.pdf))
+<!--
 -   Blatt 3 ([HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/fun/html/Blatt03.html),
              [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/fun/pdf/Blatt03.pdf))
 -   Blatt 4 ([HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/fun/html/Blatt04.html),
