@@ -49,8 +49,8 @@ Gegenstand der Klausur ist der gesamte in Vorlesung und Praktikum
 behandelte Stoff, soweit nicht anders vereinbart. Die Klausur
 wird ohne Hilfsmittel geschrieben.
 
--   Klausur vom 21.01.2015: [PDF](/lectures/swengiib/pdf/KlausurWS14.pdf)
--   Klausur vom 09.07.2015: [PDF](/lectures/swengiib/pdf/KlausurSS15.pdf)
+-   Klausur vom 21.01.2015: [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/swengiib/pdf/KlausurWS14.pdf)
+-   Klausur vom 09.07.2015: [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/swengiib/pdf/KlausurSS15.pdf)
 
 ## Links
 
