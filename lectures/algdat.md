@@ -39,9 +39,9 @@ semester: Wintersemester 2016/17
              [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/algdat/pdf/Blatt02.pdf))
 -   Blatt 3 ([HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/algdat/html/Blatt03.html),
              [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/algdat/pdf/Blatt03.pdf))
-<!--
 -   Blatt 4 --- Semesteraufgabe ([HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/algdat/html/Blatt04.html),
              [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/algdat/pdf/Blatt04.pdf))
+<!--
 -   Blatt 5 --- Livecoding
     ([HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/algdat/html/Blatt05.html),
              [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/algdat/pdf/Blatt05.pdf))
@@ -58,7 +58,7 @@ Zulassungsvoraussetzung zur Prüfung ist ein erfolgreich bestandener Leistungsna
 
 Für den Schein müssen Sie folgendes erfolgreich bearbeiten:
 
--   C++-Programmierprojekt mit Präsentation der Lösung in der Praktikumsgruppe, in Zweierteams
+-   C++-Programmierprojekt mit Präsentation der Lösung in der Praktikumsgruppe, in Zweierteams (Blatt 4)
 
 Alle sonstigen Aufgabenblätter müssen nicht, aber sollten sinnvollerweise von Ihnen bearbeitet werden.
 
