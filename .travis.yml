@@ -1,5 +1,5 @@
 sudo: false
-language: haskell
+language: c
 cache:
   directories:
   - $HOME/.stack
@@ -14,15 +14,8 @@ before_install:
     - mkdir -p ~/.local/bin
     - export PATH=$HOME/.local/bin:$PATH
     - travis_retry curl -L https://www.stackage.org/stack/linux-x86_64 | tar xz --wildcards --strip-components=1 -C ~/.local/bin '*/stack'
-    - export PATH=/opt/ghc/bin:$PATH
-addons:
-  apt:
-    sources:
-    - hvr-ghc
-    packages:
-    - ghc-8.0.1
 install:
-    - stack install hakyll
+    - stack --no-terminal --install-ghc install hakyll
     - stack ghc site.hs
 script: ./site build
 env:
