@@ -26,7 +26,9 @@ main = shakeArgs shakeOptions{shakeFiles=".shake/"} $ do
         cmd "stack exec site watch"
 
     phony "push" $ do
-        -- cmd "rsync -avz" "_site/" $ uploadHost ++ ":" ++ uploadDir
+        cmd "rsync -avz" "_site/" $ uploadHost ++ ":" ++ uploadDir
+
+    phony "pullToOb" $ do
         cmd "ssh" $ uploadHost ++ " cd " ++ uploadDir
                     ++ " && git pull origin gh-pages"
 

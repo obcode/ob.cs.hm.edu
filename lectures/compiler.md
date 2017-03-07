@@ -2,19 +2,22 @@
 title: Compiler
 modulurl: http://fi.cs.hm.edu/fi/rest/public/modul/title/compiler
 image: Fuerteventura.png
-semester: Wintersemester 2014/15
+semester: Sommersemester 2017
 ---
 
 <div class="row">
 <div class="span6">
 
+<!--
 ## Links
 
 -   [Moodle-Kurs](https://moodle.hm.edu/course/view.php?id=5448) der Lehrveranstaltung,
     den Zugangsschlüssel erhalten Sie in der ersten Vorlesung
+-->
 
 ## Termine und Inhalte
 
+<!--
 -   Vorlesungstermine (dienstags 10:00-11:30, R1.007)
 
     Die genauen Vorlesungsinhalte entnehmen Sie dem Moodle-Kurs.
@@ -23,8 +26,11 @@ semester: Wintersemester 2014/15
     07.10.2013
 
     Die genauen Praktikumsinhalte entnehmen Sie dem Moodle-Kurs.
+-->
 
 ## Folien
+
+<!--
 
 --- ------------------------------------------------------------------------------------------ -------------------------------------------------------------------------------------------------------------------------------------------------
 1.  [Einführung](/lectures/compiler/html/01_Einfuehrung.html)                                  ([Slides](/lectures/compiler/presentation/01_Einfuehrung.html), [PDF](/lectures/compiler/pdf/01_Einfuehrung.pdf), [Source](https://github.com/obcode/compiler/blob/master/01_Einfuehrung.txt))
@@ -34,8 +40,11 @@ semester: Wintersemester 2014/15
 5.  [Optimierungstechniken](/lectures/compiler/html/05_Optimierungstechniken.html)             ([Slides](/lectures/compiler/presentation/05_Optimierungstechniken.html), [PDF](/lectures/compiler/pdf/05_Optimierungstechniken.pdf), [Source](https://github.com/obcode/compiler/blob/master/05_Optimierungstechniken.txt))
 --- ------------------------------------------------------------------------------------------ -------------------------------------------------------------------------------------------------------------------------------------------------
 
+-->
+
 ## Aufgabenblätter
 
+<!--
 -   Blatt 0 ([HTML](/lectures/compiler/html/Blatt00.html),
              [PDF](/lectures/compiler/pdf/Blatt00.pdf))
 -   Blatt 1 ([HTML](/lectures/compiler/html/Blatt01.html),
@@ -50,22 +59,24 @@ semester: Wintersemester 2014/15
              [PDF](/lectures/compiler/pdf/Blatt05.pdf))
 -   Blatt 6 ([HTML](/lectures/compiler/html/Blatt06.html),
              [PDF](/lectures/compiler/pdf/Blatt06.pdf))
+-->
 
 </div>
 <div class="span6">
 
 ## Leistungsnachweis
 
+<!--
 Für den Schein ist in Zweiergruppen ein Compiler in Haskell zu programmieren.
 Genauere Informationen über Aufgabe und Umfang bekommen Sie zu einem späteren
 Termin (siehe [Moodle](https://moodle.hm.edu/course/view.php?id=5448))
+-->
 
 ## Klausur
 
 Gegenstand der Klausur ist der gesamte in Vorlesung und Praktikum
 behandelte Stoff, soweit nicht anders vereinbart. Die Klausur
 wird ohne Hilfsmittel geschrieben.
-
 
 -   Klausur vom 22.07.14: [PDF](/lectures/compiler/pdf/KlausurSS14.pdf)
 

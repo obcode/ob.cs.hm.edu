@@ -1,8 +1,8 @@
 ---
 title: Algorithmen und Datenstrukturen II
-modulurl: http://fi.cs.hm.edu/fi/rest/public/modul/title/algorithmenunddatenstrukturenii
+modulurl: https://w3-o.cs.hm.edu:8000/public/module/12/
 image: swarovski.png
-semester: Sommersemester 2016
+semester: Sommersemester 2017
 ---
 
 <div class="row">
@@ -19,6 +19,7 @@ semester: Sommersemester 2016
 
 ## Termine und Inhalte
 
+<!--
 Treffpunkt ist immer der Vorlesungsraum R1.006.
 
 Die Praktikumsgruppen arbeiten parallel in den Räumen R1.009 und R1.010A.
@@ -34,44 +35,46 @@ Diese teilen sich folgendermaßen auf:
 - 02.08. 09:00 - 16:30 (Mittagspause 12:15 - 13:15)
 - 03.08. 09:00 - 16:30 (Mittagspause 12:15 - 13:15)
 - 04.08. 09:00 - 14:00 (keine Mittagspause)
+-->
 
 ## Slides
 
+<!--
 -   Hashverfahren
     ([Slides](https://dl.dropboxusercontent.com/u/13563262/lectures/algdatii/presentation/01_Hashverfahren.html),
-    [HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/algdatii/html/01_Hashverfahren.html))<!-- ,
-    [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/algdatii/pdf/01_Hashverfahren.pdf)) -->
+    [HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/algdatii/html/01_Hashverfahren.html))
 -   Graphenalgorithmen
     ([Slides](https://dl.dropboxusercontent.com/u/13563262/lectures/algdatii/presentation/02_Graphenalgorithmen.html),
-    [HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/algdatii/html/02_Graphenalgorithmen.html))<!-- ,
-    [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/algdatii/pdf/02_Graphenalgorithmen.pdf)) -->
+    [HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/algdatii/html/02_Graphenalgorithmen.html))
 -   Suchen in Texten
     ([Slides](https://dl.dropboxusercontent.com/u/13563262/lectures/algdatii/presentation/03_SuchenInTexten.html),
-    [HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/algdatii/html/03_SuchenInTexten.html))<!-- ,
-    [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/algdatii/pdf/03_SuchenInTexten.pdf)) -->
+    [HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/algdatii/html/03_SuchenInTexten.html))
+-->
 
 ## Aufgabenblätter
 
+<!--
 -   Blatt 1 ([HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/algdatii/html/Blatt01.html),
              [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/algdatii/pdf/Blatt01.pdf))
 -   Blatt 2 ([HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/algdatii/html/Blatt02.html),
              [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/algdatii/pdf/Blatt02.pdf))
+-->
 
 </div>
 <div class="span6">
 
 ## Scheinerwerb
 
-Erfolgreiche Bearbeitung des Aufgabenblatt 2.
+<!-- Erfolgreiche Bearbeitung des Aufgabenblatt 2. -->
 
 ## Prüfung
 
-Mündliche Prüfung am 08.08.16 und 09.08.16.
+Mündliche Prüfung in der KW 27.
 
 ## Links
 
 -   [AlgDat @ GitHub](https://github.com/algdat)
--   [Praktikums-Themen](https://github.com/algdat/algdatII-Praktikum/wiki/Themen)
+<!-- -   [Praktikums-Themen](https://github.com/algdat/algdatII-Praktikum/wiki/Themen) -->
 
 ### Tutorials
 
