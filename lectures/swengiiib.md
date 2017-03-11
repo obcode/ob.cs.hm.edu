@@ -18,6 +18,8 @@ semester: Sommersemester 2017
 
 ## Termine und Inhalte
 
+[Termine](https://www.evernote.com/l/AEF9WDhSEnFMzJT7WKO21DJDmTbSygjPc18)
+
 <!--
 -   Vorlesungstermine (donnerstags 11:45-13:15, R0.012)
 

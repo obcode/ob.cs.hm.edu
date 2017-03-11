@@ -19,7 +19,7 @@ semester: Sommersemester 2017
 
 ## Termine und Inhalte
 
-[Termine](https://www.evernote.com/shard/s65/sh/c99eb0a7-75dc-46d7-92d0-fd57299ba383/80acb0201205a408)
+[Termine](https://www.evernote.com/l/AEHJnrCnddxG15LQ_Vcpm6ODgKywIBIFpAg)
 
 <!--
 Treffpunkt ist immer der Vorlesungsraum R1.006.
