@@ -26,6 +26,7 @@ main = shakeArgs shakeOptions{shakeFiles=".shake/"} $ do
         cmd "stack exec site watch"
 
     phony "push" $ do
+        need ["build"]
         cmd "rsync -avz" "_site/" $ uploadHost ++ ":" ++ uploadDir
 
     phony "pullToOb" $ do
