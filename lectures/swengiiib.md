@@ -73,10 +73,9 @@ semester: Sommersemester 2017
 Als Studienarbeit ist in Gruppen ein Projekt mit dem [Play
 Framework](https://www.playframework.com/) in [Scala](http://scala-lang.org/)
 anzufertigen.
-<!-- Genauere Informationen finden Sie hier:
+Genauere Informationen finden Sie hier:
 ([HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/swengiiib/html/Studienarbeit.html),
 [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/swengiiib/pdf/Studienarbeit.pdf))
--->
 
 ## Klausur
 

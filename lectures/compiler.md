@@ -32,6 +32,11 @@ semester: Sommersemester 2017
 
 ## Folien
 
+-   Einführung
+    ([Slides](https://dl.dropboxusercontent.com/u/13563262/lectures/compiler/presentation/01_Einfuehrung.html),
+    [HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/compiler/html/01_Einfuehrung.html),
+    [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/compiler/pdf/01_Einfuehrung.pdf))
+
 <!--
 
 --- ------------------------------------------------------------------------------------------ -------------------------------------------------------------------------------------------------------------------------------------------------
