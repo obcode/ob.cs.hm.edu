@@ -10,8 +10,8 @@ semester: Sommersemester 2017
 
 ## Ziele / Inhalte
 
--   Graphen
 -   Hashverfahren
+-   Graphen
 -   Algorithmen und Datenstrukturen für den effizienten Zugriff auf große Datenmengen
 -   Umsetzung in C++
 
@@ -21,30 +21,11 @@ semester: Sommersemester 2017
 
 [Termine](https://www.evernote.com/l/AEHJnrCnddxG15LQ_Vcpm6ODgKywIBIFpAg)
 
-<!--
-Treffpunkt ist immer der Vorlesungsraum R1.006.
-
-Die Praktikumsgruppen arbeiten parallel in den Räumen R1.009 und R1.010A.
-
-Die Veranstaltung umfasst 60 Präsenzstunden Vorlesung & Praktikum.
-Diese teilen sich folgendermaßen auf:
-
-- 25.07. 10:00 - 17:30 (Mittagspause 13:15 - 14:15)
-- 26.07. 09:00 - 16:30 (Mittagspause 12:15 - 13:15)
-- 27.07. 09:00 - 16:30 (Mittagspause 12:15 - 13:15)
-- 28.07. 09:00 - 12:30 (keine Mittagspause)
-- 01.08. 10:00 - 17:30 (Mittagspause 13:15 - 14:15)
-- 02.08. 09:00 - 16:30 (Mittagspause 12:15 - 13:15)
-- 03.08. 09:00 - 16:30 (Mittagspause 12:15 - 13:15)
-- 04.08. 09:00 - 14:00 (keine Mittagspause)
--->
-
 ## Slides
 
+-   [Hashverfahren](/lectures/algdatii/slides/01_Hashverfahren.pdf)
+-   [Graphenalgorithmen](/lectures/algdatii/slides/02_Graphenalgorithmen.pdf)
 <!--
--   Hashverfahren
-    ([Slides](https://dl.dropboxusercontent.com/u/13563262/lectures/algdatii/presentation/01_Hashverfahren.html),
-    [HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/algdatii/html/01_Hashverfahren.html))
 -   Graphenalgorithmen
     ([Slides](https://dl.dropboxusercontent.com/u/13563262/lectures/algdatii/presentation/02_Graphenalgorithmen.html),
     [HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/algdatii/html/02_Graphenalgorithmen.html))
@@ -55,19 +36,15 @@ Diese teilen sich folgendermaßen auf:
 
 ## Aufgabenblätter
 
-<!--
--   Blatt 1 ([HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/algdatii/html/Blatt01.html),
-             [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/algdatii/pdf/Blatt01.pdf))
--   Blatt 2 ([HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/algdatii/html/Blatt02.html),
-             [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/algdatii/pdf/Blatt02.pdf))
--->
+-   [Blatt 1](/lectures/algdatii/exercises/Blatt01.pdf)
+-   [Blatt 2](/lectures/algdatii/exercises/Blatt02.pdf)
 
 </div>
 <div class="span6">
 
 ## Scheinerwerb
 
-<!-- Erfolgreiche Bearbeitung des Aufgabenblatt 2. -->
+Erfolgreiche Bearbeitung des Aufgabenblatt 2.
 
 ## Prüfung
 
@@ -76,6 +53,7 @@ Mündliche Prüfung in der KW 27.
 ## Links
 
 -   [AlgDat @ GitHub](https://github.com/algdat)
+-   [AlgDat @ Jenkins](https://terraform.cs.hm.edu/jenkins/view/GitHub-Organisationen/job/Algorithmen%20und%20Datenstrukturen/)
 <!-- -   [Praktikums-Themen](https://github.com/algdat/algdatII-Praktikum/wiki/Themen) -->
 
 ### Tutorials
