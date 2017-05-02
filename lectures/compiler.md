@@ -15,14 +15,15 @@ semester: Sommersemester 2017
 ## Folien
 
 -   [Einführung](/lectures/compiler/slides/01_Einfuehrung.pdf)
--   [Haskell](/lectures/compiler/slides/011_Haskell.pdf)
--   [Scanner](/lectures/compiler/slides/02_Scanner.pdf)
+-   [Haskell](/lectures/compiler/slides/02_Haskell.pdf)
+-   [Scanner](/lectures/compiler/slides/03_Scanner.pdf)
 
 ## Aufgabenblätter
 
 -   [Blatt 1](/lectures/compiler/exercises/Blatt01.pdf)
 -   [Blatt 2](/lectures/compiler/exercises/Blatt02.pdf)
 -   [Blatt 3](/lectures/compiler/exercises/Blatt03.pdf)
+-   [Blatt 4](/lectures/compiler/exercises/Blatt04.pdf)
 
 </div>
 <div class="span6">
