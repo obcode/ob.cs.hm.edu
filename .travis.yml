@@ -9,7 +9,7 @@ addons:
       - libgmp-dev
 
 before_install:
-  - cd _site_
+  - cd _site
   - git checkout gh-pages
   - cd ..
   # Download and unpack the stack executable
