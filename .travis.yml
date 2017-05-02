@@ -3,7 +3,7 @@ language: generic
 cache:
   directories:
   - $HOME/.stack
-ddons:
+addons:
   apt:
     packages:
       - libgmp-dev
