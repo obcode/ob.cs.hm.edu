@@ -8,25 +8,31 @@ semester: Sommersemester 2017
 <div class="row">
 <div class="span6">
 
-## Termine und Inhalte
+## Vorlesung
 
-[Termine](https://www.evernote.com/l/AEEgs1uST7JLlZM4YOkCS2sEadu-ZHBy-Ys)
-
-## Folien
+### Slides
 
 -   [Einführung](/lectures/compiler/slides/01_Einfuehrung.pdf)
 -   [Haskell](/lectures/compiler/slides/02_Haskell.pdf)
 -   [Scanner](/lectures/compiler/slides/03_Scanner.pdf)
 
-## Aufgabenblätter
+### Termine und Inhalte
 
--   [Blatt 1](/lectures/compiler/exercises/Blatt01.pdf)
--   [Blatt 2](/lectures/compiler/exercises/Blatt02.pdf)
--   [Blatt 3](/lectures/compiler/exercises/Blatt03.pdf)
--   [Blatt 4](/lectures/compiler/exercises/Blatt04.pdf)
+-   donnerstags, 10:00-11:30, R0.007
 
-</div>
-<div class="span6">
+Termin   Inhalt
+-------- -----------------------------------------------------------------------
+16.03.17 Einführung bis Folie 9
+23.03.17 Einführung in Haskell bis Folie 14
+06.04.17 Einführung in Haskell
+20.04.17 Einführung abgeschlossen, Scanner bis Folie 10
+04.05.17 Scanner
+11.05.17
+18.05.17
+01.06.17
+08.06.17
+22.06.17
+29.06.17
 
 ## Leistungsnachweis
 
@@ -42,6 +48,38 @@ wird ohne Hilfsmittel geschrieben.
 
 -   [Klausur vom 22.07.14](/lectures/compiler/exams/KlausurSS14.pdf)
 -   [Klausur vom 27.01.15](/lectures/compiler/exams/KlausurWS14.pdf)
+
+
+</div>
+<div class="span6">
+
+## Praktikum
+
+### Aufgabenblätter
+
+-   [Blatt 1](/lectures/compiler/exercises/Blatt01.pdf)
+-   [Blatt 2](/lectures/compiler/exercises/Blatt02.pdf)
+-   [Blatt 3](/lectures/compiler/exercises/Blatt03.pdf)
+-   [Blatt 4](/lectures/compiler/exercises/Blatt04.pdf)
+
+### Termine und Inhalte
+
+-   Teilgruppe 1: montags, 10:00-11:30, R1.009
+-   Teilgruppe 2: dienstags, 13:30-15:00, R3.021
+
+Teilgruppe 1   Teilgruppe 2   zu bearbeitende Aufgaben
+-------------- -------------- ------------------------------------------------------
+27.03.17       28.03.17       [Blatt 1](/lectures/compiler/exercises/Blatt01.pdf)
+03.04.17       04.04.17       [Blatt 2](/lectures/compiler/exercises/Blatt02.pdf)
+10.04.17       11.04.17       [Blatt 2](/lectures/compiler/exercises/Blatt02.pdf)
+24.04.17       25.04.17       [Blatt 3](/lectures/compiler/exercises/Blatt03.pdf)
+08.05.17       09.05.17       [Blatt 4](/lectures/compiler/exercises/Blatt04.pdf)
+15.05.17       16.05.17
+22.05.17       23.05.17
+29.05.17       30.05.17
+12.06.17       13.06.17
+19.06.17       20.06.17
+26.06.17       27.06.17
 
 ## Links
 

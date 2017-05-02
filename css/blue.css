@@ -1,6 +1,6 @@
 /*!
  * Bounce Template v2.1 - Blue
- * More colors coming soon! 
+ * More colors coming soon!
  *
  * Built with Bootstrap v2.2.2
  * http://twitter.github.com/bootstrap
@@ -18,7 +18,7 @@
     color: #D6DFE5;
 }
 .navbar .nav > li > a:hover {
-    color: #FFFFFF;	
+    color: #FFFFFF;
 }
 .navbar .nav > li.active > a,
 .navbar .nav > li.active:hover > a,
@@ -120,7 +120,7 @@ ul.plans {
     color: #308CCF;
 }
 #footer a {
-    color: #17405E;	
+    color: #17405E;
 }
 #footer a:hover {
     color: #333333;
@@ -137,11 +137,11 @@ ul.plans {
 ------------------------- */
 @media (max-width: 979px) {
   .navbar .nav-collapse .nav > li.active > a,
-  .navbar .nav-collapse .nav > li.active:hover > a,  
+  .navbar .nav-collapse .nav > li.active:hover > a,
   .navbar .nav-collapse .nav .active > a,
   .navbar .nav-collapse .nav .active > a:hover,
   .navbar .nav-collapse .nav .active > a:focus {
-    background-color: #308CCF;	
+    background-color: #308CCF;
   }
   .navbar .nav-collapse .nav > li > a:hover {
     background-color: #308CCF;
@@ -149,4 +149,16 @@ ul.plans {
   .product-plan .feature .pull-right {
     color: #308CCF;
   }
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+    background-color: #394755;
+    color: white;
 }
