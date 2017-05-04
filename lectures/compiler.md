@@ -26,8 +26,8 @@ Termin   Inhalt
 23.03.17 Einführung in Haskell bis Folie 14
 06.04.17 Einführung in Haskell
 20.04.17 Einführung abgeschlossen, Scanner bis Folie 10
-04.05.17 Scanner
-11.05.17
+04.05.17 Scanner bis Folie 27 (reguläre Ausdrücke)
+11.05.17 Scanner abgeschlossen
 18.05.17
 01.06.17
 08.06.17

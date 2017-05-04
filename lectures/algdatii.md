@@ -90,21 +90,7 @@ Teilgruppe 1    Teilgruppe 2    zu bearbeitende Aufgaben
 
 -   [AlgDat @ GitHub](https://github.com/algdat)
 -   [AlgDat @ Jenkins](https://terraform.cs.hm.edu/jenkins/view/GitHub-Organisationen/job/Algorithmen%20und%20Datenstrukturen/)
-<!-- -   [Praktikums-Themen](https://github.com/algdat/algdatII-Praktikum/wiki/Themen) -->
-
-### Tutorials
-
--   <http://www.learncpp.com/>
--   <http://www.cplusplus.com/doc/tutorial/>
--   <http://www.csegeek.com/csegeek/view/tutorials/cpp_lang/cpp_intro.php>
-
-### IDEs
-
--   <https://www.jetbrains.com/clion/>
--   <http://www.codeblocks.org/>
--   <http://newbieide.codeplex.com/>
--   <http://codelite.org/>
--   <http://www.eclipse.org/cdt/>
+-   [Praktikums-Themen](https://github.com/algdat/praktikum-SS17/wiki/Themen)
 
 </div>
 </div>
