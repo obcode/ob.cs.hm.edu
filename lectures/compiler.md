@@ -37,8 +37,11 @@ Termin   Inhalt
 ## Leistungsnachweis
 
 Für den Schein ist in Zweiergruppen ein Compiler in Haskell zu programmieren.
-Genauere Informationen über Aufgabe und Umfang bekommen Sie zu einem späteren
-Termin.
+Genauere Informationen über Aufgabe und Umfang bekommen Sie auf dem
+Aufgabenblatt 7. Zum Abnahmetermin (siehe Termine Praktikum) muss die
+Aufgabe fertig bearbeitet und der Code auf GitHub gepusht sein.
+Unter Anwesenheit beider Gruppenmitglieder zeigen und erklären Sie mir
+Ihre Lösung.
 
 ## Klausur
 
@@ -69,17 +72,17 @@ wird ohne Hilfsmittel geschrieben.
 
 Teilgruppe 1   Teilgruppe 2   zu bearbeitende Aufgaben
 -------------- -------------- ------------------------------------------------------
-27.03.17       28.03.17       [Blatt 1](/lectures/compiler/exercises/Blatt01.pdf)
-03.04.17       04.04.17       [Blatt 2](/lectures/compiler/exercises/Blatt02.pdf)
-10.04.17       11.04.17       [Blatt 2](/lectures/compiler/exercises/Blatt02.pdf)
-24.04.17       25.04.17       [Blatt 3](/lectures/compiler/exercises/Blatt03.pdf)
-08.05.17       09.05.17       [Blatt 4](/lectures/compiler/exercises/Blatt04.pdf)
-15.05.17       16.05.17
-22.05.17       23.05.17
-29.05.17       30.05.17
-12.06.17       13.06.17
-19.06.17       20.06.17
-26.06.17       27.06.17
+27.03.17       28.03.17       Blatt 1
+03.04.17       04.04.17       Blatt 2
+10.04.17       11.04.17       Blatt 2
+24.04.17       25.04.17       Blatt 3
+08.05.17       09.05.17       Blatt 4
+15.05.17       16.05.17       Blatt 5
+22.05.17       23.05.17       Blatt 6
+29.05.17       30.05.17       Blatt 7 (Abgabe für den Schein)
+12.06.17       13.06.17       Blatt 7
+19.06.17       20.06.17       Blatt 7
+26.06.17       27.06.17       Abnahme Blatt 7
 
 ## Links
 
