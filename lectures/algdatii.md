@@ -59,6 +59,7 @@ Mündliche Prüfung in der KW 27 (04.07.17 und 06.07.17, Einteilung folgt)
 
 -   [Blatt 1](/lectures/algdatii/exercises/Blatt01.pdf)
 -   [Blatt 2](/lectures/algdatii/exercises/Blatt02.pdf)
+    ([Classroom-Link](https://classroom.github.com/group-assignment-invitations/faf8e7c4d335e057e88450724181fc5e))
 
 ### Termine und Inhalte
 
