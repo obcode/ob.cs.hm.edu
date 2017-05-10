@@ -22,7 +22,9 @@ semester: Sommersemester 2017
 ### Slides
 
 -   [Hashverfahren](/lectures/algdatii/slides/01_Hashverfahren.pdf)
+    [[Handout](/lectures/algdatii/handouts/01_Hashverfahren.pdf)]
 -   [Graphenalgorithmen](/lectures/algdatii/slides/02_Graphenalgorithmen.pdf)
+    [[Handout](/lectures/algdatii/handouts/02_Graphenalgorithmen.pdf)]
 
 ### Termine und Inhalte
 
