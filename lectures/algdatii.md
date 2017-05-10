@@ -36,7 +36,7 @@ Termin        Inhalt
 04.04.17      Hashverfahren bis Folie 11
 11.04.17      Hashverfahren bis Folie 24
 25.04.17      Graphenalgorithmen bis Folie 13
-09.05.17
+09.05.17      Graphenalgorithmen bis Folie 30
 16.05.17
 23.05.17
 30.05.17
