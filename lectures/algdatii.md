@@ -80,8 +80,7 @@ Teilgruppe 1    Teilgruppe 2    zu bearbeitende Aufgaben
 27.04.17                        Blatt 2
 04.05.17        08.05.17        Blatt 2
 11.05.17        15.05.17        Blatt 2
-18.05.17        22.05.17        Besprechung Zwischenstand
-                29.05.17        Blatt 2
+18.05.17        29.05.17        Besprechung Zwischenstand
 01.06.17                        Blatt 2
 08.06.17        12.06.17        Blatt 2
                 19.06.17        Blatt 2
