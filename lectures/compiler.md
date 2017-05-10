@@ -13,8 +13,11 @@ semester: Sommersemester 2017
 ### Slides
 
 -   [Einführung](/lectures/compiler/slides/01_Einfuehrung.pdf)
+    [[Handout](/lectures/compiler/handouts/01_Einfuehrung.pdf)]
 -   [Haskell](/lectures/compiler/slides/02_Haskell.pdf)
+    [[Handout](/lectures/compiler/handouts/02_Haskell.pdf)]
 -   [Scanner](/lectures/compiler/slides/03_Scanner.pdf)
+    [[Handout](/lectures/compiler/handouts/03_Scanner.pdf)]
 
 ### Termine und Inhalte
 

@@ -15,13 +15,21 @@ semester: Sommersemester 2017
 ## Folien (z.T. noch Stand SS15)
 
 -   [Testen von Software / Modultests](/lectures/swengiiib/slides/01_Testen_Modultests.pdf)
+    [[Handout](/lectures/swengiiib/handouts/01_Testen_Modultests.pdf)]
 -   [Testen in Scala und Play](/lectures/swengiiib/slides/02_Testen_Scala_Play.pdf)
+    [[Handout](/lectures/swengiiib/handouts/02_Testen_Scala_Play.pdf)]
 -   [Testen II](/lectures/swengiiib/slides/03_TestenII.pdf)
+    [[Handout](/lectures/swengiiib/handouts/03_TestenII.pdf)]
 -   [Design Patterns](/lectures/swengiiib/slides/04_DesignPatterns.pdf)
+    [[Handout](/lectures/swengiiib/handouts/04_DesignPatterns.pdf)]
 -   [Softwareevolution](/lectures/swengiiib/slides/05_Softwareevolution.pdf)
--   [Wiederverwendung von Software](/lectures/swengiiib/slides/06_Wiederverwendun.pdf)
+    [[Handout](/lectures/swengiiib/handouts/05_Softwareevolution.pdf)]
+-   [Wiederverwendung von Software](/lectures/swengiiib/slides/06_Wiederverwendung.pdf)
+    [[Handout](/lectures/swengiiib/handouts/06_Wiederverwendung.pdf)]
 -   [Serviceorientierte Architekturen](/lectures/swengiiib/slides/07_SOA.pdf)
+    [[Handout](/lectures/swengiiib/handouts/07_SOA.pdf)]
 -   [REST](/lectures/swengiiib/slides/08_REST.pdf)
+    [[Handout](/lectures/swengiiib/handouts/08_REST.pdf)]
 
 </div>
 <div class="span6">
