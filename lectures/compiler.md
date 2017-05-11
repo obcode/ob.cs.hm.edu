@@ -55,7 +55,6 @@ wird ohne Hilfsmittel geschrieben.
 -   [Klausur vom 22.07.14](/lectures/compiler/exams/KlausurSS14.pdf)
 -   [Klausur vom 27.01.15](/lectures/compiler/exams/KlausurWS14.pdf)
 
-
 </div>
 <div class="span6">
 
@@ -67,6 +66,7 @@ wird ohne Hilfsmittel geschrieben.
 -   [Blatt 2](/lectures/compiler/exercises/Blatt02.pdf)
 -   [Blatt 3](/lectures/compiler/exercises/Blatt03.pdf)
 -   [Blatt 4](/lectures/compiler/exercises/Blatt04.pdf)
+-   [Blatt 5](/lectures/compiler/exercises/Blatt05.pdf)
 
 ### Termine und Inhalte
 
