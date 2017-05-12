@@ -12,12 +12,12 @@ semester: Sommersemester 2017
 
 ### Slides
 
--   [Einführung](/lectures/compiler/slides/01_Einfuehrung.pdf)
-    [[Handout](/lectures/compiler/handouts/01_Einfuehrung.pdf)]
--   [Haskell](/lectures/compiler/slides/02_Haskell.pdf)
-    [[Handout](/lectures/compiler/handouts/02_Haskell.pdf)]
--   [Scanner](/lectures/compiler/slides/03_Scanner.pdf)
-    [[Handout](/lectures/compiler/handouts/03_Scanner.pdf)]
+-   [Einführung](dropbox/compiler/slides/01_Einfuehrung.pdf)
+    [[Handout](dropbox/compiler/handouts/01_Einfuehrung.pdf)]
+-   [Haskell](dropbox/compiler/slides/02_Haskell.pdf)
+    [[Handout](dropbox/compiler/handouts/02_Haskell.pdf)]
+-   [Scanner](dropbox/compiler/slides/03_Scanner.pdf)
+    [[Handout](dropbox/compiler/handouts/03_Scanner.pdf)]
 
 ### Termine und Inhalte
 
@@ -52,8 +52,8 @@ Gegenstand der Klausur ist der gesamte in Vorlesung und Praktikum
 behandelte Stoff, soweit nicht anders vereinbart. Die Klausur
 wird ohne Hilfsmittel geschrieben.
 
--   [Klausur vom 22.07.14](/lectures/compiler/exams/KlausurSS14.pdf)
--   [Klausur vom 27.01.15](/lectures/compiler/exams/KlausurWS14.pdf)
+-   [Klausur vom 22.07.14](dropbox/compiler/exams/KlausurSS14.pdf)
+-   [Klausur vom 27.01.15](dropbox/compiler/exams/KlausurWS14.pdf)
 
 </div>
 <div class="span6">
@@ -62,11 +62,11 @@ wird ohne Hilfsmittel geschrieben.
 
 ### Aufgabenblätter
 
--   [Blatt 1](/lectures/compiler/exercises/Blatt01.pdf)
--   [Blatt 2](/lectures/compiler/exercises/Blatt02.pdf)
--   [Blatt 3](/lectures/compiler/exercises/Blatt03.pdf)
--   [Blatt 4](/lectures/compiler/exercises/Blatt04.pdf)
--   [Blatt 5](/lectures/compiler/exercises/Blatt05.pdf)
+-   [Blatt 1](dropbox/compiler/exercises/Blatt01.pdf)
+-   [Blatt 2](dropbox/compiler/exercises/Blatt02.pdf)
+-   [Blatt 3](dropbox/compiler/exercises/Blatt03.pdf)
+-   [Blatt 4](dropbox/compiler/exercises/Blatt04.pdf)
+-   [Blatt 5](dropbox/compiler/exercises/Blatt05.pdf)
 
 ### Termine und Inhalte
 

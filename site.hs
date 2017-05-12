@@ -1,5 +1,6 @@
 {-# LANGUAGE OverloadedStrings #-}
 import           Control.Monad (liftM)
+import           Data.List     (isPrefixOf)
 import           Data.Monoid   (mappend)
 import           Hakyll
 
@@ -31,6 +32,7 @@ main = hakyll $ do
             >>= loadAndApplyTemplate "templates/lecture.html" defaultContext
             >>= loadAndApplyTemplate "templates/default.html" defaultContext
             >>= relativizeUrls
+            >>= dropboxifyUrls
 
     match "bib/*" $ compile biblioCompiler
 
@@ -61,5 +63,16 @@ bibtexCompiler :: String -> String -> Compiler (Item String)
 bibtexCompiler cslFileName bibFileName = do
     csl <- load $ fromFilePath cslFileName
     bib <- load $ fromFilePath bibFileName
-    liftM writePandoc
+    fmap writePandoc
         (getResourceBody >>= readPandocBiblio defaultHakyllReaderOptions csl bib)
+
+dropboxifyUrls :: Item String -> Compiler (Item String)
+dropboxifyUrls = return . fmap (withUrls addDropboxUrlPrefix)
+
+addDropboxUrlPrefix :: String -> String
+addDropboxUrlPrefix url
+    | dropbox `isPrefixOf` url = dropboxlink ++ drop (length dropbox) url
+    | otherwise = url
+  where
+    dropbox = "dropbox"
+    dropboxlink = "https://dl.dropboxusercontent.com/u/13563262/lectures/"

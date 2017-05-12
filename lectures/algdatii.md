@@ -21,10 +21,10 @@ semester: Sommersemester 2017
 
 ### Slides
 
--   [Hashverfahren](/lectures/algdatii/slides/01_Hashverfahren.pdf)
-    [[Handout](/lectures/algdatii/handouts/01_Hashverfahren.pdf)]
--   [Graphenalgorithmen](/lectures/algdatii/slides/02_Graphenalgorithmen.pdf)
-    [[Handout](/lectures/algdatii/handouts/02_Graphenalgorithmen.pdf)]
+-   [Hashverfahren](dropbox/algdatii/slides/01_Hashverfahren.pdf)
+    [[Handout](dropbox/algdatii/handouts/01_Hashverfahren.pdf)]
+-   [Graphenalgorithmen](dropbox/algdatii/slides/02_Graphenalgorithmen.pdf)
+    [[Handout](dropbox/algdatii/handouts/02_Graphenalgorithmen.pdf)]
 
 ### Termine und Inhalte
 
@@ -59,8 +59,8 @@ Mündliche Prüfung in der KW 27 (04.07.17 und 06.07.17, Einteilung folgt)
 
 ### Aufgabenblätter
 
--   [Blatt 1](/lectures/algdatii/exercises/Blatt01.pdf)
--   [Blatt 2](/lectures/algdatii/exercises/Blatt02.pdf)
+-   [Blatt 1](dropbox/algdatii/exercises/Blatt01.pdf)
+-   [Blatt 2](dropbox/algdatii/exercises/Blatt02.pdf)
     ([Classroom-Link](https://classroom.github.com/group-assignment-invitations/faf8e7c4d335e057e88450724181fc5e))
 
 ### Termine und Inhalte

@@ -14,22 +14,22 @@ semester: Sommersemester 2017
 
 ## Folien (z.T. noch Stand SS15)
 
--   [Testen von Software / Modultests](/lectures/swengiiib/slides/01_Testen_Modultests.pdf)
-    [[Handout](/lectures/swengiiib/handouts/01_Testen_Modultests.pdf)]
--   [Testen in Scala und Play](/lectures/swengiiib/slides/02_Testen_Scala_Play.pdf)
-    [[Handout](/lectures/swengiiib/handouts/02_Testen_Scala_Play.pdf)]
--   [Testen II](/lectures/swengiiib/slides/03_TestenII.pdf)
-    [[Handout](/lectures/swengiiib/handouts/03_TestenII.pdf)]
--   [Design Patterns](/lectures/swengiiib/slides/04_DesignPatterns.pdf)
-    [[Handout](/lectures/swengiiib/handouts/04_DesignPatterns.pdf)]
--   [Softwareevolution](/lectures/swengiiib/slides/05_Softwareevolution.pdf)
-    [[Handout](/lectures/swengiiib/handouts/05_Softwareevolution.pdf)]
--   [Wiederverwendung von Software](/lectures/swengiiib/slides/06_Wiederverwendung.pdf)
-    [[Handout](/lectures/swengiiib/handouts/06_Wiederverwendung.pdf)]
--   [Serviceorientierte Architekturen](/lectures/swengiiib/slides/07_SOA.pdf)
-    [[Handout](/lectures/swengiiib/handouts/07_SOA.pdf)]
--   [REST](/lectures/swengiiib/slides/08_REST.pdf)
-    [[Handout](/lectures/swengiiib/handouts/08_REST.pdf)]
+-   [Testen von Software / Modultests](dropbox/swengiiib/slides/01_Testen_Modultests.pdf)
+    [[Handout](dropbox/swengiiib/handouts/01_Testen_Modultests.pdf)]
+-   [Testen in Scala und Play](dropbox/swengiiib/slides/02_Testen_Scala_Play.pdf)
+    [[Handout](dropbox/swengiiib/handouts/02_Testen_Scala_Play.pdf)]
+-   [Testen II](dropbox/swengiiib/slides/03_TestenII.pdf)
+    [[Handout](dropbox/swengiiib/handouts/03_TestenII.pdf)]
+-   [Design Patterns](dropbox/swengiiib/slides/04_DesignPatterns.pdf)
+    [[Handout](dropbox/swengiiib/handouts/04_DesignPatterns.pdf)]
+-   [Softwareevolution](dropbox/swengiiib/slides/05_Softwareevolution.pdf)
+    [[Handout](dropbox/swengiiib/handouts/05_Softwareevolution.pdf)]
+-   [Wiederverwendung von Software](dropbox/swengiiib/slides/06_Wiederverwendung.pdf)
+    [[Handout](dropbox/swengiiib/handouts/06_Wiederverwendung.pdf)]
+-   [Serviceorientierte Architekturen](dropbox/swengiiib/slides/07_SOA.pdf)
+    [[Handout](dropbox/swengiiib/handouts/07_SOA.pdf)]
+-   [REST](dropbox/swengiiib/slides/08_REST.pdf)
+    [[Handout](dropbox/swengiiib/handouts/08_REST.pdf)]
 
 </div>
 <div class="span6">
@@ -40,7 +40,7 @@ Als Studienarbeit ist in Gruppen ein Projekt mit dem [Play
 Framework](https://www.playframework.com/) in [Scala](http://scala-lang.org/)
 anzufertigen.
 Genauere Informationen finden Sie hier:
-[PDF](/lectures/swengiiib/exercises/Studienarbeit.pdf)
+[PDF](dropbox/swengiiib/exercises/Studienarbeit.pdf)
 
 [Links zu den Ressourcen der Gruppen](https://github.com/swenib/praktikum-SS17/wiki)
 
@@ -50,8 +50,8 @@ Gegenstand der Klausur ist der gesamte in Vorlesung und Praktikum
 behandelte Stoff, soweit nicht anders vereinbart. Die Klausur
 wird ohne Hilfsmittel geschrieben.
 
--   [Klausur vom 20.07.2015](/lectures/swengiiib/exams/KlausurSS15.pdf)
--   [Klausur vom 01.02.2016](/lectures/swengiiib/exams/KlausurWS15.pdf)
+-   [Klausur vom 20.07.2015](dropbox/swengiiib/exams/KlausurSS15.pdf)
+-   [Klausur vom 01.02.2016](dropbox/swengiiib/exams/KlausurWS15.pdf)
 
 ## Links
 
