@@ -81,11 +81,11 @@ Teilgruppe 1   Teilgruppe 2   zu bearbeitende Aufgaben
 24.04.17       25.04.17       Blatt 3
 08.05.17       09.05.17       Blatt 4
 15.05.17       16.05.17       Blatt 5
-               23.05.17       Blatt 6
-29.05.17       30.05.17       Blatt 7 (Abgabe für den Schein)
-12.06.17       13.06.17       Blatt 7
-19.06.17       20.06.17       Blatt 7
-26.06.17       27.06.17       Abnahme Blatt 7
+~~22.05.17~~   23.05.17       Blatt 6 (Abgabeblatt für den Schein)
+29.05.17       30.05.17       Blatt 6
+12.06.17       13.06.17       Blatt 6
+19.06.17       20.06.17       Blatt 6
+26.06.17       27.06.17       Abnahme Blatt 6
 
 ## Links
 
