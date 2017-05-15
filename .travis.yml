@@ -2,15 +2,16 @@ sudo: false
 language: generic
 cache:
   directories:
+  - $HOME/.ghc
+  - $HOME/.cabal
   - $HOME/.stack
 addons:
   apt:
     packages:
     - libgmp-dev
 before_install:
-- cd _site
-- git checkout gh-pages
-- cd ..
+- rm -rf _site
+- git clone -b gh-pages git@github.com:obcode/ob.cs.hm.edu.git _site
 - mkdir -p ~/.local/bin
 - export PATH=$HOME/.local/bin:$PATH
 - travis_retry curl -L https://www.stackage.org/stack/linux-x86_64 | tar xz --wildcards
