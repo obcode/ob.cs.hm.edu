@@ -47,6 +47,14 @@ Termin            Inhalt
 28.06.2017         Präsentationen der fertigen Webshops
 05.07.2017
 
+## Klausur
+
+Gegenstand der Klausur ist der gesamte in Vorlesung und Praktikum
+behandelte Stoff, soweit nicht anders vereinbart. Die Klausur
+wird ohne Hilfsmittel geschrieben.
+
+-   [Klausur vom 20.07.2015](dropbox/swengiiib/exams/KlausurSS15.pdf)
+-   [Klausur vom 01.02.2016](dropbox/swengiiib/exams/KlausurWS15.pdf)
 
 </div>
 <div class="span6">
@@ -89,19 +97,9 @@ Termin            Inhalt
 22.06.2017        Gruppe A und B: Review und Retrospective Sprint 2, 45 Minuten
 29.06.2017        Gruppe C und D: Review und Retrospective Sprint 2, 45 Minuten
 
-Die Gruppen A, B, C, D gibt es einmal je Praktikumsgruppe.
-Die o.a. Termine beziehen sich jeweils auf die Gruppen 1A und 2A, 1B und 2B, ...
-
-Es beginnt immer die erstgenannte Gruppe, also 1A, 2A, 1C oder 2C.
-
-## Klausur
-
-Gegenstand der Klausur ist der gesamte in Vorlesung und Praktikum
-behandelte Stoff, soweit nicht anders vereinbart. Die Klausur
-wird ohne Hilfsmittel geschrieben.
-
--   [Klausur vom 20.07.2015](dropbox/swengiiib/exams/KlausurSS15.pdf)
--   [Klausur vom 01.02.2016](dropbox/swengiiib/exams/KlausurWS15.pdf)
+- Die Gruppen A, B, C, D gibt es einmal je Praktikumsgruppe.
+- Die o.a. Termine beziehen sich jeweils auf die Gruppen 1A und 2A, 1B und 2B, ...
+- Es beginnt immer die erstgenannte Gruppe, also 1A, 2A, 1C oder 2C.
 
 ## Links
 
