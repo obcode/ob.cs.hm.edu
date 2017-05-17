@@ -38,7 +38,7 @@ Termin            Inhalt
 05.04.2017        Testen in Scala und Play und Tests in PizzaInitial bis Folie 17
 26.04.2017        Testen in Scala und Play fertig inkl. Code
 10.05.2017        Testen II
-17.05.2017
+17.05.2017        Design Patterns
 24.05.2017
 31.05.2017
 07.06.2017
