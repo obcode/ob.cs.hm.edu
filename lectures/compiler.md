@@ -31,7 +31,7 @@ Termin   Inhalt
 20.04.17 Einführung abgeschlossen, Scanner bis Folie 10
 04.05.17 Scanner bis Folie 27 (reguläre Ausdrücke)
 11.05.17 Scanner bis 47 (Thompson's und Subsetconstruction)
-18.05.17
+18.05.17 Scanner bis 57
 01.06.17
 08.06.17
 22.06.17
@@ -67,6 +67,7 @@ wird ohne Hilfsmittel geschrieben.
 -   [Blatt 3](dropbox/compiler/exercises/Blatt03.pdf)
 -   [Blatt 4](dropbox/compiler/exercises/Blatt04.pdf)
 -   [Blatt 5](dropbox/compiler/exercises/Blatt05.pdf)
+-   [Blatt 6 (Abgabe)](dropbox/compiler/exercises/Blatt06.pdf)
 
 ### Termine und Inhalte
 
@@ -81,7 +82,7 @@ Teilgruppe 1   Teilgruppe 2   zu bearbeitende Aufgaben
 24.04.17       25.04.17       Blatt 3
 08.05.17       09.05.17       Blatt 4
 15.05.17       16.05.17       Blatt 5
-~~22.05.17~~   23.05.17       Blatt 6 (Abgabeblatt für den Schein)
+22.05.17       23.05.17       Blatt 6 (Abgabeblatt für den Schein)
 29.05.17       30.05.17       Blatt 6
 12.06.17       13.06.17       Blatt 6
 19.06.17       20.06.17       Blatt 6
