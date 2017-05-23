@@ -38,7 +38,7 @@ Termin        Inhalt
 25.04.17      Graphenalgorithmen bis Folie 13
 09.05.17      Graphenalgorithmen bis Folie 30
 16.05.17      Graphenalgorithmen bis Folie 47
-23.05.17
+23.05.17      Graphenalgorithmen bis Folie 65
 30.05.17
 13.06.17
 20.06.17
