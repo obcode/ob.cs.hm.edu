@@ -52,8 +52,8 @@ Erfolgreiche Bearbeitung des Aufgabenblatt 2.
 
 ## Prüfung
 
-Mündliche Prüfung in der KW 27 (04.07.17 und 06.07.17, Einteilung hängt
-im Schaukasten vor R3.032 aus)
+Mündliche Prüfung in der KW 27 ([Einteilung](dropbox/algdatii/AlgDatIISS17.pdf),
+Passwort gibt es in der Vorlesung)
 
 </div>
 <div class="span6">
