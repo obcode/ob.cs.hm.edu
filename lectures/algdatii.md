@@ -25,6 +25,8 @@ semester: Sommersemester 2017
     [[Handout](dropbox/algdatii/handouts/01_Hashverfahren.pdf)]
 -   [Graphenalgorithmen](dropbox/algdatii/slides/02_Graphenalgorithmen.pdf)
     [[Handout](dropbox/algdatii/handouts/02_Graphenalgorithmen.pdf)]
+-   [Suchen in Texten](dropbox/algdatii/slides/03_SuchenInTexten.pdf)
+    [[Handout](dropbox/algdatii/handouts/03_SuchenInTexten.pdf)]
 
 ### Termine und Inhalte
 
@@ -39,7 +41,7 @@ Termin        Inhalt
 09.05.17      Graphenalgorithmen bis Folie 30
 16.05.17      Graphenalgorithmen bis Folie 47
 23.05.17      Graphenalgorithmen bis Folie 65
-30.05.17
+30.05.17      Graphenalgorithmen abgeschlossen, Suchen in Texten
 13.06.17
 20.06.17
 27.06.17      Präsentationen Praktikumsergebnisse
@@ -50,7 +52,8 @@ Erfolgreiche Bearbeitung des Aufgabenblatt 2.
 
 ## Prüfung
 
-Mündliche Prüfung in der KW 27 (04.07.17 und 06.07.17, Einteilung folgt)
+Mündliche Prüfung in der KW 27 (04.07.17 und 06.07.17, Einteilung hängt
+im Schaukasten vor R3.032 aus)
 
 </div>
 <div class="span6">
