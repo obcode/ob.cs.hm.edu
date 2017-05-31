@@ -39,11 +39,11 @@ Termin            Inhalt
 26.04.2017        Testen in Scala und Play fertig inkl. Code
 10.05.2017        Testen II
 17.05.2017        Design Patterns
-31.05.2017
-07.06.2017
-14.06.2017
-21.06.2017
-28.06.2017         Präsentationen der fertigen Webshops
+31.05.2017        Softwareevolution
+07.06.2017        Wiederverwendung von Software
+14.06.2017        Serviceorientierte Architekturen
+21.06.2017        REST
+28.06.2017        Präsentationen der fertigen Webshops
 05.07.2017
 
 ## Klausur
