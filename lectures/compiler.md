@@ -34,7 +34,7 @@ Termin   Inhalt
 04.05.17 Scanner bis Folie 27 (reguläre Ausdrücke)
 11.05.17 Scanner bis 47 (Thompson's und Subsetconstruction)
 18.05.17 Scanner bis 57
-01.06.17
+01.06.17 Parser bis Folie 9 + Haskell Projekte
 08.06.17
 22.06.17
 29.06.17
