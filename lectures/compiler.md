@@ -18,6 +18,8 @@ semester: Sommersemester 2017
     [[Handout](dropbox/compiler/handouts/02_Haskell.pdf)]
 -   [Scanner](dropbox/compiler/slides/03_Scanner.pdf)
     [[Handout](dropbox/compiler/handouts/03_Scanner.pdf)]
+-   [Parser](dropbox/compiler/slides/04_Parser.pdf)
+    [[Handout](dropbox/compiler/handouts/04_Parser.pdf)]
 
 ### Termine und Inhalte
 
