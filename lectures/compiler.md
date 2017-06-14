@@ -38,6 +38,7 @@ Termin   Inhalt
 08.06.17 Parser bis Folie 23
 22.06.17
 29.06.17
+06.07.17
 
 ## Leistungsnachweis
 

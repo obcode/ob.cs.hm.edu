@@ -44,7 +44,7 @@ Termin            Inhalt
 14.06.2017        Serviceorientierte Architekturen
 21.06.2017        REST
 28.06.2017        Präsentationen der fertigen Webshops
-05.07.2017
+~~05.07.2017~~    bereits Prüfungen in Pasing
 
 ## Klausur
 
