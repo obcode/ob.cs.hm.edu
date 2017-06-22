@@ -36,7 +36,6 @@ Termin   Inhalt
 18.05.17 Scanner bis 57
 01.06.17 Parser bis Folie 9 + Haskell Projekte
 08.06.17 Parser bis Folie 23
-22.06.17
 29.06.17
 06.07.17
 
