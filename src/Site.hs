@@ -1,7 +1,5 @@
 {-# LANGUAGE OverloadedStrings #-}
-import           Control.Monad (liftM)
 import           Data.List     (isPrefixOf)
-import           Data.Monoid   (mappend)
 import           Hakyll
 
 main :: IO ()

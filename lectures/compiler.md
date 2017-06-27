@@ -3,10 +3,6 @@ title: Compiler
 modulurl: https://w3-o.cs.hm.edu:8000/public/module/41/
 image: Fuerteventura.png
 semester: Sommersemester 2017
-vorlesung: donnerstags, 10:00-11:30, R0.007
-praktika:
-  - Teilgruppe 1: montags, 10:00-11:30, R1.009
-  - Teilgruppe 2: dienstags, 13:30-15:00, R3.021
 ---
 
 <div class="row">
