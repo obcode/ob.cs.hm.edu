@@ -24,8 +24,8 @@ praktika:
     [[Handout](dropbox/compiler/handouts/03_Scanner.pdf)]
 -   [Parser](dropbox/compiler/slides/04_Parser.pdf)
     [[Handout](dropbox/compiler/handouts/04_Parser.pdf)]
--   [Zwischenrepräsentation](dropbox/compiler/slides/05_Zwischenrepraesentation.pdf)
-    [[Handout](dropbox/compiler/handouts/05_Zwischenrepraesentation.pdf)]
+-   [Zwischenrepräsentationen](dropbox/compiler/slides/05_Zwischenrepraesentationen.pdf)
+    [[Handout](dropbox/compiler/handouts/05_Zwischenrepraesentationen.pdf)]
 -   [Optimierungstechniken](dropbox/compiler/slides/06_Optimierungstechniken.pdf)
     [[Handout](dropbox/compiler/handouts/06_Optimierungstechniken.pdf)]
 
