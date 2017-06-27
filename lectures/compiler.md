@@ -3,6 +3,10 @@ title: Compiler
 modulurl: https://w3-o.cs.hm.edu:8000/public/module/41/
 image: Fuerteventura.png
 semester: Sommersemester 2017
+vorlesung: donnerstags, 10:00-11:30, R0.007
+praktika:
+  - Teilgruppe 1: montags, 10:00-11:30, R1.009
+  - Teilgruppe 2: dienstags, 13:30-15:00, R3.021
 ---
 
 <div class="row">
@@ -20,6 +24,10 @@ semester: Sommersemester 2017
     [[Handout](dropbox/compiler/handouts/03_Scanner.pdf)]
 -   [Parser](dropbox/compiler/slides/04_Parser.pdf)
     [[Handout](dropbox/compiler/handouts/04_Parser.pdf)]
+-   [Zwischenrepräsentation](dropbox/compiler/slides/05_Zwischenrepraesentation.pdf)
+    [[Handout](dropbox/compiler/handouts/05_Zwischenrepraesentation.pdf)]
+-   [Optimierungstechniken](dropbox/compiler/slides/06_Optimierungstechniken.pdf)
+    [[Handout](dropbox/compiler/handouts/06_Optimierungstechniken.pdf)]
 
 ### Termine und Inhalte
 
@@ -36,8 +44,8 @@ Termin   Inhalt
 18.05.17 Scanner bis 57
 01.06.17 Parser bis Folie 9 + Haskell Projekte
 08.06.17 Parser bis Folie 23
-29.06.17
-06.07.17
+29.06.17 Parser, Zwischenrepräsentation
+06.07.17 Zwischenrepräsentation, Optimierungstechniken, Fragen
 
 ## Leistungsnachweis
 

@@ -43,7 +43,7 @@ Termin        Inhalt
 23.05.17      Graphenalgorithmen bis Folie 65
 30.05.17      Graphenalgorithmen abgeschlossen, Suchen in Texten bis Folie 10
 13.06.17      Suchen in Texten
-20.06.17      Suchen in Texten, Auswertung Evaluation, Fragen
+20.06.17      Suchen in Texten, Fragen
 27.06.17      Präsentationen Praktikumsergebnisse
 
 ## Scheinerwerb
