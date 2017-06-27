@@ -73,4 +73,4 @@ addDropboxUrlPrefix url
     | otherwise = url
   where
     dropbox = "dropbox"
-    dropboxlink = "https://dl.dropboxusercontent.com/u/13563262/lectures"
+    dropboxlink = "/dropbox/lectures"
