@@ -1,3 +1,4 @@
+
 import Development.Shake
 import Development.Shake.Command
 import Development.Shake.FilePath
@@ -32,4 +33,3 @@ main = shakeArgs shakeOptions{shakeFiles=".shake/"} $ do
     phony "pullToOb" $ do
         cmd "ssh" $ uploadHost ++ " cd " ++ uploadDir
                     ++ " && git pull origin gh-pages"
-

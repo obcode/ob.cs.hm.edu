@@ -1,0 +1,18 @@
+name: ob-cs-hm-edu
+version: '0.2.0.0'
+synopsis: Website ob.cs.hm.edu
+description: See README at <https://github.com/obcode/plexams#readme>
+license: BSD3
+github: obcode/ob.cs.hm.edu
+maintainer: Oliver Braun <ob@obraun.net>
+
+ghc-options: -Wall
+
+dependencies:
+  - base  >= 4.7 && < 5
+  - hakyll
+
+executables:
+  site:
+    main: Site.hs
+    source-dirs: src

@@ -1,11 +1,28 @@
+-- This file has been generated from package.yaml by hpack version 0.17.0.
+--
+-- see: https://github.com/sol/hpack
+
 name:               ob-cs-hm-edu
-version:            0.1.0.0
+version:            0.2.0.0
+synopsis:           Website ob.cs.hm.edu
+description:        See README at <https://github.com/obcode/plexams#readme>
+homepage:           https://github.com/obcode/ob.cs.hm.edu#readme
+bug-reports:        https://github.com/obcode/ob.cs.hm.edu/issues
+maintainer:         Oliver Braun <ob@obraun.net>
+license:            BSD3
 build-type:         Simple
 cabal-version:      >= 1.10
 
+source-repository head
+  type: git
+  location: https://github.com/obcode/ob.cs.hm.edu
+
 executable site
-  main-is:          site.hs
-  build-depends:    base
-                  , hakyll
-  ghc-options:      -threaded
+  main-is: Site.hs
+  hs-source-dirs:
+      src
+  build-depends:
+      base  >= 4.7 && < 5
+    , hakyll
+  ghc-options: -Wall
   default-language: Haskell2010
