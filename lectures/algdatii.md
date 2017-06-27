@@ -21,12 +21,12 @@ semester: Sommersemester 2017
 
 ### Slides
 
--   [Hashverfahren](dropbox/algdatii/slides/01_Hashverfahren.pdf)
-    [[Handout](dropbox/algdatii/handouts/01_Hashverfahren.pdf)]
--   [Graphenalgorithmen](dropbox/algdatii/slides/02_Graphenalgorithmen.pdf)
-    [[Handout](dropbox/algdatii/handouts/02_Graphenalgorithmen.pdf)]
--   [Suchen in Texten](dropbox/algdatii/slides/03_SuchenInTexten.pdf)
-    [[Handout](dropbox/algdatii/handouts/03_SuchenInTexten.pdf)]
+-   [Hashverfahren](/dropbox/lectures/algdatii/slides/01_Hashverfahren.pdf)
+    [[Handout](/dropbox/lectures/algdatii/handouts/01_Hashverfahren.pdf)]
+-   [Graphenalgorithmen](/dropbox/lectures/algdatii/slides/02_Graphenalgorithmen.pdf)
+    [[Handout](/dropbox/lectures/algdatii/handouts/02_Graphenalgorithmen.pdf)]
+-   [Suchen in Texten](/dropbox/lectures/algdatii/slides/03_SuchenInTexten.pdf)
+    [[Handout](/dropbox/lectures/algdatii/handouts/03_SuchenInTexten.pdf)]
 
 ### Termine und Inhalte
 
@@ -52,7 +52,7 @@ Erfolgreiche Bearbeitung des Aufgabenblatt 2.
 
 ## Prüfung
 
-Mündliche Prüfung in der KW 27 ([Einteilung](dropbox/algdatii/AlgDatIISS17.pdf),
+Mündliche Prüfung in der KW 27 ([Einteilung](/dropbox/lectures/algdatii/AlgDatIISS17.pdf),
 Passwort gibt es in der Vorlesung)
 
 </div>
@@ -62,8 +62,8 @@ Passwort gibt es in der Vorlesung)
 
 ### Aufgabenblätter
 
--   [Blatt 1](dropbox/algdatii/exercises/Blatt01.pdf)
--   [Blatt 2](dropbox/algdatii/exercises/Blatt02.pdf)
+-   [Blatt 1](/dropbox/lectures/algdatii/exercises/Blatt01.pdf)
+-   [Blatt 2](/dropbox/lectures/algdatii/exercises/Blatt02.pdf)
     ([Classroom-Link](https://classroom.github.com/group-assignment-invitations/faf8e7c4d335e057e88450724181fc5e))
 
 ### Termine und Inhalte

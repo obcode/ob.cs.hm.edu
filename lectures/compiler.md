@@ -12,18 +12,18 @@ semester: Sommersemester 2017
 
 ### Slides
 
--   [Einführung](dropbox/compiler/slides/01_Einfuehrung.pdf)
-    [[Handout](dropbox/compiler/handouts/01_Einfuehrung.pdf)]
--   [Haskell](dropbox/compiler/slides/02_Haskell.pdf)
-    [[Handout](dropbox/compiler/handouts/02_Haskell.pdf)]
--   [Scanner](dropbox/compiler/slides/03_Scanner.pdf)
-    [[Handout](dropbox/compiler/handouts/03_Scanner.pdf)]
--   [Parser](dropbox/compiler/slides/04_Parser.pdf)
-    [[Handout](dropbox/compiler/handouts/04_Parser.pdf)]
--   [Zwischenrepräsentationen](dropbox/compiler/slides/05_Zwischenrepraesentationen.pdf)
-    [[Handout](dropbox/compiler/handouts/05_Zwischenrepraesentationen.pdf)]
--   [Optimierungstechniken](dropbox/compiler/slides/06_Optimierungstechniken.pdf)
-    [[Handout](dropbox/compiler/handouts/06_Optimierungstechniken.pdf)]
+-   [Einführung](/dropbox/lectures/compiler/slides/01_Einfuehrung.pdf)
+    [[Handout](/dropbox/lectures/compiler/handouts/01_Einfuehrung.pdf)]
+-   [Haskell](/dropbox/lectures/compiler/slides/02_Haskell.pdf)
+    [[Handout](/dropbox/lectures/compiler/handouts/02_Haskell.pdf)]
+-   [Scanner](/dropbox/lectures/compiler/slides/03_Scanner.pdf)
+    [[Handout](/dropbox/lectures/compiler/handouts/03_Scanner.pdf)]
+-   [Parser](/dropbox/lectures/compiler/slides/04_Parser.pdf)
+    [[Handout](/dropbox/lectures/compiler/handouts/04_Parser.pdf)]
+-   [Zwischenrepräsentationen](/dropbox/lectures/compiler/slides/05_Zwischenrepraesentationen.pdf)
+    [[Handout](/dropbox/lectures/compiler/handouts/05_Zwischenrepraesentationen.pdf)]
+-   [Optimierungstechniken](/dropbox/lectures/compiler/slides/06_Optimierungstechniken.pdf)
+    [[Handout](/dropbox/lectures/compiler/handouts/06_Optimierungstechniken.pdf)]
 
 ### Termine und Inhalte
 
@@ -58,8 +58,8 @@ Gegenstand der Klausur ist der gesamte in Vorlesung und Praktikum
 behandelte Stoff, soweit nicht anders vereinbart. Die Klausur
 wird ohne Hilfsmittel geschrieben.
 
--   [Klausur vom 22.07.14](dropbox/compiler/exams/KlausurSS14.pdf)
--   [Klausur vom 27.01.15](dropbox/compiler/exams/KlausurWS14.pdf)
+-   [Klausur vom 22.07.14](/dropbox/lectures/compiler/exams/KlausurSS14.pdf)
+-   [Klausur vom 27.01.15](/dropbox/lectures/compiler/exams/KlausurWS14.pdf)
 
 </div>
 <div class="span6">
@@ -68,12 +68,12 @@ wird ohne Hilfsmittel geschrieben.
 
 ### Aufgabenblätter
 
--   [Blatt 1](dropbox/compiler/exercises/Blatt01.pdf)
--   [Blatt 2](dropbox/compiler/exercises/Blatt02.pdf)
--   [Blatt 3](dropbox/compiler/exercises/Blatt03.pdf)
--   [Blatt 4](dropbox/compiler/exercises/Blatt04.pdf)
--   [Blatt 5](dropbox/compiler/exercises/Blatt05.pdf)
--   [Blatt 6 (Abgabe)](dropbox/compiler/exercises/Blatt06.pdf)
+-   [Blatt 1](/dropbox/lectures/compiler/exercises/Blatt01.pdf)
+-   [Blatt 2](/dropbox/lectures/compiler/exercises/Blatt02.pdf)
+-   [Blatt 3](/dropbox/lectures/compiler/exercises/Blatt03.pdf)
+-   [Blatt 4](/dropbox/lectures/compiler/exercises/Blatt04.pdf)
+-   [Blatt 5](/dropbox/lectures/compiler/exercises/Blatt05.pdf)
+-   [Blatt 6 (Abgabe)](/dropbox/lectures/compiler/exercises/Blatt06.pdf)
 
 ### Termine und Inhalte
 

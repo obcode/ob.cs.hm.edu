@@ -30,7 +30,7 @@ main = hakyll $ do
             >>= loadAndApplyTemplate "templates/lecture.html" defaultContext
             >>= loadAndApplyTemplate "templates/default.html" defaultContext
             >>= relativizeUrls
-            >>= dropboxifyUrls
+--            >>= dropboxifyUrls
 
     match "bib/*" $ compile biblioCompiler
 
