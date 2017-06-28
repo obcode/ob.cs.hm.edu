@@ -2,8 +2,13 @@
 import           Data.List     (isPrefixOf)
 import           Hakyll
 
+configuration :: Configuration
+configuration = defaultConfiguration
+    { destinationDirectory  = "./docs"
+    }
+
 main :: IO ()
-main = hakyll $ do
+main = hakyllWith configuration $ do
     match "img/*" $ do
         route   idRoute
         compile copyFileCompiler
