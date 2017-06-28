@@ -5,6 +5,9 @@ cache:
   - $HOME/.ghc
   - $HOME/.cabal
   - $HOME/.stack
+branches:
+  only:
+  - master
 addons:
   apt:
     packages:
@@ -33,6 +36,10 @@ after_success:
 - git add --all
 - git commit -m "Update site (`date '+%F %T %Z'`)"
 - git push "https://${GH_TOKEN}@github.com/obcode/ob.cs.hm.edu.git" gh-pages
+- cd ..
+- git add _site
+- git commit -m "Updated site (`date '+%F %T %Z'`)"
+- git push "https://${GH_TOKEN}@github.com/obcode/ob.cs.hm.edu.git" master
 env:
   global:
     secure: dm8sqQ8onvZfKCIlRioB2adlu48NpaLdUJ2cOz+zwiMRHTHvR+mvmdv/IqDxJcDfKUNcZ74Thy+naRYkcpPZVCeEMG+QYntOyKjBx7ahkcWh5bFtuUaTvY6HYWUweLkeDS+q0FDXfdqRXdVQsi9WygUeIcLcwdG94k4jTPD6z8E=
