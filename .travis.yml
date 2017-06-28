@@ -10,6 +10,10 @@ addons:
     packages:
     - libgmp-dev
 before_install:
+- cd _site
+- git checkout gh-pages
+- git pull origin gh-pages
+- cd ..
 - mkdir -p ~/.local/bin
 - export PATH=$HOME/.local/bin:$PATH
 - travis_retry curl -L https://www.stackage.org/stack/linux-x86_64 | tar xz --wildcards
@@ -21,11 +25,11 @@ script:
 machine:
   timezone: Europe/Berlin
 after_success:
-- git config --global user.email ob@cs.hm.edu
-- git config --global user.name Travis CI
+- git config --global user.email deploy@travis-ci.org
+- git config --global user.name Deployment Bot
 - git add docs
-- git commit -m "Travis-Update (`date '+%F %T %Z'`)"
-- git push "https://${GH_TOKEN}@github.com/obcode/ob.cs.hm.edu.git" master
+- git commit -m "Update site (`date '+%F %T %Z'`)"
+- git push "https://${GH_TOKEN}@github.com/obcode/ob.cs.hm.edu.git" gh-pages
 env:
   global:
     secure: dm8sqQ8onvZfKCIlRioB2adlu48NpaLdUJ2cOz+zwiMRHTHvR+mvmdv/IqDxJcDfKUNcZ74Thy+naRYkcpPZVCeEMG+QYntOyKjBx7ahkcWh5bFtuUaTvY6HYWUweLkeDS+q0FDXfdqRXdVQsi9WygUeIcLcwdG94k4jTPD6z8E=
