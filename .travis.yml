@@ -27,6 +27,7 @@ machine:
 after_success:
 - git config --global user.email deploy@travis-ci.org
 - git config --global user.name Deployment Bot
+- git checkout gh-pages
 - git add docs
 - git commit -m "Update site (`date '+%F %T %Z'`)"
 - git push "https://${GH_TOKEN}@github.com/obcode/ob.cs.hm.edu.git" gh-pages
