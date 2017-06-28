@@ -39,7 +39,7 @@ after_success:
 - cd ..
 - git checkout master
 - git add _site
-- git commit -m "Updated site (`date '+%F %T %Z'`)"
+- git commit -m "Updated site [ci skip]"
 - git push "https://${GH_TOKEN}@github.com/obcode/ob.cs.hm.edu.git" master
 env:
   global:
