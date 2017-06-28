@@ -32,7 +32,7 @@ after_success:
 - mv _site_.git _site/.git
 - cd _site
 - git config --global user.email deploy@travis-ci.org
-- git config --global user.name Deployment Bot
+- git config --global user.name "Travis Deployment Bot"
 - git add --all
 - git commit -m "Update site (`date '+%F %T %Z'`)"
 - git push "https://${GH_TOKEN}@github.com/obcode/ob.cs.hm.edu.git" gh-pages
