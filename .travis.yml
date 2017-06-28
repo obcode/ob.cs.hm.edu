@@ -13,6 +13,7 @@ before_install:
 - cd _site
 - git checkout gh-pages
 - git pull origin gh-pages
+- mv .git ../_site_.git
 - cd ..
 - mkdir -p ~/.local/bin
 - export PATH=$HOME/.local/bin:$PATH
@@ -25,10 +26,11 @@ script:
 machine:
   timezone: Europe/Berlin
 after_success:
+- mv _site_.git _site/.git
 - cd _site
 - git config --global user.email deploy@travis-ci.org
 - git config --global user.name Deployment Bot
-- git add .
+- git add --all
 - git commit -m "Update site (`date '+%F %T %Z'`)"
 - git push "https://${GH_TOKEN}@github.com/obcode/ob.cs.hm.edu.git" gh-pages
 env:
