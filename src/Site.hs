@@ -4,56 +4,87 @@ import           Hakyll
 
 main :: IO ()
 main = hakyll $ do
-    match "img/*" $ do
+--     match "img/*" $ do
+--         route   idRoute
+--         compile copyFileCompiler
+--
+--     match "img/ico/*" $ do
+--         route   idRoute
+--         compile copyFileCompiler
+--
+    match "assets/css/*" $ do
+        route   idRoute
+        compile copyFileCompiler -- TODO: Compress and concat css
+    match "assets/css/plugins/*" $ do
+        route   idRoute
+        compile copyFileCompiler -- TODO: Compress and concat css
+--
+--     match "fonts/*" $ do
+--         route   idRoute
+--         compile copyFileCompiler
+--
+    match "assets/js/*" $ do
+        route   idRoute
+        compile copyFileCompiler
+    match "assets/js/plugins/*" $ do
         route   idRoute
         compile copyFileCompiler
 
-    match "img/ico/*" $ do
+    match "assets/icons/css/*" $ do
+        route   idRoute
+        compile copyFileCompiler
+    match "assets/icons/fonts/*" $ do
         route   idRoute
         compile copyFileCompiler
 
-    match "css/*" $ do
+    match "assets/img/*" $ do
         route   idRoute
-        compile compressCssCompiler
-
-    match "fonts/*" $ do
+        compile copyFileCompiler
+    match "assets/img/small/*" $ do
         route   idRoute
         compile copyFileCompiler
 
-    match "js/*" $ do
+    match "assets/cubeportfolio/css/*" $ do
+        route   idRoute
+        compile copyFileCompiler
+    match "assets/cubeportfolio/img/*" $ do
+        route   idRoute
+        compile copyFileCompiler
+    match "assets/cubeportfolio/js/*" $ do
         route   idRoute
         compile copyFileCompiler
 
-    match "lectures/*" $ do
-        route   $ setExtension "html"
-        compile $ pandocCompiler
-            >>= loadAndApplyTemplate "templates/lecture.html" defaultContext
-            >>= loadAndApplyTemplate "templates/default.html" defaultContext
-            >>= relativizeUrls
---            >>= dropboxifyUrls
-
-    match "bib/*" $ compile biblioCompiler
-
-    match "csl/*" $ compile cslCompiler
-
-    match "misc/*" $ do
-        route   $ setExtension "html"
-        compile $ bibtexCompiler
-              "csl/die-bachelorarbeit-samac-et-al-in-text.csl" "bib/ob.bib"
-            >>= loadAndApplyTemplate "templates/misc.html" defaultContext
-            >>= loadAndApplyTemplate "templates/default.html" defaultContext
-            >>= relativizeUrls
-
-    match (fromList ["index.html","about.html","impressum.html"]) $ do
+--
+--     match "lectures/*" $ do
+--         route   $ setExtension "html"
+--         compile $ pandocCompiler
+--             >>= loadAndApplyTemplate "templates/lecture.html" defaultContext
+--             >>= loadAndApplyTemplate "templates/default.html" defaultContext
+--             >>= relativizeUrls
+-- --            >>= dropboxifyUrls
+--
+--     match "bib/*" $ compile biblioCompiler
+--
+--     match "csl/*" $ compile cslCompiler
+--
+--     match "misc/*" $ do
+--         route   $ setExtension "html"
+--         compile $ bibtexCompiler
+--               "csl/die-bachelorarbeit-samac-et-al-in-text.csl" "bib/ob.bib"
+--             >>= loadAndApplyTemplate "templates/misc.html" defaultContext
+--             >>= loadAndApplyTemplate "templates/default.html" defaultContext
+--             >>= relativizeUrls
+--
+    match "index.html" $ do -- (fromList ["index.html","about.html","impressum.html"]) $ do
         route idRoute
         compile $ getResourceBody
             >>= loadAndApplyTemplate "templates/default.html" defaultContext
             >>= relativizeUrls
-
-    match (fromList ["404.html"]) $ do
-        route idRoute
-        compile $ getResourceBody
-            >>= loadAndApplyTemplate "templates/default.html" defaultContext
+--
+--     match (fromList ["404.html"]) $ do
+--         route idRoute
+--         compile $ getResourceBody
+--             >>= loadAndApplyTemplate "templates/default.html" defaultContext
 
     match "templates/*" $ compile templateCompiler
 
