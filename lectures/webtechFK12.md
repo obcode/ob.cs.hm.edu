@@ -1,7 +1,7 @@
 ---
 title: Web-Techniken (zusammen mit <a href="http://design.hm.edu/">FK Design</a>)
 modulurl: http://fi.cs.hm.edu/fi/rest/public/modul/title/webtechniken
-image: elmauerhalt.png
+image: webtechFK12.jpg
 semester: Wintersemester 2013/14
 ---
 

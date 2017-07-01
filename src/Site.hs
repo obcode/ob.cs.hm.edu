@@ -54,13 +54,12 @@ main = hakyll $ do
         route   idRoute
         compile copyFileCompiler
 
---
---     match "lectures/*" $ do
---         route   $ setExtension "html"
---         compile $ pandocCompiler
---             >>= loadAndApplyTemplate "templates/lecture.html" defaultContext
---             >>= loadAndApplyTemplate "templates/default.html" defaultContext
---             >>= relativizeUrls
+    match "lectures/*" $ do
+        route   $ setExtension "html"
+        compile $ pandocCompiler
+            >>= loadAndApplyTemplate "templates/lecture.html" defaultContext
+            >>= loadAndApplyTemplate "templates/default.html" defaultContext
+            >>= relativizeUrls
 -- --            >>= dropboxifyUrls
 --
 --     match "bib/*" $ compile biblioCompiler

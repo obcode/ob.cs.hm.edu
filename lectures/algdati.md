@@ -1,7 +1,7 @@
 ---
 title: Algorithmen und Datenstrukturen I
 modulurl: http://fi.cs.hm.edu/fi/rest/public/modul/title/algorithmenunddatenstruktureni
-image: rauchkopf.png
+image: algdati.jpg
 semester: Wintersemester 2016/17
 ---
 

@@ -1,21 +1,37 @@
-        <div id="landing">
-          <div class="container">
-            <div class="row">
-                  <div class="span7">
-                      <h1><a href="$modulurl$">$title$</a></h1>
-                      <h4>$semester$</h4>
-                  </div>
-                  <div class="span1">&nbsp;
-                  </div>
-                  <div class="span4">
-                    <img alt="" src="/img/$image$" width="300" height="150" />
-                  </div>
-                </div>
-          </div>
-        </div>
 
-        <div id="content">
-          <div class="container">
-            $body$
-          </div>
-        </div>
+<section id="slider-sec" class="slider-reg">
+  <div class="main-flex-slider">
+    <ul class="slides">
+      <li>
+        <figure>
+          <img src="/assets/img/$image$" class="img-fluid" alt="slider-img-1">
+          <figcaption class="slider-overlay ">
+            <div class="slider-text animated fadeInDown">
+              <h1>$title$</h1>
+              <p>
+                $semester$
+              </p>
+            </div>
+          </figcaption>
+        </figure>
+      </li>
+    </ul>
+  </div>
+</section>
+<!-- <section id="content-region-3" class="padding-40 page-tree-bg">
+  <div class="container">
+    <h3 class="page-tree-text">
+      <a href="$modulurl$">$title$</a>
+                    <h4>$semester$</h4>
+                </h3>
+
+  </div>
+</section> -->
+<!--page-tree end here-->
+<div class="space-70"></div>
+
+<div class="container">
+  <div class="row">
+    $body$
+  </div>
+</div>

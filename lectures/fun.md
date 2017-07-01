@@ -1,7 +1,7 @@
 ---
 title: Funktionale Programmierung
 modulurl: http://fi.cs.hm.edu/fi/rest/public/modul/title/funktionaleprogrammierung
-image: Dreitorspitze.jpg
+image: fun.jpg
 semester: Wintersemester 2016/17
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Software Engineering I (IB)
 modulurl: http://fi.cs.hm.edu/fi/rest/public/modul/title/softwareengineeringiib
-image: Chiemsee.png
+image: swengiib.jpg
 semester: Wintersemester 2016/17
 ---
 

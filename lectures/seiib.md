@@ -1,7 +1,7 @@
 ---
 title: Softwareentwicklung I (IB)
 modulurl: http://fi.cs.hm.edu/fi/rest/public/modul/title/softwareentwicklungiib
-image: gardaseeB.png
+image: seiib.jpg
 semester: Wintersemester 2015/16
 ---
 

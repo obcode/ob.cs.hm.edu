@@ -1,7 +1,7 @@
 ---
 title: Software-Architektur
 modulurl: http://fi.cs.hm.edu/fi/rest/public/modul/title/softwarearchitektur
-image: Alpbachtal.png
+image: sa.jpg
 semester: Sommersemester 2015
 ---
 

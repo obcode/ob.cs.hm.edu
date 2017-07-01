@@ -1,7 +1,7 @@
 ---
 title: Web-Techniken
 modulurl: http://fi.cs.hm.edu/fi/rest/public/modul/title/webtechniken
-image: brauneck.png
+image: webtech.jpg
 semester: Wintersemester 2013/14
 ---
 

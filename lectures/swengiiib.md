@@ -1,7 +1,7 @@
 ---
 title: Software Engineering II (IB)
 modulurl: http://fi.cs.hm.edu/fi/rest/public/modul/title/softwareengineeringiiib
-image: Marokko.jpg
+image: swengiiib.jpg
 semester: Sommersemester 2017
 ---
 

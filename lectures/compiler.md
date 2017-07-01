@@ -1,7 +1,7 @@
 ---
 title: Compiler
 modulurl: https://w3-o.cs.hm.edu:8000/public/module/41/
-image: Fuerteventura.png
+image: compiler.jpg
 semester: Sommersemester 2017
 ---
 

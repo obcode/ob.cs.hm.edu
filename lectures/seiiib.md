@@ -1,7 +1,7 @@
 ---
 title: Softwareentwicklung II (IB)
 modulurl: http://fi.cs.hm.edu/fi/rest/public/modul/title/softwareentwicklungiiib
-image: WilderKaiser.jpg
+image: seiiib.jpg
 semester: Sommersemester 2016
 ---
 
