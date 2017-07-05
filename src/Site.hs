@@ -4,55 +4,13 @@ import           Hakyll
 
 main :: IO ()
 main = hakyll $ do
---     match "img/*" $ do
---         route   idRoute
---         compile copyFileCompiler
---
---     match "img/ico/*" $ do
---         route   idRoute
---         compile copyFileCompiler
---
-    match "assets/css/*" $ do
-        route   idRoute
-        compile copyFileCompiler -- TODO: Compress and concat css
-    match "assets/css/plugins/*" $ do
-        route   idRoute
-        compile copyFileCompiler -- TODO: Compress and concat css
---
---     match "fonts/*" $ do
---         route   idRoute
---         compile copyFileCompiler
---
-    match "assets/js/*" $ do
-        route   idRoute
-        compile copyFileCompiler
-    match "assets/js/plugins/*" $ do
+
+    match "assets/**" $ do
         route   idRoute
         compile copyFileCompiler
 
-    match "assets/icons/css/*" $ do
-        route   idRoute
-        compile copyFileCompiler
-    match "assets/icons/fonts/*" $ do
-        route   idRoute
-        compile copyFileCompiler
-
-    match "assets/img/*" $ do
-        route   idRoute
-        compile copyFileCompiler
-    match "assets/img/small/*" $ do
-        route   idRoute
-        compile copyFileCompiler
-
-    match "assets/cubeportfolio/css/*" $ do
-        route   idRoute
-        compile copyFileCompiler
-    match "assets/cubeportfolio/img/*" $ do
-        route   idRoute
-        compile copyFileCompiler
-    match "assets/cubeportfolio/js/*" $ do
-        route   idRoute
-        compile copyFileCompiler
+    match "templates/*" $ compile templateCompiler
+    match "lecures/*/*" $ compile templateCompiler
 
     match "lectures/*" $ do
         route   $ setExtension "html"
@@ -60,7 +18,7 @@ main = hakyll $ do
             >>= loadAndApplyTemplate "templates/lecture.html" defaultContext
             >>= loadAndApplyTemplate "templates/default.html" defaultContext
             >>= relativizeUrls
--- --            >>= dropboxifyUrls
+            >>= dropboxifyUrls
 --
 --     match "bib/*" $ compile biblioCompiler
 --
@@ -85,7 +43,6 @@ main = hakyll $ do
 --         compile $ getResourceBody
 --             >>= loadAndApplyTemplate "templates/default.html" defaultContext
 
-    match "templates/*" $ compile templateCompiler
 
 bibtexCompiler :: String -> String -> Compiler (Item String)
 bibtexCompiler cslFileName bibFileName = do
@@ -102,5 +59,5 @@ addDropboxUrlPrefix url
     | dropbox `isPrefixOf` url = dropboxlink ++ drop (length dropbox) url
     | otherwise = url
   where
-    dropbox = "dropbox"
-    dropboxlink = "/dropbox/lectures"
+    dropbox = "dropbox/"
+    dropboxlink = "https://dl.dropboxusercontent.com/u/13563262/"
