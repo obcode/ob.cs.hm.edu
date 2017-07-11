@@ -31,17 +31,12 @@ main = hakyll $ do
 --             >>= loadAndApplyTemplate "templates/default.html" defaultContext
 --             >>= relativizeUrls
 --
-    match (fromList ["index.html","about.html","impressum.html"]) $ do
+    match (fromList ["index.html","about.html","impressum.html", "404.html"]) $
+     do
         route idRoute
         compile $ getResourceBody
             >>= loadAndApplyTemplate "templates/default.html" defaultContext'
             >>= relativizeUrls
---
---     match (fromList ["404.html"]) $ do
---         route idRoute
---         compile $ getResourceBody
---             >>= loadAndApplyTemplate "templates/default.html" defaultContext
-
 
 bibtexCompiler :: String -> String -> Compiler (Item String)
 bibtexCompiler cslFileName bibFileName = do
@@ -65,4 +60,4 @@ addDropboxUrlPrefix url
     | otherwise = url
   where
     dropbox = "dropbox/"
-    dropboxlink = "https://dl.dropboxusercontent.com/u/13563262/"
+    dropboxlink = "/dropbox/"
