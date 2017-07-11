@@ -92,8 +92,7 @@ Prüfung
 </div>
 <div id="collapseThreeList" class="collapse" role="tabpanel" aria-labelledby="headingThree">
 <div class="card-block">
-Mündliche Prüfung in der KW 27 ([Einteilung](dropbox/lectures/algdatii/AlgDatIISS17.pdf),
-Passwort gibt es in der Vorlesung)
+Mündliche Prüfung
 </div>
 </div>
 </div>
@@ -265,6 +264,34 @@ Präsentationen Praktikumsergebnisse</div>
 </div> <!-- row end -->
 <hr />
 
+<div class="row">
+<div class="col-md-2">01.06.17</div>
+<div class="col-md-2"></div>
+<div class="col-md-8">Blatt 2</div>
+</div> <!-- row end -->
+<hr />
+
+<div class="row">
+<div class="col-md-2">08.06.17</div>
+<div class="col-md-2">12.06.17</div>
+<div class="col-md-8">Blatt 2</div>
+</div> <!-- row end -->
+<hr />
+
+<div class="row">
+<div class="col-md-2"></div>
+<div class="col-md-2">19.06.17</div>
+<div class="col-md-8">Blatt 2</div>
+</div> <!-- row end -->
+<hr />
+
+<div class="row">
+<div class="col-md-2">22.06.17</div>
+<div class="col-md-2">26.06.17</div>
+<div class="col-md-8">Blatt 2</div>
+</div> <!-- row end -->
+<hr />
+
 </div>
 <!-- }}} -->
 <!-- {{{ Tab: Slides und Handouts -->
@@ -344,6 +371,7 @@ Slides</a>
 </div>
 <div class="portfolio-desc text-center">
 <h4 class="portfolio-post-title">Blatt 1</h4>
+<a class="portfolio-post-cat" href="dropbox/lectures/algdatii/exercises/Blatt01.json">changelog</a>
 <h4><a href="dropbox/lectures/algdatii/exercises/Blatt01.pdf" class="btn theme-btn-default btn-lg">
 PDF
 </a>
@@ -361,6 +389,7 @@ PDF
 </div>
 <div class="portfolio-desc text-center">
 <h4 class="portfolio-post-title">Blatt 2</h4>
+<a class="portfolio-post-cat" href="dropbox/lectures/algdatii/exercises/Blatt01.json">changelog</a>
 <h4><a href="dropbox/lectures/algdatii/exercises/Blatt02.pdf" class="btn theme-btn-default btn-lg">
 PDF</a></h4>
 </div><!-- portfolio-desc end -->

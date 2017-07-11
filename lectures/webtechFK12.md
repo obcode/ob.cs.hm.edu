@@ -5,8 +5,9 @@ image: webtechFK12.jpg
 semester: Wintersemester 2013/14
 ---
 
+<div class="container">
 <div class="row">
-<div class="span6">
+<div class="col-md-6">
 
 ## Allgemeines
 
@@ -52,7 +53,7 @@ semester: Wintersemester 2013/14
 **06.02.2014**: Abschlußpräsentationen FK12  
 
 </div>
-<div class="span6">
+<div class="col-md-6">
 
 ## Bewertung etc.
 
@@ -98,5 +99,6 @@ implementierten Applikation, der folgenden Ansprüchen genügt:
     (auch über die implementierte Anwendung hinaus) auskennt.
 -   Während des Vortrags sind **keine** Fragen von den Zuhörern gestattet.
 
+</div>
 </div>
 </div>

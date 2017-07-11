@@ -10,13 +10,12 @@ main = hakyll $ do
         compile copyFileCompiler
 
     match "templates/*" $ compile templateCompiler
-    match "lecures/*/*" $ compile templateCompiler
 
     match "lectures/*" $ do
         route   $ setExtension "html"
         compile $ pandocCompiler
-            >>= loadAndApplyTemplate "templates/lecture.html" defaultContext
-            >>= loadAndApplyTemplate "templates/default.html" defaultContext
+            >>= loadAndApplyTemplate "templates/lecture.html" defaultContext'
+            >>= loadAndApplyTemplate "templates/default.html" defaultContext'
             >>= relativizeUrls
             >>= dropboxifyUrls
 --
@@ -32,10 +31,10 @@ main = hakyll $ do
 --             >>= loadAndApplyTemplate "templates/default.html" defaultContext
 --             >>= relativizeUrls
 --
-    match "index.html" $ do -- (fromList ["index.html","about.html","impressum.html"]) $ do
+    match (fromList ["index.html","about.html","impressum.html"]) $ do
         route idRoute
         compile $ getResourceBody
-            >>= loadAndApplyTemplate "templates/default.html" defaultContext
+            >>= loadAndApplyTemplate "templates/default.html" defaultContext'
             >>= relativizeUrls
 --
 --     match (fromList ["404.html"]) $ do
@@ -50,6 +49,12 @@ bibtexCompiler cslFileName bibFileName = do
     bib <- load $ fromFilePath bibFileName
     fmap writePandoc
         (getResourceBody >>= readPandocBiblio defaultHakyllReaderOptions csl bib)
+
+defaultContext' :: Context String
+defaultContext' = mconcat
+    [ dateField "date" "%Y"
+    , defaultContext
+    ]
 
 dropboxifyUrls :: Item String -> Compiler (Item String)
 dropboxifyUrls = return . fmap (withUrls addDropboxUrlPrefix)

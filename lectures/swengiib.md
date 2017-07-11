@@ -1,69 +1,220 @@
 ---
 title: Software Engineering I (IB)
-modulurl: http://fi.cs.hm.edu/fi/rest/public/modul/title/softwareengineeringiib
 image: swengiib.jpg
 semester: Wintersemester 2016/17
+portfolio: yes
 ---
 
+<div class="container">
 <div class="row">
-<div class="span6">
+<!-- {{{ Left sidebar  -->
+<div class="col-md-4">
+<div class="sidebar-box">
+<div class="card-accordion card-accordion-simple card-accordion-icons-left mb80" id="card-accordion-simple" role="tablist" aria-multiselectable="true">
+<!-- {{{ card 0: Links -->
+<div class="card">
+<div class="card-header accordion-header" role="tab" id="headingZero">
+<a data-toggle="collapse" data-parent="#card-accordion-simple" href="#collapseZeroList" aria-expanded="true" aria-controls="collapseZeroList">
+Links
+</a>
+</div>
+<div id="collapseZeroList" class="collapse show" role="tabpanel" aria-labelledby="headingZero">
+<div class="card-block">
 
-## Links
-
--   [Moodle-Kurs](https://moodle.hm.edu/course/view.php?id=5449) der Lehrveranstaltung,
-    den Zugangsschlüssel *swengWS1617*
-
-## Termine und Inhalte
-
--   Vorlesungstermine (mittwochs 10:00-11:30, R1.007)
-
-    Die genauen Vorlesungsinhalte entnehmen Sie dem Moodle-Kurs.
-
--   Praktikumstermine (mittwochs 08:15-09:45, R2.012, donnerstags 08:15-09:45, R2.012) beginnen am 12.10.2016
-
-    Die genauen Praktikumsinhalte entnehmen Sie dem Moodle-Kurs.
-
-## Aufgabenblätter
-
--   Blatt 0 ([HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/swengiib/html/Blatt00.html),
-             [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/swengiib/pdf/Blatt00.pdf))
--   Blatt 1 ([HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/swengiib/html/Blatt01.html),
-             [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/swengiib/pdf/Blatt01.pdf))
--   Blatt 2 ([HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/swengiib/html/Blatt02.html),
-             [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/swengiib/pdf/Blatt02.pdf))
--   Blatt 3 --- Semesteraufgabe ([HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/swengiib/html/Blatt03.html),
-             [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/swengiib/pdf/Blatt03.pdf))
+<ul class="icon-list list-unstyled">
+<li><i class="ion-link"></i>
+[swenib @ GitHub](https://github.com/swenib)
+</li>
+<li><i class="ion-link"></i>
+[Modulbeschreibung](https://w3-o.cs.hm.edu:8000/public/module/222/)
+</li>
+</ul>
 
 </div>
-<div class="span6">
+</div>
+</div>
+<!-- }}} card 0 end -->
+<!-- {{{ card 1: Ziele / Inhalte -->
+<div class="card">
+<div class="card-header accordion-header" role="tab" id="headingOne">
+<a class="collapsed" data-toggle="collapse" data-parent="#card-accordion-simple" href="#collapseOneList" aria-expanded="false" aria-controls="collapseOneList">
+Ziele / Inhalte
+</a>
+</div>
+<div id="collapseOneList" class="collapse" role="tabpanel" aria-labelledby="headingOne">
+<div class="card-block">
 
-## Studienarbeit
+<ul class="icon-list list-unstyled">
+<li><i class="ion-checkmark-round"></i>
+TODO
+</li>
+</ul>
 
-<!--
-Als Studienarbeit ist in Zweiergruppen ein Projekt mit dem [Play
-Framework](https://www.playframework.com/) in [Scala](http://scala-lang.org/)
-anzufertigen. Genauere Informationen finden Sie hier:
-([HTML](/lectures/swengiib/html/Semesteraufgabe.html),
-[PDF](/lectures/swengiib/pdf/Semesteraufgabe.pdf))
--->
+</div>
+</div>
+</div>
+<!-- }}} card 1 end -->
+<!-- {{{ card 2: Scheinerwerb -->
+<div class="card">
+<div class="card-header accordion-header" role="tab" id="headingTwo">
+<a class="collapsed" data-toggle="collapse" data-parent="#card-accordion-simple" href="#collapseTwoList" aria-expanded="false" aria-controls="collapseTwoList">
+Scheinerwerb
+</a>
+</div>
+<div id="collapseTwoList" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
+<div class="card-block">
+TODO
+</div>
+</div>
+</div> <!-- card 2 end -->
 
-## Klausur
-
+<!-- card 3 -->
+<div class="card">
+<div class="card-header accordion-header" role="tab" id="headingThree">
+<a class="collapsed" data-toggle="collapse" data-parent="#card-accordion-simple" href="#collapseThreeList" aria-expanded="false" aria-controls="collapseThreeList">
+Prüfung
+</a>
+</div>
+<div id="collapseThreeList" class="collapse" role="tabpanel" aria-labelledby="headingThree">
+<div class="card-block">
 Gegenstand der Klausur ist der gesamte in Vorlesung und Praktikum
 behandelte Stoff, soweit nicht anders vereinbart. Die Klausur
 wird ohne Hilfsmittel geschrieben.
 
--   Klausur vom 21.01.2015: [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/swengiib/pdf/KlausurWS14.pdf)
--   Klausur vom 09.07.2015: [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/swengiib/pdf/KlausurSS15.pdf)
+<ul class="icon-list list-unstyled">
+<li><i class="ion-compose"></i>
+[Klausur vom 21.01.15](dropbox/lectures/swengiib/exams/KlausurWS14.pdf)
+</li>
+<li><i class="ion-compose"></i>
+[Klausur vom 09.07.15](dropbox/lectures/swengiib/exams/KlausurSS15.pdf)
+</li>
+</ul>
+</div>
+</div>
+</div>
+<!-- }}} card 3 end -->
+</div> <!-- accordion end -->
+</div><!-- sidebar-box end -->
+</div><!-- sidebar end -->
+<!-- }}} -->
+<!-- {{{ Right contents -->
+<div class="col-md-8">
+<!-- {{{ Tab Titel -->
+<ul class="nav-tabs nav" role="tablist">
+<li class="nav-item">
+<a class="ion-ios-book active nav-link" href="#Vorlesung" data-taget="#Vorlesung" role="tab" data-toggle="tab">
+Vorlesung
+</a>
+</li>
+<li class="nav-item">
+<a class=" ion-ios-monitor nav-link" href="#Praktikum" data-taget="#Praktikum" role="tab" data-toggle="tab">
+Praktikum
+</a>
+</li>
+<li class="nav-item">
+<a class=" ion-ios-cloud-download nav-link" href="#Slides" data-taget="#Slides" role="tab" data-toggle="tab">
+Slides und Handouts
+</a>
+</li>
+<li class="nav-item">
+<a class=" ion-ios-cloud-download nav-link" href="#Exercises" data-taget="#Exercises" role="tab" data-toggle="tab">
+Aufgabenblätter
+</a>
+</li>
+</ul>
+<!-- }}} -->
+<!-- {{{ Tab contents -->
+<div class="tab-content">
+<!-- {{{ Tab: Vorlesung -->
+<div class="space-30"></div>
+<div role="tabpanel" class="tab-pane show active fade" id="Vorlesung" aria-expanded="true">
 
-## Links
+<h5>Zeit und Raum</h5>
+<hr />
+<div class="row">
+<div class="col-md-2">
+xx.xx.xx</div>
+<div class="col-md-10">
+tba</div>
+</div> <!-- row end -->
+<hr />
+</div><!-- tab-panel end -->
+<!-- }}} -->
+<!-- {{{ Tab: Praktikum -->
+<div role="tabpanel" class="tab-pane fade" id="Praktikum" aria-expanded="false">
 
--   [Scala](http://scala-lang.org/)
--   [Typesafe](https://typesafe.com/)
--   [Play Framework](https://www.playframework.com/)
--   [Scala IDE for Eclipse](http://scala-ide.org/)
--   [IntelliJ IDEA](http://www.jetbrains.com/idea/features/scala.html)
+<h5>Teilgruppe 1: Zeit und Raum</h5>
+<h5>Teilgruppe 2: Zeit und Raum</h5>
+<h5>Teilgruppe 3: Zeit und Raum</h5>
+<hr />
+
+<div class="row">
+<div class="col-md-2">xx.xx.xx</div>
+<div class="col-md-2">xx.xx.xx</div>
+<div class="col-md-2">xx.xx.xx</div>
+<div class="col-md-6">Blatt X</div>
+</div> <!-- row end -->
+<hr />
+
+</div>
+<!-- }}} -->
+<!-- {{{ Tab: Slides und Handouts -->
+<div role="tabpanel" class="tab-pane fade" id="Slides" aria-expanded="false">
+
+<div class="row">
+
+<div class="col-md-6 margin-btm-20">
+<div class="portfolio-sec">
+<div class="portfolio-thumnail">
+<a href="dropbox/lectures/seiiib/slides/....pdf">
+<img src="dropbox/lectures/seiiib/slides/....png" class="img-fluid" alt=""></a>
+</div>
+<div class="portfolio-desc text-center">
+<h4 class="portfolio-post-title">...</h4>
+<a class="portfolio-post-cat" href="dropbox/lectures/seiiib/slides/....json">changelog</a>
+<h4><a href="dropbox/lectures/seiiib/slides/....pdf" class="btn theme-btn-default btn-lg">Slides</a>
+<a href="dropbox/lectures/seiiib/handouts/....pdf" class="btn theme-btn-default btn-lg">Handout</a></h4>
+</div><!-- portfolio-desc end -->
+</div><!-- portfolio-sec end -->
+</div><!-- col-md-6 end -->
 
 
+
+
+</div><!-- row end -->
+
+</div><!-- tabpanel Slides end -->
+<!-- }}} -->
+<!-- {{{ Tab: Aufgabenblätter -->
+<div role="tabpanel" class="tab-pane fade" id="Exercises" aria-expanded="false">
+
+<div class="row">
+
+<div class="col-md-6 margin-btm-20">
+<div class="portfolio-sec">
+<div class="portfolio-thumnail">
+<a href="dropbox/lectures/seiiib/exercises/Blatt01.pdf">
+<img src="dropbox/lectures/seiiib/exercises/Blatt01.png" class="img-fluid" alt="">
+</a>
+</div>
+<div class="portfolio-desc text-center">
+<h4 class="portfolio-post-title">Blatt 1</h4>
+<a class="portfolio-post-cat" href="dropbox/lectures/seiiib/exercises/Blatt01.json">changelog</a>
+<h4><a href="dropbox/lectures/seiiib/exercises/Blatt01.pdf" class="btn theme-btn-default btn-lg">
+PDF
+</a>
+</h4>
+</div><!-- portfolio-desc end -->
+</div><!-- portfolio-sec end -->
+</div><!-- col-md-6 end -->
+
+</div><!-- row end -->
+
+</div>
+<!-- }}} -->
+</div>
+<!-- }}} -->
+</div>
+<!-- }}} -->
 </div>
 </div>

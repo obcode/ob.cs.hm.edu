@@ -1,104 +1,232 @@
 ---
 title: Algorithmen und Datenstrukturen I
-modulurl: http://fi.cs.hm.edu/fi/rest/public/modul/title/algorithmenunddatenstruktureni
 image: algdati.jpg
-semester: Wintersemester 2016/17
+semester: Wintersemester 2017/18
+portfolio: yes
 ---
 
+<div class="container">
 <div class="row">
-<div class="span6">
+<!-- {{{ Left sidebar  -->
+<div class="col-md-4">
+<div class="sidebar-box">
+<div class="card-accordion card-accordion-simple card-accordion-icons-left mb80" id="card-accordion-simple" role="tablist" aria-multiselectable="true">
+<!-- {{{ card 0: Links -->
+<div class="card">
+<div class="card-header accordion-header" role="tab" id="headingZero">
+<a data-toggle="collapse" data-parent="#card-accordion-simple" href="#collapseZeroList" aria-expanded="true" aria-controls="collapseZeroList">
+Links
+</a>
+</div>
+<div id="collapseZeroList" class="collapse show" role="tabpanel" aria-labelledby="headingZero">
+<div class="card-block">
 
-## Ziele / Inhalte
-
--   lineare und hierarchische Datenstrukturen
--   Qualität von Datenstrukturen und Algorithmen
--   Umsetzung in C++
-
-## Termine und Inhalte
-
--   Vorlesungstermine (dienstags 17:00-18:30, R2.007)
-
-    Der Vorlesungsstoff basiert auf dem Buch [Algorithmen und Datenstrukturen](http://link.springer.com/book/10.1007/978-3-8274-2804-2/page/1) von T.Ottmann & P.Widmayer.
-
-    Die genauen Vorlesungsinhalte entnehmen Sie dem Moodle-Kurs.
-
--   Praktikumstermine
-
-    -   *Teilgruppe 1*: montags 08:15-09:45, R3.021
-    -   *Teilgruppe 2*: dienstags 15:15-16:45, R3.021
-
-    Die genauen Praktikumsinhalte entnehmen Sie dem Moodle-Kurs.
-
-## Aufgabenblätter
-
--   Blatt 0 ([HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/algdat/html/Blatt00.html),
-             [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/algdat/pdf/Blatt00.pdf))
--   Blatt 1 ([HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/algdat/html/Blatt01.html),
-             [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/algdat/pdf/Blatt01.pdf))
--   Blatt 2 ([HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/algdat/html/Blatt02.html),
-             [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/algdat/pdf/Blatt02.pdf))
--   Blatt 3 ([HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/algdat/html/Blatt03.html),
-             [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/algdat/pdf/Blatt03.pdf))
--   Blatt 4 --- Semesteraufgabe ([HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/algdat/html/Blatt04.html),
-             [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/algdat/pdf/Blatt04.pdf))
-<!--
--   Blatt 5 --- Livecoding
-    ([HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/algdat/html/Blatt05.html),
-             [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/algdat/pdf/Blatt05.pdf))
-    -   Teilgruppe 1
-    -   Teilgruppe 2
--->
+<ul class="icon-list list-unstyled">
+<li><i class="ion-link"></i>
+[AlgDat @ GitHub](https://github.com/algdat)
+</li>
+<li><i class="ion-link"></i>
+[Modulbeschreibung](https://w3-o.cs.hm.edu:8000/public/module/TODO/)
+</li>
+</ul>
 
 </div>
-<div class="span6">
+</div>
+</div>
+<!-- }}} card 0 end -->
+<!-- {{{ card 1: Ziele / Inhalte -->
+<div class="card">
+<div class="card-header accordion-header" role="tab" id="headingOne">
+<a class="collapsed" data-toggle="collapse" data-parent="#card-accordion-simple" href="#collapseOneList" aria-expanded="false" aria-controls="collapseOneList">
+Ziele / Inhalte
+</a>
+</div>
+<div id="collapseOneList" class="collapse" role="tabpanel" aria-labelledby="headingOne">
+<div class="card-block">
 
-## Scheinerwerb
+<ul class="icon-list list-unstyled">
+<li><i class="ion-checkmark-round"></i>
+Lineare und hierarchische Datenstrukturen
+</li>
+<li><i class="ion-checkmark-round"></i>
+Qualität von Datenstrukturen und Algorithmen
+</li>
+<li><i class="ion-checkmark-round"></i>
+Umsetzung in C++
+</li>
+<li><i class="ion-checkmark-round"></i>
+Der Vorlesungsstoff basiert auf dem Buch [Algorithmen und Datenstrukturen](http://link.springer.com/book/10.1007/978-3-8274-2804-2/page/1) von T.Ottmann & P.Widmayer.
+</li>
+</ul>
 
-Zulassungsvoraussetzung zur Prüfung ist ein erfolgreich bestandener Leistungsnachweis.
+</div>
+</div>
+</div>
+<!-- }}} card 1 end -->
+<!-- {{{ card 2: Scheinerwerb -->
+<div class="card">
+<div class="card-header accordion-header" role="tab" id="headingTwo">
+<a class="collapsed" data-toggle="collapse" data-parent="#card-accordion-simple" href="#collapseTwoList" aria-expanded="false" aria-controls="collapseTwoList">
+Scheinerwerb
+</a>
+</div>
+<div id="collapseTwoList" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
+<div class="card-block">
+TODO
+</div>
+</div>
+</div> <!-- card 2 end -->
 
-Für den Schein müssen Sie folgendes erfolgreich bearbeiten:
+<!-- card 3 -->
+<div class="card">
+<div class="card-header accordion-header" role="tab" id="headingThree">
+<a class="collapsed" data-toggle="collapse" data-parent="#card-accordion-simple" href="#collapseThreeList" aria-expanded="false" aria-controls="collapseThreeList">
+Prüfung
+</a>
+</div>
+<div id="collapseThreeList" class="collapse" role="tabpanel" aria-labelledby="headingThree">
+<div class="card-block">
+Die Veranstaltung wird durch eine benotete schriftliche Prüfung abgeschlossen.
+Zu dieser sind keine Hilfsmittel zugelassen.
 
--   C++-Programmierprojekt mit Präsentation der Lösung in der Praktikumsgruppe, in Zweierteams (Blatt 4)
+Der Prüfungsstoff entspricht den Kapiteln 1, 2, 3 & 5 aus dem o.a. Buch
+**und** C++.
 
-Alle sonstigen Aufgabenblätter müssen nicht, aber sollten sinnvollerweise von Ihnen bearbeitet werden.
+<ul class="icon-list list-unstyled">
+<li><i class="ion-compose"></i>
+[Klausur vom 21.07.15](dropbox/lectures/algdati/exams/KlausurSS15.pdf)
+</li>
+<li><i class="ion-compose"></i>
+[Klausur vom 26.01.16](dropbox/lectures/algdati/exams/KlausurWS15.pdf)
+</li>
+<li><i class="ion-compose"></i>
+[Klausur vom 12.07.16](dropbox/lectures/algdati/exams/KlausurSS16.pdf)
+</li>
+</ul>
+</div>
+</div>
+</div>
+<!-- }}} card 3 end -->
+</div> <!-- accordion end -->
+</div><!-- sidebar-box end -->
+</div><!-- sidebar end -->
+<!-- }}} -->
+<!-- {{{ Right contents -->
+<div class="col-md-8">
+<!-- {{{ Tab Titel -->
+<ul class="nav-tabs nav" role="tablist">
+<li class="nav-item">
+<a class="ion-ios-book active nav-link" href="#Vorlesung" data-taget="#Vorlesung" role="tab" data-toggle="tab">
+Vorlesung
+</a>
+</li>
+<li class="nav-item">
+<a class=" ion-ios-monitor nav-link" href="#Praktikum" data-taget="#Praktikum" role="tab" data-toggle="tab">
+Praktikum
+</a>
+</li>
+<li class="nav-item">
+<a class=" ion-ios-cloud-download nav-link" href="#Slides" data-taget="#Slides" role="tab" data-toggle="tab">
+Slides und Handouts
+</a>
+</li>
+<li class="nav-item">
+<a class=" ion-ios-cloud-download nav-link" href="#Exercises" data-taget="#Exercises" role="tab" data-toggle="tab">
+Aufgabenblätter
+</a>
+</li>
+</ul>
+<!-- }}} -->
+<!-- {{{ Tab contents -->
+<div class="tab-content">
+<!-- {{{ Tab: Vorlesung -->
+<div class="space-30"></div>
+<div role="tabpanel" class="tab-pane show active fade" id="Vorlesung" aria-expanded="true">
 
-## Prüfung
+<h5>Zeit und Raum</h5>
+<hr />
+<div class="row">
+<div class="col-md-2">
+xx.xx.xx</div>
+<div class="col-md-10">
+tba</div>
+</div> <!-- row end -->
+<hr />
+</div><!-- tab-panel end -->
+<!-- }}} -->
+<!-- {{{ Tab: Praktikum -->
+<div role="tabpanel" class="tab-pane fade" id="Praktikum" aria-expanded="false">
 
-Die Veranstaltung wird durch eine benotete schriftliche Prüfung abgeschlossen. Zu
-dieser sind keine Hilfsmittel zugelassen.
+<h5>Teilgruppe 1: Zeit und Raum</h5>
+<h5>Teilgruppe 2: Zeit und Raum</h5>
+<hr />
 
-Der Prüfungsstoff entspricht den Kapiteln 1, 2, 3 & 5 aus dem o.a. Buch **und** C++.
+<div class="row">
+<div class="col-md-2">xx.xx.xx</div>
+<div class="col-md-2">xx.xx.xx</div>
+<div class="col-md-8">Blatt X</div>
+</div> <!-- row end -->
+<hr />
 
--   Klausur vom 22.01.2014: [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/algdat/pdf/KlausurWS13.pdf)
--   Klausur vom 20.01.2015: [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/algdat/pdf/KlausurWS14.pdf)
--   Klausur vom 21.07.2015: [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/algdat/pdf/KlausurSS15.pdf)
--   Klausur vom 26.01.2016: [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/algdat/pdf/KlausurWS15.pdf)
--   Klausur vom 12.07.2016: [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/algdat/pdf/KlausurSS16.pdf)
+</div>
+<!-- }}} -->
+<!-- {{{ Tab: Slides und Handouts -->
+<div role="tabpanel" class="tab-pane fade" id="Slides" aria-expanded="false">
 
-## Links
+<div class="row">
 
--   [Moodle-Kurs](https://moodle.hm.edu/course/view.php?id=5450) der Lehrveranstaltung
-    (Zugangsschlüssel: *algdatIWS1617*)
+<div class="col-md-6 margin-btm-20">
+<div class="portfolio-sec">
+<div class="portfolio-thumnail">
+<a href="dropbox/lectures/algdati/slides/....pdf">
+<img src="dropbox/lectures/algdati/slides/....png" class="img-fluid" alt=""></a>
+</div>
+<div class="portfolio-desc text-center">
+<h4 class="portfolio-post-title">...</h4>
+<a class="portfolio-post-cat" href="dropbox/lectures/algdati/slides/....json">changelog</a>
+<h4><a href="dropbox/lectures/algdati/slides/....pdf" class="btn theme-btn-default btn-lg">Slides</a>
+<a href="dropbox/lectures/algdati/handouts/....pdf" class="btn theme-btn-default btn-lg">Handout</a></h4>
+</div><!-- portfolio-desc end -->
+</div><!-- portfolio-sec end -->
+</div><!-- col-md-6 end -->
 
--   [GitHub-Organisation](https://github.com/algdat)
 
--   C++-Referenz: <http://de.cppreference.com/w/>
 
-### Tutorials
 
--   <http://www.learncpp.com/>
--   <http://www.cplusplus.com/doc/tutorial/>
--   <http://www.csegeek.com/csegeek/view/tutorials/cpp_lang/cpp_intro.php>
+</div><!-- row end -->
 
-### IDEs
+</div><!-- tabpanel Slides end -->
+<!-- }}} -->
+<!-- {{{ Tab: Aufgabenblätter -->
+<div role="tabpanel" class="tab-pane fade" id="Exercises" aria-expanded="false">
 
-Auf den Laborrechnern ist Visual Studio installiert.
+<div class="row">
 
--   <https://www.jetbrains.com/clion/>
--   <http://www.codeblocks.org/>
--   <http://newbieide.codeplex.com/>
--   <http://codelite.org/>
--   <http://www.eclipse.org/cdt/>
+<div class="col-md-6 margin-btm-20">
+<div class="portfolio-sec">
+<div class="portfolio-thumnail">
+<a href="dropbox/lectures/algdati/exercises/Blatt01.pdf">
+<img src="dropbox/lectures/algdati/exercises/Blatt01.png" class="img-fluid" alt="">
+</a>
+</div>
+<div class="portfolio-desc text-center">
+<h4 class="portfolio-post-title">Blatt 1</h4>
+<a class="portfolio-post-cat" href="dropbox/lectures/algdati/exercises/Blatt01.json">changelog</a>
+<h4><a href="dropbox/lectures/algdati/exercises/Blatt01.pdf" class="btn theme-btn-default btn-lg">
+PDF
+</a>
+</h4>
+</div><!-- portfolio-desc end -->
+</div><!-- portfolio-sec end -->
+</div><!-- col-md-6 end -->
 
+</div><!-- row end -->
+
+</div>
+<!-- }}} -->
+</div>
+<!-- }}} -->
+</div>
+<!-- }}} -->
 </div>
 </div>

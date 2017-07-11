@@ -5,8 +5,9 @@ image: webtech.jpg
 semester: Wintersemester 2013/14
 ---
 
+<div class="container">
 <div class="row">
-<div class="span6">
+<div class="col-md-6">
 
 ## Termine
 
@@ -62,9 +63,9 @@ semester: Wintersemester 2013/14
 *<s>21.01.2014</s>: bereits Prüfungen*
 
 </div>
-<div class="span6">
+<div class="col-md-6">
 
-# Ziele/Inhalte
+## Ziele/Inhalte
 
 -   Grundsätzliches Verständnis für Architektur und Programmierung von Web-Anwendungen
 -   Wissen über die wichtigsten Technologien und Verfahren im Umfeld der Web-Programmierung
@@ -118,5 +119,6 @@ implementierten Applikation, der folgenden Ansprüchen genügt:
     (auch über die implementierte Anwendung hinaus) auskennt.
 -   Während des Vortrags sind **keine** Fragen von den Zuhörern gestattet.
 
+</div>
 </div>
 </div>

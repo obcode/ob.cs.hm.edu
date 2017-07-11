@@ -1,78 +1,339 @@
 ---
 title: Software-Architektur
-modulurl: http://fi.cs.hm.edu/fi/rest/public/modul/title/softwarearchitektur
 image: sa.jpg
 semester: Sommersemester 2015
+portfolio: yes
 ---
 
+<div class="container">
 <div class="row">
-<div class="span6">
+<!-- {{{ Left sidebar  -->
+<div class="col-md-4">
+<div class="sidebar-box">
+<div class="card-accordion card-accordion-simple card-accordion-icons-left mb80" id="card-accordion-simple" role="tablist" aria-multiselectable="true">
+<!-- {{{ card 0: Links -->
+<div class="card">
+<div class="card-header accordion-header" role="tab" id="headingZero">
+<a data-toggle="collapse" data-parent="#card-accordion-simple" href="#collapseZeroList" aria-expanded="true" aria-controls="collapseZeroList">
+Links
+</a>
+</div>
+<div id="collapseZeroList" class="collapse show" role="tabpanel" aria-labelledby="headingZero">
+<div class="card-block">
 
-## Links
-
--   [Moodle-Kurs](https://moodle.hm.edu/course/view.php?id=5993) der
-    Lehrveranstaltung, den Zugangsschlüssel erhalten Sie in der ersten Vorlesung
-
-## Termine und Inhalte
-
--   Vorlesungstermine (donnerstags 10:00-11:30, R0.009)
-
-    Die genauen Vorlesungsinhalte entnehmen Sie dem Moodle-Kurs.
-
--   Praktikumstermine (dienstags 13:30-15:00, R1.009, mittwochs 11:45-13:15,
-    R2.009) beginnen ab 24.03.15
-
-    Die genauen Praktikumsinhalte entnehmen Sie dem Moodle-Kurs.
-
-## Aufgabenblätter
-
--   Blatt 1 ([HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/sa/html/Blatt01.html),
-             [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/sa/pdf/Blatt01.pdf))
--   Blatt 2 ([HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/sa/html/Blatt02.html),
-             [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/sa/pdf/Blatt02.pdf))
+<ul class="icon-list list-unstyled">
+<li><i class="ion-link"></i>
+[Modulbeschreibung](https://w3-o.cs.hm.edu:8000/public/module/219/)
+</li>
+</ul>
 
 </div>
-<div class="span6">
+</div>
+</div>
+<!-- }}} card 0 end -->
+<!-- {{{ card 1: Ziele / Inhalte -->
+<div class="card">
+<div class="card-header accordion-header" role="tab" id="headingOne">
+<a class="collapsed" data-toggle="collapse" data-parent="#card-accordion-simple" href="#collapseOneList" aria-expanded="false" aria-controls="collapseOneList">
+Ziele / Inhalte
+</a>
+</div>
+<div id="collapseOneList" class="collapse" role="tabpanel" aria-labelledby="headingOne">
+<div class="card-block">
 
-## Folien
+<ul class="icon-list list-unstyled">
+<li><i class="ion-checkmark-round"></i>
+Idiome und Entwurfsmuster
+</li>
+<li><i class="ion-checkmark-round"></i>
+Architekturen für spezifische Zwecke, wie verteilte Dialoganwendungen, autonome Systeme, Batchanwendungen, Webservices
+</li>
+<li><i class="ion-checkmark-round"></i>
+Werkzeuge und Verfahren
+</li>
+<li><i class="ion-checkmark-round"></i>
+Frameworks zur Konstruktion von Softwaresystemen
+</li>
+</ul>
 
--   Idiome
-    ([Slides](https://dl.dropboxusercontent.com/u/13563262/lectures/sa/presentation/01_Idiome.html),
-    [HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/sa/html/01_Idiome.html),
-    [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/sa/pdf/01_Idiome.pdf))
--   Design Patterns
-    ([Slides](https://dl.dropboxusercontent.com/u/13563262/lectures/sa/presentation/02_DesignPatterns.html),
-    [HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/sa/html/02_DesignPatterns.html),
-    [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/sa/pdf/02_DesignPatterns.pdf))
--   REST
-    ([Slides](https://dl.dropboxusercontent.com/u/13563262/lectures/sa/presentation/03_REST.html),
-    [HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/sa/html/03_REST.html),
-    [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/sa/pdf/03_REST.pdf))
--   Actors
-    ([Slides](https://dl.dropboxusercontent.com/u/13563262/lectures/sa/presentation/04_Actors.html),
-    [HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/sa/html/04_Actors.html),
-    [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/sa/pdf/04_Actors.pdf))
--   Streams
-    ([Slides](https://dl.dropboxusercontent.com/u/13563262/lectures/sa/presentation/05_Streams.html),
-    [HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/sa/html/05_Streams.html),
-    [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/sa/pdf/05_Streams.pdf))
--   STM
-    ([Slides](https://dl.dropboxusercontent.com/u/13563262/lectures/sa/presentation/06_STM.html),
-    [HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/sa/html/06_STM.html),
-    [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/sa/pdf/06_STM.pdf))
-
-## Schein
-
+</div>
+</div>
+</div>
+<!-- }}} card 1 end -->
+<!-- {{{ card 2: Scheinerwerb -->
+<div class="card">
+<div class="card-header accordion-header" role="tab" id="headingTwo">
+<a class="collapsed" data-toggle="collapse" data-parent="#card-accordion-simple" href="#collapseTwoList" aria-expanded="false" aria-controls="collapseTwoList">
+Scheinerwerb
+</a>
+</div>
+<div id="collapseTwoList" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
+<div class="card-block">
 Für den Zulassungsschein müssen Sie eine Web-Applikation in
 Vierergruppen mit dem [Play Framework](https://www.playframework.com/) in der
 Programmiersprache [Scala](http://scala-lang.org/) erstellen. Die genauen
-Anforderungen entnehmen Sie dem Anforderungsdokument
-([HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/sa/html/WebApp.html), [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/sa/pdf/WebApp.pdf)).
+Anforderungen entnehmen Sie dem
+[Anforderungsdokument](dropbox/lectures/sa/exercises/Blatt03.pdf).
+</div>
+</div>
+</div> <!-- card 2 end -->
 
-## Mündliche Prüfung
-
+<!-- card 3 -->
+<div class="card">
+<div class="card-header accordion-header" role="tab" id="headingThree">
+<a class="collapsed" data-toggle="collapse" data-parent="#card-accordion-simple" href="#collapseThreeList" aria-expanded="false" aria-controls="collapseThreeList">
+Prüfung
+</a>
+</div>
+<div id="collapseThreeList" class="collapse" role="tabpanel" aria-labelledby="headingThree">
+<div class="card-block">
 Gegenstand der mündlichen Prüfung ist der gesamte in der Vorlesung
 behandelte Stoff, soweit nicht anders vereinbart.
 
+</div>
+</div>
+</div>
+<!-- }}} card 3 end -->
+</div> <!-- accordion end -->
+</div><!-- sidebar-box end -->
+</div><!-- sidebar end -->
+<!-- }}} -->
+<!-- {{{ Right contents -->
+<div class="col-md-8">
+<!-- {{{ Tab Titel -->
+<ul class="nav-tabs nav" role="tablist">
+<li class="nav-item">
+<a class="ion-ios-book active nav-link" href="#Vorlesung" data-taget="#Vorlesung" role="tab" data-toggle="tab">
+Vorlesung
+</a>
+</li>
+<li class="nav-item">
+<a class=" ion-ios-monitor nav-link" href="#Praktikum" data-taget="#Praktikum" role="tab" data-toggle="tab">
+Praktikum
+</a>
+</li>
+<li class="nav-item">
+<a class=" ion-ios-cloud-download nav-link" href="#Slides" data-taget="#Slides" role="tab" data-toggle="tab">
+Slides und Handouts
+</a>
+</li>
+<li class="nav-item">
+<a class=" ion-ios-cloud-download nav-link" href="#Exercises" data-taget="#Exercises" role="tab" data-toggle="tab">
+Aufgabenblätter
+</a>
+</li>
+</ul>
+<!-- }}} -->
+<!-- {{{ Tab contents -->
+<div class="tab-content">
+<!-- {{{ Tab: Vorlesung -->
+<div class="space-30"></div>
+<div role="tabpanel" class="tab-pane show active fade" id="Vorlesung" aria-expanded="true">
+
+<h5>Zeit und Raum</h5>
+<hr />
+<div class="row">
+<div class="col-md-2">
+xx.xx.xx</div>
+<div class="col-md-10">
+tba</div>
+</div> <!-- row end -->
+<hr />
+</div><!-- tab-panel end -->
+<!-- }}} -->
+<!-- {{{ Tab: Praktikum -->
+<div role="tabpanel" class="tab-pane fade" id="Praktikum" aria-expanded="false">
+
+<h5>Teilgruppe 1: Zeit und Raum</h5>
+<h5>Teilgruppe 2: Zeit und Raum</h5>
+<hr />
+
+<div class="row">
+<div class="col-md-2">xx.xx.xx</div>
+<div class="col-md-2">xx.xx.xx</div>
+<div class="col-md-8">Blatt X</div>
+</div> <!-- row end -->
+<hr />
+
+</div>
+<!-- }}} -->
+<!-- {{{ Tab: Slides und Handouts -->
+<div role="tabpanel" class="tab-pane fade" id="Slides" aria-expanded="false">
+
+<div class="row">
+
+<div class="col-md-6 margin-btm-20">
+<div class="portfolio-sec">
+<div class="portfolio-thumnail">
+<a href="dropbox/lectures/sa/slides/01_Idiome.pdf">
+<img src="dropbox/lectures/sa/slides/01_Idiome.png" class="img-fluid" alt=""></a>
+</div>
+<div class="portfolio-desc text-center">
+<h4 class="portfolio-post-title">Idiome</h4>
+<a class="portfolio-post-cat" href="dropbox/lectures/sa/slides/01_Idiome.json">changelog</a>
+<h4><a href="dropbox/lectures/sa/slides/01_Idiome.pdf" class="btn theme-btn-default btn-lg">Slides</a>
+<a href="dropbox/lectures/sa/handouts/01_Idiome.pdf" class="btn theme-btn-default btn-lg">Handout</a></h4>
+</div><!-- portfolio-desc end -->
+</div><!-- portfolio-sec end -->
+</div><!-- col-md-6 end -->
+
+<div class="col-md-6 margin-btm-20">
+<div class="portfolio-sec">
+<div class="portfolio-thumnail">
+<a href="dropbox/lectures/sa/slides/02_DesignPatterns.pdf">
+<img src="dropbox/lectures/sa/slides/02_DesignPatterns.png" class="img-fluid" alt=""></a>
+</div>
+<div class="portfolio-desc text-center">
+<h4 class="portfolio-post-title">Design Patterns</h4>
+<a class="portfolio-post-cat" href="dropbox/lectures/sa/slides/02_DesignPatterns.json">changelog</a>
+<h4><a href="dropbox/lectures/sa/slides/02_DesignPatterns.pdf" class="btn theme-btn-default btn-lg">Slides</a>
+<a href="dropbox/lectures/sa/handouts/02_DesignPatterns.pdf" class="btn theme-btn-default btn-lg">Handout</a></h4>
+</div><!-- portfolio-desc end -->
+</div><!-- portfolio-sec end -->
+</div><!-- col-md-6 end -->
+
+</div><!-- row end -->
+
+<div class="row">
+
+<div class="col-md-6 margin-btm-20">
+<div class="portfolio-sec">
+<div class="portfolio-thumnail">
+<a href="dropbox/lectures/sa/slides/03_REST.pdf">
+<img src="dropbox/lectures/sa/slides/03_REST.png" class="img-fluid" alt=""></a>
+</div>
+<div class="portfolio-desc text-center">
+<h4 class="portfolio-post-title">REST</h4>
+<a class="portfolio-post-cat" href="dropbox/lectures/sa/slides/03_REST.json">changelog</a>
+<h4><a href="dropbox/lectures/sa/slides/03_REST.pdf" class="btn theme-btn-default btn-lg">Slides</a>
+<a href="dropbox/lectures/sa/handouts/03_REST.pdf" class="btn theme-btn-default btn-lg">Handout</a></h4>
+</div><!-- portfolio-desc end -->
+</div><!-- portfolio-sec end -->
+</div><!-- col-md-6 end -->
+
+<div class="col-md-6 margin-btm-20">
+<div class="portfolio-sec">
+<div class="portfolio-thumnail">
+<a href="dropbox/lectures/sa/slides/04_Actors.pdf">
+<img src="dropbox/lectures/sa/slides/04_Actors.png" class="img-fluid" alt=""></a>
+</div>
+<div class="portfolio-desc text-center">
+<h4 class="portfolio-post-title">Actors</h4>
+<a class="portfolio-post-cat" href="dropbox/lectures/sa/slides/04_Actors.json">changelog</a>
+<h4><a href="dropbox/lectures/sa/slides/04_Actors.pdf" class="btn theme-btn-default btn-lg">Slides</a>
+<a href="dropbox/lectures/sa/handouts/04_Actors.pdf" class="btn theme-btn-default btn-lg">Handout</a></h4>
+</div><!-- portfolio-desc end -->
+</div><!-- portfolio-sec end -->
+</div><!-- col-md-6 end -->
+
+</div><!-- row end -->
+
+<div class="row">
+
+<div class="col-md-6 margin-btm-20">
+<div class="portfolio-sec">
+<div class="portfolio-thumnail">
+<a href="dropbox/lectures/sa/slides/05_Streams.pdf">
+<img src="dropbox/lectures/sa/slides/05_Streams.png" class="img-fluid" alt=""></a>
+</div>
+<div class="portfolio-desc text-center">
+<h4 class="portfolio-post-title">Streams</h4>
+<a class="portfolio-post-cat" href="dropbox/lectures/sa/slides/05_Streams.json">changelog</a>
+<h4><a href="dropbox/lectures/sa/slides/05_Streams.pdf" class="btn theme-btn-default btn-lg">Slides</a>
+<a href="dropbox/lectures/sa/handouts/05_Streams.pdf" class="btn theme-btn-default btn-lg">Handout</a></h4>
+</div><!-- portfolio-desc end -->
+</div><!-- portfolio-sec end -->
+</div><!-- col-md-6 end -->
+
+<div class="col-md-6 margin-btm-20">
+<div class="portfolio-sec">
+<div class="portfolio-thumnail">
+<a href="dropbox/lectures/sa/slides/06_STM.pdf">
+<img src="dropbox/lectures/sa/slides/06_STM.png" class="img-fluid" alt=""></a>
+</div>
+<div class="portfolio-desc text-center">
+<h4 class="portfolio-post-title">STM</h4>
+<a class="portfolio-post-cat" href="dropbox/lectures/sa/slides/06_STM.json">changelog</a>
+<h4><a href="dropbox/lectures/sa/slides/06_STM.pdf" class="btn theme-btn-default btn-lg">Slides</a>
+<a href="dropbox/lectures/sa/handouts/06_STM.pdf" class="btn theme-btn-default btn-lg">Handout</a></h4>
+</div><!-- portfolio-desc end -->
+</div><!-- portfolio-sec end -->
+</div><!-- col-md-6 end -->
+
+</div><!-- row end -->
+
+</div><!-- tabpanel Slides end -->
+<!-- }}} -->
+<!-- {{{ Tab: Aufgabenblätter -->
+<div role="tabpanel" class="tab-pane fade" id="Exercises" aria-expanded="false">
+
+<div class="row">
+
+<div class="col-md-6 margin-btm-20">
+<div class="portfolio-sec">
+<div class="portfolio-thumnail">
+<a href="dropbox/lectures/sa/exercises/Blatt01.pdf">
+<img src="dropbox/lectures/sa/exercises/Blatt01.png" class="img-fluid" alt="">
+</a>
+</div>
+<div class="portfolio-desc text-center">
+<h4 class="portfolio-post-title">Blatt 1</h4>
+<a class="portfolio-post-cat" href="dropbox/lectures/sa/exercises/Blatt01.json">changelog</a>
+<h4><a href="dropbox/lectures/sa/exercises/Blatt01.pdf" class="btn theme-btn-default btn-lg">
+PDF
+</a>
+</h4>
+</div><!-- portfolio-desc end -->
+</div><!-- portfolio-sec end -->
+</div><!-- col-md-6 end -->
+
+<div class="col-md-6 margin-btm-20">
+<div class="portfolio-sec">
+<div class="portfolio-thumnail">
+<a href="dropbox/lectures/sa/exercises/Blatt02.pdf">
+<img src="dropbox/lectures/sa/exercises/Blatt02.png" class="img-fluid" alt="">
+</a>
+</div>
+<div class="portfolio-desc text-center">
+<h4 class="portfolio-post-title">Blatt 2</h4>
+<a class="portfolio-post-cat" href="dropbox/lectures/sa/exercises/Blatt02.json">changelog</a>
+<h4><a href="dropbox/lectures/sa/exercises/Blatt02.pdf" class="btn theme-btn-default btn-lg">
+PDF
+</a>
+</h4>
+</div><!-- portfolio-desc end -->
+</div><!-- portfolio-sec end -->
+</div><!-- col-md-6 end -->
+
+</div><!-- row end -->
+
+<div class="row">
+
+<div class="col-md-6 margin-btm-20">
+<div class="portfolio-sec">
+<div class="portfolio-thumnail">
+<a href="dropbox/lectures/sa/exercises/Blatt03.pdf">
+<img src="dropbox/lectures/sa/exercises/Blatt03.png" class="img-fluid" alt="">
+</a>
+</div>
+<div class="portfolio-desc text-center">
+<h4 class="portfolio-post-title">Blatt 3</h4>
+<a class="portfolio-post-cat" href="dropbox/lectures/sa/exercises/Blatt03.json">changelog</a>
+<h4><a href="dropbox/lectures/sa/exercises/Blatt03.pdf" class="btn theme-btn-default btn-lg">
+PDF
+</a>
+</h4>
+</div><!-- portfolio-desc end -->
+</div><!-- portfolio-sec end -->
+</div><!-- col-md-6 end -->
+
+</div><!-- row end -->
+
+</div>
+<!-- }}} -->
+</div>
+<!-- }}} -->
+</div>
+<!-- }}} -->
 </div>
 </div>

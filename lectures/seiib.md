@@ -1,112 +1,87 @@
 ---
 title: Softwareentwicklung I (IB)
-modulurl: http://fi.cs.hm.edu/fi/rest/public/modul/title/softwareentwicklungiib
 image: seiib.jpg
-semester: Wintersemester 2015/16
+semester: Wintersemester 2017/18
+portfolio: yes
 ---
 
+<div class="container">
 <div class="row">
-<div class="span6">
+<!-- {{{ Left sidebar  -->
+<div class="col-md-4">
+<div class="sidebar-box">
+<div class="card-accordion card-accordion-simple card-accordion-icons-left mb80" id="card-accordion-simple" role="tablist" aria-multiselectable="true">
+<!-- {{{ card 0: Links -->
+<div class="card">
+<div class="card-header accordion-header" role="tab" id="headingZero">
+<a data-toggle="collapse" data-parent="#card-accordion-simple" href="#collapseZeroList" aria-expanded="true" aria-controls="collapseZeroList">
+Links
+</a>
+</div>
+<div id="collapseZeroList" class="collapse show" role="tabpanel" aria-labelledby="headingZero">
+<div class="card-block">
 
-## Links
-
--   [Moodle-Kurs](https://moodle.hm.edu/course/view.php?id=6778) der Lehrveranstaltung
-    (Zugangsschlüssel: *seiibWS1516*)
--   [GitHub-Organisation](https://github.com/seiib-15WS)
-
-## Termine und Inhalte
-
--   Vorlesungstermine (donnerstags 10:00-11:30, R1.008)
-
-    Die genauen Vorlesungsinhalte entnehmen Sie dem Moodle-Kurs.
-
--   Praktikumstermine
-
-    -   *Teilgruppe 1*: donnerstags 13:30-15:00, R2.008
-    -   *Teilgruppe 2*: donnerstags 18:45-20:15, R2.014
-    -   *Teilgruppe 3*: donnerstags 17:00-18:30, R2.012
-
-    Die genauen Praktikumsinhalte entnehmen Sie dem Moodle-Kurs.
-
-## Aufgabenblätter
-
--   Blatt 0 / Abgabe 0
-    ([HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/html/Blatt00.html),
-     [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/pdf/Blatt00.pdf))
--   Blatt 1 / Abgabe 1
-    ([HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/html/Blatt01.html),
-     [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/pdf/Blatt01.pdf))
--   Blatt 2 / Abgabe 2
-    ([HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/html/Blatt02.html),
-     [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/pdf/Blatt02.pdf))
--   Blatt 3 / Livecoding 1
-    ([HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/html/Blatt03.html),
-     [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/pdf/Blatt03.pdf))
-    -   Teilgruppe 1
-        ([HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/html/Blatt03tg1.html),
-         [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/pdf/Blatt03tg1.pdf))
-    -   Teilgruppe 2
-        ([HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/html/Blatt03tg2.html),
-         [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/pdf/Blatt03tg2.pdf))
-    -   Teilgruppe 3
-        ([HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/html/Blatt03tg3.html),
-         [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/pdf/Blatt03tg3.pdf))
--   Blatt 4 / Abgabe 3
-    ([HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/html/Blatt04.html),
-     [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/pdf/Blatt04.pdf))
--   Blatt 5 / Livecoding 2
-    ([HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/html/Blatt05.html),
-     [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/pdf/Blatt05.pdf))
-    -   Teilgruppe 1
-        ([HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/html/Blatt05tg1.html),
-         [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/pdf/Blatt05tg1.pdf))
-    -   Teilgruppe 2
-        ([HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/html/Blatt05tg2.html),
-         [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/pdf/Blatt05tg2.pdf))
-    -   Teilgruppe 3
-        ([HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/html/Blatt05tg3.html),
-         [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/pdf/Blatt05tg3.pdf))
--   Blatt 6 / Abgabe 4
-    ([HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/html/Blatt06.html),
-     [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/pdf/Blatt06.pdf))
--   Blatt 7 / Livecoding 3
-    ([HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/html/Blatt07.html),
-     [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/pdf/Blatt07.pdf))
-
-## Vorlesungsskript
-
-In den Vorlesungen werden die hier aufgelisteten Foliensätze besprochen. Darüber
-hinaus wird von mir live programmiert. Der vorgeführte Code wird AS IS, d.h. ohne
-Garantien, weitere Erläuterungen etc., nach der Veranstaltung ins
-[Livecoding-Repository](https://github.com/seiib-15WS/livecoding) gepusht.
-
--   Git
-    ([Slides](https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/presentation/00_Git.html),
-    [HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/html/00_Git.html),
-    [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/pdf/00_Git.pdf))
--   Einführung
-    ([Slides](https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/presentation/01_Einfuehrung.html),
-    [HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/html/01_Einfuehrung.html),
-    [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/pdf/01_Einfuehrung.pdf))
--   Arithmetik und Variablen
-    ([Slides](https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/presentation/02_ArithmetikUndVariablen.html),
-    [HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/html/02_ArithmetikUndVariablen.html),
-    [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/pdf/02_ArithmetikUndVariablen.pdf))
--   Kontrollstrukturen
-    ([Slides](https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/presentation/03_Kontrollstrukturen.html),
-    [HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/html/03_Kontrollstrukturen.html),
-    [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/pdf/03_Kontrollstrukturen.pdf))
--   Klassen
-    ([Slides](https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/presentation/04_Klassen.html),
-    [HTML](https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/html/04_Klassen.html),
-    [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/pdf/04_Klassen.pdf))
+<ul class="icon-list list-unstyled">
+<li><i class="ion-link"></i>
+[swenib @ GitHub](https://github.com/swenib)
+</li>
+<li><i class="ion-link"></i>
+[Modulbeschreibung](https://w3-o.cs.hm.edu:8000/public/module/226/)
+</li>
+</ul>
 
 </div>
-<div class="span6">
+</div>
+</div>
+<!-- }}} card 0 end -->
+<!-- {{{ card 1: Ziele / Inhalte -->
+<div class="card">
+<div class="card-header accordion-header" role="tab" id="headingOne">
+<a class="collapsed" data-toggle="collapse" data-parent="#card-accordion-simple" href="#collapseOneList" aria-expanded="false" aria-controls="collapseOneList">
+Ziele / Inhalte
+</a>
+</div>
+<div id="collapseOneList" class="collapse" role="tabpanel" aria-labelledby="headingOne">
+<div class="card-block">
 
-## Praktika / Zulassungsschein
+<ul class="icon-list list-unstyled">
+<li><i class="ion-checkmark-round"></i>
+Erlernen der Logik der Programmentwicklung und des Programmierens.
+</li>
+<li><i class="ion-checkmark-round"></i>
+Fähigkeiten der Programmentwicklung in praktischen Programmierproblemen einsetzen.
+</li>
+<li><i class="ion-checkmark-round"></i>
+Einführung: Software-Lebenszyklus, Sprachen, Werkzeuge
+</li>
+<li><i class="ion-checkmark-round"></i>
+Arithmetik und Variablen
+</li>
+<li><i class="ion-checkmark-round"></i>
+Kontrollstrukturen
+</li>
+<li><i class="ion-checkmark-round"></i>
+Klassen
+</li>
+<li><i class="ion-checkmark-round"></i>
+Characters und Strings
+</li></ul>
 
-Im Praktikum bearbeiten Sie selbstständig verschiedene von mir gestellte Aufgaben, die
+</div>
+</div>
+</div>
+<!-- }}} card 1 end -->
+<!-- {{{ card 2: Scheinerwerb -->
+<div class="card">
+<div class="card-header accordion-header" role="tab" id="headingTwo">
+<a class="collapsed" data-toggle="collapse" data-parent="#card-accordion-simple" href="#collapseTwoList" aria-expanded="false" aria-controls="collapseTwoList">
+Scheinerwerb
+</a>
+</div>
+<div id="collapseTwoList" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
+<div class="card-block">
+TODO
+<!-- Im Praktikum bearbeiten Sie selbstständig verschiedene von mir gestellte Aufgaben, die
 Sie zur Bewertung abgeben müssen. Wurden die Abgaben insgesamt als erfolgreich von mir
 bewertet, bekommen Sie einen Schein, der Ihnen erlaubt an der schriftlichen Prüfung
 teilzunehmen.
@@ -127,23 +102,161 @@ bitte pünktlich und es wird insbesondere nicht untereinander kommuniziert.
 Alle Abgaben erfolgen als Einzelabgaben durch das Pushen in ein zugewiesenes
 Git-Repository auf [GitHub](https://github.com/seiib-15WS). Blatt 0/Abgabe 0 dient
 insbesondere dazu das Arbeiten mit Git und GitHub auszuprobieren, so dass es bei allen
-anderen Abgaben zu keinen Problemen mehr kommt.
+anderen Abgaben zu keinen Problemen mehr kommt. -->
+</div>
+</div>
+</div> <!-- card 2 end -->
 
-## Tutoren
+<!-- card 3 -->
+<div class="card">
+<div class="card-header accordion-header" role="tab" id="headingThree">
+<a class="collapsed" data-toggle="collapse" data-parent="#card-accordion-simple" href="#collapseThreeList" aria-expanded="false" aria-controls="collapseThreeList">
+Prüfung
+</a>
+</div>
+<div id="collapseThreeList" class="collapse" role="tabpanel" aria-labelledby="headingThree">
+<div class="card-block">
+Gegenstand der Klausur ist der gesamte in Vorlesung und Praktikum
+behandelte Stoff, soweit nicht anders vereinbart. Die Klausur
+wird ohne Hilfsmittel geschrieben.
 
-Die Praktika werden von Tutoren begleitet.
-Sie stehen auch per E-Mail für Fragen zur Verfügung.
+<ul class="icon-list list-unstyled">
+<li><i class="ion-compose"></i>
+[Klausur vom 25.01.13](dropbox/lectures/seiib/exams/KlausurWS12.pdf)
+</li>
+<li><i class="ion-compose"></i>
+[Klausur vom 23.07.13](dropbox/lectures/seiib/exams/KlausurSS13.pdf)
+</li>
+<li><i class="ion-compose"></i>
+[Klausur vom 25.01.16](dropbox/lectures/seiib/exams/KlausurWS15.pdf)
+</li>
+</ul>
+</div>
+</div>
+</div>
+<!-- }}} card 3 end -->
+</div> <!-- accordion end -->
+</div><!-- sidebar-box end -->
+</div><!-- sidebar end -->
+<!-- }}} -->
+<!-- {{{ Right contents -->
+<div class="col-md-8">
+<!-- {{{ Tab Titel -->
+<ul class="nav-tabs nav" role="tablist">
+<li class="nav-item">
+<a class="ion-ios-book active nav-link" href="#Vorlesung" data-taget="#Vorlesung" role="tab" data-toggle="tab">
+Vorlesung
+</a>
+</li>
+<li class="nav-item">
+<a class=" ion-ios-monitor nav-link" href="#Praktikum" data-taget="#Praktikum" role="tab" data-toggle="tab">
+Praktikum
+</a>
+</li>
+<li class="nav-item">
+<a class=" ion-ios-cloud-download nav-link" href="#Slides" data-taget="#Slides" role="tab" data-toggle="tab">
+Slides und Handouts
+</a>
+</li>
+<li class="nav-item">
+<a class=" ion-ios-cloud-download nav-link" href="#Exercises" data-taget="#Exercises" role="tab" data-toggle="tab">
+Aufgabenblätter
+</a>
+</li>
+</ul>
+<!-- }}} -->
+<!-- {{{ Tab contents -->
+<div class="tab-content">
+<!-- {{{ Tab: Vorlesung -->
+<div class="space-30"></div>
+<div role="tabpanel" class="tab-pane show active fade" id="Vorlesung" aria-expanded="true">
 
-## Klausur
+<h5>Zeit und Raum</h5>
+<hr />
+<div class="row">
+<div class="col-md-2">
+xx.xx.xx</div>
+<div class="col-md-10">
+tba</div>
+</div> <!-- row end -->
+<hr />
+</div><!-- tab-panel end -->
+<!-- }}} -->
+<!-- {{{ Tab: Praktikum -->
+<div role="tabpanel" class="tab-pane fade" id="Praktikum" aria-expanded="false">
 
-Die Klausur wird ohne Hilfsmittel geschrieben. Der gesamte bis dahin in den Übungsblättern behandelte
-Stoff ist Gegenstand der Klausur.
+<h5>Teilgruppe 1: Zeit und Raum</h5>
+<h5>Teilgruppe 2: Zeit und Raum</h5>
+<h5>Teilgruppe 3: Zeit und Raum</h5>
+<hr />
 
-Alte Klausuren:
+<div class="row">
+<div class="col-md-2">xx.xx.xx</div>
+<div class="col-md-2">xx.xx.xx</div>
+<div class="col-md-2">xx.xx.xx</div>
+<div class="col-md-6">Blatt X</div>
+</div> <!-- row end -->
+<hr />
 
--   Klausur vom 25.01.2013: [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/pdf/KlausurWS12.pdf)
--   Klausur vom 23.07.2013: [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/pdf/KlausurSS13.pdf)
--   Klausur vom 25.01.2016: [PDF](https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/pdf/KlausurWS15.pdf)
+</div>
+<!-- }}} -->
+<!-- {{{ Tab: Slides und Handouts -->
+<div role="tabpanel" class="tab-pane fade" id="Slides" aria-expanded="false">
 
+<div class="row">
+
+<div class="col-md-6 margin-btm-20">
+<div class="portfolio-sec">
+<div class="portfolio-thumnail">
+<a href="dropbox/lectures/seiib/slides/....pdf">
+<img src="dropbox/lectures/seiib/slides/....png" class="img-fluid" alt=""></a>
+</div>
+<div class="portfolio-desc text-center">
+<h4 class="portfolio-post-title">...</h4>
+<a class="portfolio-post-cat" href="dropbox/lectures/seiib/slides/....json">changelog</a>
+<h4><a href="dropbox/lectures/seiib/slides/....pdf" class="btn theme-btn-default btn-lg">Slides</a>
+<a href="dropbox/lectures/seiib/handouts/....pdf" class="btn theme-btn-default btn-lg">Handout</a></h4>
+</div><!-- portfolio-desc end -->
+</div><!-- portfolio-sec end -->
+</div><!-- col-md-6 end -->
+
+
+
+
+</div><!-- row end -->
+
+</div><!-- tabpanel Slides end -->
+<!-- }}} -->
+<!-- {{{ Tab: Aufgabenblätter -->
+<div role="tabpanel" class="tab-pane fade" id="Exercises" aria-expanded="false">
+
+<div class="row">
+
+<div class="col-md-6 margin-btm-20">
+<div class="portfolio-sec">
+<div class="portfolio-thumnail">
+<a href="dropbox/lectures/seiib/exercises/Blatt01.pdf">
+<img src="dropbox/lectures/seiib/exercises/Blatt01.png" class="img-fluid" alt="">
+</a>
+</div>
+<div class="portfolio-desc text-center">
+<h4 class="portfolio-post-title">Blatt 1</h4>
+<a class="portfolio-post-cat" href="dropbox/lectures/seiib/exercises/Blatt01.json">changelog</a>
+<h4><a href="dropbox/lectures/seiib/exercises/Blatt01.pdf" class="btn theme-btn-default btn-lg">
+PDF
+</a>
+</h4>
+</div><!-- portfolio-desc end -->
+</div><!-- portfolio-sec end -->
+</div><!-- col-md-6 end -->
+
+</div><!-- row end -->
+
+</div>
+<!-- }}} -->
+</div>
+<!-- }}} -->
+</div>
+<!-- }}} -->
 </div>
 </div>
