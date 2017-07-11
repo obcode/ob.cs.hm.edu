@@ -1,355 +1,133 @@
 <!DOCTYPE html>
 <html lang="de">
-<head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Oliver Braun - Home</title>
-  <!--plugins-->
-  <link href="./assets/css/plugins/plugins.css" rel="stylesheet">
-  
-  <!--cube portfolio-->
-  <link href="./assets/cubeportfolio/css/cubeportfolio.min.css" rel="stylesheet">
-  
-  <!--Custom css-->
-  <link href="./assets/css/style.css" rel="stylesheet">
-</head>
+    <head>
+        <meta charset="utf-8">
+        <title>Oliver Braun - Home</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Website Prof. Dr. Oliver Braun">
+        <meta name="author" content="Oliver Braun">
+        <link href="./css/bootstrap.min.css" rel="stylesheet">
+        <link href="./css/bootstrap-responsive.min.css" rel="stylesheet">
+        <link href="./css/glyphicons.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300" rel="stylesheet" type="text/css">
+        <link href="./css/base.css" rel="stylesheet">
+        <link href="./css/blue.css" rel="stylesheet">
+        <!--[if lt IE 9]>
+          <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+        <link rel="shortcut icon" href="./img/ico/favicon.ico">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="./img/ico/favicon.ico">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="./img/ico/favicon.ico">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="./img/ico/favicon.ico">
+        <link rel="apple-touch-icon-precomposed" href="./img/ico/favicon.ico">
+    </head>
+    <body>
+<!-- Navigation start -->
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-primary btn-dropnav" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="./">ob.cs.hm.edu</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav pull-right animated">
+              <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" role="button" href="./lectures">Lehrveranstaltungen <b class="caret"></b></a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="./lectures/algdat.html" tabindex="-1">Algorithmen und Datenstrukturen I</a></li>
+                  <li><a href="./lectures/algdatii.html" tabindex="-1">Algorithmen und
+                          Datenstrukturen II</a></li>
+                  <li><a href="./lectures/compiler.html" tabindex="-1">Compiler</a></li>
+                  <li><a href="./lectures/fun.html" tabindex="-1">Funktionale Programmierung</a></li>
+                  <li><a href="./lectures/sa.html" tabindex="-1">Software-Architektur</a></li>
+                  <li><a href="./lectures/seiib.html" tabindex="-1">Softwareentwicklung I (IB)</a></li>
+                  <li><a href="./lectures/seiiib.html" tabindex="-1">Softwareentwicklung II (IB)</a></li>
+                  <li><a href="./lectures/swengiib.html" tabindex="-1">Software Engineering I (IB)</a></li>
+                  <li><a href="./lectures/swengiiib.html" tabindex="-1">Software Engineering II (IB)</a></li>
+                  <li><a href="./lectures/webtech.html" tabindex="-1">Web-Techniken</a></li>
+                  <li><a href="./lectures/webtechFK12.html" tabindex="-1">Web-Techniken (mit FK12)</a></li>
+                </ul>
+              </li>
+              <li><a href="./misc/theses.html">Abschlussarbeiten</a></li>
+              <li><a href="https://terraform.cs.hm.edu/jenkins/blue/">Jenkins</a></li>
+              <li><a href="./about.html">Oliver Braun</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- Navigation end -->
 
-<body>
-<div id="preloader">
-  <div id="preloader-inner"></div>
-</div>
-<!--/preloader-->
-
-<nav class="navbar navbar-toggleable-sm navbar-light bg-faded yamm">
+<div id="landing">
   <div class="container">
-    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-    <a class="navbar-brand" href="./index.html">ob.cs.hm.edu</a>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="nav navbar-nav ml-auto">
-        <li class="dropdown nav-item">
-          <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">WS 17/18</a>
-          <ul class="dropdown-menu dropdown-menu-right">
-            <li><a href="./lectures/algdati.html" class="dropdown-item">Algorithmen und Datenstrukturen I</a></li>
-            <li><a href="./lectures/fun.html" class="dropdown-item">Funktionale Programmierung</a></li>
-            <li><a href="./lectures/seiib.html" class="dropdown-item">Softwareentwicklung I (IB)</a></li>
-          </ul>
-        </li>
-        <li class="dropdown nav-item">
-          <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">Lehre</a>
-          <ul class="dropdown-menu dropdown-menu-right">
-            <li><a href="./lectures/algdati.html" class="dropdown-item">Algorithmen und Datenstrukturen I</a></li>
-            <li><a href="./lectures/algdatii.html" class="dropdown-item">Algorithmen und Datenstrukturen II</a></li>
-            <li><a href="./lectures/compiler.html" class="dropdown-item">Compiler</a></li>
-            <li><a href="./lectures/fun.html" class="dropdown-item">Funktionale Programmierung</a></li>
-            <li><a href="./lectures/sa.html" class="dropdown-item">Software-Architektur</a></li>
-            <li><a href="./lectures/seiib.html" class="dropdown-item">Softwareentwicklung I (IB)</a></li>
-            <li><a href="./lectures/seiiib.html" class="dropdown-item">Softwareentwicklung II (IB)</a></li>
-            <li><a href="./lectures/swengiib.html" class="dropdown-item">Software Engineering I (IB)</a></li>
-            <li><a href="./lectures/swengiiib.html" class="dropdown-item">Software Engineering II (IB)</a></li>
-            <li><a href="./lectures/webtech.html" class="dropdown-item">Web-Techniken</a></li>
-            <li><a href="./lectures/webtechFK12.html" class="dropdown-item">Web-Techniken (mit FK12)</a></li>
-          </ul>
-        </li>
-        <li class=" dropdown nav-item">
-          <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">Misc</a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="https://terraform.cs.hm.edu/jenkins/blue/">Jenkins</a></li>
-            <li><a class="dropdown-item" href="./about.html">Kontakt</a></li>
-          </ul>
-        </li>
-
-        <li class="social-nav nav-item"><a href="https://github.com/obcode" class="nav-link"><i class="ion-social-github" data-toggle="tooltip" data-placement="bottom" title data-original-title="obcode @ GitHub"></i></a></li>
-        <li class="social-nav nav-item"><a href="https://twitter.com/obcode" class="nav-link"><i class="ion-social-twitter" data-toggle="tooltip" data-placement="bottom" title data-original-title="@obcode"></i></a></li>
-        <li class="social-nav nav-item"><a href="https://www.linkedin.com/in/obcode/" class="nav-link"><i class="ion-social-linkedin" data-toggle="tooltip" data-placement="bottom" title data-original-title="LinkedIn"></i></a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
-<!--nav end-->
-
-<section id="slider-sec" class="slider-reg">
-  <div class="main-flex-slider">
-    <ul class="slides">
-      <li>
-        <figure>
-          <img src="./assets/img/home.jpg" class="img-fluid" alt="slider-img-1">
-          <figcaption class="slider-overlay ">
-            <div class="slider-text animated fadeInDown">
-              <h1>Prof. Dr. Oliver Braun</h1>
-              <p>
-                Professor für Softwaretechnik<br> Fakultät für Informatik und Mathematik<br> Hochschule München
-              </p>
-              <p class="slide-btn"><a href="./about.html" class="btn btn-white btn-lg">Kontakt</a></p>
-            </div>
-          </figcaption>
-        </figure>
-      </li>
-      <li>
-        <figure>
-          <img src="./assets/img/algdati.jpg" class="img-fluid" alt="slider-img-2">
-          <figcaption class="slider-overlay">
-            <div class="slider-text">
-              <h1>Algorithmen und Datenstrukturen I</h1>
-              <p>
-                Wintersemester 2017/18
-              </p>
-              <p class="slide-btn"><a href="./lectures/algdati.html" class="btn btn-white btn-lg">mehr</a></p>
-            </div>
-          </figcaption>
-        </figure>
-      </li>
-      <li>
-        <figure>
-          <img src="./assets/img/fun.jpg" class="img-fluid" alt="slider-img-3">
-          <figcaption class="slider-overlay">
-            <div class="slider-text">
-              <h1>Funktionale Programmierung</h1>
-              <p>
-                Wintersemester 2017/18
-              </p>
-              <p class="slide-btn"><a href="./lectures/fun.html" class="btn btn-white btn-lg">mehr</a></p>
-            </div>
-          </figcaption>
-        </figure>
-      </li>
-      <li>
-        <figure>
-          <img src="./assets/img/seiib.jpg" class="img-fluid" alt="slider-img-4">
-          <figcaption class="slider-overlay">
-            <div class="slider-text">
-              <h1>Softwareentwicklung I (IB)</h1>
-              <p>
-                Wintersemester 2017/18
-              </p>
-              <p class="slide-btn"><a href="./lectures/seiib.html" class="btn btn-white btn-lg">mehr</a></p>
-            </div>
-          </figcaption>
-        </figure>
-      </li>
-    </ul>
-  </div>
-</section>
-<!--main flex slider end-->
-
-<div class="space-70"></div>
-<div class="container">
-  <div id="js-filters-awesome-work" class="cbp-l-filters-work">
-    <div data-filter="*" class="cbp-filter-item-active cbp-filter-item">
-      ALLE
-    </div>
-    <div data-filter=".ws1718" class="cbp-filter-item">
-      WS 17/18
-      <div class="cbp-filter-counter"></div>
-    </div>
-    <div data-filter=".ss17" class="cbp-filter-item">
-      SS 17
-      <div class="cbp-filter-counter"></div>
-    </div>
-    <div data-filter=".ws1617" class="cbp-filter-item">
-      WS 16/17
-      <div class="cbp-filter-counter"></div>
-    </div>
-    <div data-filter=".ss16" class="cbp-filter-item">
-      SS 16
-      <div class="cbp-filter-counter"></div>
-    </div>
-    <div data-filter=".older" class="cbp-filter-item">
-      DAVOR
-      <div class="cbp-filter-counter"></div>
-    </div>
-  </div>
-
-  <div id="js-grid-awesome-work" class="cbp cbp-l-grid-work">
-
-    <div class="cbp-item ws1718 ws1617 older">
-      <a href="./lectures/algdati.html" class="cbp-caption" rel="nofollow">
-        <div class="cbp-caption-defaultWrap">
-          <img src="assets/img/small/algdati.jpg" alt>
+    <div class="row">
+          <div class="span7">
+            <h1>Prof. Dr. Oliver Braun</h1>
+                <p>Professor für Softwaretechnik</p>
+                <p>Fakultät für Informatik und Mathematik</p>
+                <p>Hochschule München</p>
+          </div>
+          <div class="span5">
+            <img src="img/home.png" alt="Home" width="500" height="216" />
+          </div>
         </div>
-        <div class="cbp-caption-activeWrap"></div>
-      </a>
-      <a href="./lectures/algdati.html" class="cbp-l-grid-work-title" rel="nofollow">Algorithmen und Datenstrukturen I</a>
-      <div class="cbp-l-grid-work-desc">Wintersemester 2017/18</div>
-    </div>
-
-    <div class="cbp-item ss17 ss16">
-      <a href="./lectures/algdatii.html" class="cbp-caption " rel="nofollow">
-        <div class="cbp-caption-defaultWrap">
-          <img src="assets/img/small/algdatii.jpg" alt>
-        </div>
-        <div class="cbp-caption-activeWrap"></div>
-      </a>
-      <a href="./lectures/algdatii.html" class="cbp-l-grid-work-title " rel="nofollow">Algorithmen und Datenstrukturen II</a>
-      <div class="cbp-l-grid-work-desc">Sommersemester 2017</div>
-    </div>
-
-    <div class="cbp-item ss17 older">
-      <a href="./lectures/compiler.html" class="cbp-caption" rel="nofollow">
-        <div class="cbp-caption-defaultWrap">
-          <img src="assets/img/small/compiler.jpg" alt>
-        </div>
-        <div class="cbp-caption-activeWrap"></div>
-      </a>
-      <a href="./lectures/compiler.html" class="cbp-l-grid-work-title" rel="nofollow">Compiler</a>
-      <div class="cbp-l-grid-work-desc">Sommersemester 2017</div>
-    </div>
-
-    <div class="cbp-item ws1718 ws1617 older">
-      <a href="./lectures/seiib.html" class="cbp-caption" rel="nofollow">
-        <div class="cbp-caption-defaultWrap">
-          <img src="assets/img/small/fun.jpg" alt>
-        </div>
-        <div class="cbp-caption-activeWrap"></div>
-      </a>
-      <a href="./lectures/seiib.html" class="cbp-l-grid-work-title" rel="nofollow">Funktionale Programmierung</a>
-      <div class="cbp-l-grid-work-desc">Wintersemester 2017/18</div>
-    </div>
-
-    <div class="cbp-item older">
-      <a href="./lectures/seiiib.html" class="cbp-caption" rel="nofollow">
-        <div class="cbp-caption-defaultWrap">
-          <img src="assets/img/small/sa.jpg" alt>
-        </div>
-        <div class="cbp-caption-activeWrap"></div>
-      </a>
-      <a href="./lectures/seiiib.html" class="cbp-l-grid-work-title" rel="nofollow">Software-Architektur</a>
-      <div class="cbp-l-grid-work-desc">Sommersemester 2015</div>
-    </div>
-
-    <div class="cbp-item ws1718 older">
-      <a href="./lectures/swengiib.html" class="cbp-caption " rel="nofollow">
-        <div class="cbp-caption-defaultWrap">
-          <img src="assets/img/small/seiib.jpg" alt>
-        </div>
-        <div class="cbp-caption-activeWrap"></div>
-      </a>
-      <a href="./lectures/swengiib.html" class="cbp-l-grid-work-title " rel="nofollow">Softwareentwicklung I (IB)</a>
-      <div class="cbp-l-grid-work-desc">Wintersemester 2017/18</div>
-    </div>
-
-    <div class="cbp-item ss16">
-      <a href="./lectures/swengiiib.html" class="cbp-caption " rel="nofollow">
-        <div class="cbp-caption-defaultWrap">
-          <img src="assets/img/small/seiiib.jpg" alt>
-        </div>
-        <div class="cbp-caption-activeWrap"></div>
-      </a>
-      <a href="./lectures/swengiiib.html" class="cbp-l-grid-work-title " rel="nofollow">Softwareentwicklung II (IB)</a>
-      <div class="cbp-l-grid-work-desc">Sommersemester 2016</div>
-    </div>
-
-    <div class="cbp-item ws1617">
-      <a href="./lectures/swengiib.html" class="cbp-caption " rel="nofollow">
-        <div class="cbp-caption-defaultWrap">
-          <img src="assets/img/small/swengiib.jpg" alt>
-        </div>
-        <div class="cbp-caption-activeWrap"></div>
-      </a>
-      <a href="./lectures/swengiib.html" class="cbp-l-grid-work-title " rel="nofollow">Software Engineering I (IB)</a>
-      <div class="cbp-l-grid-work-desc">Wintersemester 2016/17</div>
-    </div>
-
-    <div class="cbp-item ss17">
-      <a href="./lectures/swengiiib.html" class="cbp-caption " rel="nofollow">
-        <div class="cbp-caption-defaultWrap">
-          <img src="assets/img/small/swengiiib.jpg" alt>
-        </div>
-        <div class="cbp-caption-activeWrap"></div>
-      </a>
-      <a href="./lectures/swengiiib.html" class="cbp-l-grid-work-title " rel="nofollow">Software Engineering II (IB)</a>
-      <div class="cbp-l-grid-work-desc">Sommersemester 2017</div>
-    </div>
-
-    <div class="cbp-item older">
-      <a href="./lectures/webtech.html" class="cbp-caption " rel="nofollow">
-        <div class="cbp-caption-defaultWrap">
-          <img src="assets/img/small/webtech.jpg" alt>
-        </div>
-        <div class="cbp-caption-activeWrap"></div>
-      </a>
-      <a href="./lectures/webtech.html" class="cbp-l-grid-work-title " rel="nofollow">Web-Techniken</a>
-      <div class="cbp-l-grid-work-desc">Wintersemester 2013/14</div>
-    </div>
-
-    <div class="cbp-item older">
-      <a href="./lectures/webtechFK12.html" class="cbp-caption " rel="nofollow">
-        <div class="cbp-caption-defaultWrap">
-          <img src="assets/img/small/webtechFK12.jpg" alt>
-        </div>
-        <div class="cbp-caption-activeWrap"></div>
-      </a>
-      <a href="./lectures/webtechFK12.html" class="cbp-l-grid-work-title " rel="nofollow">Web-Techniken (mit FK 12)</a>
-      <div class="cbp-l-grid-work-desc">Wintersemester 2013/14</div>
-    </div>
-
-  </div>
-</div>
-<!--/portfolio-->
-
-<div class="space-70"></div>
-<div>
-  <div class="row">
-    <div class="col-md-12 text-center">
-      <span>
-          Generated with <a href="http://jaspervdj.be/hakyll">Hakyll</a> on
-          <a href="https://travis-ci.org/obcode/ob.cs.hm.edu">Travic CI</a>
-          |
-          Fork me on <a href="https://github.com/obcode/ob.cs.hm.edu">GitHub</a>
-        </span>
-        <div></div>
-      <span>&copy; 2017 Oliver Braun | <a href="./impressum.html">Impressum</a></span>
-    </div>
   </div>
 </div>
 
-<!-- jQuery plugins. -->
-<script src="./assets/js/plugins/plugins.js"></script>
-<script src="./assets/js/app.js"></script>
-
-<script src="./assets/cubeportfolio/js/jquery.cubeportfolio.min.js"></script>
-<script>
-  (function($, window, document, undefined) {
-    'use strict';
-
-    // init cubeportfolio
-    $('#js-grid-awesome-work').cubeportfolio({
-      filters: '#js-filters-awesome-work',
-      layoutMode: 'grid',
-      defaultFilter: '*',
-      animationType: 'scaleSides',
-      gapHorizontal: 30,
-      gapVertical: 30,
-      gridAdjustment: 'responsive',
-      mediaQueries: [{
-        width: 1500,
-        cols: 4
-      }, {
-        width: 1100,
-        cols: 3
-      }, {
-        width: 480,
-        cols: 2,
-        options: {
-          gapHorizontal: 15,
-          gapVertical: 15
-        }
-      }],
-      caption: 'zoom',
-      displayType: 'fadeIn',
-      displayTypeSpeed: 400,
-      // singlePage popup
-      singlePageDelegate: '.cbp-singlePage',
-      singlePageDeeplinking: true,
-      singlePageStickyNavigation: true,
-      singlePageCounter: '<div class="cbp-popup-singlePage-counter">{{current}} of {{total}}</div>'
-    });
-  })(jQuery, window, document);
-</script>
+<div id="content" class="txt-middle">
+  <div class="container">
+    <div class="row">
+        <div class="span12">
+            <h2>Aktuelle Lehrveranstaltungen im Sommersemester 2017</h2>
+        </div>
+    </div>
+    <div class="row">
+            <div class="span4">
+                  <h4 class="sub">Algorithmen und Datenstrukturen II</h4>
+                  <a class="thumbnail" href="lectures/algdatii.html">
+                    <img alt="image" src="./img/swarovski.png">
+                  </a>
+            </div>
+            <div class="span4">
+                  <h4 class="sub">Compiler</h4>
+                  <a class="thumbnail" href="lectures/compiler.html">
+                    <img alt="image" src="./img/Fuerteventura.png">
+                  </a>
+            </div>
+            <div class="span4">
+                  <h4 class="sub">Software Engineering II (IB)</h4>
+                  <a class="thumbnail" href="lectures/swengiiib.html">
+                    <img alt="image" src="./img/Marokko.jpg">
+                  </a>
+            </div>
+          </div>
+  </div>
+</div>
 
 
-</body>
+<!-- Footer start -->
+    <div id="copywrite">
+      <div class="container">
+        <div class="row">
+              <div class="span12">
+                  <p>&copy; 2017 Oliver Braun | <a href="./impressum.html">Impressum</a>
+                  <span class="pull-right">
+                      Generated with <a href="http://jaspervdj.be/hakyll">Hakyll</a> on
+                      <a href="https://travis-ci.org/obcode/ob.cs.hm.edu">Travic CI</a>
+                      <img href="https://travis-ci.org/obcode/ob.cs.hm.edu.svg?branch=master" />
+                      Fork me on
+                      <a href="https://github.com/obcode/ob.cs.hm.edu">GitHub</a>
+                  </span></p>
+              </div>
+            </div>
+      </div>
+    </div>
+<!-- Footer end -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery-1.8.3.min.js"><\/script>')</script>
+    <script src="./js/bootstrap.min.js"></script>
+    </body>
 </html>

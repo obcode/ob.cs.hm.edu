@@ -2,7 +2,7 @@
 <html lang="de">
     <head>
         <meta charset="utf-8">
-        <title>Oliver Braun - Web-Techniken (zusammen mit <a href="http://design.hm.edu/">FK Design</a>)</title>
+        <title>Oliver Braun - OpenSSH-Keys generieren und nutzen</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Website Prof. Dr. Oliver Braun">
         <meta name="author" content="Oliver Braun">
@@ -65,13 +65,12 @@
           <div class="container">
             <div class="row">
                   <div class="span7">
-                      <h1><a href="http://fi.cs.hm.edu/fi/rest/public/modul/title/webtechniken">Web-Techniken (zusammen mit <a href="http://design.hm.edu/">FK Design</a>)</a></h1>
-                      <h4>Wintersemester 2013/14</h4>
+                      <h1>OpenSSH-Keys generieren und nutzen</h1>
                   </div>
                   <div class="span1">&nbsp;
                   </div>
                   <div class="span4">
-                    <img alt src="../img/elmauerhalt.png" width="300" height="150" />
+                    <img alt src="../img/openssh.jpg" width="300" height="150" />
                   </div>
                 </div>
           </div>
@@ -81,72 +80,23 @@
           <div class="container">
             <div class="row">
 <div class="span6">
-<h2 id="allgemeines">Allgemeines</h2>
-<ul>
-<li><a href="https://redmine.cs.hm.edu/projects/wise201314-braun-webtechniken-design">Redmine-Projekt</a></li>
-</ul>
-<h2 id="termine">Termine</h2>
-<p><strong>10.10.2013</strong>: Kickoff<br />
-<strong>17.10.2013</strong>: Vortrag 3D-Drucker, Treffen FK07<br />
-<strong>24.10.2013</strong>: Arbeitstreffen nur FK07<br />
-<strong>31.10.2013</strong>: Vorträge Recherchephase<br />
-<strong>07.11.2013</strong>: Themen- und Gruppenfestlegung, Raum R2.005<br />
-<strong>14.11.2013</strong>: Besprechung FK07<br />
-<strong>21.11.2013</strong>: Große Teambesprechung, FK Design, Raum 205<br />
-<s><strong>28.11.2013</strong>:</s> <em>Dienstreise OB</em><br />
-<strong>05.12.2013</strong>: Einzelteambesprechung, FK Design, Raum 205<br />
-<strong>12.12.2013</strong>: Zwischenpräsentation, Gebäude R, Raum R2.007<br />
-<strong>19.12.2013</strong>: …<br />
-<strong>09.01.2014</strong>: Abschlußpräsentationen FK07, Raum R2.018</p>
-<pre><code>15:15 Heinrich Maier
-15:30 Patrick Fritz
-15:45 Benjamin Jentsch
-16:15 Daniel Wiesheu
-16:30 Christian Weinmüller
-16:45 René Ramge</code></pre>
-<p><strong>16.01.2014</strong>: Abschlußpräsentationen FK07 (ab 17:00 Uhr), Raum R2.007</p>
-<pre><code>17:00 Sebastian Bertusch
-17:15 Tobias Gleiss
-17:30 Christoph Hengstenberg
-17:45 Stephan Andrielis
-18:00 Andreas Fischer
-18:15 Benedickt Hiebinger
-18:30 Daniel Pfannerer
-18:45 Fabian Melters
-19:00 Danny Liebmann
-19:15 Rupert Zinnecker</code></pre>
-<p><s><strong>23.01.2014</strong>:</s> bereits Prüfungen</p>
-<p><strong>06.02.2014</strong>: Abschlußpräsentationen FK12</p>
+<h2 id="ssh-keys-generieren">SSH-Keys generieren</h2>
+<p>Es gibt verschiedene Formate in denen Schlüssel für verschiedene SSH-Versionen vorliegen können.</p>
+<p><strong>Ich brauche von Ihnen den öffentlichen Schlüssel im Standard-OpenSSH-Format.</strong></p>
+<p>Das Format ist <em>eine</em> Zeile in der folgende Informationen stehen:</p>
+<pre><code>&lt;ssh-rsa&gt; &lt;really long string of nonsense&gt; &lt;username&gt;@&lt;host&gt;</code></pre>
+<p>Andernfalls wird der Zugriff nicht funktionieren.</p>
+<p>Haben Sie bereits ein OpenSSH-Key-Pair brauchen Sie natürlich kein neues zu generieren.</p>
+<p>Um die Schlüssel unter unixoiden Betriebssystemen (Linux, MacOS X, …) bzw. unter Windows in der Git Bash zu generieren, geben Sie folgendes auf der Kommandozeile ein:</p>
+<pre><code>ssh-keygen -t rsa</code></pre>
+<p>Verwenden Sie zum Speichern die standardmäßig angegebene Lokation, <code>~/.ssh/id_rsa</code>. Damit können die verschiedenen Git-Clients unter Unixen automatisch ihren Secret-SSH-Key finden.</p>
+<p>Wenn Sie eine <code>passphrase</code> für Ihren Schlüssel eingeben, sichern Sie damit den lokalen Zugriff auf Ihren Secret-Key ab und müssen diese Passphrase bei jedem clonen, pushen, pullen und fetchen eingeben.</p>
+<p>Den generierte Public-Key <code>id_rsa.pub</code> müssen Sie mir dann, auf dem in der Lehrveranstaltung besprochenen Wege, zukommen lassen.</p>
+<p>Um Ihren Key unter Windows in <a href="http://www.sourcetreeapp.com/">SourceTree</a> nutzen zu können, müssen Sie dann beim ersten Start einfach “Use OpenSSH” auswählen.</p>
 </div>
 <div class="span6">
-<h2 id="bewertung-etc.">Bewertung etc.</h2>
-<p>Bewertet werden für jeden Einzelnen eine Projektarbeit und ein Referat. Dazu muss für mich bei <strong>jedem</strong> Studierenden klar sein, was er gemacht hat (commits, Kenntnisse des Codes, etc.). Zur Bewertung der Projektarbeit ist es ferner notwendig, dass Sie zu Ihrem Anteil Auskunft geben können. Außerdem muss jeder einen für sich bewertbaren Vortrag halten.</p>
-<h3 id="projektarbeit">Projektarbeit</h3>
-<p>Als Projektarbeit zählt (ein Teil) eine(r) Webapplikation.</p>
-<p>Die Applikation der Gruppe muss:</p>
-<ul>
-<li>lauffähig sein</li>
-<li>mir in Code-Form <strong>bis zum 26.01.2014 23:59 Uhr</strong> zur Verfügung gestellt werden</li>
-<li>toplevel die drei Dateien README.txt, INSTALL.txt und AUTHORS.txt enthalten</li>
-</ul>
-<p>In der Datei <code>README.txt</code> ist die Applikation mit dem genauen Umfang beschrieben. Außerdem ist daraus ersichtlich welcher Teil nicht implementiert wurde und warum.</p>
-<p>In der Datei <code>INSTALL.txt</code> steht genau wie ich die Applikation auf einem Standard-UNIX-System (FreeBSD oder Linux) zum Laufen bekomme (Abhängigkeiten die ich installieren muss, …).</p>
-<p>In der Datei <code>AUTHORS.txt</code> müssen alle Autoren aufgeführt werden mit den jeweiligen Teilen die sie implementiert haben.</p>
-<p>Der Code muss in einer <em>vernünftigen</em> Form sein. Das heißt:</p>
-<ul>
-<li>den Guidelines der verwendeten Sprache entsprechend formatiert</li>
-<li>vernünftig dokumentiert (nicht zuwenig, nicht zuviel!)</li>
-<li>im Idealfall Tests enthalten</li>
-</ul>
-<p>Jeder Einzelne <em>muss</em> einen Teil <strong>programmiert</strong> haben.<br />
-(Achtung: HTML und CSS sind keine <em>Programmiersprachen</em>).</p>
-<h3 id="vortrag">Vortrag</h3>
-<p>Jede(r) TeilnehmerIn hält einen <strong>in sich geschlossenen Vortrag</strong> über einen Teilaspekt der von ihm/ihr implementierten Applikation, der folgenden Ansprüchen genügt:</p>
-<ul>
-<li>Der Vortrag dauert <strong>exakt</strong> 10 Minuten (eine Abweichung von +/- 30 Sekunden wird akzeptiert).</li>
-<li>Der Vortrag zeigt deutlich das sich die/der Vortragende in einem Teilgebiet der Web-Techniken (auch über die implementierte Anwendung hinaus) auskennt.</li>
-<li>Während des Vortrags sind <strong>keine</strong> Fragen von den Zuhörern gestattet.</li>
-</ul>
+<h2 id="vorhandene-ssh-keys-nutzen">Vorhandene SSH-Keys nutzen</h2>
+<p>Wenn Sie bereits ein SSH-Schüsselpaar im OpenSSH-Format haben, können Sie dieses selbstverständlich verwenden. Auch wenn Sie auf mehreren Rechnern arbeiten wollen, können Sie den privaten Schlüssel einfach an die entsprechende Stelle (<code>~/.ssh/</code> bzw. <code>c:\Benutzer\.ssh\</code>) auf den verschiedenen Rechnern kopieren.</p>
 </div>
 </div>
           </div>

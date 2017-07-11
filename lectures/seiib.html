@@ -1,417 +1,181 @@
 <!DOCTYPE html>
 <html lang="de">
-<head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Oliver Braun - Softwareentwicklung I (IB)</title>
-  <!--plugins-->
-  <link href="../assets/css/plugins/plugins.css" rel="stylesheet">
-  
-  <!--cube portfolio-->
-  <link href="../assets/cubeportfolio/css/cubeportfolio.min.css" rel="stylesheet">
-  
-  <!--Custom css-->
-  <link href="../assets/css/style.css" rel="stylesheet">
-</head>
-
-<body>
-<div id="preloader">
-  <div id="preloader-inner"></div>
-</div>
-<!--/preloader-->
-
-<nav class="navbar navbar-toggleable-sm navbar-light bg-faded yamm">
-  <div class="container">
-    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-    <a class="navbar-brand" href="../index.html">ob.cs.hm.edu</a>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="nav navbar-nav ml-auto">
-        <li class="dropdown nav-item">
-          <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">WS 17/18</a>
-          <ul class="dropdown-menu dropdown-menu-right">
-            <li><a href="../lectures/algdati.html" class="dropdown-item">Algorithmen und Datenstrukturen I</a></li>
-            <li><a href="../lectures/fun.html" class="dropdown-item">Funktionale Programmierung</a></li>
-            <li><a href="../lectures/seiib.html" class="dropdown-item">Softwareentwicklung I (IB)</a></li>
-          </ul>
-        </li>
-        <li class="dropdown nav-item">
-          <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">Lehre</a>
-          <ul class="dropdown-menu dropdown-menu-right">
-            <li><a href="../lectures/algdati.html" class="dropdown-item">Algorithmen und Datenstrukturen I</a></li>
-            <li><a href="../lectures/algdatii.html" class="dropdown-item">Algorithmen und Datenstrukturen II</a></li>
-            <li><a href="../lectures/compiler.html" class="dropdown-item">Compiler</a></li>
-            <li><a href="../lectures/fun.html" class="dropdown-item">Funktionale Programmierung</a></li>
-            <li><a href="../lectures/sa.html" class="dropdown-item">Software-Architektur</a></li>
-            <li><a href="../lectures/seiib.html" class="dropdown-item">Softwareentwicklung I (IB)</a></li>
-            <li><a href="../lectures/seiiib.html" class="dropdown-item">Softwareentwicklung II (IB)</a></li>
-            <li><a href="../lectures/swengiib.html" class="dropdown-item">Software Engineering I (IB)</a></li>
-            <li><a href="../lectures/swengiiib.html" class="dropdown-item">Software Engineering II (IB)</a></li>
-            <li><a href="../lectures/webtech.html" class="dropdown-item">Web-Techniken</a></li>
-            <li><a href="../lectures/webtechFK12.html" class="dropdown-item">Web-Techniken (mit FK12)</a></li>
-          </ul>
-        </li>
-        <li class=" dropdown nav-item">
-          <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">Misc</a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="https://terraform.cs.hm.edu/jenkins/blue/">Jenkins</a></li>
-            <li><a class="dropdown-item" href="../about.html">Kontakt</a></li>
-          </ul>
-        </li>
-
-        <li class="social-nav nav-item"><a href="https://github.com/obcode" class="nav-link"><i class="ion-social-github" data-toggle="tooltip" data-placement="bottom" title data-original-title="obcode @ GitHub"></i></a></li>
-        <li class="social-nav nav-item"><a href="https://twitter.com/obcode" class="nav-link"><i class="ion-social-twitter" data-toggle="tooltip" data-placement="bottom" title data-original-title="@obcode"></i></a></li>
-        <li class="social-nav nav-item"><a href="https://www.linkedin.com/in/obcode/" class="nav-link"><i class="ion-social-linkedin" data-toggle="tooltip" data-placement="bottom" title data-original-title="LinkedIn"></i></a></li>
-      </ul>
+    <head>
+        <meta charset="utf-8">
+        <title>Oliver Braun - Softwareentwicklung I (IB)</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Website Prof. Dr. Oliver Braun">
+        <meta name="author" content="Oliver Braun">
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/bootstrap-responsive.min.css" rel="stylesheet">
+        <link href="../css/glyphicons.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300" rel="stylesheet" type="text/css">
+        <link href="../css/base.css" rel="stylesheet">
+        <link href="../css/blue.css" rel="stylesheet">
+        <!--[if lt IE 9]>
+          <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+        <link rel="shortcut icon" href="../img/ico/favicon.ico">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../img/ico/favicon.ico">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../img/ico/favicon.ico">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../img/ico/favicon.ico">
+        <link rel="apple-touch-icon-precomposed" href="../img/ico/favicon.ico">
+    </head>
+    <body>
+<!-- Navigation start -->
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-primary btn-dropnav" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="../">ob.cs.hm.edu</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav pull-right animated">
+              <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" role="button" href="../lectures">Lehrveranstaltungen <b class="caret"></b></a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="../lectures/algdat.html" tabindex="-1">Algorithmen und Datenstrukturen I</a></li>
+                  <li><a href="../lectures/algdatii.html" tabindex="-1">Algorithmen und
+                          Datenstrukturen II</a></li>
+                  <li><a href="../lectures/compiler.html" tabindex="-1">Compiler</a></li>
+                  <li><a href="../lectures/fun.html" tabindex="-1">Funktionale Programmierung</a></li>
+                  <li><a href="../lectures/sa.html" tabindex="-1">Software-Architektur</a></li>
+                  <li><a href="../lectures/seiib.html" tabindex="-1">Softwareentwicklung I (IB)</a></li>
+                  <li><a href="../lectures/seiiib.html" tabindex="-1">Softwareentwicklung II (IB)</a></li>
+                  <li><a href="../lectures/swengiib.html" tabindex="-1">Software Engineering I (IB)</a></li>
+                  <li><a href="../lectures/swengiiib.html" tabindex="-1">Software Engineering II (IB)</a></li>
+                  <li><a href="../lectures/webtech.html" tabindex="-1">Web-Techniken</a></li>
+                  <li><a href="../lectures/webtechFK12.html" tabindex="-1">Web-Techniken (mit FK12)</a></li>
+                </ul>
+              </li>
+              <li><a href="../misc/theses.html">Abschlussarbeiten</a></li>
+              <li><a href="https://terraform.cs.hm.edu/jenkins/blue/">Jenkins</a></li>
+              <li><a href="../about.html">Oliver Braun</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
-</nav>
-<!--nav end-->
+<!-- Navigation end -->
+
+        <div id="landing">
+          <div class="container">
+            <div class="row">
+                  <div class="span7">
+                      <h1><a href="http://fi.cs.hm.edu/fi/rest/public/modul/title/softwareentwicklungiib">Softwareentwicklung I (IB)</a></h1>
+                      <h4>Wintersemester 2015/16</h4>
+                  </div>
+                  <div class="span1">&nbsp;
+                  </div>
+                  <div class="span4">
+                    <img alt src="../img/gardaseeB.png" width="300" height="150" />
+                  </div>
+                </div>
+          </div>
+        </div>
+
+        <div id="content">
+          <div class="container">
+            <div class="row">
+<div class="span6">
+<h2 id="links">Links</h2>
+<ul>
+<li><a href="https://moodle.hm.edu/course/view.php?id=6778">Moodle-Kurs</a> der Lehrveranstaltung (Zugangsschlüssel: <em>seiibWS1516</em>)</li>
+<li><a href="https://github.com/seiib-15WS">GitHub-Organisation</a></li>
+</ul>
+<h2 id="termine-und-inhalte">Termine und Inhalte</h2>
+<ul>
+<li><p>Vorlesungstermine (donnerstags 10:00-11:30, R1.008)</p>
+<p>Die genauen Vorlesungsinhalte entnehmen Sie dem Moodle-Kurs.</p></li>
+<li><p>Praktikumstermine</p>
+<ul>
+<li><em>Teilgruppe 1</em>: donnerstags 13:30-15:00, R2.008</li>
+<li><em>Teilgruppe 2</em>: donnerstags 18:45-20:15, R2.014</li>
+<li><em>Teilgruppe 3</em>: donnerstags 17:00-18:30, R2.012</li>
+</ul>
+<p>Die genauen Praktikumsinhalte entnehmen Sie dem Moodle-Kurs.</p></li>
+</ul>
+<h2 id="aufgabenblätter">Aufgabenblätter</h2>
+<ul>
+<li>Blatt 0 / Abgabe 0 (<a href="https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/html/Blatt00.html">HTML</a>, <a href="https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/pdf/Blatt00.pdf">PDF</a>)</li>
+<li>Blatt 1 / Abgabe 1 (<a href="https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/html/Blatt01.html">HTML</a>, <a href="https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/pdf/Blatt01.pdf">PDF</a>)</li>
+<li>Blatt 2 / Abgabe 2 (<a href="https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/html/Blatt02.html">HTML</a>, <a href="https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/pdf/Blatt02.pdf">PDF</a>)</li>
+<li>Blatt 3 / Livecoding 1 (<a href="https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/html/Blatt03.html">HTML</a>, <a href="https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/pdf/Blatt03.pdf">PDF</a>)
+<ul>
+<li>Teilgruppe 1 (<a href="https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/html/Blatt03tg1.html">HTML</a>, <a href="https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/pdf/Blatt03tg1.pdf">PDF</a>)</li>
+<li>Teilgruppe 2 (<a href="https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/html/Blatt03tg2.html">HTML</a>, <a href="https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/pdf/Blatt03tg2.pdf">PDF</a>)</li>
+<li>Teilgruppe 3 (<a href="https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/html/Blatt03tg3.html">HTML</a>, <a href="https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/pdf/Blatt03tg3.pdf">PDF</a>)</li>
+</ul></li>
+<li>Blatt 4 / Abgabe 3 (<a href="https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/html/Blatt04.html">HTML</a>, <a href="https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/pdf/Blatt04.pdf">PDF</a>)</li>
+<li>Blatt 5 / Livecoding 2 (<a href="https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/html/Blatt05.html">HTML</a>, <a href="https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/pdf/Blatt05.pdf">PDF</a>)
+<ul>
+<li>Teilgruppe 1 (<a href="https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/html/Blatt05tg1.html">HTML</a>, <a href="https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/pdf/Blatt05tg1.pdf">PDF</a>)</li>
+<li>Teilgruppe 2 (<a href="https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/html/Blatt05tg2.html">HTML</a>, <a href="https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/pdf/Blatt05tg2.pdf">PDF</a>)</li>
+<li>Teilgruppe 3 (<a href="https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/html/Blatt05tg3.html">HTML</a>, <a href="https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/pdf/Blatt05tg3.pdf">PDF</a>)</li>
+</ul></li>
+<li>Blatt 6 / Abgabe 4 (<a href="https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/html/Blatt06.html">HTML</a>, <a href="https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/pdf/Blatt06.pdf">PDF</a>)</li>
+<li>Blatt 7 / Livecoding 3 (<a href="https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/html/Blatt07.html">HTML</a>, <a href="https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/pdf/Blatt07.pdf">PDF</a>)</li>
+</ul>
+<h2 id="vorlesungsskript">Vorlesungsskript</h2>
+<p>In den Vorlesungen werden die hier aufgelisteten Foliensätze besprochen. Darüber hinaus wird von mir live programmiert. Der vorgeführte Code wird AS IS, d.h. ohne Garantien, weitere Erläuterungen etc., nach der Veranstaltung ins <a href="https://github.com/seiib-15WS/livecoding">Livecoding-Repository</a> gepusht.</p>
+<ul>
+<li>Git (<a href="https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/presentation/00_Git.html">Slides</a>, <a href="https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/html/00_Git.html">HTML</a>, <a href="https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/pdf/00_Git.pdf">PDF</a>)</li>
+<li>Einführung (<a href="https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/presentation/01_Einfuehrung.html">Slides</a>, <a href="https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/html/01_Einfuehrung.html">HTML</a>, <a href="https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/pdf/01_Einfuehrung.pdf">PDF</a>)</li>
+<li>Arithmetik und Variablen (<a href="https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/presentation/02_ArithmetikUndVariablen.html">Slides</a>, <a href="https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/html/02_ArithmetikUndVariablen.html">HTML</a>, <a href="https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/pdf/02_ArithmetikUndVariablen.pdf">PDF</a>)</li>
+<li>Kontrollstrukturen (<a href="https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/presentation/03_Kontrollstrukturen.html">Slides</a>, <a href="https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/html/03_Kontrollstrukturen.html">HTML</a>, <a href="https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/pdf/03_Kontrollstrukturen.pdf">PDF</a>)</li>
+<li>Klassen (<a href="https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/presentation/04_Klassen.html">Slides</a>, <a href="https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/html/04_Klassen.html">HTML</a>, <a href="https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/pdf/04_Klassen.pdf">PDF</a>)</li>
+</ul>
+</div>
+<div class="span6">
+<h2 id="praktika-zulassungsschein">Praktika / Zulassungsschein</h2>
+<p>Im Praktikum bearbeiten Sie selbstständig verschiedene von mir gestellte Aufgaben, die Sie zur Bewertung abgeben müssen. Wurden die Abgaben insgesamt als erfolgreich von mir bewertet, bekommen Sie einen Schein, der Ihnen erlaubt an der schriftlichen Prüfung teilzunehmen.</p>
+<p>Es gibt 5 Abgaben, die Sie jeweils an einem Dienstag Abend bis spätestens 23:59 abgeben müssen. Für diese gilt:</p>
+<ul>
+<li>Abgabe 0 wird nicht bewertet</li>
+<li>Abgaben 1-3 müssen in der Summe zu 75% bestanden sein</li>
+<li>Abgabe 4 muss zu 75% bestanden sein</li>
+</ul>
+<p>Es gibt zwei weitere Abgaben in Form von sog. Livecodings. Dabei bekommen Sie zu Beginn des Praktikums ein Aufgabenblatt und müssen die Lösung bis zum Ende des Praktikums abgeben. Die Livecodings müssen beide zu mindestens 50% bestanden sein. Die Livecodings finden unter Prüfungsbedingungen statt, d.h. erscheinen Sie bitte pünktlich und es wird insbesondere nicht untereinander kommuniziert.</p>
+<p>Alle Abgaben erfolgen als Einzelabgaben durch das Pushen in ein zugewiesenes Git-Repository auf <a href="https://github.com/seiib-15WS">GitHub</a>. Blatt 0/Abgabe 0 dient insbesondere dazu das Arbeiten mit Git und GitHub auszuprobieren, so dass es bei allen anderen Abgaben zu keinen Problemen mehr kommt.</p>
+<h2 id="tutoren">Tutoren</h2>
+<p>Die Praktika werden von Tutoren begleitet. Sie stehen auch per E-Mail für Fragen zur Verfügung.</p>
+<h2 id="klausur">Klausur</h2>
+<p>Die Klausur wird ohne Hilfsmittel geschrieben. Der gesamte bis dahin in den Übungsblättern behandelte Stoff ist Gegenstand der Klausur.</p>
+<p>Alte Klausuren:</p>
+<ul>
+<li>Klausur vom 25.01.2013: <a href="https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/pdf/KlausurWS12.pdf">PDF</a></li>
+<li>Klausur vom 23.07.2013: <a href="https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/pdf/KlausurSS13.pdf">PDF</a></li>
+<li>Klausur vom 25.01.2016: <a href="https://dl.dropboxusercontent.com/u/13563262/lectures/seiib/pdf/KlausurWS15.pdf">PDF</a></li>
+</ul>
+</div>
+</div>
+          </div>
+        </div>
 
 
-<section id="slider-sec" class="slider-reg">
-  <div class="main-flex-slider">
-    <ul class="slides">
-      <li>
-        <figure>
-          <img src="../assets/img/seiib.jpg" class="img-fluid" alt="slider-img-1">
-          <figcaption class="slider-overlay ">
-            <div class="slider-text animated fadeInDown">
-              <h1>Softwareentwicklung I (IB)</h1>
-              <p>
-                Wintersemester 2017/18
-              </p>
+<!-- Footer start -->
+    <div id="copywrite">
+      <div class="container">
+        <div class="row">
+              <div class="span12">
+                  <p>&copy; 2017 Oliver Braun | <a href="../impressum.html">Impressum</a>
+                  <span class="pull-right">
+                      Generated with <a href="http://jaspervdj.be/hakyll">Hakyll</a> on
+                      <a href="https://travis-ci.org/obcode/ob.cs.hm.edu">Travic CI</a>
+                      <img href="https://travis-ci.org/obcode/ob.cs.hm.edu.svg?branch=master" />
+                      Fork me on
+                      <a href="https://github.com/obcode/ob.cs.hm.edu">GitHub</a>
+                  </span></p>
+              </div>
             </div>
-          </figcaption>
-        </figure>
-      </li>
-    </ul>
-  </div>
-</section>
-<div class="space-70"></div>
-<div class="container">
-  <div class="row">
-    <div class="container">
-<div class="row">
-<!-- {{{ Left sidebar  -->
-<div class="col-md-4">
-<div class="sidebar-box">
-<div id="card-accordion-simple" class="card-accordion card-accordion-simple card-accordion-icons-left mb80" role="tablist" aria-multiselectable="true">
-<!-- {{{ card 0: Links -->
-<div class="card">
-<div id="headingZero" class="card-header accordion-header" role="tab">
-<p><a data-toggle="collapse" data-parent="#card-accordion-simple" href="#collapseZeroList" aria-expanded="true" aria-controls="collapseZeroList"> Links </a></p>
-</div>
-<div id="collapseZeroList" class="collapse show" role="tabpanel" aria-labelledby="headingZero">
-<div class="card-block">
-<ul class="icon-list list-unstyled">
-<li>
-<i class="ion-link"></i> <a href="https://github.com/swenib">swenib @ GitHub</a>
-</li>
-<li>
-<i class="ion-link"></i> <a href="https://w3-o.cs.hm.edu:8000/public/module/226/">Modulbeschreibung</a>
-</li>
-</ul>
-</div>
-</div>
-</div>
-<!-- }}} card 0 end -->
-<!-- {{{ card 1: Ziele / Inhalte -->
-<div class="card">
-<div id="headingOne" class="card-header accordion-header" role="tab">
-<p><a class="collapsed" data-toggle="collapse" data-parent="#card-accordion-simple" href="#collapseOneList" aria-expanded="false" aria-controls="collapseOneList"> Ziele / Inhalte </a></p>
-</div>
-<div id="collapseOneList" class="collapse" role="tabpanel" aria-labelledby="headingOne">
-<div class="card-block">
-<ul class="icon-list list-unstyled">
-<li>
-<i class="ion-checkmark-round"></i> Erlernen der Logik der Programmentwicklung und des Programmierens.
-</li>
-<li>
-<i class="ion-checkmark-round"></i> Fähigkeiten der Programmentwicklung in praktischen Programmierproblemen einsetzen.
-</li>
-<li>
-<i class="ion-checkmark-round"></i> Einführung: Software-Lebenszyklus, Sprachen, Werkzeuge
-</li>
-<li>
-<i class="ion-checkmark-round"></i> Arithmetik und Variablen
-</li>
-<li>
-<i class="ion-checkmark-round"></i> Kontrollstrukturen
-</li>
-<li>
-<i class="ion-checkmark-round"></i> Klassen
-</li>
-<li>
-<i class="ion-checkmark-round"></i> Characters und Strings
-</li>
-</ul>
-</div>
-</div>
-</div>
-<!-- }}} card 1 end -->
-<!-- {{{ card 2: Scheinerwerb -->
-<div class="card">
-<div id="headingTwo" class="card-header accordion-header" role="tab">
-<p><a class="collapsed" data-toggle="collapse" data-parent="#card-accordion-simple" href="#collapseTwoList" aria-expanded="false" aria-controls="collapseTwoList"> Scheinerwerb </a></p>
-</div>
-<div id="collapseTwoList" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
-<div class="card-block">
-<p>TODO <!-- Im Praktikum bearbeiten Sie selbstständig verschiedene von mir gestellte Aufgaben, die
-Sie zur Bewertung abgeben müssen. Wurden die Abgaben insgesamt als erfolgreich von mir
-bewertet, bekommen Sie einen Schein, der Ihnen erlaubt an der schriftlichen Prüfung
-teilzunehmen.
-
-Es gibt 5 Abgaben, die Sie jeweils an einem Dienstag Abend bis spätestens 23:59 abgeben
-müssen. Für diese gilt:
-
--   Abgabe 0 wird nicht bewertet
--   Abgaben 1-3 müssen in der Summe zu 75% bestanden sein
--   Abgabe 4 muss zu 75% bestanden sein
-
-Es gibt zwei weitere Abgaben in Form von sog. Livecodings. Dabei bekommen Sie zu
-Beginn des Praktikums ein Aufgabenblatt und müssen die Lösung bis zum Ende des
-Praktikums abgeben. Die Livecodings müssen beide zu mindestens 50% bestanden
-sein. Die Livecodings finden unter Prüfungsbedingungen statt, d.h. erscheinen Sie
-bitte pünktlich und es wird insbesondere nicht untereinander kommuniziert.
-
-Alle Abgaben erfolgen als Einzelabgaben durch das Pushen in ein zugewiesenes
-Git-Repository auf [GitHub](https://github.com/seiib-15WS). Blatt 0/Abgabe 0 dient
-insbesondere dazu das Arbeiten mit Git und GitHub auszuprobieren, so dass es bei allen
-anderen Abgaben zu keinen Problemen mehr kommt. --></p>
-</div>
-</div>
-</div>
-<p><!-- card 2 end --></p>
-<!-- card 3 -->
-<div class="card">
-<div id="headingThree" class="card-header accordion-header" role="tab">
-<p><a class="collapsed" data-toggle="collapse" data-parent="#card-accordion-simple" href="#collapseThreeList" aria-expanded="false" aria-controls="collapseThreeList"> Prüfung </a></p>
-</div>
-<div id="collapseThreeList" class="collapse" role="tabpanel" aria-labelledby="headingThree">
-<div class="card-block">
-<p>Gegenstand der Klausur ist der gesamte in Vorlesung und Praktikum behandelte Stoff, soweit nicht anders vereinbart. Die Klausur wird ohne Hilfsmittel geschrieben.</p>
-<ul class="icon-list list-unstyled">
-<li>
-<i class="ion-compose"></i> <a href="/dropbox/lectures/seiib/exams/KlausurWS12.pdf">Klausur vom 25.01.13</a>
-</li>
-<li>
-<i class="ion-compose"></i> <a href="/dropbox/lectures/seiib/exams/KlausurSS13.pdf">Klausur vom 23.07.13</a>
-</li>
-<li>
-<i class="ion-compose"></i> <a href="/dropbox/lectures/seiib/exams/KlausurWS15.pdf">Klausur vom 25.01.16</a>
-</li>
-</ul>
-</div>
-</div>
-</div>
-<!-- }}} card 3 end -->
-</div>
-<p><!-- accordion end --></p>
-</div>
-<!-- sidebar-box end -->
-</div>
-<!-- sidebar end -->
-<!-- }}} -->
-<!-- {{{ Right contents -->
-<div class="col-md-8">
-<!-- {{{ Tab Titel -->
-<ul class="nav-tabs nav" role="tablist">
-<li class="nav-item">
-<a class="ion-ios-book active nav-link" href="#Vorlesung" data-taget="#Vorlesung" role="tab" data-toggle="tab"> Vorlesung </a>
-</li>
-<li class="nav-item">
-<a class=" ion-ios-monitor nav-link" href="#Praktikum" data-taget="#Praktikum" role="tab" data-toggle="tab"> Praktikum </a>
-</li>
-<li class="nav-item">
-<a class=" ion-ios-cloud-download nav-link" href="#Slides" data-taget="#Slides" role="tab" data-toggle="tab"> Slides und Handouts </a>
-</li>
-<li class="nav-item">
-<a class=" ion-ios-cloud-download nav-link" href="#Exercises" data-taget="#Exercises" role="tab" data-toggle="tab"> Aufgabenblätter </a>
-</li>
-</ul>
-<!-- }}} -->
-<!-- {{{ Tab contents -->
-<div class="tab-content">
-<!-- {{{ Tab: Vorlesung -->
-<div class="space-30">
-
-</div>
-<div role="tabpanel" class="tab-pane show active fade" id="Vorlesung" aria-expanded="true">
-
-<h5>
-Zeit und Raum
-</h5>
-<hr />
-<div class="row">
-<div class="col-md-2">
-xx.xx.xx
-</div>
-<div class="col-md-10">
-tba
-</div>
-</div>
-<!-- row end -->
-<hr />
-</div>
-<!-- tab-panel end -->
-<!-- }}} -->
-<!-- {{{ Tab: Praktikum -->
-<div role="tabpanel" class="tab-pane fade" id="Praktikum" aria-expanded="false">
-
-<h5>
-Teilgruppe 1: Zeit und Raum
-</h5>
-<h5>
-Teilgruppe 2: Zeit und Raum
-</h5>
-<h5>
-Teilgruppe 3: Zeit und Raum
-</h5>
-<hr />
-<div class="row">
-<div class="col-md-2">
-xx.xx.xx
-</div>
-<div class="col-md-2">
-xx.xx.xx
-</div>
-<div class="col-md-2">
-xx.xx.xx
-</div>
-<div class="col-md-6">
-Blatt X
-</div>
-</div>
-<!-- row end -->
-<hr />
-</div>
-<!-- }}} -->
-<!-- {{{ Tab: Slides und Handouts -->
-<div id="Slides" class="tab-pane fade" role="tabpanel" aria-expanded="false">
-<div class="row">
-<div class="col-md-6 margin-btm-20">
-<div class="portfolio-sec">
-<div class="portfolio-thumnail">
-<p><a href="/dropbox/lectures/seiib/slides/....pdf"> <img src="/dropbox/lectures/seiib/slides/....png" class="img-fluid" alt></a></p>
-</div>
-<div class="portfolio-desc text-center">
-<h4 class="portfolio-post-title">
-…
-</h4>
-<a class="portfolio-post-cat" href="/dropbox/lectures/seiib/slides/....json">changelog</a>
-<h4>
-<a href="/dropbox/lectures/seiib/slides/....pdf" class="btn theme-btn-default btn-lg">Slides</a> <a href="/dropbox/lectures/seiib/handouts/....pdf" class="btn theme-btn-default btn-lg">Handout</a>
-</h4>
-</div>
-<!-- portfolio-desc end -->
-</div>
-<!-- portfolio-sec end -->
-</div>
-<!-- col-md-6 end -->
-</div>
-<!-- row end -->
-</div>
-<!-- tabpanel Slides end -->
-<!-- }}} -->
-<!-- {{{ Tab: Aufgabenblätter -->
-<div id="Exercises" class="tab-pane fade" role="tabpanel" aria-expanded="false">
-<div class="row">
-<div class="col-md-6 margin-btm-20">
-<div class="portfolio-sec">
-<div class="portfolio-thumnail">
-<p><a href="/dropbox/lectures/seiib/exercises/Blatt01.pdf"> <img src="/dropbox/lectures/seiib/exercises/Blatt01.png" class="img-fluid" alt> </a></p>
-</div>
-<div class="portfolio-desc text-center">
-<h4 class="portfolio-post-title">
-Blatt 1
-</h4>
-<a class="portfolio-post-cat" href="/dropbox/lectures/seiib/exercises/Blatt01.json">changelog</a>
-<h4>
-<a href="/dropbox/lectures/seiib/exercises/Blatt01.pdf" class="btn theme-btn-default btn-lg"> PDF </a>
-</h4>
-</div>
-<!-- portfolio-desc end -->
-</div>
-<!-- portfolio-sec end -->
-</div>
-<!-- col-md-6 end -->
-</div>
-<!-- row end -->
-</div>
-<!-- }}} -->
-</div>
-<!-- }}} -->
-</div>
-<!-- }}} -->
-</div>
-</div>
-  </div>
-</div>
-
-<div class="space-70"></div>
-<div>
-  <div class="row">
-    <div class="col-md-12 text-center">
-      <span>
-          Generated with <a href="http://jaspervdj.be/hakyll">Hakyll</a> on
-          <a href="https://travis-ci.org/obcode/ob.cs.hm.edu">Travic CI</a>
-          |
-          Fork me on <a href="https://github.com/obcode/ob.cs.hm.edu">GitHub</a>
-        </span>
-        <div></div>
-      <span>&copy; 2017 Oliver Braun | <a href="../impressum.html">Impressum</a></span>
+      </div>
     </div>
-  </div>
-</div>
-
-<!-- jQuery plugins. -->
-<script src="../assets/js/plugins/plugins.js"></script>
-<script src="../assets/js/app.js"></script>
-
-<script src="../assets/cubeportfolio/js/jquery.cubeportfolio.min.js"></script>
-<script>
-  (function($, window, document, undefined) {
-    'use strict';
-
-    // init cubeportfolio
-    $('#js-grid-awesome-work').cubeportfolio({
-      filters: '#js-filters-awesome-work',
-      layoutMode: 'grid',
-      defaultFilter: '*',
-      animationType: 'scaleSides',
-      gapHorizontal: 30,
-      gapVertical: 30,
-      gridAdjustment: 'responsive',
-      mediaQueries: [{
-        width: 1500,
-        cols: 4
-      }, {
-        width: 1100,
-        cols: 3
-      }, {
-        width: 480,
-        cols: 2,
-        options: {
-          gapHorizontal: 15,
-          gapVertical: 15
-        }
-      }],
-      caption: 'zoom',
-      displayType: 'fadeIn',
-      displayTypeSpeed: 400,
-      // singlePage popup
-      singlePageDelegate: '.cbp-singlePage',
-      singlePageDeeplinking: true,
-      singlePageStickyNavigation: true,
-      singlePageCounter: '<div class="cbp-popup-singlePage-counter">{{current}} of {{total}}</div>'
-    });
-  })(jQuery, window, document);
-</script>
-
-
-</body>
+<!-- Footer end -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery-1.8.3.min.js"><\/script>')</script>
+    <script src="../js/bootstrap.min.js"></script>
+    </body>
 </html>

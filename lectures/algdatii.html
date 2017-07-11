@@ -1,666 +1,282 @@
 <!DOCTYPE html>
 <html lang="de">
-<head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Oliver Braun - Algorithmen und Datenstrukturen II</title>
-  <!--plugins-->
-  <link href="../assets/css/plugins/plugins.css" rel="stylesheet">
-  
-  <!--cube portfolio-->
-  <link href="../assets/cubeportfolio/css/cubeportfolio.min.css" rel="stylesheet">
-  
-  <!--Custom css-->
-  <link href="../assets/css/style.css" rel="stylesheet">
-</head>
-
-<body>
-<div id="preloader">
-  <div id="preloader-inner"></div>
-</div>
-<!--/preloader-->
-
-<nav class="navbar navbar-toggleable-sm navbar-light bg-faded yamm">
-  <div class="container">
-    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-    <a class="navbar-brand" href="../index.html">ob.cs.hm.edu</a>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="nav navbar-nav ml-auto">
-        <li class="dropdown nav-item">
-          <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">WS 17/18</a>
-          <ul class="dropdown-menu dropdown-menu-right">
-            <li><a href="../lectures/algdati.html" class="dropdown-item">Algorithmen und Datenstrukturen I</a></li>
-            <li><a href="../lectures/fun.html" class="dropdown-item">Funktionale Programmierung</a></li>
-            <li><a href="../lectures/seiib.html" class="dropdown-item">Softwareentwicklung I (IB)</a></li>
-          </ul>
-        </li>
-        <li class="dropdown nav-item">
-          <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">Lehre</a>
-          <ul class="dropdown-menu dropdown-menu-right">
-            <li><a href="../lectures/algdati.html" class="dropdown-item">Algorithmen und Datenstrukturen I</a></li>
-            <li><a href="../lectures/algdatii.html" class="dropdown-item">Algorithmen und Datenstrukturen II</a></li>
-            <li><a href="../lectures/compiler.html" class="dropdown-item">Compiler</a></li>
-            <li><a href="../lectures/fun.html" class="dropdown-item">Funktionale Programmierung</a></li>
-            <li><a href="../lectures/sa.html" class="dropdown-item">Software-Architektur</a></li>
-            <li><a href="../lectures/seiib.html" class="dropdown-item">Softwareentwicklung I (IB)</a></li>
-            <li><a href="../lectures/seiiib.html" class="dropdown-item">Softwareentwicklung II (IB)</a></li>
-            <li><a href="../lectures/swengiib.html" class="dropdown-item">Software Engineering I (IB)</a></li>
-            <li><a href="../lectures/swengiiib.html" class="dropdown-item">Software Engineering II (IB)</a></li>
-            <li><a href="../lectures/webtech.html" class="dropdown-item">Web-Techniken</a></li>
-            <li><a href="../lectures/webtechFK12.html" class="dropdown-item">Web-Techniken (mit FK12)</a></li>
-          </ul>
-        </li>
-        <li class=" dropdown nav-item">
-          <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">Misc</a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="https://terraform.cs.hm.edu/jenkins/blue/">Jenkins</a></li>
-            <li><a class="dropdown-item" href="../about.html">Kontakt</a></li>
-          </ul>
-        </li>
-
-        <li class="social-nav nav-item"><a href="https://github.com/obcode" class="nav-link"><i class="ion-social-github" data-toggle="tooltip" data-placement="bottom" title data-original-title="obcode @ GitHub"></i></a></li>
-        <li class="social-nav nav-item"><a href="https://twitter.com/obcode" class="nav-link"><i class="ion-social-twitter" data-toggle="tooltip" data-placement="bottom" title data-original-title="@obcode"></i></a></li>
-        <li class="social-nav nav-item"><a href="https://www.linkedin.com/in/obcode/" class="nav-link"><i class="ion-social-linkedin" data-toggle="tooltip" data-placement="bottom" title data-original-title="LinkedIn"></i></a></li>
-      </ul>
+    <head>
+        <meta charset="utf-8">
+        <title>Oliver Braun - Algorithmen und Datenstrukturen II</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Website Prof. Dr. Oliver Braun">
+        <meta name="author" content="Oliver Braun">
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/bootstrap-responsive.min.css" rel="stylesheet">
+        <link href="../css/glyphicons.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300" rel="stylesheet" type="text/css">
+        <link href="../css/base.css" rel="stylesheet">
+        <link href="../css/blue.css" rel="stylesheet">
+        <!--[if lt IE 9]>
+          <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+        <link rel="shortcut icon" href="../img/ico/favicon.ico">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../img/ico/favicon.ico">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../img/ico/favicon.ico">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../img/ico/favicon.ico">
+        <link rel="apple-touch-icon-precomposed" href="../img/ico/favicon.ico">
+    </head>
+    <body>
+<!-- Navigation start -->
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-primary btn-dropnav" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="../">ob.cs.hm.edu</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav pull-right animated">
+              <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" role="button" href="../lectures">Lehrveranstaltungen <b class="caret"></b></a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="../lectures/algdat.html" tabindex="-1">Algorithmen und Datenstrukturen I</a></li>
+                  <li><a href="../lectures/algdatii.html" tabindex="-1">Algorithmen und
+                          Datenstrukturen II</a></li>
+                  <li><a href="../lectures/compiler.html" tabindex="-1">Compiler</a></li>
+                  <li><a href="../lectures/fun.html" tabindex="-1">Funktionale Programmierung</a></li>
+                  <li><a href="../lectures/sa.html" tabindex="-1">Software-Architektur</a></li>
+                  <li><a href="../lectures/seiib.html" tabindex="-1">Softwareentwicklung I (IB)</a></li>
+                  <li><a href="../lectures/seiiib.html" tabindex="-1">Softwareentwicklung II (IB)</a></li>
+                  <li><a href="../lectures/swengiib.html" tabindex="-1">Software Engineering I (IB)</a></li>
+                  <li><a href="../lectures/swengiiib.html" tabindex="-1">Software Engineering II (IB)</a></li>
+                  <li><a href="../lectures/webtech.html" tabindex="-1">Web-Techniken</a></li>
+                  <li><a href="../lectures/webtechFK12.html" tabindex="-1">Web-Techniken (mit FK12)</a></li>
+                </ul>
+              </li>
+              <li><a href="../misc/theses.html">Abschlussarbeiten</a></li>
+              <li><a href="https://terraform.cs.hm.edu/jenkins/blue/">Jenkins</a></li>
+              <li><a href="../about.html">Oliver Braun</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
-</nav>
-<!--nav end-->
+<!-- Navigation end -->
 
+        <div id="landing">
+          <div class="container">
+            <div class="row">
+                  <div class="span7">
+                      <h1><a href="https://w3-o.cs.hm.edu:8000/public/module/12/">Algorithmen und Datenstrukturen II</a></h1>
+                      <h4>Sommersemester 2017</h4>
+                  </div>
+                  <div class="span1">&nbsp;
+                  </div>
+                  <div class="span4">
+                    <img alt src="../img/swarovski.png" width="300" height="150" />
+                  </div>
+                </div>
+          </div>
+        </div>
 
-<section id="slider-sec" class="slider-reg">
-  <div class="main-flex-slider">
-    <ul class="slides">
-      <li>
-        <figure>
-          <img src="../assets/img/algdatii.jpg" class="img-fluid" alt="slider-img-1">
-          <figcaption class="slider-overlay ">
-            <div class="slider-text animated fadeInDown">
-              <h1>Algorithmen und Datenstrukturen II</h1>
-              <p>
-                Sommersemester 2017
-              </p>
-            </div>
-          </figcaption>
-        </figure>
-      </li>
-    </ul>
-  </div>
-</section>
-<div class="space-70"></div>
-<div class="container">
-  <div class="row">
-    <div class="container">
-<div class="row">
-<!-- {{{ Left sidebar  -->
-<div class="col-md-4">
-<div class="sidebar-box">
-<div id="card-accordion-simple" class="card-accordion card-accordion-simple card-accordion-icons-left mb80" role="tablist" aria-multiselectable="true">
-<!-- {{{ card 0: Links -->
-<div class="card">
-<div id="headingZero" class="card-header accordion-header" role="tab">
-<p><a data-toggle="collapse" data-parent="#card-accordion-simple" href="#collapseZeroList" aria-expanded="true" aria-controls="collapseZeroList"> Links </a></p>
-</div>
-<div id="collapseZeroList" class="collapse show" role="tabpanel" aria-labelledby="headingZero">
-<div class="card-block">
-<ul class="icon-list list-unstyled">
-<li>
-<i class="ion-link"></i> <a href="https://github.com/algdat">AlgDat @ GitHub</a>
-</li>
-<li>
-<i class="ion-link"></i> <a href="https://github.com/algdat/praktikum-SS17/wiki/Themen">Praktikums-Themen</a>
-</li>
-<li>
-<i class="ion-link"></i> <a href="https://w3-o.cs.hm.edu:8000/public/module/12/">Modulbeschreibung</a>
-</li>
+        <div id="content">
+          <div class="container">
+            <div class="row">
+<div class="span6">
+<h2 id="ziele-inhalte">Ziele / Inhalte</h2>
+<ul>
+<li>Hashverfahren</li>
+<li>Graphen</li>
+<li>Algorithmen und Datenstrukturen für den effizienten Zugriff auf große Datenmengen</li>
+<li><p>Umsetzung in C++</p></li>
+<li><p>Der Vorlesungsstoff basiert auf dem Buch <a href="http://link.springer.com/book/10.1007/978-3-8274-2804-2/page/1">Algorithmen und Datenstrukturen</a> von T.Ottmann &amp; P.Widmayer.</p></li>
 </ul>
-</div>
-</div>
-</div>
-<!-- }}} card 0 end -->
-<!-- {{{ card 1: Ziele / Inhalte -->
-<div class="card">
-<div id="headingOne" class="card-header accordion-header" role="tab">
-<p><a class="collapsed" data-toggle="collapse" data-parent="#card-accordion-simple" href="#collapseOneList" aria-expanded="false" aria-controls="collapseOneList"> Ziele / Inhalte </a></p>
-</div>
-<div id="collapseOneList" class="collapse" role="tabpanel" aria-labelledby="headingOne">
-<div class="card-block">
-<ul class="icon-list list-unstyled">
-<li>
-<i class="ion-checkmark-round"></i> Hashverfahren
-</li>
-<li>
-<i class="ion-checkmark-round"></i> Graphen
-</li>
-<li>
-<i class="ion-checkmark-round"></i> Algorithmen und Datenstrukturen für den effizienten Zugriff auf große Datenmengen
-</li>
-<li>
-<i class="ion-checkmark-round"></i> Umsetzung in C++
-</li>
-<li>
-<i class="ion-checkmark-round"></i> Der Vorlesungsstoff basiert auf dem Buch <a href="http://link.springer.com/book/10.1007/978-3-8274-2804-2/page/1">Algorithmen und Datenstrukturen</a> von T.Ottmann &amp; P.Widmayer.
-</li>
+<h2 id="vorlesung">Vorlesung</h2>
+<h3 id="slides">Slides</h3>
+<ul>
+<li><a href="../dropbox/lectures/algdatii/slides/01_Hashverfahren.pdf">Hashverfahren</a> [<a href="../dropbox/lectures/algdatii/handouts/01_Hashverfahren.pdf">Handout</a>]</li>
+<li><a href="../dropbox/lectures/algdatii/slides/02_Graphenalgorithmen.pdf">Graphenalgorithmen</a> [<a href="../dropbox/lectures/algdatii/handouts/02_Graphenalgorithmen.pdf">Handout</a>]</li>
+<li><a href="../dropbox/lectures/algdatii/slides/03_SuchenInTexten.pdf">Suchen in Texten</a> [<a href="../dropbox/lectures/algdatii/handouts/03_SuchenInTexten.pdf">Handout</a>]</li>
 </ul>
-</div>
-</div>
-</div>
-<!-- }}} card 1 end -->
-<!-- {{{ card 2: Scheinerwerb -->
-<div class="card">
-<div id="headingTwo" class="card-header accordion-header" role="tab">
-<p><a class="collapsed" data-toggle="collapse" data-parent="#card-accordion-simple" href="#collapseTwoList" aria-expanded="false" aria-controls="collapseTwoList"> Scheinerwerb </a></p>
-</div>
-<div id="collapseTwoList" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
-<div class="card-block">
+<h3 id="termine-und-inhalte">Termine und Inhalte</h3>
+<ul>
+<li>dienstags, 15:15 - 16:45, R0.010</li>
+</ul>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Termin</th>
+<th align="left">Inhalt</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">28.03.17</td>
+<td align="left">Auffrischung <a href="../lectures/algdat.html">Algorithmen und Datenstrukturen I</a></td>
+</tr>
+<tr class="even">
+<td align="left">04.04.17</td>
+<td align="left">Hashverfahren bis Folie 11</td>
+</tr>
+<tr class="odd">
+<td align="left">11.04.17</td>
+<td align="left">Hashverfahren bis Folie 24</td>
+</tr>
+<tr class="even">
+<td align="left">25.04.17</td>
+<td align="left">Graphenalgorithmen bis Folie 13</td>
+</tr>
+<tr class="odd">
+<td align="left">09.05.17</td>
+<td align="left">Graphenalgorithmen bis Folie 30</td>
+</tr>
+<tr class="even">
+<td align="left">16.05.17</td>
+<td align="left">Graphenalgorithmen bis Folie 47</td>
+</tr>
+<tr class="odd">
+<td align="left">23.05.17</td>
+<td align="left">Graphenalgorithmen bis Folie 65</td>
+</tr>
+<tr class="even">
+<td align="left">30.05.17</td>
+<td align="left">Graphenalgorithmen abgeschlossen, Suchen in Texten bis Folie 10</td>
+</tr>
+<tr class="odd">
+<td align="left">13.06.17</td>
+<td align="left">Suchen in Texten</td>
+</tr>
+<tr class="even">
+<td align="left">20.06.17</td>
+<td align="left">Suchen in Texten, Fragen</td>
+</tr>
+<tr class="odd">
+<td align="left">27.06.17</td>
+<td align="left">Präsentationen Praktikumsergebnisse</td>
+</tr>
+</tbody>
+</table>
+<h2 id="scheinerwerb">Scheinerwerb</h2>
 <p>Erfolgreiche Bearbeitung des Aufgabenblatt 2.</p>
+<h2 id="prüfung">Prüfung</h2>
+<p>Mündliche Prüfung in der KW 27 (<a href="../dropbox/lectures/algdatii/AlgDatIISS17.pdf">Einteilung</a>, Passwort gibt es in der Vorlesung)</p>
 </div>
-</div>
-</div>
-<p><!-- card 2 end --></p>
-<!-- card 3 -->
-<div class="card">
-<div id="headingThree" class="card-header accordion-header" role="tab">
-<p><a class="collapsed" data-toggle="collapse" data-parent="#card-accordion-simple" href="#collapseThreeList" aria-expanded="false" aria-controls="collapseThreeList"> Prüfung </a></p>
-</div>
-<div id="collapseThreeList" class="collapse" role="tabpanel" aria-labelledby="headingThree">
-<div class="card-block">
-<p>Mündliche Prüfung</p>
-</div>
-</div>
-</div>
-<!-- }}} card 3 end -->
-</div>
-<p><!-- accordion end --></p>
-</div>
-<!-- sidebar-box end -->
-</div>
-<!-- sidebar end -->
-<!-- }}} -->
-<!-- {{{ Right contents -->
-<div class="col-md-8">
-<!-- {{{ Tab Titel -->
-<ul class="nav-tabs nav" role="tablist">
-<li class="nav-item">
-<a class="ion-ios-book active nav-link" href="#Vorlesung" data-taget="#Vorlesung" role="tab" data-toggle="tab"> Vorlesung </a>
-</li>
-<li class="nav-item">
-<a class=" ion-ios-monitor nav-link" href="#Praktikum" data-taget="#Praktikum" role="tab" data-toggle="tab"> Praktikum </a>
-</li>
-<li class="nav-item">
-<a class=" ion-ios-cloud-download nav-link" href="#Slides" data-taget="#Slides" role="tab" data-toggle="tab"> Slides und Handouts </a>
-</li>
-<li class="nav-item">
-<a class=" ion-ios-cloud-download nav-link" href="#Exercises" data-taget="#Exercises" role="tab" data-toggle="tab"> Aufgabenblätter </a>
-</li>
+<div class="span6">
+<h2 id="praktikum">Praktikum</h2>
+<h3 id="aufgabenblätter">Aufgabenblätter</h3>
+<ul>
+<li><a href="../dropbox/lectures/algdatii/exercises/Blatt01.pdf">Blatt 1</a></li>
+<li><a href="../dropbox/lectures/algdatii/exercises/Blatt02.pdf">Blatt 2</a> (<a href="https://classroom.github.com/group-assignment-invitations/faf8e7c4d335e057e88450724181fc5e">Classroom-Link</a>)</li>
 </ul>
-<!-- }}} -->
-<!-- {{{ Tab contents -->
-<div class="tab-content">
-<!-- {{{ Tab: Vorlesung -->
-<div class="space-30">
+<h3 id="termine-und-inhalte-1">Termine und Inhalte</h3>
+<ul>
+<li>Teilgruppe 1: montags, 08:15-09:45, R3.021</li>
+<li>Teilgruppe 2: donnerstags, 11:45-13:15, R2.012</li>
+</ul>
+<dl>
+<dt>11.04.17, 10:00 Uhr</dt>
+<dd>Gruppeneinteilung steht fest und ist per E-Mail an mich kommuniziert
+</dd>
+<dt>25.04.17, 10:00 Uhr</dt>
+<dd>Themen stehen fest und sind im Wiki eingetragen
+</dd>
+</dl>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Teilgruppe 1</th>
+<th align="left">Teilgruppe 2</th>
+<th align="left">zu bearbeitende Aufgaben</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">30.03.17</td>
+<td align="left">03.04.17</td>
+<td align="left">Blatt 1</td>
+</tr>
+<tr class="even">
+<td align="left">06.04.17</td>
+<td align="left">10.04.17</td>
+<td align="left">Bearbeitung und Besprechung Blatt 1</td>
+</tr>
+<tr class="odd">
+<td align="left">20.04.17</td>
+<td align="left">24.04.17</td>
+<td align="left">Beginn Bearbeitung Blatt 2</td>
+</tr>
+<tr class="even">
+<td align="left">27.04.17</td>
+<td align="left"></td>
+<td align="left">Blatt 2</td>
+</tr>
+<tr class="odd">
+<td align="left">04.05.17</td>
+<td align="left">08.05.17</td>
+<td align="left">Blatt 2</td>
+</tr>
+<tr class="even">
+<td align="left">11.05.17</td>
+<td align="left">15.05.17</td>
+<td align="left">Blatt 2</td>
+</tr>
+<tr class="odd">
+<td align="left">18.05.17</td>
+<td align="left">29.05.17</td>
+<td align="left">Besprechung Zwischenstand</td>
+</tr>
+<tr class="even">
+<td align="left">01.06.17</td>
+<td align="left"></td>
+<td align="left">Blatt 2</td>
+</tr>
+<tr class="odd">
+<td align="left">08.06.17</td>
+<td align="left">12.06.17</td>
+<td align="left">Blatt 2</td>
+</tr>
+<tr class="even">
+<td align="left"></td>
+<td align="left">19.06.17</td>
+<td align="left">Blatt 2</td>
+</tr>
+<tr class="odd">
+<td align="left">22.06.17</td>
+<td align="left">26.06.17</td>
+<td align="left">Blatt 2</td>
+</tr>
+</tbody>
+</table>
+<h2 id="links">Links</h2>
+<ul>
+<li><a href="https://github.com/algdat">AlgDat @ GitHub</a></li>
+<li><a href="https://terraform.cs.hm.edu/jenkins/view/GitHub-Organisationen/job/Algorithmen%20und%20Datenstrukturen/">AlgDat @ Jenkins</a></li>
+<li><a href="https://github.com/algdat/praktikum-SS17/wiki/Themen">Praktikums-Themen</a></li>
+</ul>
+</div>
+</div>
+          </div>
+        </div>
 
-</div>
-<div role="tabpanel" class="tab-pane show active fade" id="Vorlesung" aria-expanded="true">
 
-<h5>
-dienstags, 15:15 - 16:45, R0.010
-</h5>
-<hr />
-<div class="row">
-<div class="col-md-2">
-28.03.17
-</div>
-<div class="col-md-10">
-Auffrischung <a href="../lectures/algdat.html">Algorithmen und Datenstrukturen I</a>
-</div>
-</div>
-<!-- row end -->
-<hr />
-<div class="row">
-<div class="col-md-2">
-04.04.17
-</div>
-<div class="col-md-10">
-Hashverfahren bis Folie 11
-</div>
-</div>
-<!-- row end -->
-<hr />
-<div class="row">
-<div class="col-md-2">
-11.04.17
-</div>
-<div class="col-md-10">
-Hashverfahren bis Folie 24
-</div>
-</div>
-<!-- row end -->
-<hr />
-<div class="row">
-<div class="col-md-2">
-25.04.17
-</div>
-<div class="col-md-10">
-Graphenalgorithmen bis Folie 13
-</div>
-</div>
-<!-- row end -->
-<hr />
-<div class="row">
-<div class="col-md-2">
-09.05.17
-</div>
-<div class="col-md-10">
-Graphenalgorithmen bis Folie 30
-</div>
-</div>
-<!-- row end -->
-<hr />
-<div class="row">
-<div class="col-md-2">
-16.05.17
-</div>
-<div class="col-md-10">
-Graphenalgorithmen bis Folie 47
-</div>
-</div>
-<!-- row end -->
-<hr />
-<div class="row">
-<div class="col-md-2">
-23.05.17
-</div>
-<div class="col-md-10">
-Graphenalgorithmen bis Folie 65
-</div>
-</div>
-<!-- row end -->
-<hr />
-<div class="row">
-<div class="col-md-2">
-30.05.17
-</div>
-<div class="col-md-10">
-Graphenalgorithmen abgeschlossen, Suchen in Texten bis Folie 10
-</div>
-</div>
-<!-- row end -->
-<hr />
-<div class="row">
-<div class="col-md-2">
-13.06.17
-</div>
-<div class="col-md-10">
-Suchen in Texten
-</div>
-</div>
-<!-- row end -->
-<hr />
-<div class="row">
-<div class="col-md-2">
-20.06.17
-</div>
-<div class="col-md-10">
-Suchen in Texten, Fragen
-</div>
-</div>
-<!-- row end -->
-<hr />
-<div class="row">
-<div class="col-md-2">
-27.06.17
-</div>
-<div class="col-md-10">
-Präsentationen Praktikumsergebnisse
-</div>
-</div>
-<!-- row end -->
-<hr />
-</div>
-<!-- tab-panel end -->
-<!-- }}} -->
-<!-- {{{ Tab: Praktikum -->
-<div role="tabpanel" class="tab-pane fade" id="Praktikum" aria-expanded="false">
-
-<h5>
-Teilgruppe 1: montags, 08:15-09:45, R3.021
-</h5>
-<h5>
-Teilgruppe 2: donnerstags, 11:45-13:15, R2.012
-</h5>
-<hr />
-<div class="row">
-<div class="col-md-2">
-30.03.17
-</div>
-<div class="col-md-2">
-03.04.17
-</div>
-<div class="col-md-8">
-Blatt 1
-</div>
-</div>
-<!-- row end -->
-<hr />
-<div class="row">
-<div class="col-md-2">
-06.04.17
-</div>
-<div class="col-md-2">
-10.04.17
-</div>
-<div class="col-md-8">
-Bearbeitung und Besprechung Blatt 1
-</div>
-</div>
-<!-- row end -->
-<hr />
-<div class="row">
-<div class="col-md-2">
-20.04.17
-</div>
-<div class="col-md-2">
-24.04.17
-</div>
-<div class="col-md-8">
-Beginn Bearbeitung Blatt 2
-</div>
-</div>
-<!-- row end -->
-<hr />
-<div class="row">
-<div class="col-md-2">
-27.04.17
-</div>
-<div class="col-md-2">
-
-</div>
-<div class="col-md-8">
-Blatt 2
-</div>
-</div>
-<!-- row end -->
-<hr />
-<div class="row">
-<div class="col-md-2">
-04.05.17
-</div>
-<div class="col-md-2">
-08.05.17
-</div>
-<div class="col-md-8">
-Blatt 2
-</div>
-</div>
-<!-- row end -->
-<hr />
-<div class="row">
-<div class="col-md-2">
-11.05.17
-</div>
-<div class="col-md-2">
-15.05.17
-</div>
-<div class="col-md-8">
-Blatt 2
-</div>
-</div>
-<!-- row end -->
-<hr />
-<div class="row">
-<div class="col-md-2">
-18.05.17
-</div>
-<div class="col-md-2">
-29.05.17
-</div>
-<div class="col-md-8">
-Besprechung Zwischenstand
-</div>
-</div>
-<!-- row end -->
-<hr />
-<div class="row">
-<div class="col-md-2">
-01.06.17
-</div>
-<div class="col-md-2">
-
-</div>
-<div class="col-md-8">
-Blatt 2
-</div>
-</div>
-<!-- row end -->
-<hr />
-<div class="row">
-<div class="col-md-2">
-08.06.17
-</div>
-<div class="col-md-2">
-12.06.17
-</div>
-<div class="col-md-8">
-Blatt 2
-</div>
-</div>
-<!-- row end -->
-<hr />
-<div class="row">
-<div class="col-md-2">
-
-</div>
-<div class="col-md-2">
-19.06.17
-</div>
-<div class="col-md-8">
-Blatt 2
-</div>
-</div>
-<!-- row end -->
-<hr />
-<div class="row">
-<div class="col-md-2">
-22.06.17
-</div>
-<div class="col-md-2">
-26.06.17
-</div>
-<div class="col-md-8">
-Blatt 2
-</div>
-</div>
-<!-- row end -->
-<hr />
-</div>
-<!-- }}} -->
-<!-- {{{ Tab: Slides und Handouts -->
-<div id="Slides" class="tab-pane fade" role="tabpanel" aria-expanded="false">
-<div class="row">
-<div class="col-md-6 margin-btm-20">
-<div class="portfolio-sec">
-<div class="portfolio-thumnail">
-<p><a href="/dropbox/lectures/algdatii/slides/01_Hashverfahren.pdf"> <img src="/dropbox/lectures/algdatii/slides/01_Hashverfahren.png" class="img-fluid" alt></a></p>
-</div>
-<div class="portfolio-desc text-center">
-<h4 class="portfolio-post-title">
-Hashverfahren
-</h4>
-<a class="portfolio-post-cat" href="/dropbox/lectures/algdatii/slides/01_Hashverfahren.json">changelog</a>
-<h4>
-<a href="/dropbox/lectures/algdatii/slides/01_Hashverfahren.pdf" class="btn theme-btn-default btn-lg">Slides</a> <a href="/dropbox/lectures/algdatii/handouts/01_Hashverfahren.pdf" class="btn theme-btn-default btn-lg">Handout</a>
-</h4>
-</div>
-<!-- portfolio-desc end -->
-</div>
-<!-- portfolio-sec end -->
-</div>
-<!-- col-md-6 end -->
-<div class="col-md-6 margin-btm-20">
-<div class="portfolio-sec">
-<div class="portfolio-thumnail">
-<p><a href="/dropbox/lectures/algdatii/slides/02_Graphenalgorithmen.pdf"> <img src="/dropbox/lectures/algdatii/slides/02_Graphenalgorithmen.png" class="img-fluid" alt> </a></p>
-</div>
-<div class="portfolio-desc text-center">
-<h4 class="portfolio-post-title">
-Graphenalgorithmen
-</h4>
-<a class="portfolio-post-cat" href="/dropbox/lectures/algdatii/slides/02_Graphenalgorithmen.json">changelog</a>
-<h4>
-<a href="/dropbox/lectures/algdatii/slides/02_Graphenalgorithmen.pdf" class="btn theme-btn-default btn-lg"> Slides</a> <a href="/dropbox/lectures/algdatii/handouts/02_Graphenalgorithmen.pdf" class="btn theme-btn-default btn-lg">Handout</a>
-</h4>
-</div>
-<!-- portfolio-desc end -->
-</div>
-<!-- portfolio-sec end -->
-</div>
-<!-- col-md-6 end -->
-</div>
-<!-- row end -->
-<div class="row">
-<div class="col-md-6 margin-btm-20">
-<div class="portfolio-sec">
-<div class="portfolio-thumnail">
-<p><a href="/dropbox/lectures/algdatii/slides/03_SuchenInTexten.pdf"> <img src="/dropbox/lectures/algdatii/slides/03_SuchenInTexten.png" class="img-fluid" alt> </a></p>
-</div>
-<div class="portfolio-desc text-center">
-<h4 class="portfolio-post-title">
-Suchen in Texten
-</h4>
-<a class="portfolio-post-cat" href="/dropbox/lectures/algdatii/slides/03_SuchenInTexten.json">changelog</a>
-<h4>
-<a href="/dropbox/lectures/algdatii/slides/03_SuchenInTexten.pdf" class="btn theme-btn-default btn-lg"> Slides</a> <a href="/dropbox/lectures/algdatii/handouts/03_SuchenInTexten.pdf" class="btn theme-btn-default btn-lg">Handout</a>
-</h4>
-</div>
-<!-- portfolio-desc end -->
-</div>
-<!-- portfolio-sec end -->
-</div>
-<!-- col-md-6 end -->
-</div>
-<!-- row end -->
-</div>
-<!-- tabpanel Slides end -->
-<!-- }}} -->
-<!-- {{{ Tab: Aufgabenblätter -->
-<div id="Exercises" class="tab-pane fade" role="tabpanel" aria-expanded="false">
-<div class="row">
-<div class="col-md-6 margin-btm-20">
-<div class="portfolio-sec">
-<div class="portfolio-thumnail">
-<p><a href="/dropbox/lectures/algdatii/exercises/Blatt01.pdf"> <img src="/dropbox/lectures/algdatii/exercises/Blatt01.png" class="img-fluid" alt> </a></p>
-</div>
-<div class="portfolio-desc text-center">
-<h4 class="portfolio-post-title">
-Blatt 1
-</h4>
-<a class="portfolio-post-cat" href="/dropbox/lectures/algdatii/exercises/Blatt01.json">changelog</a>
-<h4>
-<a href="/dropbox/lectures/algdatii/exercises/Blatt01.pdf" class="btn theme-btn-default btn-lg"> PDF </a>
-</h4>
-</div>
-<!-- portfolio-desc end -->
-</div>
-<!-- portfolio-sec end -->
-</div>
-<!-- col-md-6 end -->
-<div class="col-md-6 margin-btm-20">
-<div class="portfolio-sec">
-<div class="portfolio-thumnail">
-<p><a href="/dropbox/lectures/algdatii/exercises/Blatt02.pdf"> <img src="/dropbox/lectures/algdatii/exercises/Blatt02.png" class="img-fluid" alt> </a></p>
-</div>
-<div class="portfolio-desc text-center">
-<h4 class="portfolio-post-title">
-Blatt 2
-</h4>
-<a class="portfolio-post-cat" href="/dropbox/lectures/algdatii/exercises/Blatt01.json">changelog</a>
-<h4>
-<a href="/dropbox/lectures/algdatii/exercises/Blatt02.pdf" class="btn theme-btn-default btn-lg"> PDF</a>
-</h4>
-</div>
-<!-- portfolio-desc end -->
-</div>
-<!-- portfolio-sec end -->
-</div>
-<!-- col-md-6 end -->
-</div>
-<!-- row end -->
-</div>
-<!-- }}} -->
-</div>
-<!-- }}} -->
-</div>
-<!-- }}} -->
-</div>
-</div>
-  </div>
-</div>
-
-<div class="space-70"></div>
-<div>
-  <div class="row">
-    <div class="col-md-12 text-center">
-      <span>
-          Generated with <a href="http://jaspervdj.be/hakyll">Hakyll</a> on
-          <a href="https://travis-ci.org/obcode/ob.cs.hm.edu">Travic CI</a>
-          |
-          Fork me on <a href="https://github.com/obcode/ob.cs.hm.edu">GitHub</a>
-        </span>
-        <div></div>
-      <span>&copy; 2017 Oliver Braun | <a href="../impressum.html">Impressum</a></span>
+<!-- Footer start -->
+    <div id="copywrite">
+      <div class="container">
+        <div class="row">
+              <div class="span12">
+                  <p>&copy; 2017 Oliver Braun | <a href="../impressum.html">Impressum</a>
+                  <span class="pull-right">
+                      Generated with <a href="http://jaspervdj.be/hakyll">Hakyll</a> on
+                      <a href="https://travis-ci.org/obcode/ob.cs.hm.edu">Travic CI</a>
+                      <img href="https://travis-ci.org/obcode/ob.cs.hm.edu.svg?branch=master" />
+                      Fork me on
+                      <a href="https://github.com/obcode/ob.cs.hm.edu">GitHub</a>
+                  </span></p>
+              </div>
+            </div>
+      </div>
     </div>
-  </div>
-</div>
-
-<!-- jQuery plugins. -->
-<script src="../assets/js/plugins/plugins.js"></script>
-<script src="../assets/js/app.js"></script>
-
-<script src="../assets/cubeportfolio/js/jquery.cubeportfolio.min.js"></script>
-<script>
-  (function($, window, document, undefined) {
-    'use strict';
-
-    // init cubeportfolio
-    $('#js-grid-awesome-work').cubeportfolio({
-      filters: '#js-filters-awesome-work',
-      layoutMode: 'grid',
-      defaultFilter: '*',
-      animationType: 'scaleSides',
-      gapHorizontal: 30,
-      gapVertical: 30,
-      gridAdjustment: 'responsive',
-      mediaQueries: [{
-        width: 1500,
-        cols: 4
-      }, {
-        width: 1100,
-        cols: 3
-      }, {
-        width: 480,
-        cols: 2,
-        options: {
-          gapHorizontal: 15,
-          gapVertical: 15
-        }
-      }],
-      caption: 'zoom',
-      displayType: 'fadeIn',
-      displayTypeSpeed: 400,
-      // singlePage popup
-      singlePageDelegate: '.cbp-singlePage',
-      singlePageDeeplinking: true,
-      singlePageStickyNavigation: true,
-      singlePageCounter: '<div class="cbp-popup-singlePage-counter">{{current}} of {{total}}</div>'
-    });
-  })(jQuery, window, document);
-</script>
-
-
-</body>
+<!-- Footer end -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery-1.8.3.min.js"><\/script>')</script>
+    <script src="../js/bootstrap.min.js"></script>
+    </body>
 </html>

@@ -1,509 +1,143 @@
 <!DOCTYPE html>
 <html lang="de">
-<head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Oliver Braun - Software-Architektur</title>
-  <!--plugins-->
-  <link href="../assets/css/plugins/plugins.css" rel="stylesheet">
-  
-  <!--cube portfolio-->
-  <link href="../assets/cubeportfolio/css/cubeportfolio.min.css" rel="stylesheet">
-  
-  <!--Custom css-->
-  <link href="../assets/css/style.css" rel="stylesheet">
-</head>
-
-<body>
-<div id="preloader">
-  <div id="preloader-inner"></div>
-</div>
-<!--/preloader-->
-
-<nav class="navbar navbar-toggleable-sm navbar-light bg-faded yamm">
-  <div class="container">
-    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-    <a class="navbar-brand" href="../index.html">ob.cs.hm.edu</a>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="nav navbar-nav ml-auto">
-        <li class="dropdown nav-item">
-          <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">WS 17/18</a>
-          <ul class="dropdown-menu dropdown-menu-right">
-            <li><a href="../lectures/algdati.html" class="dropdown-item">Algorithmen und Datenstrukturen I</a></li>
-            <li><a href="../lectures/fun.html" class="dropdown-item">Funktionale Programmierung</a></li>
-            <li><a href="../lectures/seiib.html" class="dropdown-item">Softwareentwicklung I (IB)</a></li>
-          </ul>
-        </li>
-        <li class="dropdown nav-item">
-          <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">Lehre</a>
-          <ul class="dropdown-menu dropdown-menu-right">
-            <li><a href="../lectures/algdati.html" class="dropdown-item">Algorithmen und Datenstrukturen I</a></li>
-            <li><a href="../lectures/algdatii.html" class="dropdown-item">Algorithmen und Datenstrukturen II</a></li>
-            <li><a href="../lectures/compiler.html" class="dropdown-item">Compiler</a></li>
-            <li><a href="../lectures/fun.html" class="dropdown-item">Funktionale Programmierung</a></li>
-            <li><a href="../lectures/sa.html" class="dropdown-item">Software-Architektur</a></li>
-            <li><a href="../lectures/seiib.html" class="dropdown-item">Softwareentwicklung I (IB)</a></li>
-            <li><a href="../lectures/seiiib.html" class="dropdown-item">Softwareentwicklung II (IB)</a></li>
-            <li><a href="../lectures/swengiib.html" class="dropdown-item">Software Engineering I (IB)</a></li>
-            <li><a href="../lectures/swengiiib.html" class="dropdown-item">Software Engineering II (IB)</a></li>
-            <li><a href="../lectures/webtech.html" class="dropdown-item">Web-Techniken</a></li>
-            <li><a href="../lectures/webtechFK12.html" class="dropdown-item">Web-Techniken (mit FK12)</a></li>
-          </ul>
-        </li>
-        <li class=" dropdown nav-item">
-          <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">Misc</a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="https://terraform.cs.hm.edu/jenkins/blue/">Jenkins</a></li>
-            <li><a class="dropdown-item" href="../about.html">Kontakt</a></li>
-          </ul>
-        </li>
-
-        <li class="social-nav nav-item"><a href="https://github.com/obcode" class="nav-link"><i class="ion-social-github" data-toggle="tooltip" data-placement="bottom" title data-original-title="obcode @ GitHub"></i></a></li>
-        <li class="social-nav nav-item"><a href="https://twitter.com/obcode" class="nav-link"><i class="ion-social-twitter" data-toggle="tooltip" data-placement="bottom" title data-original-title="@obcode"></i></a></li>
-        <li class="social-nav nav-item"><a href="https://www.linkedin.com/in/obcode/" class="nav-link"><i class="ion-social-linkedin" data-toggle="tooltip" data-placement="bottom" title data-original-title="LinkedIn"></i></a></li>
-      </ul>
+    <head>
+        <meta charset="utf-8">
+        <title>Oliver Braun - Software-Architektur</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Website Prof. Dr. Oliver Braun">
+        <meta name="author" content="Oliver Braun">
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/bootstrap-responsive.min.css" rel="stylesheet">
+        <link href="../css/glyphicons.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300" rel="stylesheet" type="text/css">
+        <link href="../css/base.css" rel="stylesheet">
+        <link href="../css/blue.css" rel="stylesheet">
+        <!--[if lt IE 9]>
+          <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+        <link rel="shortcut icon" href="../img/ico/favicon.ico">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../img/ico/favicon.ico">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../img/ico/favicon.ico">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../img/ico/favicon.ico">
+        <link rel="apple-touch-icon-precomposed" href="../img/ico/favicon.ico">
+    </head>
+    <body>
+<!-- Navigation start -->
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-primary btn-dropnav" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="../">ob.cs.hm.edu</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav pull-right animated">
+              <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" role="button" href="../lectures">Lehrveranstaltungen <b class="caret"></b></a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="../lectures/algdat.html" tabindex="-1">Algorithmen und Datenstrukturen I</a></li>
+                  <li><a href="../lectures/algdatii.html" tabindex="-1">Algorithmen und
+                          Datenstrukturen II</a></li>
+                  <li><a href="../lectures/compiler.html" tabindex="-1">Compiler</a></li>
+                  <li><a href="../lectures/fun.html" tabindex="-1">Funktionale Programmierung</a></li>
+                  <li><a href="../lectures/sa.html" tabindex="-1">Software-Architektur</a></li>
+                  <li><a href="../lectures/seiib.html" tabindex="-1">Softwareentwicklung I (IB)</a></li>
+                  <li><a href="../lectures/seiiib.html" tabindex="-1">Softwareentwicklung II (IB)</a></li>
+                  <li><a href="../lectures/swengiib.html" tabindex="-1">Software Engineering I (IB)</a></li>
+                  <li><a href="../lectures/swengiiib.html" tabindex="-1">Software Engineering II (IB)</a></li>
+                  <li><a href="../lectures/webtech.html" tabindex="-1">Web-Techniken</a></li>
+                  <li><a href="../lectures/webtechFK12.html" tabindex="-1">Web-Techniken (mit FK12)</a></li>
+                </ul>
+              </li>
+              <li><a href="../misc/theses.html">Abschlussarbeiten</a></li>
+              <li><a href="https://terraform.cs.hm.edu/jenkins/blue/">Jenkins</a></li>
+              <li><a href="../about.html">Oliver Braun</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
-</nav>
-<!--nav end-->
+<!-- Navigation end -->
 
+        <div id="landing">
+          <div class="container">
+            <div class="row">
+                  <div class="span7">
+                      <h1><a href="http://fi.cs.hm.edu/fi/rest/public/modul/title/softwarearchitektur">Software-Architektur</a></h1>
+                      <h4>Sommersemester 2015</h4>
+                  </div>
+                  <div class="span1">&nbsp;
+                  </div>
+                  <div class="span4">
+                    <img alt src="../img/Alpbachtal.png" width="300" height="150" />
+                  </div>
+                </div>
+          </div>
+        </div>
 
-<section id="slider-sec" class="slider-reg">
-  <div class="main-flex-slider">
-    <ul class="slides">
-      <li>
-        <figure>
-          <img src="../assets/img/sa.jpg" class="img-fluid" alt="slider-img-1">
-          <figcaption class="slider-overlay ">
-            <div class="slider-text animated fadeInDown">
-              <h1>Software-Architektur</h1>
-              <p>
-                Sommersemester 2015
-              </p>
-            </div>
-          </figcaption>
-        </figure>
-      </li>
-    </ul>
-  </div>
-</section>
-<div class="space-70"></div>
-<div class="container">
-  <div class="row">
-    <div class="container">
-<div class="row">
-<!-- {{{ Left sidebar  -->
-<div class="col-md-4">
-<div class="sidebar-box">
-<div id="card-accordion-simple" class="card-accordion card-accordion-simple card-accordion-icons-left mb80" role="tablist" aria-multiselectable="true">
-<!-- {{{ card 0: Links -->
-<div class="card">
-<div id="headingZero" class="card-header accordion-header" role="tab">
-<p><a data-toggle="collapse" data-parent="#card-accordion-simple" href="#collapseZeroList" aria-expanded="true" aria-controls="collapseZeroList"> Links </a></p>
-</div>
-<div id="collapseZeroList" class="collapse show" role="tabpanel" aria-labelledby="headingZero">
-<div class="card-block">
-<ul class="icon-list list-unstyled">
-<li>
-<i class="ion-link"></i> <a href="https://w3-o.cs.hm.edu:8000/public/module/219/">Modulbeschreibung</a>
-</li>
+        <div id="content">
+          <div class="container">
+            <div class="row">
+<div class="span6">
+<h2 id="links">Links</h2>
+<ul>
+<li><a href="https://moodle.hm.edu/course/view.php?id=5993">Moodle-Kurs</a> der Lehrveranstaltung, den Zugangsschlüssel erhalten Sie in der ersten Vorlesung</li>
+</ul>
+<h2 id="termine-und-inhalte">Termine und Inhalte</h2>
+<ul>
+<li><p>Vorlesungstermine (donnerstags 10:00-11:30, R0.009)</p>
+<p>Die genauen Vorlesungsinhalte entnehmen Sie dem Moodle-Kurs.</p></li>
+<li><p>Praktikumstermine (dienstags 13:30-15:00, R1.009, mittwochs 11:45-13:15, R2.009) beginnen ab 24.03.15</p>
+<p>Die genauen Praktikumsinhalte entnehmen Sie dem Moodle-Kurs.</p></li>
+</ul>
+<h2 id="aufgabenblätter">Aufgabenblätter</h2>
+<ul>
+<li>Blatt 1 (<a href="https://dl.dropboxusercontent.com/u/13563262/lectures/sa/html/Blatt01.html">HTML</a>, <a href="https://dl.dropboxusercontent.com/u/13563262/lectures/sa/pdf/Blatt01.pdf">PDF</a>)</li>
+<li>Blatt 2 (<a href="https://dl.dropboxusercontent.com/u/13563262/lectures/sa/html/Blatt02.html">HTML</a>, <a href="https://dl.dropboxusercontent.com/u/13563262/lectures/sa/pdf/Blatt02.pdf">PDF</a>)</li>
 </ul>
 </div>
-</div>
-</div>
-<!-- }}} card 0 end -->
-<!-- {{{ card 1: Ziele / Inhalte -->
-<div class="card">
-<div id="headingOne" class="card-header accordion-header" role="tab">
-<p><a class="collapsed" data-toggle="collapse" data-parent="#card-accordion-simple" href="#collapseOneList" aria-expanded="false" aria-controls="collapseOneList"> Ziele / Inhalte </a></p>
-</div>
-<div id="collapseOneList" class="collapse" role="tabpanel" aria-labelledby="headingOne">
-<div class="card-block">
-<ul class="icon-list list-unstyled">
-<li>
-<i class="ion-checkmark-round"></i> Idiome und Entwurfsmuster
-</li>
-<li>
-<i class="ion-checkmark-round"></i> Architekturen für spezifische Zwecke, wie verteilte Dialoganwendungen, autonome Systeme, Batchanwendungen, Webservices
-</li>
-<li>
-<i class="ion-checkmark-round"></i> Werkzeuge und Verfahren
-</li>
-<li>
-<i class="ion-checkmark-round"></i> Frameworks zur Konstruktion von Softwaresystemen
-</li>
+<div class="span6">
+<h2 id="folien">Folien</h2>
+<ul>
+<li>Idiome (<a href="https://dl.dropboxusercontent.com/u/13563262/lectures/sa/presentation/01_Idiome.html">Slides</a>, <a href="https://dl.dropboxusercontent.com/u/13563262/lectures/sa/html/01_Idiome.html">HTML</a>, <a href="https://dl.dropboxusercontent.com/u/13563262/lectures/sa/pdf/01_Idiome.pdf">PDF</a>)</li>
+<li>Design Patterns (<a href="https://dl.dropboxusercontent.com/u/13563262/lectures/sa/presentation/02_DesignPatterns.html">Slides</a>, <a href="https://dl.dropboxusercontent.com/u/13563262/lectures/sa/html/02_DesignPatterns.html">HTML</a>, <a href="https://dl.dropboxusercontent.com/u/13563262/lectures/sa/pdf/02_DesignPatterns.pdf">PDF</a>)</li>
+<li>REST (<a href="https://dl.dropboxusercontent.com/u/13563262/lectures/sa/presentation/03_REST.html">Slides</a>, <a href="https://dl.dropboxusercontent.com/u/13563262/lectures/sa/html/03_REST.html">HTML</a>, <a href="https://dl.dropboxusercontent.com/u/13563262/lectures/sa/pdf/03_REST.pdf">PDF</a>)</li>
+<li>Actors (<a href="https://dl.dropboxusercontent.com/u/13563262/lectures/sa/presentation/04_Actors.html">Slides</a>, <a href="https://dl.dropboxusercontent.com/u/13563262/lectures/sa/html/04_Actors.html">HTML</a>, <a href="https://dl.dropboxusercontent.com/u/13563262/lectures/sa/pdf/04_Actors.pdf">PDF</a>)</li>
+<li>Streams (<a href="https://dl.dropboxusercontent.com/u/13563262/lectures/sa/presentation/05_Streams.html">Slides</a>, <a href="https://dl.dropboxusercontent.com/u/13563262/lectures/sa/html/05_Streams.html">HTML</a>, <a href="https://dl.dropboxusercontent.com/u/13563262/lectures/sa/pdf/05_Streams.pdf">PDF</a>)</li>
+<li>STM (<a href="https://dl.dropboxusercontent.com/u/13563262/lectures/sa/presentation/06_STM.html">Slides</a>, <a href="https://dl.dropboxusercontent.com/u/13563262/lectures/sa/html/06_STM.html">HTML</a>, <a href="https://dl.dropboxusercontent.com/u/13563262/lectures/sa/pdf/06_STM.pdf">PDF</a>)</li>
 </ul>
-</div>
-</div>
-</div>
-<!-- }}} card 1 end -->
-<!-- {{{ card 2: Scheinerwerb -->
-<div class="card">
-<div id="headingTwo" class="card-header accordion-header" role="tab">
-<p><a class="collapsed" data-toggle="collapse" data-parent="#card-accordion-simple" href="#collapseTwoList" aria-expanded="false" aria-controls="collapseTwoList"> Scheinerwerb </a></p>
-</div>
-<div id="collapseTwoList" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
-<div class="card-block">
-<p>Für den Zulassungsschein müssen Sie eine Web-Applikation in Vierergruppen mit dem <a href="https://www.playframework.com/">Play Framework</a> in der Programmiersprache <a href="http://scala-lang.org/">Scala</a> erstellen. Die genauen Anforderungen entnehmen Sie dem <a href="/dropbox/lectures/sa/exercises/Blatt03.pdf">Anforderungsdokument</a>.</p>
-</div>
-</div>
-</div>
-<p><!-- card 2 end --></p>
-<!-- card 3 -->
-<div class="card">
-<div id="headingThree" class="card-header accordion-header" role="tab">
-<p><a class="collapsed" data-toggle="collapse" data-parent="#card-accordion-simple" href="#collapseThreeList" aria-expanded="false" aria-controls="collapseThreeList"> Prüfung </a></p>
-</div>
-<div id="collapseThreeList" class="collapse" role="tabpanel" aria-labelledby="headingThree">
-<div class="card-block">
+<h2 id="schein">Schein</h2>
+<p>Für den Zulassungsschein müssen Sie eine Web-Applikation in Vierergruppen mit dem <a href="https://www.playframework.com/">Play Framework</a> in der Programmiersprache <a href="http://scala-lang.org/">Scala</a> erstellen. Die genauen Anforderungen entnehmen Sie dem Anforderungsdokument (<a href="https://dl.dropboxusercontent.com/u/13563262/lectures/sa/html/WebApp.html">HTML</a>, <a href="https://dl.dropboxusercontent.com/u/13563262/lectures/sa/pdf/WebApp.pdf">PDF</a>).</p>
+<h2 id="mündliche-prüfung">Mündliche Prüfung</h2>
 <p>Gegenstand der mündlichen Prüfung ist der gesamte in der Vorlesung behandelte Stoff, soweit nicht anders vereinbart.</p>
 </div>
 </div>
-</div>
-<!-- }}} card 3 end -->
-</div>
-<p><!-- accordion end --></p>
-</div>
-<!-- sidebar-box end -->
-</div>
-<!-- sidebar end -->
-<!-- }}} -->
-<!-- {{{ Right contents -->
-<div class="col-md-8">
-<!-- {{{ Tab Titel -->
-<ul class="nav-tabs nav" role="tablist">
-<li class="nav-item">
-<a class="ion-ios-book active nav-link" href="#Vorlesung" data-taget="#Vorlesung" role="tab" data-toggle="tab"> Vorlesung </a>
-</li>
-<li class="nav-item">
-<a class=" ion-ios-monitor nav-link" href="#Praktikum" data-taget="#Praktikum" role="tab" data-toggle="tab"> Praktikum </a>
-</li>
-<li class="nav-item">
-<a class=" ion-ios-cloud-download nav-link" href="#Slides" data-taget="#Slides" role="tab" data-toggle="tab"> Slides und Handouts </a>
-</li>
-<li class="nav-item">
-<a class=" ion-ios-cloud-download nav-link" href="#Exercises" data-taget="#Exercises" role="tab" data-toggle="tab"> Aufgabenblätter </a>
-</li>
-</ul>
-<!-- }}} -->
-<!-- {{{ Tab contents -->
-<div class="tab-content">
-<!-- {{{ Tab: Vorlesung -->
-<div class="space-30">
+          </div>
+        </div>
 
-</div>
-<div role="tabpanel" class="tab-pane show active fade" id="Vorlesung" aria-expanded="true">
 
-<h5>
-Zeit und Raum
-</h5>
-<hr />
-<div class="row">
-<div class="col-md-2">
-xx.xx.xx
-</div>
-<div class="col-md-10">
-tba
-</div>
-</div>
-<!-- row end -->
-<hr />
-</div>
-<!-- tab-panel end -->
-<!-- }}} -->
-<!-- {{{ Tab: Praktikum -->
-<div role="tabpanel" class="tab-pane fade" id="Praktikum" aria-expanded="false">
-
-<h5>
-Teilgruppe 1: Zeit und Raum
-</h5>
-<h5>
-Teilgruppe 2: Zeit und Raum
-</h5>
-<hr />
-<div class="row">
-<div class="col-md-2">
-xx.xx.xx
-</div>
-<div class="col-md-2">
-xx.xx.xx
-</div>
-<div class="col-md-8">
-Blatt X
-</div>
-</div>
-<!-- row end -->
-<hr />
-</div>
-<!-- }}} -->
-<!-- {{{ Tab: Slides und Handouts -->
-<div id="Slides" class="tab-pane fade" role="tabpanel" aria-expanded="false">
-<div class="row">
-<div class="col-md-6 margin-btm-20">
-<div class="portfolio-sec">
-<div class="portfolio-thumnail">
-<p><a href="/dropbox/lectures/sa/slides/01_Idiome.pdf"> <img src="/dropbox/lectures/sa/slides/01_Idiome.png" class="img-fluid" alt></a></p>
-</div>
-<div class="portfolio-desc text-center">
-<h4 class="portfolio-post-title">
-Idiome
-</h4>
-<a class="portfolio-post-cat" href="/dropbox/lectures/sa/slides/01_Idiome.json">changelog</a>
-<h4>
-<a href="/dropbox/lectures/sa/slides/01_Idiome.pdf" class="btn theme-btn-default btn-lg">Slides</a> <a href="/dropbox/lectures/sa/handouts/01_Idiome.pdf" class="btn theme-btn-default btn-lg">Handout</a>
-</h4>
-</div>
-<!-- portfolio-desc end -->
-</div>
-<!-- portfolio-sec end -->
-</div>
-<!-- col-md-6 end -->
-<div class="col-md-6 margin-btm-20">
-<div class="portfolio-sec">
-<div class="portfolio-thumnail">
-<p><a href="/dropbox/lectures/sa/slides/02_DesignPatterns.pdf"> <img src="/dropbox/lectures/sa/slides/02_DesignPatterns.png" class="img-fluid" alt></a></p>
-</div>
-<div class="portfolio-desc text-center">
-<h4 class="portfolio-post-title">
-Design Patterns
-</h4>
-<a class="portfolio-post-cat" href="/dropbox/lectures/sa/slides/02_DesignPatterns.json">changelog</a>
-<h4>
-<a href="/dropbox/lectures/sa/slides/02_DesignPatterns.pdf" class="btn theme-btn-default btn-lg">Slides</a> <a href="/dropbox/lectures/sa/handouts/02_DesignPatterns.pdf" class="btn theme-btn-default btn-lg">Handout</a>
-</h4>
-</div>
-<!-- portfolio-desc end -->
-</div>
-<!-- portfolio-sec end -->
-</div>
-<!-- col-md-6 end -->
-</div>
-<!-- row end -->
-<div class="row">
-<div class="col-md-6 margin-btm-20">
-<div class="portfolio-sec">
-<div class="portfolio-thumnail">
-<p><a href="/dropbox/lectures/sa/slides/03_REST.pdf"> <img src="/dropbox/lectures/sa/slides/03_REST.png" class="img-fluid" alt></a></p>
-</div>
-<div class="portfolio-desc text-center">
-<h4 class="portfolio-post-title">
-REST
-</h4>
-<a class="portfolio-post-cat" href="/dropbox/lectures/sa/slides/03_REST.json">changelog</a>
-<h4>
-<a href="/dropbox/lectures/sa/slides/03_REST.pdf" class="btn theme-btn-default btn-lg">Slides</a> <a href="/dropbox/lectures/sa/handouts/03_REST.pdf" class="btn theme-btn-default btn-lg">Handout</a>
-</h4>
-</div>
-<!-- portfolio-desc end -->
-</div>
-<!-- portfolio-sec end -->
-</div>
-<!-- col-md-6 end -->
-<div class="col-md-6 margin-btm-20">
-<div class="portfolio-sec">
-<div class="portfolio-thumnail">
-<p><a href="/dropbox/lectures/sa/slides/04_Actors.pdf"> <img src="/dropbox/lectures/sa/slides/04_Actors.png" class="img-fluid" alt></a></p>
-</div>
-<div class="portfolio-desc text-center">
-<h4 class="portfolio-post-title">
-Actors
-</h4>
-<a class="portfolio-post-cat" href="/dropbox/lectures/sa/slides/04_Actors.json">changelog</a>
-<h4>
-<a href="/dropbox/lectures/sa/slides/04_Actors.pdf" class="btn theme-btn-default btn-lg">Slides</a> <a href="/dropbox/lectures/sa/handouts/04_Actors.pdf" class="btn theme-btn-default btn-lg">Handout</a>
-</h4>
-</div>
-<!-- portfolio-desc end -->
-</div>
-<!-- portfolio-sec end -->
-</div>
-<!-- col-md-6 end -->
-</div>
-<!-- row end -->
-<div class="row">
-<div class="col-md-6 margin-btm-20">
-<div class="portfolio-sec">
-<div class="portfolio-thumnail">
-<p><a href="/dropbox/lectures/sa/slides/05_Streams.pdf"> <img src="/dropbox/lectures/sa/slides/05_Streams.png" class="img-fluid" alt></a></p>
-</div>
-<div class="portfolio-desc text-center">
-<h4 class="portfolio-post-title">
-Streams
-</h4>
-<a class="portfolio-post-cat" href="/dropbox/lectures/sa/slides/05_Streams.json">changelog</a>
-<h4>
-<a href="/dropbox/lectures/sa/slides/05_Streams.pdf" class="btn theme-btn-default btn-lg">Slides</a> <a href="/dropbox/lectures/sa/handouts/05_Streams.pdf" class="btn theme-btn-default btn-lg">Handout</a>
-</h4>
-</div>
-<!-- portfolio-desc end -->
-</div>
-<!-- portfolio-sec end -->
-</div>
-<!-- col-md-6 end -->
-<div class="col-md-6 margin-btm-20">
-<div class="portfolio-sec">
-<div class="portfolio-thumnail">
-<p><a href="/dropbox/lectures/sa/slides/06_STM.pdf"> <img src="/dropbox/lectures/sa/slides/06_STM.png" class="img-fluid" alt></a></p>
-</div>
-<div class="portfolio-desc text-center">
-<h4 class="portfolio-post-title">
-STM
-</h4>
-<a class="portfolio-post-cat" href="/dropbox/lectures/sa/slides/06_STM.json">changelog</a>
-<h4>
-<a href="/dropbox/lectures/sa/slides/06_STM.pdf" class="btn theme-btn-default btn-lg">Slides</a> <a href="/dropbox/lectures/sa/handouts/06_STM.pdf" class="btn theme-btn-default btn-lg">Handout</a>
-</h4>
-</div>
-<!-- portfolio-desc end -->
-</div>
-<!-- portfolio-sec end -->
-</div>
-<!-- col-md-6 end -->
-</div>
-<!-- row end -->
-</div>
-<!-- tabpanel Slides end -->
-<!-- }}} -->
-<!-- {{{ Tab: Aufgabenblätter -->
-<div id="Exercises" class="tab-pane fade" role="tabpanel" aria-expanded="false">
-<div class="row">
-<div class="col-md-6 margin-btm-20">
-<div class="portfolio-sec">
-<div class="portfolio-thumnail">
-<p><a href="/dropbox/lectures/sa/exercises/Blatt01.pdf"> <img src="/dropbox/lectures/sa/exercises/Blatt01.png" class="img-fluid" alt> </a></p>
-</div>
-<div class="portfolio-desc text-center">
-<h4 class="portfolio-post-title">
-Blatt 1
-</h4>
-<a class="portfolio-post-cat" href="/dropbox/lectures/sa/exercises/Blatt01.json">changelog</a>
-<h4>
-<a href="/dropbox/lectures/sa/exercises/Blatt01.pdf" class="btn theme-btn-default btn-lg"> PDF </a>
-</h4>
-</div>
-<!-- portfolio-desc end -->
-</div>
-<!-- portfolio-sec end -->
-</div>
-<!-- col-md-6 end -->
-<div class="col-md-6 margin-btm-20">
-<div class="portfolio-sec">
-<div class="portfolio-thumnail">
-<p><a href="/dropbox/lectures/sa/exercises/Blatt02.pdf"> <img src="/dropbox/lectures/sa/exercises/Blatt02.png" class="img-fluid" alt> </a></p>
-</div>
-<div class="portfolio-desc text-center">
-<h4 class="portfolio-post-title">
-Blatt 2
-</h4>
-<a class="portfolio-post-cat" href="/dropbox/lectures/sa/exercises/Blatt02.json">changelog</a>
-<h4>
-<a href="/dropbox/lectures/sa/exercises/Blatt02.pdf" class="btn theme-btn-default btn-lg"> PDF </a>
-</h4>
-</div>
-<!-- portfolio-desc end -->
-</div>
-<!-- portfolio-sec end -->
-</div>
-<!-- col-md-6 end -->
-</div>
-<!-- row end -->
-<div class="row">
-<div class="col-md-6 margin-btm-20">
-<div class="portfolio-sec">
-<div class="portfolio-thumnail">
-<p><a href="/dropbox/lectures/sa/exercises/Blatt03.pdf"> <img src="/dropbox/lectures/sa/exercises/Blatt03.png" class="img-fluid" alt> </a></p>
-</div>
-<div class="portfolio-desc text-center">
-<h4 class="portfolio-post-title">
-Blatt 3
-</h4>
-<a class="portfolio-post-cat" href="/dropbox/lectures/sa/exercises/Blatt03.json">changelog</a>
-<h4>
-<a href="/dropbox/lectures/sa/exercises/Blatt03.pdf" class="btn theme-btn-default btn-lg"> PDF </a>
-</h4>
-</div>
-<!-- portfolio-desc end -->
-</div>
-<!-- portfolio-sec end -->
-</div>
-<!-- col-md-6 end -->
-</div>
-<!-- row end -->
-</div>
-<!-- }}} -->
-</div>
-<!-- }}} -->
-</div>
-<!-- }}} -->
-</div>
-</div>
-  </div>
-</div>
-
-<div class="space-70"></div>
-<div>
-  <div class="row">
-    <div class="col-md-12 text-center">
-      <span>
-          Generated with <a href="http://jaspervdj.be/hakyll">Hakyll</a> on
-          <a href="https://travis-ci.org/obcode/ob.cs.hm.edu">Travic CI</a>
-          |
-          Fork me on <a href="https://github.com/obcode/ob.cs.hm.edu">GitHub</a>
-        </span>
-        <div></div>
-      <span>&copy; 2017 Oliver Braun | <a href="../impressum.html">Impressum</a></span>
+<!-- Footer start -->
+    <div id="copywrite">
+      <div class="container">
+        <div class="row">
+              <div class="span12">
+                  <p>&copy; 2017 Oliver Braun | <a href="../impressum.html">Impressum</a>
+                  <span class="pull-right">
+                      Generated with <a href="http://jaspervdj.be/hakyll">Hakyll</a> on
+                      <a href="https://travis-ci.org/obcode/ob.cs.hm.edu">Travic CI</a>
+                      <img href="https://travis-ci.org/obcode/ob.cs.hm.edu.svg?branch=master" />
+                      Fork me on
+                      <a href="https://github.com/obcode/ob.cs.hm.edu">GitHub</a>
+                  </span></p>
+              </div>
+            </div>
+      </div>
     </div>
-  </div>
-</div>
-
-<!-- jQuery plugins. -->
-<script src="../assets/js/plugins/plugins.js"></script>
-<script src="../assets/js/app.js"></script>
-
-<script src="../assets/cubeportfolio/js/jquery.cubeportfolio.min.js"></script>
-<script>
-  (function($, window, document, undefined) {
-    'use strict';
-
-    // init cubeportfolio
-    $('#js-grid-awesome-work').cubeportfolio({
-      filters: '#js-filters-awesome-work',
-      layoutMode: 'grid',
-      defaultFilter: '*',
-      animationType: 'scaleSides',
-      gapHorizontal: 30,
-      gapVertical: 30,
-      gridAdjustment: 'responsive',
-      mediaQueries: [{
-        width: 1500,
-        cols: 4
-      }, {
-        width: 1100,
-        cols: 3
-      }, {
-        width: 480,
-        cols: 2,
-        options: {
-          gapHorizontal: 15,
-          gapVertical: 15
-        }
-      }],
-      caption: 'zoom',
-      displayType: 'fadeIn',
-      displayTypeSpeed: 400,
-      // singlePage popup
-      singlePageDelegate: '.cbp-singlePage',
-      singlePageDeeplinking: true,
-      singlePageStickyNavigation: true,
-      singlePageCounter: '<div class="cbp-popup-singlePage-counter">{{current}} of {{total}}</div>'
-    });
-  })(jQuery, window, document);
-</script>
-
-
-</body>
+<!-- Footer end -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery-1.8.3.min.js"><\/script>')</script>
+    <script src="../js/bootstrap.min.js"></script>
+    </body>
 </html>
