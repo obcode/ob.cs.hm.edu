@@ -1,280 +1,765 @@
 <!DOCTYPE html>
 <html lang="de">
-    <head>
-        <meta charset="utf-8">
-        <title>Oliver Braun - Software Engineering II (IB)</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Website Prof. Dr. Oliver Braun">
-        <meta name="author" content="Oliver Braun">
-        <link href="../css/bootstrap.min.css" rel="stylesheet">
-        <link href="../css/bootstrap-responsive.min.css" rel="stylesheet">
-        <link href="../css/glyphicons.css" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300" rel="stylesheet" type="text/css">
-        <link href="../css/base.css" rel="stylesheet">
-        <link href="../css/blue.css" rel="stylesheet">
-        <!--[if lt IE 9]>
-          <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
-        <link rel="shortcut icon" href="../img/ico/favicon.ico">
-        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../img/ico/favicon.ico">
-        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../img/ico/favicon.ico">
-        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../img/ico/favicon.ico">
-        <link rel="apple-touch-icon-precomposed" href="../img/ico/favicon.ico">
-    </head>
-    <body>
-<!-- Navigation start -->
-    <div class="navbar navbar-fixed-top">
-      <div class="navbar-inner">
-        <div class="container">
-          <a class="btn btn-primary btn-dropnav" data-toggle="collapse" data-target=".nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </a>
-          <a class="brand" href="../">ob.cs.hm.edu</a>
-          <div class="nav-collapse collapse">
-            <ul class="nav pull-right animated">
-              <li class="dropdown">
-                <a class="dropdown-toggle" data-toggle="dropdown" role="button" href="../lectures">Lehrveranstaltungen <b class="caret"></b></a>
-                <ul class="dropdown-menu" role="menu">
-                  <li><a href="../lectures/algdat.html" tabindex="-1">Algorithmen und Datenstrukturen I</a></li>
-                  <li><a href="../lectures/algdatii.html" tabindex="-1">Algorithmen und
-                          Datenstrukturen II</a></li>
-                  <li><a href="../lectures/compiler.html" tabindex="-1">Compiler</a></li>
-                  <li><a href="../lectures/fun.html" tabindex="-1">Funktionale Programmierung</a></li>
-                  <li><a href="../lectures/sa.html" tabindex="-1">Software-Architektur</a></li>
-                  <li><a href="../lectures/seiib.html" tabindex="-1">Softwareentwicklung I (IB)</a></li>
-                  <li><a href="../lectures/seiiib.html" tabindex="-1">Softwareentwicklung II (IB)</a></li>
-                  <li><a href="../lectures/swengiib.html" tabindex="-1">Software Engineering I (IB)</a></li>
-                  <li><a href="../lectures/swengiiib.html" tabindex="-1">Software Engineering II (IB)</a></li>
-                  <li><a href="../lectures/webtech.html" tabindex="-1">Web-Techniken</a></li>
-                  <li><a href="../lectures/webtechFK12.html" tabindex="-1">Web-Techniken (mit FK12)</a></li>
-                </ul>
-              </li>
-              <li><a href="../misc/theses.html">Abschlussarbeiten</a></li>
-              <li><a href="https://terraform.cs.hm.edu/jenkins/blue/">Jenkins</a></li>
-              <li><a href="../about.html">Oliver Braun</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Oliver Braun - Software Engineering II (IB)</title>
+  <!--plugins-->
+  <link href="../assets/css/plugins/plugins.css" rel="stylesheet">
+  
+  <!--cube portfolio-->
+  <link href="../assets/cubeportfolio/css/cubeportfolio.min.css" rel="stylesheet">
+  
+  <!--Custom css-->
+  <link href="../assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+<div id="preloader">
+  <div id="preloader-inner"></div>
+</div>
+<!--/preloader-->
+
+<nav class="navbar navbar-toggleable-sm navbar-light bg-faded yamm">
+  <div class="container">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+    <a class="navbar-brand" href="../index.html">ob.cs.hm.edu</a>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="nav navbar-nav ml-auto">
+        <li class="dropdown nav-item">
+          <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">WS 17/18</a>
+          <ul class="dropdown-menu dropdown-menu-right">
+            <li><a href="../lectures/algdati.html" class="dropdown-item">Algorithmen und Datenstrukturen I</a></li>
+            <li><a href="../lectures/fun.html" class="dropdown-item">Funktionale Programmierung</a></li>
+            <li><a href="../lectures/seiib.html" class="dropdown-item">Softwareentwicklung I (IB)</a></li>
+          </ul>
+        </li>
+        <li class="dropdown nav-item">
+          <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">Lehre</a>
+          <ul class="dropdown-menu dropdown-menu-right">
+            <li><a href="../lectures/algdati.html" class="dropdown-item">Algorithmen und Datenstrukturen I</a></li>
+            <li><a href="../lectures/algdatii.html" class="dropdown-item">Algorithmen und Datenstrukturen II</a></li>
+            <li><a href="../lectures/compiler.html" class="dropdown-item">Compiler</a></li>
+            <li><a href="../lectures/fun.html" class="dropdown-item">Funktionale Programmierung</a></li>
+            <li><a href="../lectures/sa.html" class="dropdown-item">Software-Architektur</a></li>
+            <li><a href="../lectures/seiib.html" class="dropdown-item">Softwareentwicklung I (IB)</a></li>
+            <li><a href="../lectures/seiiib.html" class="dropdown-item">Softwareentwicklung II (IB)</a></li>
+            <li><a href="../lectures/swengiib.html" class="dropdown-item">Software Engineering I (IB)</a></li>
+            <li><a href="../lectures/swengiiib.html" class="dropdown-item">Software Engineering II (IB)</a></li>
+            <li><a href="../lectures/webtech.html" class="dropdown-item">Web-Techniken</a></li>
+            <li><a href="../lectures/webtechFK12.html" class="dropdown-item">Web-Techniken (mit FK12)</a></li>
+          </ul>
+        </li>
+        <li class=" dropdown nav-item">
+          <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">Misc</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="https://terraform.cs.hm.edu/jenkins/blue/">Jenkins</a></li>
+            <li><a class="dropdown-item" href="../about.html">Kontakt</a></li>
+          </ul>
+        </li>
+
+        <li class="social-nav nav-item"><a href="https://github.com/obcode" class="nav-link"><i class="ion-social-github" data-toggle="tooltip" data-placement="bottom" title data-original-title="obcode @ GitHub"></i></a></li>
+        <li class="social-nav nav-item"><a href="https://twitter.com/obcode" class="nav-link"><i class="ion-social-twitter" data-toggle="tooltip" data-placement="bottom" title data-original-title="@obcode"></i></a></li>
+        <li class="social-nav nav-item"><a href="https://www.linkedin.com/in/obcode/" class="nav-link"><i class="ion-social-linkedin" data-toggle="tooltip" data-placement="bottom" title data-original-title="LinkedIn"></i></a></li>
+      </ul>
     </div>
-<!-- Navigation end -->
-
-        <div id="landing">
-          <div class="container">
-            <div class="row">
-                  <div class="span7">
-                      <h1><a href="http://fi.cs.hm.edu/fi/rest/public/modul/title/softwareengineeringiiib">Software Engineering II (IB)</a></h1>
-                      <h4>Sommersemester 2017</h4>
-                  </div>
-                  <div class="span1">&nbsp;
-                  </div>
-                  <div class="span4">
-                    <img alt src="../img/Marokko.jpg" width="300" height="150" />
-                  </div>
-                </div>
-          </div>
-        </div>
-
-        <div id="content">
-          <div class="container">
-            <div class="row">
-<div class="span6">
-<h1 id="vorlesung">Vorlesung</h1>
-<h2 id="slides">Slides</h2>
-<ul>
-<li><a href="../dropbox/lectures/swengiiib/slides/01_Testen_Modultests.pdf">Testen von Software / Modultests</a> [<a href="../dropbox/lectures/swengiiib/handouts/01_Testen_Modultests.pdf">Handout</a>]</li>
-<li><a href="../dropbox/lectures/swengiiib/slides/02_Testen_Scala_Play.pdf">Testen in Scala und Play</a> [<a href="../dropbox/lectures/swengiiib/handouts/02_Testen_Scala_Play.pdf">Handout</a>]</li>
-<li><a href="../dropbox/lectures/swengiiib/slides/03_TestenII.pdf">Testen II</a> [<a href="../dropbox/lectures/swengiiib/handouts/03_TestenII.pdf">Handout</a>]</li>
-<li><a href="../dropbox/lectures/swengiiib/slides/04_DesignPatterns.pdf">Design Patterns</a> [<a href="../dropbox/lectures/swengiiib/handouts/04_DesignPatterns.pdf">Handout</a>]</li>
-<li><a href="../dropbox/lectures/swengiiib/slides/05_Softwareevolution.pdf">Softwareevolution</a> [<a href="../dropbox/lectures/swengiiib/handouts/05_Softwareevolution.pdf">Handout</a>]</li>
-<li><a href="../dropbox/lectures/swengiiib/slides/06_Wiederverwendung.pdf">Wiederverwendung von Software</a> [<a href="../dropbox/lectures/swengiiib/handouts/06_Wiederverwendung.pdf">Handout</a>]</li>
-<li><a href="../dropbox/lectures/swengiiib/slides/07_SOA.pdf">Serviceorientierte Architekturen</a> [<a href="../dropbox/lectures/swengiiib/handouts/07_SOA.pdf">Handout</a>]</li>
-<li><a href="../dropbox/lectures/swengiiib/slides/08_REST.pdf">REST</a> [<a href="../dropbox/lectures/swengiiib/handouts/08_REST.pdf">Handout</a>]</li>
-</ul>
-<h2 id="termine-und-inhalte">Termine und Inhalte</h2>
-<table>
-<thead>
-<tr class="header">
-<th align="left">Termin</th>
-<th align="left">Inhalt</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">15.03.2017</td>
-<td align="left">Einführung und Testen/Modultests bis Folie 6</td>
-</tr>
-<tr class="even">
-<td align="left">22.03.2017</td>
-<td align="left">Testen/Modultests und Testen in Scala und Play bis Folie 5</td>
-</tr>
-<tr class="odd">
-<td align="left">05.04.2017</td>
-<td align="left">Testen in Scala und Play und Tests in PizzaInitial bis Folie 17</td>
-</tr>
-<tr class="even">
-<td align="left">26.04.2017</td>
-<td align="left">Testen in Scala und Play fertig inkl. Code</td>
-</tr>
-<tr class="odd">
-<td align="left">10.05.2017</td>
-<td align="left">Testen II</td>
-</tr>
-<tr class="even">
-<td align="left">17.05.2017</td>
-<td align="left">Design Patterns</td>
-</tr>
-<tr class="odd">
-<td align="left">31.05.2017</td>
-<td align="left">Softwareevolution</td>
-</tr>
-<tr class="even">
-<td align="left">07.06.2017</td>
-<td align="left">Wiederverwendung von Software</td>
-</tr>
-<tr class="odd">
-<td align="left">14.06.2017</td>
-<td align="left">Serviceorientierte Architekturen</td>
-</tr>
-<tr class="even">
-<td align="left">21.06.2017</td>
-<td align="left">REST</td>
-</tr>
-<tr class="odd">
-<td align="left">28.06.2017</td>
-<td align="left">Präsentationen der fertigen Webshops</td>
-</tr>
-<tr class="even">
-<td align="left"><del>05.07.2017</del></td>
-<td align="left">bereits Prüfungen in Pasing</td>
-</tr>
-</tbody>
-</table>
-<h2 id="klausur">Klausur</h2>
-<p>Gegenstand der Klausur ist der gesamte in Vorlesung und Praktikum behandelte Stoff, soweit nicht anders vereinbart. Die Klausur wird ohne Hilfsmittel geschrieben.</p>
-<ul>
-<li><a href="../dropbox/lectures/swengiiib/exams/KlausurSS15.pdf">Klausur vom 20.07.2015</a></li>
-<li><a href="../dropbox/lectures/swengiiib/exams/KlausurWS15.pdf">Klausur vom 01.02.2016</a></li>
-</ul>
-</div>
-<div class="span6">
-<h2 id="studienarbeit">Studienarbeit</h2>
-<p>Als Studienarbeit ist in Gruppen ein Projekt mit dem <a href="https://www.playframework.com/">Play Framework</a> in <a href="http://scala-lang.org/">Scala</a> anzufertigen. Genauere Informationen finden Sie hier: <a href="../dropbox/lectures/swengiiib/exercises/Studienarbeit.pdf">PDF</a></p>
-<p><a href="https://github.com/swenib/praktikum-SS17/wiki">Links zu den Ressourcen der Gruppen</a></p>
-<h2 id="termine-und-inhalte-1">Termine und Inhalte</h2>
-<h4 id="gruppen-1a-1b-2a-2b">Gruppen 1A, 1B, 2A, 2B:</h4>
-<ul>
-<li>Sprint 1: 30.03.2017 - 11.05.2017</li>
-<li>Sprint 2: 11.05.2017 - 22.06.2017</li>
-</ul>
-<h4 id="gruppen-1c-1d-2c-2d">Gruppen 1C, 1D, 2C, 2D:</h4>
-<ul>
-<li>Sprint 1: 06.04.2017 - 18.05.2017</li>
-<li>Sprint 2: 18.05.2017 - 29.06.2017</li>
-</ul>
-<table>
-<thead>
-<tr class="header">
-<th align="left">Termin</th>
-<th align="left">Inhalt</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">16.03.2017</td>
-<td align="left">Findung/Einteilung der Gruppen</td>
-</tr>
-<tr class="even">
-<td align="left">23.03.2017</td>
-<td align="left">mögliche Hilfestellungen bei Startphase</td>
-</tr>
-<tr class="odd">
-<td align="left">30.03.2017</td>
-<td align="left">Gruppe A und B: Planning Sprint 1: 45 Minuten</td>
-</tr>
-<tr class="even">
-<td align="left">06.04.2017</td>
-<td align="left">Gruppe C und D: Planning Sprint 1: 45 Minuten</td>
-</tr>
-<tr class="odd">
-<td align="left">20.04.2017</td>
-<td align="left">alle Gruppen: 15 Minuten “Daily Scrum”</td>
-</tr>
-<tr class="even">
-<td align="left">27.04.2017</td>
-<td align="left">alle Gruppen: 15 Minuten “Daily Scrum”</td>
-</tr>
-<tr class="odd">
-<td align="left">04.05.2017</td>
-<td align="left">alle Gruppen: 15 Minuten “Daily Scrum”</td>
-</tr>
-<tr class="even">
-<td align="left">11.05.2017</td>
-<td align="left">Gruppe A und B: Review und Retrospektive Sprint 1 und Planning Sprint 2, 45 Minuten</td>
-</tr>
-<tr class="odd">
-<td align="left">18.05.2017</td>
-<td align="left">Gruppe C und D: Review und Retrospektive Sprint 1 und Planning Sprint 2, 45 Minuten</td>
-</tr>
-<tr class="even">
-<td align="left">01.06.2017</td>
-<td align="left">alle Gruppen: 15 Minuten “Daily Scrum”</td>
-</tr>
-<tr class="odd">
-<td align="left">08.06.2017</td>
-<td align="left">alle Gruppen: 15 Minuten “Daily Scrum”</td>
-</tr>
-<tr class="even">
-<td align="left">22.06.2017</td>
-<td align="left">Gruppe A und B: Review und Retrospective Sprint 2, 45 Minuten</td>
-</tr>
-<tr class="odd">
-<td align="left">29.06.2017</td>
-<td align="left">Gruppe C und D: Review und Retrospective Sprint 2, 45 Minuten</td>
-</tr>
-</tbody>
-</table>
-<ul>
-<li>Die Gruppen A, B, C, D gibt es einmal je Praktikumsgruppe.</li>
-<li>Die o.a. Termine beziehen sich jeweils auf die Gruppen 1A und 2A, 1B und 2B, …</li>
-<li>Es beginnt immer die erstgenannte Gruppe, also 1A, 2A, 1C oder 2C.</li>
-</ul>
-<h2 id="links">Links</h2>
-<ul>
-<li><a href="http://scala-lang.org/">Scala</a></li>
-<li><a href="https://typesafe.com/">Typesafe</a></li>
-<li><a href="https://www.playframework.com/">Play Framework</a></li>
-<li><a href="http://scala-ide.org/">Scala IDE for Eclipse</a></li>
-<li><a href="http://www.jetbrains.com/idea/features/scala.html">IntelliJ IDEA</a></li>
-</ul>
-</div>
-</div>
-          </div>
-        </div>
+  </div>
+</nav>
+<!--nav end-->
 
 
-<!-- Footer start -->
-    <div id="copywrite">
-      <div class="container">
-        <div class="row">
-              <div class="span12">
-                  <p>&copy; 2017 Oliver Braun | <a href="../impressum.html">Impressum</a>
-                  <span class="pull-right">
-                      Generated with <a href="http://jaspervdj.be/hakyll">Hakyll</a> on
-                      <a href="https://travis-ci.org/obcode/ob.cs.hm.edu">Travic CI</a>
-                      <img href="https://travis-ci.org/obcode/ob.cs.hm.edu.svg?branch=master" />
-                      Fork me on
-                      <a href="https://github.com/obcode/ob.cs.hm.edu">GitHub</a>
-                  </span></p>
-              </div>
+<section id="slider-sec" class="slider-reg">
+  <div class="main-flex-slider">
+    <ul class="slides">
+      <li>
+        <figure>
+          <img src="../assets/img/swengiiib.jpg" class="img-fluid" alt="slider-img-1">
+          <figcaption class="slider-overlay ">
+            <div class="slider-text animated fadeInDown">
+              <h1>Software Engineering II (IB)</h1>
+              <p>
+                Sommersemester 2017
+              </p>
             </div>
-      </div>
+          </figcaption>
+        </figure>
+      </li>
+    </ul>
+  </div>
+</section>
+<div class="space-70"></div>
+<div class="container">
+  <div class="row">
+    <div class="container">
+<div class="row">
+<!-- {{{ Left sidebar  -->
+<div class="col-md-4">
+<div class="sidebar-box">
+<div id="card-accordion-simple" class="card-accordion card-accordion-simple card-accordion-icons-left mb80" role="tablist" aria-multiselectable="true">
+<!-- {{{ card 0: Links -->
+<div class="card">
+<div id="headingZero" class="card-header accordion-header" role="tab">
+<p><a data-toggle="collapse" data-parent="#card-accordion-simple" href="#collapseZeroList" aria-expanded="true" aria-controls="collapseZeroList"> Links </a></p>
+</div>
+<div id="collapseZeroList" class="collapse show" role="tabpanel" aria-labelledby="headingZero">
+<div class="card-block">
+<ul class="icon-list list-unstyled">
+<li>
+<i class="ion-link"></i> <a href="https://github.com/swenib">swenib @ GitHub</a>
+</li>
+<li>
+<i class="ion-link"></i> <a href="https://w3-o.cs.hm.edu:8000/public/module/223/">Modulbeschreibung</a>
+</li>
+<li>
+<i class="ion-link"></i> <a href="https://github.com/swenib/praktikum-SS17/wiki">Links zu den Ressourcen der Gruppen</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<!-- }}} card 0 end -->
+<!-- {{{ card 1: Ziele / Inhalte -->
+<div class="card">
+<div id="headingOne" class="card-header accordion-header" role="tab">
+<p><a class="collapsed" data-toggle="collapse" data-parent="#card-accordion-simple" href="#collapseOneList" aria-expanded="false" aria-controls="collapseOneList"> Ziele / Inhalte </a></p>
+</div>
+<div id="collapseOneList" class="collapse" role="tabpanel" aria-labelledby="headingOne">
+<div class="card-block">
+<ul class="icon-list list-unstyled">
+<li>
+<i class="ion-checkmark-round"></i> Verifikation und Test
+</li>
+<li>
+<i class="ion-checkmark-round"></i> Design Patterns
+</li>
+<li>
+<i class="ion-checkmark-round"></i> Evolution und Wiederverwendung von Software
+</li>
+<li>
+<i class="ion-checkmark-round"></i> Verteilte Architekturen
+</li>
+</ul>
+</div>
+</div>
+</div>
+<!-- }}} card 1 end -->
+<!-- {{{ card 2: Scheinerwerb -->
+<div class="card">
+<div id="headingTwo" class="card-header accordion-header" role="tab">
+<p><a class="collapsed" data-toggle="collapse" data-parent="#card-accordion-simple" href="#collapseTwoList" aria-expanded="false" aria-controls="collapseTwoList"> Studienarbeit </a></p>
+</div>
+<div id="collapseTwoList" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
+<div class="card-block">
+<p>Als Studienarbeit ist in Gruppen ein Projekt mit dem <a href="https://www.playframework.com/">Play Framework</a> in <a href="http://scala-lang.org/">Scala</a> anzufertigen.</p>
+<p>Genauere Informationen finden Sie hier: <a href="/dropbox/lectures/swengiiib/exercises/Studienarbeit.pdf">PDF</a></p>
+</div>
+</div>
+</div>
+<!-- }}} card 2 end -->
+<!-- {{{ card 3: Prüfung -->
+<div class="card">
+<div id="headingThree" class="card-header accordion-header" role="tab">
+<p><a class="collapsed" data-toggle="collapse" data-parent="#card-accordion-simple" href="#collapseThreeList" aria-expanded="false" aria-controls="collapseThreeList"> Prüfung </a></p>
+</div>
+<div id="collapseThreeList" class="collapse" role="tabpanel" aria-labelledby="headingThree">
+<div class="card-block">
+<p>Gegenstand der Klausur ist der gesamte in Vorlesung und Praktikum behandelte Stoff, soweit nicht anders vereinbart. Die Klausur wird ohne Hilfsmittel geschrieben.</p>
+<ul class="icon-list list-unstyled">
+<li>
+<i class="ion-compose"></i> <a href="/dropbox/lectures/swengiiib/exams/KlausurSS15.pdf">Klausur vom 20.07.2015</a>
+</li>
+<li>
+<i class="ion-compose"></i> <a href="/dropbox/lectures/swengiiib/exams/KlausurWS15.pdf">Klausur vom 01.02.2016</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<!-- }}} card 3 end -->
+</div>
+<p><!-- accordion end --></p>
+</div>
+<!-- sidebar-box end -->
+</div>
+<!-- sidebar end -->
+<!-- }}} -->
+<!-- {{{ Right contents -->
+<div class="col-md-8">
+<!-- {{{ Tab Titel -->
+<ul class="nav-tabs nav" role="tablist">
+<li class="nav-item">
+<a class="ion-ios-book active nav-link" href="#Vorlesung" data-taget="#Vorlesung" role="tab" data-toggle="tab"> Vorlesung </a>
+</li>
+<li class="nav-item">
+<a class=" ion-ios-monitor nav-link" href="#Praktikum" data-taget="#Praktikum" role="tab" data-toggle="tab"> Praktikum </a>
+</li>
+<li class="nav-item">
+<a class=" ion-ios-cloud-download nav-link" href="#Slides" data-taget="#Slides" role="tab" data-toggle="tab"> Slides und Handouts </a>
+</li>
+<li class="nav-item">
+<a class=" ion-ios-cloud-download nav-link" href="#Exercises" data-taget="#Exercises" role="tab" data-toggle="tab"> Aufgabenblätter </a>
+</li>
+</ul>
+<!-- }}} -->
+<!-- {{{ Tab contents -->
+<div class="tab-content">
+<!-- {{{ Tab: Vorlesung -->
+<div class="space-30">
+
+</div>
+<div role="tabpanel" class="tab-pane show active fade" id="Vorlesung" aria-expanded="true">
+
+<h5>
+mittwochs, 08:15-09:45, R0.007
+</h5>
+<hr />
+<div class="row">
+<div class="col-md-2">
+15.03.17
+</div>
+<div class="col-md-10">
+Einführung und Testen/Modultests bis Folie 6
+</div>
+</div>
+<!-- row end -->
+<hr />
+<div class="row">
+<div class="col-md-2">
+22.03.17
+</div>
+<div class="col-md-10">
+Testen/Modultests und Testen in Scala und Play bis Folie 5
+</div>
+</div>
+<!-- row end -->
+<hr />
+<div class="row">
+<div class="col-md-2">
+05.04.17
+</div>
+<div class="col-md-10">
+Testen in Scala und Play und Tests in PizzaInitial bis Folie 17
+</div>
+</div>
+<!-- row end -->
+<hr />
+<div class="row">
+<div class="col-md-2">
+26.04.17
+</div>
+<div class="col-md-10">
+Testen in Scala und Play fertig inkl. Code
+</div>
+</div>
+<!-- row end -->
+<hr />
+<div class="row">
+<div class="col-md-2">
+10.05.17
+</div>
+<div class="col-md-10">
+Testen II
+</div>
+</div>
+<!-- row end -->
+<hr />
+<div class="row">
+<div class="col-md-2">
+17.05.17
+</div>
+<div class="col-md-10">
+Design Patterns
+</div>
+</div>
+<!-- row end -->
+<hr />
+<div class="row">
+<div class="col-md-2">
+31.05.17
+</div>
+<div class="col-md-10">
+Softwareevolution
+</div>
+</div>
+<!-- row end -->
+<hr />
+<div class="row">
+<div class="col-md-2">
+07.06.17
+</div>
+<div class="col-md-10">
+Wiederverwendung von Software
+</div>
+</div>
+<!-- row end -->
+<hr />
+<div class="row">
+<div class="col-md-2">
+14.06.17
+</div>
+<div class="col-md-10">
+Serviceorientierte Architekturen
+</div>
+</div>
+<!-- row end -->
+<hr />
+<div class="row">
+<div class="col-md-2">
+21.06.17
+</div>
+<div class="col-md-10">
+REST
+</div>
+</div>
+<!-- row end -->
+<hr />
+<div class="row">
+<div class="col-md-2">
+28.06.17
+</div>
+<div class="col-md-10">
+Präsentationen der fertigen Webshops
+</div>
+</div>
+<!-- row end -->
+<hr />
+</div>
+<!-- tab-panel end -->
+<!-- }}} -->
+<!-- {{{ Tab: Praktikum -->
+<div role="tabpanel" class="tab-pane fade" id="Praktikum" aria-expanded="false">
+
+<h5>
+Teilgruppe 1: donnerstags, 13:30-15:00, R3.021
+</h5>
+<h5>
+Teilgruppe 2: donnerstags, 08:15-09:45, R2.012
+</h5>
+<hr />
+<h5>
+Gruppen 1A, 1B, 2A, 2B
+</h5>
+<ul class="icon-list list-unstyled">
+<li>
+<i class="ion-clock"></i> Sprint 1: 30.03.2017 - 11.05.2017
+</li>
+<li>
+<i class="ion-clock"></i> Sprint 2: 11.05.2017 - 22.06.2017
+</li>
+</ul>
+<hr />
+<h5>
+Gruppen 1C, 1D, 2C, 2D
+</h5>
+<ul class="icon-list list-unstyled">
+<li>
+<i class="ion-clock"></i> Sprint 1: 06.04.2017 - 18.05.2017
+</li>
+<li>
+<i class="ion-clock"></i> Sprint 2: 18.05.2017 - 29.06.2017
+</li>
+</ul>
+<hr />
+<div class="row">
+<div class="col-md-2">
+16.03.17
+</div>
+<div class="col-md-10">
+Findung/Einteilung der Gruppen
+</div>
+</div>
+<!-- row end -->
+<hr />
+<div class="row">
+<div class="col-md-2">
+23.03.17
+</div>
+<div class="col-md-10">
+Hilfestellung bei Startphase
+</div>
+</div>
+<!-- row end -->
+<hr />
+<div class="row">
+<div class="col-md-2">
+30.03.17
+</div>
+<div class="col-md-10">
+Gruppe A und B: Planning Sprint 1: 45 Minuten
+</div>
+</div>
+<!-- row end -->
+<hr />
+<div class="row">
+<div class="col-md-2">
+06.04.17
+</div>
+<div class="col-md-10">
+Gruppe C und D: Planning Sprint 1: 45 Minuten
+</div>
+</div>
+<!-- row end -->
+<hr />
+<div class="row">
+<div class="col-md-2">
+20.04.17
+</div>
+<div class="col-md-10">
+alle Gruppen: 15 Minuten “Daily Scrum”
+</div>
+</div>
+<!-- row end -->
+<hr />
+<div class="row">
+<div class="col-md-2">
+27.04.17
+</div>
+<div class="col-md-10">
+alle Gruppen: 15 Minuten “Daily Scrum”
+</div>
+</div>
+<!-- row end -->
+<hr />
+<div class="row">
+<div class="col-md-2">
+04.05.17
+</div>
+<div class="col-md-10">
+alle Gruppen: 15 Minuten “Daily Scrum”
+</div>
+</div>
+<!-- row end -->
+<hr />
+<div class="row">
+<div class="col-md-2">
+11.05.17
+</div>
+<div class="col-md-10">
+Gruppe A und B: Review und Retrospektive Sprint 1 und Planning Sprint 2, 45 Minuten
+</div>
+</div>
+<!-- row end -->
+<hr />
+<div class="row">
+<div class="col-md-2">
+18.05.17
+</div>
+<div class="col-md-10">
+Gruppe C und D: Review und Retrospektive Sprint 1 und Planning Sprint 2, 45 Minuten
+</div>
+</div>
+<!-- row end -->
+<hr />
+<div class="row">
+<div class="col-md-2">
+01.06.17
+</div>
+<div class="col-md-10">
+alle Gruppen: 15 Minuten “Daily Scrum”
+</div>
+</div>
+<!-- row end -->
+<hr />
+<div class="row">
+<div class="col-md-2">
+08.06.17
+</div>
+<div class="col-md-10">
+alle Gruppen: 15 Minuten “Daily Scrum”
+</div>
+</div>
+<!-- row end -->
+<hr />
+<div class="row">
+<div class="col-md-2">
+22.06.17
+</div>
+<div class="col-md-10">
+Gruppe A und B: Review und Retrospective Sprint 2, 45 Minuten
+</div>
+</div>
+<!-- row end -->
+<hr />
+<div class="row">
+<div class="col-md-2">
+29.06.17
+</div>
+<div class="col-md-10">
+Gruppe C und D: Review und Retrospective Sprint 2, 45 Minuten
+</div>
+</div>
+<!-- row end -->
+<hr />
+</div>
+<!-- }}} -->
+<!-- {{{ Tab: Slides und Handouts -->
+<div id="Slides" class="tab-pane fade" role="tabpanel" aria-expanded="false">
+<div class="row">
+<div class="col-md-6 margin-btm-20">
+<div class="portfolio-sec">
+<div class="portfolio-thumnail">
+<p><a href="/dropbox/lectures/swengiiib/slides/01_Testen_Modultests.pdf"> <img src="/dropbox/lectures/swengiiib/slides/01_Testen_Modultests.png" class="img-fluid" alt></a></p>
+</div>
+<div class="portfolio-desc text-center">
+<h4 class="portfolio-post-title">
+Testen von Software / Modultests
+</h4>
+<a class="portfolio-post-cat" href="/dropbox/lectures/swengiiib/slides/01_Testen_Modultests.json">changelog</a>
+<h4>
+<a href="/dropbox/lectures/swengiiib/slides/01_Testen_Modultests.pdf" class="btn theme-btn-default btn-lg">Slides</a> <a href="/dropbox/lectures/swengiiib/handouts/01_Testen_Modultests.pdf" class="btn theme-btn-default btn-lg">Handout</a>
+</h4>
+</div>
+<!-- portfolio-desc end -->
+</div>
+<!-- portfolio-sec end -->
+</div>
+<!-- col-md-6 end -->
+<div class="col-md-6 margin-btm-20">
+<div class="portfolio-sec">
+<div class="portfolio-thumnail">
+<p><a href="/dropbox/lectures/swengiiib/slides/02_Testen_Scala_Play.pdf"> <img src="/dropbox/lectures/swengiiib/slides/02_Testen_Scala_Play.png" class="img-fluid" alt> </a></p>
+</div>
+<div class="portfolio-desc text-center">
+<h4 class="portfolio-post-title">
+Testen in Scala und Play
+</h4>
+<a class="portfolio-post-cat" href="/dropbox/lectures/swengiiib/slides/02_Testen_Scala_Play.json">changelog</a>
+<h4>
+<a href="/dropbox/lectures/swengiiib/slides/02_Testen_Scala_Play.pdf" class="btn theme-btn-default btn-lg"> Slides</a> <a href="/dropbox/lectures/swengiiib/handouts/02_Testen_Scala_Play.pdf" class="btn theme-btn-default btn-lg">Handout</a>
+</h4>
+</div>
+<!-- portfolio-desc end -->
+</div>
+<!-- portfolio-sec end -->
+</div>
+<!-- col-md-6 end -->
+</div>
+<!-- row end -->
+<div class="row">
+<div class="col-md-6 margin-btm-20">
+<div class="portfolio-sec">
+<div class="portfolio-thumnail">
+<p><a href="/dropbox/lectures/swengiiib/slides/03_TestenII.pdf"> <img src="/dropbox/lectures/swengiiib/slides/03_TestenII.png" class="img-fluid" alt> </a></p>
+</div>
+<div class="portfolio-desc text-center">
+<h4 class="portfolio-post-title">
+Testen von Software II
+</h4>
+<a class="portfolio-post-cat" href="/dropbox/lectures/swengiiib/slides/03_TestenII.json">changelog</a>
+<h4>
+<a href="/dropbox/lectures/swengiiib/slides/03_TestenII.pdf" class="btn theme-btn-default btn-lg"> Slides</a> <a href="/dropbox/lectures/swengiiib/handouts/03_TestenII.pdf" class="btn theme-btn-default btn-lg">Handout</a>
+</h4>
+</div>
+<!-- portfolio-desc end -->
+</div>
+<!-- portfolio-sec end -->
+</div>
+<!-- col-md-6 end -->
+<div class="col-md-6 margin-btm-20">
+<div class="portfolio-sec">
+<div class="portfolio-thumnail">
+<p><a href="/dropbox/lectures/swengiiib/slides/04_DesignPatterns.pdf"> <img src="/dropbox/lectures/swengiiib/slides/04_DesignPatterns.png" class="img-fluid" alt> </a></p>
+</div>
+<div class="portfolio-desc text-center">
+<h4 class="portfolio-post-title">
+Design Patterns
+</h4>
+<a class="portfolio-post-cat" href="/dropbox/lectures/swengiiib/slides/04_DesignPatterns.json">changelog</a>
+<h4>
+<a href="/dropbox/lectures/swengiiib/slides/04_DesignPatterns.pdf" class="btn theme-btn-default btn-lg"> Slides</a> <a href="/dropbox/lectures/swengiiib/handouts/04_DesignPatterns.pdf" class="btn theme-btn-default btn-lg">Handout</a>
+</h4>
+</div>
+<!-- portfolio-desc end -->
+</div>
+<!-- portfolio-sec end -->
+</div>
+<!-- col-md-6 end -->
+</div>
+<!-- row end -->
+<div class="row">
+<div class="col-md-6 margin-btm-20">
+<div class="portfolio-sec">
+<div class="portfolio-thumnail">
+<p><a href="/dropbox/lectures/swengiiib/slides/05_Softwareevolution.pdf"> <img src="/dropbox/lectures/swengiiib/slides/05_Softwareevolution.png" class="img-fluid" alt> </a></p>
+</div>
+<div class="portfolio-desc text-center">
+<h4 class="portfolio-post-title">
+Softwareevolution
+</h4>
+<a class="portfolio-post-cat" href="/dropbox/lectures/swengiiib/slides/05_Softwareevolution.json">changelog</a>
+<h4>
+<a href="/dropbox/lectures/swengiiib/slides/05_Softwareevolution.pdf" class="btn theme-btn-default btn-lg"> Slides</a> <a href="/dropbox/lectures/swengiiib/handouts/05_Softwareevolution.pdf" class="btn theme-btn-default btn-lg">Handout</a>
+</h4>
+</div>
+<!-- portfolio-desc end -->
+</div>
+<!-- portfolio-sec end -->
+</div>
+<!-- col-md-6 end -->
+<div class="col-md-6 margin-btm-20">
+<div class="portfolio-sec">
+<div class="portfolio-thumnail">
+<p><a href="/dropbox/lectures/swengiiib/slides/06_Wiederverwendung.pdf"> <img src="/dropbox/lectures/swengiiib/slides/06_Wiederverwendung.png" class="img-fluid" alt> </a></p>
+</div>
+<div class="portfolio-desc text-center">
+<h4 class="portfolio-post-title">
+Wiederverwendung von Software
+</h4>
+<a class="portfolio-post-cat" href="/dropbox/lectures/swengiiib/slides/06_Wiederverwendung.json">changelog</a>
+<h4>
+<a href="/dropbox/lectures/swengiiib/slides/06_Wiederverwendung.pdf" class="btn theme-btn-default btn-lg"> Slides</a> <a href="/dropbox/lectures/swengiiib/handouts/06_Wiederverwendung.pdf" class="btn theme-btn-default btn-lg">Handout</a>
+</h4>
+</div>
+<!-- portfolio-desc end -->
+</div>
+<!-- portfolio-sec end -->
+</div>
+<!-- col-md-6 end -->
+</div>
+<!-- row end -->
+<div class="row">
+<div class="col-md-6 margin-btm-20">
+<div class="portfolio-sec">
+<div class="portfolio-thumnail">
+<p><a href="/dropbox/lectures/swengiiib/slides/07_SOA.pdf"> <img src="/dropbox/lectures/swengiiib/slides/07_SOA.png" class="img-fluid" alt> </a></p>
+</div>
+<div class="portfolio-desc text-center">
+<h4 class="portfolio-post-title">
+Serviceorientierte Architekturen
+</h4>
+<a class="portfolio-post-cat" href="/dropbox/lectures/swengiiib/slides/07_SOA.json">changelog</a>
+<h4>
+<a href="/dropbox/lectures/swengiiib/slides/07_SOA.pdf" class="btn theme-btn-default btn-lg"> Slides</a> <a href="/dropbox/lectures/swengiiib/handouts/07_SOA.pdf" class="btn theme-btn-default btn-lg">Handout</a>
+</h4>
+</div>
+<!-- portfolio-desc end -->
+</div>
+<!-- portfolio-sec end -->
+</div>
+<!-- col-md-6 end -->
+<div class="col-md-6 margin-btm-20">
+<div class="portfolio-sec">
+<div class="portfolio-thumnail">
+<p><a href="/dropbox/lectures/swengiiib/slides/08_REST.pdf"> <img src="/dropbox/lectures/swengiiib/slides/08_REST.png" class="img-fluid" alt> </a></p>
+</div>
+<div class="portfolio-desc text-center">
+<h4 class="portfolio-post-title">
+REST
+</h4>
+<a class="portfolio-post-cat" href="/dropbox/lectures/swengiiib/slides/08_REST.json">changelog</a>
+<h4>
+<a href="/dropbox/lectures/swengiiib/slides/08_REST.pdf" class="btn theme-btn-default btn-lg"> Slides</a> <a href="/dropbox/lectures/swengiiib/handouts/08_REST.pdf" class="btn theme-btn-default btn-lg">Handout</a>
+</h4>
+</div>
+<!-- portfolio-desc end -->
+</div>
+<!-- portfolio-sec end -->
+</div>
+<!-- col-md-6 end -->
+</div>
+<!-- row end -->
+</div>
+<!-- tabpanel Slides end -->
+<!-- }}} -->
+<!-- {{{ Tab: Aufgabenblätter -->
+<div id="Exercises" class="tab-pane fade" role="tabpanel" aria-expanded="false">
+<div class="row">
+<div class="col-md-6 margin-btm-20">
+<div class="portfolio-sec">
+<div class="portfolio-thumnail">
+<p><a href="/dropbox/lectures/swengiiib/exercises/Studienarbeit.pdf"> <img src="/dropbox/lectures/swengiiib/exercises/Studienarbeit.png" class="img-fluid" alt> </a></p>
+</div>
+<div class="portfolio-desc text-center">
+<h4 class="portfolio-post-title">
+Studienarbeit
+</h4>
+<a class="portfolio-post-cat" href="/dropbox/lectures/swengiiib/exercises/Studienarbeit.json">changelog</a>
+<h4>
+<a href="/dropbox/lectures/swengiiib/exercises/Studienarbeit.pdf" class="btn theme-btn-default btn-lg"> PDF </a>
+</h4>
+</div>
+<!-- portfolio-desc end -->
+</div>
+<!-- portfolio-sec end -->
+</div>
+<!-- col-md-6 end -->
+</div>
+<!-- row end -->
+</div>
+<!-- }}} -->
+</div>
+<!-- }}} -->
+</div>
+<!-- }}} -->
+</div>
+</div>
+  </div>
+</div>
+
+<div class="space-70"></div>
+<div>
+  <div class="row">
+    <div class="col-md-12 text-center">
+      <span>
+          Generated with <a href="http://jaspervdj.be/hakyll">Hakyll</a> on
+          <a href="https://travis-ci.org/obcode/ob.cs.hm.edu">Travic CI</a>
+          |
+          Fork me on <a href="https://github.com/obcode/ob.cs.hm.edu">GitHub</a>
+        </span>
+        <div></div>
+      <span>&copy; 2017 Oliver Braun | <a href="../impressum.html">Impressum</a></span>
     </div>
-<!-- Footer end -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/jquery-1.8.3.min.js"><\/script>')</script>
-    <script src="../js/bootstrap.min.js"></script>
-    </body>
+  </div>
+</div>
+
+<!-- jQuery plugins. -->
+<script src="../assets/js/plugins/plugins.js"></script>
+<script src="../assets/js/app.js"></script>
+
+<script src="../assets/cubeportfolio/js/jquery.cubeportfolio.min.js"></script>
+<script>
+  (function($, window, document, undefined) {
+    'use strict';
+
+    // init cubeportfolio
+    $('#js-grid-awesome-work').cubeportfolio({
+      filters: '#js-filters-awesome-work',
+      layoutMode: 'grid',
+      defaultFilter: '*',
+      animationType: 'scaleSides',
+      gapHorizontal: 30,
+      gapVertical: 30,
+      gridAdjustment: 'responsive',
+      mediaQueries: [{
+        width: 1500,
+        cols: 4
+      }, {
+        width: 1100,
+        cols: 3
+      }, {
+        width: 480,
+        cols: 2,
+        options: {
+          gapHorizontal: 15,
+          gapVertical: 15
+        }
+      }],
+      caption: 'zoom',
+      displayType: 'fadeIn',
+      displayTypeSpeed: 400,
+      // singlePage popup
+      singlePageDelegate: '.cbp-singlePage',
+      singlePageDeeplinking: true,
+      singlePageStickyNavigation: true,
+      singlePageCounter: '<div class="cbp-popup-singlePage-counter">{{current}} of {{total}}</div>'
+    });
+  })(jQuery, window, document);
+</script>
+
+
+</body>
 </html>
