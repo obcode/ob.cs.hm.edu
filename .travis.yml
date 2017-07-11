@@ -29,6 +29,7 @@ script:
 machine:
   timezone: Europe/Berlin
 after_success:
+- 'if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then travis_terminate 0; fi'
 - mv _site_.git _site/.git
 - cd _site
 - git config --global user.email deploy@travis-ci.org
