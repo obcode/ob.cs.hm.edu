@@ -1,52 +1,223 @@
 ---
 title: Home
+portfolio: yes
 ---
 
-<div id="landing">
-  <div class="container">
-    <div class="row">
-          <div class="span7">
-            <h1>Prof. Dr. Oliver Braun</h1>
-                <p>Professor für Softwaretechnik</p>
-                <p>Fakultät für Informatik und Mathematik</p>
-                <p>Hochschule München</p>
-          </div>
-          <div class="span5">
-            <img src="img/home.png" alt="Home" width="500" height="216" />
-          </div>
-        </div>
+<section id="slider-sec" class="slider-reg">
+  <div class="main-flex-slider">
+    <ul class="slides">
+      <li>
+        <figure>
+          <img src="/assets/img/home.jpg" class="img-fluid" alt="slider-img-1">
+          <figcaption class="slider-overlay ">
+            <div class="slider-text animated fadeInDown">
+              <h1>Prof. Dr. Oliver Braun</h1>
+              <p>
+                Professor für Softwaretechnik<br> Fakultät für Informatik und Mathematik<br> Hochschule München
+              </p>
+              <p class="slide-btn"><a href="/about.html" class="btn btn-white btn-lg">Kontakt</a></p>
+            </div>
+          </figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure>
+          <img src="/assets/img/algdati.jpg" class="img-fluid" alt="slider-img-2">
+          <figcaption class="slider-overlay">
+            <div class="slider-text">
+              <h1>Algorithmen und Datenstrukturen I</h1>
+              <p>
+                Wintersemester 2017/18
+              </p>
+              <p class="slide-btn"><a href="/lectures/algdati.html" class="btn btn-white btn-lg">mehr</a></p>
+            </div>
+          </figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure>
+          <img src="/assets/img/fun.jpg" class="img-fluid" alt="slider-img-3">
+          <figcaption class="slider-overlay">
+            <div class="slider-text">
+              <h1>Funktionale Programmierung</h1>
+              <p>
+                Wintersemester 2017/18
+              </p>
+              <p class="slide-btn"><a href="/lectures/fun.html" class="btn btn-white btn-lg">mehr</a></p>
+            </div>
+          </figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure>
+          <img src="/assets/img/seiib.jpg" class="img-fluid" alt="slider-img-4">
+          <figcaption class="slider-overlay">
+            <div class="slider-text">
+              <h1>Softwareentwicklung I (IB)</h1>
+              <p>
+                Wintersemester 2017/18
+              </p>
+              <p class="slide-btn"><a href="/lectures/seiib.html" class="btn btn-white btn-lg">mehr</a></p>
+            </div>
+          </figcaption>
+        </figure>
+      </li>
+    </ul>
   </div>
-</div>
+</section>
+<!--main flex slider end-->
 
-<div id="content" class="txt-middle">
-  <div class="container">
-    <div class="row">
-        <div class="span12">
-            <h2>Aktuelle Lehrveranstaltungen im Sommersemester 2017</h2>
-        </div>
+<div class="space-70"></div>
+<div class="container">
+  <div id="js-filters-awesome-work" class="cbp-l-filters-work">
+    <div data-filter="*" class="cbp-filter-item-active cbp-filter-item">
+      ALLE
     </div>
-    <div class="row">
-            <div class="span4">
-                  <h4 class="sub">Algorithmen und Datenstrukturen II</h4>
-                  <a class="thumbnail"
-                      href="lectures/algdatii.html">
-                    <img alt="image" src="/img/swarovski.png">
-                  </a>
-            </div>
-            <div class="span4">
-                  <h4 class="sub">Compiler</h4>
-                  <a class="thumbnail"
-                      href="lectures/compiler.html">
-                    <img alt="image" src="/img/Fuerteventura.png">
-                  </a>
-            </div>
-            <div class="span4">
-                  <h4 class="sub">Software Engineering II (IB)</h4>
-                  <a class="thumbnail"
-                      href="lectures/swengiiib.html">
-                    <img alt="image" src="/img/Marokko.jpg">
-                  </a>
-            </div>
-          </div>
+    <div data-filter=".ws1718" class="cbp-filter-item">
+      WS 17/18
+      <div class="cbp-filter-counter"></div>
+    </div>
+    <div data-filter=".ss17" class="cbp-filter-item">
+      SS 17
+      <div class="cbp-filter-counter"></div>
+    </div>
+    <div data-filter=".ws1617" class="cbp-filter-item">
+      WS 16/17
+      <div class="cbp-filter-counter"></div>
+    </div>
+    <div data-filter=".ss16" class="cbp-filter-item">
+      SS 16
+      <div class="cbp-filter-counter"></div>
+    </div>
+    <div data-filter=".older" class="cbp-filter-item">
+      DAVOR
+      <div class="cbp-filter-counter"></div>
+    </div>
+  </div>
+
+  <div id="js-grid-awesome-work" class="cbp cbp-l-grid-work">
+
+    <div class="cbp-item ws1718 ws1617 older">
+      <a href="/lectures/algdati.html" class="cbp-caption" rel="nofollow">
+        <div class="cbp-caption-defaultWrap">
+          <img src="assets/img/small/algdati.jpg" alt="">
+        </div>
+        <div class="cbp-caption-activeWrap"></div>
+      </a>
+      <a href="/lectures/algdati.html" class="cbp-l-grid-work-title" rel="nofollow">Algorithmen und Datenstrukturen I</a>
+      <div class="cbp-l-grid-work-desc">Wintersemester 2017/18</div>
+    </div>
+
+    <div class="cbp-item ss17 ss16">
+      <a href="/lectures/algdatii.html" class="cbp-caption " rel="nofollow">
+        <div class="cbp-caption-defaultWrap">
+          <img src="assets/img/small/algdatii.jpg" alt="">
+        </div>
+        <div class="cbp-caption-activeWrap"></div>
+      </a>
+      <a href="/lectures/algdatii.html" class="cbp-l-grid-work-title " rel="nofollow">Algorithmen und Datenstrukturen II</a>
+      <div class="cbp-l-grid-work-desc">Sommersemester 2017</div>
+    </div>
+
+    <div class="cbp-item ss17 older">
+      <a href="/lectures/compiler.html" class="cbp-caption" rel="nofollow">
+        <div class="cbp-caption-defaultWrap">
+          <img src="assets/img/small/compiler.jpg" alt="">
+        </div>
+        <div class="cbp-caption-activeWrap"></div>
+      </a>
+      <a href="/lectures/compiler.html" class="cbp-l-grid-work-title" rel="nofollow">Compiler</a>
+      <div class="cbp-l-grid-work-desc">Sommersemester 2017</div>
+    </div>
+
+    <div class="cbp-item ws1718 ws1617 older">
+      <a href="/lectures/seiib.html" class="cbp-caption" rel="nofollow">
+        <div class="cbp-caption-defaultWrap">
+          <img src="assets/img/small/fun.jpg" alt="">
+        </div>
+        <div class="cbp-caption-activeWrap"></div>
+      </a>
+      <a href="/lectures/seiib.html" class="cbp-l-grid-work-title" rel="nofollow">Funktionale Programmierung</a>
+      <div class="cbp-l-grid-work-desc">Wintersemester 2017/18</div>
+    </div>
+
+    <div class="cbp-item older">
+      <a href="/lectures/seiiib.html" class="cbp-caption" rel="nofollow">
+        <div class="cbp-caption-defaultWrap">
+          <img src="assets/img/small/sa.jpg" alt="">
+        </div>
+        <div class="cbp-caption-activeWrap"></div>
+      </a>
+      <a href="/lectures/seiiib.html" class="cbp-l-grid-work-title" rel="nofollow">Software-Architektur</a>
+      <div class="cbp-l-grid-work-desc">Sommersemester 2015</div>
+    </div>
+
+    <div class="cbp-item ws1718 older">
+      <a href="/lectures/swengiib.html" class="cbp-caption " rel="nofollow">
+        <div class="cbp-caption-defaultWrap">
+          <img src="assets/img/small/seiib.jpg" alt="">
+        </div>
+        <div class="cbp-caption-activeWrap"></div>
+      </a>
+      <a href="/lectures/swengiib.html" class="cbp-l-grid-work-title " rel="nofollow">Softwareentwicklung I (IB)</a>
+      <div class="cbp-l-grid-work-desc">Wintersemester 2017/18</div>
+    </div>
+
+    <div class="cbp-item ss16">
+      <a href="/lectures/swengiiib.html" class="cbp-caption " rel="nofollow">
+        <div class="cbp-caption-defaultWrap">
+          <img src="assets/img/small/seiiib.jpg" alt="">
+        </div>
+        <div class="cbp-caption-activeWrap"></div>
+      </a>
+      <a href="/lectures/swengiiib.html" class="cbp-l-grid-work-title " rel="nofollow">Softwareentwicklung II (IB)</a>
+      <div class="cbp-l-grid-work-desc">Sommersemester 2016</div>
+    </div>
+
+    <div class="cbp-item ws1617">
+      <a href="/lectures/swengiib.html" class="cbp-caption " rel="nofollow">
+        <div class="cbp-caption-defaultWrap">
+          <img src="assets/img/small/swengiib.jpg" alt="">
+        </div>
+        <div class="cbp-caption-activeWrap"></div>
+      </a>
+      <a href="/lectures/swengiib.html" class="cbp-l-grid-work-title " rel="nofollow">Software Engineering I (IB)</a>
+      <div class="cbp-l-grid-work-desc">Wintersemester 2016/17</div>
+    </div>
+
+    <div class="cbp-item ss17">
+      <a href="/lectures/swengiiib.html" class="cbp-caption " rel="nofollow">
+        <div class="cbp-caption-defaultWrap">
+          <img src="assets/img/small/swengiiib.jpg" alt="">
+        </div>
+        <div class="cbp-caption-activeWrap"></div>
+      </a>
+      <a href="/lectures/swengiiib.html" class="cbp-l-grid-work-title " rel="nofollow">Software Engineering II (IB)</a>
+      <div class="cbp-l-grid-work-desc">Sommersemester 2017</div>
+    </div>
+
+    <div class="cbp-item older">
+      <a href="/lectures/webtech.html" class="cbp-caption " rel="nofollow">
+        <div class="cbp-caption-defaultWrap">
+          <img src="assets/img/small/webtech.jpg" alt="">
+        </div>
+        <div class="cbp-caption-activeWrap"></div>
+      </a>
+      <a href="/lectures/webtech.html" class="cbp-l-grid-work-title " rel="nofollow">Web-Techniken</a>
+      <div class="cbp-l-grid-work-desc">Wintersemester 2013/14</div>
+    </div>
+
+    <div class="cbp-item older">
+      <a href="/lectures/webtechFK12.html" class="cbp-caption " rel="nofollow">
+        <div class="cbp-caption-defaultWrap">
+          <img src="assets/img/small/webtechFK12.jpg" alt="">
+        </div>
+        <div class="cbp-caption-activeWrap"></div>
+      </a>
+      <a href="/lectures/webtechFK12.html" class="cbp-l-grid-work-title " rel="nofollow">Web-Techniken (mit FK 12)</a>
+      <div class="cbp-l-grid-work-desc">Wintersemester 2013/14</div>
+    </div>
+
   </div>
 </div>
+<!--/portfolio-->
