@@ -208,14 +208,30 @@ tba</div>
 <div class="col-md-6 margin-btm-20">
 <div class="portfolio-sec">
 <div class="portfolio-thumnail">
-<a href="dropbox/lectures/seiib/slides/....pdf">
-<img src="dropbox/lectures/seiib/slides/....png" class="img-fluid" alt=""></a>
+<a href="dropbox/lectures/seiib/slides/00_Git.pdf">
+<img src="dropbox/lectures/seiib/slides/00_Git.png" class="img-fluid" alt=""></a>
 </div>
 <div class="portfolio-desc text-center">
-<h4 class="portfolio-post-title">...</h4>
-<a class="portfolio-post-cat" href="dropbox/lectures/seiib/slides/....json">changelog</a>
-<h4><a href="dropbox/lectures/seiib/slides/....pdf" class="btn theme-btn-default btn-lg">Slides</a>
-<a href="dropbox/lectures/seiib/handouts/....pdf" class="btn theme-btn-default btn-lg">Handout</a></h4>
+<h4 class="portfolio-post-title">Versionsverwaltung mit Git</h4>
+<a class="portfolio-post-cat" href="dropbox/lectures/seiib/slides/00_Git.json">changelog</a>
+<h4><a href="dropbox/lectures/seiib/slides/00_Git.pdf" class="btn theme-btn-default btn-lg">Slides</a>
+<a href="dropbox/lectures/seiib/handouts/00_Git.pdf" class="btn theme-btn-default btn-lg">Handout</a></h4>
+</div><!-- portfolio-desc end -->
+</div><!-- portfolio-sec end -->
+</div><!-- col-md-6 end -->
+
+
+<div class="col-md-6 margin-btm-20">
+<div class="portfolio-sec">
+<div class="portfolio-thumnail">
+<a href="dropbox/lectures/seiib/slides/01_Einfuehrung.pdf">
+<img src="dropbox/lectures/seiib/slides/01_Einfuehrung.png" class="img-fluid" alt=""></a>
+</div>
+<div class="portfolio-desc text-center">
+<h4 class="portfolio-post-title">Einführung</h4>
+<a class="portfolio-post-cat" href="dropbox/lectures/seiib/slides/01_Einfuehrung.json">changelog</a>
+<h4><a href="dropbox/lectures/seiib/slides/01_Einfuehrung.pdf" class="btn theme-btn-default btn-lg">Slides</a>
+<a href="dropbox/lectures/seiib/handouts/01_Einfuehrung.pdf" class="btn theme-btn-default btn-lg">Handout</a></h4>
 </div><!-- portfolio-desc end -->
 </div><!-- portfolio-sec end -->
 </div><!-- col-md-6 end -->
