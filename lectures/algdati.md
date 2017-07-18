@@ -143,7 +143,7 @@ Aufgabenblätter
 <div class="space-30"></div>
 <div role="tabpanel" class="tab-pane show active fade" id="Vorlesung" aria-expanded="true">
 
-<h5>Zeit und Raum</h5>
+<h5>montags, 10:00 - 11:30, Raum R0.005</h5>
 <hr />
 <div class="row">
 <div class="col-md-2">
@@ -157,8 +157,8 @@ tba</div>
 <!-- {{{ Tab: Praktikum -->
 <div role="tabpanel" class="tab-pane fade" id="Praktikum" aria-expanded="false">
 
-<h5>Teilgruppe 1: Zeit und Raum</h5>
-<h5>Teilgruppe 2: Zeit und Raum</h5>
+<h5>Teilgruppe 1: montags, 08:15 - 09:45, Raum R2.008</h5>
+<h5>Teilgruppe 2: dienstags, 11:45 - 13:15, Raum R2.008</h5>
 <hr />
 
 <div class="row">
