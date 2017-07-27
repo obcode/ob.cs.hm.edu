@@ -1,4 +1,4 @@
-extends(src='layout.sgr')
+extends(src='layouts/layout.sgr')
 
   block(name='portfoliocss')
     link(rel='stylesheet' href='/cubeportfolio/css/cubeportfolio.min.css')

@@ -12,8 +12,8 @@ const lecture = (ctx) => {
 
 module.exports = {
   matchers: { html: '*(**/)*.sgr' },
-  ignore: ['**/layout.sgr', '**/_*', '**/.*', 'readme.md', 'yarn.lock',
-    '**/withPortfolio.sgr', '**/lecture.sgr', '**/includes/*.sgr'],
+  ignore: ['**/layouts/*.sgr', '**/_*', '**/.*', 'readme.md', 'yarn.lock',
+    '**/includes/*.sgr'],
   reshape: htmlStandards({
     locals: (ctx) => {
       return {

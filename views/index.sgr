@@ -1,4 +1,4 @@
-extends(src='withPortfolio.sgr')
+extends(src='layouts/withPortfolio.sgr')
   block(name='content')
     section(id='slider-sec' class='slider-reg')
       div(class='main-flex-slider')

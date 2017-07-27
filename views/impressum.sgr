@@ -1,4 +1,4 @@
-extends(src='layout.sgr')
+extends(src='layouts/layout.sgr')
   block(name='content')
     section(id='content-region-3' class='padding-40 page-tree-bg')
       div(class='container')
