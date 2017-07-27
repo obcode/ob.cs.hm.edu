@@ -5,7 +5,7 @@ extends(src='withPortfolio.sgr')
         ul(class='slides')
           li
             figure
-              img(src='img/home.jpg' class='img-fluid' alt='slider-img-1')
+              img(src='/img/home.jpg' class='img-fluid' alt='slider-img-1')
               figcaption(class='slider-overlay ')
                 div(class='slider-text animated fadeInDown')
                   h1 Prof. Dr. Oliver Braun
@@ -15,7 +15,7 @@ extends(src='withPortfolio.sgr')
           each(loop='lecture in currentSemester.lectures')
             li
               figure
-                img(src='img/{{ lecture.short }}.jpg'
+                img(src='/img/{{ lecture.short }}.jpg'
                     class='img-fluid'
                     alt='slider-img-{{ lecture.short }}')
                 figcaption(class='slider-overlay ')
@@ -42,7 +42,7 @@ extends(src='withPortfolio.sgr')
             a(href='/lectures/{{ lecture.short }}.html'
               class='cbp-caption' rel='nofollow')
               div(class='cbp-caption-defaultWrap')
-                img(src='img/small/{{ lecture.short }}.jpg'
+                img(src='/img/small/{{ lecture.short }}.jpg'
                     alt='{{ lecture.long }}')
               div(class='cbp-caption-activeWrap')
             a(href='/lectures/{{ lecture.short }}.html'

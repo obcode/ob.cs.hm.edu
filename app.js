@@ -12,16 +12,19 @@ const lecture = (ctx) => {
 
 module.exports = {
   matchers: { html: '*(**/)*.sgr' },
-  ignore: ['**/layout.sgr', '**/_*', '**/.*', 'readme.md', 'yarn.lock'],
+  ignore: ['**/layout.sgr', '**/_*', '**/.*', 'readme.md', 'yarn.lock',
+    '**/withPortfolio.sgr', '**/lecture.sgr', '**/includes/*.sgr'],
   reshape: htmlStandards({
     locals: (ctx) => {
       return {
+        myctx: JSON.stringify(Object.keys(ctx)),
         pageId: pageId(ctx),
         currentLecture: lecture(ctx),
         lectures: locals.lectures,
         currentSemester: locals.currentSemester
       }
     },
+    root: '/Users/obraun/lectures/sw/ob.cs.hm.edu/views',
     minify: env === 'production'
   }),
   vendor: ['assets/js/**', 'assets/cubeportfolio/js/**']
