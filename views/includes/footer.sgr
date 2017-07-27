@@ -1,0 +1,19 @@
+div(class='space-70')
+div
+  div(class='row')
+    div(class='col-md-12 text-center')
+      span
+        | Generated with
+        |
+        a(href='https://spike.readme.io/') Spike
+        |
+        |  on
+        |
+        a(href='https://travis-ci.org/obcode/ob.cs.hm.edu') Travic CI
+        |
+        |  -- Fork me on
+        |
+        a(href='https://github.com/obcode/ob.cs.hm.edu') GitHub
+      div
+      span &copy; 2017 Oliver Braun |
+        a(href='/impressum.html') Impressum

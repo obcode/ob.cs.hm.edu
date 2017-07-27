@@ -1,29 +1,52 @@
-extends(src='layout.sgr')
+extends(src='withPortfolio.sgr')
   block(name='content')
-    h2 Hello World!
-    p(retext-skip) Thanks for using <a href='https://github.com/static-dev/spike'>spike</a>
-    p Example of locals: {{ foo }}
-    p(mdi) Example of **markdown**
-    p Example of "smart quotes" -- and dashes
+    section(id='slider-sec' class='slider-reg')
+      div(class='main-flex-slider')
+        ul(class='slides')
+          li
+            figure
+              img(src='img/home.jpg' class='img-fluid' alt='slider-img-1')
+              figcaption(class='slider-overlay ')
+                div(class='slider-text animated fadeInDown')
+                  h1 Prof. Dr. Oliver Braun
+                  p Professor für Softwaretechnik
+                  p(class='slide-btn')
+                    a(href='/about.html' class='btn btn-white btn-lg') Kontakt
+          each(loop='lecture in currentSemester.lectures')
+            li
+              figure
+                img(src='img/{{ lecture.short }}.jpg'
+                    class='img-fluid'
+                    alt='slider-img-{{ lecture.short }}')
+                figcaption(class='slider-overlay ')
+                  div(class='slider-text animated fadeInDown')
+                    h1 {{ lecture.long }}
+                    p {{ currentSemester.long }}
+                    p(class='slide-btn')
+                      a(href='/lectures/{{ lecture.short }}.html' class='btn btn-white btn-lg') mehr
 
-    hr
+    div(class='space-70')
+    div(class='container')
+      div(id='js-filters-awesome-work' class='cbp-l-filters-work')
+        div(data-filter='*' class='cbp-filter-item-active cbp-filter-item')
+          | ALLE
+          div(class='cbp-filter-counter')
+        each(loop='semester in currentSemester.semesters')
+          div(data-filter='{{ semester.filter }}' class='cbp-filter-item')
+            | {{ semester.label }}
+            div(class='cbp-filter-counter')
 
-    h3 Getting Started
-    h4 The Stack:
-    ul
-      li
-        a(href="http://github.com/reshape/reshape") reshape
-        |  for HTML transforms
-      li
-        a(href="https://babeljs.io/") babel
-        |  for JS transforms
-      li
-        a(href="http://postcss.org/") postcss
-        |  for CSS transforms
-      li
-        a(href="http://webpack.github.io") webpack
-        |  for JS bundling
-
-    p Customize your settings by editing the
-      a(href="https://spike.readme.io/docs/appjs") app.js
-      |  file or simply start by editing this view
+      div(id='js-grid-awesome-work' class='cbp cbp-l-grid-work')
+        each(loop='lecture in lectures')
+          div(class='cbp-item {{ lecture.semesters }}')
+            a(href='/lectures/{{ lecture.short }}.html'
+              class='cbp-caption' rel='nofollow')
+              div(class='cbp-caption-defaultWrap')
+                img(src='img/small/{{ lecture.short }}.jpg'
+                    alt='{{ lecture.long }}')
+              div(class='cbp-caption-activeWrap')
+            a(href='/lectures/{{ lecture.short }}.html'
+              class='cbp-l-grid-work-title'
+              rel='nofollow') {{ lecture.long }}
+            div(class='cbp-l-grid-work-desc')
+              | {{ lecture.last }}

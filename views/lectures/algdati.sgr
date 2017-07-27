@@ -1,0 +1,3 @@
+extends(src='../withPortfolio.sgr')
+  block(name='content')
+    h1 {{ currentLecture.long }}

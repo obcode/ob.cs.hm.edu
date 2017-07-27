@@ -11,11 +11,13 @@ html(lang='de')
       title ob | {{ pageId }}
 
     link(rel='stylesheet' href='css/plugins/plugins.css')
+    block(name='portfoliocss')
     link(rel='stylesheet' href='css/style.css')
 
   body
-    main(role='main' id='{{ pageId }}')
-      block(name='content')
-
-    block(name='javascript')
-      script(src='js/app.js')
+    include(src='includes/navbar.sgr')
+    block(name='content')
+    include(src='includes/footer.sgr')
+    script(src='js/plugins/plugins.js')
+    script(src='js/app.js')
+    block(name='portfoliojavascript')
