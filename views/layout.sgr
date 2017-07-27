@@ -10,14 +10,14 @@ html(lang='de')
     block(name='title')
       title ob | {{ pageId }}
 
-    link(rel='stylesheet' href='css/plugins/plugins.css')
+    link(rel='stylesheet' href='/css/plugins/plugins.css')
     block(name='portfoliocss')
-    link(rel='stylesheet' href='css/style.css')
+    link(rel='stylesheet' href='/css/style.css')
 
   body
     include(src='includes/navbar.sgr')
     block(name='content')
     include(src='includes/footer.sgr')
-    script(src='js/plugins/plugins.js')
-    script(src='js/app.js')
+    script(src='/js/plugins/plugins.js')
+    script(src='/js/app.js')
     block(name='portfoliojavascript')

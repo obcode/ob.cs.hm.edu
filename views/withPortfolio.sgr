@@ -1,8 +1,8 @@
 extends(src='layout.sgr')
 
   block(name='portfoliocss')
-    link(rel='stylesheet' href='cubeportfolio/css/cubeportfolio.min.css')
+    link(rel='stylesheet' href='/cubeportfolio/css/cubeportfolio.min.css')
 
   block(name='portfoliojavascript')
-    script(src='cubeportfolio/js/jquery.cubeportfolio.min.js')
-    script(src='js/portfolio.js')
+    script(src='/cubeportfolio/js/jquery.cubeportfolio.min.js')
+    script(src='/js/portfolio.js')
