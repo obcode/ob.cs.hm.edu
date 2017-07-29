@@ -1,0 +1,38 @@
+div(class='col-md-8')
+  if(condition='currentLecture.maincontent !== null')
+    ul(class='nav-tabs nav' role='tablist')
+
+      if(condition='currentLecture.maincontent.lecture !== null')
+        li(class='nav-item')
+          a(class='ion-ios-book active nav-link' href='#Vorlesung'
+            data-taget='#Vorlesung' role='tab' data-toggle='tab') &nbsp; Vorlesung
+
+      if(condition='currentLecture.maincontent.lab !== null')
+        li(class='nav-item')
+          a(class='ion-ios-monitor nav-link' href='#Praktikum'
+            data-taget='#Praktikum' role='tab' data-toggle='tab') &nbsp; Praktikum
+
+      if(condition='currentLecture.maincontent.slides !== null')
+        li(class='nav-item')
+          a(class='ion-ios-cloud-download nav-link' href='#Slides'
+            data-taget='#Slides' role='tab' data-toggle='tab') &nbsp; Slides und Handouts
+
+      if(condition='currentLecture.maincontent.exercises !== null')
+        li(class='nav-item')
+          a(class='ion-ios-cloud-download nav-link' href='#Exercises'
+            data-taget='#Exercises' role='tab' data-toggle='tab') &nbsp; Aufgabenblätter
+
+    div(class="tab-content")
+      div(class='space-30')
+
+      if(condition='currentLecture.maincontent.lecture !== null')
+        include(src='includes/lectures/maincontent/lecture.sgr')
+
+      if(condition='currentLecture.maincontent.lab !== null')
+        include(src='includes/lectures/maincontent/lab.sgr')
+
+      if(condition='currentLecture.maincontent.slides !== null')
+        include(src='includes/lectures/maincontent/slides.sgr')
+
+      if(condition='currentLecture.maincontent.exercises !== null')
+        include(src='includes/lectures/maincontent/exercises.sgr')

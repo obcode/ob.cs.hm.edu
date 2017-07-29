@@ -13,7 +13,7 @@ const lecture = (ctx) => {
 module.exports = {
   matchers: { html: '*(**/)*.sgr' },
   ignore: ['**/layouts/*.sgr', '**/_*', '**/.*', 'readme.md', 'yarn.lock',
-    '**/includes/*.sgr'],
+    '**/includes/**/*.sgr'],
   reshape: htmlStandards({
     locals: (ctx) => {
       return {
@@ -21,7 +21,8 @@ module.exports = {
         pageId: pageId(ctx),
         currentLecture: lecture(ctx),
         lectures: locals.lectures,
-        currentSemester: locals.currentSemester
+        currentSemester: locals.currentSemester,
+        filesPrefix: locals.filesPrefix
       }
     },
     root: '/Users/obraun/lectures/sw/ob.cs.hm.edu/views',

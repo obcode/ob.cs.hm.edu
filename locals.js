@@ -57,3 +57,5 @@ exports.currentSemester = {
     }
   ]
 }
+
+exports.filesPrefix = 'https://dl.dropboxusercontent.com/u/13563262/lectures'

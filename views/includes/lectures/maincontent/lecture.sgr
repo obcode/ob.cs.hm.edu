@@ -1,0 +1,12 @@
+div(role='tabpanel' class='tab-pane show active fade'
+  id='Vorlesung' aria-expanded='true')
+
+  h5 {{ currentLecture.maincontent.lecture.daytime }}, {{ currentLecture.maincontent.lecture.room }}
+  hr
+  each(loop='lecture of currentLecture.maincontent.lecture.lectures')
+    div(class='row')
+      div(class='col-md-2')
+        | {{ lecture.date }}
+      div(class='col-md-10')
+        | {{ lecture.topic }}
+    hr

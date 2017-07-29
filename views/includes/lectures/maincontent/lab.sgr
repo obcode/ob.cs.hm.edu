@@ -1,0 +1,14 @@
+div(role='tabpanel' class='tab-pane fade'
+  id='Praktikum' aria-expanded='false')
+
+  each(loop='group of currentLecture.maincontent.lab.groups')
+    h5 {{ group.name }}: {{ group.daytime }}, {{ group.room }}
+  hr
+  each(loop='lab of currentLecture.maincontent.lab.labs')
+    div(class='row')
+      each(loop='date of lab.dates')
+        div(class='col-md-2')
+          | {{ date }}
+      div(class='col-md-{{ (6 - lab.dates.length) * 2  }}')
+        | {{ lab.topic }}
+    hr
