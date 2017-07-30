@@ -2,7 +2,7 @@ div(role='tabpanel' class='tab-pane fade'
   id='Praktikum' aria-expanded='false')
 
   each(loop='group of currentLecture.maincontent.lab.groups')
-    h5 {{ group.name }}: {{ group.daytime }}, {{ group.room }}
+    h5 {{ (group.name === null) ? '' : group.name + ':'}} {{ group.daytime }}, {{ group.room }}
   hr
   each(loop='lab of currentLecture.maincontent.lab.labs')
     div(class='row')
