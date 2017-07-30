@@ -2,5 +2,7 @@
   "short": "compiler",
   "long": "Compiler",
   "last": "Sommersemester 2017",
-  "semesters": "ss17 older"
+  "semesters": "ss17 older",
+  "sidebar": null,
+  "maincontent": null
 }

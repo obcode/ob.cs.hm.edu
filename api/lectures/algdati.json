@@ -51,8 +51,30 @@
     }
   ],
   "maincontent": {
-    "lecture": null,
-    "lab": null,
+    "lecture": {
+      "daytime": "montags, 10:00 - 11:30",
+      "room": "R1.008",
+      "lectures": []
+    },
+    "lab": {
+      "groups": [{
+          "name": "Teilgruppe 1",
+          "daytime": "montags, 08:15-09:45",
+          "room": "R2.008"
+        },
+        {
+          "name": "Teilgruppe 2",
+          "daytime": "dienstags, 11:45-13:15",
+          "room": "R2.009"
+        },
+        {
+          "name": "Teilgruppe 3 (bei Bedarf)",
+          "daytime": "dienstags, 17:00-18:30",
+          "room": "R3.026"
+        }
+      ],
+      "labs": []
+    },
     "slides": null,
     "exercises": null
   }

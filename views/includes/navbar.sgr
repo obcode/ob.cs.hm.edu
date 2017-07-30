@@ -36,6 +36,8 @@ nav(class='navbar navbar-toggleable-sm navbar-light bg-faded yamm')
               a(class='dropdown-item' href='https://terraform.cs.hm.edu/jenkins/blue/') Jenkins
             li
               a(class='dropdown-item' href='/about.html') Kontakt
+            li
+              a(class='dropdown-item' href='/api.html') API
 
         li(class='social-nav nav-item')
           a(href='https://github.com/obcode' class='nav-link')

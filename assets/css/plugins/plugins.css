@@ -744,6 +744,7 @@ samp {
 }
 
 code {
+  text-indent: -100;
   padding: .2rem .4rem;
   font-size: 90%;
   color: #bd4147;
@@ -781,8 +782,9 @@ pre {
 
 pre code {
   padding: 0;
-  font-size: inherit;
-  color: inherit;
+  font-size: 90%;
+  color: #bd4147;
+  background-color: #f7f7f9;
   background-color: transparent;
   border-radius: 0;
 }

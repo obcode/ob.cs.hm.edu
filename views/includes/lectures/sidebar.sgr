@@ -1,28 +1,29 @@
 div(class='col-md-4')
-  div(class='sidebar-box')
-    div(class='card-accordion card-accordion-simple card-accordion-icons-left mb80'
-      id='card-accordion-simple' role='tablist' aria-multiselectable='true')
+  if(condition='currentLecture.sidebar !== null')
+    div(class='sidebar-box')
+      div(class='card-accordion card-accordion-simple card-accordion-icons-left mb80'
+        id='card-accordion-simple' role='tablist' aria-multiselectable='true')
 
-      each(loop='card, index of currentLecture.sidebar')
-        div(class='card')
-          div(class='card-header accordion-header' role='tab' id='heading{{ index }}')
-            a(class='{{ (index !== 0) ? "collapsed" : null }}'
-              data-toggle='collapse' data-parent='#card-accordion-simple'
-              href='#collapse{{ index }}List' aria-expanded='true'
-              aria-controls='collapse{{ index }}List') {{ card.title }}
-          div(id='collapse{{ index }}List'
-            class='collapse {{ (index === 0) ? "show" : null }}'
-            role='tabpanel'
-            aria-labelledby='heading{{ card.title }}')
-            div(class='card-block')
-              if(condition='card.text !== null')
-                | {{ card.text }}
-              if(condition='card.listitems.length !== 0')
-                ul(class='icon-list list-unstyled')
-                  each(loop='item of card.listitems')
-                    li
-                      i(class='{{ card.listicon }}')
-                      if(condition='item.url === null')
-                        | {{ item.text }}
-                      else
-                        a(href='{{ item.url }}') {{ item.text }}
+        each(loop='card, index of currentLecture.sidebar')
+          div(class='card')
+            div(class='card-header accordion-header' role='tab' id='heading{{ index }}')
+              a(class='{{ (index !== 0) ? "collapsed" : null }}'
+                data-toggle='collapse' data-parent='#card-accordion-simple'
+                href='#collapse{{ index }}List' aria-expanded='true'
+                aria-controls='collapse{{ index }}List') {{ card.title }}
+            div(id='collapse{{ index }}List'
+              class='collapse {{ (index === 0) ? "show" : null }}'
+              role='tabpanel'
+              aria-labelledby='heading{{ card.title }}')
+              div(class='card-block')
+                if(condition='card.text !== null')
+                  | {{ card.text }}
+                if(condition='card.listitems.length !== 0')
+                  ul(class='icon-list list-unstyled')
+                    each(loop='item of card.listitems')
+                      li
+                        i(class='{{ card.listicon }}')
+                        if(condition='item.url === null')
+                          | {{ item.text }}
+                        else
+                          a(href='{{ item.url }}') {{ item.text }}

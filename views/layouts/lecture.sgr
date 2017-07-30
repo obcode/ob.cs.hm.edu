@@ -13,7 +13,7 @@ extends(src='layouts/layout.sgr')
                   h1 {{ currentLecture.long }}
                   p {{ currentLecture.last }}
                   p(class='slide-btn')
-                    a(href='/lectures/{{ currentLecture.short }}.json'
+                    a(href='/api/lectures/{{ currentLecture.short }}.json'
                       class='btn btn-white btn-lg') JSON
     div(class='space-70')
     div(class='container')

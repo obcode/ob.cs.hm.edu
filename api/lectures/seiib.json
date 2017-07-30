@@ -2,5 +2,7 @@
   "short": "seiib",
   "long": "Softwareentwicklung I (IB)",
   "last": "Wintersemester 2017/18",
-  "semesters": "ws1718 older"
+  "semesters": "ws1718 older",
+  "sidebar": null,
+  "maincontent": null
 }

@@ -6,14 +6,14 @@ div(role='tabpanel' class='tab-pane fade'
       div(class='col-md-6 margin-btm-20')
         div(class='portfolio-sec')
           div(class='portfolio-thumnail')
-            a(href='{{ filesPrefix }}/{{ currentLecture.short }}/exercises/{{ exercise.file }}.pdf')
-              img(src='{{ filesPrefix }}/{{ currentLecture.short }}/exercises/{{ exercise.file }}.png'
+            a(href='{{ base.filesPrefix }}/{{ currentLecture.short }}/{{ base.dirs.exercises }}/{{ exercise.file }}.{{ base.suffixes.exercises }}')
+              img(src='{{ base.filesPrefix }}/{{ currentLecture.short }}/{{ base.dirs.exercises }}/{{ exercise.file }}.png'
                  class='img-fluid' alt='{{ exercise.name }}')
 
           div(class='portfolio-desc text-center')
             h4(class='portfolio-post-title') {{ exercise.name }}
             a(class='portfolio-post-cat'
-              href='{{ filesPrefix }}/{{ currentLecture.short }}/exercises/{{ exercise.file }}.json') changelog
+              href='{{ base.filesPrefix }}/{{ currentLecture.short }}/{{ base.dirs.changelog.exercises }}/{{ exercise.file }}.{{ base.suffixes.changelog.exercises }}') changelog
             h4
-              a(href='{{ filesPrefix }}/{{ currentLecture.short }}/exercises/{{ exercise.file }}.pdf'
+              a(href='{{ base.filesPrefix }}/{{ currentLecture.short }}/{{ base.dirs.exercises }}/{{ exercise.file }}.{{ base.suffixes.exercises }}'
                 class='btn theme-btn-default btn-lg') PDF

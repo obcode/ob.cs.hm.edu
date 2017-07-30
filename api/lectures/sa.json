@@ -2,5 +2,7 @@
   "short": "sa",
   "long": "Software-Architektur",
   "last": "Sommersemester 2015",
-  "semesters": "older"
+  "semesters": "older",
+  "sidebar": null,
+  "maincontent": null
 }

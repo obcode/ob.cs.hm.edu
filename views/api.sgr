@@ -1,0 +1,174 @@
+extends(src='layouts/layout.sgr')
+  block(name='content')
+    section(id='content-region-3' class='padding-40 page-tree-bg')
+      div(class='container')
+        h3(class='page-tree-text') API
+    div(class='space-70')
+
+
+    div(class='container')
+      div(class='row')
+        div(md class='col-lg-6').
+          Die Informationen von dieser Seite können auch als
+          [JSON](http://www.json.org/)-Objekte abgerufen werden.
+          Die Seite bietet jedoch keine
+          [REST](https://de.wikipedia.org/wiki/Representational_State_Transfer)-Schnittstelle.
+
+          ### Informationen zu den einzelnen Veranstaltungen
+
+          Für jede Veranstaltung finden Sie eine JSON-Datei. Der Link ist
+          jeweils im Bild zur Veranstaltung zu finden. Für die Veranstaltung
+          "Algorithmen und Datenstrukturen II" beispielsweise finden Sie die
+          Seite unter `/lectures/algdatii.html`, das dazugehörige JSON finden
+          Sie unter `/api/lectures/algdatii.json`.
+
+          #### Veranstaltungsobjekte
+
+          Veranstaltungsobjekte haben folgende Felder:
+
+          -   `short`: Abkürzung der Veranstaltung
+          -   `long`: Titel der Veranstaltung
+          -   `last`: Semester in dem die Veranstaltung zuletzt statt fand
+          -   `semesters`: Abkürzungen aller Semester mit Veranstaltung
+          -   `sidebar`: Array von Sidebar-Objekten
+          -   `maincontent`: Array von Content-Objekten
+
+          Die Objekte aus denen der Sidebar-Content generiert wird, haben
+          folgenden Aufbau:
+
+          -   `title`: Überschrift der Sidebar-Box
+          -   `text`: Sidebar-Box-Inhalt, wenn Text
+          -   `listitems`: Sidebar-Box-Inhalt als Array, wenn Aufzählung
+
+          Jedes Sidebar-Listitem-Objekt besteht aus einem `text`- und
+          einem `url`-Feld.
+
+          Es gibt 4 verschiedene Felder in einem Content-Objekt:
+
+          -   `lecture`: Vorlesungstermine und -inhalte
+          -   `lab`: Praktikumstermine und -inhalte
+          -   `slides`: Vorlesungsfolien und Handouts
+          -   `exercises`: Übungsblätter
+
+          Ist etwas davon nicht vorhanden, z.B. wenn es keine Folien gibt,
+          hat das entsprechende Feld den Wert `null`.
+
+          Das Lecture-Objekt enthält 3 Felder:
+
+          -   `daytime`: Wochentag und Uhrzeit
+          -   `room`: Hörsaal
+          -   `lectures`: Array mit Objekten die die folgenden Felder enthalten:
+              -   `date`: Datum des Vorlesungstermins
+              -   `topic`: Inhalt des Vorlesungstermins
+
+          Das Lab-Objekt enthält 2 Felder mit Arrays:
+
+          -   `groups`: Teilgruppen mit je
+              -   `name`: Name der Teilgruppe
+              -   `daytime`: Wochentag und Uhrzeit
+              -   `room`: Praktikumsraum
+          -   `labs`: Praktikumstermine mit je
+              -   `dates`: Array mit je einem Termin pro Teilgruppe
+              -   `topic`: Inhalt des Praktikumstermins
+
+          Das Slides-Array enthält Objekte je Folie mit folgenden Feldern:
+
+          -   `name`: Titel des Foliensatzes, des Handouts und des dazugehörigen
+              Changelogs
+          -   `file`: Dateiname des Foliensatzes **ohne** Dateiendung
+
+          Das Excercises-Array enthält Objekte je Übungsblatt mit folgenden
+          Feldern:
+
+          -   `name`: Titel des Übungsblatt und des dazugehörigen Changelogs
+          -   `file`: Dateiname des Übungsblatt **ohne** Dateiendung
+
+          Die Changelogs selbst sind auch wieder JSON-Objekte, die die Git-Commits
+          für die Datei `source` seit `changesSince` im Array `changes` enthalten.
+          Dabei besteht ein `change` aus `date`, dem Commitdatum, und `subject`,
+          der Commitmessage. Dadurch erfahren Sie was sich in letzter Zeit an
+          dem entsprechenden Dokument geändert hat. Nachdem Slides und Handouts
+          aus einem Markdown-Dokument generiert werden, gibt es die Changelogs
+          nur für Folien und für Übungsblätter.
+
+        div(md class='col-lg-6').
+
+          ### Basis-Informationen
+
+          Um die Folien und Aufgabenblätter direkt herunterladen zu können,
+          fehlen noch einige Informationen. Diese finden Sie in der Datei
+          [`/api/base.json`](/api/base.json). Das darin Base-Objekt enthält
+          folgende Felder:
+
+          -   `filesPrefix`: Präfix-URL
+          -   `dirs`: Verzeichnisnamen für die verschiedenen Artefakte:
+              -   `slides`
+              -   `handouts`
+              -   `exercises`
+              -   `exams`
+              -   `changelog`
+                  -   `slides`
+                  -   `exercises`
+          -   `suffixes`: Dateiendungen für die selben Artefakte
+
+          ### Beispiele
+
+          1.  Sie wollen wissen, was im dritten Praktikumstermin der Veranstaltung
+              "Algorithmen und Datenstrukturen I" statt findet und wann er ist.
+
+              Sie holen sich das Objekt
+              [/api/lectures/algdati.json](/api/lectures/algdati.json) als
+              `algdati`.
+
+              Dort finden Sie
+              unter `algdati.maincontent.lab.labs` das Array mit den
+              Praktikumsterminen.
+              Sie holen sich das dritte Objekt aus dem Array. Darin finden Sie
+              unter `topic` was gemacht wird. Unter `dates` finden Sie ein
+              Array mit den Datumsangaben.
+
+              Wenn Sie z.B. in der zweiten
+              Teilgruppe sind, finden Sie als zweites Element das Datum ihres
+              dritten Praktikums.
+
+          2.  Sie wollen alle Handouts der Veranstaltung "Algorithmen und
+              Datenstrukturen II" herunterladen.
+
+              Dazu benötigen Sie neben dem Objekt
+              [/api/lectures/algdatii.json](/api/lectures/algdatii.json) auch noch
+              das [Base-Objekt](/api/base.json).
+
+              Aus dem `algdatii`-Objekt holen Sie sich aus dem Array
+              `algdatii.maincontent.slides` alle Dateinamen (Feld `file`) als
+              `filename`.
+
+              Mit dem Base-Objekt `base` bekommen Sie nun die Informationen um
+              die Download-URLs zusammen zu bauen. Der grundsätzliche Aufbau einer
+              solchen URL ist
+              `filesPrefix/lecturename/artefaktDir/file.suffix`, z.B.
+              [https://ob.cs.hm.edu/dropbox/lectures/algdatii/handouts/01_Hashverfahren.pdf](https://ob.cs.hm.edu/dropbox/lectures/algdatii/handouts/01_Hashverfahren.pdf)
+
+
+              Dabei gilt also:
+
+              -   `filesPrefix` = `https://ob.cs.hm.edu/dropbox/lectures/`
+              -   `lecturename` = `algdatii`
+              -   `artefaktDir` = `handouts`
+              -   `file` = `01_Hashverfahren`
+              -   `suffix` = `pdf`
+
+          3.
+              Einzig die Klausuren finden Sie etwas versteckt in einer Sidebar-Box.
+              Andererseits sind die Dateinamen immer `Klausur` gefolgt von
+              `SS` für Sommersemester oder `WS` für Wintersemester sowie der
+              zweistelligen Jahreszahl des Datums an dem das Semester begonnen hat.
+              Die Klausur in "Software Engineering II (IB)" vom Wintersemester
+              2015/16 hat also den Dateinamen `KlausurWS15`. Zusammen mit den
+              Informationen aus dem Base-Objekt können Sie daraus die folgende URL
+              berechnen:
+
+              [https://ob.cs.hm.edu/dropbox/lectures/swengiiib/exams/KlausurWS15.pdf](https://ob.cs.hm.edu/dropbox/lectures/swengiiib/exams/KlausurWS15.pdf).
+
+              Das heisst die einfachste Methode alle alten Klausuren automatisch
+              zu finden ist für alle Semester seit dem Wintersemester 2012/13 die
+              URLs zu berechnen und zu versuchen die Datei herunter zu laden.

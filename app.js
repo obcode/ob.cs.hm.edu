@@ -22,10 +22,10 @@ module.exports = {
         currentLecture: lecture(ctx),
         lectures: locals.lectures,
         currentSemester: locals.currentSemester,
-        filesPrefix: locals.filesPrefix
+        base: locals.base
       }
     },
-    root: '/Users/obraun/lectures/sw/ob.cs.hm.edu/views',
+    root: process.cwd() + '/views',
     minify: env === 'production'
   }),
   vendor: ['assets/js/**', 'assets/cubeportfolio/js/**']

@@ -2,5 +2,7 @@
   "short": "swengiiib",
   "long": "Software Engineering II (IB)",
   "last": "Sommersemester 2017",
-  "semesters": "ss17"
+  "semesters": "ss17",
+  "sidebar": null,
+  "maincontent": null
 }

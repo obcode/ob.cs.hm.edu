@@ -1,14 +1,15 @@
-const algdati = require('./lectures/algdati.json')
-const algdatii = require('./lectures/algdatii.json')
-const compiler = require('./lectures/compiler.json')
-const fun = require('./lectures/fun.json')
-const sa = require('./lectures/sa.json')
-const seiib = require('./lectures/seiib.json')
-const seiiib = require('./lectures/seiiib.json')
-const swengiib = require('./lectures/swengiib.json')
-const swengiiib = require('./lectures/swengiiib.json')
-const webtech = require('./lectures/webtech.json')
-const webtechFK12 = require('./lectures/webtechFK12.json')
+const algdati = require('./api/lectures/algdati.json')
+const algdatii = require('./api/lectures/algdatii.json')
+const compiler = require('./api/lectures/compiler.json')
+const fun = require('./api/lectures/fun.json')
+const sa = require('./api/lectures/sa.json')
+const seiib = require('./api/lectures/seiib.json')
+const seiiib = require('./api/lectures/seiiib.json')
+const swengiib = require('./api/lectures/swengiib.json')
+const swengiiib = require('./api/lectures/swengiiib.json')
+const webtech = require('./api/lectures/webtech.json')
+const webtechFK12 = require('./api/lectures/webtechFK12.json')
+const base = require('./api/base.json')
 
 const lectures = [
   algdati,
@@ -58,4 +59,4 @@ exports.currentSemester = {
   ]
 }
 
-exports.filesPrefix = 'https://dl.dropboxusercontent.com/u/13563262/lectures'
+exports.base = base
