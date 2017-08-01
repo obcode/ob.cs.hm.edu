@@ -1,0 +1,9 @@
+extends(src='layouts/layout.sgr')
+  block(name='content')
+    section(id='content-region-3' class='padding-40 page-tree-bg')
+      div(class='container')
+        h3(class='page-tree-text') 404
+        br
+        br
+        h3(class='page-tree-text') resource not found
+    div(class='space-70')
