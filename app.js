@@ -1,5 +1,7 @@
 const htmlStandards = require('reshape-standard')
 const pageId = require('spike-page-id')
+const ImageminPlugin = require('imagemin-webpack-plugin').default
+const imageminMozjpeg = require('imagemin-mozjpeg')
 const env = process.env.NODE_ENV
 const locals = require('./locals.js')
 
@@ -11,9 +13,12 @@ const lecture = (ctx) => {
 }
 
 module.exports = {
-  matchers: { html: '*(**/)*.sgr' },
+  matchers: {
+    html: '*(**/)*.sgr'
+  },
   ignore: ['**/layouts/*.sgr', '**/_*', '**/.*', 'readme.md', 'yarn.lock',
-    '**/includes/**/*.sgr'],
+    '**/includes/**/*.sgr', 'package-lock.json'
+  ],
   reshape: htmlStandards({
     locals: (ctx) => {
       return {
@@ -28,5 +33,17 @@ module.exports = {
     root: process.cwd() + '/views',
     minify: env === 'production'
   }),
-  vendor: ['assets/js/**', 'assets/cubeportfolio/js/**']
+  vendor: ['assets/js/**', 'assets/cubeportfolio/js/**'],
+  afterSpikePlugins: [
+    new ImageminPlugin({
+      disable: process.env.NODE_ENV !== 'production',
+      test: 'img/**',
+      plugins: [
+        imageminMozjpeg({
+          quality: 85,
+          progressive: true
+        })
+      ]
+    })
+  ]
 }
