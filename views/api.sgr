@@ -144,10 +144,7 @@ extends(src='layouts/layout.sgr')
 
               Mit dem Base-Objekt `base` bekommen Sie nun die Informationen um
               die Download-URLs zusammen zu bauen. Der grundsätzliche Aufbau einer
-              solchen URL ist
-              `filesPrefix/lecturename/artefaktDir/file.suffix`, z.B.
-              [https://ob.cs.hm.edu/dropbox/lectures/algdatii/handouts/01_Hashverfahren.pdf](https://ob.cs.hm.edu/dropbox/lectures/algdatii/handouts/01_Hashverfahren.pdf)
-
+              solchen URL ist `filesPrefix/lecturename/artefaktDir/file.suffix`.
 
               Dabei gilt also:
 
@@ -157,17 +154,14 @@ extends(src='layouts/layout.sgr')
               -   `file` = `01_Hashverfahren`
               -   `suffix` = `pdf`
 
-          3.
-              Einzig die Klausuren finden Sie etwas versteckt in einer Sidebar-Box.
+          3.  Einzig die Klausuren finden Sie etwas versteckt in einer Sidebar-Box.
               Andererseits sind die Dateinamen immer `Klausur` gefolgt von
               `SS` für Sommersemester oder `WS` für Wintersemester sowie der
               zweistelligen Jahreszahl des Datums an dem das Semester begonnen hat.
               Die Klausur in "Software Engineering II (IB)" vom Wintersemester
               2015/16 hat also den Dateinamen `KlausurWS15`. Zusammen mit den
               Informationen aus dem Base-Objekt können Sie daraus die folgende URL
-              berechnen:
-
-              [https://ob.cs.hm.edu/dropbox/lectures/swengiiib/exams/KlausurWS15.pdf](https://ob.cs.hm.edu/dropbox/lectures/swengiiib/exams/KlausurWS15.pdf).
+              berechnen.
 
               Das heisst die einfachste Methode alle alten Klausuren automatisch
               zu finden ist für alle Semester seit dem Wintersemester 2012/13 die
