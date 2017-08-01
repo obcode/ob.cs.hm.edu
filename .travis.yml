@@ -7,7 +7,7 @@ node_js:
 #   - master
 before_install:
   - git clone "https://${GH_TOKEN}@github.com/ob-cs-hm-edu/ob-cs-hm-edu.github.io.git" public
-  - mv public/.git ../public.git
+  - mv public/.git public.git
 install:
   - npm install
 script:
