@@ -13,7 +13,7 @@ install:
   - npm install
 script:
   - ./node_modules/.bin/spike clean
-  -  ./node_modules/.bin/spike compile -e production
+  - NODE_ENV=production ./node_modules/.bin/spike compile -e production
 after_success:
   - 'if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then travis_terminate 0; fi'
   - mv public.git public/.git
@@ -23,5 +23,3 @@ after_success:
   - git add --all
   - git commit -m "Update site (`date '+%F %T %Z'`)"
   - git push "https://${GH_TOKEN}@github.com/obcode/ob.cs.hm.edu.git" gh-pages
-env:
-  - NODE_ENV=production
