@@ -1,0 +1,200 @@
+{
+  "short": "algdatii",
+  "long": "Algorithmen und Datenstrukturen II",
+  "last": "Sommersemester 2017",
+  "semesters": "ss17 ss16",
+  "sidebar": [
+    {
+      "title": "Links",
+      "text": null,
+      "listicon": "ion-link",
+      "listitems": [
+        {
+          "text": "@GitHub",
+          "url": "https://github.com/algdat"
+        },
+        {
+          "text": "Praktikums-Themen",
+          "url": "https://github.com/algdat/praktikum-SS17/wiki/Themen"
+        },
+        {
+          "text": "Modulbeschreibung",
+          "url": "https://w3-o.cs.hm.edu:8000/public/module/12/"
+        }
+      ]
+    },
+    {
+      "title": "Ziele / Inhalte",
+      "listicon": "ion-checkmark-round",
+      "text": null,
+      "listitems": [
+        {
+          "text": "Hashverfahren",
+          "url": null
+        },
+        {
+          "text": "Graphen",
+          "url": null
+        },
+        {
+          "text": "Algorithmen und Datenstrukturen für den effizienten Zugriff auf große Datenmengen",
+          "url": null
+        },
+        {
+          "text": "Umsetzung in C++",
+          "url": null
+        },
+        {
+          "text": "Der Vorlesungsstoff basiert auf dem Buch <a href='http://link.springer.com/book/10.1007/978-3-8274-2804-2/page/1'>Algorithmen und Datenstrukturen</a> von T.Ottmann & P.Widmayer.",
+          "url": null
+        }
+      ]
+    },
+    {
+      "title":  "Scheinerwerb",
+      "text": "Erfolgreiche Bearbeitung des Aufgabenblatt 2.",
+      "listitems": []
+    },
+    {
+      "title": "Prüfung",
+      "text": "Mündliche Prüfung",
+      "listitems": []
+    }
+  ],
+  "maincontent": {
+    "lecture": {
+      "daytime": "dienstags, 15:15 - 16:45",
+      "room": "R0.010",
+      "lectures": [
+        {
+          "date": "28.03.17",
+          "topic": "Auffrischung Algorithmen und Datenstrukturen I"
+        },
+        {
+          "date": "04.04.17",
+          "topic": "Hashverfahren bis Folie 11"
+        },
+        {
+          "date": "11.04.17",
+          "topic": "Hashverfahren bis Folie 24"
+        },
+        {
+          "date": "25.04.17",
+          "topic": "Graphenalgorithmen bis Folie 13"
+        },
+        {
+          "date": "09.05.17",
+          "topic": "Graphenalgorithmen bis Folie 30"
+        },
+        {
+          "date": "16.05.17",
+          "topic": "Graphenalgorithmen bis Folie 47"
+        },
+        {
+          "date": "23.05.17",
+          "topic": "Graphenalgorithmen bis Folie 65"
+        },
+        {
+          "date": "30.05.17",
+          "topic": "Graphenalgorithmen abgeschlossen, Suchen in Texten bis Folie 10"
+        },
+        {
+          "date": "13.06.17",
+          "topic": "Suchen in Texten"
+        },
+        {
+          "date": "20.06.17",
+          "topic": "Suchen in Texten, Fragen"
+        },
+        {
+          "date": "27.06.17",
+          "topic": "Präsentationen Praktikumsergebnisse"
+        }
+      ]
+    },
+    "lab": {
+      "groups": [
+        {
+          "name": "Teilgruppe 1",
+          "daytime": "montags, 08:15-09:45",
+          "room": "R3.021"
+        },
+        {
+          "name": "Teilgruppe 2",
+          "daytime": "donnerstags, 11:45-13:15",
+          "room": "R2.012"
+        }
+      ],
+      "labs": [
+        {
+          "dates": [ "30.03.17", "03.04.17" ],
+          "topic": "Blatt 1"
+        },
+        {
+          "dates": [ "06.04.17", "10.04.17" ],
+          "topic": "Bearbeitung und Besprechung Blatt 1"
+        },
+        {
+          "dates": [ "20.04.17", "24.04.17" ],
+          "topic": "Beginn Bearbeitung Blatt 2"
+        },
+        {
+          "dates": [ "27.04.17", "" ],
+          "topic": "Blatt 2"
+        },
+        {
+          "dates": [ "04.05.17", "08.05.17" ],
+          "topic": "Blatt 2"
+        },
+        {
+          "dates": [ "11.05.17", "15.05.17" ],
+          "topic": "Blatt 2"
+        },
+        {
+          "dates": [ "18.05.17", "29.05.17" ],
+          "topic": "Besprechung Zwischenstand"
+        },
+        {
+          "dates": [ "01.06.17", "" ],
+          "topic": "Blatt 2"
+        },
+        {
+          "dates": [ "08.06.17", "12.06.17" ],
+          "topic": "Blatt 2"
+        },
+        {
+          "dates": [ "", "19.06.17" ],
+          "topic": "Blatt 2"
+        },
+        {
+          "dates": [ "22.06.17", "26.06.17" ],
+          "topic": "Blatt 2"
+        }
+      ]
+    },
+    "slides": [
+      {
+        "name": "Hashverfahren",
+        "file": "01_Hashverfahren"
+      },
+      {
+        "name": "Graphenalgorithmen",
+        "file": "02_Graphenalgorithmen"
+      },
+      {
+        "name": "Suchen in Texten",
+        "file": "03_SuchenInTexten"
+      }
+    ],
+    "exercises": [
+      {
+        "name": "Blatt 1",
+        "file": "Blatt01"
+      },
+      {
+        "name": "Blatt 2",
+        "file": "Blatt02"
+      }
+    ]
+  }
+}

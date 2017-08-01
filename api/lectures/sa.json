@@ -1,0 +1,96 @@
+{
+  "short": "sa",
+  "long": "Software-Architektur",
+  "last": "Sommersemester 2015",
+  "semesters": "older",
+  "sidebar": [
+    {
+      "title": "Links",
+      "text": null,
+      "listicon": "ion-link",
+      "listitems": [
+        {
+          "text": "Modulbeschreibung",
+          "url": "https://w3-o.cs.hm.edu:8000/public/module/219/"
+        }
+      ]
+    },
+    {
+      "title": "Ziele / Inhalte",
+      "listicon": "ion-checkmark-round",
+      "text": null,
+      "listitems": [
+        {
+          "text": "Idiome und Entwurfsmuster",
+          "url": null
+        },
+        {
+          "text": "Architekturen für spezifische Zwecke, wie verteilte Dialoganwendungen, autonome Systeme, Batchanwendungen, Webservices",
+          "url": null
+        },
+        {
+          "text": "Werkzeuge und Verfahren",
+          "url": null
+        },
+        {
+          "text": "Frameworks zur Konstruktion von Softwaresystemen",
+          "url": null
+        }
+      ]
+    },
+    {
+      "title":  "Scheinerwerb",
+      "text": "Für den Zulassungsschein müssen Sie eine Web-Applikation in Vierergruppen mit dem <a href=\"https://www.playframework.com/\">Play Framework</a> in der Programmiersprache <a href=\"http://scala-lang.org/\">Scala</a> erstellen. Die genauen Anforderungen entnehmen Sie dem <a href=\"/dropbox/lectures/sa/exercises/Blatt03.pdf\">Anforderungsdokument</a>.",
+      "listitems": []
+    },
+    {
+      "title": "Prüfung",
+      "text": "Gegenstand der mündlichen Prüfung ist der gesamte in der Vorlesung behandelte Stoff, soweit nicht anders vereinbart.",
+      "listitems": []
+    }
+  ],
+  "maincontent": {
+    "lecture": null,
+    "lab": null,
+    "slides": [
+      {
+        "name": "Idiome",
+        "file": "01_Idiome"
+      },
+      {
+        "name": "Design Patterns",
+        "file": "02_DesignPatterns"
+      },
+      {
+        "name": "REST",
+        "file": "03_REST"
+      },
+      {
+        "name": "Actors",
+        "file": "04_Actors"
+      },
+      {
+        "name": "Streams",
+        "file": "05_Streams"
+      },
+      {
+        "name": "STM",
+        "file": "06_STM"
+      }
+    ],
+    "exercises": [
+      {
+        "name": "Blatt 1",
+        "file": "Blatt01"
+      },
+      {
+        "name": "Blatt 2",
+        "file": "Blatt02"
+      },
+      {
+        "name": "Blatt 3",
+        "file": "Blatt03"
+      }
+    ]
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "short": "algdati",
+  "long": "Algorithmen und Datenstrukturen I",
+  "last": "Wintersemester 2017/18",
+  "semesters": "ws1718 ws1617 older",
+  "sidebar": [{
+      "title": "Links",
+      "text": null,
+      "listicon": "ion-link",
+      "listitems": [{
+          "text": "@GitHub",
+          "url": "https://github.com/algdat"
+        },
+        {
+          "text": "Modulbeschreibung",
+          "url": "https://w3-o.cs.hm.edu:8000/public/module/TODO/"
+        }
+      ]
+    },
+    {
+      "title": "Ziele / Inhalte",
+      "listicon": "ion-checkmark-round",
+      "text": null,
+      "listitems": [{
+          "text": "Lineare und hierarchische Datenstrukturen",
+          "url": null
+        },
+        {
+          "text": "Qualität von Datenstrukturen und Algorithmen",
+          "url": null
+        },
+        {
+          "text": "Umsetzung in C++",
+          "url": null
+        },
+        {
+          "text": "Der Vorlesungsstoff basiert auf dem Buch <a href='http://link.springer.com/book/10.1007/978-3-8274-2804-2/page/1'>Algorithmen und Datenstrukturen</a> von T.Ottmann & P.Widmayer.",
+          "url": null
+        }
+      ]
+    },
+    {
+      "title": "Scheinerwerb",
+      "text": "TODO",
+      "listitems": []
+    },
+    {
+      "title": "Prüfung",
+      "text": "<p>Die Veranstaltung wird durch eine benotete schriftliche Prüfung abgeschlossen. Zu dieser sind keine Hilfsmittel zugelassen.</p><p>Der Prüfungsstoff entspricht den Kapiteln 1, 2, 3 & 5 aus dem o.a. Buch und C++</p>",
+      "listitems": []
+    }
+  ],
+  "maincontent": {
+    "lecture": {
+      "daytime": "montags, 10:00 - 11:30",
+      "room": "R1.008",
+      "lectures": []
+    },
+    "lab": {
+      "groups": [{
+          "name": "Teilgruppe 1",
+          "daytime": "montags, 08:15-09:45",
+          "room": "R2.008"
+        },
+        {
+          "name": "Teilgruppe 2",
+          "daytime": "dienstags, 11:45-13:15",
+          "room": "R2.009"
+        },
+        {
+          "name": "Teilgruppe 3 (bei Bedarf)",
+          "daytime": "dienstags, 17:00-18:30",
+          "room": "R3.026"
+        }
+      ],
+      "labs": []
+    },
+    "slides": null,
+    "exercises": null
+  }
+}

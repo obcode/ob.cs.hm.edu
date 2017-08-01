@@ -1,0 +1,23 @@
+{
+  "filesPrefix": "https://dl.dropboxusercontent.com/u/13563262/lectures",
+  "dirs": {
+    "slides": "slides",
+    "handouts": "handouts",
+    "exercises": "exercises",
+    "exams": "exams",
+    "changelog": {
+      "slides": "slides",
+      "exercises": "exercises"
+    }
+  },
+  "suffixes": {
+    "slides": "pdf",
+    "handouts": "pdf",
+    "exercises": "pdf",
+    "exams": "pdf",
+    "changelog": {
+      "slides": "json",
+      "exercises": "json"
+    }
+  }
+}

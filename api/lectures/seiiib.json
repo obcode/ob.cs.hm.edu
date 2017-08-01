@@ -1,0 +1,78 @@
+{
+  "short": "seiiib",
+  "long": "Softwareentwicklung II (IB)",
+  "last": "Sommersemester 2016",
+  "semesters": "ss16",
+  "sidebar": [{
+      "title": "Links",
+      "text": null,
+      "listicon": "ion-link",
+      "listitems": [{
+        "text": "Modulbeschreibung",
+        "url": "https://w3-o.cs.hm.edu:8000/public/module/227/"
+      }]
+    },
+    {
+      "title": "Ziele / Inhalte",
+      "listicon": "ion-checkmark-round",
+      "text": null,
+      "listitems": [{
+          "text": "Vertiefende Kenntnisse der Programmentwicklung und des Programmierens",
+          "url": null
+        },
+        {
+          "text": "Fähigkeiten der Programmentwicklung bei der Entwicklung konkreter Anwendungssysteme beherrschen",
+          "url": null
+        },
+        {
+          "text": "Packages und Dokumentation",
+          "url": null
+        },
+        {
+          "text": "Vererbung",
+          "url": null
+        },
+        {
+          "text": "Assertions und Exceptions",
+          "url": null
+        },
+        {
+          "text": "Arrays",
+          "url": null
+        },
+        {
+          "text": "I/O",
+          "url": null
+        },
+        {
+          "text": "Collection-Framework",
+          "url": null
+        }
+      ]
+    },
+    {
+      "title": "Scheinerwerb",
+      "text": "",
+      "listitems": []
+    },
+    {
+      "title": "Prüfung",
+      "listicon": "ion-compose",
+      "text": "Gegenstand der Klausur ist der gesamte in Vorlesung und Praktikum behandelte Stoff, soweit nicht anders vereinbart. Die Klausur wird ohne Hilfsmittel geschrieben.",
+      "listitems": [{
+          "text": "Klausur vom 11.07.13",
+          "url": "https://ob.cs.hm.edu/dropbox/lectures/seiiib/exams/KlausurSS13.pdf"
+        },
+        {
+          "text": "Klausur vom 03.02.14",
+          "url": "https://ob.cs.hm.edu/dropbox/lectures/seiiib/exams/KlausurWS13.pdf"
+        },
+        {
+          "text": "Klausur vom 11.07.16",
+          "url": "https://ob.cs.hm.edu/dropbox/lectures/seiiib/exams/KlausurSS16.pdf"
+        }
+      ]
+    }
+  ],
+  "maincontent": null
+}

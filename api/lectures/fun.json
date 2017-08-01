@@ -1,0 +1,106 @@
+{
+  "short": "fun",
+  "long": "Funktionale Programmierung",
+  "last": "Wintersemester 2017/18",
+  "semesters": "ws1718 ws1617 older",
+  "sidebar": [{
+      "title": "Links",
+      "text": null,
+      "listicon": "ion-link",
+      "listitems": [{
+          "text": "@GitHub",
+          "url": "https://github.com/ob-fun-ws17"
+        },
+        {
+          "text": "Modulbeschreibung",
+          "url": "https://w3-o.cs.hm.edu:8000/public/module/97/"
+        }
+      ]
+    },
+    {
+      "title": "Ziele / Inhalte",
+      "listicon": "ion-checkmark-round",
+      "text": null,
+      "listitems": [{
+          "text": "Konzepte der funktionalen Programmierung",
+          "url": null
+        },
+        {
+          "text": "Lambdas",
+          "url": null
+        },
+        {
+          "text": "Funktionen höherer Ordnung",
+          "url": null
+        },
+        {
+          "text": "statische Typisierung",
+          "url": null
+        },
+        {
+          "text": "Typklassen",
+          "url": null
+        },
+        {
+          "text": "Funktoren",
+          "url": null
+        },
+        {
+          "text": "Monaden",
+          "url": null
+        },
+        {
+          "text": "parallele und nebenläufige Programmierung",
+          "url": null
+        }
+      ]
+    },
+    {
+      "title": "Studienarbeit",
+      "text": "",
+      "listitems": []
+    },
+    {
+      "title": "Prüfung",
+      "listicon": "ion-compose",
+      "text": "Gegenstand der Klausur ist der gesamte in Vorlesung und Praktikum behandelte Stoff, soweit nicht anders vereinbart. Die Klausur wird ohne Hilfsmittel geschrieben.",
+      "listitems": [
+        {
+          "text": "Klausur vom 26.07.13",
+          "url": "https://ob.cs.hm.edu/dropbox/lectures/fun/exams/KlausurSS13.pdf"
+        },
+        {
+          "text": "Klausur vom 16.07.14",
+          "url": "https://ob.cs.hm.edu/dropbox/lectures/fun/exams/KlausurSS14.pdf"
+        },
+        {
+          "text": "Klausur vom 23.07.15",
+          "url": "https://ob.cs.hm.edu/dropbox/lectures/fun/exams/KlausurSS15.pdf"
+        },
+        {
+          "text": "Klausur vom 04.02.16",
+          "url": "https://ob.cs.hm.edu/dropbox/lectures/fun/exams/KlausurWS15.pdf"
+        }
+      ]
+    }
+  ],
+  "maincontent": {
+    "lecture": {
+            "daytime": "dienstags, 13:30 - 15:00",
+            "room": "R0.006",
+            "lectures": []
+    },
+    "lab": {
+      "groups": [
+        {
+          "name": null,
+          "daytime": "dienstags, 15:15 - 16:45",
+          "room": "R1.009"
+        }
+      ],
+      "labs": []
+    },
+    "slides": null,
+    "exercises": null
+  }
+}

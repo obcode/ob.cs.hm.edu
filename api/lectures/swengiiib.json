@@ -1,0 +1,98 @@
+{
+  "short": "swengiiib",
+  "long": "Software Engineering II (IB)",
+  "last": "Sommersemester 2017",
+  "semesters": "ss17",
+  "sidebar": [{
+      "title": "Links",
+      "text": null,
+      "listicon": "ion-link",
+      "listitems": [{
+        "text": "Modulbeschreibung",
+        "url": "https://w3-o.cs.hm.edu:8000/public/module/223/"
+      }]
+    },
+    {
+      "title": "Ziele / Inhalte",
+      "listicon": "ion-checkmark-round",
+      "text": null,
+      "listitems": [{
+          "text": "Verifikation und Test",
+          "url": null
+        },
+        {
+          "text": "Design Patterns",
+          "url": null
+        },
+        {
+          "text": "Evolution und Wiederverwendung von Software",
+          "url": null
+        },
+        {
+          "text": "Verteilte Architekturen",
+          "url": null
+        }
+      ]
+    },
+    {
+      "title": "Studienarbeit",
+      "text": "",
+      "listitems": []
+    },
+    {
+      "title": "Prüfung",
+      "listicon": "ion-compose",
+      "text": "Gegenstand der Klausur ist der gesamte in Vorlesung und Praktikum behandelte Stoff, soweit nicht anders vereinbart. Die Klausur wird ohne Hilfsmittel geschrieben.",
+      "listitems": [{
+          "text": "Klausur vom 20.07.15",
+          "url": "https://ob.cs.hm.edu/dropbox/lectures/swengiiib/exams/KlausurSS15.pdf"
+        },
+        {
+          "text": "Klausur vom 01.02.16",
+          "url": "https://ob.cs.hm.edu/dropbox/lectures/swengiiib/exams/KlausurWS15.pdf"
+        }
+      ]
+    }
+  ],
+  "maincontent": {
+    "lecture": null,
+    "lab": null,
+    "slides": [{
+        "name": "Testen von Software / Modultests",
+        "file": "01_Testen_Modultests"
+      },
+      {
+        "name": "Testen in Scala und Play",
+        "file": "02_Testen_Scala_Play"
+      },
+      {
+        "name": "Testen von Software II",
+        "file": "03_TestenII"
+      },
+      {
+        "name": "Design Patterns",
+        "file": "04_DesignPatterns"
+      },
+      {
+        "name": "Softwareevolution",
+        "file": "05_Softwareevolution"
+      },
+      {
+        "name": "Wiederverwendung von Software",
+        "file": "06_Wiederverwendung"
+      },
+      {
+        "name": "Serviceorientierte Architekturen",
+        "file": "07_SOA"
+      },
+      {
+        "name": "REST",
+        "file": "08_REST"
+      }
+    ],
+    "exercises": [{
+      "name": "Studienarbeit",
+      "file": "Studienarbeit"
+    }]
+  }
+}

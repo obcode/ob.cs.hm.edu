@@ -1,0 +1,114 @@
+{
+  "short": "seiib",
+  "long": "Softwareentwicklung I (IB)",
+  "last": "Wintersemester 2017/18",
+  "semesters": "ws1718 older",
+  "sidebar": [{
+      "title": "Links",
+      "text": null,
+      "listicon": "ion-link",
+      "listitems": [{
+          "text": "@GitHub",
+          "url": "https://github.com/ob-seiib-ws17"
+        },
+        {
+          "text": "Modulbeschreibung",
+          "url": "https://w3-o.cs.hm.edu:8000/public/module/226/"
+        }
+      ]
+    },
+    {
+      "title": "Ziele / Inhalte",
+      "listicon": "ion-checkmark-round",
+      "text": null,
+      "listitems": [{
+          "text": "Erlernen der Logik der Programmentwicklung und des Programmierens.",
+          "url": null
+        },
+        {
+          "text": "Fähigkeiten der Programmentwicklung in praktischen Programmierproblemen einsetzen.",
+          "url": null
+        },
+        {
+          "text": "Einführung: Software-Lebenszyklus, Sprachen, Werkzeuge",
+          "url": null
+        },
+        {
+          "text": "Arithmetik und Variablen",
+          "url": null
+        },
+        {
+          "text": "Kontrollstrukturen",
+          "url": null
+        },
+        {
+          "text": "Klassen",
+          "url": null
+        },
+        {
+          "text": "Characters und Strings",
+          "url": null
+        }
+      ]
+    },
+    {
+      "title": "Scheinerwerb",
+      "text": "",
+      "listitems": []
+    },
+    {
+      "title": "Prüfung",
+      "listicon": "ion-compose",
+      "text": "Gegenstand der Klausur ist der gesamte in Vorlesung und Praktikum behandelte Stoff, soweit nicht anders vereinbart. Die Klausur wird ohne Hilfsmittel geschrieben.",
+      "listitems": [{
+          "text": "Klausur vom 25.01.13",
+          "url": "https://ob.cs.hm.edu/dropbox/lectures/seiib/exams/KlausurWS12.pdf"
+        },
+        {
+          "text": "Klausur vom 23.07.13",
+          "url": "https://ob.cs.hm.edu/dropbox/lectures/seiib/exams/KlausurSS13.pdf"
+        },
+        {
+          "text": "Klausur vom 25.01.16",
+          "url": "https://ob.cs.hm.edu/dropbox/lectures/seiib/exams/KlausurWS15.pdf"
+        }
+      ]
+    }
+  ],
+  "maincontent": {
+    "lecture": {
+      "daytime": "donnerstags, 08:15 - 09:45",
+      "room": "R2.007",
+      "lectures": []
+    },
+    "lab": {
+      "groups": [{
+          "name": "Teilgruppe 1",
+          "daytime": "donnerstags, 15:15 - 16:45",
+          "room": "R2.008"
+        },
+        {
+          "name": "Teilgruppe 2",
+          "daytime": "donnerstags, 10:00 - 11:30",
+          "room": "R2.008"
+        },
+        {
+          "name": "Teilgruppe 3",
+          "daytime": "donnerstags, 11:45 - 13:15",
+          "room": "R2.010"
+        }
+      ],
+      "labs": []
+    },
+    "slides": [{
+        "name": "Versionsverwaltung mit Git",
+        "file": "00_Git"
+      },
+      {
+        "name": "Einführung",
+        "file": "01_Einfuehrung"
+      }
+    ],
+    "exercises": null
+  }
+}
