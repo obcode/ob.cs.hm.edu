@@ -1,5 +1,5 @@
-div(role='tabpanel' class='tab-pane fade'
-  id='Slides' aria-expanded='false')
+div(role='tabpanel' class='tab-pane {{ (currentLecture.maincontent.lecture === null) && (currentLecture.maincontent.lab === null) ? "show active" : "" }} fade'
+  id='Slides' aria-expanded='{{ (currentLecture.maincontent.lecture === null) && (currentLecture.maincontent.lab === null) ? "true" : "false" }}')
 
   div(class='row')
     each(loop='slide of currentLecture.maincontent.slides')

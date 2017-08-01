@@ -14,7 +14,7 @@ div(class='col-md-8')
 
       if(condition='currentLecture.maincontent.slides !== null')
         li(class='nav-item')
-          a(class='ion-ios-cloud-download nav-link' href='#Slides'
+          a(class='ion-ios-cloud-download {{ (currentLecture.maincontent.lecture === null) && (currentLecture.maincontent.lab === null) ? "active" : "" }} nav-link' href='#Slides'
             data-taget='#Slides' role='tab' data-toggle='tab') &nbsp; Slides und Handouts
 
       if(condition='currentLecture.maincontent.exercises !== null')
