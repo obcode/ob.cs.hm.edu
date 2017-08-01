@@ -17,7 +17,7 @@ module.exports = {
     html: '*(**/)*.sgr'
   },
   ignore: ['**/layouts/*.sgr', '**/_*', '**/.*', 'readme.md', 'yarn.lock',
-    '**/includes/**/*.sgr', 'package-lock.json'
+    '**/includes/**/*.sgr', 'package-lock.json', 'public.git/**'
   ],
   reshape: htmlStandards({
     locals: (ctx) => {
