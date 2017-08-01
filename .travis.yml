@@ -2,3 +2,24 @@ sudo: false
 language: node_js
 node_js:
   - 8
+before_install:
+  - git clone "https://${GH_TOKEN}@github.com/obcode/ob.cs.hm.edu.git" public
+  - cd public
+  - git checkout gh-pages
+  - git pull origin gh-pages
+  - mv .git ../public.git
+  - cd ..
+install:
+  - npm install
+script:
+  - ./node_modules/.bin/spike clean
+  -  NODE_ENV=production ./node_modules/.bin/spike compile -e production
+after_success:
+  - 'if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then travis_terminate 0; fi'
+  - mv public.git public/.git
+  - cd public
+  - git config --global user.email deploy@travis-ci.org
+  - git config --global user.name "Travis Deployment Bot"
+  - git add --all
+  - git commit -m "Update site (`date '+%F %T %Z'`)"
+  - git push "https://${GH_TOKEN}@github.com/obcode/ob.cs.hm.edu.git" gh-pages
