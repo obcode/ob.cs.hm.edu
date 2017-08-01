@@ -27,7 +27,8 @@ module.exports = {
         currentLecture: lecture(ctx),
         lectures: locals.lectures,
         currentSemester: locals.currentSemester,
-        base: locals.base
+        base: locals.base,
+        year: new Date().getFullYear()
       }
     },
     root: process.cwd() + '/views',
