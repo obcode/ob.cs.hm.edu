@@ -2,13 +2,12 @@ sudo: false
 language: node_js
 node_js:
   - 8
+# branches:
+# only:
+#   - master
 before_install:
-  - git clone "https://${GH_TOKEN}@github.com/obcode/ob.cs.hm.edu.git" public
-  - cd public
-  - git checkout gh-pages
-  - git pull origin gh-pages
-  - mv .git ../public.git
-  - cd ..
+  - git clone "https://${GH_TOKEN}@github.com/ob-cs-hm-edu/ob-cs-hm-edu.github.io.git" public
+  - mv public/.git ../public.git
 install:
   - npm install
 script:
@@ -22,4 +21,4 @@ after_success:
   - git config --global user.name "Travis Deployment Bot"
   - git add --all
   - git commit -m "Update site (`date '+%F %T %Z'`)"
-  - git push "https://${GH_TOKEN}@github.com/obcode/ob.cs.hm.edu.git" gh-pages
+  - git push "https://${GH_TOKEN}@github.com/ob-cs-hm-edu/ob-cs-hm-edu.github.io.git" master
