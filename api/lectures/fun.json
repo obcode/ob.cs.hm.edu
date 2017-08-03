@@ -93,9 +93,14 @@
     "lab": {
       "groups": [
         {
-          "name": null,
+          "name": "Teilgruppe 1",
           "daytime": "dienstags, 15:15 - 16:45",
           "room": "R1.009"
+        },
+        {
+          "name": "Teilgruppe 2",
+          "daytime": "donnerstags, 13:30 - 15:00",
+          "room": "R2.010"
         }
       ],
       "labs": []

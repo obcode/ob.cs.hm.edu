@@ -14,7 +14,7 @@ const lecture = (ctx) => {
 
 module.exports = {
   matchers: {
-    html: '*(**/)*.sgr'
+    html: 'views/*(**/)*.sgr'
   },
   ignore: ['**/layouts/*.sgr', '**/_*', '**/.*', 'readme.md', 'yarn.lock',
     '**/includes/**/*.sgr', 'package-lock.json', 'public.git/**'
