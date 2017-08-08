@@ -11,9 +11,9 @@ div
         |
         a(href='https://travis-ci.org/obcode/ob.cs.hm.edu') Travic CI
         |
-        |  -- Fork me on
+        |  -- Please report issues on
         |
-        a(href='https://github.com/obcode/ob.cs.hm.edu') GitHub
+        a(href='https://github.com/obcode/ob.cs.hm.edu/issues') GitHub
       div
       span &copy; {{ year }} Oliver Braun |
         a(href='/impressum.html') Impressum
