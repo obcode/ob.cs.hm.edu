@@ -107,6 +107,10 @@
       {
         "name": "Einführung",
         "file": "01_Einfuehrung"
+      },
+      {
+        "name": "Arithmetik und Variablen",
+        "file": "02_ArithmetikUndVariablen"
       }
     ],
     "exercises": null
