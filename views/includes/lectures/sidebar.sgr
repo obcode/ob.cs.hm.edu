@@ -27,3 +27,21 @@ div(class='col-md-4')
                           | {{ item.text }}
                         else
                           a(href='{{ item.url }}') {{ item.text }}
+        div(class='card')
+          div(class='card-header accordion-header' role='tab' id='headingInfty')
+            a(class='collapsed'
+              data-toggle='collapse' data-parent='#card-accordion-simple'
+              href='#collapseInftyList' aria-expanded='true'
+              aria-controls='collapseInftyList') src
+          div(id='collapseInftyList'
+            class='collapse'
+            role='tabpanel'
+            aria-labelledby='headingsrc')
+            div(class='card-block')
+              ul(class='icon-list list-unstyled')
+                li
+                  i(class='ion-link')
+                  a(href='/api/lectures/{{ currentLecture.short }}.json') JSON
+                li
+                  i(class='ion-link')
+                  a(href='{{ base.dropboxprefix }}/{{ currentLecture.short }}/') Dropbox
