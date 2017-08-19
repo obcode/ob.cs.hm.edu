@@ -42,6 +42,7 @@ div(class='col-md-4')
                 li
                   i(class='ion-link')
                   a(href='/api/lectures/{{ currentLecture.short }}.json') JSON
-                li
-                  i(class='ion-link')
-                  a(href='{{ base.dropboxprefix }}/{{ currentLecture.short }}/') Dropbox
+                if(condition='currentLecture.dropboxfolder != null')
+                  li
+                    i(class='ion-link')
+                    a(href='{{ currentLecture.dropboxfolder }}') Dropbox
