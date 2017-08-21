@@ -8,6 +8,7 @@ node_js:
 before_install:
   - git clone "https://${GH_TOKEN}@github.com/ob-cs-hm-edu/ob-cs-hm-edu.github.io.git" public
   - mv public/.git public.git
+  - git log -1 --pretty='Updating site with obcode/ob.cs.hm.edu@%H' > publiccommitmsg
 install:
   - npm install
 script:
@@ -20,7 +21,7 @@ after_success:
   - git config --global user.email deploy@travis-ci.org
   - git config --global user.name "Travis Deployment Bot"
   - git add --all
-  - git commit -m "Update site (`date '+%F %T %Z'`)"
+  - git commit --file ../publiccommitmsg
   - git push "https://${GH_TOKEN}@github.com/ob-cs-hm-edu/ob-cs-hm-edu.github.io.git" master
 notifications:
   webhooks:
