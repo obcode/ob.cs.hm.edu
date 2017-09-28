@@ -10,7 +10,11 @@
       "listicon": "ion-link",
       "listitems": [{
           "text": "@GitHub",
-          "url": "https://github.com/algdat"
+          "url": "https://github.com/ob-algdati-ws17"
+        },
+        {
+          "text": "Gitter",
+          "url": "https://gitter.im/ob-algdati-ws17/Lobby"
         },
         {
           "text": "Modulbeschreibung",
