@@ -33,6 +33,8 @@ nav(class='navbar navbar-toggleable-sm navbar-light bg-faded yamm')
           a(href='#' class='dropdown-toggle nav-link' data-toggle='dropdown') Misc
           ul(class='dropdown-menu')
             li
+              a(class='dropdown-item' href='/git.html') Git / GitHub / Gitter
+            li
               a(class='dropdown-item' href='https://terraform.cs.hm.edu/jenkins/blue/') Jenkins
             li
               a(class='dropdown-item' href='/about.html') Kontakt
