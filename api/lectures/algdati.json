@@ -194,7 +194,12 @@
         }
       ]
     },
-    "slides": null,
+    "slides": [
+      {
+        "name": "Organisatorisches",
+        "file": "00_Org"
+      }
+    ],
     "exercises": null
   }
 }
