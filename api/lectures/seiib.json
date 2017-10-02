@@ -80,7 +80,63 @@
     "lecture": {
       "daytime": "donnerstags, 08:15 - 09:45",
       "room": "R2.007",
-      "lectures": []
+      "lectures": [{
+          "date": "12.10.2017",
+          "topic": "Organisatorisches, Erste Schritte in Git und Java<br />Vorlesung von 08:15 - 11:30"
+        },
+        {
+          "date": "19.10.2017",
+          "topic": ""
+        },
+        {
+          "date": "26.10.2017",
+          "topic": ""
+        },
+        {
+          "date": "02.11.2017",
+          "topic": ""
+        },
+        {
+          "date": "09.11.2017",
+          "topic": ""
+        },
+        {
+          "date": "16.11.2017",
+          "topic": ""
+        },
+        {
+          "date": "23.11.2017",
+          "topic": ""
+        },
+        {
+          "date": "30.11.2017",
+          "topic": ""
+        },
+        {
+          "date": "07.12.2017",
+          "topic": ""
+        },
+        {
+          "date": "14.12.2017",
+          "topic": ""
+        },
+        {
+          "date": "21.12.2017",
+          "topic": ""
+        },
+        {
+          "date": "11.01.2018",
+          "topic": ""
+        },
+        {
+          "date": "18.01.2018",
+          "topic": ""
+        },
+        {
+          "date": "25.01.2018",
+          "topic": ""
+        }
+      ]
     },
     "lab": {
       "groups": [{
@@ -99,7 +155,58 @@
           "room": "R2.010"
         }
       ],
-      "labs": []
+      "labs": [{
+          "dates": ["12.10.2017"],
+          "topic": "Vorlesung von 10:00 - 11:30,<br />noch keine Praktika"
+        },
+        {
+          "dates": ["19.10.2017"],
+          "topic": ""
+        },
+        {
+          "dates": ["26.10.2017"],
+          "topic": ""
+        },
+        {
+          "dates": ["02.11.2017"],
+          "topic": ""
+        }, {
+          "dates": ["09.11.2017"],
+          "topic": ""
+        },
+        {
+          "dates": ["16.11.2017"],
+          "topic": ""
+        },
+        {
+          "dates": ["23.11.2017"],
+          "topic": ""
+        },
+        {
+          "dates": ["30.11.2017"],
+          "topic": ""
+        },
+        {
+          "dates": ["07.12.2017"],
+          "topic": ""
+        },
+        {
+          "dates": ["14.12.2017"],
+          "topic": ""
+        },
+        {
+          "dates": ["19.12.2017"],
+          "topic": ""
+        },
+        {
+          "dates": ["11.01.2018"],
+          "topic": ""
+        },
+        {
+          "dates": ["18.01.2018"],
+          "topic": ""
+        }
+      ]
     },
     "slides": [{
         "name": "Versionsverwaltung mit Git",

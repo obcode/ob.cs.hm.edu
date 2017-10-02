@@ -65,8 +65,7 @@
       "title": "Prüfung",
       "listicon": "ion-compose",
       "text": "Gegenstand der Klausur ist der gesamte in Vorlesung und Praktikum behandelte Stoff, soweit nicht anders vereinbart. Die Klausur wird ohne Hilfsmittel geschrieben.",
-      "listitems": [
-        {
+      "listitems": [{
           "text": "Klausur vom 26.07.13",
           "url": "https://ob.cs.hm.edu/dropbox/lectures/fun/exams/KlausurSS13.pdf"
         },
@@ -87,13 +86,64 @@
   ],
   "maincontent": {
     "lecture": {
-            "daytime": "dienstags, 13:30 - 15:00",
-            "room": "R1.007",
-            "lectures": []
+      "daytime": "dienstags, 13:30 - 15:00",
+      "room": "R1.007",
+      "lectures": [{
+          "date": "10.10.2017",
+          "topic": "Organisatorisches, Erste Schritte"
+        },
+        {
+          "date": "17.10.2017",
+          "topic": ""
+        },
+        {
+          "date": "24.10.2017",
+          "topic": ""
+        },
+        {
+          "date": "07.11.2017",
+          "topic": ""
+        },
+        {
+          "date": "14.11.2017",
+          "topic": ""
+        },
+        {
+          "date": "21.11.2017",
+          "topic": ""
+        },
+        {
+          "date": "28.11.2017",
+          "topic": ""
+        },
+        {
+          "date": "05.12.2017",
+          "topic": ""
+        },
+        {
+          "date": "12.12.2017",
+          "topic": ""
+        },
+        {
+          "date": "19.12.2017",
+          "topic": ""
+        },
+        {
+          "date": "09.01.2018",
+          "topic": ""
+        },
+        {
+          "date": "16.01.2018",
+          "topic": ""
+        },
+        {
+          "date": "23.01.2018",
+          "topic": ""
+        }
+      ]
     },
     "lab": {
-      "groups": [
-        {
+      "groups": [{
           "name": "Teilgruppe 1",
           "daytime": "dienstags, 15:15 - 16:45",
           "room": "R1.009"
@@ -104,7 +154,62 @@
           "room": "R2.010"
         }
       ],
-      "labs": []
+      "labs": [{
+          "dates": ["TG 1", "TG 2"],
+          "topic": ""
+        },
+        {
+          "dates": ["10.10.2017", "12.10.2017"],
+          "topic": ""
+        },
+        {
+          "dates": ["17.10.2017", "19.10.2017"],
+          "topic": ""
+        },
+        {
+          "dates": ["24.10.2017", "26.10.2017"],
+          "topic": ""
+        },
+        {
+          "dates": ["", "02.11.2017"],
+          "topic": ""
+        }, {
+          "dates": ["07.11.2017", "09.11.2017"],
+          "topic": ""
+        },
+        {
+          "dates": ["14.11.2017", "16.11.2017"],
+          "topic": ""
+        },
+        {
+          "dates": ["21.11.2017", "23.11.2017"],
+          "topic": ""
+        },
+        {
+          "dates": ["28.11.2017", "30.11.2017"],
+          "topic": ""
+        },
+        {
+          "dates": ["05.12.2017", "07.12.2017"],
+          "topic": ""
+        },
+        {
+          "dates": ["12.12.2017", "14.12.2017"],
+          "topic": ""
+        },
+        {
+          "dates": ["19.12.2017", "19.12.2017"],
+          "topic": ""
+        },
+        {
+          "dates": ["09.01.2018", "11.01.2018"],
+          "topic": "Abnahme Studienarbeit"
+        },
+        {
+          "dates": ["16.01.2018", "18.01.2018"],
+          "topic": "Abnahme Studienarbeit"
+        }
+      ]
     },
     "slides": null,
     "exercises": null
