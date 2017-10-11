@@ -213,6 +213,10 @@
       ]
     },
     "slides": [{
+        "name": "Organisatorisches",
+        "file": "00_Org"
+      },
+      {
         "name": "Versionsverwaltung mit Git",
         "file": "00_Git"
       },
