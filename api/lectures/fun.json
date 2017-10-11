@@ -12,11 +12,11 @@
           "text": "@GitHub",
           "url": "https://github.com/ob-fun-ws17"
         },
-          {
-            "text": "Gitter",
-            "url": "https://gitter.im/ob-fun-ws17/ob-fun-ws17"
-          },
-      {
+        {
+          "text": "Gitter",
+          "url": "https://gitter.im/ob-fun-ws17/ob-fun-ws17"
+        },
+        {
           "text": "Modulbeschreibung",
           "url": "https://w3-o.cs.hm.edu:8000/public/module/97/"
         }
@@ -211,8 +211,7 @@
         }
       ]
     },
-    "slides": [
-      {
+    "slides": [{
         "name": "Organisatorisches",
         "file": "00_Org"
       },
