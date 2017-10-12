@@ -86,7 +86,7 @@
       "room": "R2.007",
       "lectures": [{
           "date": "12.10.2017",
-          "topic": "Organisatorisches, Erste Schritte in Git und Java<br />Vorlesung von 08:15 - 11:30"
+          "topic": "Organisatorisches, Erste Schritte in Git und Java<br />bis Kapitel <i>Einführung</i> Folie 8"
         },
         {
           "date": "19.10.2017",
