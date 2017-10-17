@@ -165,7 +165,7 @@
         },
         {
           "dates": ["19.10.2017"],
-          "topic": "Blatt 0 (Abgabe bis 25.10.17, 10:00 Uhr)</br>Blatt 1 ..."
+          "topic": "Blatt 0 (Abgabe bis 25.10.17, 10:00 Uhr)</br>Blatt 1 (Abgabe bis 25.10.17, 10:00 Uhr)"
         },
         {
           "dates": ["26.10.2017"],
@@ -233,6 +233,10 @@
       {
         "name": "Blatt 0",
         "file": "Blatt00"
+      },
+      {
+        "name": "Blatt 1",
+        "file": "Blatt01"
       }
     ]
   }
