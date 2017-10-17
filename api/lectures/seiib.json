@@ -83,7 +83,7 @@
   "maincontent": {
     "lecture": {
       "daytime": "donnerstags, 08:15 - 09:45",
-      "room": "R2.007",
+      "room": "R1.006",
       "lectures": [{
           "date": "12.10.2017",
           "topic": "Organisatorisches, Erste Schritte in Git und Java<br />bis Kapitel <i>Einführung</i> Folie 8"
@@ -165,7 +165,7 @@
         },
         {
           "dates": ["19.10.2017"],
-          "topic": ""
+          "topic": "Blatt 0 (Abgabe bis 25.10.17, 10:00 Uhr)</br>Blatt 1 ..."
         },
         {
           "dates": ["26.10.2017"],
@@ -229,6 +229,11 @@
         "file": "02_ArithmetikUndVariablen"
       }
     ],
-    "exercises": null
+    "exercises":  [
+      {
+        "name": "Blatt 0",
+        "file": "Blatt00"
+      }
+    ]
   }
 }
