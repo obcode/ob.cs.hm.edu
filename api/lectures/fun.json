@@ -220,6 +220,9 @@
         "file": "01_Einfuehrung"
       }
     ],
-    "exercises": null
+    "exercises": [{
+      "name": "Blatt 1",
+      "file": "Blatt01"
+    }]
   }
 }
