@@ -63,8 +63,7 @@
     "lecture": {
       "daytime": "montags, 10:00 - 11:30",
       "room": "R1.008",
-      "lectures": [
-        {
+      "lectures": [{
           "date": "02.10.2017",
           "topic": "Organisatorisches, Erste Schritte in C++"
         },
@@ -139,8 +138,7 @@
           "room": "R3.026"
         }
       ],
-      "labs": [
-        {
+      "labs": [{
           "dates": ["TG 1", "TG 2", "TG 3"],
           "topic": ""
         },
@@ -194,8 +192,7 @@
         }
       ]
     },
-    "slides": [
-      {
+    "slides": [{
         "name": "Organisatorisches",
         "file": "00_Org"
       },
@@ -204,8 +201,7 @@
         "file": "01_Cpp"
       }
     ],
-    "exercises": [
-      {
+    "exercises": [{
         "name": "Blatt 1",
         "file": "Blatt01"
       },

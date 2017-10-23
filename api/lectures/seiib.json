@@ -229,8 +229,7 @@
         "file": "02_ArithmetikUndVariablen"
       }
     ],
-    "exercises":  [
-      {
+    "exercises": [{
         "name": "Blatt 0",
         "file": "Blatt00"
       },
