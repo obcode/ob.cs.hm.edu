@@ -210,6 +210,10 @@
       {
         "name": "Einführung",
         "file": "01_Einfuehrung"
+      },
+      {
+        "name": "Hallo Haskell",
+        "file": "02_HalloHaskell"
       }
     ],
     "exercises": [{
