@@ -5,7 +5,7 @@ div
       span
         | Generated with
         |
-        a(href='https://spike.readme.io/') Spike
+        a(href='https://www.spike.cf/') Spike
         |
         |  on
         |
