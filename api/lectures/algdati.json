@@ -203,6 +203,10 @@
       {
         "name": "Grundlagen",
         "file": "02_Grundlagen"
+      },
+      {
+        "name": "Elementare Sortierverfahren",
+        "file": "03_ElementareSortierverfahren"
       }
     ],
     "exercises": [{
