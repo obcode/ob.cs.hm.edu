@@ -219,6 +219,10 @@
     "exercises": [{
       "name": "Blatt 1",
       "file": "Blatt01"
-    }]
+    },{
+      "name": "Blatt 2",
+      "file": "Blatt02"
+    }
+  ]
   }
 }
