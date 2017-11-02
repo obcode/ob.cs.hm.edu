@@ -228,6 +228,10 @@
       {
         "name": "Arithmetik und Variablen",
         "file": "02_ArithmetikUndVariablen"
+      },
+      {
+        "name": "Kontrollstrukturen",
+        "file": "03_Kontrollstrukturen"
       }
     ],
     "exercises": [{
