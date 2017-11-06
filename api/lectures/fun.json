@@ -214,6 +214,10 @@
       {
         "name": "Hallo Haskell",
         "file": "02_HalloHaskell"
+      },
+      {
+        "name": "String",
+        "file": "03_Strings"
       }
     ],
     "exercises": [{
