@@ -216,8 +216,8 @@
         "file": "02_HalloHaskell"
       },
       {
-        "name": "String",
-        "file": "03_Strings"
+        "name": "Grundlegende Datentypen",
+        "file": "03_GrundlegendeDatentypen"
       }
     ],
     "exercises": [{
