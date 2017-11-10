@@ -181,11 +181,11 @@
         },
         {
           "dates": ["16.11.2017"],
-          "topic": "(Blatt 3)"
+          "topic": "Blatt 3"
         },
         {
           "dates": ["23.11.2017"],
-          "topic": "(Blatt 3 (Abgabe bis 29.11.17, 10:00 Uhr))"
+          "topic": "Blatt 3 (Abgabe bis 29.11.17, 10:00 Uhr)"
         },
         {
           "dates": ["30.11.2017"],
@@ -245,6 +245,10 @@
       {
         "name": "Blatt 2",
         "file": "Blatt02"
+      },
+      {
+        "name": "Blatt 3",
+        "file": "Blatt03"
       }
     ]
   }
