@@ -207,6 +207,10 @@
       {
         "name": "Elementare Sortierverfahren",
         "file": "03_ElementareSortierverfahren"
+      },
+      {
+        "name": "Quicksort",
+        "file": "04_Quicksort"
       }
     ],
     "exercises": [{
