@@ -215,6 +215,10 @@
       {
         "name": "Heapsort",
         "file": "05_Heapsort"
+      },
+      {
+        "name": "Mergesort",
+        "file": "06_Mergesort"
       }
     ],
     "exercises": [{
