@@ -221,12 +221,17 @@
       }
     ],
     "exercises": [{
-      "name": "Blatt 1",
-      "file": "Blatt01"
-    },{
-      "name": "Blatt 2",
-      "file": "Blatt02"
-    }
-  ]
+        "name": "Blatt 1",
+        "file": "Blatt01"
+      },
+      {
+        "name": "Blatt 2",
+        "file": "Blatt02"
+      },
+      {
+        "name": "Blatt 3",
+        "file": "Blatt03"
+      }
+    ]
   }
 }
