@@ -101,10 +101,6 @@
           "topic": "Einführung, Hallo Haskell"
         },
         {
-          "date": "07.11.2017",
-          "topic": ""
-        },
-        {
           "date": "14.11.2017",
           "topic": ""
         },
@@ -171,7 +167,7 @@
         },
         {
           "dates": ["14.11.2017", "16.11.2017"],
-          "topic": ""
+          "topic": "Blatt 3"
         },
         {
           "dates": ["21.11.2017", "23.11.2017"],
@@ -218,6 +214,10 @@
       {
         "name": "Grundlegende Datentypen",
         "file": "03_GrundlegendeDatentypen"
+      },
+      {
+        "name": "Typen und Typklassen",
+        "file": "04_TypenUndTypklassen"
       }
     ],
     "exercises": [{
