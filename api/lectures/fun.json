@@ -221,6 +221,10 @@
       }
     ],
     "exercises": [{
+        "name": "Studienarbeit",
+        "file": "Studienarbeit"
+      },
+      {
         "name": "Blatt 1",
         "file": "Blatt01"
       },
