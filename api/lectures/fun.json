@@ -9,11 +9,11 @@
       "text": null,
       "listicon": "ion-link",
       "listitems": [{
-          "text": "@GitHub",
+          "text": "GitHub Organisation",
           "url": "https://github.com/ob-fun-ws17"
         },
         {
-          "text": "Gitter",
+          "text": "Gitter Channel",
           "url": "https://gitter.im/ob-fun-ws17/ob-fun-ws17"
         },
         {
@@ -171,7 +171,7 @@
         },
         {
           "dates": ["21.11.2017", "23.11.2017"],
-          "topic": ""
+          "topic": "Blatt 4"
         },
         {
           "dates": ["28.11.2017", "30.11.2017"],
@@ -191,11 +191,11 @@
         },
         {
           "dates": ["09.01.2018", "11.01.2018"],
-          "topic": "Abnahme Studienarbeit"
+          "topic": ""
         },
         {
           "dates": ["16.01.2018", "18.01.2018"],
-          "topic": "Abnahme Studienarbeit"
+          "topic": ""
         }
       ]
     },
