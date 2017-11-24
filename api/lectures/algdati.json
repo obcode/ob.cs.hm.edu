@@ -240,6 +240,10 @@
       {
         "name": "Blatt 5 (Abgabe)",
         "file": "Blatt05"
+      },
+      {
+        "name": "Blatt 6",
+        "file": "Blatt06"
       }
     ]
   }
