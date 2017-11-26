@@ -172,15 +172,15 @@
         },
         {
           "dates": ["11.12.2017", "05.12.2017", "05.12.2017"],
-          "topic": "(Blatt 7 (Abgabe))"
+          "topic": "(Blatt 7 (Abgabe bis 14.01.2018, 20:00))"
         },
         {
           "dates": ["18.12.2018", "12.12.2017", "12.12.2017"],
-          "topic": "(Blatt 7 (Abgabe))"
+          "topic": "(Blatt 7 (Abgabe bis 14.01.2018, 20:00))"
         },
         {
           "dates": ["08.01.2018", "19.12.2017", "19.12.2017"],
-          "topic": "(Blatt 7 (Abgabe))"
+          "topic": "(Blatt 7 (Abgabe bis 14.01.2018, 20:00))"
         },
         {
           "dates": ["15.01.2018", "09.01.2018", "09.01.2018"],
@@ -219,6 +219,10 @@
       {
         "name": "Mergesort",
         "file": "06_Mergesort"
+      },
+      {
+        "name": "Natürliche Bäume",
+        "file": "07_NatuerlicheBaeume"
       }
     ],
     "exercises": [{
