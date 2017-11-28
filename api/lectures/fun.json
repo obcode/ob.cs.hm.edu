@@ -218,6 +218,10 @@
       {
         "name": "Typen und Typklassen",
         "file": "04_TypenUndTypklassen"
+      },
+      {
+        "name": "Mehr funktionale Muster",
+        "file": "05_MehrFunktionaleMuster"
       }
     ],
     "exercises": [{
