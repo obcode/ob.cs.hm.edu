@@ -172,15 +172,15 @@
         },
         {
           "dates": ["11.12.2017", "05.12.2017", "05.12.2017"],
-          "topic": "(Blatt 7 (Abgabe bis 14.01.2018, 20:00))"
+          "topic": "Blatt 7 (Abgabe bis 14.01.2018, 20:00)"
         },
         {
           "dates": ["18.12.2018", "12.12.2017", "12.12.2017"],
-          "topic": "(Blatt 7 (Abgabe bis 14.01.2018, 20:00))"
+          "topic": "Blatt 7 (Abgabe bis 14.01.2018, 20:00)"
         },
         {
           "dates": ["08.01.2018", "19.12.2017", "19.12.2017"],
-          "topic": "(Blatt 7 (Abgabe bis 14.01.2018, 20:00))"
+          "topic": "Blatt 7 (Abgabe bis 14.01.2018, 20:00)"
         },
         {
           "dates": ["15.01.2018", "09.01.2018", "09.01.2018"],
@@ -242,12 +242,16 @@
         "file": "Blatt04"
       },
       {
-        "name": "Blatt 5 (Abgabe)",
+        "name": "Blatt 5 (Abgabe 1)",
         "file": "Blatt05"
       },
       {
         "name": "Blatt 6",
         "file": "Blatt06"
+      },
+      {
+        "name": "Blatt 7 (Abgabe 2)",
+        "file": "Blatt07"
       }
     ]
   }
