@@ -242,12 +242,16 @@
         "file": "Blatt04"
       },
       {
-        "name": "Blatt 5 (Abgabe)",
+        "name": "Blatt 5 (Abgabe 1)",
         "file": "Blatt05"
       },
       {
         "name": "Blatt 6",
         "file": "Blatt06"
+      },
+      {
+        "name": "Blatt 7 (Abgabe 2)",
+        "file": "Blatt07"
       }
     ]
   }
