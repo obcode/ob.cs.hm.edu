@@ -223,6 +223,10 @@
       {
         "name": "Natürliche Bäume",
         "file": "07_NatuerlicheBaeume"
+      },
+      {
+        "name": "AVL-Bäume",
+        "file": "08_AVLBaeume"
       }
     ],
     "exercises": [{
