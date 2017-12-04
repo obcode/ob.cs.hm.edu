@@ -222,6 +222,10 @@
       {
         "name": "Mehr funktionale Muster",
         "file": "05_MehrFunktionaleMuster"
+      },
+      {
+        "name": "Falten statt Schleifen",
+        "file": "06_FaltenStattSchleifen"
       }
     ],
     "exercises": [{
