@@ -101,11 +101,11 @@
         },
         {
           "date": "11.12.2017",
-          "topic": "AVL-Bäume & Bruder-Bäume"
+          "topic": "entfällt"
         },
         {
           "date": "18.12.2017",
-          "topic": "(Bäume)"
+          "topic": "AVL-Bäume & Bruder-Bäume"
         },
         {
           "date": "08.01.2018",
@@ -227,6 +227,10 @@
       {
         "name": "AVL-Bäume",
         "file": "08_AVLBaeume"
+      },
+      {
+        "name": "Bruder-Bäume",
+        "file": "09_BruderBaeume"
       }
     ],
     "exercises": [{
