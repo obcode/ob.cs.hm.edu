@@ -230,6 +230,14 @@
       {
         "name": "Algebraische Datentypen",
         "file": "07_AlgebraischeDatentypen"
+      },
+      {
+        "name": "Monoide",
+        "file": "08_Monoide"
+      },
+      {
+        "name": "Funktoren",
+        "file": "09_Funktoren"
       }
     ],
     "exercises": [{
