@@ -226,6 +226,10 @@
       {
         "name": "Falten statt Schleifen",
         "file": "06_FaltenStattSchleifen"
+      },
+      {
+        "name": "Algebraische Datentypen",
+        "file": "07_AlgebraischeDatentypen"
       }
     ],
     "exercises": [{
