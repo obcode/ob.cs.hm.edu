@@ -37,6 +37,8 @@ nav(class='navbar navbar-toggleable-sm navbar-light bg-faded yamm')
             li
               a(class='dropdown-item' href='https://terraform.cs.hm.edu/jenkins/') Jenkins
             li
+              a(class='dropdown-item' href='/theses.html') Abschlußarbeiten
+            li
               a(class='dropdown-item' href='/about.html') Kontakt
             li
               a(class='dropdown-item' href='/api.html') API
