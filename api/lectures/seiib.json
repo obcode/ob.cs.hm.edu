@@ -232,6 +232,10 @@
       {
         "name": "Kontrollstrukturen",
         "file": "03_Kontrollstrukturen"
+      },
+      {
+        "name": "Objekte",
+        "file": "04_Objekte"
       }
     ],
     "exercises": [{
