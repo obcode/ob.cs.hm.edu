@@ -236,6 +236,10 @@
       {
         "name": "Objekte",
         "file": "04_Objekte"
+      },
+      {
+        "name": "Methoden",
+        "file": "05_Methoden"
       }
     ],
     "exercises": [{
