@@ -189,27 +189,27 @@
         },
         {
           "dates": ["30.11.2017"],
-          "topic": "(Blatt 4)"
+          "topic": "Blatt 4"
         },
         {
           "dates": ["07.12.2017"],
-          "topic": "(Blatt 4 (Abgabe bis 13.12.17, 10:00 Uhr))"
+          "topic": "Blatt 4 (Abgabe bis 13.12.17, 10:00 Uhr)"
         },
         {
           "dates": ["14.12.2017"],
-          "topic": "(Blatt 5)"
+          "topic": "Blatt 5"
         },
         {
           "dates": ["19.12.2017"],
-          "topic": "(Blatt 5 (Abgabe bis 10.01.18, 10:00 Uhr))"
+          "topic": "Blatt 5 (Abgabe bis 10.01.18, 10:00 Uhr)"
         },
         {
           "dates": ["11.01.2018"],
-          "topic": "(Blatt 6)"
+          "topic": "Blatt 6"
         },
         {
           "dates": ["18.01.2018"],
-          "topic": "(Blatt 6 (Abgabe bis 19.01.18, 10:00 Uhr))"
+          "topic": "Blatt 6"
         }
       ]
     },
