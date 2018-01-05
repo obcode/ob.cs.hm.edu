@@ -231,6 +231,10 @@
       {
         "name": "Bruder-Bäume",
         "file": "09_BruderBaeume"
+      },
+      {
+        "name": "gewichtsbalancierte Bäume",
+        "file": "10_GewichtsbalancierteBaeume"
       }
     ],
     "exercises": [{
