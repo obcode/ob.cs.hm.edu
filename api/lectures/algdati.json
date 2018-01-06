@@ -235,6 +235,10 @@
       {
         "name": "gewichtsbalancierte Bäume",
         "file": "10_GewichtsbalancierteBaeume"
+      },
+      {
+        "name": "Treaps",
+        "file": "11_Treaps"
       }
     ],
     "exercises": [{
