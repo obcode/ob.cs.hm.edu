@@ -56,8 +56,27 @@
     {
       "title": "Prüfung",
       "text": "<p>Die Veranstaltung wird durch eine benotete schriftliche Prüfung abgeschlossen. Zu dieser sind keine Hilfsmittel zugelassen.</p><p>Der Prüfungsstoff entspricht den Kapiteln 1, 2, 3 & 5 aus dem o.a. Buch und C++</p>",
-      "listitems": []
-    }
+      "listitems": [{
+          "text": "Klausur vom 20.01.2015",
+          "url": "https://ob.cs.hm.edu/dropbox/lectures/algdati/exams/KlausurWS14.pdf"
+        },
+        {
+          "text": "Klausur vom 21.07.2015",
+          "url": "https://ob.cs.hm.edu/dropbox/lectures/algdati/exams/KlausurSS15.pdf"
+        },
+        {
+          "text": "Klausur vom 26.01.2016",
+          "url": "https://ob.cs.hm.edu/dropbox/lectures/algdati/exams/KlausurWS15.pdf"
+        },
+        {
+          "text": "Klausur vom 12.07.2016",
+          "url": "https://ob.cs.hm.edu/dropbox/lectures/algdati/exams/KlausurSS16.pdf"
+        },
+        {
+          "text": "Klausur vom 23.01.2017",
+          "url": "https://ob.cs.hm.edu/dropbox/lectures/algdati/exams/KlausurWS16.pdf"
+        }
+      ]    }
   ],
   "maincontent": {
     "lecture": {
