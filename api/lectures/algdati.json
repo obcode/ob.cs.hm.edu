@@ -239,6 +239,10 @@
       {
         "name": "Treaps",
         "file": "11_Treaps"
+      },
+      {
+        "name": "Splay-Bäume",
+        "file": "12_SplayBaeume"
       }
     ],
     "exercises": [{
