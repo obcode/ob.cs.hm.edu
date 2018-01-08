@@ -56,6 +56,7 @@
     {
       "title": "Prüfung",
       "text": "<p>Die Veranstaltung wird durch eine benotete schriftliche Prüfung abgeschlossen. Zu dieser sind keine Hilfsmittel zugelassen.</p><p>Der Prüfungsstoff entspricht den Kapiteln 1, 2, 3 & 5 aus dem o.a. Buch und C++</p>",
+      "listicon": "ion-compose",
       "listitems": [{
           "text": "Klausur vom 20.01.2015",
           "url": "https://ob.cs.hm.edu/dropbox/lectures/algdati/exams/KlausurWS14.pdf"
@@ -128,15 +129,15 @@
         },
         {
           "date": "08.01.2018",
-          "topic": "Bruder-Bäume (entfernen) && (Bäume)"
+          "topic": "Bruder-Bäume (entfernen), gewichtsbalancierte Bäume && Treaps"
         },
         {
           "date": "15.01.2018",
-          "topic": "(Bäume)"
+          "topic": "Treaps, Splay-Bäume, Zusammenfassung, Fragen"
         },
         {
-          "date": "22.01.2018",
-          "topic": "Zusammenfassung, Abschluss"
+          "date": "<s>22.01.2018</s>",
+          "topic": ""
         }
       ]
     },
@@ -206,7 +207,7 @@
           "topic": "Abnahme Abgaben"
         },
         {
-          "dates": ["22.01.2018", "16.01.2018", "16.01.2018"],
+          "dates": ["<s>22.01.2018</s>", "16.01.2018", "16.01.2018"],
           "topic": "Abnahme Abgaben"
         }
       ]
