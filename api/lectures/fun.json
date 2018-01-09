@@ -126,15 +126,15 @@
         },
         {
           "date": "09.01.2018",
-          "topic": ""
+          "topic": "Monoide & Funktoren"
         },
         {
           "date": "16.01.2018",
-          "topic": ""
+          "topic": "Applikative Funktoren & Monaden"
         },
         {
           "date": "23.01.2018",
-          "topic": ""
+          "topic": "mehr Monaden und Abschluss"
         }
       ]
     },
@@ -238,6 +238,10 @@
       {
         "name": "Funktoren",
         "file": "09_Funktoren"
+      },
+      {
+        "name": "Applikative Funktoren",
+        "file": "10_ApplikativeFunktoren"
       }
     ],
     "exercises": [{
