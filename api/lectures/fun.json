@@ -242,6 +242,10 @@
       {
         "name": "Applikative Funktoren",
         "file": "10_ApplikativeFunktoren"
+      },
+      {
+        "name": "Monaden",
+        "file": "11_Monaden"
       }
     ],
     "exercises": [{
