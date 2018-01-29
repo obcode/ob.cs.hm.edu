@@ -9,14 +9,13 @@
       "title": "Links",
       "text": null,
       "listicon": "ion-link",
-      "listitems": [
-        {
-          "text": "@GitHub",
-          "url": "https://github.com/algdat"
+      "listitems": [{
+          "text": "GitHub Organisation",
+          "url": "https://github.com/ob-algdatii-ss18"
         },
         {
-          "text": "Praktikums-Themen",
-          "url": "https://github.com/algdat/praktikum-SS17/wiki/Themen"
+          "text": "Gitter Channel",
+          "url": "https://gitter.im/ob-algdatii-ss18/Lobby"
         },
         {
           "text": "Modulbeschreibung",

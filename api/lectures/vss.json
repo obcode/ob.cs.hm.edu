@@ -9,7 +9,14 @@
       "title": "Links",
       "text": null,
       "listicon": "ion-link",
-      "listitems": [
+      "listitems": [{
+          "text": "GitHub Organisation",
+          "url": "https://github.com/ob-vss-ss18"
+        },
+        {
+          "text": "Gitter Channel",
+          "url": "https://gitter.im/ob-vss-ss18/Lobby"
+        },
         {
           "text": "Modulbeschreibung",
           "url": "https://w3-o.cs.hm.edu:8000/public/module/250/"

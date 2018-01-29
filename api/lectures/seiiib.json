@@ -9,6 +9,14 @@
       "text": null,
       "listicon": "ion-link",
       "listitems": [{
+          "text": "GitHub Organisation",
+          "url": "https://github.com/ob-seiiib-ss18"
+        },
+        {
+          "text": "Gitter Channel",
+          "url": "https://gitter.im/ob-seiiib-ss18/Lobby"
+        },
+        {
         "text": "Modulbeschreibung",
         "url": "https://w3-o.cs.hm.edu:8000/public/module/227/"
       }]
