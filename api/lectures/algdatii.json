@@ -2,7 +2,7 @@
   "short": "algdatii",
   "long": "Algorithmen und Datenstrukturen II",
   "last": "Sommersemester 2017",
-  "semesters": "ss17 ss16",
+  "semesters": "ss18 ss17 older",
   "dropboxfolder": "https://www.dropbox.com/sh/6iwey02quz842qr/AAANL0iS19KwRSr42yG4tCJXa?dl=0",
   "sidebar": [
     {
@@ -53,7 +53,7 @@
     },
     {
       "title":  "Scheinerwerb",
-      "text": "Erfolgreiche Bearbeitung des Aufgabenblatt 2.",
+      "text": "Erfolgreiche Bearbeitung des Aufgabenblatt X.",
       "listitems": []
     },
     {
@@ -79,15 +79,6 @@
         "file": "03_SuchenInTexten"
       }
     ],
-    "exercises": [
-      {
-        "name": "Blatt 1",
-        "file": "Blatt01"
-      },
-      {
-        "name": "Blatt 2",
-        "file": "Blatt02"
-      }
-    ]
+    "exercises": null
   }
 }

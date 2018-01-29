@@ -1,0 +1,42 @@
+{
+  "short": "vss",
+  "long": "Verteilte Softwaresysteme",
+  "last": "Sommersemester 2018",
+  "semesters": "ss18",
+  "dropboxfolder": "https://www.dropbox.com/sh/lyxd6u8an57kjia/AABE3HHH0AiGoJPAhq-Vj_F3a?dl=0",
+  "sidebar": [
+    {
+      "title": "Links",
+      "text": null,
+      "listicon": "ion-link",
+      "listitems": [
+        {
+          "text": "Modulbeschreibung",
+          "url": "https://w3-o.cs.hm.edu:8000/public/module/250/"
+        }
+      ]
+    },
+    {
+      "title": "Ziele / Inhalte",
+      "listicon": "ion-checkmark-round",
+      "text": "",
+      "listitems": []
+    },
+    {
+      "title":  "Scheinerwerb",
+      "text": "",
+      "listitems": []
+    },
+    {
+      "title": "Prüfung",
+      "text": "",
+      "listitems": []
+    }
+  ],
+  "maincontent": {
+    "lecture": null,
+    "lab": null,
+    "slides": null,
+    "exercises": null
+  }
+}

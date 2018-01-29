@@ -11,7 +11,7 @@ extends(src='layouts/layout.sgr')
               figcaption(class='slider-overlay ')
                 div(class='slider-text animated fadeInDown')
                   h1 {{ currentLecture.long }}
-                  p {{ currentLecture.last }}
+                  p Stand: {{ currentLecture.last }}
     div(class='space-70')
     div(class='container')
       div(class='row')

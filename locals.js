@@ -7,6 +7,7 @@ const seiib = require('./api/lectures/seiib.json')
 const seiiib = require('./api/lectures/seiiib.json')
 const swengiib = require('./api/lectures/swengiib.json')
 const swengiiib = require('./api/lectures/swengiiib.json')
+const vss = require('./api/lectures/vss.json')
 const webtech = require('./api/lectures/webtech.json')
 const webtechFK12 = require('./api/lectures/webtechFK12.json')
 const base = require('./api/base.json')
@@ -21,6 +22,7 @@ const lectures = [
   seiiib,
   swengiib,
   swengiiib,
+  vss,
   webtech,
   webtechFK12
 ]
@@ -28,14 +30,18 @@ const lectures = [
 exports.lectures = lectures
 
 exports.currentSemester = {
-  short: 'WS 17/18',
-  long: 'Wintersemester 2017/18',
+  short: 'SS 18',
+  long: 'Sommersemester 2018',
   lectures: [
-    algdati,
-    fun,
-    seiib
+    algdatii,
+    seiiib,
+    vss
   ],
   semesters: [
+    {
+      filter: '.ss18',
+      label: 'SS 18'
+    },
     {
       filter: '.ws1718',
       label: 'WS 17/18'
@@ -47,10 +53,6 @@ exports.currentSemester = {
     {
       filter: '.ws1617',
       label: 'WS 16/17'
-    },
-    {
-      filter: '.ss16',
-      label: 'SS 16'
     },
     {
       filter: '.older',
