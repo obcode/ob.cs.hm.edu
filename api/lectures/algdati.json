@@ -1,7 +1,7 @@
 {
   "short": "algdati",
   "long": "Algorithmen und Datenstrukturen I",
-  "last": "Wintersemester 2017/18",
+  "last": "Stand: Wintersemester 2017/18",
   "semesters": "ws1718 ws1617 older",
   "dropboxfolder": "https://www.dropbox.com/sh/cilouxpruphntut/AAA8EHYPgUSjVSu8GBMhJ3Ata?dl=0",
   "sidebar": [{
@@ -9,11 +9,11 @@
       "text": null,
       "listicon": "ion-link",
       "listitems": [{
-          "text": "GitHub Organisation",
+          "text": "GitHub Organisation - WS 17/18",
           "url": "https://github.com/ob-algdati-ws17"
         },
         {
-          "text": "Gitter Channel",
+          "text": "Gitter Channel - WS 17/18",
           "url": "https://gitter.im/ob-algdati-ws17/Lobby"
         },
         {
@@ -80,138 +80,8 @@
       ]    }
   ],
   "maincontent": {
-    "lecture": {
-      "daytime": "montags, 10:00 - 11:30",
-      "room": "R1.008",
-      "lectures": [{
-          "date": "02.10.2017",
-          "topic": "Organisatorisches, Erste Schritte in C++"
-        },
-        {
-          "date": "09.10.2017",
-          "topic": "C++"
-        },
-        {
-          "date": "23.10.2017",
-          "topic": "C++"
-        },
-        {
-          "date": "30.10.2017",
-          "topic": "Grundlagen, Liste, Stack, Queue"
-        },
-        {
-          "date": "06.11.2017",
-          "topic": "Elementare Sortierverfahren"
-        },
-        {
-          "date": "13.11.2017",
-          "topic": "Quicksort, Lösungen Blatt 3 und 4"
-        },
-        {
-          "date": "20.11.2017",
-          "topic": "Heapsort, Mergesort"
-        },
-        {
-          "date": "27.11.2017",
-          "topic": "Natürliche Bäume"
-        },
-        {
-          "date": "04.12.2017",
-          "topic": "AVL-Bäume (inkl. Einfügen)"
-        },
-        {
-          "date": "11.12.2017",
-          "topic": "entfällt"
-        },
-        {
-          "date": "18.12.2017",
-          "topic": "AVL-Bäume & Bruder-Bäume (inkl. Einfügen)"
-        },
-        {
-          "date": "08.01.2018",
-          "topic": "Bruder-Bäume (entfernen), gewichtsbalancierte Bäume && Treaps"
-        },
-        {
-          "date": "15.01.2018",
-          "topic": "Treaps, Splay-Bäume, Zusammenfassung, Fragen"
-        },
-        {
-          "date": "<s>22.01.2018</s>",
-          "topic": ""
-        }
-      ]
-    },
-    "lab": {
-      "groups": [{
-          "name": "Teilgruppe 1",
-          "daytime": "montags, 08:15-09:45",
-          "room": "R2.008"
-        },
-        {
-          "name": "Teilgruppe 2",
-          "daytime": "dienstags, 11:45-13:15",
-          "room": "R2.009"
-        },
-        {
-          "name": "Teilgruppe 3 (bei Bedarf)",
-          "daytime": "dienstags, 17:00-18:30",
-          "room": "R3.026"
-        }
-      ],
-      "labs": [{
-          "dates": ["TG 1", "TG 2", "TG 3"],
-          "topic": ""
-        },
-        {
-          "dates": ["16.10.2017", "10.10.2017", "10.10.2017"],
-          "topic": "Blatt 1"
-        },
-        {
-          "dates": ["23.10.2017", "17.10.2017", "17.10.2017"],
-          "topic": "Blatt 2"
-        },
-        {
-          "dates": ["30.10.2017", "24.10.2017", "<strong>26.10.2017</strong>"],
-          "topic": "Blatt 3"
-        },
-        {
-          "dates": ["06.11.2017", "07.11.2017", "07.11.2017"],
-          "topic": "Blatt 4"
-        },
-        {
-          "dates": ["13.11.2017", "14.11.2017", "14.11.2017"],
-          "topic": "Blatt 5 (Abgabe bis 26.11.2017 20:00 Uhr)"
-        },
-        {
-          "dates": ["20.11.2017", "21.11.2017", "21.11.2017"],
-          "topic": "Blatt 5 (Abgabe bis 26.11.2017 20:00 Uhr)"
-        },
-        {
-          "dates": ["04.12.2017", "28.11.2017", "28.11.2017"],
-          "topic": "Blatt 6"
-        },
-        {
-          "dates": ["11.12.2017", "05.12.2017", "05.12.2017"],
-          "topic": "Blatt 7 (Abgabe bis 14.01.2018, 20:00)"
-        },
-        {
-          "dates": ["18.12.2018", "12.12.2017", "12.12.2017"],
-          "topic": "Blatt 7 (Abgabe bis 14.01.2018, 20:00)"
-        },
-        {
-          "dates": ["08.01.2018", "19.12.2017", "19.12.2017"],
-          "topic": "Blatt 7 (Abgabe bis 14.01.2018, 20:00)"
-        },
-        {
-          "dates": ["15.01.2018", "09.01.2018", "09.01.2018"],
-          "topic": "Abnahme Abgaben"
-        },
-        {
-          "dates": ["<s>22.01.2018</s>", "16.01.2018", "16.01.2018"],
-          "topic": "Abnahme Abgaben"
-        }
-      ]
-    },
+    "lecture": null,
+    "lab": null,
     "slides": [{
         "name": "Organisatorisches",
         "file": "00_Org"

@@ -1,7 +1,7 @@
 {
   "short": "fun",
   "long": "Funktionale Programmierung",
-  "last": "Wintersemester 2017/18",
+  "last": "Stand: Wintersemester 2017/18",
   "semesters": "ws1718 ws1617 older",
   "dropboxfolder": "https://www.dropbox.com/sh/thclgdt8wt7v2ij/AACaAx0ol-vVa8zBMDSpFuSya?dl=0",
   "sidebar": [{
@@ -9,11 +9,11 @@
       "text": null,
       "listicon": "ion-link",
       "listitems": [{
-          "text": "GitHub Organisation",
+          "text": "GitHub Organisation - WS 17/18",
           "url": "https://github.com/ob-fun-ws17"
         },
         {
-          "text": "Gitter Channel",
+          "text": "Gitter Channel - WS 17/18",
           "url": "https://gitter.im/ob-fun-ws17/ob-fun-ws17"
         },
         {
@@ -89,116 +89,8 @@
     }
   ],
   "maincontent": {
-    "lecture": {
-      "daytime": "dienstags, 13:30 - 15:00",
-      "room": "R1.007",
-      "lectures": [{
-          "date": "10.10.2017",
-          "topic": "Organisatorisches, Einführung bis Folie 11"
-        },
-        {
-          "date": "24.10.2017",
-          "topic": "Einführung, Hallo Haskell"
-        },
-        {
-          "date": "14.11.2017",
-          "topic": "Grundlegende Datentypen bis Folie 9"
-        },
-        {
-          "date": "21.11.2017",
-          "topic": "Typen und Typklassen bis Folie 5"
-        },
-        {
-          "date": "28.11.2017",
-          "topic": "Typen und Typklassen bis Folie 23"
-        },
-        {
-          "date": "05.12.2017",
-          "topic": "Mehr funktionale Muster bis Folie 14"
-        },
-        {
-          "date": "12.12.2017",
-          "topic": "Falten statt Schleifen, Kinds begonnen"
-        },
-        {
-          "date": "19.12.2017",
-          "topic": "Algebraische Datentypen"
-        },
-        {
-          "date": "09.01.2018",
-          "topic": "Monoide & Funktoren"
-        },
-        {
-          "date": "16.01.2018",
-          "topic": "Applikative Funktoren & Monaden"
-        },
-        {
-          "date": "23.01.2018",
-          "topic": "mehr Monaden und Abschluss"
-        }
-      ]
-    },
-    "lab": {
-      "groups": [{
-          "name": "Teilgruppe 1",
-          "daytime": "dienstags, 15:15 - 16:45",
-          "room": "R1.009"
-        },
-        {
-          "name": "Teilgruppe 2",
-          "daytime": "donnerstags, 13:30 - 15:00",
-          "room": "R2.010"
-        }
-      ],
-      "labs": [{
-          "dates": ["TG 1", "TG 2"],
-          "topic": ""
-        },
-        {
-          "dates": ["24.10.2017", "26.10.2017"],
-          "topic": "Blatt 1"
-        },
-        {
-          "dates": ["", "02.11.2017"],
-          "topic": "Blatt 1"
-        }, {
-          "dates": ["07.11.2017", "09.11.2017"],
-          "topic": "Blatt 2"
-        },
-        {
-          "dates": ["14.11.2017", "16.11.2017"],
-          "topic": "Blatt 3"
-        },
-        {
-          "dates": ["21.11.2017", "23.11.2017"],
-          "topic": "Recherche / Abstimmung / Bearbeitung Studienarbeit"
-        },
-        {
-          "dates": ["28.11.2017", "30.11.2017"],
-          "topic": "Recherche / Abstimmung / Bearbeitung Studienarbeit"
-        },
-        {
-          "dates": ["05.12.2017", "07.12.2017"],
-          "topic": "Bearbeitung Studienarbeit"
-        },
-        {
-          "dates": ["12.12.2017", "14.12.2017"],
-          "topic": "Bearbeitung Studienarbeit"
-        },
-        {
-          "dates": ["19.12.2017", "19.12.2017"],
-          "topic": "Bearbeitung Studienarbeit"
-        },
-        {
-          "dates": ["09.01.2018", "11.01.2018"],
-          "topic": "Bearbeitung Studienarbeit"
-        },
-        {
-          "dates": ["16.01.2018", "18.01.2018"],
-          "topic": "Präsentation Studienarbeit"
-        }
-      ]
-    },
+    "lecture": null,
+    "lab": null,
     "slides": [{
         "name": "Organisatorisches",
         "file": "00_Org"

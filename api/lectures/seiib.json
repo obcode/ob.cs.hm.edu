@@ -1,7 +1,7 @@
 {
   "short": "seiib",
   "long": "Softwareentwicklung I (IB)",
-  "last": "Wintersemester 2017/18",
+  "last": "Stand: Wintersemester 2017/18",
   "semesters": "ws1718 older",
   "dropboxfolder": "https://www.dropbox.com/sh/rf6kdkw2lihrzx6/AABgerLifL-FW85ZnT6EZ_Xaa?dl=0",
   "sidebar": [{
@@ -9,11 +9,11 @@
       "text": null,
       "listicon": "ion-link",
       "listitems": [{
-          "text": "GitHub Organisation",
+          "text": "GitHub Organisation - WS 17/18",
           "url": "https://github.com/ob-seiib-ws17"
         },
         {
-          "text": "Gitter Channel",
+          "text": "Gitter Channel - WS 17/18",
           "url": "https://gitter.im/ob-seiib-ws17/ob-seiib-ws17"
         },
         {
@@ -81,138 +81,8 @@
     }
   ],
   "maincontent": {
-    "lecture": {
-      "daytime": "donnerstags, 08:15 - 09:45",
-      "room": "R1.006",
-      "lectures": [{
-          "date": "12.10.2017",
-          "topic": "Organisatorisches, Erste Schritte in Git und Java<br />bis Kapitel <i>Einführung</i> Folie 8"
-        },
-        {
-          "date": "19.10.2017",
-          "topic": "Einführung bis Folie 15"
-        },
-        {
-          "date": "26.10.2017",
-          "topic": "Einführung"
-        },
-        {
-          "date": "02.11.2017",
-          "topic": "Arithmetik &amp; Variablen bis Folie 29"
-        },
-        {
-          "date": "09.11.2017",
-          "topic": "Arithmetik &amp; Variablen bis Folie 47"
-        },
-        {
-          "date": "16.11.2017",
-          "topic": "Arithmetik &amp; Variablen, Kontrollstrukturen bis Folie 24"
-        },
-        {
-          "date": "23.11.2017",
-          "topic": "Kontrollstrukturen bis Folie 46"
-        },
-        {
-          "date": "30.11.2017",
-          "topic": "Kontrollstrukturen bis Folie 67"
-        },
-        {
-          "date": "07.12.2017",
-          "topic": "Kontrollstrukturen bis Folie 98"
-        },
-        {
-          "date": "14.12.2017",
-          "topic": "Kontrollstrukturen abgeschlossen, Objekte bis Folie 21"
-        },
-        {
-          "date": "21.12.2017",
-          "topic": "Objekte abgeschlossen"
-        },
-        {
-          "date": "11.01.2018",
-          "topic": "Methoden bis Folie 24 (Parameter)"
-        },
-        {
-          "date": "18.01.2018",
-          "topic": "Methoden bis Folie 37, Fragen"
-        },
-        {
-          "date": "<s>25.01.2018</s>",
-          "topic": "keine Vorlesung mehr, da bereits Prüfungen in Pasing"
-        }
-      ]
-    },
-    "lab": {
-      "groups": [{
-          "name": "Teilgruppe 1",
-          "daytime": "donnerstags, 15:15 - 16:45",
-          "room": "R2.008"
-        },
-        {
-          "name": "Teilgruppe 2",
-          "daytime": "donnerstags, 10:00 - 11:30",
-          "room": "R2.008"
-        },
-        {
-          "name": "Teilgruppe 3",
-          "daytime": "donnerstags, 11:45 - 13:15",
-          "room": "R2.010"
-        }
-      ],
-      "labs": [{
-          "dates": ["12.10.2017"],
-          "topic": "Vorlesung von 10:00 - 11:30,<br />noch keine Praktika"
-        },
-        {
-          "dates": ["19.10.2017"],
-          "topic": "Blatt 0 (Abgabe bis 25.10.17, 10:00 Uhr)</br>Blatt 1"
-        },
-        {
-          "dates": ["26.10.2017"],
-          "topic": "Blatt 1 (Abgabe bis 01.11.17, 10:00 Uhr)"
-        },
-        {
-          "dates": ["02.11.2017"],
-          "topic": "Blatt 2"
-        },
-        {
-          "dates": ["09.11.2017"],
-          "topic": "Blatt 2 (Abgabe bis 15.11.17, 10:00 Uhr)"
-        },
-        {
-          "dates": ["16.11.2017"],
-          "topic": "Blatt 3"
-        },
-        {
-          "dates": ["23.11.2017"],
-          "topic": "Blatt 3 (Abgabe bis 29.11.17, 10:00 Uhr)"
-        },
-        {
-          "dates": ["30.11.2017"],
-          "topic": "Blatt 4"
-        },
-        {
-          "dates": ["07.12.2017"],
-          "topic": "Blatt 4 (Abgabe bis 13.12.17, 10:00 Uhr)"
-        },
-        {
-          "dates": ["14.12.2017"],
-          "topic": "Blatt 5"
-        },
-        {
-          "dates": ["19.12.2017"],
-          "topic": "Blatt 5 (Abgabe bis 10.01.18, 10:00 Uhr)"
-        },
-        {
-          "dates": ["11.01.2018"],
-          "topic": "Blatt 6"
-        },
-        {
-          "dates": ["18.01.2018"],
-          "topic": "Blatt 6"
-        }
-      ]
-    },
+    "lecture": null,
+    "lab": null,
     "slides": [{
         "name": "Organisatorisches",
         "file": "00_Org"
