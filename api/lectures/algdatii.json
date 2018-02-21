@@ -73,7 +73,7 @@
         },
         {
           "date": "<s>02.04.2018</s>",
-          "topic": "Ostermontag"
+          "topic": "vorlesungsfrei (Ostern)"
         },
         {
           "date": "09.04.2018",
@@ -101,7 +101,7 @@
         },
         {
           "date": "<s>21.05.2018</s>",
-          "topic": "Pfingstmontag"
+          "topic": "vorlesungsfrei (Pfingsten)"
         },
         {
           "date": "28.05.2018",
@@ -153,7 +153,7 @@
           "dates": [
             "<s>02.04.2018</s>", "<s>03.04.2018</s>"
           ],
-          "topic": "Ostermontag und Dienstag frei"
+          "topic": "vorlesungsfrei (Ostern)"
         },
         {
           "dates": [
@@ -189,19 +189,19 @@
           "dates": [
             "14.05.2018", "15.05.2018"
           ],
-          "topic": "Bearbeitung Leistungsnachweis"
+          "topic": "Besprechung Zwischenstand"
         },
         {
           "dates": [
             "<s>21.05.2018</s>", "<s>22.05.2018</s>"
           ],
-          "topic": "Pfingstmontag und Dienstag frei"
+          "topic": "vorlesungsfrei (Pfingsten)"
         },
         {
           "dates": [
             "28.05.2018", "29.05.2018"
           ],
-          "topic": "Besprechung Zwischenstand"
+          "topic": "Bearbeitung Leistungsnachweis"
         },
         {
           "dates": [

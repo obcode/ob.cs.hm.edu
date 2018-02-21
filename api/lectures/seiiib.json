@@ -17,9 +17,10 @@
           "url": "https://gitter.im/ob-seiiib-ss18/Lobby"
         },
         {
-        "text": "Modulbeschreibung",
-        "url": "https://w3-o.cs.hm.edu:8000/public/module/227/"
-      }]
+          "text": "Modulbeschreibung",
+          "url": "https://w3-o.cs.hm.edu:8000/public/module/227/"
+        }
+      ]
     },
     {
       "title": "Ziele / Inhalte",
@@ -61,7 +62,7 @@
     },
     {
       "title": "Scheinerwerb",
-      "text": "",
+      "text": "Alle Aufgabenblätter selbstständig gelöst und fristgerecht abgegeben. Alle Issues in allen persönlichen Repositories sind zeitgerecht bearbeitet und geschlossen.",
       "listitems": []
     },
     {
@@ -83,5 +84,151 @@
       ]
     }
   ],
-  "maincontent": null
+  "maincontent": {
+    "lecture": {
+      "daytime": "donnerstags, 11:45 - 13:15",
+      "room": "R1.006",
+      "lectures": [{
+          "date": "22.03.2018",
+          "topic": ""
+        },
+        {
+          "date": "<s>29.03.2018</s>",
+          "topic": "vorlesungsfrei (Ostern)"
+        },
+        {
+          "date": "05.04.2018",
+          "topic": ""
+        },
+        {
+          "date": "12.04.2018",
+          "topic": ""
+        },
+        {
+          "date": "19.04.2018",
+          "topic": ""
+        },
+        {
+          "date": "26.04.2018",
+          "topic": ""
+        },
+        {
+          "date": "03.05.2018",
+          "topic": ""
+        },
+        {
+          "date": "10.05.2018",
+          "topic": ""
+        },
+        {
+          "date": "17.05.2018",
+          "topic": ""
+        },
+        {
+          "date": "24.05.2018",
+          "topic": ""
+        },
+        {
+          "date": "31.05.2018",
+          "topic": ""
+        },
+        {
+          "date": "07.06.2018",
+          "topic": ""
+        },
+        {
+          "date": "14.06.2018",
+          "topic": ""
+        },
+        {
+          "date": "21.06.2018",
+          "topic": ""
+        },
+        {
+          "date": "28.06.2018",
+          "topic": ""
+        }
+      ]
+    },
+    "lab": {
+      "groups": [{
+          "name": "2. Teilgruppe ",
+          "daytime": "donnerstags, 13:30 - 15:00",
+          "room": "R2.010"
+        },
+        {
+          "name": "3. Teilgruppe ",
+          "daytime": "donnerstags, 15:15 - 16:45",
+          "room": "R2.012"
+        }
+      ],
+      "labs": [{
+          "dates": ["15.03.2018"],
+          "topic": "Blatt 1"
+        },
+        {
+          "dates": ["22.03.2018"],
+          "topic": "Blatt 1"
+        },
+        {
+          "dates": ["<s>29.03.2018</s>"],
+          "topic": "vorlesungsfrei (Ostern)"
+        },
+        {
+          "dates": ["05.04.2018"],
+          "topic": "Blatt 2"
+        },
+        {
+          "dates": ["12.04.2018"],
+          "topic": "Blatt 2"
+        },
+        {
+          "dates": ["19.04.2018"],
+          "topic": "Blatt 3"
+        },
+        {
+          "dates": ["26.04.2018"],
+          "topic": "Blatt 3"
+        },
+        {
+          "dates": ["03.05.2018"],
+          "topic": "Blatt 4"
+        },
+        {
+          "dates": ["10.05.2018"],
+          "topic": "Blatt 4"
+        },
+        {
+          "dates": ["17.05.2018"],
+          "topic": "Blatt 5"
+        },
+        {
+          "dates": ["24.05.2018"],
+          "topic": "Blatt 5"
+        },
+        {
+          "dates": ["31.05.2018"],
+          "topic": "Blatt 6"
+        },
+        {
+          "dates": ["07.06.2018"],
+          "topic": "Blatt 6"
+        },
+        {
+          "dates": ["14.06.2018"],
+          "topic": "Blatt 7"
+        },
+        {
+          "dates": ["21.06.2018"],
+          "topic": "Blatt 7"
+        },
+        {
+          "dates": ["26.06.2018"],
+          "topic": "..."
+        }
+      ]
+    },
+    "slides": null,
+    "exercises": null
+  }
 }
