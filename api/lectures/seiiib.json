@@ -228,7 +228,15 @@
         }
       ]
     },
-    "slides": null,
+    "slides": [{
+        "name": "Methoden",
+        "file": "05_Methoden"
+      },
+      {
+        "name": "Unveränderliche Klassen",
+        "file": "06_UnveraenderlicheKlassen"
+      }
+    ],
     "exercises": [{
       "name": "Blatt 1",
       "file": "Blatt01"
