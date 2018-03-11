@@ -4,8 +4,7 @@
   "last": "Sommersemester 2018",
   "semesters": "ss18",
   "dropboxfolder": "https://www.dropbox.com/sh/lyxd6u8an57kjia/AABE3HHH0AiGoJPAhq-Vj_F3a?dl=0",
-  "sidebar": [
-    {
+  "sidebar": [{
       "title": "Links",
       "text": null,
       "listicon": "ion-link",
@@ -30,7 +29,7 @@
       "listitems": []
     },
     {
-      "title":  "Scheinerwerb",
+      "title": "Scheinerwerb",
       "text": "",
       "listitems": []
     },
@@ -44,7 +43,71 @@
     "lecture": {
       "daytime": "dienstags, 08:15 - 09:45",
       "room": "R1.006",
-      "lectures": []
+      "lectures": [{
+          "date": "20.03.2018",
+          "topic": ""
+        },
+        {
+          "date": "27.03.2018",
+          "topic": ""
+        },
+        {
+          "date": "<s>03.04.2018</s>",
+          "topic": "vorlesungsfrei (Ostern)"
+        },
+        {
+          "date": "10.04.2018",
+          "topic": ""
+        },
+        {
+          "date": "17.04.2018",
+          "topic": ""
+        },
+        {
+          "date": "24.04.2018",
+          "topic": ""
+        },
+        {
+          "date": "01.05.2018",
+          "topic": ""
+        },
+        {
+          "date": "08.05.2018",
+          "topic": ""
+        },
+        {
+          "date": "15.05.2018",
+          "topic": ""
+        },
+        {
+          "date": "<s>22.05.2018</s>",
+          "topic": "vorlesungsfrei (Pfingsten)"
+        },
+        {
+          "date": "29.05.2018",
+          "topic": ""
+        },
+        {
+          "date": "05.06.2018",
+          "topic": ""
+        },
+        {
+          "date": "12.06.2018",
+          "topic": ""
+        },
+        {
+          "date": "19.06.2018",
+          "topic": ""
+        },
+        {
+          "date": "26.06.2018",
+          "topic": ""
+        },
+        {
+          "date": "03.07.2018",
+          "topic": ""
+        }
+      ]
     },
     "lab": {
       "groups": [{
@@ -58,9 +121,85 @@
           "room": "R2.008"
         }
       ],
-      "labs": []
+      "labs": [{
+          "dates": ["20.03.2018"],
+          "topic": ""
+        },
+        {
+          "dates": ["27.03.2018"],
+          "topic": ""
+        },
+        {
+          "dates": ["<s>03.04.2018</s>"],
+          "topic": "vorlesungsfrei (Ostern)"
+        },
+        {
+          "dates": ["10.04.2018"],
+          "topic": ""
+        },
+        {
+          "dates": ["17.04.2018"],
+          "topic": ""
+        },
+        {
+          "dates": ["24.04.2018"],
+          "topic": ""
+        },
+        {
+          "dates": ["01.05.2018"],
+          "topic": ""
+        },
+        {
+          "dates": ["08.05.2018"],
+          "topic": ""
+        },
+        {
+          "dates": ["15.05.2018"],
+          "topic": ""
+        },
+        {
+          "dates": ["<s>22.05.2018</s>"],
+          "topic": "vorlesungsfrei (Pfingsten)"
+        },
+        {
+          "dates": ["29.05.2018"],
+          "topic": ""
+        },
+        {
+          "dates": ["05.06.2018"],
+          "topic": ""
+        },
+        {
+          "dates": ["12.06.2018"],
+          "topic": ""
+        },
+        {
+          "dates": ["19.06.2018"],
+          "topic": ""
+        },
+        {
+          "dates": ["26.06.2018"],
+          "topic": ""
+        },
+        {
+          "dates": ["03.07.2018"],
+          "topic": ""
+        }
+      ]
     },
-    "slides": null,
+    "slides": [{
+        "name": "Organisatorisches",
+        "file": "00_Org"
+      },
+      {
+          "name": "Go",
+          "file": "00_Go"
+        },
+      {
+        "name": "Einführung",
+        "file": "01_Einfuerung"
+      }
+    ],
     "exercises": null
   }
 }

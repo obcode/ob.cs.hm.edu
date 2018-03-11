@@ -1,0 +1,307 @@
+{
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "properties": {
+    "short": {
+      "$id": "/properties/short",
+      "type": "string",
+      "title": "The Short Schema",
+      "default": "",
+      "examples": [
+        "algdati"
+      ]
+    },
+    "long": {
+      "$id": "/properties/long",
+      "type": "string",
+      "title": "The Long Schema",
+      "default": "",
+      "examples": [
+        "Algorithmen und Datenstrukturen I"
+      ]
+    },
+    "last": {
+      "$id": "/properties/last",
+      "type": "string",
+      "title": "The Last Schema",
+      "default": "",
+      "examples": [
+        "Wintersemester 2017/18"
+      ]
+    },
+    "semesters": {
+      "$id": "/properties/semesters",
+      "type": "string",
+      "title": "The Semesters Schema",
+      "default": "",
+      "examples": [
+        "ws1718 ws1617 older"
+      ]
+    },
+    "dropboxfolder": {
+      "$id": "/properties/dropboxfolder",
+      "type": "string",
+      "title": "The Dropboxfolder Schema",
+      "default": "",
+      "examples": [
+        "https://www.dropbox.com/sh/cilouxpruphntut/AAA8EHYPgUSjVSu8GBMhJ3Ata?dl=0"
+      ]
+    },
+    "sidebar": {
+      "$id": "/properties/sidebar",
+      "type": "array",
+      "items": {
+        "$id": "/properties/sidebar/items",
+        "type": "object",
+        "properties": {
+          "title": {
+            "$id": "/properties/sidebar/items/properties/title",
+            "type": "string",
+            "title": "The Title Schema",
+            "default": "",
+            "examples": [
+              "Links"
+            ]
+          },
+          "text": {
+            "$id": "/properties/sidebar/items/properties/text",
+            "type": "null",
+            "title": "The Text Schema",
+            "default": null,
+            "examples": [
+              null
+            ]
+          },
+          "listicon": {
+            "$id": "/properties/sidebar/items/properties/listicon",
+            "type": "string",
+            "title": "The Listicon Schema",
+            "default": "",
+            "examples": [
+              "ion-link"
+            ]
+          },
+          "listitems": {
+            "$id": "/properties/sidebar/items/properties/listitems",
+            "type": "array",
+            "items": {
+              "$id": "/properties/sidebar/items/properties/listitems/items",
+              "type": "object",
+              "properties": {
+                "text": {
+                  "$id": "/properties/sidebar/items/properties/listitems/items/properties/text",
+                  "type": "string",
+                  "title": "The Text Schema",
+                  "default": "",
+                  "examples": [
+                    "GitHub Organisation"
+                  ]
+                },
+                "url": {
+                  "$id": "/properties/sidebar/items/properties/listitems/items/properties/url",
+                  "type": "string",
+                  "title": "The Url Schema",
+                  "default": "",
+                  "examples": [
+                    "https://github.com/ob-algdati-ws17"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "maincontent": {
+      "$id": "/properties/maincontent",
+      "type": "object",
+      "properties": {
+        "lecture": {
+          "$id": "/properties/maincontent/properties/lecture",
+          "type": "object",
+          "properties": {
+            "daytime": {
+              "$id": "/properties/maincontent/properties/lecture/properties/daytime",
+              "type": "string",
+              "title": "The Daytime Schema",
+              "default": "",
+              "examples": [
+                "montags, 10:00 - 11:30"
+              ]
+            },
+            "room": {
+              "$id": "/properties/maincontent/properties/lecture/properties/room",
+              "type": "string",
+              "title": "The Room Schema",
+              "default": "",
+              "examples": [
+                "R1.008"
+              ]
+            },
+            "lectures": {
+              "$id": "/properties/maincontent/properties/lecture/properties/lectures",
+              "type": "array",
+              "items": {
+                "$id": "/properties/maincontent/properties/lecture/properties/lectures/items",
+                "type": "object",
+                "properties": {
+                  "date": {
+                    "$id": "/properties/maincontent/properties/lecture/properties/lectures/items/properties/date",
+                    "type": "string",
+                    "title": "The Date Schema",
+                    "default": "",
+                    "examples": [
+                      "02.10.2017"
+                    ]
+                  },
+                  "topic": {
+                    "$id": "/properties/maincontent/properties/lecture/properties/lectures/items/properties/topic",
+                    "type": "string",
+                    "title": "The Topic Schema",
+                    "default": "",
+                    "examples": [
+                      "Organisatorisches, Erste Schritte in C++"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        },
+        "lab": {
+          "$id": "/properties/maincontent/properties/lab",
+          "type": "object",
+          "properties": {
+            "groups": {
+              "$id": "/properties/maincontent/properties/lab/properties/groups",
+              "type": "array",
+              "items": {
+                "$id": "/properties/maincontent/properties/lab/properties/groups/items",
+                "type": "object",
+                "properties": {
+                  "name": {
+                    "$id": "/properties/maincontent/properties/lab/properties/groups/items/properties/name",
+                    "type": "string",
+                    "title": "The Name Schema",
+                    "default": "",
+                    "examples": [
+                      "Teilgruppe 1"
+                    ]
+                  },
+                  "daytime": {
+                    "$id": "/properties/maincontent/properties/lab/properties/groups/items/properties/daytime",
+                    "type": "string",
+                    "title": "The Daytime Schema",
+                    "default": "",
+                    "examples": [
+                      "montags, 08:15-09:45"
+                    ]
+                  },
+                  "room": {
+                    "$id": "/properties/maincontent/properties/lab/properties/groups/items/properties/room",
+                    "type": "string",
+                    "title": "The Room Schema",
+                    "default": "",
+                    "examples": [
+                      "R2.008"
+                    ]
+                  }
+                }
+              }
+            },
+            "labs": {
+              "$id": "/properties/maincontent/properties/lab/properties/labs",
+              "type": "array",
+              "items": {
+                "$id": "/properties/maincontent/properties/lab/properties/labs/items",
+                "type": "object",
+                "properties": {
+                  "dates": {
+                    "$id": "/properties/maincontent/properties/lab/properties/labs/items/properties/dates",
+                    "type": "array",
+                    "items": {
+                      "$id": "/properties/maincontent/properties/lab/properties/labs/items/properties/dates/items",
+                      "type": "string",
+                      "title": "The 0 Schema",
+                      "default": "",
+                      "examples": [
+                        "TG 1"
+                      ]
+                    }
+                  },
+                  "topic": {
+                    "$id": "/properties/maincontent/properties/lab/properties/labs/items/properties/topic",
+                    "type": "string",
+                    "title": "The Topic Schema",
+                    "default": "",
+                    "examples": [
+                      ""
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        },
+        "slides": {
+          "$id": "/properties/maincontent/properties/slides",
+          "type": "array",
+          "items": {
+            "$id": "/properties/maincontent/properties/slides/items",
+            "type": "object",
+            "properties": {
+              "name": {
+                "$id": "/properties/maincontent/properties/slides/items/properties/name",
+                "type": "string",
+                "title": "The Name Schema",
+                "default": "",
+                "examples": [
+                  "Organisatorisches"
+                ]
+              },
+              "file": {
+                "$id": "/properties/maincontent/properties/slides/items/properties/file",
+                "type": "string",
+                "title": "The File Schema",
+                "default": "",
+                "examples": [
+                  "00_Org"
+                ]
+              }
+            }
+          }
+        },
+        "exercises": {
+          "$id": "/properties/maincontent/properties/exercises",
+          "type": "array",
+          "items": {
+            "$id": "/properties/maincontent/properties/exercises/items",
+            "type": "object",
+            "properties": {
+              "name": {
+                "$id": "/properties/maincontent/properties/exercises/items/properties/name",
+                "type": "string",
+                "title": "The Name Schema",
+                "default": "",
+                "examples": [
+                  "Blatt 1"
+                ]
+              },
+              "file": {
+                "$id": "/properties/maincontent/properties/exercises/items/properties/file",
+                "type": "string",
+                "title": "The File Schema",
+                "default": "",
+                "examples": [
+                  "Blatt01"
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
