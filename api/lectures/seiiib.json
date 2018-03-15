@@ -89,6 +89,10 @@
       "daytime": "donnerstags, 11:45 - 13:15",
       "room": "R1.006",
       "lectures": [{
+          "date": "15.03.2018",
+          "topic": "Methoden"
+        },
+        {
           "date": "22.03.2018",
           "topic": "Methoden"
         },
