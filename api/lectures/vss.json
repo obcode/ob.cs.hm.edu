@@ -146,8 +146,8 @@
           "topic": ""
         },
         {
-          "dates": ["01.05.2018"],
-          "topic": ""
+          "dates": ["<s>01.05.2018</s>"],
+          "topic": "vorlesungsfrei (Tag der Arbeit)"
         },
         {
           "dates": ["08.05.2018"],

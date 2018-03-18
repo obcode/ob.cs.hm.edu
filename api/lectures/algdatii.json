@@ -175,7 +175,7 @@
         },
         {
           "dates": [
-            "30.04.2018", "01.05.2018"
+            "30.04.2018", "<s>01.05.2018</s>"
           ],
           "topic": "Bearbeitung Leistungsnachweis"
         },
@@ -183,13 +183,13 @@
           "dates": [
             "07.05.2018", "08.05.2018"
           ],
-          "topic": "Bearbeitung Leistungsnachweis"
+          "topic": "Besprechung Zwischenstand"
         },
         {
           "dates": [
             "14.05.2018", "15.05.2018"
           ],
-          "topic": "Besprechung Zwischenstand"
+          "topic": "Bearbeitung Leistungsnachweis"
         },
         {
           "dates": [
