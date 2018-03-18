@@ -6,12 +6,12 @@
     "exercises": "exercises",
     "exams": "exams",
     "changelog": {
-      "slides": "slides/changelog",
-      "exercises": "exercises/changelog"
+      "slides": "changelog/slides",
+      "exercises": "changelog/exercises"
     },
     "thumbnails": {
-      "slides": "slides/thumbnails",
-      "exercises": "exercises/thumbnails"
+      "slides": "thumbnails/slides",
+      "exercises": "thumbnails/exercises"
     }
   },
   "suffixes": {
