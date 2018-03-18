@@ -6,8 +6,12 @@
     "exercises": "exercises",
     "exams": "exams",
     "changelog": {
-      "slides": "slides",
-      "exercises": "exercises"
+      "slides": "slides/changelog",
+      "exercises": "exercises/changelog"
+    },
+    "thumbnails": {
+      "slides": "slides/thumbnails",
+      "exercises": "exercises/thumbnails"
     }
   },
   "suffixes": {
@@ -15,9 +19,7 @@
     "handouts": "pdf",
     "exercises": "pdf",
     "exams": "pdf",
-    "changelog": {
-      "slides": "json",
-      "exercises": "json"
-    }
+    "changelog": "json",
+    "thumbnails": "png"
   }
 }

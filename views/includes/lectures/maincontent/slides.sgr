@@ -7,13 +7,13 @@ div(role='tabpanel' class='tab-pane {{ (currentLecture.maincontent.lecture === n
         div(class='portfolio-sec')
           div(class='portfolio-thumnail')
             a(href='{{ base.filesPrefix }}/{{ currentLecture.short }}/{{ base.dirs.slides }}/{{ slide.file }}.{{ base.suffixes.slides }}')
-              img(src='{{ base.filesPrefix }}/{{ currentLecture.short }}/{{ base.dirs.slides }}/{{ slide.file }}.png'
+              img(src='{{ base.filesPrefix }}/{{ currentLecture.short }}/{{ base.dirs.thumbnails.slides }}/{{ slide.file }}.{{ base.suffixes.thumbnails }}'
                  class='img-fluid' alt='{{ slide.name }}')
 
           div(class='portfolio-desc text-center')
             h4(class='portfolio-post-title') {{ slide.name }}
             a(class='portfolio-post-cat'
-              href='{{ base.filesPrefix }}/{{ currentLecture.short }}/{{ base.dirs.changelog.slides }}/{{ slide.file }}.{{ base.suffixes.changelog.slides }}') changelog
+              href='{{ base.filesPrefix }}/{{ currentLecture.short }}/{{ base.dirs.changelog.slides }}/{{ slide.file }}.{{ base.suffixes.changelog }}') changelog
             h4
               a(href='{{ base.filesPrefix }}/{{ currentLecture.short }}/{{ base.dirs.slides }}/{{ slide.file }}.{{ base.suffixes.slides }}'
                 class='btn theme-btn-default btn-lg') Slides
