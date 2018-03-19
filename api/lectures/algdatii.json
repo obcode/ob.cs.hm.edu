@@ -43,8 +43,8 @@
           "url": null
         },
         {
-          "text": "Der Vorlesungsstoff basiert auf dem Buch <a href='http://link.springer.com/book/10.1007/978-3-8274-2804-2/page/1'>Algorithmen und Datenstrukturen</a> von T.Ottmann & P.Widmayer.",
-          "url": null
+          "text": "Der Vorlesungsstoff basiert auf dem Buch Algorithmen und Datenstrukturen von T.Ottmann & P.Widmayer.",
+          "url": "https://link.springer.com/book/10.1007/978-3-8274-2804-2"
         }
       ]
     },
