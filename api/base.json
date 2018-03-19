@@ -1,5 +1,5 @@
 {
-  "filesPrefix": "https://ob.cs.hm.edu/dropbox/lectures",
+  "filesPrefix": "https://ob.cs.hm.edu/public",
   "dirs": {
     "slides": "slides",
     "handouts": "handouts",
