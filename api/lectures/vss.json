@@ -45,7 +45,7 @@
       "room": "R1.006",
       "lectures": [{
           "date": "20.03.2018",
-          "topic": ""
+          "topic": "Organisatorisches, Go"
         },
         {
           "date": "27.03.2018",
@@ -123,11 +123,11 @@
       ],
       "labs": [{
           "dates": ["20.03.2018"],
-          "topic": ""
+          "topic": "Einarbeitung in Go, Blatt 1"
         },
         {
           "dates": ["27.03.2018"],
-          "topic": ""
+          "topic": "Einarbeitung in Go, Blatt 1"
         },
         {
           "dates": ["<s>03.04.2018</s>"],
@@ -200,6 +200,9 @@
         "file": "01_Einfuerung"
       }
     ],
-    "exercises": null
+    "exercises": [{
+      "name": "Blatt 1",
+      "file": "Blatt01"
+    }]
   }
 }
