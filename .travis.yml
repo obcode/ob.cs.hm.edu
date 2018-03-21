@@ -11,6 +11,8 @@ before_install:
   - git log -1 --pretty='Updating site with obcode/ob.cs.hm.edu@%H' > publiccommitmsg
 install:
   - npm install
+before_script:
+  - export TZ=Europe/Berlin
 script:
   - ./node_modules/.bin/spike clean
   - NODE_ENV=production ./node_modules/.bin/spike compile -e production
