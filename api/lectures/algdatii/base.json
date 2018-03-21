@@ -1,0 +1,98 @@
+{
+  "short": "algdatii",
+  "long": "Algorithmen und Datenstrukturen II",
+  "last": "Sommersemester 2018",
+  "semesters": "ss18 ss17 older",
+  "dropboxfolder": "https://www.dropbox.com/sh/6iwey02quz842qr/AAANL0iS19KwRSr42yG4tCJXa?dl=0",
+  "sidebar": [{
+      "title": "Links",
+      "text": null,
+      "listicon": "ion-link",
+      "listitems": [{
+          "text": "GitHub Organisation",
+          "url": "https://github.com/ob-algdatii-ss18"
+        },
+        {
+          "text": "Gitter Channel",
+          "url": "https://gitter.im/ob-algdatii-ss18/Lobby"
+        },
+        {
+          "text": "Modulbeschreibung",
+          "url": "https://w3-o.cs.hm.edu:8000/public/module/12/"
+        }
+      ]
+    },
+    {
+      "title": "Ziele / Inhalte",
+      "listicon": "ion-checkmark-round",
+      "text": null,
+      "listitems": [{
+          "text": "Hashverfahren",
+          "url": null
+        },
+        {
+          "text": "Graphen",
+          "url": null
+        },
+        {
+          "text": "Algorithmen und Datenstrukturen für den effizienten Zugriff auf große Datenmengen",
+          "url": null
+        },
+        {
+          "text": "Umsetzung in C++",
+          "url": null
+        },
+        {
+          "text": "Der Vorlesungsstoff basiert auf dem Buch Algorithmen und Datenstrukturen von T.Ottmann & P.Widmayer.",
+          "url": "https://link.springer.com/book/10.1007/978-3-8274-2804-2"
+        }
+      ]
+    },
+    {
+      "title": "Scheinerwerb",
+      "text": "Erfolgreiche Bearbeitung des Aufgabenblattes zum Leistungsnachweis.",
+      "listitems": []
+    },
+    {
+      "title": "Prüfung",
+      "text": "Mündliche Prüfung",
+      "listitems": []
+    }
+  ],
+  "maincontent": {
+    "lecture": {
+      "daytime": "montags, 08:15 - 09:45",
+      "room": "R0.010"
+    },
+    "lab": {
+      "groups": [{
+          "name": "1. Teilgruppe ",
+          "daytime": "montags, 10:00 - 11:30",
+          "room": "R3.021"
+        },
+        {
+          "name": "2. Teilgruppe ",
+          "daytime": "dienstags, 15:15 - 16:45",
+          "room": "R3.021"
+        }
+      ]
+    },
+    "slides": [{
+        "name": "Hashverfahren",
+        "file": "01_Hashverfahren"
+      },
+      {
+        "name": "Graphenalgorithmen",
+        "file": "02_Graphenalgorithmen"
+      },
+      {
+        "name": "Suchen in Texten",
+        "file": "03_SuchenInTexten"
+      }
+    ],
+    "exercises": [{
+      "name": "Leistungsnachweis",
+      "file": "Leistungsnachweis"
+    }]
+  }
+}

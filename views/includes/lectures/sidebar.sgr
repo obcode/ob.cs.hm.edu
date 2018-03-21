@@ -41,8 +41,16 @@ div(class='col-md-4')
               ul(class='icon-list list-unstyled')
                 li
                   i(class='ion-link')
-                  a(href='/api/lectures/{{ currentLecture.short }}.json') JSON
-                if(condition='currentLecture.dropboxfolder != null')
+                  a(href='/api/lectures/{{ currentLecture.short }}/base.json') Base JSON
+                if(condition='currentLecture.maincontent.lecture !== null')
+                  li
+                    i(class='ion-link')
+                    a(href='/api/lectures/{{ currentLecture.short }}/lectures.json') Lectures JSON
+                if(condition='currentLecture.maincontent.lab !== null')
+                  li
+                    i(class='ion-link')
+                    a(href='/api/lectures/{{ currentLecture.short }}/labs.json') Labs JSON
+                if(condition='currentLecture.dropboxfolder !== null')
                   li
                     i(class='ion-link')
                     a(href='{{ currentLecture.dropboxfolder }}') Dropbox

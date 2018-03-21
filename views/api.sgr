@@ -20,7 +20,7 @@ extends(src='layouts/layout.sgr')
           jeweils im Bild zur Veranstaltung zu finden. Für die Veranstaltung
           "Algorithmen und Datenstrukturen II" beispielsweise finden Sie die
           Seite unter `/lectures/algdatii.html`, das dazugehörige JSON finden
-          Sie unter `/api/lectures/algdatii.json`.
+          Sie unter `/api/lectures/algdatii/base.json`.
 
           #### Veranstaltungsobjekte
 
@@ -61,6 +61,9 @@ extends(src='layouts/layout.sgr')
               -   `date`: Datum des Vorlesungstermins
               -   `topic`: Inhalt des Vorlesungstermins
 
+          **Achtung:** Das `lectures`-Array befindet sich ab sofort in der
+          Datei `lectures.json`.
+
           Das Lab-Objekt enthält 2 Felder mit Arrays:
 
           -   `groups`: Teilgruppen mit je
@@ -70,6 +73,9 @@ extends(src='layouts/layout.sgr')
           -   `labs`: Praktikumstermine mit je
               -   `dates`: Array mit je einem Termin pro Teilgruppe
               -   `topic`: Inhalt des Praktikumstermins
+
+          **Achtung:** Das `labs`-Array befindet sich ab sofort in der
+          Datei `labs.json`.
 
           Das Slides-Array enthält Objekte je Folie mit folgenden Feldern:
 

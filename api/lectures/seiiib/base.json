@@ -87,72 +87,7 @@
   "maincontent": {
     "lecture": {
       "daytime": "donnerstags, 11:45 - 13:15",
-      "room": "R1.006",
-      "lectures": [{
-          "date": "15.03.2018",
-          "topic": "Methoden bis Folie 8"
-        },
-        {
-          "date": "22.03.2018",
-          "topic": "Methoden"
-        },
-        {
-          "date": "<s>29.03.2018</s>",
-          "topic": "vorlesungsfrei (Ostern)"
-        },
-        {
-          "date": "05.04.2018",
-          "topic": ""
-        },
-        {
-          "date": "12.04.2018",
-          "topic": ""
-        },
-        {
-          "date": "19.04.2018",
-          "topic": ""
-        },
-        {
-          "date": "26.04.2018",
-          "topic": ""
-        },
-        {
-          "date": "03.05.2018",
-          "topic": ""
-        },
-        {
-          "date": "<s>10.05.2018</s>",
-          "topic": "vorlesungsfrei (Christi Himmelfahrt)"
-        },
-        {
-          "date": "17.05.2018",
-          "topic": ""
-        },
-        {
-          "date": "24.05.2018",
-          "topic": ""
-        },
-        {
-          "date": "<s>31.05.2018</s>",
-          "topic": "vorlesungsfrei (Fronleichnam)"
-        },
-        {
-          "date": "07.06.2018",
-          "topic": ""
-        },
-        {
-          "date": "14.06.2018",
-          "topic": ""
-        },
-        {
-          "date": "21.06.2018",
-          "topic": ""
-        },
-        {
-          "date": "28.06.2018",
-          "topic": ""
-        }
-      ]
+      "room": "R1.006"
     },
     "lab": {
       "groups": [{
@@ -164,71 +99,6 @@
           "name": "3. Teilgruppe ",
           "daytime": "donnerstags, 15:15 - 16:45",
           "room": "R2.012"
-        }
-      ],
-      "labs": [{
-          "dates": ["15.03.2018"],
-          "topic": "Blatt 1"
-        },
-        {
-          "dates": ["22.03.2018"],
-          "topic": "Blatt 1"
-        },
-        {
-          "dates": ["<s>29.03.2018</s>"],
-          "topic": "vorlesungsfrei (Ostern)"
-        },
-        {
-          "dates": ["05.04.2018"],
-          "topic": "Blatt 2"
-        },
-        {
-          "dates": ["12.04.2018"],
-          "topic": "Blatt 2"
-        },
-        {
-          "dates": ["19.04.2018"],
-          "topic": "Blatt 3"
-        },
-        {
-          "dates": ["26.04.2018"],
-          "topic": "Blatt 3"
-        },
-        {
-          "dates": ["03.05.2018"],
-          "topic": "Blatt 4"
-        },
-        {
-          "dates": ["<s>10.05.2018</s>"],
-          "topic": "vorlesungsfrei (Christi Himmelfahrt)"
-        },
-        {
-          "dates": ["17.05.2018"],
-          "topic": "Blatt 4"
-        },
-        {
-          "dates": ["24.05.2018"],
-          "topic": "Blatt 5"
-        },
-        {
-          "dates": ["<s>31.05.2018</s>"],
-          "topic": "vorlesungsfrei (Fronleichnam)"
-        },
-        {
-          "dates": ["07.06.2018"],
-          "topic": "Blatt 5"
-        },
-        {
-          "dates": ["14.06.2018"],
-          "topic": "Blatt 6"
-        },
-        {
-          "dates": ["21.06.2018"],
-          "topic": "Blatt 6"
-        },
-        {
-          "dates": ["26.06.2018"],
-          "topic": "..."
         }
       ]
     },

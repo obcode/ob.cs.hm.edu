@@ -1,0 +1,87 @@
+[{
+    "dates": ["19.03.2018", "20.03.2018"],
+    "topic": "Teamfindung, Auffrischung C++"
+  },
+  {
+    "dates": ["26.03.2018", "27.03.2018"],
+    "topic": "Themenfindung"
+  },
+  {
+    "dates": [
+      "<s>02.04.2018</s>", "<s>03.04.2018</s>"
+    ],
+    "topic": "vorlesungsfrei (Ostern)"
+  },
+  {
+    "dates": [
+      "09.04.2018", "10.04.2018"
+    ],
+    "topic": "Spätester Termin für ein genehmigtes Thema"
+  },
+  {
+    "dates": [
+      "16.04.2018", "17.04.2018"
+    ],
+    "topic": "Bearbeitung Leistungsnachweis"
+  },
+  {
+    "dates": [
+      "23.04.2018", "24.04.2018"
+    ],
+    "topic": "Bearbeitung Leistungsnachweis"
+  },
+  {
+    "dates": [
+      "30.04.2018", "<s>01.05.2018</s>"
+    ],
+    "topic": "Bearbeitung Leistungsnachweis"
+  },
+  {
+    "dates": [
+      "07.05.2018", "08.05.2018"
+    ],
+    "topic": "Besprechung Zwischenstand"
+  },
+  {
+    "dates": [
+      "14.05.2018", "15.05.2018"
+    ],
+    "topic": "Bearbeitung Leistungsnachweis"
+  },
+  {
+    "dates": [
+      "<s>21.05.2018</s>", "<s>22.05.2018</s>"
+    ],
+    "topic": "vorlesungsfrei (Pfingsten)"
+  },
+  {
+    "dates": [
+      "28.05.2018", "29.05.2018"
+    ],
+    "topic": "Bearbeitung Leistungsnachweis"
+  },
+  {
+    "dates": [
+      "04.06.2018", "05.06.2018"
+    ],
+    "topic": "Bearbeitung Leistungsnachweis"
+  },
+  {
+    "dates": [
+      "11.06.2018", "12.06.2018"
+    ],
+    "topic": "Bearbeitung Leistungsnachweis"
+  },
+  {
+    "dates": [
+      "18.06.2018", "19.06.2018"
+    ],
+    "topic": "Abschlusspräsentationen"
+  },
+  {
+    "dates": [
+      "25.06.2018", "26.06.2018"
+    ],
+    "topic": "Evtl. Abnahme Nacharbeiten"
+  }
+]
