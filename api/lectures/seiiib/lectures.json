@@ -8,6 +8,7 @@
     "topic": "Methoden"
   },
   {
+    "cancelled": true,
     "date": "29.03.2018",
     "topic": "vorlesungsfrei (Ostern)"
   },
@@ -32,6 +33,7 @@
     "topic": ""
   },
   {
+    "cancelled": true,
     "date": "10.05.2018",
     "topic": "vorlesungsfrei (Christi Himmelfahrt)"
   },
@@ -44,6 +46,7 @@
     "topic": ""
   },
   {
+    "cancelled": true,
     "date": "31.05.2018",
     "topic": "vorlesungsfrei (Fronleichnam)"
   },

@@ -109,7 +109,9 @@ const mkIcsObjs = (lecture) => {
   let icsObjs = []
   for (let lectIdx in lectures) {
     const lect = lectures[lectIdx]
-    icsObjs.push(lectureToEvent(lect, lectureStarttime, lectureEndtime, lecture))
+    if (!lect.cancelled) {
+      icsObjs.push(lectureToEvent(lect, lectureStarttime, lectureEndtime, lecture))
+    }
   }
   const labs = lecture.maincontent.lab.labs
   const labdaytimes = lecture.maincontent.lab.groups.map(g => g.daytime)
@@ -119,9 +121,11 @@ const mkIcsObjs = (lecture) => {
   const labNames = lecture.maincontent.lab.groups.map(g => g.name)
   for (let labIdx in labs) {
     const lab = labs[labIdx]
-    const labEvents = labToEvent(lab, labStarttimes, labEndtimes, labRooms, labNames, lecture)
-    // console.log(labEvents)
-    icsObjs = icsObjs.concat(labEvents)
+    if (!lab.cancelled) {
+      const labEvents = labToEvent(lab, labStarttimes, labEndtimes, labRooms, labNames, lecture)
+      // console.log(labEvents)
+      icsObjs = icsObjs.concat(labEvents)
+    }
   }
   return icsObjs
 }

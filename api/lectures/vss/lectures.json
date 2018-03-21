@@ -8,6 +8,7 @@
     "topic": ""
   },
   {
+    "cancelled": true,
     "date": "03.04.2018",
     "topic": "vorlesungsfrei (Ostern)"
   },
@@ -24,8 +25,9 @@
     "topic": ""
   },
   {
+    "cancelled": true,
     "date": "01.05.2018",
-    "topic": ""
+    "topic": "vorlesungsfrei (Tag der Arbeit)"
   },
   {
     "date": "08.05.2018",
@@ -36,6 +38,7 @@
     "topic": ""
   },
   {
+    "cancelled": true,
     "date": "22.05.2018",
     "topic": "vorlesungsfrei (Pfingsten)"
   },

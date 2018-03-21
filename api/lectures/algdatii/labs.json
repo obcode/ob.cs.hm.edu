@@ -14,6 +14,7 @@
     "topic": "Themenfindung"
   },
   {
+    "cancelled": true,
     "dates": [
       "02.04.2018",
       "03.04.2018"
@@ -63,6 +64,7 @@
     "topic": "Bearbeitung Leistungsnachweis"
   },
   {
+    "cancelled": true,
     "dates": [
       "21.05.2018",
       "22.05.2018"
