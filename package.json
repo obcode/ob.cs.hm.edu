@@ -10,18 +10,18 @@
   "bugs": "https://github.com/obcode/ob-cs-hm-edu/issues",
   "dependencies": {
     "reshape-standard": "^2.0.0",
-    "spike": "^2.1.0",
+    "spike": "^2.2.1",
     "spike-css-standards": "^2.0.1",
     "spike-js-standards": "^2.0.2",
-    "spike-page-id": "^1.0.0"
+    "spike-page-id": "^1.1.0"
   },
   "devDependencies": {
     "ava": "^0.19.1",
     "imagemin-mozjpeg": "^6.0.0",
-    "imagemin-webpack-plugin": "^1.5.0-beta.0",
-    "rimraf": "^2.6.1",
-    "snazzy": "^7.0.0",
-    "standard": "^10.0.2"
+    "imagemin-webpack-plugin": "^1.6.1",
+    "rimraf": "^2.6.2",
+    "snazzy": "^7.1.1",
+    "standard": "^10.0.3"
   },
   "homepage": "https://github.com/obcode/ob-cs-hm-edu",
   "main": "app.js",
