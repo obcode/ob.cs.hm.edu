@@ -1,65 +1,98 @@
-[{
-    "dates": ["20.03.2018"],
+[
+  {
+    "dates": [
+      "20.03.2018"
+    ],
     "topic": "Einarbeitung in Go, Blatt 1"
   },
   {
-    "dates": ["27.03.2018"],
+    "dates": [
+      "27.03.2018"
+    ],
     "topic": "Einarbeitung in Go, Blatt 1"
   },
   {
-    "dates": ["<s>03.04.2018</s>"],
+    "dates": [
+      "<s>03.04.2018</s>"
+    ],
     "topic": "vorlesungsfrei (Ostern)"
   },
   {
-    "dates": ["10.04.2018"],
+    "dates": [
+      "10.04.2018"
+    ],
     "topic": ""
   },
   {
-    "dates": ["17.04.2018"],
+    "dates": [
+      "17.04.2018"
+    ],
     "topic": ""
   },
   {
-    "dates": ["24.04.2018"],
+    "dates": [
+      "24.04.2018"
+    ],
     "topic": ""
   },
   {
-    "dates": ["<s>01.05.2018</s>"],
+    "dates": [
+      "<s>01.05.2018</s>"
+    ],
     "topic": "vorlesungsfrei (Tag der Arbeit)"
   },
   {
-    "dates": ["08.05.2018"],
+    "dates": [
+      "08.05.2018"
+    ],
     "topic": ""
   },
   {
-    "dates": ["15.05.2018"],
+    "dates": [
+      "15.05.2018"
+    ],
     "topic": ""
   },
   {
-    "dates": ["<s>22.05.2018</s>"],
+    "dates": [
+      "<s>22.05.2018</s>"
+    ],
     "topic": "vorlesungsfrei (Pfingsten)"
   },
   {
-    "dates": ["29.05.2018"],
+    "dates": [
+      "29.05.2018"
+    ],
     "topic": ""
   },
   {
-    "dates": ["05.06.2018"],
+    "dates": [
+      "05.06.2018"
+    ],
     "topic": ""
   },
   {
-    "dates": ["12.06.2018"],
+    "dates": [
+      "12.06.2018"
+    ],
     "topic": ""
   },
   {
-    "dates": ["19.06.2018"],
+    "dates": [
+      "19.06.2018"
+    ],
     "topic": ""
   },
   {
-    "dates": ["26.06.2018"],
+    "dates": [
+      "26.06.2018"
+    ],
     "topic": ""
   },
   {
-    "dates": ["03.07.2018"],
+    "dates": [
+      "03.07.2018"
+    ],
     "topic": ""
   }
 ]
