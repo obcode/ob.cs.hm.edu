@@ -15,8 +15,8 @@
   },
   {
     "dates": [
-      "<s>02.04.2018</s>",
-      "<s>03.04.2018</s>"
+      "02.04.2018",
+      "03.04.2018"
     ],
     "topic": "vorlesungsfrei (Ostern)"
   },
@@ -44,9 +44,9 @@
   {
     "dates": [
       "30.04.2018",
-      "<s>01.05.2018</s>"
+      "01.05.2018"
     ],
-    "topic": "Bearbeitung Leistungsnachweis"
+    "topic": "Bearbeitung Leistungsnachweis (01.05.2018 vorlesungsfrei)"
   },
   {
     "dates": [
@@ -64,8 +64,8 @@
   },
   {
     "dates": [
-      "<s>21.05.2018</s>",
-      "<s>22.05.2018</s>"
+      "21.05.2018",
+      "22.05.2018"
     ],
     "topic": "vorlesungsfrei (Pfingsten)"
   },

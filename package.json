@@ -9,6 +9,7 @@
   },
   "bugs": "https://github.com/obcode/ob-cs-hm-edu/issues",
   "dependencies": {
+    "ics": "^2.4.1",
     "reshape-standard": "^2.0.0",
     "spike": "^2.2.1",
     "spike-css-standards": "^2.0.1",
