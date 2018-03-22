@@ -6,6 +6,7 @@
     "topic": "Blatt 1"
   },
   {
+    "cancelled": true,
     "dates": [
       "22.03.2018"
     ],
@@ -22,7 +23,7 @@
     "dates": [
       "05.04.2018"
     ],
-    "topic": "Blatt 2"
+    "topic": "Blatt 1"
   },
   {
     "dates": [
@@ -34,7 +35,7 @@
     "dates": [
       "19.04.2018"
     ],
-    "topic": "Blatt 3"
+    "topic": "Blatt 2"
   },
   {
     "dates": [
@@ -46,7 +47,7 @@
     "dates": [
       "03.05.2018"
     ],
-    "topic": "Blatt 4"
+    "topic": "Blatt 3"
   },
   {
     "cancelled": true,
@@ -65,7 +66,7 @@
     "dates": [
       "24.05.2018"
     ],
-    "topic": "Blatt 5"
+    "topic": "Blatt 4"
   },
   {
     "cancelled": true,
@@ -84,7 +85,7 @@
     "dates": [
       "14.06.2018"
     ],
-    "topic": "Blatt 6"
+    "topic": "Blatt 5"
   },
   {
     "dates": [
@@ -96,6 +97,6 @@
     "dates": [
       "26.06.2018"
     ],
-    "topic": "..."
+    "topic": "Blatt 6"
   }
 ]
