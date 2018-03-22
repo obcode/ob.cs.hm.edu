@@ -1,108 +1,169 @@
 [
   {
     "dates": [
-      "19.03.2018",
-      "20.03.2018"
+      {
+        "date": "19.03.2018"
+      },
+      {
+        "date": "20.03.2018"
+      }
     ],
     "topic": "Teamfindung, Auffrischung C++"
   },
   {
     "dates": [
-      "26.03.2018",
-      "27.03.2018"
+      {
+        "date": "26.03.2018"
+      },
+      {
+        "date": "27.03.2018"
+      }
     ],
     "topic": "Themenfindung"
   },
   {
     "cancelled": true,
     "dates": [
-      "02.04.2018",
-      "03.04.2018"
+      {
+        "date": "02.04.2018"
+      },
+      {
+        "date": "03.04.2018"
+      }
     ],
     "topic": "vorlesungsfrei (Ostern)"
   },
   {
     "dates": [
-      "09.04.2018",
-      "10.04.2018"
+      {
+        "date": "09.04.2018"
+      },
+      {
+        "date": "10.04.2018"
+      }
     ],
     "topic": "Spätester Termin für ein genehmigtes Thema"
   },
   {
     "dates": [
-      "16.04.2018",
-      "17.04.2018"
+      {
+        "date": "16.04.2018"
+      },
+      {
+        "date": "17.04.2018"
+      }
     ],
     "topic": "Bearbeitung Leistungsnachweis"
   },
   {
     "dates": [
-      "23.04.2018",
-      "24.04.2018"
+      {
+        "date": "23.04.2018"
+      },
+      {
+        "date": "24.04.2018"
+      }
     ],
     "topic": "Bearbeitung Leistungsnachweis"
   },
   {
     "dates": [
-      "30.04.2018",
-      "01.05.2018"
+      {
+        "date": "30.04.2018"
+      },
+      {
+        "cancelled": true,
+        "date": "01.05.2018"
+      }
     ],
-    "topic": "Bearbeitung Leistungsnachweis (01.05.2018 vorlesungsfrei)"
+    "topic": "Bearbeitung Leistungsnachweis"
   },
   {
     "dates": [
-      "07.05.2018",
-      "08.05.2018"
+      {
+        "date": "07.05.2018"
+      },
+      {
+        "date": "08.05.2018"
+      }
     ],
     "topic": "Besprechung Zwischenstand"
   },
   {
     "dates": [
-      "14.05.2018",
-      "15.05.2018"
+      {
+        "date": "14.05.2018"
+      },
+      {
+        "date": "15.05.2018"
+      }
     ],
     "topic": "Bearbeitung Leistungsnachweis"
   },
   {
     "cancelled": true,
     "dates": [
-      "21.05.2018",
-      "22.05.2018"
+      {
+        "date": "21.05.2018"
+      },
+      {
+        "date": "22.05.2018"
+      }
     ],
     "topic": "vorlesungsfrei (Pfingsten)"
   },
   {
     "dates": [
-      "28.05.2018",
-      "29.05.2018"
+      {
+        "date": "28.05.2018"
+      },
+      {
+        "date": "29.05.2018"
+      }
     ],
     "topic": "Bearbeitung Leistungsnachweis"
   },
   {
     "dates": [
-      "04.06.2018",
-      "05.06.2018"
+      {
+        "date": "04.06.2018"
+      },
+      {
+        "date": "05.06.2018"
+      }
     ],
     "topic": "Bearbeitung Leistungsnachweis"
   },
   {
     "dates": [
-      "11.06.2018",
-      "12.06.2018"
+      {
+        "date": "11.06.2018"
+      },
+      {
+        "date": "12.06.2018"
+      }
     ],
     "topic": "Bearbeitung Leistungsnachweis"
   },
   {
     "dates": [
-      "18.06.2018",
-      "19.06.2018"
+      {
+        "date": "18.06.2018"
+      },
+      {
+        "date": "19.06.2018"
+      }
     ],
     "topic": "Abschlusspräsentationen"
   },
   {
     "dates": [
-      "25.06.2018",
-      "26.06.2018"
+      {
+        "date": "25.06.2018"
+      },
+      {
+        "date": "26.06.2018"
+      }
     ],
     "topic": "Evtl. Abnahme Nacharbeiten"
   }

@@ -46,6 +46,10 @@ a {
       -webkit-transition: all 0.3s ease-in;
       transition: all 0.3s ease-in; }
 
+.grey {
+  color: rgb(209, 210, 211);
+}
+
 .padd-section {
   padding: 90px 0; }
 
@@ -232,7 +236,6 @@ small {
   padding: 0;
   width: 22px;
   height: 22px;
-  background: url(../img/grey.png) no-repeat;
   border: none;
   cursor: pointer; }
 
@@ -272,7 +275,6 @@ small {
 @media (-o-min-device-pixel-ratio: 5 / 4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi), (min-resolution: 1.25dppx) {
   .icheckbox_square-gray,
   .iradio_square-gray {
-    background-image: url(../img/grey@2x.png);
     -webkit-background-size: 240px 24px;
     background-size: 240px 24px; } }
 
@@ -1547,7 +1549,7 @@ h4.portfolio-post-title {
 .cbp-l-grid-mosaic-flat .cbp-caption-activeWrap {
   background-color: rgba(76, 119, 158, 0.7); }
 
-/* 
+/*
     SHOP STYLE START HERE
 */
 .product_item {

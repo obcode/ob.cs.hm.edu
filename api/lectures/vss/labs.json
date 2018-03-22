@@ -1,100 +1,132 @@
 [
   {
     "dates": [
-      "20.03.2018"
+      {
+        "date": "20.03.2018"
+      }
     ],
     "topic": "Einarbeitung in Go, Blatt 1"
   },
   {
     "dates": [
-      "27.03.2018"
+      {
+        "date": "27.03.2018"
+      }
     ],
     "topic": "Einarbeitung in Go, Blatt 1"
   },
   {
     "cancelled": true,
     "dates": [
-      "03.04.2018"
+      {
+        "date": "03.04.2018"
+      }
     ],
     "topic": "vorlesungsfrei (Ostern)"
   },
   {
     "dates": [
-      "10.04.2018"
+      {
+        "date": "10.04.2018"
+      }
     ],
     "topic": ""
   },
   {
     "dates": [
-      "17.04.2018"
+      {
+        "date": "17.04.2018"
+      }
     ],
     "topic": ""
   },
   {
     "dates": [
-      "24.04.2018"
+      {
+        "date": "24.04.2018"
+      }
     ],
     "topic": ""
   },
   {
     "cancelled": true,
     "dates": [
-      "01.05.2018"
+      {
+        "date": "01.05.2018"
+      }
     ],
     "topic": "vorlesungsfrei (Tag der Arbeit)"
   },
   {
     "dates": [
-      "08.05.2018"
+      {
+        "date": "08.05.2018"
+      }
     ],
     "topic": ""
   },
   {
     "dates": [
-      "15.05.2018"
+      {
+        "date": "15.05.2018"
+      }
     ],
     "topic": ""
   },
   {
     "cancelled": true,
     "dates": [
-      "22.05.2018"
+      {
+        "date": "22.05.2018"
+      }
     ],
     "topic": "vorlesungsfrei (Pfingsten)"
   },
   {
     "dates": [
-      "29.05.2018"
+      {
+        "date": "29.05.2018"
+      }
     ],
     "topic": ""
   },
   {
     "dates": [
-      "05.06.2018"
+      {
+        "date": "05.06.2018"
+      }
     ],
     "topic": ""
   },
   {
     "dates": [
-      "12.06.2018"
+      {
+        "date": "12.06.2018"
+      }
     ],
     "topic": ""
   },
   {
     "dates": [
-      "19.06.2018"
+      {
+        "date": "19.06.2018"
+      }
     ],
     "topic": ""
   },
   {
     "dates": [
-      "26.06.2018"
+      {
+        "date": "26.06.2018"
+      }
     ],
     "topic": ""
   },
   {
     "dates": [
-      "03.07.2018"
+      {
+        "date": "03.07.2018"
+      }
     ],
     "topic": ""
   }

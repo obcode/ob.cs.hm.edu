@@ -7,9 +7,12 @@ div(role='tabpanel' class='tab-pane show active fade'
     div(class='row')
       div(class='col-md-2')
         if(condition='lecture.cancelled')
-          s {{ lecture.date }}
+          s(class='grey') {{ lecture.date }}
         else
           | {{ lecture.date }}
       div(class='col-md-10')
-        | {{ lecture.topic }}
+        if(condition='lecture.cancelled')
+          s(class='grey') {{ lecture.topic }}
+        else
+          | {{ lecture.topic }}
     hr
