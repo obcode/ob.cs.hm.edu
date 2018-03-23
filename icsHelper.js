@@ -61,12 +61,14 @@ const labToEvent = (lab, labStarttimes, labEndtimes, labRooms, labNames, lecture
     if (date === null) {
       date = dateArrs[i]
     }
-    events.push({
-      title: `P ${lecture.short}: ${lab.topic} (${labNames[i]})`,
-      start: date.concat(labStarttimes[i]),
-      end: date.concat(labEndtimes[i]),
-      location: labRooms[i]
-    })
+    if (lab.dates[i] === undefined || !lab.dates[i].cancelled) {
+      events.push({
+        title: `P ${lecture.short}: ${lab.topic} (${labNames[i]})`,
+        start: date.concat(labStarttimes[i]),
+        end: date.concat(labEndtimes[i]),
+        location: labRooms[i]
+      })
+    }
   }
   return events
 }
