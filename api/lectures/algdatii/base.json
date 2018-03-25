@@ -9,8 +9,16 @@
       "text": null,
       "listicon": "ion-link",
       "listitems": [{
-          "text": "GitHub Organisation",
+          "text": "GitHub Organisation ob-algdatii-ss18",
           "url": "https://github.com/ob-algdatii-ss18"
+        },
+        {
+          "text": "Livecoding Repository",
+          "url": "https://github.com/ob-algdatii-ss18/ob-algdatii-ss18"
+        },
+        {
+          "text": "Wiki",
+          "url": "https://github.com/ob-algdatii-ss18/ob-algdatii-ss18/wiki"
         },
         {
           "text": "Gitter Channel",
