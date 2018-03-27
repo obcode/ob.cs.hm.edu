@@ -154,7 +154,7 @@ extends(src='layouts/layout.sgr')
 
               Dabei gilt also:
 
-              -   `filesPrefix` = `https://ob.cs.hm.edu/dropbox/lectures/`
+              -   `filesPrefix` = `https://ob.cs.hm.edu/public/`
               -   `lecturename` = `algdatii`
               -   `artefaktDir` = `handouts`
               -   `file` = `01_Hashverfahren`

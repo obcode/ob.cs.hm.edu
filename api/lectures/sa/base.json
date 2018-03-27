@@ -41,7 +41,7 @@
     },
     {
       "title":  "Scheinerwerb",
-      "text": "Für den Zulassungsschein müssen Sie eine Web-Applikation in Vierergruppen mit dem <a href=\"https://www.playframework.com/\">Play Framework</a> in der Programmiersprache <a href=\"http://scala-lang.org/\">Scala</a> erstellen. Die genauen Anforderungen entnehmen Sie dem <a href=\"/dropbox/lectures/sa/exercises/Blatt03.pdf\">Anforderungsdokument</a>.",
+      "text": "Für den Zulassungsschein müssen Sie eine Web-Applikation in Vierergruppen mit dem <a href=\"https://www.playframework.com/\">Play Framework</a> in der Programmiersprache <a href=\"http://scala-lang.org/\">Scala</a> erstellen. Die genauen Anforderungen entnehmen Sie dem <a href=\"/public/sa/exercises/Blatt03.pdf\">Anforderungsdokument</a>.",
       "listitems": []
     },
     {
