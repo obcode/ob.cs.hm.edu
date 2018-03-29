@@ -12,7 +12,7 @@ div(role='tabpanel' class='tab-pane show active fade'
           | {{ lecture.date }}
       div(class='col-md-10')
         if(condition='lecture.cancelled')
-          s(class='grey') {{ lecture.topic }}
+          i(class='grey') {{ lecture.topic }}
         else
           | {{ lecture.topic }}
     hr
