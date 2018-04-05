@@ -113,6 +113,10 @@
       {
         "name": "Unveränderliche Klassen",
         "file": "07_UnveraenderlicheKlassen"
+      },
+      {
+        "name": "Klassenvariablen und statische Methoden",
+        "file": "08_KlassenvariablenUndStatischeMethoden"
       }
     ],
     "exercises": [{
