@@ -117,6 +117,10 @@
       {
         "name": "Klassenvariablen und statische Methoden",
         "file": "08_KlassenvariablenUndStatischeMethoden"
+      },
+      {
+        "name": "Enum Klassen",
+        "file": "09_EnumKlassen"
       }
     ],
     "exercises": [{
