@@ -107,8 +107,12 @@
         "file": "05_Methoden"
       },
       {
+        "name": "Datenkapselung",
+        "file": "06_Datenkapselung"
+      },
+      {
         "name": "Unveränderliche Klassen",
-        "file": "06_UnveraenderlicheKlassen"
+        "file": "07_UnveraenderlicheKlassen"
       }
     ],
     "exercises": [{
