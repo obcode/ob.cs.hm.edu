@@ -33,6 +33,7 @@
     "topic": "Bearbeitung Leistungsnachweis"
   },
   {
+    "cancelled": true,
     "dates": [
       {
         "date": "17.04.2018"
@@ -46,7 +47,7 @@
         "date": "24.04.2018"
       }
     ],
-    "topic": "Milestone 1"
+    "topic": "Pre-Release 1 (25.04.2018, 08:00 Uhr)"
   },
   {
     "cancelled": true,
@@ -96,7 +97,7 @@
         "date": "05.06.2018"
       }
     ],
-    "topic": "Milestone 2"
+    "topic": "Pre-Release 2 (06.06.2018, 08:00 Uhr)"
   },
   {
     "dates": [
@@ -120,14 +121,6 @@
         "date": "26.06.2018"
       }
     ],
-    "topic": "Release"
-  },
-  {
-    "dates": [
-      {
-        "date": "03.07.2018"
-      }
-    ],
-    "topic": ""
+    "topic": "Release (08:00 Uhr)"
   }
 ]
