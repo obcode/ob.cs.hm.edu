@@ -36,6 +36,7 @@
   {
     "dates": [
       {
+        "cancelled": true,
         "date": "09.04.2018"
       },
       {

@@ -13,12 +13,13 @@
     "topic": "vorlesungsfrei (Ostern)"
   },
   {
+    "cancelled": true,
     "date": "09.04.2018",
-    "topic": "Hashverfahren, Graphenalgorithmen"
+    "topic": ""
   },
   {
     "date": "16.04.2018",
-    "topic": "Graphenalgorithmen"
+    "topic": "Hashverfahren, Graphenalgorithmen"
   },
   {
     "date": "23.04.2018",
