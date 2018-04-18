@@ -31,7 +31,7 @@
         "date": "05.04.2018"
       }
     ],
-    "topic": "Blatt 1 (Abgabe 11.02.2018, 08:00 Uhr)"
+    "topic": "Blatt 1 (Abgabe 11.04.2018, 08:00 Uhr)"
   },
   {
     "dates": [
@@ -42,12 +42,13 @@
     "topic": "Blatt 2"
   },
   {
+    "cancelled": true,
     "dates": [
       {
         "date": "19.04.2018"
       }
     ],
-    "topic": "Blatt 2 (Abgabe 25.02.2018, 08:00 Uhr)"
+    "topic": "Blatt 2"
   },
   {
     "dates": [
@@ -55,7 +56,7 @@
         "date": "26.04.2018"
       }
     ],
-    "topic": "Blatt 3"
+    "topic": "Blatt 2 (Abgabe 02.05.2018, 08:00 Uhr)"
   },
   {
     "dates": [
