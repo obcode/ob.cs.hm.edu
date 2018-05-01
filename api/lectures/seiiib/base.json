@@ -121,7 +121,10 @@
       {
         "name": "Enum Klassen",
         "file": "09_EnumKlassen"
-      }
+      },
+      {
+        "name": "Javadoc",
+        "file": "Javadoc"      }
     ],
     "exercises": [{
         "name": "Blatt 1",
