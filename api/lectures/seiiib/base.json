@@ -124,7 +124,8 @@
       },
       {
         "name": "Javadoc",
-        "file": "Javadoc"      }
+        "file": "Javadoc"
+      }
     ],
     "exercises": [{
         "name": "Blatt 1",
