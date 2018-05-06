@@ -68,6 +68,10 @@
       {
         "name": "Einführung",
         "file": "01_Einfuerung"
+      },
+      {
+        "name": "Programmiermodelle für verteilten Speicher",
+        "file": "02_ProgrammiermodelleFuerVerteiltenSpeicher"
       }
     ],
     "exercises": [{
