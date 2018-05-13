@@ -92,6 +92,7 @@
     "topic": "Besprechung Zwischenstand"
   },
   {
+    "cancelled": true,
     "dates": [
       {
         "date": "14.05.2018"
