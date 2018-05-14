@@ -72,6 +72,14 @@
       {
         "name": "Programmiermodelle für verteilten Speicher",
         "file": "02_ProgrammiermodelleFuerVerteiltenSpeicher"
+      },
+      {
+        "name": "Remote Method Invocation (RMI)",
+        "file": "03_RMI"
+      },
+      {
+        "name": "Actor-Modell und Akka",
+        "file": "04_ActorAkka"
       }
     ],
     "exercises": [{
