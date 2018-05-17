@@ -123,6 +123,10 @@
         "file": "09_EnumKlassen"
       },
       {
+        "name": "Kopieren und Vergleichen",
+        "file": "10_KopierenUndVergleichen"
+      },
+      {
         "name": "Javadoc",
         "file": "Javadoc"
       }
