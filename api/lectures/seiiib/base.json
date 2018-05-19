@@ -127,6 +127,9 @@
         "file": "10_KopierenUndVergleichen"
       },
       {
+        "name": "Interfaces",
+        "file": "11_Interfaces"
+      },      {
         "name": "Javadoc",
         "file": "Javadoc"
       }
