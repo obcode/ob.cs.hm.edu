@@ -17,3 +17,5 @@ div
       div
       span &copy; {{ year }} Oliver Braun |
         a(href='/impressum.html') Impressum
+        | |
+        a(href='/privacy.html') Datenschutzerklärung
