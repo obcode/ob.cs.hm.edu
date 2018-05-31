@@ -129,7 +129,12 @@
       {
         "name": "Interfaces",
         "file": "11_Interfaces"
-      }, {
+      },
+      {
+        "name": "Ableiten konkreter Klassen",
+        "file": "12_AbleitenKonkreterKlassen"
+      },
+      {
         "name": "Javadoc",
         "file": "Javadoc"
       }
