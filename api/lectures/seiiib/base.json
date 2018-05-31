@@ -135,6 +135,10 @@
         "file": "12_AbleitenKonkreterKlassen"
       },
       {
+        "name": "Packages",
+        "file": "13_Packages"
+      },
+      {
         "name": "Javadoc",
         "file": "Javadoc"
       }
