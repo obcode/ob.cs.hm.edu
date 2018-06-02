@@ -139,6 +139,10 @@
         "file": "13_Packages"
       },
       {
+        "name": "Arrays",
+        "file": "14_Arrays"
+      },
+      {
         "name": "Javadoc",
         "file": "Javadoc"
       }
