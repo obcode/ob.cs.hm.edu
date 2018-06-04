@@ -80,6 +80,10 @@
       {
         "name": "Actor-Modell und Akka",
         "file": "04_ActorAkka"
+      },
+      {
+        "name": "Parallelisierung",
+        "file": "05_Parallelisierung"
       }
     ],
     "exercises": [{
