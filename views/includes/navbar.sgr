@@ -29,6 +29,9 @@ nav(class='navbar navbar-toggleable-sm navbar-light bg-faded yamm')
               li
                 a(href='/lectures/{{ lecture.short }}.html'     class='dropdown-item') {{ lecture.long }}
 
+        li(class='nav-item')
+          a(class='nav-link' href='/theses.html') Abschlußarbeiten
+
         li(class=' dropdown nav-item')
           a(href='#' class='dropdown-toggle nav-link' data-toggle='dropdown') Misc
           ul(class='dropdown-menu')
@@ -36,8 +39,6 @@ nav(class='navbar navbar-toggleable-sm navbar-light bg-faded yamm')
               a(class='dropdown-item' href='/git.html') Git / GitHub / Gitter
             li
               a(class='dropdown-item' href='https://terraform.cs.hm.edu/jenkins/') Jenkins
-            li
-              a(class='dropdown-item' href='/theses.html') Abschlußarbeiten
             li
               a(class='dropdown-item' href='/about.html') Kontakt
             li
