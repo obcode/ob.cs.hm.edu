@@ -162,12 +162,12 @@
     "topic": "Abschlusspräsentationen"
   },
   {
+    "cancelled": true,
     "dates": [
       {
         "date": "25.06.2018"
       },
       {
-        "cancelled": true,
         "date": "26.06.2018"
       }
     ],

@@ -116,6 +116,7 @@
     "topic": "Bearbeitung Leistungsnachweis"
   },
   {
+    "cancelled": true,
     "dates": [
       {
         "date": "26.06.2018"
