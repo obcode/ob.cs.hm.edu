@@ -117,7 +117,11 @@ extends(src='layouts/layout.sgr')
           ### Umfang und Form
 
           Ich empfehle Ihnen die Arbeit mit Markdown (Pandoc) oder LaTeX zu
-          schreiben. Sie können Sie aber auch eine andere Textverarbeitung nutzen.
+          schreiben. Ein Student, der bei mir seine Bachelorarbeit in
+          Markdown geschrieben hat, hat sein Template in einem
+          [GitHub-Repository](https://github.com/089/phd_thesis_markdown/tree/hm.edu)
+          veröffentlicht.
+
           Der Umfang einer Bachelorarbeit sollte im Bereich von 30-60 Seiten,
           der einer Masterarbeit im Bereich 50-100 Seiten liegen.
 
