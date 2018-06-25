@@ -147,6 +147,10 @@
         "file": "15_Arrays"
       },
       {
+        "name": "Exceptions",
+        "file": "16_Exceptions"
+      },
+      {
         "name": "Javadoc",
         "file": "Javadoc"
       }
