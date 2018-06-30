@@ -19,3 +19,7 @@ div
         a(href='/impressum.html') Impressum
         | |
         a(href='/privacy.html') Datenschutzerklärung
+        | |
+        a(href='/api.html') API
+        | |
+        a(href='https://terraform.cs.hm.edu/jenkins/') Jenkins
