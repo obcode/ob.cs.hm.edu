@@ -8,152 +8,176 @@ extends(src='layouts/layout.sgr')
 
     div(class='container')
       div(class='row')
-        div(md class='col-lg-6').
+        div(class='col-md-2')
+        div(class='col-md-8')
 
-          ### Zeitplan / Ablauf
+          ul(class='nav-tabs nav' role='tablist')
+            li(class='nav-item')
+              a(class='ion-ios-book active nav-link' href='#Basics'
+                data-taget='#Basics' role='tab' data-toggle='tab') &nbsp; Zeitplan / Ablauf
+            li(class='nav-item')
+              a(class='ion-compose nav-link' href='#Form'
+                data-taget='#Form' role='tab' data-toggle='tab') &nbsp; Umfang und Form
+            li(class='nav-item')
+              a(class='ion-chatbubbles nav-link' href='#Bewertung'
+                data-taget='#Bewertung' role='tab' data-toggle='tab') &nbsp; Bewertung
 
-          Melden Sie sich frühzeitig, wenn Sie eine Abschlußarbeit bei mir
-          schreiben wollen. Im Idealfall zu Beginn des Semesters **vor** dem
-          Semester in dem Sie die Abschlußarbeit schreiben wollen. Je später
-          Sie mit mir Kontakt aufnehmen umso wahrscheinlicher wird es, dass ich
-          Sie aus Kapazitätsgründen **nicht** betreuen kann.
+          div(class="tab-content")
+            div(class='space-30')
+            div(role='tabpanel' class='tab-pane show active fade'
+                id='Basics' aria-expanded='true')
+              div(md).
 
-          #### 1. Kontaktaufnahme per E-Mail
+                ### Zeitplan / Ablauf
 
-          Nehmen Sie per E-Mail mit mir Kontakt auf und erläutern Sie mir
-          kurz das Thema Ihrer geplanten Arbeit, sowie den terminlichen
-          Rahmen (Beginn und Abgabe).
+                Melden Sie sich frühzeitig, wenn Sie eine Abschlußarbeit bei mir
+                schreiben wollen. Im Idealfall zu Beginn des Semesters **vor** dem
+                Semester in dem Sie die Abschlußarbeit schreiben wollen. Je später
+                Sie mit mir Kontakt aufnehmen umso wahrscheinlicher wird es, dass ich
+                Sie aus Kapazitätsgründen **nicht** betreuen kann.
 
-          Sie bekommen von mir eine Rückmeldung ob es inhaltlich und
-          terminlich bei mir klappen könnte.
+                #### 1. Kontaktaufnahme per E-Mail
 
-          #### 2. Erste Besprechung in meiner Sprechstunde
+                Nehmen Sie per E-Mail mit mir Kontakt auf und erläutern Sie mir
+                kurz das Thema Ihrer geplanten Arbeit, sowie den terminlichen
+                Rahmen (Beginn und Abgabe).
 
-          Wenn Sie positives Feedback von mir bekommen haben, kommen Sie in
-          meine **[Sprechstunde](https://w3-o.cs.hm.edu:8000/public/profiles/)**.
+                Sie bekommen von mir eine Rückmeldung ob es inhaltlich und
+                terminlich bei mir klappen könnte.
 
-          Bringen Sie dazu ein schriftliches **Exposé** mit, das folgende Punkte
-          enthält:
+                #### 2. Erste Besprechung in meiner Sprechstunde
 
-          -   Umfeld der Arbeit
-          -   Ziel der Arbeit
-          -   Methoden und Technologien die verwendet werden sollen
-          -   Beteiligung Dritter (z.B. Firma)
+                Wenn Sie positives Feedback von mir bekommen haben, kommen Sie in
+                meine **[Sprechstunde](https://w3-o.cs.hm.edu:8000/public/profiles/)**.
 
-          Vom Umfang her sind 1-2 DIN A4-Seiten sinnvoll.
+                Bringen Sie dazu ein schriftliches **Exposé** mit, das folgende Punkte
+                enthält:
 
-          Falls die Abschlußarbeit bei einer Firma angefertigt wird, stellen
-          Sie sicher, dass ich die Arbeit auch lesen darf.
-          Ich werde für Abschlußarbeiten keine
-          [NDAs](https://de.wikipedia.org/wiki/Geheimhaltungsvertrag)
-          unterschreiben. Sie können die Arbeit aber mit einem Sperrvermerk
-          versehen, so dass sie nicht weiter gegeben werden darf.
+                -   Umfeld der Arbeit
+                -   Ziel der Arbeit
+                -   Methoden und Technologien die verwendet werden sollen
+                -   Beteiligung Dritter (z.B. Firma)
 
-          #### 3. Anmeldung
+                Vom Umfang her sind 1-2 DIN A4-Seiten sinnvoll.
 
-          Vor dem Beginn muss die Arbeit angemeldet werden. Sie finden dazu
-          entsprechende Formblätter auf den Webseiten zu Ihrem Studiengang.
-          Füllen Sie das Anmeldeformblatt aus.
+                Falls die Abschlußarbeit bei einer Firma angefertigt wird, stellen
+                Sie sicher, dass ich die Arbeit auch lesen darf.
+                Ich werde für Abschlußarbeiten keine
+                [NDAs](https://de.wikipedia.org/wiki/Geheimhaltungsvertrag)
+                unterschreiben. Sie können die Arbeit aber mit einem Sperrvermerk
+                versehen, so dass sie nicht weiter gegeben werden darf.
 
-          Der Titel ist ein *Arbeitstitel*,
-          d.h. die exakte Formulierung kann sich bis zur Abgabe noch ändern,
-          aber inhaltlich muss es passen. Der (spätests mögliche)
-          Abgabetermin berechnet sich aus
-          dem Termin der vor der Unterschrift steht und der für Sie gemäß
-          Prüfungsordnung gültigen Frist.
+                #### 3. Anmeldung
 
-          Geben Sie mir das Formular zum Unterschreiben entweder in der
-          Sprechstunde oder lassen Sie es mir im Sekretariat ins Fach legen.
-          In der vorlesungsfreien Zeit scannen Sie es ein und senden Sie es
-          mir per E-Mail.
+                Vor dem Beginn muss die Arbeit angemeldet werden. Sie finden dazu
+                entsprechende Formblätter auf den Webseiten zu Ihrem Studiengang.
+                Füllen Sie das Anmeldeformblatt aus.
 
-          #### 4. Bearbeitungszeit
+                Der Titel ist ein *Arbeitstitel*,
+                d.h. die exakte Formulierung kann sich bis zur Abgabe noch ändern,
+                aber inhaltlich muss es passen. Der (spätests mögliche)
+                Abgabetermin berechnet sich aus
+                dem Termin der vor der Unterschrift steht und der für Sie gemäß
+                Prüfungsordnung gültigen Frist.
 
-          Während der Bearbeitungszeit Ihrer Abschlußarbeit arbeiten Sie
-          möglichst selbständig an Ihrem Thema. Wenden Sie sich bei Fragen
-          jederzeit per E-Mail oder [Gitter](https://gitter.im/obcode) an mich.
+                Geben Sie mir das Formular zum Unterschreiben entweder in der
+                Sprechstunde oder lassen Sie es mir im Sekretariat ins Fach legen.
+                In der vorlesungsfreien Zeit scannen Sie es ein und senden Sie es
+                mir per E-Mail.
 
-          Zwischenstände können wir in der Sprechstunde oder zu vereinbarten
-          Terminen gemeinsam durchgehen und besprechen. Es ist nicht möglich,
-          dass Sie mir den aktuellen Stand der Arbeit per E-Mail senden und
-          von mir ein schriftliches Feedback bekommen.
+                #### 4. Bearbeitungszeit
 
-          Ob und wie oft Sie von
-          Feedback im Rahmen eines Termins bekommen, liegt alleine an Ihrer
-          Initiative. Während der vorlesungsfreien Zeit ist es auch möglich
-          Feedbackgespräche über Skype zu führen.
+                Während der Bearbeitungszeit Ihrer Abschlußarbeit arbeiten Sie
+                möglichst selbständig an Ihrem Thema. Wenden Sie sich bei Fragen
+                jederzeit per E-Mail oder [Gitter](https://gitter.im/obcode) an mich.
 
-        div(md class='col-lg-6').
+                Zwischenstände können wir in der Sprechstunde oder zu vereinbarten
+                Terminen gemeinsam durchgehen und besprechen. Es ist nicht möglich,
+                dass Sie mir den aktuellen Stand der Arbeit per E-Mail senden und
+                von mir ein schriftliches Feedback bekommen.
 
-          #### 5. Abgabe
+                Ob und wie oft Sie von
+                Feedback im Rahmen eines Termins bekommen, liegt alleine an Ihrer
+                Initiative. Während der vorlesungsfreien Zeit ist es auch möglich
+                Feedbackgespräche über Skype zu führen.
 
-          Geben Sie vor oder zum Abgabetermin **eine** gebundene Version der
-          Bachelorarbeit bzw. **zwei** gebundene Versionen der Masterarbeit
-          **im Sekretariat** ab. Kümmern Sie sich rechtzeitig **vorher** darum
-          ob das Sekretariat besetzt ist oder ob Sie die Arbeit auch per Post
-          einreichen können.
+                #### 5. Abgabe
 
-          Darüberhinaus senden Sie mir unmittelbar bei Abgabe die Arbeit
-          per E-Mail als **PDF**. Wenn Sie einen Sperrvermerk verwendet haben,
-          sollten Sie das PDF sinnvollerweise mit meinem
-          [GPG-Schlüssel](http://pgp.mit.edu:11371/pks/lookup?search=ob%40cs.hm.edu&op=index)
-          verschlüsselt senden.
+                Geben Sie vor oder zum Abgabetermin **eine** gebundene Version der
+                Bachelorarbeit bzw. **zwei** gebundene Versionen der Masterarbeit
+                **im Sekretariat** ab. Kümmern Sie sich rechtzeitig **vorher** darum
+                ob das Sekretariat besetzt ist oder ob Sie die Arbeit auch per Post
+                einreichen können.
 
-          Wenn Sie Ihr Studium zum Ende eines Semesters abschließen wollen,
-          bedenken Sie, dass auch meine Korrektur und das Kolloquium noch
-          innerhalb des Semesters statt finden muss. Ein sinnvoller Abgabetermin
-          liegt daher (nach Absprache) ca. 2-4 Wochen vor dem Ende des Semesters.
-          Sprechen Sie es auf jeden Fall mit mir ab, da ich während der
-          vorlesungsfreien Zeit unter Umständen über mehrere Tage oder Wochen
-          auch per E-Mail nicht erreichbar bin.
+                Darüberhinaus senden Sie mir unmittelbar bei Abgabe die Arbeit
+                per E-Mail als **PDF**. Wenn Sie einen Sperrvermerk verwendet haben,
+                sollten Sie das PDF sinnvollerweise mit meinem
+                [GPG-Schlüssel](http://pgp.mit.edu:11371/pks/lookup?search=ob%40cs.hm.edu&op=index)
+                verschlüsselt senden.
 
-          #### 6. Kolloquium
+                Wenn Sie Ihr Studium zum Ende eines Semesters abschließen wollen,
+                bedenken Sie, dass auch meine Korrektur und das Kolloquium noch
+                innerhalb des Semesters statt finden muss. Ein sinnvoller Abgabetermin
+                liegt daher (nach Absprache) ca. 2-4 Wochen vor dem Ende des Semesters.
+                Sprechen Sie es auf jeden Fall mit mir ab, da ich während der
+                vorlesungsfreien Zeit unter Umständen über mehrere Tage oder Wochen
+                auch per E-Mail nicht erreichbar bin.
 
-          Nach der Abgabe vereinbaren wir einen Termin für das Kolloquium.
-          Zu diesem Termin halten Sie einen Vortrag über Ihre Arbeit der ca.
-          15 - 20 Minuten dauern sollte. Anschließend werden Fragen zur Arbeit
-          geklärt.
+                #### 6. Kolloquium
 
-          ### Umfang und Form
+                Nach der Abgabe vereinbaren wir einen Termin für das Kolloquium.
+                Zu diesem Termin halten Sie einen Vortrag über Ihre Arbeit der ca.
+                15 - 20 Minuten dauern sollte. Anschließend werden Fragen zur Arbeit
+                geklärt.
 
-          Ich empfehle Ihnen die Arbeit mit Markdown (Pandoc) oder LaTeX zu
-          schreiben. Ein Student, der bei mir seine Bachelorarbeit in
-          Markdown geschrieben hat, hat sein Template in einem
-          [GitHub-Repository](https://github.com/089/phd_thesis_markdown/tree/hm.edu)
-          veröffentlicht.
+            div(role='tabpanel' class='tab-pane fade'
+                id='Form' aria-expanded='false')
+              div(md).
 
-          Der Umfang einer Bachelorarbeit sollte im Bereich von 30-60 Seiten,
-          der einer Masterarbeit im Bereich 50-100 Seiten liegen.
+                ### Umfang und Form
 
-          Spezielle Anforderungen an das Layout habe ich nicht. Es sollte aber
-          gut zu lesen sein. Zitieren Sie nach einem üblichen Zitierstil
-          einheitlich über das gesamte Dokument.
+                Ich empfehle Ihnen die Arbeit mit Markdown (Pandoc) oder LaTeX zu
+                schreiben. Ein Student, der bei mir seine Bachelorarbeit in
+                Markdown geschrieben hat, hat sein Template in einem
+                [GitHub-Repository](https://github.com/089/phd_thesis_markdown/tree/hm.edu)
+                veröffentlicht.
 
-          Die Arbeit muss folgende formale Angaben enthalten: Name, Matrikelnummer,
-          Studiengruppe, Titel auf Deutsch und Englisch.
+                Der Umfang einer Bachelorarbeit sollte im Bereich von 30-60 Seiten,
+                der einer Masterarbeit im Bereich 50-100 Seiten liegen.
 
-          Neben dem Inhaltsverzeichnis und dem Literaturverzeichnis sind keine
-          weiteren Verzeichnisse (z.B. Abbildungsverzeichnis) notwendig.
+                Spezielle Anforderungen an das Layout habe ich nicht. Es sollte aber
+                gut zu lesen sein. Zitieren Sie nach einem üblichen Zitierstil
+                einheitlich über das gesamte Dokument.
 
-          Sie können die Abschlußarbeit bei mir auf Deutsch oder Englisch schreiben.
+                Die Arbeit muss folgende formale Angaben enthalten: Name, Matrikelnummer,
+                Studiengruppe, Titel auf Deutsch und Englisch.
 
-          ### Bewertung
+                Neben dem Inhaltsverzeichnis und dem Literaturverzeichnis sind keine
+                weiteren Verzeichnisse (z.B. Abbildungsverzeichnis) notwendig.
 
-          Die Bewertung Ihrer Abschlußarbeit erfolgt nach folgenden Kriterien
+                Sie können die Abschlußarbeit bei mir auf Deutsch oder Englisch schreiben.
 
-          -   Inhalt der Arbeit (Gewichtung 45%)
-              -   Kenntnisse und Fähigkeiten
-              -   Qualität der Ergebnisse
-          -   Wissenschaftlichkeit und Systematik, Eigenständigkeit (Gewichtung 30%)
-              -   Wissenschaftliches Arbeiten
-              -   Abgrenzung zu anderen Arbeiten (Related Work)
-          -   Darstellung der Ergebnisse (Gewichtung 25%)
-              -   Gliederung und systematische Beschreibung
-              -   Lesbarkeit
-              -   Grafiken, Tabellen, Abbildungen, Quellcode
-              -   Äußere Form
+            div(role='tabpanel' class='tab-pane fade'
+                id='Bewertung' aria-expanded='false')
+              div(md).
 
-          ### Weitere Informationen
+                ### Bewertung
 
-          -   [Guide zum Verfassen von Abschlussarbeiten](https://w3-o.cs.hm.edu/~boettcha/da-guide.pdf)
-              von [Prof. Dr. Axel Böttcher](https://www.cs.hm.edu/die_fakultaet/ansprechpartner/professoren/boettcher_1/index.de.html)
+                Die Bewertung Ihrer Abschlußarbeit erfolgt nach folgenden Kriterien
+
+                -   Inhalt der Arbeit (Gewichtung 45%)
+                    -   Kenntnisse und Fähigkeiten
+                    -   Qualität der Ergebnisse
+                -   Wissenschaftlichkeit und Systematik, Eigenständigkeit (Gewichtung 30%)
+                    -   Wissenschaftliches Arbeiten
+                    -   Abgrenzung zu anderen Arbeiten (Related Work)
+                -   Darstellung der Ergebnisse (Gewichtung 25%)
+                    -   Gliederung und systematische Beschreibung
+                    -   Lesbarkeit
+                    -   Grafiken, Tabellen, Abbildungen, Quellcode
+                    -   Äußere Form
+
+                ### Weitere Informationen
+
+                -   [Guide zum Verfassen von Abschlussarbeiten](https://w3-o.cs.hm.edu/~boettcha/da-guide.pdf)
+                    von [Prof. Dr. Axel Böttcher](https://www.cs.hm.edu/die_fakultaet/ansprechpartner/professoren/boettcher_1/index.de.html)
