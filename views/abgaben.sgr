@@ -1,0 +1,317 @@
+extends(src='layouts/layout.sgr')
+  block(name='content')
+    section(id='content-region-3' class='padding-40 page-tree-bg')
+      div(class='container')
+        h3(class='page-tree-text') Bearbeitung und Abgabe der Praktikumsaufgaben
+    div(class='space-70')
+
+
+    div(class='container')
+      div(class='row')
+        div(class='col-md-2')
+        div(class='col-md-8')
+          div(md).
+
+            Alle Abgaben meiner Praktikumsaufgaben erfolgen auf
+            [GitHub](https://github.com/) mit Hilfe von [Git](https://git-scm.com/).
+
+            Dabei ist mir, neben der Lösung der eigentlichen Aufgabenstellung,
+            sehr wichtig, dass Sie nach den hier beschriebenen Schritten vorgehen.
+
+            Sie bekommen von mir auf dem Aufgabenblatt üblicherweise einen
+            [GitHub Classroom](https://classroom.github.com/)-Link über den
+            Sie ein Repository für sich generieren können. Wenn Sie als Team
+            arbeiten sollen, erzeugt der/die Erste mit dem Link ein neues Team
+            und das Repository. Die anderen Teammitglieder treten dann über den
+            Link dem Team bei und bekommen die Rechte für das gemeinsame Repository.
+
+            Lesen Sie sich **vor** dem Bearbeiten meiner Praktikumsaufgaben
+            **unbedingt** die folgenden Punkte durch.
+
+          ul(class='nav-tabs nav' role='tablist')
+            li(class='nav-item')
+              a(class='ion-ios-book active nav-link' href='#Basics'
+                data-taget='#Basics' role='tab' data-toggle='tab') &nbsp; Git-Basics
+            li(class='nav-item')
+              a(class='ion-compose nav-link' href='#Feedback'
+                data-taget='#Feedback' role='tab' data-toggle='tab') &nbsp; Arbeiten, Abgabe und Feedback
+            li(class='nav-item')
+              a(class='ion-chatbubbles nav-link' href='#Kommunikation'
+                data-taget='#Kommunikation' role='tab' data-toggle='tab') &nbsp; Kommunikation und Hilfe
+
+          div(class="tab-content")
+            div(class='space-30')
+            div(role='tabpanel' class='tab-pane show active fade'
+                id='Basics' aria-expanded='true')
+              div(md).
+
+                Wenn Sie noch nicht mit Git gearbeitet haben, ist <https://try.github.io/>
+                eine gute Quelle um Git kennen zu lernen.
+
+                #### Beachten Sie dabei folgendes:
+
+                -   Verwenden Sie lokal beim Committen eine **E-Mail-Adresse**, die Sie
+                    auch in GitHub hinzugefügt haben. Anderenfalls kann GitHub Ihnen
+                    Ihre Commits nicht zuordnen, was insbesondere bei Teams ein
+                    Problem darstellt. Dadurch gewinne ich den Eindruck Sie haben
+                    gar nichts beigetragen!
+
+                    Infos, wie Sie Ihre E-Mail-Adresse lokal setzen, finden Sie unter
+                    [Getting Started - First-Time Git Setup](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup).
+
+                -   **Committen** Sie kleine sinnvolle Einheiten mit **vernünftigen**
+                    Commit-Messages.
+                    Eine Commit-Message sollte kurz beschreiben, was im Gegensatz
+                    zum letzten Commit verändert wurde, z.B.
+
+                    -   "Erster Ansatz der Klasse Blablabla."
+                    -   "Ausgabe für rationale Zahlen hinzugefügt."
+                    -   "Funktion hallo gefixt."
+                    -   "Lösung für Teilaufgabe 2b"
+                    -   ...
+
+                -   **Pushen** Sie nach jedem Commit. Sie haben damit sofort ein Backup
+                    ihres aktuellen Stands auf GitHub. Wenn ein CI-Job für Sie
+                    eingerichtet ist, bekommen Sie sofort eine Rückmeldung.
+                    Wenn Sie im Team arbeiten, können
+                    die anderen Team-Mitglieder sofort sehen, was Sie gemacht haben
+                    und evtl. darauf reagieren.
+
+            div(role='tabpanel' class='tab-pane fade'
+                id='Feedback' aria-expanded='false')
+              div(md).
+
+                Die Abgabe erfolgt immer als
+                [Pull-Request](https://help.github.com/articles/about-pull-requests/)
+                (PR). Committen Sie **nie** direkt in den `master`-Branch.
+
+                Das Feedback bekommen Sie von meinen Tutoren oder mir als
+                Kommentar zum PR. Wenn **ich** den PR
+                genehmige, haben Sie die entsprechende Aufgabe **erfolgreich**
+                abgegeben.
+
+                Folgen Sie, wenn Sie alleine sind dem im Folgenden beschriebenen
+                *GitHub Flow*. Im Team folgen Sie dem weiter unten beschriebenen
+                *Git-Flow mit PRs*.
+
+                ### Alleine: GitHub Flow
+
+                Wenn Sie eine Aufgabe alleine lösen, reicht es, wenn Sie dem
+                [GitHub Flow](https://guides.github.com/introduction/flow/)
+                folgen. Sie können natürlich auch alleine nach dem, weiter
+                unten beschriebenen, git-flow vorgehen.
+
+                ![](img/githubflow.png)
+                <center><small>
+                Quelle: <https://hackernoon.com/15-tips-to-enhance-your-github-flow-6af7ceb0d8a3>
+                </small></center>
+
+                Erzeugen Sie nach dazu einen neuen Branch, z.B. `develop` und
+                wechseln Sie in diesen. Arbeiten Sie ausschließlich in diesem
+                oder in weiteren, davon abgezweigten Branches, **nie** aber
+                im `master`. Committen und pushen Sie wie gewohnt **oft** und
+                mit **vernünftigen** Commit-Messages.
+
+                Um abzugeben erzeugen Sie einen PR gegen den
+                `master`-Branch und tragen Sie **mich** und, sofern vorhanden,
+                den für Sie zuständigen Tutor unter **Reviewers** ein.
+
+                Feedback erhalten Sie dann durch das Review. Wenn ihr PR
+                durch **mich** und evtl. den Tutor **approved** ist, haben Sie
+                die Abgabe **bestanden** und können den PR mergen.
+
+                ### Im Team: Git-Flow mit Pull-Requests
+
+                Wenn Sie im Team arbeiten, ist es sinnvoll nicht nur in einem
+                sondern in mehreren Branches zu arbeiten. Auch in diesem Fall
+                ist der `master`-Branch tabu.
+
+                Vincent Driessen hat in einem
+                [Blog-Post](https://nvie.com/posts/a-successful-git-branching-model/)
+                ein Git-Branching-Modell vorgeschlagen, das mittlerweile unter
+                dem Namen **git-flow** als
+                [Erweiterung](https://github.com/petervanderdoes/gitflow-avh)
+                von Git verfügbar ist.
+                Einige Git-GUIs, wie z.B. [SourceTree](https://www.sourcetreeapp.com/),
+                enthalten direkte Unterstützung für git-flow.
+
+                Dies ist aber letzendlich nicht notwendig. Sie können das git
+                flow Modell auch einfach mit den in Git verfügbaren Kommandos
+                nutzen.
+
+                ![](img/gitflow.png)
+
+                Git-flow hat mit GitHub nichts zu tun. Daher sind auch die PRs
+                nicht Teil von git-flow.
+
+                Gehen Sie daher, mit oder ohne git-flow-Toolunterstützung,
+                folgendermaßen vor:
+
+                - **keine** Commits direkt im `master`
+                - der gemeinsame Branch heisst `develop`
+                  - in diese können "kleine" Commits gemacht werden
+                - alle neuen Features die Sie implementieren wollen, entwickeln
+                  Sie in einem neuen Feature-Branch, den Sie von `develop`
+                  abzweigen
+                - wenn Sie mit einem Feature fertig sind, erstellen Sie einen PR
+                  gegen den `develop`-Branch
+                  - je nach Aufgabenstellung müssen Sie einen Reviewer für den
+                    PR auswählen oder können gleich selbst mergen
+                - die Abgabe erfolgt als PR vom `develop`-Branch in den
+                  `master`-Branch, wie oben, beim GitHub Flow, beschrieben.
+
+                Um sich das Leben einfach zu machen, sollten Sie auf jeden Fall
+                git-flow nutzen, außer es gibt ein Riesenproblem, bei dem ich
+                nicht einmal helfen kann.
+
+                Mit git-flow gehen Sie dann wie im Folgenden beschrieben vor.
+
+                Installieren Sie zunächst git-flow, falls Sie kein GUI, wie
+                z.B. SourceTree benutzen, das die Unterstützung für git-flow
+                gleich mitbringt.
+                Auch [Git for Windows](https://gitforwindows.org/) hat in der
+                aktuellen Version git-flow mit an Bord. Die Installation ist
+                [hier](https://github.com/petervanderdoes/gitflow-avh/wiki/Installation)
+                beschrieben.
+
+                Initialisieren des Repositories für git-flow:
+
+                `git flow init`
+
+                Sie können alle Fragen mit der Default-Antwort übernehmen.
+                Sie haben damit einen `develop`-Branch erzeugt und ihn automatisch
+                gleich ausgecheckt.
+
+                Pushen Sie den `develop`-Branch dann noch auf GitHub, **wenn
+                noch niemand aus Ihrem Team das getan hat**:
+
+                `git push origin develop`
+
+                #### Ein neues Feature entwickeln bzw. eine Teilaufgabe lösen
+
+                Wenn Sie mit einem neuen Feature bzw. einer Teilaufgabe
+                `meinNeuesFeature` beginnen wollen:
+
+                `git flow feature start meinNeuesFeature`
+
+                Damit befinden Sie sich in einem neuen Feature-Branch, der, wie
+                oben beschrieben, vom `develop`-Branch abzweigt.
+
+                Um ihn für die anderen Teammitglieder auf GitHub zur Verfügung
+                zu stellen:
+
+                `git flow feature publish meinNeuesFeature`
+
+                **Achtung:** Jetzt weicht es von dem normalen git-flow ab:
+
+                Pushen Sie ihren Branch auf GitHub und erzeugen Sie einen
+                Pull-Request gegen den `develop`-Branch.
+
+                Je nach Aufgabenstellung muss vielleicht ein Review durch ein
+                Teammiglied erfolgen. Wenn nicht, können Sie mit git flow
+                bei sich lokal mergen
+
+                `git flow feature finish  meinNeuesFeature`
+
+                Das schließt den PR auch automatisch. Der PR ist dann nur dafür
+                da gewesen um nachvollziehbar zu machen, was gemerged wurde.
+                Sie müssen anschließend noch den aktuellen Stand des `develop`-Branches
+                auf GitHub pushen.
+
+                Wenn, gemäß Aufgabestellung, jemand anderes den PR mergen muss,
+                kann er/sie das direkt auf GitHub machen. Sie als Entwickler
+                müssen dann selbst in den `develop` zurück (`git checkout develop`)
+                und die gemergeten Commits von GitHub pullen. Anschließend
+                löschen Sie dann ihren Feature-Branch:
+
+                `git branch -D meinNeuesFeature`
+
+                #### Abgabe
+
+                Die Abgabe oder ein Zwischenrelease erfolgt als Pull-Request
+                von `develop` in den `master`. Sie können entweder den PR direkt
+                erzeugen und mich und den für Sie zuständigen Tutor als
+                **Reviewer** eintragen. Dann gibt es wieder Feedback und wenn
+                es ein *Approval* von mir gibt, können Sie in den `master`
+                mergen.
+
+                Mit git flow gehen Sie folgendermaßen vor:
+
+                Sie beginnen ein neues Release mit einem Bezeichner. Verwenden
+                Sie den Bezeichner `Abgabe` wenn nicht anders in der Aufgabenstellung
+                vorgeschrieben:
+
+                `git flow release start Abgabe`
+
+                Das erzeugt einen Release-Branch vom `develop`, in dem Sie noch
+                Release-spezifische Commits machen könnten (z.B. die neue
+                Versionsnummer in irgendwelchen Dateien eintragen).
+
+                Veröffentlichen Sie Ihren Release-Branch anschließend mit
+
+                `git flow release publish Abgabe`
+
+                und erzeugen Sie einen PR vom Release-Branch in den
+                `master`-Branch. **Mergen Sie diesen PR auf keinen Fall über
+                die GitHub-Website**. Der PR ist nur dafür da um ein Feedback
+                bzw. eine Freigabe von mir zu bekommen.
+
+                Wenn ich den PR approved habe, führen Sie lokal folgendes aus:
+
+                `git flow release finish` \
+                `git push --tags` \
+                `git checkout master` \
+                `git push --tags` \
+                `git checkout develop`
+
+                Wenn Sie z.B. SourceTree nutzen, können Sie gleich beide
+                Branches inklusive der Tags pushen und brauchen nicht in den
+                Branches hin und her zu springen.
+
+                Der [git-flow-Spickzettel](https://danielkummer.github.io/git-flow-cheatsheet/index.de_DE.html)
+                gibt einen guten Überblick über die git-flow Kommandos.
+
+
+            div(role='tabpanel' class='tab-pane fade'
+                id='Kommunikation' aria-expanded='false')
+              div(md).
+
+                ### Frage / Hilfe zu Ihrem Code
+
+                Sollten Sie eine Frage zu Ihrem Code haben oder konkrete Hilfe
+                benötigen, erzeugen Sie in dem entsprechenden Repository über die
+                GitHub-Seite des Repository ein [Issue](https://help.github.com/articles/about-issues/).
+                In diesem Issue beschreiben Sie Ihr Problem und verlinken auf
+                zusätzliche Informationen, wie Code oder Travis/Jenkins-Job. Nutzen
+                Sie [Markdown](https://guides.github.com/features/mastering-markdown/)
+                um Ihr Issue besser lesbar zu gestalten. Ein gut lesbares Issue
+                bearbeite ich viel lieber und schneller!
+
+                #### Und jetzt das wichtigste:
+
+                Damit ich oder ein Tutor überhaupt mit bekommt, dass Sie eine Frage
+                haben, führen Sie folgende Schritte durch:
+
+                -   weisen Sie es (Ihrem Tutor und) mir zu (*Assignees*) und
+                -   setzen Sie das Label **help wanted** oder **question**
+
+                Ohne diese beiden Schritte werden die Issues von uns **nicht registriert**
+                und daher **nicht bearbeitet**! Durch die Zuweisung werden wir
+                per E-Mail informiert und können, schnellstmöglich, auf Ihre
+                Frage reagieren.
+
+                ### Gitter
+
+                Zur Kommunikation bezüglich einer Lehrveranstaltung von mir gibt es
+                jeweils einen [Gitter](https://gitter.im/)-Room. Sie finden ihn auf
+                der Seite zur Veranstaltung links unter *Links*.
+
+                Stellen Sie in diesem Raum inbesondere alle Fragen, die nicht nur Sie
+                interessieren könnten. Wer weiter helfen kann, darf gerne weiter
+                helfen. Mich selbst finden Sie in den Räumen jeweils unter dem
+                Namen [obcode](https://gitter.im/obcode).
+
+                Nutzen Sie auch in Gitter die Möglichkeit Ihre Nachricht in
+                [Markdown](https://guides.github.com/features/mastering-markdown/)
+                zu formatieren.
+                Damit werden insbesondere Code-Schnipsel viel besser lesbar.
