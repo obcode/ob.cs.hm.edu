@@ -54,7 +54,3 @@ div(class='col-md-4')
                   li
                     i(class='ion-link')
                     a(href='/ics/{{ currentLecture.short }}.ics') Termine als ics-File
-                if(condition='currentLecture.dropboxfolder !== null')
-                  li
-                    i(class='ion-link')
-                    a(href='{{ currentLecture.dropboxfolder }}') Dropbox
