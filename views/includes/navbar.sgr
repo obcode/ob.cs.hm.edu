@@ -19,7 +19,7 @@ nav(class='navbar navbar-toggleable-sm navbar-light bg-faded yamm')
           a(href='#' class='dropdown-toggle nav-link' data-toggle='dropdown') Lehre
           ul(class='dropdown-menu dropdown-menu-right')
             li
-              a(class='dropdown-item' href='/abgaben.html') Praktikumsaufgaben
+              a(class='dropdown-item' href='/exercises.html') Praktikumsaufgaben
 
             li(class='dropdown-submenu')
               a(tabindex='-1' href='#' class='dropdown-item' data-toggle='dropdown') Aktuell im {{ currentSemester.short }}
