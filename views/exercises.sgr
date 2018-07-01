@@ -101,11 +101,14 @@ extends(src='layouts/layout.sgr')
                 folgen. Sie können natürlich auch alleine nach dem, weiter
                 unten beschriebenen, git-flow vorgehen.
 
-                ![](img/githubflow.png)
-                <center><small>
-                Quelle: <https://hackernoon.com/15-tips-to-enhance-your-github-flow-6af7ceb0d8a3>
-                </small></center>
+              div(class='blog-post-img')
+                img(src='img/githubflow.png' class="img-fluid" alt="")
+              center
+                small Quelle:
+                a(href='https://hackernoon.com/15-tips-to-enhance-your-github-flow-6af7ceb0d8a3')
+                  small https://hackernoon.com/15-tips-to-enhance-your-github-flow-6af7ceb0d8a3
 
+              div(md).
                 Erzeugen Sie nach dazu einen neuen Branch, z.B. `develop` und
                 wechseln Sie in diesen. Arbeiten Sie ausschließlich in diesem
                 oder in weiteren, davon abgezweigten Branches, **nie** aber
@@ -139,7 +142,10 @@ extends(src='layouts/layout.sgr')
                 flow Modell auch einfach mit den in Git verfügbaren Kommandos
                 nutzen.
 
-                ![](img/gitflow.png)
+              div(class='blog-post-img')
+                img(src='img/gitflow.png' class="img-fluid" alt="")
+
+              div(md).
 
                 Git-flow hat mit GitHub nichts zu tun. Daher sind auch die PRs
                 nicht Teil von git-flow.
