@@ -1,27 +1,20 @@
 const ics = require('ics')
 const icsHelper = require('./icsHelper.js')
-const {
-  writeFileSync
-} = require('fs')
+const { writeFileSync } = require('fs')
 
-const initLecture = (lecturename) => {
+const initLecture = lecturename => {
   const lecture = require(`./api/lectures/${lecturename}/base.json`)
   if (lecture.maincontent !== null) {
     if (lecture.maincontent.lecture !== null) {
-      lecture.maincontent.lecture.lectures =
-        require(`./api/lectures/${lecturename}/lectures.json`)
+      lecture.maincontent.lecture.lectures = require(`./api/lectures/${lecturename}/lectures.json`)
     }
     if (lecture.maincontent.lab !== null) {
-      lecture.maincontent.lab.labs =
-        require(`./api/lectures/${lecturename}/labs.json`)
+      lecture.maincontent.lab.labs = require(`./api/lectures/${lecturename}/labs.json`)
     }
     if (lecture.maincontent.lecture !== null) {
       // generate ics
       const icsObjects = icsHelper.mkIcsObjs(lecture)
-      const {
-        error,
-        value
-      } = ics.createEvents(icsObjects)
+      const { error, value } = ics.createEvents(icsObjects)
       if (error) {
         console.log(error)
       }
@@ -66,31 +59,28 @@ exports.lectures = lectures
 exports.currentSemester = {
   short: 'SS 18',
   long: 'Sommersemester 2018',
-  lectures: [
-    algdatii,
-    seiiib,
-    vss
-  ],
-  semesters: [{
-    filter: '.ss18',
-    label: 'SS 18'
-  },
-  {
-    filter: '.ws1718',
-    label: 'WS 17/18'
-  },
-  {
-    filter: '.ss17',
-    label: 'SS 17'
-  },
-  {
-    filter: '.ws1617',
-    label: 'WS 16/17'
-  },
-  {
-    filter: '.older',
-    label: 'DAVOR'
-  }
+  lectures: [algdatii, seiiib, vss],
+  semesters: [
+    {
+      filter: '.ss18',
+      label: 'SS 18'
+    },
+    {
+      filter: '.ws1718',
+      label: 'WS 17/18'
+    },
+    {
+      filter: '.ss17',
+      label: 'SS 17'
+    },
+    {
+      filter: '.ws1617',
+      label: 'WS 16/17'
+    },
+    {
+      filter: '.older',
+      label: 'DAVOR'
+    }
   ]
 }
 

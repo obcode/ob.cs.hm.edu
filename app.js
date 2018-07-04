@@ -5,7 +5,7 @@ const imageminMozjpeg = require('imagemin-mozjpeg')
 const env = process.env.NODE_ENV
 const locals = require('./locals.js')
 
-const lecture = (ctx) => {
+const lecture = ctx => {
   const pathParts = ctx.resourcePath.split('/')
   const filenameParts = pathParts[pathParts.length - 1].split('.')
   const lectureName = filenameParts[0]
@@ -16,11 +16,18 @@ module.exports = {
   matchers: {
     html: 'views/*(**/)*.sgr'
   },
-  ignore: ['**/layouts/*.sgr', '**/_*', '**/.*', 'readme.md', 'yarn.lock',
-    '**/includes/**/*.sgr', 'package-lock.json', 'public.git/**'
+  ignore: [
+    '**/layouts/*.sgr',
+    '**/_*',
+    '**/.*',
+    'readme.md',
+    'yarn.lock',
+    '**/includes/**/*.sgr',
+    'package-lock.json',
+    'public.git/**'
   ],
   reshape: htmlStandards({
-    locals: (ctx) => {
+    locals: ctx => {
       return {
         myctx: JSON.stringify(Object.keys(ctx)),
         pageId: pageId(ctx),

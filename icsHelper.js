@@ -1,9 +1,8 @@
-
-const mkStarttimes = (daytimes) => {
+const mkStarttimes = daytimes => {
   return daytimes.map(d => mkStarttime(d))
 }
 
-const mkStarttime = (daytime) => {
+const mkStarttime = daytime => {
   // daytime = "montags, 08:15 - 09:45";
   const res = daytime.split(' ')
   const starttime = res[1].split(':')
@@ -12,11 +11,11 @@ const mkStarttime = (daytime) => {
   return [starthour, startminute]
 }
 
-const mkEndtimes = (daytimes) => {
+const mkEndtimes = daytimes => {
   return daytimes.map(d => mkEndtime(d))
 }
 
-const mkEndtime = (daytime) => {
+const mkEndtime = daytime => {
   // daytime = "montags, 08:15 - 09:45";
   const res = daytime.split(' ')
   const endtime = res[3].split(':')
@@ -25,12 +24,12 @@ const mkEndtime = (daytime) => {
   return [endhour, endminute]
 }
 
-const dateToArrs = (dates) => {
+const dateToArrs = dates => {
   const dateArrs = dates.map(d => dateToArr(d.date))
   return dateArrs
 }
 
-const dateToArr = (date) => {
+const dateToArr = date => {
   // var date = "19.03.2018";
   const res = date.split('.')
   const day = parseInt(res[0])
@@ -45,11 +44,19 @@ const lectureToEvent = (lect, lectureStarttime, lectureEndtime, lecture) => {
     title: `VL ${lecture.short}: ${lect.topic}`,
     start: dateArr.concat(lectureStarttime),
     end: dateArr.concat(lectureEndtime),
-    location: lecture.maincontent.lecture.room
+    location:
+      lect.room === undefined ? lecture.maincontent.lecture.room : lect.room
   }
 }
 
-const labToEvent = (lab, labStarttimes, labEndtimes, labRooms, labNames, lecture) => {
+const labToEvent = (
+  lab,
+  labStarttimes,
+  labEndtimes,
+  labRooms,
+  labNames,
+  lecture
+) => {
   const dateArrs = dateToArrs(lab.dates)
   let dateArr = null
   if (dateArrs.length < labStarttimes.length) {
@@ -73,7 +80,7 @@ const labToEvent = (lab, labStarttimes, labEndtimes, labRooms, labNames, lecture
   return events
 }
 
-const mkIcsObjs = (lecture) => {
+const mkIcsObjs = lecture => {
   const lectures = lecture.maincontent.lecture.lectures
   const lectureStarttime = mkStarttime(lecture.maincontent.lecture.daytime)
   const lectureEndtime = mkEndtime(lecture.maincontent.lecture.daytime)
@@ -81,7 +88,9 @@ const mkIcsObjs = (lecture) => {
   for (let lectIdx in lectures) {
     const lect = lectures[lectIdx]
     if (!lect.cancelled) {
-      icsObjs.push(lectureToEvent(lect, lectureStarttime, lectureEndtime, lecture))
+      icsObjs.push(
+        lectureToEvent(lect, lectureStarttime, lectureEndtime, lecture)
+      )
     }
   }
   const labs = lecture.maincontent.lab.labs
@@ -93,7 +102,14 @@ const mkIcsObjs = (lecture) => {
   for (let labIdx in labs) {
     const lab = labs[labIdx]
     if (!lab.cancelled) {
-      const labEvents = labToEvent(lab, labStarttimes, labEndtimes, labRooms, labNames, lecture)
+      const labEvents = labToEvent(
+        lab,
+        labStarttimes,
+        labEndtimes,
+        labRooms,
+        labNames,
+        lecture
+      )
       icsObjs = icsObjs.concat(labEvents)
     }
   }
