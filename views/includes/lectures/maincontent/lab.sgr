@@ -17,4 +17,6 @@ div(role='tabpanel' class='tab-pane fade'
           i(class='grey') {{ lab.topic }}
         else
           | {{ lab.topic }}
+        if(condition='lab.room !== undefined')
+          i (abweichend in Raum {{ lab.room }})
     hr
