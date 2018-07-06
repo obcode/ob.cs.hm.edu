@@ -40,23 +40,8 @@
     }
   ],
   "maincontent": {
-    "lecture": {
-      "daytime": "dienstags, 08:15 - 09:45",
-      "room": "R1.006"
-    },
-    "lab": {
-      "groups": [{
-          "name": "1. Teilgruppe ",
-          "daytime": "dienstags, 11:45 - 13:15",
-          "room": "R1.012"
-        },
-        {
-          "name": "2. Teilgruppe ",
-          "daytime": "dienstags, 13:30 - 15:00",
-          "room": "R2.008"
-        }
-      ]
-    },
+    "lecture": null,
+    "lab": null,
     "slides": [{
         "name": "Organisatorisches",
         "file": "00_Org"

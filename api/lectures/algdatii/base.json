@@ -68,23 +68,8 @@
     }
   ],
   "maincontent": {
-    "lecture": {
-      "daytime": "montags, 08:15 - 09:45",
-      "room": "R0.010"
-    },
-    "lab": {
-      "groups": [{
-          "name": "1. Teilgruppe ",
-          "daytime": "montags, 10:00 - 11:30",
-          "room": "R3.021"
-        },
-        {
-          "name": "2. Teilgruppe ",
-          "daytime": "dienstags, 15:15 - 16:45",
-          "room": "R3.021"
-        }
-      ]
-    },
+    "lecture": null,
+    "lab": null,
     "slides": [{
         "name": "Hashverfahren",
         "file": "01_Hashverfahren"
