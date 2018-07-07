@@ -265,10 +265,8 @@ extends(src='layouts/layout.sgr')
                 Wenn ich den PR approved habe, führen Sie lokal folgendes aus:
 
                 `git flow release finish` \
-                `git push --tags` \
-                `git checkout master` \
-                `git push --tags` \
-                `git checkout develop`
+                `git push --all` \
+                `git push --tags`
 
                 Wenn Sie z.B. SourceTree nutzen, können Sie gleich beide
                 Branches inklusive der Tags pushen und brauchen nicht in den
