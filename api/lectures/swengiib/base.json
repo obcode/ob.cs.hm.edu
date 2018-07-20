@@ -1,9 +1,88 @@
 {
   "short": "swengiib",
   "long": "Software Engineering I (IB)",
-  "last": "Winterersemester 2016/17",
-  "semesters": "ws1617",
-  "dropboxfolder": "https://www.dropbox.com/sh/7s6k6f61iltimmm/AABgCvPgMFMl3YETNPC2C1M6a?dl=0",
-  "sidebar": null,
-  "maincontent": null
+  "last": "Winterersemester 2018/19",
+  "semesters": "ws1819 older",
+  "sidebar": [{
+      "title": "Links",
+      "text": null,
+      "listicon": "ion-link",
+      "listitems": [{
+          "text": "GitHub Organisation",
+          "url": "https://github.com/ob-swengiib-ws18"
+        },
+        {
+          "text": "Gitter Channel",
+          "url": "https://gitter.im/ob-swengiib-ws18/Lobby"
+        },
+        {
+          "text": "Modulbeschreibung",
+          "url": "https://w3-o.cs.hm.edu:8000/public/module/222/"
+        }
+      ]
+    },
+    {
+      "title": "Ziele / Inhalte",
+      "listicon": "ion-checkmark-round",
+      "text": null,
+      "listitems": [{
+          "text": "Verständnis für die grundlegenden Konzepte des Software Engineering",
+          "url": null
+        },
+        {
+          "text": "UML",
+          "url": null
+        },
+        {
+          "text": "Angular",
+          "url": null
+        },
+        {
+          "text": "Node.js",
+          "url": null
+        }
+      ]
+    },
+    {
+      "title": "Scheinerwerb",
+      "text": "Die mit <strong>Abgabe</strong> gekennzeichneten Aufgaben müssen selbstständig gelöst und fristgerecht abgegeben werden.",
+      "listitems": []
+    },
+    {
+      "title": "Prüfung",
+      "listicon": "ion-compose",
+      "text": "Gegenstand der Klausur ist der gesamte in Vorlesung und Praktikum behandelte Stoff, soweit nicht anders vereinbart. Die Klausur wird ohne Hilfsmittel geschrieben. Nachdem der Stoff im WS18/19 in Teilen umgestellt wurde, sind die alten Klausuren nur bedingt repräsentativ. Darüber hinaus sind manche alte Klausuren nur 60 Minuten lang gewesen.",
+      "listitems": [{
+          "text": "Klausur vom Winterersemester 2014/15",
+          "url": "https://ob.cs.hm.edu/public/swengiib/exams/KlausurWS14.pdf"
+        },
+        {
+          "text": "Klausur vom Winterersemester 2016/17",
+          "url": "https://ob.cs.hm.edu/public/swengiib/exams/KlausurWS16.pdf"
+        }
+      ]
+    }
+  ],
+  "maincontent": {
+    "lecture": null,
+    "lab": null,
+    "slides": [{
+        "name": "Organisatorisches",
+        "file": "00_Org"
+      },
+      {
+        "name": "Git",
+        "file": "00_Git"
+      }
+    ],
+    "exercises": [{
+        "name": "Blatt 0",
+        "file": "Blatt00"
+      },
+      {
+        "name": "Blatt 1",
+        "file": "Blatt01"
+      }
+    ]
+  }
 }

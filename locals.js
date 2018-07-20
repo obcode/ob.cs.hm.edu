@@ -57,10 +57,14 @@ const lectures = [
 exports.lectures = lectures
 
 exports.currentSemester = {
-  short: 'SS 18',
-  long: 'Sommersemester 2018',
-  lectures: [algdatii, seiiib, vss],
+  short: 'WS 18/19',
+  long: 'Wintersemester 2018/19',
+  lectures: [fun, swengiib, vss],
   semesters: [
+    {
+      filter: '.ws1819',
+      label: 'WS 18/19'
+    },
     {
       filter: '.ss18',
       label: 'SS 18'
@@ -72,10 +76,6 @@ exports.currentSemester = {
     {
       filter: '.ss17',
       label: 'SS 17'
-    },
-    {
-      filter: '.ws1617',
-      label: 'WS 16/17'
     },
     {
       filter: '.older',
