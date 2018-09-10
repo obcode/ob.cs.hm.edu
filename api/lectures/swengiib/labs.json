@@ -1,0 +1,124 @@
+[
+  {
+    "dates": [
+      {
+        "date": "04.10.2018"
+      }
+    ],
+    "topic": "Blatt 0 (Git)"
+  },
+  {
+    "dates": [
+      {
+        "date": "11.10.2018"
+      }
+    ],
+    "topic": "Blatt 1 (HTML, CSS)"
+  },
+  {
+    "dates": [
+      {
+        "date": "18.10.2018"
+      }
+    ],
+    "topic": "Blatt 2 (UML, Angular)"
+  },
+  {
+    "dates": [
+      {
+        "date": "25.10.2018"
+      }
+    ],
+    "topic": "Blatt 2 (UML, Angular)"
+  },
+  {
+    "cancelled": true,
+    "dates": [
+      {
+        "date": "01.11.2018"
+      }
+    ],
+    "topic": "Allerheiligen"
+  },
+  {
+    "dates": [
+      {
+        "date": "08.11.2018"
+      }
+    ],
+    "topic": "Blatt 3 (UML, Angular)"
+  },
+  {
+    "dates": [
+      {
+        "date": "15.11.2018"
+      }
+    ],
+    "topic": "Blatt 3 (UML, Angular)"
+  },
+  {
+    "dates": [
+      {
+        "date": "22.11.2018"
+      }
+    ],
+    "topic": "Blatt 3 (UML, Angular)"
+  },
+  {
+    "dates": [
+      {
+        "date": "29.11.2018"
+      }
+    ],
+    "topic": "Blatt 4 (UML, Node.js) und Abnahme Aufgabe 2 Blatt 3"
+  },
+  {
+    "dates": [
+      {
+        "date": "06.12.2018"
+      }
+    ],
+    "topic": "Blatt 4 (UML, Node.js)"
+  },
+  {
+    "dates": [
+      {
+        "date": "13.12.2018"
+      }
+    ],
+    "topic": "Blatt 5 (UML, Node.js)"
+  },
+  {
+    "dates": [
+      {
+        "date": "20.12.2018"
+      }
+    ],
+    "topic": "Blatt 5 (UML, Node.js)"
+  },
+  {
+    "dates": [
+      {
+        "date": "10.01.2019"
+      }
+    ],
+    "topic": "Blatt 5 (UML, Node.js)"
+  },
+  {
+    "dates": [
+      {
+        "date": "17.01.2019"
+      }
+    ],
+    "topic": "Abnahme Blatt 5 (Node.js)"
+  },
+  {
+    "cancelled": true,
+    "dates": [
+      {
+        "date": "24.01.2019"
+      }
+    ],
+    "topic": "kein Praktikum mehr"
+  }
+]

@@ -1,20 +1,22 @@
 {
   "short": "fun",
   "long": "Funktionale Programmierung",
-  "last": "Wintersemester 2017/18",
+  "last": "Wintersemester 2018/19",
   "semesters": "ws1819 ws1718 older",
   "dropboxfolder": "https://www.dropbox.com/sh/thclgdt8wt7v2ij/AACaAx0ol-vVa8zBMDSpFuSya?dl=0",
-  "sidebar": [{
+  "sidebar": [
+    {
       "title": "Links",
       "text": null,
       "listicon": "ion-link",
-      "listitems": [{
-          "text": "GitHub Organisation - WS 17/18",
-          "url": "https://github.com/ob-fun-ws17"
+      "listitems": [
+        {
+          "text": "GitHub Organisation - WS 19/19",
+          "url": "https://github.com/ob-fun-ws18"
         },
         {
-          "text": "Gitter Channel - WS 17/18",
-          "url": "https://gitter.im/ob-fun-ws17/ob-fun-ws17"
+          "text": "Gitter Channel - WS 18/19",
+          "url": "https://gitter.im/ob-fun-ws18/Lobby"
         },
         {
           "text": "Modulbeschreibung",
@@ -26,7 +28,8 @@
       "title": "Ziele / Inhalte",
       "listicon": "ion-checkmark-round",
       "text": null,
-      "listitems": [{
+      "listitems": [
+        {
           "text": "Konzepte der funktionalen Programmierung",
           "url": null
         },
@@ -69,7 +72,8 @@
       "title": "Prüfung",
       "listicon": "ion-compose",
       "text": "Gegenstand der Klausur ist der gesamte in Vorlesung und Praktikum behandelte Stoff, soweit nicht anders vereinbart. Die Klausur wird ohne Hilfsmittel geschrieben.",
-      "listitems": [{
+      "listitems": [
+        {
           "text": "Klausur vom 26.07.13",
           "url": "https://ob.cs.hm.edu/public/fun/exams/KlausurSS13.pdf"
         },
@@ -89,9 +93,21 @@
     }
   ],
   "maincontent": {
-    "lecture": null,
-    "lab": null,
-    "slides": [{
+    "lecture": {
+      "daytime": "montags, 08:15 - 09:45",
+      "room": "R1.007"
+    },
+    "lab": {
+      "groups": [
+        {
+          "name": null,
+          "daytime": "montags, 10:00 - 11:30",
+          "room": "R1.009"
+        }
+      ]
+    },
+    "slides": [
+      {
         "name": "Organisatorisches",
         "file": "00_Org"
       },
@@ -140,7 +156,8 @@
         "file": "11_Monaden"
       }
     ],
-    "exercises": [{
+    "exercises": [
+      {
         "name": "Studienarbeit",
         "file": "Studienarbeit"
       },

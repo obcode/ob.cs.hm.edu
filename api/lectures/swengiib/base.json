@@ -3,11 +3,13 @@
   "long": "Software Engineering I (IB)",
   "last": "Winterersemester 2018/19",
   "semesters": "ws1819 older",
-  "sidebar": [{
+  "sidebar": [
+    {
       "title": "Links",
       "text": null,
       "listicon": "ion-link",
-      "listitems": [{
+      "listitems": [
+        {
           "text": "GitHub Organisation",
           "url": "https://github.com/ob-swengiib-ws18"
         },
@@ -25,7 +27,8 @@
       "title": "Ziele / Inhalte",
       "listicon": "ion-checkmark-round",
       "text": null,
-      "listitems": [{
+      "listitems": [
+        {
           "text": "Verständnis für die grundlegenden Konzepte des Software Engineering",
           "url": null
         },
@@ -52,7 +55,8 @@
       "title": "Prüfung",
       "listicon": "ion-compose",
       "text": "Gegenstand der Klausur ist der gesamte in Vorlesung und Praktikum behandelte Stoff, soweit nicht anders vereinbart. Die Klausur wird ohne Hilfsmittel geschrieben. Nachdem der Stoff im WS18/19 in Teilen umgestellt wurde, sind die alten Klausuren nur bedingt repräsentativ. Darüber hinaus sind manche alte Klausuren nur 60 Minuten lang gewesen.",
-      "listitems": [{
+      "listitems": [
+        {
           "text": "Klausur vom Winterersemester 2014/15",
           "url": "https://ob.cs.hm.edu/public/swengiib/exams/KlausurWS14.pdf"
         },
@@ -64,9 +68,26 @@
     }
   ],
   "maincontent": {
-    "lecture": null,
-    "lab": null,
-    "slides": [{
+    "lecture": {
+      "daytime": "donnerstags, 08:15 - 09:45",
+      "room": "R1.007"
+    },
+    "lab": {
+      "groups": [
+        {
+          "name": "1. Teilgruppe",
+          "daytime": "donnerstags, 11:45 - 13:15",
+          "room": "R2.014"
+        },
+        {
+          "name": "2. Teilgruppe",
+          "daytime": "donnerstags, 10:00 - 11:30",
+          "room": "R2.012"
+        }
+      ]
+    },
+    "slides": [
+      {
         "name": "Organisatorisches",
         "file": "00_Org"
       },
@@ -75,7 +96,8 @@
         "file": "00_Git"
       }
     ],
-    "exercises": [{
+    "exercises": [
+      {
         "name": "Blatt 0",
         "file": "Blatt00"
       },
