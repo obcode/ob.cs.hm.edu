@@ -4,11 +4,13 @@
   "last": "Sommersemester 2018",
   "semesters": "ws1819 ss18",
   "dropboxfolder": "https://www.dropbox.com/sh/lyxd6u8an57kjia/AABE3HHH0AiGoJPAhq-Vj_F3a?dl=0",
-  "sidebar": [{
+  "sidebar": [
+    {
       "title": "Links",
       "text": null,
       "listicon": "ion-link",
-      "listitems": [{
+      "listitems": [
+        {
           "text": "GitHub Organisation",
           "url": "https://github.com/ob-vss-ss18"
         },
@@ -53,7 +55,9 @@
         }
       ]
     },
-    "slides": [{
+    "slides": [
+      {
+        "donotpublish": true,
         "name": "Organisatorisches",
         "file": "00_Org"
       },
@@ -86,11 +90,14 @@
         "file": "06_VerteilteAlgorithmen"
       }
     ],
-    "exercises": [{
+    "exercises": [
+      {
+        "donotpublish": true,
         "name": "Blatt 1",
         "file": "Blatt01"
       },
       {
+        "donotpublish": true,
         "name": "Leistungsnachweis",
         "file": "Leistungsnachweis"
       }

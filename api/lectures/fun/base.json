@@ -108,56 +108,69 @@
     },
     "slides": [
       {
+        "donotpublish": true,
         "name": "Organisatorisches",
         "file": "00_Org"
       },
       {
+        "donotpublish": true,
         "name": "Einführung",
         "file": "01_Einfuehrung"
       },
       {
+        "donotpublish": true,
         "name": "Hallo Haskell",
         "file": "02_HalloHaskell"
       },
       {
+        "donotpublish": true,
         "name": "Grundlegende Datentypen",
         "file": "03_GrundlegendeDatentypen"
       },
       {
+        "donotpublish": true,
         "name": "Typen und Typklassen",
         "file": "04_TypenUndTypklassen"
       },
       {
+        "donotpublish": true,
         "name": "Mehr funktionale Muster",
         "file": "05_MehrFunktionaleMuster"
       },
       {
+        "donotpublish": true,
         "name": "Falten statt Schleifen",
         "file": "06_FaltenStattSchleifen"
       },
       {
+        "donotpublish": true,
         "name": "Algebraische Datentypen",
         "file": "07_AlgebraischeDatentypen"
       },
       {
+        "donotpublish": true,
         "name": "Monoide",
         "file": "08_Monoide"
       },
       {
+        "donotpublish": true,
         "name": "Funktoren",
         "file": "09_Funktoren"
       },
       {
+        "donotpublish": true,
         "name": "Applikative Funktoren",
         "file": "10_ApplikativeFunktoren"
       },
       {
+        "donotpublish": true,
         "name": "Monaden",
         "file": "11_Monaden"
       }
     ],
     "exercises": [
       {
+        "donotpublish": true,
         "name": "Studienarbeit",
         "file": "Studienarbeit"
       },
@@ -166,14 +179,17 @@
         "file": "Blatt01"
       },
       {
+        "donotpublish": true,
         "name": "Blatt 2",
         "file": "Blatt02"
       },
       {
+        "donotpublish": true,
         "name": "Blatt 3",
         "file": "Blatt03"
       },
       {
+        "donotpublish": true,
         "name": "Blatt 4",
         "file": "Blatt04"
       }
