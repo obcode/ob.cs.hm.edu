@@ -116,12 +116,10 @@
         "file": "01_Einfuehrung"
       },
       {
-        "donotpublish": true,
         "name": "Hallo Haskell",
         "file": "02_HalloHaskell"
       },
       {
-        "donotpublish": true,
         "name": "Grundlegende Datentypen",
         "file": "03_GrundlegendeDatentypen"
       },
