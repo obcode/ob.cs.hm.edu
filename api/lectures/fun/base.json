@@ -108,12 +108,10 @@
     },
     "slides": [
       {
-        "donotpublish": true,
         "name": "Organisatorisches",
         "file": "00_Org"
       },
       {
-        "donotpublish": true,
         "name": "Einführung",
         "file": "01_Einfuehrung"
       },
