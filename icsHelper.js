@@ -11,6 +11,14 @@ const mkStarttime = daytime => {
   return [starthour, startminute]
 }
 
+const splitTime = time => {
+  // daytime = "08:15";
+  const res = time.split(':')
+  const hour = parseInt(res[0])
+  const minute = parseInt(res[1])
+  return [hour, minute]
+}
+
 const mkEndtimes = daytimes => {
   return daytimes.map(d => mkEndtime(d))
 }
@@ -111,6 +119,18 @@ const mkIcsObjs = lecture => {
         lecture
       )
       icsObjs = icsObjs.concat(labEvents)
+    }
+  }
+  if (lecture.dates !== undefined) {
+    for (let idx in lecture.dates) {
+      const event = lecture.dates[idx]
+      const date = dateToArr(event.date).concat(splitTime(event.time))
+      const time = 
+      icsObjs.push({
+        title: `${lecture.short}: ${event.title}`,
+        start: date,
+        end: date
+      })
     }
   }
   return icsObjs

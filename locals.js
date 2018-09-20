@@ -1,6 +1,6 @@
 const ics = require('ics')
 const icsHelper = require('./icsHelper.js')
-const { writeFileSync } = require('fs')
+const { writeFileSync, exists } = require('fs')
 
 const initLecture = lecturename => {
   const lecture = require(`./api/lectures/${lecturename}/base.json`)
@@ -11,17 +11,23 @@ const initLecture = lecturename => {
     if (lecture.maincontent.lab !== null) {
       lecture.maincontent.lab.labs = require(`./api/lectures/${lecturename}/labs.json`)
     }
-    if (lecture.maincontent.lecture !== null) {
-      // generate ics
-      const icsObjects = icsHelper.mkIcsObjs(lecture)
-      const { error, value } = ics.createEvents(icsObjects)
-      if (error) {
-        console.log(error)
+    exists(`./api/lectures/${lecturename}/dates.json`, ex => {
+      if (ex) {
+        lecture.dates = require(`./api/lectures/${lecturename}/dates.json`)
       }
-      writeFileSync(`${__dirname}/ics/${lecturename}.ics`, value)
-    }
-  }
-  return lecture
+
+      if (lecture.maincontent.lecture !== null) {
+        // generate ics
+        const icsObjects = icsHelper.mkIcsObjs(lecture)
+        const { error, value } = ics.createEvents(icsObjects)
+        if (error) {
+          console.log(error)
+        }
+        writeFileSync(`${__dirname}/ics/${lecturename}.ics`, value)
+      }
+      return lecture
+    })}
+    return lecture
 }
 
 const algdati = initLecture('algdati') // require('./api/lectures/algdati.json')
