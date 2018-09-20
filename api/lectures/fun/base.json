@@ -179,12 +179,10 @@
         "file": "Blatt02"
       },
       {
-        "donotpublish": true,
         "name": "Blatt 3",
         "file": "Blatt03"
       },
       {
-        "donotpublish": true,
         "name": "Blatt 4",
         "file": "Blatt04"
       }
