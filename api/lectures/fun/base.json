@@ -166,11 +166,6 @@
     ],
     "exercises": [
       {
-        "donotpublish": true,
-        "name": "Studienarbeit",
-        "file": "Studienarbeit"
-      },
-      {
         "name": "Blatt 1",
         "file": "Blatt01"
       },
@@ -185,6 +180,10 @@
       {
         "name": "Blatt 4",
         "file": "Blatt04"
+      },
+      {
+        "name": "Studienarbeit",
+        "file": "Studienarbeit"
       }
     ]
   }
