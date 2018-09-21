@@ -16,11 +16,11 @@ div(class='col-md-4')
               role='tabpanel'
               aria-labelledby='heading{{ Termine }}')
               div(class='card-block')
-                ul(class='icon-list list-unstyled')
-                  each(loop='date of currentLecture.dates')
-                    li 
-                      b {{ date.date }}, {{ date.time }}
-                      | : {{ date.title }}
+                each(loop='date of currentLecture.dates')
+                  b {{ date.date }}, {{ date.time }}
+                  br
+                  | {{ date.title }}
+                  hr
 
         each(loop='card, index of currentLecture.sidebar')
           div(class='card')
@@ -50,13 +50,24 @@ div(class='col-md-4')
             a(class='collapsed'
               data-toggle='collapse' data-parent='#card-accordion-simple'
               href='#collapseInftyList' aria-expanded='true'
-              aria-controls='collapseInftyList') src
+              aria-controls='collapseInftyList') Downloads
           div(id='collapseInftyList'
             class='collapse'
             role='tabpanel'
             aria-labelledby='headingsrc')
             div(class='card-block')
               ul(class='icon-list list-unstyled')
+                if(condition='currentLecture.maincontent.lecture !== null')
+                  li
+                    i(class='ion-link')
+                    a(href='/ics/{{ currentLecture.short }}.ics') Alle Termine als ics-File
+                if(condition='currentLecture.maincontent.slides !== null || currentLecture.maincontent.exercises !== null')
+                  li
+                    i(class='ion-link')
+                    a(href='/public/{{ currentLecture.short }}.zip') Alle PDFs als zip-File
+                  li
+                    i(class='ion-link')
+                    a(href='/public/{{ currentLecture.short }}.tar.gz') Alle PDFs als tar.gz-File
                 li
                   i(class='ion-link')
                   a(href='/api/lectures/{{ currentLecture.short }}/base.json') Base JSON
@@ -68,7 +79,7 @@ div(class='col-md-4')
                   li
                     i(class='ion-link')
                     a(href='/api/lectures/{{ currentLecture.short }}/labs.json') Labs JSON
-                if(condition='currentLecture.maincontent.lecture !== null')
+                if(condition='currentLecture.dates !== null && currentLecture.dates !== undefined')
                   li
                     i(class='ion-link')
-                    a(href='/ics/{{ currentLecture.short }}.ics') Termine als ics-File
+                    a(href='/api/lectures/{{ currentLecture.short }}/dates.json') Dates JSON
