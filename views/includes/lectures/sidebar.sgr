@@ -83,3 +83,7 @@ div(class='col-md-4')
                   li
                     i(class='ion-link')
                     a(href='/api/lectures/{{ currentLecture.short }}/dates.json') Dates JSON
+                if(condition='currentLecture.news === true')
+                  li
+                    i(class='ion-link')
+                    a(href='/public/news/{{ currentLecture.short }}.json') News JSON

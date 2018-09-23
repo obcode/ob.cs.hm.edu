@@ -846,7 +846,6 @@ MULTI LEVEL DROPDOWN CSS
 .slider-overlay,
 .slider-overlay-nobg {
   background: rgba(0, 0, 0, 0.4);
-  background-image: url("../img/pattern.png");
   background-repeat: repeat;
   position: absolute;
   top: 0;
