@@ -17,3 +17,10 @@ extends(src='layouts/layout.sgr')
       div(class='row')
         include(src='includes/lectures/sidebar.sgr')
         include(src='includes/lectures/maincontent.sgr')
+  block(name='news' type='append')
+    if(condition='currentLecture.news === true')
+      script(src='/js/index.js')
+      script(type='text/javascript')
+        | fetchnews("{{ currentLecture.short }}")
+
+
