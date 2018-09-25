@@ -12,11 +12,11 @@
       "listitems": [
         {
           "text": "GitHub Organisation",
-          "url": "https://github.com/ob-vss-ss18"
+          "url": "https://github.com/ob-vss-ws18"
         },
         {
           "text": "Gitter Channel",
-          "url": "https://gitter.im/ob-vss-ss18/Lobby"
+          "url": "https://gitter.im/ob-vss-ws18/Lobby"
         },
         {
           "text": "Modulbeschreibung",
@@ -62,7 +62,6 @@
     },
     "slides": [
       {
-        "donotpublish": true,
         "name": "Organisatorisches",
         "file": "00_Org"
       },
