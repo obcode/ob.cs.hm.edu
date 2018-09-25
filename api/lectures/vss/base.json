@@ -32,13 +32,18 @@
     },
     {
       "title": "Scheinerwerb",
-      "text": "",
+      "text": "<p>Für den unbenoteten Leistungsnachweis sind einige ausgewählte Praktikumsaufgaben fristgerecht abzugeben.</p>",
       "listitems": []
     },
     {
       "title": "Prüfung",
-      "text": "",
-      "listitems": []
+      "text": "<p>Die Veranstaltung wird durch eine benotete schriftliche Prüfung abgeschlossen. Zu dieser sind keine Hilfsmittel zugelassen.</p><p>Der Prüfungsstoff entspricht den in der Vorlesung und im Praktikum behandelten Inhalten.</p>",
+      "listitems": [
+        {
+          "text": "Klausur vom 12.07.2018",
+          "url": "https://ob.cs.hm.edu/public/vss/exams/KlausurSS18.pdf"
+        }
+      ]
     }
   ],
   "maincontent": {
