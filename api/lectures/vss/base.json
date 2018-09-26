@@ -102,7 +102,6 @@
     ],
     "exercises": [
       {
-        "donotpublish": true,
         "name": "Blatt 1",
         "file": "Blatt01"
       },
