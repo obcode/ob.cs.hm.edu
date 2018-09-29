@@ -78,12 +78,14 @@
         {
           "name": "1. Teilgruppe",
           "daytime": "donnerstags, 11:45 - 13:15",
-          "room": "R2.014"
+          "room": "R1.012",
+          "tutor": "Andreas Geiger"
         },
         {
           "name": "2. Teilgruppe",
           "daytime": "donnerstags, 10:00 - 11:30",
-          "room": "R2.012"
+          "room": "R2.012",
+          "tutor": "Daniel Dobras"
         }
       ]
     },
