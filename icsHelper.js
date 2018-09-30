@@ -72,13 +72,14 @@ const labToEvent = (
   }
   let events = []
   for (let i in labStarttimes) {
+    const labName = (labNames[i] === null) ? '' : ` (${labNames[i]})`
     let date = dateArr
     if (date === null) {
       date = dateArrs[i]
     }
     if (lab.dates[i] === undefined || !lab.dates[i].cancelled) {
       events.push({
-        title: `P ${lecture.short}: ${lab.topic} (${labNames[i]})`,
+        title: `P ${lecture.short}: ${lab.topic} ${labName}`,
         start: date.concat(labStarttimes[i]),
         end: date.concat(labEndtimes[i]),
         location: labRooms[i]
