@@ -124,12 +124,10 @@
         "file": "03_GrundlegendeDatentypen"
       },
       {
-        "donotpublish": true,
         "name": "Typen und Typklassen",
         "file": "04_TypenUndTypklassen"
       },
       {
-        "donotpublish": true,
         "name": "Mehr funktionale Muster",
         "file": "05_MehrFunktionaleMuster"
       },
