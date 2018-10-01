@@ -132,7 +132,6 @@
         "file": "05_MehrFunktionaleMuster"
       },
       {
-        "donotpublish": true,
         "name": "Falten statt Schleifen",
         "file": "06_FaltenStattSchleifen"
       },
