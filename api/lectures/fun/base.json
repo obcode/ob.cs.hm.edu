@@ -152,7 +152,6 @@
         "file": "10_ApplikativeFunktoren"
       },
       {
-        "donotpublish": true,
         "name": "Monaden",
         "file": "11_Monaden"
       }
