@@ -74,6 +74,10 @@
         "file": "01_Einfuerung"
       },
       {
+        "name": "Parallelisierung",
+        "file": "02_Parallelisierung"
+      },
+      {
         "donotpublish": true,
         "name": "Programmiermodelle für verteilten Speicher",
         "file": "02_ProgrammiermodelleFuerVerteiltenSpeicher"
@@ -87,11 +91,6 @@
         "donotpublish": true,
         "name": "Actor-Modell und Akka",
         "file": "04_ActorAkka"
-      },
-      {
-        "donotpublish": true,
-        "name": "Parallelisierung",
-        "file": "05_Parallelisierung"
       },
       {
         "donotpublish": true,
