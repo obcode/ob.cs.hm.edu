@@ -37,7 +37,7 @@
     },
     {
       "title": "Prüfung",
-      "text": "<p>Die Veranstaltung wird durch eine benotete schriftliche Prüfung abgeschlossen. Zu dieser sind keine Hilfsmittel zugelassen.</p><p>Der Prüfungsstoff entspricht den in der Vorlesung und im Praktikum behandelten Inhalten.</p>",
+      "text": "<p>Die Veranstaltung wird durch eine benotete schriftliche Prüfung abgeschlossen. Zu dieser sind keine Hilfsmittel zugelassen.</p><p>Der Prüfungsstoff entspricht den in der Vorlesung und im Praktikum behandelten Inhalten. Die als Exkurs bezeichneten Kapitel sind nicht Gegenstand der Prüfung.</p>",
       "listitems": [
         {
           "text": "Klausur vom 12.07.2018",
@@ -74,6 +74,10 @@
         "file": "01_Einfuerung"
       },
       {
+        "name": "Exkurs: Verteilte Betriebssysteme",
+        "file": "E1_VerteilteBetriebssysteme"
+      },
+      {
         "name": "Parallelisierung",
         "file": "02_Parallelisierung"
       },
@@ -81,11 +85,6 @@
         "donotpublish": true,
         "name": "Programmiermodelle für verteilten Speicher",
         "file": "02_ProgrammiermodelleFuerVerteiltenSpeicher"
-      },
-      {
-        "donotpublish": true,
-        "name": "Remote Method Invocation (RMI)",
-        "file": "03_RMI"
       },
       {
         "donotpublish": true,
