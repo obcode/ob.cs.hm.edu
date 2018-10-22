@@ -24,12 +24,13 @@
     "topic": "Blatt 1 / Blatt 2"
   },
   {
+    "cancelled": true,
     "dates": [
       {
         "date": "23.10.2018"
       }
     ],
-    "topic": "Blatt 2"
+    "topic": ""
   },
   {
     "dates": [
@@ -37,7 +38,7 @@
         "date": "30.10.2018"
       }
     ],
-    "topic": ""
+    "topic": "Blatt 2"
   },
   {
     "dates": [
