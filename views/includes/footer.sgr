@@ -5,7 +5,7 @@ div
       span
         | Generated with
         |
-        a(href='https://www.spike.cf/') Spike
+        a(href='https://spike.js.org/') Spike
         |
         |  on
         |
