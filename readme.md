@@ -1,6 +1,6 @@
 # ob.cs.hm.edu
 
-Website
+Website <https://ob.cs.hm.edu>
 
 ## Setup
 
