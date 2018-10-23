@@ -41,12 +41,13 @@
     "topic": "Blatt 2"
   },
   {
+    "cancelled": true,
     "dates": [
       {
         "date": "06.11.2018"
       }
     ],
-    "topic": ""
+    "topic": "Exkursion LV Bildverarbeitung"
   },
   {
     "dates": [
