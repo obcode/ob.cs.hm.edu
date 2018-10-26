@@ -78,11 +78,20 @@ const labToEvent = (
       date = dateArrs[i]
     }
     if (lab.dates[i] === undefined || !lab.dates[i].cancelled) {
+      let room = labRooms[i]
+      if (lab.rooms !== undefined && lab.rooms !== null) {
+        for (let r of lab.rooms) {
+          const time = r.time.split(' ')[0].split(':').map(s => parseInt(s))
+          if (time[0] === labStarttimes[i][0]) {
+            room = r.room
+          }
+        }
+      }
       events.push({
         title: `P ${lecture.short}: ${lab.topic} ${labName}`,
         start: date.concat(labStarttimes[i]),
         end: date.concat(labEndtimes[i]),
-        location: labRooms[i]
+        location: room
       })
     }
   }
