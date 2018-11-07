@@ -86,14 +86,13 @@
         "file": "03_ProgrammiermodelleFuerVerteiltenSpeicher"
       },
       {
-        "donotpublish": true,
-        "name": "Actor-Modell und Akka",
-        "file": "04_ActorAkka"
+        "name": "Verteilte Algorithmen",
+        "file": "04_VerteilteAlgorithmen"
       },
       {
         "donotpublish": true,
-        "name": "Verteilte Algorithmen",
-        "file": "06_VerteilteAlgorithmen"
+        "name": "Actor-Modell und Akka",
+        "file": "04_ActorAkka"
       }
     ],
     "exercises": [
