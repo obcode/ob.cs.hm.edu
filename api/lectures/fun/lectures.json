@@ -17,15 +17,16 @@
   },
   {
     "date": "29.10.2018",
-    "topic": "Typen und Typklassen"
+    "topic": "Grundlegende Datentypen"
   },
   {
+    "cancelled": true,
     "date": "05.11.2018",
     "topic": ""
   },
   {
     "date": "12.11.2018",
-    "topic": ""
+    "topic": "Typen und Typklassen, Mehr funktionale Muster bis Folie 8"
   },
   {
     "date": "19.11.2018",
