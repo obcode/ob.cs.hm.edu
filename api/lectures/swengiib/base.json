@@ -97,6 +97,10 @@
       {
         "name": "Git",
         "file": "00_Git"
+      },
+      {
+        "name": "Node.js",
+        "file": "E1_Node.js"
       }
     ],
     "exercises": [
