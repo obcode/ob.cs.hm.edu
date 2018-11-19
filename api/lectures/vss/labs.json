@@ -58,6 +58,7 @@
     "topic": "Blatt 3"
   },
   {
+    "cancelled": true,
     "dates": [
       {
         "date": "20.11.2018"
