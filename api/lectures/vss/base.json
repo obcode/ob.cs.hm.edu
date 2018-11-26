@@ -90,9 +90,8 @@
         "file": "04_VerteilteAlgorithmen"
       },
       {
-        "donotpublish": true,
-        "name": "Actor-Modell und Akka",
-        "file": "04_ActorAkka"
+        "name": "Das Actor-Modell und Umsetzung in Proto.Actor",
+        "file": "05_Actors"
       }
     ],
     "exercises": [
