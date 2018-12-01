@@ -30,14 +30,14 @@ extends(src='layouts/layout.sgr')
 
           ul(class='nav-tabs nav' role='tablist')
             li(class='nav-item')
-              a(class='ion-ios-book active nav-link' href='#Basics'
-                data-taget='#Basics' role='tab' data-toggle='tab') &nbsp; Git-Basics
+              a(class='active nav-link' href='#Basics'
+                data-taget='#Basics' role='tab' data-toggle='tab') Git-Basics
             li(class='nav-item')
-              a(class='ion-compose nav-link' href='#Feedback'
-                data-taget='#Feedback' role='tab' data-toggle='tab') &nbsp; Arbeiten, Abgabe und Feedback
+              a(class='nav-link' href='#Feedback'
+                data-taget='#Feedback' role='tab' data-toggle='tab') Arbeiten, Abgabe und Feedback
             li(class='nav-item')
-              a(class='ion-chatbubbles nav-link' href='#Kommunikation'
-                data-taget='#Kommunikation' role='tab' data-toggle='tab') &nbsp; Kommunikation und Hilfe
+              a(class='nav-link' href='#Kommunikation'
+                data-taget='#Kommunikation' role='tab' data-toggle='tab') Kommunikation und Hilfe
 
           div(class="tab-content")
             div(class='space-30')
