@@ -2,6 +2,7 @@ const htmlStandards = require("reshape-standard");
 const pageId = require("spike-page-id");
 const ImageminPlugin = require("imagemin-webpack-plugin").default;
 const imageminMozjpeg = require("imagemin-mozjpeg");
+const sugarml = require("sugarml");
 const env = process.env.NODE_ENV;
 const locals = require("./locals.js");
 
@@ -38,6 +39,7 @@ module.exports = {
         year: new Date().getFullYear()
       };
     },
+    parser: sugarml,
     root: process.cwd() + "/views",
     minify: env === "production"
   }),

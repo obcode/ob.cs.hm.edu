@@ -28,6 +28,14 @@ nav(class='navbar navbar-toggleable-sm navbar-light bg-faded yamm')
                   li
                     a(href='/lectures/{{ lecture.short }}.html'     class='dropdown-item') {{ lecture.long }}
 
+            if(condition='currentSemester.next !== undefined && currentSemester.next !== null')
+              li(class='dropdown-submenu')
+                a(tabindex='-1' href='#' class='dropdown-item' data-toggle='dropdown') Geplant für {{ currentSemester.next.short }}
+                ul(class='dropdown-menu')
+                  each(loop='lecture in currentSemester.next.lectures')
+                    li
+                      a(href='/lectures/{{ lecture.short }}.html'     class='dropdown-item') {{ lecture.long }}
+
             li(class='dropdown-submenu')
               a(tabindex='-1' href='#' class='dropdown-item' data-toggle='dropdown') Alle Lehrveranstaltungen
               ul(class='dropdown-menu')

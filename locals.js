@@ -67,6 +67,10 @@ exports.currentSemester = {
   short: "WS 18/19",
   long: "Wintersemester 2018/19",
   lectures: [fun, swengiib, vss],
+  next: {
+    short: "SS 19",
+    lectures: [algdatii, swengiiib, vss]
+  },
   semesters: [
     {
       filter: ".ws1819",
