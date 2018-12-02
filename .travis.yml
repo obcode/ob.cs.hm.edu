@@ -1,10 +1,10 @@
 sudo: false
 language: node_js
 node_js:
-  - 10
-# branches:
-# only:
-#   - master
+  - node
+branches:
+  only:
+    - master
 before_install:
   - git clone "https://${GH_TOKEN}@github.com/ob-cs-hm-edu/ob-cs-hm-edu.github.io.git" public
   - mv public/.git public.git
@@ -30,6 +30,6 @@ notifications:
   webhooks:
     urls:
       - https://webhooks.gitter.im/e/046df6e739e933b26f41
-    on_success: always  # options: [always|never|change] default: always
-    on_failure: always  # options: [always|never|change] default: always
+    on_success: always # options: [always|never|change] default: always
+    on_failure: always # options: [always|never|change] default: always
     on_start: never
