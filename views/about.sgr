@@ -45,7 +45,7 @@ extends(src='layouts/layout.sgr')
               p
                 | Gitter:
                 a(href='https://gitter.im/obcode')
-                  | &nbsp; obcode
+                  | obcode
                 br
                 | Tel. +49 89 1265-3790
                 br
@@ -61,10 +61,10 @@ extends(src='layouts/layout.sgr')
                 a(href='https://w3-o.cs.hm.edu:8000/public/profiles/') Sprechstunde
                 br
                 i(class='ion-checkmark-round')
-                | &nbsp; nur während der Vorlesungszeit
+                | nur während der Vorlesungszeit
                 br
                 i(class='ion-checkmark-round')
-                | &nbsp; nur nach vorheriger Anmeldung per E-Mail
+                | nur nach vorheriger Anmeldung per E-Mail
         div(class='col-lg-6')
           div(d='js-grid-slider-thumbnail' class='cbp ')
             div(class='cbp-item')

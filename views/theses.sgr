@@ -13,14 +13,14 @@ extends(src='layouts/layout.sgr')
 
           ul(class='nav-tabs nav' role='tablist')
             li(class='nav-item')
-              a(class='ion-ios-book active nav-link' href='#Basics'
-                data-taget='#Basics' role='tab' data-toggle='tab') &nbsp; Zeitplan / Ablauf
+              a(class='active nav-link' href='#Basics'
+                data-taget='#Basics' role='tab' data-toggle='tab') Zeitplan / Ablauf
             li(class='nav-item')
-              a(class='ion-compose nav-link' href='#Form'
-                data-taget='#Form' role='tab' data-toggle='tab') &nbsp; Umfang und Form
+              a(class='nav-link' href='#Form'
+                data-taget='#Form' role='tab' data-toggle='tab') Umfang und Form
             li(class='nav-item')
-              a(class='ion-chatbubbles nav-link' href='#Bewertung'
-                data-taget='#Bewertung' role='tab' data-toggle='tab') &nbsp; Bewertung
+              a(class='nav-link' href='#Bewertung'
+                data-taget='#Bewertung' role='tab' data-toggle='tab') Bewertung
 
           div(class="tab-content")
             div(class='space-30')
