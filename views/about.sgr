@@ -34,7 +34,7 @@ extends(src='layouts/layout.sgr')
 
                 noscript ob at cs dot hm dot edu
                 br
-                a(href='http://pgp.mit.edu:11371/pks/lookup?search=ob%40cs.hm.edu&amp;op=index') GPG-Schlüssel
+                a(href='http://pgp.zdv.uni-mainz.de:11371/pks/lookup?op=index&search=oliver.braun%40hm.edu') GPG-Schlüssel
                 br
                 small Fingerprint: 6A3B 042A 732E 17E4 B6E7  3EAF C0B1 6B7D EF25 B1BA
           div(class='space-30')
