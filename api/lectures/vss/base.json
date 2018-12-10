@@ -92,6 +92,10 @@
       {
         "name": "Das Actor-Modell und Umsetzung in Proto.Actor",
         "file": "05_Actors"
+      },
+      {
+        "name": "Rechenlastverteilung",
+        "file": "06_Rechenlastverteilung.md"
       }
     ],
     "exercises": [
