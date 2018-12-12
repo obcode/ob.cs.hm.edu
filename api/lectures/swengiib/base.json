@@ -55,7 +55,7 @@
     {
       "title": "Prüfung",
       "listicon": "ion-compose",
-      "text": "Gegenstand der Klausur ist der gesamte in Vorlesung und Praktikum behandelte Stoff, soweit nicht anders vereinbart. Die Klausur wird ohne Hilfsmittel geschrieben. Nachdem der Stoff im WS18/19 in Teilen umgestellt wurde, sind die alten Klausuren nur bedingt repräsentativ. Darüber hinaus sind manche alte Klausuren nur 60 Minuten lang gewesen.",
+      "text": "Gegenstand der Klausur ist der gesamte in Vorlesung und Praktikum behandelte Stoff, soweit nicht anders vereinbart. Die Klausur wird ohne eigene Hilfsmittel geschrieben. Sie bekommen eine <a href=\"https://www.oose.de/wp-content/uploads/2012/05/UML-Notations%C3%BCbersicht-2.5.pdf\">UML-Notationsübersicht</a> mit der Angabe ausgeteilt. Nachdem der Stoff im WS18/19 in Teilen umgestellt wurde, sind die alten Klausuren nur bedingt repräsentativ. Darüber hinaus sind manche alte Klausuren nur 60 Minuten lang gewesen.",
       "listitems": [
         {
           "text": "Klausur vom Winterersemester 2014/15",
