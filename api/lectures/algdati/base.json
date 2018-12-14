@@ -3,11 +3,13 @@
   "long": "Algorithmen und Datenstrukturen I",
   "last": "Wintersemester 2017/18",
   "semesters": "ws1718 ws1617 older",
-  "sidebar": [{
+  "sidebar": [
+    {
       "title": "Links",
       "text": null,
       "listicon": "ion-link",
-      "listitems": [{
+      "listitems": [
+        {
           "text": "GitHub Organisation - WS 17/18",
           "url": "https://github.com/ob-algdati-ws17"
         },
@@ -29,12 +31,17 @@
       "title": "Ziele / Inhalte",
       "listicon": "ion-checkmark-round",
       "text": null,
-      "listitems": [{
+      "listitems": [
+        {
           "text": "Lineare und hierarchische Datenstrukturen",
           "url": null
         },
         {
           "text": "Qualität von Datenstrukturen und Algorithmen",
+          "url": null
+        },
+        {
+          "text": "Hashverfahren",
           "url": null
         },
         {
@@ -56,7 +63,8 @@
       "title": "Prüfung",
       "text": "<p>Die Veranstaltung wird durch eine benotete schriftliche Prüfung abgeschlossen. Zu dieser sind keine Hilfsmittel zugelassen.</p><p>Der Prüfungsstoff entspricht den Kapiteln 1, 2, 3 & 5 aus dem o.a. Buch und C++</p>",
       "listicon": "ion-compose",
-      "listitems": [{
+      "listitems": [
+        {
           "text": "Klausur vom 20.01.2015",
           "url": "https://ob.cs.hm.edu/public/algdati/exams/KlausurWS14.pdf"
         },
@@ -76,12 +84,14 @@
           "text": "Klausur vom 23.01.2017",
           "url": "https://ob.cs.hm.edu/public/algdati/exams/KlausurWS16.pdf"
         }
-      ]    }
+      ]
+    }
   ],
   "maincontent": {
     "lecture": null,
     "lab": null,
-    "slides": [{
+    "slides": [
+      {
         "name": "Organisatorisches",
         "file": "00_Org"
       },
@@ -132,9 +142,15 @@
       {
         "name": "Splay-Bäume",
         "file": "12_SplayBaeume"
+      },
+      {
+        "name": "Hashverfahren",
+        "file": "01_Hashverfahren",
+        "donotpublish": true
       }
     ],
-    "exercises": [{
+    "exercises": [
+      {
         "name": "Blatt 1",
         "file": "Blatt01"
       },
