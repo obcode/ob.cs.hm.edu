@@ -15,7 +15,7 @@ div
         |
         a(href='https://github.com/obcode/ob.cs.hm.edu/issues') GitHub
       div
-      span &copy; {{ year }} Oliver Braun |
+      span © {{ year }} Oliver Braun |
         a(href='/impressum.html') Impressum
         | |
         a(href='/privacy.html') Datenschutzerklärung
