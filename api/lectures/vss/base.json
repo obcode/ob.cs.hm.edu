@@ -96,6 +96,10 @@
       {
         "name": "Rechenlastverteilung",
         "file": "06_Rechenlastverteilung"
+      },
+      {
+        "name": "Virtualisierungstechniken",
+        "file": "07_Virtualisierungstechniken"
       }
     ],
     "exercises": [
