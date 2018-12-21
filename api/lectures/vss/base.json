@@ -32,12 +32,12 @@
     },
     {
       "title": "Scheinerwerb",
-      "text": "<p>Für den unbenoteten Leistungsnachweis sind einige ausgewählte Praktikumsaufgaben fristgerecht abzugeben.</p>",
+      "text": "Für den unbenoteten Leistungsnachweis sind einige ausgewählte Praktikumsaufgaben fristgerecht abzugeben.",
       "listitems": []
     },
     {
       "title": "Prüfung",
-      "text": "<p>Die Veranstaltung wird durch eine benotete schriftliche Prüfung abgeschlossen. Zu dieser sind keine Hilfsmittel zugelassen.</p><p>Der Prüfungsstoff entspricht den in der Vorlesung und im Praktikum behandelten Inhalten. Die als Exkurs bezeichneten Kapitel sind nicht Gegenstand der Prüfung.</p>",
+      "text": "Die Veranstaltung wird durch eine benotete schriftliche Prüfung abgeschlossen. Zu dieser sind keine Hilfsmittel zugelassen. Der Prüfungsstoff entspricht den in der Vorlesung und im Praktikum behandelten Inhalten. Die als Exkurs bezeichneten Kapitel sind nicht Gegenstand der Prüfung.",
       "listitems": [
         {
           "text": "Klausur vom 12.07.2018",
@@ -92,6 +92,14 @@
       {
         "name": "Das Actor-Modell und Umsetzung in Proto.Actor",
         "file": "05_Actors"
+      },
+      {
+        "name": "Rechenlastverteilung",
+        "file": "06_Rechenlastverteilung"
+      },
+      {
+        "name": "Virtualisierungstechniken",
+        "file": "07_Virtualisierungstechniken"
       }
     ],
     "exercises": [

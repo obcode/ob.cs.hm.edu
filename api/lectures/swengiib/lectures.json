@@ -30,35 +30,35 @@
   },
   {
     "date": "22.11.2018",
-    "topic": "Systemüberblick & Ablauf & Anwendungsfall-Diagramm bis Folie 8"
+    "topic": "Systemüberblick & Ablauf & Anwendungsfalldiagramm bis Folie 8"
   },
   {
     "date": "29.11.2018",
-    "topic": "Node.js bis Folie 13"
+    "topic": "Anwendungsfalldiagramm & Node.js bis Folie 13"
   },
   {
     "date": "06.12.2018",
-    "topic": ""
+    "topic": "Node.js"
   },
   {
     "date": "13.12.2018",
-    "topic": ""
+    "topic": "Interaktionsdiagramm"
   },
   {
     "date": "20.12.2018",
-    "topic": ""
+    "topic": "Architektur"
   },
   {
     "date": "10.01.2019",
-    "topic": ""
+    "topic": "Architektur Datenzugriff"
   },
   {
     "date": "17.01.2019",
-    "topic": ""
+    "topic": "Umsetzung"
   },
   {
     "cancelled": true,
     "date": "24.01.2019",
-    "topic": "keine Vorlesung mehr"
+    "topic": "keine Vorlesung mehr, Prüfungen in der FK10"
   }
 ]

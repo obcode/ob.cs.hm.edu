@@ -34,7 +34,7 @@ extends(src='layouts/layout.sgr')
 
                 noscript ob at cs dot hm dot edu
                 br
-                a(href='http://pgp.mit.edu:11371/pks/lookup?search=ob%40cs.hm.edu&amp;op=index') GPG-Schlüssel
+                a(href='http://pgp.zdv.uni-mainz.de:11371/pks/lookup?op=index&search=oliver.braun%40hm.edu') GPG-Schlüssel
                 br
                 small Fingerprint: 6A3B 042A 732E 17E4 B6E7  3EAF C0B1 6B7D EF25 B1BA
           div(class='space-30')
@@ -45,7 +45,7 @@ extends(src='layouts/layout.sgr')
               p
                 | Gitter:
                 a(href='https://gitter.im/obcode')
-                  | &nbsp; obcode
+                  | obcode
                 br
                 | Tel. +49 89 1265-3790
                 br
@@ -61,10 +61,10 @@ extends(src='layouts/layout.sgr')
                 a(href='https://w3-o.cs.hm.edu:8000/public/profiles/') Sprechstunde
                 br
                 i(class='ion-checkmark-round')
-                | &nbsp; nur während der Vorlesungszeit
+                | nur während der Vorlesungszeit
                 br
                 i(class='ion-checkmark-round')
-                | &nbsp; nur nach vorheriger Anmeldung per E-Mail
+                | nur nach vorheriger Anmeldung per E-Mail
         div(class='col-lg-6')
           div(d='js-grid-slider-thumbnail' class='cbp ')
             div(class='cbp-item')

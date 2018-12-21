@@ -34,23 +34,24 @@
   },
   {
     "date": "26.11.2018",
-    "topic": "Algebraische Datentypen, Monoide"
+    "topic": "Algebraische Datentypen"
   },
   {
     "date": "03.12.2018",
-    "topic": ""
+    "topic": "Monoide & Funktoren bis Folie 5"
   },
   {
+    "cancelled": true,
     "date": "10.12.2018",
     "topic": ""
   },
   {
     "date": "17.12.2018",
-    "topic": ""
+    "topic": "Funktoren & Applikative Funktoren"
   },
   {
     "date": "07.01.2019",
-    "topic": ""
+    "topic": "Monaden"
   },
   {
     "date": "14.01.2019",
@@ -58,6 +59,6 @@
   },
   {
     "date": "21.01.2019",
-    "topic": ""
+    "topic": "Zusammenfassung, Abschluss"
   }
 ]
