@@ -22,4 +22,4 @@ div
         | |
         a(href='/api.html') API
         | |
-        a(href='https://terraform.cs.hm.edu/jenkins/') Jenkins
+        a(href='https://terraform.cs.hm.edu/') Jenkins
