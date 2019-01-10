@@ -49,12 +49,13 @@
     "topic": "Architektur"
   },
   {
+    "cancelled": true,
     "date": "10.01.2019",
-    "topic": "Architektur Datenzugriff"
+    "topic": ""
   },
   {
     "date": "17.01.2019",
-    "topic": "Umsetzung"
+    "topic": "Architektur Datenzugriff"
   },
   {
     "cancelled": true,
