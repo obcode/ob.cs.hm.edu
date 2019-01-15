@@ -50,8 +50,9 @@
     "topic": "Funktoren & Applikative Funktoren"
   },
   {
+    "cancelled": true,
     "date": "07.01.2019",
-    "topic": "Monaden"
+    "topic": ""
   },
   {
     "date": "14.01.2019",
@@ -59,6 +60,6 @@
   },
   {
     "date": "21.01.2019",
-    "topic": "Zusammenfassung, Abschluss"
+    "topic": "Monaden, Zusammenfassung, Abschluss"
   }
 ]
