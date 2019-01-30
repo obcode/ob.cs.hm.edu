@@ -19,6 +19,14 @@ extends(src='layouts/layout.sgr')
             > **Sie müssen die DevBox nicht benutzen**.
             > Sie können die notwendige Software für die Praktikumsaufgaben
             > natürlich auch direkt auf Ihrem Rechner installieren.
+            
+            > **Achtung**:
+            > In manchen meiner Veranstaltungen müssen Sie selbst Docker nutzen.
+            > [Docker for Windows](https://docs.docker.com/docker-for-windows/) benötigt
+            > jedoch Windows 10 64bit: Pro, Enterprise or Education (siehe auch
+            > [hier](https://docs.docker.com/docker-for-windows/install/)) und läuft
+            > beispielsweise nicht unter der Home-Edition oder unter Windows 7.
+            > Daher macht es Sinn zumindest für den Docker-Teil (m)eine VM zu nutzen.
 
           ul(class='nav-tabs nav' role='tablist')
             li(class='nav-item')
@@ -75,14 +83,18 @@ extends(src='layouts/layout.sgr')
 
                 Ohne Package-Manager installiert sind
 
-                - [Go](https://golang.org/) -- Go Compiler etc. (aktuell: 1.11.2)
-                  - Updaten durch Download von <https://golang.org/dl/> und
+                - [Go](https://golang.org/) -- Go Compiler etc. (aktuell: 1.11.4)
+                  - Updaten durch Download des Linux-Tarballs von <https://golang.org/dl/> und
                     Ersetzen des Verzeichnisses `/usr/local/go` durch den Inhalt des Tarballs
                 - [GraphiQL](https://electronjs.org/apps/graphiql) -- GraphQL GUI (aktuell: 0.7.2)
                   - Updaten durch Download von <https://electronjs.org/apps/graphiql> und Neuinstallation
-                - [Haskell Platform](https://www.haskell.org/platform/) -- Haskell Compiler etc. (aktuell: 8.4.3)
-                  - Updaten durch Download von <https://www.haskell.org/platform/linux.html#linux-generic> und
-                    Neuinstallation
+                - [GHC](https://www.haskell.org/ghc/) und [Stack](https://haskell-lang.org/get-started/linux) -- Haskell Compiler etc. (aktuell: 8.6.3)
+                  - Installiert über <https://launchpad.net/~hvr/+archive/ubuntu/ghc/>
+                  - Updaten des GHC durch Installieren einer neueren Version und updaten der Symlinks:
+
+                    `sudo update-alternatives --config opt-ghc`
+
+                  - Updaten von Stack durch ausführen von `stack upgrade`
 
                 Einige Tools (z.B. clang, build-essential) sind per `apt-get` installiert.
                 Diese können Sie auf der Kommandozeile mit
@@ -101,7 +113,7 @@ extends(src='layouts/layout.sgr')
                 Homeverzeichnis als Differenzabbild abgelegt und zählt zu Ihrem
                 [Disc Quota](https://de.wikipedia.org/wiki/Disk_Quota) (100GB im Moment).
 
-                TODO
+                TODO: Home-Verzeichnis mounten
 
             div(role='tabpanel' class='tab-pane fade'
                 id='EigenerRechner' aria-expanded='false')
@@ -114,5 +126,9 @@ extends(src='layouts/layout.sgr')
                 ##### Virtual-Disc-Image
 
                 Sie können das DevBox-Image entweder per USB-Stick vom MWN-PC kopieren
-                (Sie finden es unter `C:\...`) oder Sie laden es aus der
-                [Dropbox](TODO) herunter. **Achtung**: Das Image ist mehrere GB groß.
+                (Sie finden es unter `C:\VB-Images\Braun\DevBox.vdi`) oder Sie laden es aus der
+                [Dropbox](https://www.dropbox.com/sh/epekv6g0brjcbdn/AACgnTcbGySXBx015VInxUTLa?dl=0)
+                herunter.
+                
+                **Achtung**: Das Image ist ca. 17 GB groß.
+                
