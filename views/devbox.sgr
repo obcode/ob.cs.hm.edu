@@ -113,7 +113,19 @@ extends(src='layouts/layout.sgr')
                 Homeverzeichnis als Differenzabbild abgelegt und zählt zu Ihrem
                 [Disc Quota](https://de.wikipedia.org/wiki/Disk_Quota) (100GB im Moment).
 
-                TODO: Home-Verzeichnis mounten
+                ##### MWN-Home-Verzeichnis einhängen
+
+                Geben Sie im Terminal `mount_MWN <ihreKennung>` ein, wobei Sie `<ihreKennung>` durch
+                Ihre HM-Kennung ersetzen, also z.B. `mount_MWN hm-musterperson`. Sie werden dann als
+                erstes nach dem `devuser`-Passwort und anschließend nach Ihrem Passwort zu Ihrer
+                HM-Kennung gefragt. Anschließend finden Sie Ihr MWN-Home-Verzeichnis unter
+                `/home/devuser/MWN`.
+
+                Zum Aushängen des Verzeichnisses geben Sie einfach `umount_MWN` ein.
+
+                Wenn Sie die DevBox auf Ihrem eigenen Rechner nutzen, müssen Sie dazu mit Ihrem
+                eigenen Rechner (nicht der DevBox) ins VPN. Anschließend können Sie auch von dort
+                Ihr MWN-Home-Verzeichnis nutzen.
 
             div(role='tabpanel' class='tab-pane fade'
                 id='EigenerRechner' aria-expanded='false')
@@ -128,7 +140,10 @@ extends(src='layouts/layout.sgr')
                 Sie können das DevBox-Image entweder per USB-Stick vom MWN-PC kopieren
                 (Sie finden es unter `C:\VB-Images\Braun\DevBox.vdi`) oder Sie laden es aus der
                 [Dropbox](https://www.dropbox.com/sh/epekv6g0brjcbdn/AACgnTcbGySXBx015VInxUTLa?dl=0)
-                herunter.
+                herunter. Erzeugen Sie dann in VirtualBox eine neue Linux-VM (Ubuntu_64) und nutzen
+                Sie das DevBox-Image als Festplatte.
                 
-                **Achtung**: Das Image ist ca. 17 GB groß.
+                **Achtung beim Herunterladen**: Das Image ist ca. 17 GB groß.
                 
+                Sie können über das VPN auch Ihr MWN-Home-Verzeichnis mounten, wie unter
+                **MWN-PC** beschrieben.
