@@ -73,26 +73,8 @@
     }
   ],
   "maincontent": {
-    "lecture": {
-      "daytime": "donnerstags, 08:15 - 09:45",
-      "room": "R1.007"
-    },
-    "lab": {
-      "groups": [
-        {
-          "name": "1. Teilgruppe",
-          "daytime": "donnerstags, 11:45 - 13:15",
-          "room": "R1.012",
-          "tutor": "Andreas Geiger"
-        },
-        {
-          "name": "2. Teilgruppe",
-          "daytime": "donnerstags, 10:00 - 11:30",
-          "room": "R2.012",
-          "tutor": "Daniel Dobras"
-        }
-      ]
-    },
+    "lecture": null,
+    "lab": null,
     "slides": [
       {
         "name": "Organisatorisches",

@@ -3,7 +3,7 @@
   "long": "Funktionale Programmierung",
   "last": "Wintersemester 2018/19",
   "semesters": "ws1819 ws1718 older",
-  "news": true,
+  "news": false,
   "sidebar": [
     {
       "title": "Links",
@@ -93,19 +93,8 @@
     }
   ],
   "maincontent": {
-    "lecture": {
-      "daytime": "montags, 08:15 - 09:45",
-      "room": "R1.007"
-    },
-    "lab": {
-      "groups": [
-        {
-          "name": null,
-          "daytime": "montags, 10:00 - 11:30",
-          "room": "R1.009"
-        }
-      ]
-    },
+    "lecture": null,
+    "lab": null,
     "slides": [
       {
         "name": "Organisatorisches",
