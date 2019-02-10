@@ -2,7 +2,7 @@
   "short": "compiler",
   "long": "Compiler",
   "last": "Sommersemester 2017",
-  "semesters": "ss17 older",
+  "semesters": "older",
   "sidebar": [
     {
       "title": "Links",
@@ -43,7 +43,7 @@
       ]
     },
     {
-      "title":  "Scheinerwerb",
+      "title": "Scheinerwerb",
       "text": "Für den Schein ist in Zweiergruppen ein Compiler in Haskell zu programmieren. Genauere Informationen über Aufgabe und Umfang bekommen Sie auf dem Aufgabenblatt 6. Zum Abnahmetermin (siehe Termine Praktikum) muss die Aufgabe fertig bearbeitet und der Code auf GitHub gepusht sein. Unter Anwesenheit beider Gruppenmitglieder zeigen und erklären Sie mir Ihre Lösung.",
       "listitems": []
     },
