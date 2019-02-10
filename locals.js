@@ -65,7 +65,7 @@ exports.lectures = lectures;
 
 exports.currentSemester = {
   short: "SS 19",
-  long: "Sommersemester 2018/19",
+  long: "Sommersemester 2019",
   lectures: [algdatii, swengiiib, vss],
   // next: {
   //   short: "WS 19/20",
