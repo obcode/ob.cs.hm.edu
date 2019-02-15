@@ -94,7 +94,7 @@ extends(src='layouts/layout.sgr')
 
                     `sudo update-alternatives --config opt-ghc`
 
-                  - Updaten von Stack durch ausführen von `stack upgrade`
+                  - Updaten von Stack durch Ausführen von `stack upgrade`
 
                 Einige Tools (z.B. clang, build-essential) sind per `apt-get` installiert.
                 Diese können Sie auf der Kommandozeile mit
@@ -115,7 +115,7 @@ extends(src='layouts/layout.sgr')
 
                 ##### MWN-Home-Verzeichnis einhängen
 
-                Geben Sie im Terminal `mount_MWN <ihreKennung>` ein, wobei Sie `<ihreKennung>` durch
+                Geben Sie im Terminal in der DevBox `mount_MWN <ihreKennung>` ein, wobei Sie `<ihreKennung>` durch
                 Ihre HM-Kennung ersetzen, also z.B. `mount_MWN hm-musterperson`. Sie werden dann als
                 erstes nach dem `devuser`-Passwort und anschließend nach Ihrem Passwort zu Ihrer
                 HM-Kennung gefragt. Anschließend finden Sie Ihr MWN-Home-Verzeichnis unter
@@ -124,8 +124,8 @@ extends(src='layouts/layout.sgr')
                 Zum Aushängen des Verzeichnisses geben Sie einfach `umount_MWN` ein.
 
                 Wenn Sie die DevBox auf Ihrem eigenen Rechner nutzen, müssen Sie dazu mit Ihrem
-                eigenen Rechner (nicht der DevBox) ins VPN. Anschließend können Sie auch von dort
-                Ihr MWN-Home-Verzeichnis nutzen.
+                eigenen Rechner (nicht der DevBox) ins VPN. Anschließend können Sie auch von der
+                DevBox Ihr MWN-Home-Verzeichnis, wie oben beschrieben, ein- und aushängen.
 
             div(role='tabpanel' class='tab-pane fade'
                 id='EigenerRechner' aria-expanded='false')
