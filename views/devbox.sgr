@@ -90,7 +90,7 @@ extends(src='layouts/layout.sgr')
                   - Updaten durch Download von <https://electronjs.org/apps/graphiql> und Neuinstallation
                 - [GHC](https://www.haskell.org/ghc/) und [Stack](https://haskell-lang.org/get-started/linux) -- Haskell Compiler etc. (aktuell: 8.6.3)
                   - Installiert über <https://launchpad.net/~hvr/+archive/ubuntu/ghc/>
-                  - Updaten des GHC durch Installieren einer neueren Version und updaten der Symlinks:
+                  - Updaten des GHC durch Installieren einer neueren Version und Updaten der Symlinks:
 
                     `sudo update-alternatives --config opt-ghc`
 
