@@ -75,11 +75,11 @@
     "slides": [
       {
         "name": "Graphenalgorithmen",
-        "file": "02_Graphenalgorithmen"
+        "file": "01_Graphenalgorithmen"
       },
       {
         "name": "Suchen in Texten",
-        "file": "03_SuchenInTexten"
+        "file": "02_SuchenInTexten"
       }
     ],
     "exercises": [
