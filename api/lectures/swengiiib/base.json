@@ -3,7 +3,74 @@
   "long": "Software Engineering II (IB)",
   "last": "Sommersemester 2019",
   "semesters": "ss19 older",
-  "sidebar": null,
+  "sidebar": [
+    {
+      "title": "Links",
+      "text": null,
+      "listicon": "ion-link",
+      "listitems": [
+        {
+          "text": "GitHub Organisation",
+          "url": "https://github.com/ob-swengiiib-ss19"
+        },
+        {
+          "text": "Gitter Channel",
+          "url": "https://gitter.im/ob-swengiiib-ss19/Lobby"
+        },
+        {
+          "text": "Modulbeschreibung",
+          "url": "https://w3-o.cs.hm.edu:8000/public/module/223/"
+        }
+      ]
+    },
+    {
+      "title": "Ziele / Inhalte",
+      "listicon": "ion-checkmark-round",
+      "text": null,
+      "listitems": [
+        {
+          "text": "Verständnis für die grundlegenden Konzepte des Software Engineering",
+          "url": null
+        },
+        {
+          "text": "Testen",
+          "url": null
+        },
+        {
+          "text": "GraphQL / REST",
+          "url": null
+        },
+        {
+          "text": "Angular",
+          "url": null
+        },
+        {
+          "text": "Node.js",
+          "url": null
+        }
+      ]
+    },
+    {
+      "title": "Studienarbeit",
+      "text": "Die Studienarbeit wird benotet und muss bestanden werden. Die Note zählt zu 40% in die Gesamtnote des Moduls.",
+      "listitems": []
+    },
+    {
+      "title": "Prüfung",
+      "listicon": "ion-compose",
+      "text": "Gegenstand der Klausur ist der gesamte in Vorlesung und Praktikum behandelte Stoff, soweit nicht anders vereinbart. Die Klausur wird ohne eigene Hilfsmittel geschrieben.",
+      "listitems": [
+        {
+          "text": "Klausur vom Sommerersemester 2015",
+          "url": "https://ob.cs.hm.edu/public/swengiiib/exams/KlausurSS15.pdf"
+        },
+        {
+          "text": "Klausur vom Winterersemester 2015/16",
+          "url": "https://ob.cs.hm.edu/public/swengiiib/exams/KlausurWS15.pdf"
+        }
+      ]
+    }
+  ],
   "maincontent": {
     "lecture": {
       "daytime": "donnerstags, 11:45 - 13:15",
