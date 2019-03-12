@@ -72,12 +72,10 @@
     },
     "slides": [
       {
-        "donotpublish": true,
         "name": "Organisatorisches",
         "file": "00_Org"
       },
       {
-        "donotpublish": true,
         "name": "Go",
         "file": "00_Go"
       },
@@ -129,7 +127,6 @@
     ],
     "exercises": [
       {
-        "donotpublish": true,
         "name": "Blatt 1",
         "file": "Blatt01"
       },
