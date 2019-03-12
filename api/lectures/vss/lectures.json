@@ -1,0 +1,73 @@
+[
+  {
+    "date": "19.03.19",
+    "topic": ""
+  },
+  {
+    "date": "26.03.19",
+    "topic": ""
+  },
+  {
+    "date": "02.04.19",
+    "topic": ""
+  },
+  {
+    "date": "09.04.19",
+    "topic": ""
+  },
+  {
+    "date": "16.04.19",
+    "topic": ""
+  },
+  {
+    "cancelled": true,
+    "date": "23.04.19",
+    "topic": "Ostern"
+  },
+  {
+    "date": "30.04.19",
+    "topic": ""
+  },
+  {
+    "date": "07.05.19",
+    "topic": ""
+  },
+  {
+    "date": "14.05.19",
+    "topic": ""
+  },
+  {
+    "date": "21.05.19",
+    "topic": ""
+  },
+  {
+    "date": "28.05.19",
+    "topic": ""
+  },
+  {
+    "date": "04.06.19",
+    "topic": ""
+  },
+  {
+    "cancelled": true,
+    "date": "11.06.19",
+    "topic": "Pfingsten"
+  },
+  {
+    "cancelled": true,
+    "date": "18.06.19",
+    "topic": ""
+  },
+  {
+    "date": "25.06.19",
+    "topic": ""
+  },
+  {
+    "date": "02.07.19",
+    "topic": ""
+  },
+  {
+    "date": "09.07.19",
+    "topic": ""
+  }
+]

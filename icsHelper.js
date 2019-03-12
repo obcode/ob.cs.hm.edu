@@ -42,7 +42,10 @@ const dateToArr = date => {
   const res = date.split(".");
   const day = parseInt(res[0]);
   const month = parseInt(res[1]);
-  const year = parseInt(res[2]);
+  let year = parseInt(res[2]);
+  if (year < 100) {
+    year += 2000;
+  }
   return [year, month, day];
 };
 

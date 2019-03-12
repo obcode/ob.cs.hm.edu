@@ -47,68 +47,104 @@
     }
   ],
   "maincontent": {
-    "lecture": null,
-    "lab": null,
+    "lecture": {
+      "daytime": "dienstags, 10:00 - 11:30",
+      "room": "R1.006"
+    },
+    "lab": {
+      "groups": [
+        {
+          "name": "1. Teilgruppe",
+          "daytime": "dienstags, 11:45 - 13:15",
+          "room": "R1.009"
+        },
+        {
+          "name": "2. Teilgruppe",
+          "daytime": "donnerstags, 10:00 - 11:30",
+          "room": "R1.009"
+        },
+        {
+          "name": "3. Teilgruppe (nur bei Bedarf)",
+          "daytime": "dienstags, 17:00 - 18:30",
+          "room": "R2.009"
+        }
+      ]
+    },
     "slides": [
       {
+        "donotpublish": true,
         "name": "Organisatorisches",
         "file": "00_Org"
       },
       {
+        "donotpublish": true,
         "name": "Go",
         "file": "00_Go"
       },
       {
+        "donotpublish": true,
         "name": "Einführung",
         "file": "01_Einfuerung"
       },
       {
+        "donotpublish": true,
         "name": "Exkurs: Verteilte Betriebssysteme",
         "file": "E1_VerteilteBetriebssysteme"
       },
       {
+        "donotpublish": true,
         "name": "Parallelisierung",
         "file": "02_Parallelisierung"
       },
       {
+        "donotpublish": true,
         "name": "Programmiermodelle für verteilten Speicher",
         "file": "03_ProgrammiermodelleFuerVerteiltenSpeicher"
       },
       {
+        "donotpublish": true,
         "name": "Verteilte Algorithmen",
         "file": "04_VerteilteAlgorithmen"
       },
       {
+        "donotpublish": true,
         "name": "Das Actor-Modell und Umsetzung in Proto.Actor",
         "file": "05_Actors"
       },
       {
+        "donotpublish": true,
         "name": "Rechenlastverteilung",
         "file": "06_Rechenlastverteilung"
       },
       {
+        "donotpublish": true,
         "name": "Virtualisierungstechniken",
         "file": "07_Virtualisierungstechniken"
       },
       {
+        "donotpublish": true,
         "name": "Microservices",
         "file": "08_Microservices"
       }
     ],
     "exercises": [
       {
+        "donotpublish": true,
         "name": "Blatt 1",
         "file": "Blatt01"
       },
       {
+        "donotpublish": true,
         "name": "Blatt 2",
         "file": "Blatt02"
       },
       {
+        "donotpublish": true,
         "name": "Blatt 3",
         "file": "Blatt03"
       },
       {
+        "donotpublish": true,
         "name": "Blatt 4",
         "file": "Blatt04"
       }
