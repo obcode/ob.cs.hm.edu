@@ -1,0 +1,194 @@
+[
+  {
+    "dates": [
+      {
+        "date": "18.03.19"
+      },
+      {
+        "date": "19.03.19"
+      }
+    ],
+    "topic": "Einarbeitung in Go / Team- und Themenfindung"
+  },
+  {
+    "dates": [
+      {
+        "date": "25.03.19"
+      },
+      {
+        "date": "26.03.19"
+      }
+    ],
+    "topic": "Einarbeitung in Go / Team- und Themenfindung"
+  },
+  {
+    "dates": [
+      {
+        "date": "01.04.19"
+      },
+      {
+        "date": "02.04.19"
+      }
+    ],
+    "topic": "Einarbeitung in Go / Team- und Themenfindung"
+  },
+  {
+    "dates": [
+      {
+        "date": "08.04.19"
+      },
+      {
+        "date": "09.04.19"
+      }
+    ],
+    "topic": "Einarbeitung in Go / Team- und Themenfindung"
+  },
+  {
+    "dates": [
+      {
+        "date": "15.04.19"
+      },
+      {
+        "date": "16.04.19"
+      }
+    ],
+    "topic": "Arbeitsphase"
+  },
+  {
+    "cancelled": true,
+    "dates": [
+      {
+        "date": "22.04.19"
+      },
+      {
+        "date": "23.04.19"
+      }
+    ],
+    "topic": "Ostern"
+  },
+  {
+    "dates": [
+      {
+        "date": "29.04.19"
+      },
+      {
+        "date": "30.04.19"
+      }
+    ],
+    "topic": "Arbeitsphase"
+  },
+  {
+    "dates": [
+      {
+        "date": "06.05.19"
+      },
+      {
+        "date": "07.05.19"
+      }
+    ],
+    "topic": "Arbeitsphase"
+  },
+  {
+    "dates": [
+      {
+        "date": "13.05.19"
+      },
+      {
+        "date": "14.05.19"
+      }
+    ],
+    "topic": "Arbeitsphase"
+  },
+  {
+    "dates": [
+      {
+        "date": "20.05.19"
+      },
+      {
+        "date": "21.05.19"
+      }
+    ],
+    "topic": "Besprechung Zwischenstand"
+  },
+  {
+    "dates": [
+      {
+        "date": "27.05.19"
+      },
+      {
+        "date": "28.05.19"
+      }
+    ],
+    "topic": "Arbeitsphase"
+  },
+  {
+    "dates": [
+      {
+        "date": "03.06.19"
+      },
+      {
+        "date": "04.06.19"
+      }
+    ],
+    "topic": "Arbeitsphase"
+  },
+  {
+    "cancelled": true,
+    "dates": [
+      {
+        "date": "10.06.19"
+      },
+      {
+        "date": "11.06.19"
+      }
+    ],
+    "topic": "Pfingsten"
+  },
+  {
+    "cancelled": true,
+    "dates": [
+      {
+        "date": "18.06.19"
+      },
+      {
+        "date": "18.06.19"
+      }
+    ],
+    "topic": "Arbeitsphase"
+  },
+  {
+    "dates": [
+      {
+        "date": "24.06.19"
+      },
+      {
+        "date": "25.06.19"
+      }
+    ],
+    "topic": "Abschlußpräsentationen"
+  },
+  {
+    "cancelled": true,
+    "dates": [
+      {
+        "date": "01.07.19"
+      },
+      {
+        "date": "02.07.19"
+      }
+    ],
+    "topic": "kein Praktikum mehr"
+  },
+  {
+    "cancelled": true,
+    "dates": [
+      {
+        "date": "09.07.19"
+      },
+      {
+        "date": "09.07.19"
+      }
+    ],
+    "topic": "kein Praktikum mehr"
+  }
+]
