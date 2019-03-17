@@ -90,6 +90,10 @@
     },
     "slides": [
       {
+        "name": "Organisatorisches",
+        "file": "00_Org"
+      },
+      {
         "name": "Graphenalgorithmen",
         "file": "01_Graphenalgorithmen"
       },
