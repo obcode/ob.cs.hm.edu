@@ -101,8 +101,7 @@
     "exercises": [
       {
         "name": "Leistungsnachweis",
-        "file": "Leistungsnachweis",
-        "donotpublish": true
+        "file": "Leistungsnachweis"
       }
     ]
   }
