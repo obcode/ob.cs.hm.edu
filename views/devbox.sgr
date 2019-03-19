@@ -115,6 +115,10 @@ extends(src='layouts/layout.sgr')
                 Sie doppelt auf die Datei `CreateVM.bat`. Wenn Sie keinen Fehler bekommen haben,
                 sollten Sie jetzt ein Icon mit dem Namen `DevBox` auf Ihrem Desktop liegen haben.
 
+                Am Ende des Semesters sollten Sie unbeding die DevBox-VM mit der Datei
+                `DeleteVM.bat` wieder löschen, damit der Speicher in Ihrem Benutzerverzeichnis
+                wieder frei gegeben wird.
+
                 ##### Starten der DevBox-VM
 
                 Klicken Sie doppelt auf das `DevBox`-Icon auf Ihrem Desktop.
