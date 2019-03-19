@@ -109,9 +109,28 @@ extends(src='layouts/layout.sgr')
                 id='MWN-PC' aria-expanded='false')
               div(md).
 
-                **Achtung**: Alles was Sie installieren und speichern, wird in Ihrem
+                ##### DevBox-VM installieren
+
+                Öffnen Sie im File-Explorer das Verzeichnis `C:\VB-Images\Braun` und klicken
+                Sie doppelt auf die Datei `CreateVM.bat`. Wenn Sie keinen Fehler bekommen haben,
+                sollten Sie jetzt ein Icon mit dem Namen `DevBox` auf Ihrem Desktop liegen haben.
+
+                ##### Starten der DevBox-VM
+
+                Klicken Sie doppelt auf das `DevBox`-Icon auf Ihrem Desktop.
+
+                Sobald die DevBox-VM hochgefahren ist, können Sie mit ihr arbeiten. Sie haben volle
+                Administratorrechte und können updaten und installieren was Sie wollen.
+
+                **Achtung**: Alles was Sie installieren und in der DevBox-VM speichern, wird in Ihrem
                 Homeverzeichnis als Differenzabbild abgelegt und zählt zu Ihrem
                 [Disc Quota](https://de.wikipedia.org/wiki/Disk_Quota) (100GB im Moment).
+
+                ##### Beenden der DevBox-VM
+
+                Denken Sie daran, vor Sie den MWN-PC herunter fahren, die DevBox-VM zu beenden.
+                Sie können z.B. den aktuellen Zustand speichern und müssen sie nicht komplett
+                herunter fahren.
 
                 ##### MWN-Home-Verzeichnis einhängen
 
