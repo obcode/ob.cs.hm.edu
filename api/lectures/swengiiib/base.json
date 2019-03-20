@@ -92,7 +92,16 @@
         }
       ]
     },
-    "slides": null,
+    "slides": [
+      {
+        "name": "Organisatorisches",
+        "file": "00_Org"
+      },
+      {
+        "name": "GraphQL",
+        "file": "01_GraphQL"
+      }
+    ],
     "exercises": [
       {
         "name": "Studienarbeit",
