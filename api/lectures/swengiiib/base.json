@@ -93,6 +93,11 @@
       ]
     },
     "slides": null,
-    "exercises": null
+    "exercises": [
+      {
+        "name": "Studienarbeit",
+        "file": "Studienarbeit"
+      }
+    ]
   }
 }
