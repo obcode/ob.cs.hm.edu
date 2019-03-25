@@ -5,19 +5,19 @@
   },
   {
     "date": "26.03.19",
-    "topic": ""
+    "topic": "Go & Einführung"
   },
   {
     "date": "02.04.19",
-    "topic": ""
+    "topic": "Einführung"
   },
   {
     "date": "09.04.19",
-    "topic": ""
+    "topic": "Einführung & Actors"
   },
   {
     "date": "16.04.19",
-    "topic": ""
+    "topic": "Actors"
   },
   {
     "cancelled": true,
@@ -26,27 +26,27 @@
   },
   {
     "date": "30.04.19",
-    "topic": ""
+    "topic": "Parallelisierung"
   },
   {
     "date": "07.05.19",
-    "topic": ""
+    "topic": "Programmiermodelle für verteilten Speicher"
   },
   {
     "date": "14.05.19",
-    "topic": ""
+    "topic": "Microservices"
   },
   {
     "date": "21.05.19",
-    "topic": ""
+    "topic": "Microservices"
   },
   {
     "date": "28.05.19",
-    "topic": ""
+    "topic": "Verteilte Algorithmen"
   },
   {
     "date": "04.06.19",
-    "topic": ""
+    "topic": "Verteilte Algorithmen"
   },
   {
     "cancelled": true,
@@ -60,11 +60,11 @@
   },
   {
     "date": "25.06.19",
-    "topic": ""
+    "topic": "Rechenlastverteilung"
   },
   {
     "date": "02.07.19",
-    "topic": ""
+    "topic": "Virtualisierungstechniken"
   },
   {
     "date": "09.07.19",
