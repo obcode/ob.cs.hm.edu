@@ -38,7 +38,7 @@
   },
   {
     "date": "21.05.19",
-    "topic": "Microservices"
+    "topic": "Microservices & Verteilte Algorithmen"
   },
   {
     "date": "28.05.19",
@@ -46,7 +46,7 @@
   },
   {
     "date": "04.06.19",
-    "topic": "Verteilte Algorithmen"
+    "topic": "Rechenlastverteilung"
   },
   {
     "cancelled": true,
@@ -60,14 +60,14 @@
   },
   {
     "date": "25.06.19",
-    "topic": "Rechenlastverteilung"
-  },
-  {
-    "date": "02.07.19",
     "topic": "Virtualisierungstechniken"
   },
   {
+    "date": "02.07.19",
+    "topic": "Cluster, Grid & Cloud"
+  },
+  {
     "date": "09.07.19",
-    "topic": ""
+    "topic": "Abschluss"
   }
 ]
