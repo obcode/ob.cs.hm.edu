@@ -80,14 +80,8 @@
         "file": "00_Go"
       },
       {
-        "donotpublish": true,
         "name": "Einführung",
         "file": "01_Einfuerung"
-      },
-      {
-        "donotpublish": true,
-        "name": "Exkurs: Verteilte Betriebssysteme",
-        "file": "E1_VerteilteBetriebssysteme"
       },
       {
         "donotpublish": true,
