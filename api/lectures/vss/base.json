@@ -96,22 +96,18 @@
         "file": "04_ProgrammiermodelleFuerVerteiltenSpeicher"
       },
       {
-        "donotpublish": true,
         "name": "Microservices",
         "file": "05_Microservices"
       },
       {
-        "donotpublish": true,
         "name": "Verteilte Algorithmen",
         "file": "06_VerteilteAlgorithmen"
       },
       {
-        "donotpublish": true,
         "name": "Rechenlastverteilung",
         "file": "07_Rechenlastverteilung"
       },
       {
-        "donotpublish": true,
         "name": "Virtualisierungstechniken",
         "file": "08_Virtualisierungstechniken"
       }
