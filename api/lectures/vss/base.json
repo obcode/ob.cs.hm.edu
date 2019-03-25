@@ -84,39 +84,38 @@
         "file": "01_Einfuerung"
       },
       {
+        "name": "Das Actor-Modell und Umsetzung in Proto.Actor",
+        "file": "02_Actors"
+      },
+      {
         "donotpublish": true,
         "name": "Parallelisierung",
-        "file": "02_Parallelisierung"
+        "file": "03_Parallelisierung"
       },
       {
         "donotpublish": true,
         "name": "Programmiermodelle für verteilten Speicher",
-        "file": "03_ProgrammiermodelleFuerVerteiltenSpeicher"
-      },
-      {
-        "donotpublish": true,
-        "name": "Verteilte Algorithmen",
-        "file": "04_VerteilteAlgorithmen"
-      },
-      {
-        "donotpublish": true,
-        "name": "Das Actor-Modell und Umsetzung in Proto.Actor",
-        "file": "05_Actors"
-      },
-      {
-        "donotpublish": true,
-        "name": "Rechenlastverteilung",
-        "file": "06_Rechenlastverteilung"
-      },
-      {
-        "donotpublish": true,
-        "name": "Virtualisierungstechniken",
-        "file": "07_Virtualisierungstechniken"
+        "file": "04_ProgrammiermodelleFuerVerteiltenSpeicher"
       },
       {
         "donotpublish": true,
         "name": "Microservices",
-        "file": "08_Microservices"
+        "file": "05_Microservices"
+      },
+      {
+        "donotpublish": true,
+        "name": "Verteilte Algorithmen",
+        "file": "06_VerteilteAlgorithmen"
+      },
+      {
+        "donotpublish": true,
+        "name": "Rechenlastverteilung",
+        "file": "07_Rechenlastverteilung"
+      },
+      {
+        "donotpublish": true,
+        "name": "Virtualisierungstechniken",
+        "file": "08_Virtualisierungstechniken"
       }
     ],
     "exercises": [
