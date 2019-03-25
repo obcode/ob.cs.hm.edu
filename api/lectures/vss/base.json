@@ -92,7 +92,6 @@
         "file": "03_Parallelisierung"
       },
       {
-        "donotpublish": true,
         "name": "Programmiermodelle für verteilten Speicher",
         "file": "04_ProgrammiermodelleFuerVerteiltenSpeicher"
       },
