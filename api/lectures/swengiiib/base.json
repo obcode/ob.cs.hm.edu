@@ -104,6 +104,10 @@
       {
         "name": "GraphQL",
         "file": "01_GraphQL"
+      },
+      {
+        "name": "Testen von Software / Modultests",
+        "file": "02_Testen_Modultests"
       }
     ],
     "exercises": [
