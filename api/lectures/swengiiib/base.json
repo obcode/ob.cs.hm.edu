@@ -125,6 +125,14 @@
       {
         "name": "Wiederverwendung",
         "file": "06_Wiederverwendung"
+      },
+      {
+        "name": "REST",
+        "file": "07_REST"
+      },
+      {
+        "name": "Microservices",
+        "file": "07_Microservices"
       }
     ],
     "exercises": [
