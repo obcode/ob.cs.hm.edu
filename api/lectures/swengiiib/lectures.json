@@ -22,24 +22,24 @@
   },
   {
     "date": "25.04.19",
-    "topic": ""
+    "topic": "Testen / Modultests"
   },
   {
     "cancelled": true,
     "date": "02.05.19",
-    "topic": ""
+    "topic": "keine Vorlesung"
   },
   {
     "date": "09.05.19",
-    "topic": ""
+    "topic": "Testen II"
   },
   {
     "date": "16.05.19",
-    "topic": ""
+    "topic": "Testen von JavaScript"
   },
   {
     "date": "23.05.19",
-    "topic": ""
+    "topic": "Softwareevolution"
   },
   {
     "cancelled": true,
@@ -48,7 +48,7 @@
   },
   {
     "date": "06.06.19",
-    "topic": ""
+    "topic": "Wiederverwendung von Software"
   },
   {
     "date": "13.06.19",

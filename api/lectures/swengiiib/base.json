@@ -108,6 +108,23 @@
       {
         "name": "Testen von Software / Modultests",
         "file": "02_Testen_Modultests"
+      },
+      {
+        "name": "Testen von Software II",
+        "file": "03_TestenII"
+      },
+      {
+        "name": "Testen von JavaScript",
+        "file": "04_Testen_JS"
+      },
+
+      {
+        "name": "Softwareevolution",
+        "file": "05_Softwareevolution"
+      },
+      {
+        "name": "Wiederverwendung",
+        "file": "06_Wiederverwendung"
       }
     ],
     "exercises": [
