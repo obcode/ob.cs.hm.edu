@@ -63,15 +63,16 @@
         "date": "09.05.19"
       }
     ],
-    "topic": "Ende Phase 1 und Start Phase 2"
+    "topic": "Arbeitsphase / Standup-Meeting"
   },
   {
+    "cancelled": true,
     "dates": [
       {
         "date": "16.05.19"
       }
     ],
-    "topic": "Arbeitsphase / Standup-Meeting"
+    "topic": "Ende Phase 1 und Start Phase 2"
   },
   {
     "dates": [
