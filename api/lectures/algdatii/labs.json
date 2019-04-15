@@ -81,6 +81,7 @@
   {
     "dates": [
       {
+        "cancelled": true,
         "date": "06.05.19"
       },
       {
