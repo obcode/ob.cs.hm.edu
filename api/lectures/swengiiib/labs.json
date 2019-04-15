@@ -49,13 +49,12 @@
     "topic": "Arbeitsphase / Standup-Meeting"
   },
   {
-    "cancelled": true,
     "dates": [
       {
         "date": "02.05.19"
       }
     ],
-    "topic": "Arbeitsphase / Standup-Meeting"
+    "topic": "Arbeitsphase / Standup-Meeting (nur mit Tutoren)"
   },
   {
     "dates": [
@@ -63,10 +62,9 @@
         "date": "09.05.19"
       }
     ],
-    "topic": "Arbeitsphase / Standup-Meeting"
+    "topic": "Arbeitsphase / Standup-Meeting (nur mit Tutoren)"
   },
   {
-    "cancelled": true,
     "dates": [
       {
         "date": "16.05.19"
