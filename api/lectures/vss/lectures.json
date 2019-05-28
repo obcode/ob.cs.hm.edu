@@ -54,13 +54,13 @@
     "topic": "Pfingsten"
   },
   {
-    "cancelled": true,
     "date": "18.06.19",
-    "topic": ""
+    "topic": "Virtualisierungstechniken"
   },
   {
+    "cancelled": true,
     "date": "25.06.19",
-    "topic": "Virtualisierungstechniken"
+    "topic": ""
   },
   {
     "date": "02.07.19",
