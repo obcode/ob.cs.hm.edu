@@ -83,12 +83,12 @@ extends(src='layouts/layout.sgr')
 
                 Ohne Package-Manager installiert sind
 
-                - [Go](https://golang.org/) -- Go Compiler etc. (aktuell: 1.11.5)
+                - [Go](https://golang.org/) -- Go Compiler etc. (aktuell: 1.12.7)
                   - Updaten durch Download des Linux-Tarballs von <https://golang.org/dl/> und
                     Ersetzen des Verzeichnisses `/usr/local/go` durch den Inhalt des Tarballs
                 - [GraphiQL](https://electronjs.org/apps/graphiql) -- GraphQL GUI (aktuell: 0.7.2)
                   - Updaten durch Download von <https://electronjs.org/apps/graphiql> und Neuinstallation
-                - [GHC](https://www.haskell.org/ghc/) und [Stack](https://haskell-lang.org/get-started/linux) -- Haskell Compiler etc. (aktuell: 8.6.3)
+                - [GHC](https://www.haskell.org/ghc/) und [Stack](https://haskell-lang.org/get-started/linux) -- Haskell Compiler etc. (aktuell: 8.6.5)
                   - Installiert über <https://launchpad.net/~hvr/+archive/ubuntu/ghc/>
                   - Updaten des GHC durch Installieren einer neueren Version und Updaten der Symlinks:
 
