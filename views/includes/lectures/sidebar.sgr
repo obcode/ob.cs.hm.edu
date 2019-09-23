@@ -1,20 +1,13 @@
 div(class='col-md-4')
   if(condition='currentLecture.sidebar !== null')
     div(class='sidebar-box')
-      div(class='card-accordion card-accordion-simple card-accordion-icons-left mb80'
-        id='card-accordion-simple' role='tablist' aria-multiselectable='true')
+      div(class='card-accordion card-accordion-simple card-accordion-icons-left mb80' id='card-accordion-simple' role='tablist' aria-multiselectable='true')
 
         if(condition='currentLecture.dates !== undefined')
           div(class='card')
             div(class='card-header accordion-header' role='tab' id='heading{{ index }}')
-              a(class='null'
-                data-toggle='collapse' data-parent='#card-accordion-simple'
-                href='#collapseDates' aria-expanded='true'
-                aria-controls='collapseDates') Termine
-            div(id='collapseDates'
-              class='collapse show'
-              role='tabpanel'
-              aria-labelledby='heading{{ Termine }}')
+              a(class='null' data-toggle='collapse' data-parent='#card-accordion-simple' href='#collapseDates' aria-expanded='true' aria-controls='collapseDates') Termine
+            div(id='collapseDates' class='collapse show' role='tabpanel' aria-labelledby='heading{{ Termine }}')
               div(class='card-block')
                 each(loop='date of currentLecture.dates')
                   b {{ date.date }}, {{ date.time }}
@@ -25,14 +18,8 @@ div(class='col-md-4')
         each(loop='card, index of currentLecture.sidebar')
           div(class='card')
             div(class='card-header accordion-header' role='tab' id='heading{{ index }}')
-              a(class='{{ (index !== 0 || currentLecture.dates !== undefined) ? "collapsed" : null }}'
-                data-toggle='collapse' data-parent='#card-accordion-simple'
-                href='#collapse{{ index }}List' aria-expanded='true'
-                aria-controls='collapse{{ index }}List') {{ card.title }}
-            div(id='collapse{{ index }}List'
-              class='collapse {{ (index === 0 && currentLecture.dates === undefined) ? "show" : null }}'
-              role='tabpanel'
-              aria-labelledby='heading{{ card.title }}')
+              a(class='{{ (index !== 0 || currentLecture.dates !== undefined) ? "collapsed" : null }}' data-toggle='collapse' data-parent='#card-accordion-simple' href='#collapse{{ index }}List' aria-expanded='true' aria-controls='collapse{{ index }}List') {{ card.title }}
+            div(id='collapse{{ index }}List' class='collapse {{ (index === 0 && currentLecture.dates === undefined) ? "show" : null }}' role='tabpanel' aria-labelledby='heading{{ card.title }}')
               div(class='card-block')
                 if(condition='card.text !== null')
                   | {{ card.text }}
@@ -47,14 +34,8 @@ div(class='col-md-4')
                           a(href='{{ item.url }}') {{ item.text }}
         div(class='card')
           div(class='card-header accordion-header' role='tab' id='headingInfty')
-            a(class='collapsed'
-              data-toggle='collapse' data-parent='#card-accordion-simple'
-              href='#collapseInftyList' aria-expanded='true'
-              aria-controls='collapseInftyList') Downloads
-          div(id='collapseInftyList'
-            class='collapse'
-            role='tabpanel'
-            aria-labelledby='headingsrc')
+            a(class='collapsed' data-toggle='collapse' data-parent='#card-accordion-simple' href='#collapseInftyList' aria-expanded='true' aria-controls='collapseInftyList') Downloads
+          div(id='collapseInftyList' class='collapse' role='tabpanel' aria-labelledby='headingsrc')
             div(class='card-block')
               ul(class='icon-list list-unstyled')
                 if(condition='currentLecture.maincontent.lecture !== null')

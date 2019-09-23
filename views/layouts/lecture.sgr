@@ -5,9 +5,7 @@ extends(src='layouts/layout.sgr')
         ul(class='slides')
           li
             figure
-              img(src='/img/{{ currentLecture.short }}.jpg'
-                  class='img-fluid'
-                  alt='{{ currentLecture.long }}')
+              img(src='/img/{{ currentLecture.short }}.jpg' class='img-fluid' alt='{{ currentLecture.long }}')
               figcaption(class='slider-overlay ')
                 div(class='slider-text animated fadeInDown')
                   h1 {{ currentLecture.long }}

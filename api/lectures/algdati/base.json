@@ -1,8 +1,8 @@
 {
   "short": "algdati",
   "long": "Algorithmen und Datenstrukturen I",
-  "last": "Wintersemester 2017/18",
-  "semesters": "ws1718 ws1617 older",
+  "last": "Wintersemester 2019/20",
+  "semesters": "ws1920 ws1718 ws1617 older",
   "sidebar": [
     {
       "title": "Links",
@@ -10,12 +10,12 @@
       "listicon": "ion-link",
       "listitems": [
         {
-          "text": "GitHub Organisation - WS 17/18",
-          "url": "https://github.com/ob-algdati-ws17"
+          "text": "GitHub Organisation - WS 19/20",
+          "url": "https://github.com/ob-algdati-ws19"
         },
         {
-          "text": "Gitter Channel - WS 17/18",
-          "url": "https://gitter.im/ob-algdati-ws17/Lobby"
+          "text": "Gitter Channel - WS 19/20",
+          "url": "https://gitter.im/ob-algdati-ws19/community"
         },
         {
           "text": "Buch zur Veranstaltung",
@@ -56,12 +56,12 @@
     },
     {
       "title": "Scheinerwerb",
-      "text": "<p>Für den unbenoteten Leistungsnachweis sind einige ausgewählte Praktikumsaufgaben fristgerecht abzugeben.</p>",
+      "text": "Für den unbenoteten Leistungsnachweis sind einige ausgewählte Praktikumsaufgaben fristgerecht abzugeben.",
       "listitems": []
     },
     {
       "title": "Prüfung",
-      "text": "<p>Die Veranstaltung wird durch eine benotete schriftliche Prüfung abgeschlossen. Zu dieser sind keine Hilfsmittel zugelassen.</p><p>Der Prüfungsstoff entspricht den Kapiteln 1, 2, 3 & 5 aus dem o.a. Buch und C++</p>",
+      "text": "Die Veranstaltung wird durch eine benotete schriftliche Prüfung abgeschlossen. Zu dieser sind keine Hilfsmittel zugelassen. Der Prüfungsstoff entspricht den Kapiteln 1 - 5 aus dem o.a. Buch und C++.",
       "listicon": "ion-compose",
       "listitems": [
         {
@@ -88,8 +88,29 @@
     }
   ],
   "maincontent": {
-    "lecture": null,
-    "lab": null,
+    "lecture": {
+      "daytime": "montags, 08:15 - 09:45",
+      "room": "R1.006"
+    },
+    "lab": {
+      "groups": [
+        {
+          "name": "1. Teilgruppe",
+          "daytime": "montags, 11:45 - 13:15",
+          "room": "R2.012"
+        },
+        {
+          "name": "2. Teilgruppe",
+          "daytime": "montags, 15:15 - 16:45",
+          "room": "R2.012"
+        },
+        {
+          "name": "3. Teilgruppe",
+          "daytime": "montags, 17:00 - 18:30",
+          "room": "R2.012"
+        }
+      ]
+    },
     "slides": [
       {
         "name": "Organisatorisches",
@@ -101,47 +122,58 @@
       },
       {
         "name": "Grundlagen",
-        "file": "02_Grundlagen"
+        "file": "02_Grundlagen",
+        "donotpublish": true
       },
       {
         "name": "Elementare Sortierverfahren",
-        "file": "03_ElementareSortierverfahren"
+        "file": "03_ElementareSortierverfahren",
+        "donotpublish": true
       },
       {
         "name": "Quicksort",
-        "file": "04_Quicksort"
+        "file": "04_Quicksort",
+        "donotpublish": true
       },
       {
         "name": "Heapsort",
-        "file": "05_Heapsort"
+        "file": "05_Heapsort",
+        "donotpublish": true
       },
       {
         "name": "Mergesort",
-        "file": "06_Mergesort"
+        "file": "06_Mergesort",
+        "donotpublish": true
       },
       {
         "name": "Natürliche Bäume",
-        "file": "07_NatuerlicheBaeume"
+        "file": "07_NatuerlicheBaeume",
+        "donotpublish": true
       },
       {
         "name": "AVL-Bäume",
-        "file": "08_AVLBaeume"
+        "file": "08_AVLBaeume",
+        "donotpublish": true
       },
       {
         "name": "Bruder-Bäume",
-        "file": "09_BruderBaeume"
+        "file": "09_BruderBaeume",
+        "donotpublish": true
       },
       {
         "name": "gewichtsbalancierte Bäume",
-        "file": "10_GewichtsbalancierteBaeume"
+        "file": "10_GewichtsbalancierteBaeume",
+        "donotpublish": true
       },
       {
         "name": "Treaps",
-        "file": "11_Treaps"
+        "file": "11_Treaps",
+        "donotpublish": true
       },
       {
         "name": "Splay-Bäume",
-        "file": "12_SplayBaeume"
+        "file": "12_SplayBaeume",
+        "donotpublish": true
       },
       {
         "name": "Hashverfahren",
@@ -152,31 +184,38 @@
     "exercises": [
       {
         "name": "Blatt 1",
-        "file": "Blatt01"
+        "file": "Blatt01",
+        "donotpublish": true
       },
       {
         "name": "Blatt 2",
-        "file": "Blatt02"
+        "file": "Blatt02",
+        "donotpublish": true
       },
       {
         "name": "Blatt 3",
-        "file": "Blatt03"
+        "file": "Blatt03",
+        "donotpublish": true
       },
       {
         "name": "Blatt 4",
-        "file": "Blatt04"
+        "file": "Blatt04",
+        "donotpublish": true
       },
       {
         "name": "Blatt 5 (Abgabe 1)",
-        "file": "Blatt05"
+        "file": "Blatt05",
+        "donotpublish": true
       },
       {
         "name": "Blatt 6",
-        "file": "Blatt06"
+        "file": "Blatt06",
+        "donotpublish": true
       },
       {
         "name": "Blatt 7 (Abgabe 2)",
-        "file": "Blatt07"
+        "file": "Blatt07",
+        "donotpublish": true
       }
     ]
   }

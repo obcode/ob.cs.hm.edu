@@ -15,11 +15,20 @@ div
         |
         a(href='https://github.com/obcode/ob.cs.hm.edu/issues') GitHub
       div
-      span © {{ year }} Oliver Braun |
+      span
+        |
+        | © {{ year }} Oliver Braun |
+        |
         a(href='/impressum.html') Impressum
+        |
         | |
+        |
         a(href='/privacy.html') Datenschutzerklärung
+        |
         | |
+        |
         a(href='/api.html') API
+        |
         | |
+        |
         a(href='https://terraform.cs.hm.edu/') Jenkins

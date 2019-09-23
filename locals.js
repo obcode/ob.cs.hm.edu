@@ -64,14 +64,18 @@ const lectures = [
 exports.lectures = lectures;
 
 exports.currentSemester = {
-  short: "SS 19",
-  long: "Sommersemester 2019",
-  lectures: [algdatii, swengiiib, vss],
+  short: "WS 19/20",
+  long: "Wintersemester 2019/20",
+  lectures: [algdati, vss],
   // next: {
   //   short: "WS 19/20",
   //   lectures: [algdati, compiler, vss]
   // },
   semesters: [
+    {
+      filter: ".ws1920",
+      label: "WS 19/20"
+    },
     {
       filter: ".ss19",
       label: "SS 19"
@@ -84,10 +88,10 @@ exports.currentSemester = {
       filter: ".ss18",
       label: "SS 18"
     },
-    {
-      filter: ".ws1718",
-      label: "WS 17/18"
-    },
+    // {
+    //   filter: ".ws1718",
+    //   label: "WS 17/18"
+    // },
     // {
     //   filter: ".ss17",
     //   label: "SS 17"

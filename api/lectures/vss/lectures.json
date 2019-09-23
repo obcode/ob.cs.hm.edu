@@ -1,73 +1,63 @@
 [
   {
-    "date": "19.03.19",
+    "date": "01.10.19",
     "topic": "Organisatorisches & Go"
   },
   {
-    "date": "26.03.19",
+    "date": "08.10.19",
     "topic": "Go"
   },
   {
-    "date": "02.04.19",
+    "date": "15.10.19",
     "topic": "Einführung"
   },
   {
-    "date": "09.04.19",
+    "date": "22.10.19",
     "topic": "Einführung & Actors"
   },
   {
-    "date": "16.04.19",
+    "cancelled": true,
+    "date": "29.10.19",
+    "topic": "entfällt"
+  },
+  {
+    "date": "05.11.19",
     "topic": "Actors"
   },
   {
-    "cancelled": true,
-    "date": "23.04.19",
-    "topic": "Ostern"
-  },
-  {
-    "date": "30.04.19",
+    "date": "12.11.19",
     "topic": "Parallelisierung"
   },
   {
-    "date": "07.05.19",
+    "date": "19.11.19",
     "topic": "Programmiermodelle für verteilten Speicher"
   },
   {
-    "date": "14.05.19",
+    "date": "26.11.19",
     "topic": "Microservices"
   },
   {
-    "date": "21.05.19",
+    "date": "03.12.19",
     "topic": "Microservices & Verteilte Algorithmen"
   },
   {
-    "date": "28.05.19",
+    "date": "10.12.19",
     "topic": "Verteilte Algorithmen"
   },
   {
-    "date": "04.06.19",
+    "date": "17.12.19",
     "topic": "Rechenlastverteilung"
   },
   {
-    "cancelled": true,
-    "date": "11.06.19",
-    "topic": "Pfingsten"
-  },
-  {
-    "date": "18.06.19",
+    "date": "07.01.20",
     "topic": "Virtualisierungstechniken"
   },
   {
-    "cancelled": true,
-    "date": "25.06.19",
-    "topic": ""
-  },
-  {
-    "date": "02.07.19",
+    "date": "14.01.20",
     "topic": "Cluster, Grid & Cloud"
   },
   {
-    "date": "09.07.19",
-    "topic": "Abschluss"
+    "date": "21.01.20",
+    "topic": "Abschluss, Fragen"
   }
 ]

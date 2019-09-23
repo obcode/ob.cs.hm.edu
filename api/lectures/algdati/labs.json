@@ -1,0 +1,107 @@
+[
+  {
+    "dates": [
+      {
+        "date": "07.10.19"
+      }
+    ],
+    "topic": "tba"
+  },
+  {
+    "dates": [
+      {
+        "date": "14.10.19"
+      }
+    ],
+    "topic": "tba"
+  },
+  {
+    "dates": [
+      {
+        "date": "21.10.19"
+      }
+    ],
+    "topic": "tba"
+  },
+  {
+    "cancelled": true,
+    "dates": [
+      {
+        "date": "28.10.19"
+      }
+    ],
+    "topic": "entfällt"
+  },
+  {
+    "dates": [
+      {
+        "date": "04.11.19"
+      }
+    ],
+    "topic": "tba"
+  },
+  {
+    "dates": [
+      {
+        "date": "11.11.19"
+      }
+    ],
+    "topic": "tba"
+  },
+  {
+    "dates": [
+      {
+        "date": "18.11.19"
+      }
+    ],
+    "topic": "tba"
+  },
+  {
+    "dates": [
+      {
+        "date": "25.11.19"
+      }
+    ],
+    "topic": "tba"
+  },
+  {
+    "dates": [
+      {
+        "date": "02.12.19"
+      }
+    ],
+    "topic": "tba"
+  },
+  {
+    "dates": [
+      {
+        "date": "09.12.19"
+      }
+    ],
+    "topic": "tba"
+  },
+  {
+    "dates": [
+      {
+        "date": "16.12.19"
+      }
+    ],
+    "topic": "tba"
+  },
+  {
+    "dates": [
+      {
+        "date": "13.01.20"
+      }
+    ],
+    "topic": "tba"
+  },
+  {
+    "dates": [
+      {
+        "date": "20.01.20"
+      }
+    ],
+    "topic": "tba"
+  }
+]

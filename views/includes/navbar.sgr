@@ -3,13 +3,7 @@ div(id='preloader')
 
 nav(class='navbar navbar-toggleable-sm navbar-light bg-faded yamm')
   div(class='container')
-    button(class='navbar-toggler navbar-toggler-right'
-           type='button'
-           data-toggle='collapse'
-           data-target='#navbarSupportedContent'
-           aria-controls='navbarSupportedContent'
-           aria-expanded='false'
-           aria-label='Toggle navigation')
+    button(class='navbar-toggler navbar-toggler-right' type='button' data-toggle='collapse' data-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation')
       span(class='navbar-toggler-icon')
     a(class='navbar-brand' href='/index.html') ob.cs.hm.edu
 
@@ -53,29 +47,13 @@ nav(class='navbar navbar-toggleable-sm navbar-light bg-faded yamm')
 
         li(class='social-nav nav-item')
           a(href='https://github.com/obcode' class='nav-link')
-            i(class='ion-social-github'
-              data-toggle='tooltip'
-              data-placement='bottom'
-              title=''
-              data-original-title='obcode @ GitHub')
+            i(class='ion-social-github' data-toggle='tooltip' data-placement='bottom' title='' data-original-title='obcode @ GitHub')
         li(class='social-nav nav-item')
           a(href='https://twitter.com/obcode' class='nav-link')
-            i(class='ion-social-twitter'
-              data-toggle='tooltip'
-              data-placement='bottom'
-              title=''
-              data-original-title='@obcode')
+            i(class='ion-social-twitter' data-toggle='tooltip' data-placement='bottom' title='' data-original-title='@obcode')
         li(class='social-nav nav-item')
           a(href='https://www.linkedin.com/in/obcode/' class='nav-link')
-            i(class='ion-social-linkedin'
-              data-toggle='tooltip'
-              data-placement='bottom'
-              title=''
-              data-original-title='LinkedIn')
+            i(class='ion-social-linkedin' data-toggle='tooltip' data-placement='bottom' title='' data-original-title='LinkedIn')
         li(class='social-nav nav-item')
           a(href='https://gitter.im/obcode' class='nav-link')
-            i(class='ion-chatbubbles'
-              data-toggle='tooltip'
-              data-placement='bottom'
-              title=''
-              data-original-title='Gitter')
+            i(class='ion-chatbubbles' data-toggle='tooltip' data-placement='bottom' title='' data-original-title='Gitter')
