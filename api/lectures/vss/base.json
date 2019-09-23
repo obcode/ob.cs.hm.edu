@@ -1,7 +1,7 @@
 {
   "short": "vss",
   "long": "Verteilte Softwaresysteme",
-  "last": "Sommersemester 2019",
+  "last": "Wintersemester 2019",
   "semesters": "ws1920 ss19 ws1819 ss18",
   "news": true,
   "sidebar": [
@@ -11,12 +11,12 @@
       "listicon": "ion-link",
       "listitems": [
         {
-          "text": "GitHub Organisation",
-          "url": "https://github.com/ob-vss-ss19"
+          "text": "GitHub Organisation - WS 19/20",
+          "url": "https://github.com/ob-vss-ws19"
         },
         {
-          "text": "Gitter Channel",
-          "url": "https://gitter.im/ob-vss-ss19/community"
+          "text": "Gitter Channel - WS 19/20",
+          "url": "https://gitter.im/ob-vss-ws19/community"
         },
         {
           "text": "Modulbeschreibung",
