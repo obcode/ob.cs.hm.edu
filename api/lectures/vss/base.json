@@ -1,7 +1,7 @@
 {
   "short": "vss",
   "long": "Verteilte Softwaresysteme",
-  "last": "Wintersemester 2019",
+  "last": "Wintersemester 2019/20",
   "semesters": "ws1920 ss19 ws1819 ss18",
   "news": true,
   "sidebar": [
@@ -135,8 +135,7 @@
       },
       {
         "name": "Blatt 2",
-        "file": "Blatt02",
-        "donotpublish": true
+        "file": "Blatt02"
       },
       {
         "name": "Blatt 3",
