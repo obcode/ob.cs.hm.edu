@@ -5,7 +5,7 @@
         "date": "07.10.19"
       }
     ],
-    "topic": "tba"
+    "topic": "Blatt 1"
   },
   {
     "dates": [
@@ -13,7 +13,7 @@
         "date": "14.10.19"
       }
     ],
-    "topic": "tba"
+    "topic": "Blatt 2"
   },
   {
     "dates": [
@@ -21,7 +21,7 @@
         "date": "21.10.19"
       }
     ],
-    "topic": "tba"
+    "topic": "Blatt 3"
   },
   {
     "cancelled": true,
@@ -38,7 +38,7 @@
         "date": "04.11.19"
       }
     ],
-    "topic": "tba"
+    "topic": "Blatt 4"
   },
   {
     "dates": [
@@ -46,7 +46,7 @@
         "date": "11.11.19"
       }
     ],
-    "topic": "tba"
+    "topic": "Blatt 5"
   },
   {
     "dates": [
@@ -54,7 +54,7 @@
         "date": "18.11.19"
       }
     ],
-    "topic": "tba"
+    "topic": "Blatt 5"
   },
   {
     "dates": [
@@ -62,7 +62,7 @@
         "date": "25.11.19"
       }
     ],
-    "topic": "tba"
+    "topic": "Blatt 6 (Blatt 5 Abnahme)"
   },
   {
     "dates": [
@@ -70,7 +70,7 @@
         "date": "02.12.19"
       }
     ],
-    "topic": "tba"
+    "topic": "Blatt 7"
   },
   {
     "dates": [
@@ -78,7 +78,7 @@
         "date": "09.12.19"
       }
     ],
-    "topic": "tba"
+    "topic": "Blatt 7"
   },
   {
     "dates": [
@@ -86,7 +86,7 @@
         "date": "16.12.19"
       }
     ],
-    "topic": "tba"
+    "topic": "Blatt 7"
   },
   {
     "dates": [
@@ -94,14 +94,6 @@
         "date": "13.01.20"
       }
     ],
-    "topic": "tba"
-  },
-  {
-    "dates": [
-      {
-        "date": "20.01.20"
-      }
-    ],
-    "topic": "tba"
+    "topic": "Blatt 7 (Abnahme)"
   }
 ]

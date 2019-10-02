@@ -1,15 +1,15 @@
 [
   {
     "date": "07.10.19",
-    "topic": "tba"
+    "topic": "Organisatorisches, C++"
   },
   {
     "date": "14.10.19",
-    "topic": "tba"
+    "topic": "Grundlagen"
   },
   {
     "date": "21.10.19",
-    "topic": "tba"
+    "topic": "Elementare Sortierverfahren"
   },
   {
     "cancelled": true,
@@ -18,38 +18,38 @@
   },
   {
     "date": "04.11.19",
-    "topic": "tba"
+    "topic": "Quicksort, Heapsort"
   },
   {
     "date": "11.11.19",
-    "topic": "tba"
+    "topic": "Mergesort"
   },
   {
     "date": "18.11.19",
-    "topic": "tba"
+    "topic": "Natürliche Bäume"
   },
   {
     "date": "25.11.19",
-    "topic": "tba"
+    "topic": "AVL-Bäume"
   },
   {
     "date": "02.12.19",
-    "topic": "tba"
+    "topic": "Bruderbäume, Gewichtsbalancierte Bäume"
   },
   {
     "date": "09.12.19",
-    "topic": "tba"
+    "topic": "Treaps, Splaybäume"
   },
   {
     "date": "16.12.19",
-    "topic": "tba"
+    "topic": "Hashverfahren"
   },
   {
     "date": "13.01.20",
-    "topic": "tba"
+    "topic": "Hashverfahren"
   },
   {
     "date": "20.01.20",
-    "topic": "tba"
+    "topic": "Abschluss, Zusammenfassung und Fragen"
   }
 ]
