@@ -58,7 +58,7 @@ extends(src='layouts/layout.sgr')
             div(class='col-md-9 services-text')
               p
                 |
-                a(href='https://w3-o.cs.hm.edu:8000/public/profiles/') Sprechstunde
+                a(href='https://zpa.cs.hm.edu/public/consultation_list/') Sprechstunde
                 br
                 i(class='ion-checkmark-round')
                 | nur während der Vorlesungszeit
