@@ -184,8 +184,7 @@
     "exercises": [
       {
         "name": "Blatt 1",
-        "file": "Blatt01",
-        "donotpublish": true
+        "file": "Blatt01"
       },
       {
         "name": "Blatt 2",
