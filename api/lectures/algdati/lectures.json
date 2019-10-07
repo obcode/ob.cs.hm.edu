@@ -5,11 +5,11 @@
   },
   {
     "date": "14.10.19",
-    "topic": "Grundlagen"
+    "topic": "C++"
   },
   {
     "date": "21.10.19",
-    "topic": "Elementare Sortierverfahren"
+    "topic": "Grundlagen"
   },
   {
     "cancelled": true,
@@ -18,31 +18,31 @@
   },
   {
     "date": "04.11.19",
-    "topic": "Quicksort, Heapsort"
+    "topic": "Elementare Sortierverfahren"
   },
   {
     "date": "11.11.19",
-    "topic": "Mergesort"
+    "topic": "Quicksort, Heapsort"
   },
   {
     "date": "18.11.19",
-    "topic": "Natürliche Bäume"
+    "topic": "Mergesort"
   },
   {
     "date": "25.11.19",
-    "topic": "AVL-Bäume"
+    "topic": "Natürliche Bäume"
   },
   {
     "date": "02.12.19",
-    "topic": "Bruderbäume, Gewichtsbalancierte Bäume"
+    "topic": "AVL-Bäume"
   },
   {
     "date": "09.12.19",
-    "topic": "Treaps, Splaybäume"
+    "topic": "Bruderbäume, Gewichtsbalancierte Bäume"
   },
   {
     "date": "16.12.19",
-    "topic": "Hashverfahren"
+    "topic": "Treaps, Splaybäume"
   },
   {
     "date": "13.01.20",
