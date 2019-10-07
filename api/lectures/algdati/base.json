@@ -126,8 +126,7 @@
       },
       {
         "name": "Elementare Sortierverfahren",
-        "file": "03_ElementareSortierverfahren",
-        "donotpublish": true
+        "file": "03_ElementareSortierverfahren"
       },
       {
         "name": "Quicksort",
