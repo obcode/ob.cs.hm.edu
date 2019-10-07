@@ -122,8 +122,7 @@
       },
       {
         "name": "Grundlagen",
-        "file": "02_Grundlagen",
-        "donotpublish": true
+        "file": "02_Grundlagen"
       },
       {
         "name": "Elementare Sortierverfahren",
