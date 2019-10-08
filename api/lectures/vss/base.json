@@ -89,8 +89,7 @@
       },
       {
         "name": "Einführung",
-        "file": "01_Einfuerung",
-        "donotpublish": true
+        "file": "01_Einfuerung"
       },
       {
         "name": "Das Actor-Modell und Umsetzung in Proto.Actor",
