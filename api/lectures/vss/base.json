@@ -93,8 +93,7 @@
       },
       {
         "name": "Das Actor-Modell und Umsetzung in Proto.Actor",
-        "file": "02_Actors",
-        "donotpublish": true
+        "file": "02_Actors"
       },
       {
         "name": "Parallelisierung",
