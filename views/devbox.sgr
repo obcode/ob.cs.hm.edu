@@ -119,6 +119,9 @@ extends(src='layouts/layout.sgr')
                 `DeleteVM.bat` wieder löschen, damit der Speicher in Ihrem Benutzerverzeichnis
                 wieder frei gegeben wird.
 
+                **Wenn Sie, während Sie die DevBox-VM nutzen, keine anderen Programme benötigen,
+                spendieren Sie der DevBox in den VirtualBox-Einstellung viele CPUs und viel Speicher.**
+
                 ##### Starten der DevBox-VM
 
                 Klicken Sie doppelt auf das `DevBox`-Icon auf Ihrem Desktop.
