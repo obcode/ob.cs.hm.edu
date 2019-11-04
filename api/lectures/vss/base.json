@@ -96,6 +96,10 @@
         "file": "02_Actors"
       },
       {
+        "name": "Containervirtualisierung",
+        "file": "03_Container"
+      },
+      {
         "name": "Parallelisierung",
         "file": "03_Parallelisierung",
         "donotpublish": true
