@@ -25,12 +25,13 @@
     "topic": "Actors & Einführung"
   },
   {
+    "cancelled": true,
     "date": "12.11.19",
-    "topic": "Parallelisierung"
+    "topic": "entfällt"
   },
   {
     "date": "19.11.19",
-    "topic": "Programmiermodelle für verteilten Speicher"
+    "topic": "Parallelisierung, Programmiermodelle für verteilten Speicher"
   },
   {
     "date": "26.11.19",
