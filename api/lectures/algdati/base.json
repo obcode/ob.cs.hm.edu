@@ -130,13 +130,11 @@
       },
       {
         "name": "Quicksort",
-        "file": "04_Quicksort",
-        "donotpublish": true
+        "file": "04_Quicksort"
       },
       {
         "name": "Heapsort",
-        "file": "05_Heapsort",
-        "donotpublish": true
+        "file": "05_Heapsort"
       },
       {
         "name": "Mergesort",
