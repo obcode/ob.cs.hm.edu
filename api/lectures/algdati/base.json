@@ -138,8 +138,7 @@
       },
       {
         "name": "Mergesort",
-        "file": "06_Mergesort",
-        "donotpublish": true
+        "file": "06_Mergesort"
       },
       {
         "name": "Natürliche Bäume",
