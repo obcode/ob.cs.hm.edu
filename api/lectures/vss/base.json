@@ -100,6 +100,10 @@
         "file": "03_Container"
       },
       {
+        "name": "Microservices",
+        "file": "04_Microservices"
+      },
+      {
         "name": "Parallelisierung",
         "file": "03_Parallelisierung",
         "donotpublish": true
@@ -107,11 +111,6 @@
       {
         "name": "Programmiermodelle für verteilten Speicher",
         "file": "04_ProgrammiermodelleFuerVerteiltenSpeicher",
-        "donotpublish": true
-      },
-      {
-        "name": "Microservices",
-        "file": "05_Microservices",
         "donotpublish": true
       },
       {
@@ -145,8 +144,7 @@
       },
       {
         "name": "Blatt 4",
-        "file": "Blatt04",
-        "donotpublish": true
+        "file": "Blatt04"
       }
     ]
   }
