@@ -146,8 +146,7 @@
       },
       {
         "name": "AVL-Bäume",
-        "file": "08_AVLBaeume",
-        "donotpublish": true
+        "file": "08_AVLBaeume"
       },
       {
         "name": "Bruder-Bäume",
