@@ -84,6 +84,13 @@ extends(src='layouts/layout.sgr')
                 Die Abgabe erfolgt immer als
                 [Pull-Request](https://help.github.com/articles/about-pull-requests/)
                 (PR). Committen Sie **nie** direkt in den `master`-Branch.
+                Die Lösung muss am Ende in einem Branch `develop` sein und
+                als Differenz zu dem `master`-Branch abgegeben werden.
+                
+                Tipp: Sie können in GitHub auf die Branches klicken und den `develop`
+                als Default setzen. Damit sehen Sie als erstes immer den
+                `develop`-Branch auf der Website und beim Clonen landen Sie
+                auch gleich im `develop`-Branch.
 
                 Das Feedback bekommen Sie von meinen Tutoren oder mir als
                 Kommentar zum PR. Wenn **ich** den PR
@@ -109,7 +116,7 @@ extends(src='layouts/layout.sgr')
                   small https://hackernoon.com/15-tips-to-enhance-your-github-flow-6af7ceb0d8a3
 
               div(md).
-                Erzeugen Sie nach dazu einen neuen Branch, z.B. `develop` und
+                Erzeugen Sie nach dazu einen neuen Branch `develop` und
                 wechseln Sie in diesen. Arbeiten Sie ausschließlich in diesem
                 oder in weiteren, davon abgezweigten Branches, **nie** aber
                 im `master`. Committen und pushen Sie wie gewohnt **oft** und
