@@ -142,8 +142,7 @@
       },
       {
         "name": "Natürliche Bäume",
-        "file": "07_NatuerlicheBaeume",
-        "donotpublish": true
+        "file": "07_NatuerlicheBaeume"
       },
       {
         "name": "AVL-Bäume",
