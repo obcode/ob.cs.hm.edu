@@ -22,7 +22,7 @@
   },
   {
     "date": "05.11.19",
-    "topic": "Actors & Einführung"
+    "topic": "Actors & Docker"
   },
   {
     "cancelled": true,
@@ -31,11 +31,11 @@
   },
   {
     "date": "19.11.19",
-    "topic": "Parallelisierung, Programmiermodelle für verteilten Speicher"
+    "topic": "Microservices"
   },
   {
     "date": "26.11.19",
-    "topic": "Microservices"
+    "topic": "Parallelisierung, Programmiermodelle für verteilten Speicher"
   },
   {
     "date": "03.12.19",
