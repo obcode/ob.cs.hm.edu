@@ -105,8 +105,7 @@
       },
       {
         "name": "Parallelisierung",
-        "file": "03_Parallelisierung",
-        "donotpublish": true
+        "file": "05_Parallelisierung"
       },
       {
         "name": "Programmiermodelle für verteilten Speicher",
