@@ -109,8 +109,7 @@
       },
       {
         "name": "Programmiermodelle für verteilten Speicher",
-        "file": "04_ProgrammiermodelleFuerVerteiltenSpeicher",
-        "donotpublish": true
+        "file": "06_ProgrammiermodelleFuerVerteiltenSpeicher"
       },
       {
         "name": "Verteilte Algorithmen",
