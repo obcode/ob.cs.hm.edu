@@ -35,11 +35,11 @@
   },
   {
     "date": "26.11.19",
-    "topic": "Rest Einführung, Parallelisierung, Programmiermodelle für verteilten Speicher"
+    "topic": "Rest Einführung, Parallelisierung (bis Folie 13)"
   },
   {
     "date": "03.12.19",
-    "topic": "Verteilte Algorithmen"
+    "topic": "Parallelisierung, Programmiermodelle für verteilten Speicher"
   },
   {
     "date": "10.12.19",
@@ -47,7 +47,7 @@
   },
   {
     "date": "17.12.19",
-    "topic": "Rechenlastverteilung"
+    "topic": "Verteilte Algorithmen, Rechenlastverteilung"
   },
   {
     "date": "07.01.20",
