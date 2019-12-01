@@ -166,8 +166,7 @@
       },
       {
         "name": "Hashverfahren",
-        "file": "01_Hashverfahren",
-        "donotpublish": true
+        "file": "13_Hashverfahren"
       }
     ],
     "exercises": [
