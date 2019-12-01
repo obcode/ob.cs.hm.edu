@@ -150,23 +150,19 @@
       },
       {
         "name": "Bruder-Bäume",
-        "file": "09_BruderBaeume",
-        "donotpublish": true
+        "file": "09_BruderBaeume"
       },
       {
         "name": "gewichtsbalancierte Bäume",
-        "file": "10_GewichtsbalancierteBaeume",
-        "donotpublish": true
+        "file": "10_GewichtsbalancierteBaeume"
       },
       {
         "name": "Treaps",
-        "file": "11_Treaps",
-        "donotpublish": true
+        "file": "11_Treaps"
       },
       {
         "name": "Splay-Bäume",
-        "file": "12_SplayBaeume",
-        "donotpublish": true
+        "file": "12_SplayBaeume"
       },
       {
         "name": "Hashverfahren",
