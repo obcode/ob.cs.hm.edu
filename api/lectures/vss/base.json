@@ -113,8 +113,7 @@
       },
       {
         "name": "Verteilte Algorithmen",
-        "file": "06_VerteilteAlgorithmen",
-        "donotpublish": true
+        "file": "07_VerteilteAlgorithmen"
       },
       {
         "name": "Rechenlastverteilung",
