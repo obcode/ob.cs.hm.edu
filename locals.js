@@ -67,10 +67,10 @@ exports.currentSemester = {
   short: "WS 19/20",
   long: "Wintersemester 2019/20",
   lectures: [algdati, vss],
-  // next: {
-  //   short: "WS 19/20",
-  //   lectures: [algdati, compiler, vss]
-  // },
+  next: {
+    short: "SS 20",
+    lectures: [algdatii, fun, vss]
+  },
   semesters: [
     {
       filter: ".ws1920",
