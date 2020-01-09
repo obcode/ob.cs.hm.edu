@@ -121,12 +121,11 @@
       },
       {
         "name": "Rechenlastverteilung",
-        "file": "07_Rechenlastverteilung",
-        "donotpublish": true
+        "file": "08_Rechenlastverteilung"
       },
       {
         "name": "Virtualisierungstechniken",
-        "file": "08_Virtualisierungstechniken",
+        "file": "09_Virtualisierungstechniken",
         "donotpublish": true
       }
     ],
