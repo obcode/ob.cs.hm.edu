@@ -125,8 +125,7 @@
       },
       {
         "name": "Virtualisierungstechniken",
-        "file": "09_Virtualisierungstechniken",
-        "donotpublish": true
+        "file": "09_Virtualisierungstechniken"
       }
     ],
     "exercises": [
